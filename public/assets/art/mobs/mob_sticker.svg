@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" stroke-linejoin="round" stroke-linecap="round">
+<path d="M62,130 L62,148 M100,130 L100,148" stroke="#2B2A4A" stroke-width="10"/><path d="M62,130 L62,148 M100,130 L100,148" stroke="#FFD9A8" stroke-width="4"/>
+<path d="M52,150 L72,150 M90,150 L110,150" stroke="#2B2A4A" stroke-width="9"/><path d="M52,150 L72,150 M90,150 L110,150" stroke="#B5651D" stroke-width="3"/>
+<path d="M66,38 Q66,22 82,22 Q98,22 98,38" fill="none" stroke="#2B2A4A" stroke-width="10"/><path d="M66,38 Q66,22 82,22 Q98,22 98,38" fill="none" stroke="#B5651D" stroke-width="4"/>
+<rect x="40" y="36" width="84" height="98" rx="12" fill="#FF9F43" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M108,40 L120,40 Q120,130 108,130 Z" fill="#E8832B" stroke="none"/>
+<path d="M40,56 L124,56" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="74" y="50" width="16" height="12" rx="3" fill="#F2D16B" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M40,106 L124,106" stroke="#B5651D" stroke-width="3"/>
+<path d="M40,84 Q22,80 16,64 Q16,56 24,58" fill="none" stroke="#2B2A4A" stroke-width="9"/><path d="M40,84 Q22,80 16,64 Q16,56 24,58" fill="none" stroke="#B5651D" stroke-width="4"/>
+<circle cx="58" cy="76" r="11" fill="#fff" stroke="#2B2A4A" stroke-width="3"/><circle cx="55" cy="77" r="5.5" fill="#2B2A4A"/><circle cx="53" cy="75" r="2" fill="#fff"/>
+<circle cx="84" cy="76" r="8" fill="#fff" stroke="#2B2A4A" stroke-width="3"/><circle cx="82" cy="77" r="4" fill="#2B2A4A"/>
+<path d="M50,66 L66,68" stroke="#2B2A4A" stroke-width="4"/>
+<circle cx="52" cy="96" r="10" fill="#FFE27A" stroke="#2B2A4A" stroke-width="3"/><circle cx="48.5" cy="94" r="1.6" fill="#2B2A4A" stroke="none"/><circle cx="55.5" cy="94" r="1.6" fill="#2B2A4A" stroke="none"/><path d="M47,98 Q52,104 57,98" fill="none" stroke="#2B2A4A" stroke-width="2"/>
+<path d="M72,92 L90,92 L98,108 L80,112 Z" fill="#4FB3F6" stroke="#2B2A4A" stroke-width="3"/>
+<circle cx="108" cy="92" r="9" fill="#E8505B" stroke="#2B2A4A" stroke-width="3"/><path d="M108,86 L108,98 M102,92 L114,92" stroke="#fff" stroke-width="2"/>
+<path d="M46,114 L66,118 L62,130 L46,128 Z" fill="#6BBF59" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M96,114 L116,116 L112,130 L98,128 Z" fill="#FF8FA3" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M92,36 L100,36" stroke="#fff" stroke-width="3" opacity=".5"/>
+</svg>

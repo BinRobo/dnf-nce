@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Mobs & BG preview</title>
+<style>body{margin:0;background:#EEF3FF;font:14px sans-serif;color:#2B2A4A;padding:16px}
+.row{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;background:repeating-conic-gradient(#fff 0 25%,#E6ECFA 0 50%) 0 0/24px 24px;padding:16px;border-radius:8px}
+figure{margin:0;text-align:center}figure img{display:block;border-bottom:2px dashed #E8505B}
+.scene{position:relative;width:640px;height:360px;display:inline-block;margin:8px;overflow:hidden;border:2px solid #2B2A4A}
+.scene img{position:absolute;left:0;top:0;width:640px;height:360px}
+.scene .m{width:auto;height:auto;left:var(--x);top:auto;bottom:calc(360px - 235px);transform:scale(.5);transform-origin:50% 100%}
+</style></head><body>
+<h3>Mobs (0.7x, facing left; dashed line = viewBox bottom)</h3><div class="row" id="mobs"></div>
+<h3>Scenes (far+mid+ground, 0.5x; mobs at ground line)</h3><div id="scenes"></div>
+<script>
+const mobs={bat:[160,140],slime:[160,130],goblin:[160,180],golem:[180,200],imp:[150,150],fog:[150,150],echo:[220,220],boss_pardon:[420,420],boss_whomist:[420,420],duke:[300,400]};
+const mh=document.getElementById('mobs');
+for(const [k,[w,h]] of Object.entries(mobs)){mh.insertAdjacentHTML('beforeend',`<figure><img src="mobs/${k}.svg" width="${w*.7}" height="${h*.7}"><figcaption>${k}</figcaption></figure>`)}
+const sh=document.getElementById('scenes');
+const demo={town:['goblin','slime'],street:['bat','imp'],classroom:['golem','fog'],boss:['boss_pardon']};
+for(const s of ['town','street','classroom','boss']){
+ let h=`<div class="scene">`+['far','mid','ground'].map(l=>`<img src="bg/${s}_${l}.svg">`).join('');
+ demo[s].forEach((m,i)=>{const [w,hh]=mobs[m];const sc=1;h+=`<img class="m" src="mobs/${m}.svg" style="left:${(s=='boss'?200:380)+i*110-w/2*0}px;width:${w}px;height:${hh}px;bottom:${360-235}px;transform:scale(${.5*sc*(m.startsWith('boss')?1:1)})">`});
+ sh.insertAdjacentHTML('beforeend',h+`</div>`)}
+</script></body></html>

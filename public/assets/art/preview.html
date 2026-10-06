@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Character Rig Preview</title>
+<style>
+  :root { --bg:#A6E3FF; --panel:#FFFFFF; --ink:#2B2A4A; --ground:#6FD36B; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.4 system-ui, sans-serif; }
+  header { padding:12px 16px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+  h1 { font-size:20px; margin:0; }
+  h2 { font-size:16px; margin:16px 16px 6px; }
+  .row { display:flex; flex-wrap:wrap; gap:10px; padding:0 16px; }
+  .cell { background:var(--panel); border:3px solid var(--ink); border-radius:14px; overflow:hidden; }
+  .cell .lbl { font-size:12px; text-align:center; padding:2px 0 4px; }
+  .stage { position:relative; overflow:hidden; background:linear-gradient(#fff 0 0) ; }
+  .stage .gnd { position:absolute; left:0; right:0; bottom:0; background:var(--ground); border-top:3px solid var(--ink); }
+  .stage img { position:absolute; left:0; top:0; transform-origin:0 0; }
+  .stage .pv { position:absolute; width:6px; height:6px; margin:-3px 0 0 -3px; border-radius:50%; background:#E8505B; z-index:999; }
+  body.nodebug .pv { display:none; }
+  .props img { background:#fff; }
+</style>
+</head>
+<body class="nodebug">
+<header>
+  <h1>角色纸娃娃预览</h1>
+  <label><input type="checkbox" id="dbg"> 显示枢轴点</label>
+  <span>每张卡：按 rig.json 的 x,y,px,py,z 组装（body 后仰时 head/arms 随 body 绕胯部旋转；weapon 挂在 armR 上，默认角 rot）。</span>
+</header>
+<div id="out"></div>
+<script>
+const CHARS = ['hero','sophie','blake','woman','kid'];
+const KIDS = ['hans','naoko','changwoo','luming','xiaohui'];
+// pose: {angles:{partId:deg}, lean:deg, face:'happy', head:'head_x.svg'}
+const POSES = [
+  {name:'站立 idle', p:{}},
+  {name:'挥剑 armR -70°', p:{angles:{armR:-70}, lean:5, face:'happy'}},
+  {name:'后仰 15° 受击', p:{lean:-15, angles:{head:-8, armR:30, armL:35}, face:'surprised'}},
+  {name:'走路', p:{angles:{legL:28, legR:-28, armL:-30, armR:30}}},
+  {name:'关节 ±40° 测试', p:{angles:{legL:-40, legR:40, armL:40, armR:-40, head:12}}},
+  {name:'关节 ∓40° 测试', p:{angles:{legL:40, legR:-40, armL:-40, armR:40, head:-12}}},
+];
+
+const M = { mul:(a,b)=>[a[0]*b[0]+a[2]*b[1], a[1]*b[0]+a[3]*b[1], a[0]*b[2]+a[2]*b[3], a[1]*b[2]+a[3]*b[3], a[0]*b[4]+a[2]*b[5]+a[4], a[1]*b[4]+a[3]*b[5]+a[5]],
+  t:(x,y)=>[1,0,0,1,x,y], r:(d)=>{const a=d*Math.PI/180,c=Math.cos(a),s=Math.sin(a);return [c,s,-s,c,0,0];}, s:(k)=>[k,0,0,k,0,0] };
+
+const rigs = {};
+async function load(id){ rigs[id] = await (await fetch(`chars/${id}/rig.json`)).json(); }
+
+// Assemble a character into a stage element.
+function assemble(id, pose, scale, W, H){
+  const rig = rigs[id];
+  const st = document.createElement('div'); st.className='stage'; st.style.width=W+'px'; st.style.height=H+'px';
+  const gy = H-26;
+  const g = document.createElement('div'); g.className='gnd'; g.style.height='26px'; st.appendChild(g);
+  const root = M.mul(M.t(W/2, gy), M.s(scale));
+  const byId = Object.fromEntries(rig.parts.map(p=>[p.id,p]));
+  const body = byId.body;
+  const ang = pose.angles||{}; const lean = pose.lean||0;
+  const upper = new Set(['body','head','armL','armR']);
+  const world = {};
+  // lean transform (rotate around body pivot)
+  const leanM = M.mul(M.mul(M.t(body.x, body.y), M.r(lean)), M.t(-body.x, -body.y));
+  function w(p){
+    if (world[p.id]) return world[p.id];
+    let m;
+    if (p.parent){
+      m = M.mul(w(byId[p.parent]), M.mul(M.t(p.x,p.y), M.r((p.rot||0)+(ang[p.id]||0))));
+    } else {
+      m = M.mul(M.t(p.x,p.y), M.r(ang[p.id]||0));
+      if (upper.has(p.id)) m = M.mul(leanM, m);
+      m = M.mul(root, m);
+    }
+    return world[p.id]=m;
+  }
+  for (const p of rig.parts){
+    const img = document.createElement('img');
+    let file = p.file;
+    if (p.id==='head'){ if (pose.head) file = pose.head; else if (pose.face && rig.faces[pose.face]) file = rig.faces[pose.face]; }
+    let ppx=p.px, ppy=p.py;
+    if (p.id==='weapon' && pose.weapon){ file = pose.weapon.file; ppx=pose.weapon.px; ppy=pose.weapon.py; img.src=`chars/${id}/weapons/${file}`; } else
+    img.src = `chars/${id}/${file}`;
+    const m = M.mul(w(p), M.t(-ppx,-ppy));
+    img.style.transform = `matrix(${m.map(v=>+v.toFixed(4)).join(',')})`;
+    img.style.zIndex = 10+p.z;
+    st.appendChild(img);
+    const wm = w(p); const d=document.createElement('div'); d.className='pv'; d.style.left=wm[4]+'px'; d.style.top=wm[5]+'px'; st.appendChild(d);
+  }
+  return st;
+}
+function cell(stage, label){ const c=document.createElement('div'); c.className='cell'; c.appendChild(stage); const l=document.createElement('div'); l.className='lbl'; l.textContent=label; c.appendChild(l); return c; }
+function section(title){ const h=document.createElement('h2'); h.textContent=title; const r=document.createElement('div'); r.className='row'; out.append(h,r); return r; }
+
+(async()=>{
+  await Promise.all(CHARS.map(load));
+  // lineup at game scale 0.5 and full scale
+  let r = section('全员站位（游戏尺寸 0.5×）');
+  for (const id of CHARS) r.appendChild(cell(assemble(id,{},0.5,130,220), id));
+  for (const k of KIDS) r.appendChild(cell(assemble('kid',{head:`head_${k}.svg`},0.5,130,220), k));
+  for (const id of CHARS){
+    const rig = rigs[id];
+    r = section(`${id}（1×，height ${rig.height}）`);
+    if (id==='kid'){
+      for (const k of KIDS) r.appendChild(cell(assemble(id,{head:`head_${k}.svg`},1,230,420), k));
+      for (const ps of POSES.slice(1)) r.appendChild(cell(assemble(id,{...ps.p, face:undefined, head:'head_naoko.svg'},1,230,420), ps.name));
+      continue;
+    }
+    for (const f of Object.keys(rig.faces)) r.appendChild(cell(assemble(id,{face:f},1,230,420), 'face: '+f));
+    for (const ps of POSES.slice(1)) r.appendChild(cell(assemble(id,ps.p,1,230,420), ps.name));
+  }
+  const WJ = await (await fetch('chars/hero/weapons/weapons.json')).json();
+  r = section('武器展示（主角 armR -70°，按 rig 组装）');
+  for (const [k,wp] of Object.entries(WJ)) r.appendChild(cell(assemble('hero',{angles:{armR:-70}, lean:5, face:'happy', weapon:wp},1,260,420), k));
+  r = section('武器单件（枢轴红点）');
+  for (const [k,wp] of Object.entries(WJ)){ const st=document.createElement('div'); st.className='stage'; st.style.cssText='width:150px;height:240px'; const i=document.createElement('img'); i.src=`chars/hero/weapons/${wp.file}`; i.style.cssText=`left:${75-wp.px}px;top:${20+0}px`; st.appendChild(i); const pv=document.createElement('div'); pv.className='pv'; pv.style.cssText=`left:75px;top:${20+wp.py}px`; st.appendChild(pv); r.appendChild(cell(st,k)); }
+  r = section('道具 props');
+  for (const p of ['handbag','book']){ const st=document.createElement('div'); st.className='stage'; st.style.cssText='width:160px;height:160px;display:flex;align-items:center;justify-content:center'; const i=document.createElement('img'); i.src=`props/${p}.svg`; i.style.cssText='position:static;transform:scale(1.3)'; st.appendChild(i); r.appendChild(cell(st,p)); }
+  document.body.dataset.ready='1';
+})();
+document.getElementById('dbg').onchange=e=>document.body.classList.toggle('nodebug',!e.target.checked);
+</script>
+</body>
+</html>

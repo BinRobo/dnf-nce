@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>R4 C tailor</title>
+<style>
+  body { margin: 0; background: #cfe8d8; font-family: sans-serif; }
+  .row { display: flex; gap: 30px; padding: 20px; flex-wrap: wrap; align-items: flex-end; }
+  .stage { position: relative; width: 260px; height: 420px; }
+  .stage img { position: absolute; }
+</style>
+<div class="row" id="row"></div>
+<script>
+const row = document.getElementById('row');
+async function build(char, face) {
+  const BASE = `chars/${char}/`;
+  const rig = await (await fetch(BASE + 'rig.json')).json();
+  const st = document.createElement('div'); st.className = 'stage';
+  for (const p of [...rig.parts].sort((a, b) => a.z - b.z)) {
+    const img = new Image();
+    img.src = BASE + (p.id === 'head' ? rig.faces[face] : p.file);
+    img.style.left = 130 + p.x - p.px + 'px';
+    img.style.top = 400 + p.y - p.py + 'px';
+    img.style.zIndex = p.z * 10;
+    st.appendChild(img);
+  }
+  const c = document.createElement('div'); c.style.textAlign = 'center';
+  c.appendChild(st); c.appendChild(document.createTextNode(`${char} · ${face}`));
+  row.appendChild(c);
+}
+(async () => { await build('woman', 'normal'); for (const f of ['normal','happy','surprised','sad']) await build('tailor', f); document.title += ' ready'; })();
+</script>

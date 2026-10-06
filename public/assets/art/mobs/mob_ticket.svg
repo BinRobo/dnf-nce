@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" stroke-linejoin="round" stroke-linecap="round">
+<path d="M68,136 L68,150 M94,136 L94,150" stroke="#2B2A4A" stroke-width="9"/><path d="M68,136 L68,150 M94,136 L94,150" stroke="#F3E9D2" stroke-width="3"/>
+<path d="M58,152 L76,152 M86,152 L104,152" stroke="#2B2A4A" stroke-width="9"/><path d="M58,152 L76,152 M86,152 L104,152" stroke="#8A7A5A" stroke-width="3"/>
+<path d="M50,56 L112,56 L112,72 Q106,76 112,82 L112,98 Q106,102 112,108 L112,138 L50,138 L50,108 Q56,102 50,98 L50,82 Q56,76 50,72 Z" fill="#F3E9D2" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M100,60 L108,60 L108,134 L100,134 Z" fill="#D9CBA6" stroke="none"/>
+<path d="M50,126 L112,126" stroke="#2B2A4A" stroke-width="2" stroke-dasharray="4 4"/>
+<path d="M56,112 L106,112" stroke="#E8505B" stroke-width="3"/>
+<path d="M58,26 L96,26 L96,46 L58,46 Z" fill="#9AA5B1" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M58,36 L26,40 Q20,44 26,50 L58,46" fill="#7A8693" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M96,30 L110,22 L112,34 L96,42 Z" fill="#6B7683" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M66,46 L66,56 M88,46 L88,56" stroke="#2B2A4A" stroke-width="5"/>
+<circle cx="70" cy="34" r="6" fill="#fff" stroke="#2B2A4A" stroke-width="2.5"/><circle cx="68" cy="35" r="3" fill="#2B2A4A"/>
+<circle cx="86" cy="34" r="5" fill="#fff" stroke="#2B2A4A" stroke-width="2.5"/><circle cx="85" cy="35" r="2.5" fill="#2B2A4A"/>
+<circle cx="64" cy="76" r="6" fill="#2B2A4A" stroke="none"/><circle cx="92" cy="76" r="6" fill="#2B2A4A" stroke="none"/>
+<path d="M60,92 Q78,108 96,92" fill="none" stroke="#2B2A4A" stroke-width="3" stroke-dasharray="1 7"/>
+<circle cx="62" cy="92" r="3" fill="#2B2A4A" stroke="none"/><circle cx="68" cy="100" r="3" fill="#2B2A4A" stroke="none"/><circle cx="78" cy="103" r="3" fill="#2B2A4A" stroke="none"/><circle cx="88" cy="100" r="3" fill="#2B2A4A" stroke="none"/><circle cx="94" cy="92" r="3" fill="#2B2A4A" stroke="none"/>
+<path d="M16,64 L22,70 M10,76 L20,76 M16,88 L22,82" stroke="#E8505B" stroke-width="3"/>
+<path d="M50,84 L38,92 L36,104" fill="none" stroke="#2B2A4A" stroke-width="8"/><path d="M50,84 L38,92 L36,104" fill="none" stroke="#F3E9D2" stroke-width="3"/>
+</svg>
