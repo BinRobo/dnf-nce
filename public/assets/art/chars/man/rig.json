@@ -1,0 +1,12 @@
+{
+  "height": 365,
+  "parts": [
+    {"id":"legL","file":"legL.svg","x":-14,"y":-92,"px":20,"py":18,"z":0},
+    {"id":"legR","file":"legR.svg","x":14,"y":-92,"px":20,"py":18,"z":1},
+    {"id":"armL","file":"armL.svg","x":-16,"y":-176,"px":20,"py":20,"z":2},
+    {"id":"body","file":"body.svg","x":0,"y":-92,"px":41,"py":119,"z":3},
+    {"id":"head","file":"head.svg","x":2,"y":-194,"px":84,"py":176,"z":4},
+    {"id":"armR","file":"armR.svg","x":18,"y":-174,"px":20,"py":20,"z":6}
+  ],
+  "faces": {"normal":"head.svg","happy":"head_happy.svg","surprised":"head_surprised.svg","sad":"head_sad.svg"}
+}

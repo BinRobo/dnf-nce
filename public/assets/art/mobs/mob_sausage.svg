@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" stroke-linejoin="round" stroke-linecap="round">
+<path d="M44,126 L44,148 M62,126 L62,148 M104,126 L104,148 M122,126 L122,148" stroke="#2B2A4A" stroke-width="11"/><path d="M44,126 L44,148 M62,126 L62,148 M104,126 L104,148 M122,126 L122,148" stroke="#A8442C" stroke-width="5"/>
+<path d="M36,152 L52,152 M54,152 L70,152 M96,152 L112,152 M114,152 L130,152" stroke="#2B2A4A" stroke-width="8"/><path d="M36,152 L52,152 M54,152 L70,152 M96,152 L112,152 M114,152 L130,152" stroke="#A8442C" stroke-width="3"/>
+<path d="M126,100 Q154,92 148,60 Q146,52 140,56 Q142,76 124,82 Z" fill="#c0583d" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M34,120 Q30,84 70,76 Q124,70 130,100 Q132,132 100,134 L50,136 Q36,136 34,120 Z" fill="#c0583d" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M60,128 Q100,134 122,122 Q126,134 100,136 L56,138 Z" fill="#9C3F2A" stroke="none"/>
+<path d="M60,84 Q66,92 62,100 M82,80 Q88,90 84,98 M104,82 Q110,90 106,98" fill="none" stroke="#E8856A" stroke-width="3"/>
+<path d="M30,106 Q12,100 14,78 Q16,52 42,46 Q64,44 70,64 Q74,88 56,102 Q44,110 30,106 Z" fill="#c0583d" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M62,50 Q82,56 74,86 Q70,66 62,50 Z" fill="#9C3F2A" stroke="none"/>
+<path d="M54,52 Q64,40 70,52 Q76,72 66,84 Q62,66 54,52 Z" fill="#9C3F2A" stroke="#2B2A4A" stroke-width="4"/>
+<circle cx="38" cy="64" r="10" fill="#fff" stroke="#2B2A4A" stroke-width="3"/><circle cx="34" cy="66" r="5" fill="#2B2A4A"/><circle cx="32" cy="63" r="2" fill="#fff"/>
+<path d="M28,52 L46,56" stroke="#2B2A4A" stroke-width="3"/>
+<ellipse cx="14" cy="80" rx="6" ry="5" fill="#2B2A4A" stroke="#2B2A4A" stroke-width="2"/>
+<path d="M18,92 Q34,100 48,92 L46,98 Q34,104 20,98 Z" fill="#6B2A3A" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M12,98 Q8,88 22,90 L38,92 L40,104 Q28,112 14,106 Z" fill="#F7B4A0" stroke="#2B2A4A" stroke-width="3"/>
+<circle cx="22" cy="100" r="3" fill="#fff" stroke="#2B2A4A" stroke-width="2"/>
+<circle cx="48" cy="82" r="5" fill="#FF8FA3" fill-opacity=".7" stroke="none"/>
+</svg>

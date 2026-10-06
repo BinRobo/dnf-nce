@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" stroke-linejoin="round" stroke-linecap="round">
+<path d="M66,128 L62,148 M96,128 L100,148" stroke="#2B2A4A" stroke-width="10"/><path d="M66,128 L62,148 M96,128 L100,148" stroke="#6C7A89" stroke-width="4"/>
+<path d="M50,152 L74,152 M88,152 L112,152" stroke="#2B2A4A" stroke-width="9"/><path d="M50,152 L74,152 M88,152 L112,152" stroke="#6C7A89" stroke-width="3"/>
+<path d="M44,40 Q30,16 52,10 Q72,6 72,28 Z" fill="#E8505B" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M116,40 Q130,16 108,10 Q88,6 88,28 Z" fill="#E8505B" stroke="#2B2A4A" stroke-width="4"/>
+<circle cx="52" cy="22" r="4" fill="#FFD23F" stroke="#2B2A4A" stroke-width="2.5"/><circle cx="108" cy="22" r="4" fill="#FFD23F" stroke="#2B2A4A" stroke-width="2.5"/>
+<path d="M80,28 L80,36" stroke="#2B2A4A" stroke-width="6"/>
+<circle cx="80" cy="84" r="52" fill="#ffd23f" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M112,48 Q142,86 108,128 Q128,92 112,48 Z" fill="#E0A800" stroke="none"/>
+<circle cx="80" cy="84" r="52" fill="none" stroke="#2B2A4A" stroke-width="4"/>
+<circle cx="80" cy="84" r="40" fill="#FFF6D0" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M80,48 L80,54 M80,114 L80,120 M44,84 L50,84 M110,84 L116,84" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M80,84 L80,62" stroke="#E8505B" stroke-width="4"/>
+<path d="M80,84 L94,92" stroke="#2B2A4A" stroke-width="4"/><circle cx="80" cy="84" r="4" fill="#2B2A4A"/>
+<circle cx="62" cy="80" r="9" fill="#fff" stroke="#2B2A4A" stroke-width="3"/><circle cx="59" cy="82" r="4.5" fill="#2B2A4A"/><circle cx="57" cy="79" r="1.8" fill="#fff"/>
+<circle cx="94" cy="80" r="8" fill="#fff" stroke="#2B2A4A" stroke-width="3"/><circle cx="91" cy="82" r="4" fill="#2B2A4A"/><circle cx="89" cy="79" r="1.8" fill="#fff"/>
+<path d="M68,100 Q78,110 90,100 Z" fill="#6B2A3A" stroke="#2B2A4A" stroke-width="3"/>
+<circle cx="52" cy="98" r="5" fill="#FF8FA3" fill-opacity=".7" stroke="none"/>
+<path d="M28,60 L20,54 M24,76 L14,76 M136,60 L146,54" stroke="#2B2A4A" stroke-width="3"/>
+</svg>

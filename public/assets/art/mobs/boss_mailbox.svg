@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" stroke-linejoin="round" stroke-linecap="round" stroke="#2B2A4A" stroke-width="4">
+<!-- legs -->
+<rect x="146" y="374" width="34" height="30" rx="8" fill="#4a3d52"/><ellipse cx="156" cy="404" rx="30" ry="11" fill="#2f2538"/>
+<rect x="240" y="374" width="34" height="30" rx="8" fill="#4a3d52"/><ellipse cx="250" cy="404" rx="30" ry="11" fill="#2f2538"/>
+<!-- flag -->
+<rect x="330" y="140" width="12" height="150" rx="5" fill="#d9d2dd"/>
+<path d="M342,142 L400,160 L342,190 Z" fill="#e8505b"/>
+<circle cx="336" cy="136" r="9" fill="#ffc94a"/>
+<!-- body -->
+<path d="M110,380 L110,190 Q110,70 210,70 Q310,70 310,190 L310,380 Z" fill="#6b5b73"/>
+<path d="M260,86 Q310,110 310,190 L310,380 L262,380 Q288,230 260,86 Z" fill="#54465c" stroke="none"/>
+<path d="M130,120 Q150,90 188,80" fill="none" stroke="#9a8aa3" stroke-width="7"/>
+<rect x="98" y="364" width="224" height="22" rx="8" fill="#54465c"/>
+<!-- gold crest + bell on top -->
+<path d="M210,70 L210,50" fill="none" stroke-width="5"/>
+<path d="M190,50 Q210,18 230,50 Z" fill="#ffc94a"/><circle cx="210" cy="54" r="5" fill="#fff0a0" stroke-width="3"/>
+<path d="M196,40 Q210,30 224,40" fill="none" stroke="#fff0a0" stroke-width="3"/>
+<!-- postcards -->
+<rect x="116" y="270" width="64" height="44" rx="4" fill="#fff6e0" transform="rotate(-9 148 292)"/>
+<rect x="122" y="276" width="26" height="30" fill="#4ea8de" stroke-width="2" transform="rotate(-9 148 292)"/>
+<path d="M154,282 L172,279 M156,292 L174,289" fill="none" stroke-width="2" transform="rotate(-9 148 292)"/>
+<rect x="200" y="288" width="64" height="46" rx="4" fill="#ffd6e0" transform="rotate(7 232 311)"/>
+<circle cx="222" cy="310" r="11" fill="#ffc94a" stroke-width="2" transform="rotate(7 232 311)"/>
+<path d="M240,300 L258,303 M240,312 L258,315" fill="none" stroke-width="2" transform="rotate(7 232 311)"/>
+<rect x="250" y="236" width="48" height="38" rx="4" fill="#cdf0c2" transform="rotate(-4 274 255)"/>
+<path d="M258,248 L292,244 M258,258 L284,255" fill="none" stroke-width="2" transform="rotate(-4 274 255)"/>
+<!-- gold postmark seal -->
+<circle cx="146" cy="346" r="22" fill="#ffc94a"/><circle cx="146" cy="346" r="14" fill="none" stroke-width="3"/><path d="M146,336 L149,344 L158,344 L151,349 L154,357 L146,352 L138,357 L141,349 L134,344 L143,344 Z" fill="#fff0a0" stroke-width="2"/>
+<!-- face group tilted -->
+<g transform="rotate(-9 210 170)">
+<circle cx="162" cy="140" r="24" fill="#fff"/><circle cx="154" cy="143" r="11" fill="#2B2A4A"/><circle cx="150" cy="138" r="4" fill="#fff" stroke="none"/>
+<circle cx="238" cy="140" r="24" fill="#fff"/><circle cx="230" cy="143" r="11" fill="#2B2A4A"/><circle cx="226" cy="138" r="4" fill="#fff" stroke="none"/>
+<path d="M134,110 L186,122 M214,122 L268,108" fill="none" stroke-width="6"/>
+<!-- stamped crooked cheek -->
+<circle cx="268" cy="176" r="18" fill="none" stroke="#e8505b" stroke-width="5" stroke-opacity=".8"/><path d="M258,176 L278,176 M268,166 L268,186" fill="none" stroke="#e8505b" stroke-width="3" stroke-opacity=".8"/>
+<!-- slot mouth -->
+<rect x="140" y="180" width="124" height="34" rx="14" fill="#1f1830"/>
+<path d="M156,196 L176,190 L246,196 L246,212 L160,214 Z" fill="#fffdf2" stroke-width="3"/>
+<path d="M170,203 L232,203 M170,210 L220,210" fill="none" stroke-width="2"/>
+<rect x="132" y="170" width="140" height="12" rx="6" fill="#8a7a93" stroke-width="3"/>
+</g>
+<!-- stamp arm (left) -->
+<path d="M110,250 Q66,250 54,206" fill="none" stroke="#2B2A4A" stroke-width="22"/><path d="M110,250 Q66,250 54,206" fill="none" stroke="#6b5b73" stroke-width="14"/>
+<circle cx="52" cy="200" r="16" fill="#ffe0bf"/>
+<rect x="40" y="120" width="26" height="70" rx="10" fill="#8a5a2b"/><rect x="44" y="124" width="8" height="56" fill="#c98c4b" stroke="none"/>
+<rect x="14" y="94" width="78" height="30" rx="8" fill="#ffc94a"/>
+<rect x="18" y="124" width="70" height="12" rx="4" fill="#e8505b" transform="translate(0,-2)"/>
+<path d="M30,88 Q53,70 76,88" fill="none" stroke-width="3"/>
+<!-- other arm -->
+<path d="M310,260 Q356,260 366,292" fill="none" stroke="#2B2A4A" stroke-width="22"/><path d="M310,260 Q356,260 366,292" fill="none" stroke="#6b5b73" stroke-width="14"/>
+<circle cx="368" cy="298" r="16" fill="#ffe0bf"/>
+<!-- stray letters flying -->
+<rect x="340" y="320" width="44" height="30" rx="3" fill="#fffdf2" transform="rotate(14 362 335)"/><path d="M340,320 L362,338 L384,320" fill="none" stroke-width="2" transform="rotate(14 362 335)"/>
+<rect x="352" y="60" width="40" height="28" rx="3" fill="#fffdf2" transform="rotate(-18 372 74)"/><path d="M352,60 L372,76 L392,60" fill="none" stroke-width="2" transform="rotate(-18 372 74)"/>
+</svg>

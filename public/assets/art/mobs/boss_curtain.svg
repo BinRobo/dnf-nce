@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="210" cy="404" rx="150" ry="12" fill="#2B2A4A" fill-opacity=".35" stroke="none"/>
+<path d="M60,392 L360,392 L378,412 L42,412 Z" fill="#B9803F" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M42,412 L378,412 L378,418 L42,418 Z" fill="#8A5A2A" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M120,392 L112,412 M200,392 L196,412 M290,392 L296,412" fill="none" stroke="#8A5A2A" stroke-width="3"/>
+<ellipse cx="164" cy="388" rx="26" ry="9" fill="#6B0F2A" stroke="#2B2A4A" stroke-width="4"/>
+<ellipse cx="258" cy="388" rx="26" ry="9" fill="#6B0F2A" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M60,80 L210,80 L210,370 Q160,384 130,374 Q92,300 60,80 Z" fill="#A4133C" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M360,80 L210,80 L210,370 Q260,384 290,374 Q328,300 360,80 Z" fill="#A4133C" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M210,96 Q190,200 196,372 L224,372 Q232,200 210,96 Z" fill="#2A0A18" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M60,80 Q80,250 118,372 M100,84 Q112,240 150,376 M150,84 Q150,240 176,376" fill="none" stroke="#7A0E2E" stroke-width="8"/>
+<path d="M360,80 Q340,250 302,372 M320,84 Q308,240 270,376 M270,84 Q270,240 244,376" fill="none" stroke="#7A0E2E" stroke-width="8"/>
+<path d="M70,140 Q100,190 116,250 L96,250 Q80,200 60,150 Z M350,140 Q320,190 304,250 L324,250 Q340,200 360,150 Z" fill="#C42050" stroke="none"/>
+<ellipse cx="210" cy="200" rx="14" ry="22" fill="#FFF6B0" stroke="#2B2A4A" stroke-width="3"/>
+<circle cx="208" cy="204" r="8" fill="#2B2A4A"/><circle cx="205" cy="200" r="2.5" fill="#fff"/>
+<path d="M192,168 L224,180" fill="none" stroke="#FFC94A" stroke-width="5"/>
+<path d="M60,200 Q36,230 40,262" fill="none" stroke="#2B2A4A" stroke-width="12"/><path d="M60,200 Q36,230 40,262" fill="none" stroke="#FFC94A" stroke-width="6"/>
+<path d="M30,258 L50,258 L56,296 L24,296 Z" fill="#FFC94A" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M26,296 L26,318 M33,296 L33,322 M40,296 L40,324 M47,296 L47,322 M54,296 L54,318" fill="none" stroke="#FFC94A" stroke-width="4"/>
+<path d="M128,260 Q210,300 292,260" fill="none" stroke="#2B2A4A" stroke-width="14"/><path d="M128,260 Q210,300 292,260" fill="none" stroke="#FFC94A" stroke-width="8"/>
+<path d="M356,200 Q392,240 380,276" fill="none" stroke="#2B2A4A" stroke-width="12"/><path d="M356,200 Q392,240 380,276" fill="none" stroke="#FFC94A" stroke-width="6"/>
+<path d="M370,272 L392,272 L396,306 L366,306 Z" fill="#FFC94A" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M370,306 L370,328 M378,306 L378,332 M386,306 L386,330 M394,306 L394,326" fill="none" stroke="#FFC94A" stroke-width="4"/>
+<path d="M120,372 L120,396 M135,376 L136,398 M286,376 L285,398 M300,372 L300,396 M165,378 L165,398 M255,378 L255,398" fill="none" stroke="#FFC94A" stroke-width="5"/>
+<path d="M30,60 L390,60 L396,96 Q380,108 360,98 Q340,110 320,98 Q300,110 280,98 Q260,110 240,98 Q225,110 210,98 Q195,110 180,98 Q160,110 140,98 Q120,110 100,98 Q80,110 60,98 Q40,108 24,96 Z" fill="#FFC94A" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M30,60 L390,60 L392,72 L28,72 Z" fill="#E6A82A" stroke="none"/>
+<g fill="#E8505B" stroke="#2B2A4A" stroke-width="3"><circle cx="90" cy="82" r="5"/><circle cx="150" cy="84" r="5"/><circle cx="270" cy="84" r="5"/><circle cx="330" cy="82" r="5"/></g>
+<path d="M120,60 L136,22 L158,46 L184,10 L210,44 L236,10 L262,46 L284,22 L300,60 Z" fill="#FFC94A" stroke="#2B2A4A" stroke-width="4"/>
+<circle cx="184" cy="10" r="6" fill="#E8505B" stroke="#2B2A4A" stroke-width="3"/><circle cx="236" cy="10" r="6" fill="#E8505B" stroke="#2B2A4A" stroke-width="3"/><circle cx="210" cy="44" r="6" fill="#00B4D8" stroke="#2B2A4A" stroke-width="3"/>
+<ellipse cx="210" cy="82" rx="30" ry="24" fill="#FFF2B0" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M192,78 Q200,72 208,78 M214,78 Q222,72 230,78 M194,92 Q210,86 226,92" fill="none" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M40,64 L60,64 M360,64 L380,64" fill="none" stroke="#2B2A4A" stroke-width="0"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" stroke-linejoin="round" stroke-linecap="round">
+<path d="M60,134 L60,148 M96,134 L96,148" stroke="#2B2A4A" stroke-width="10"/><path d="M60,134 L60,148 M96,134 L96,148" stroke="#FF9F43" stroke-width="4"/>
+<path d="M48,150 L72,150 M84,150 L108,150" stroke="#2B2A4A" stroke-width="9"/><path d="M48,150 L72,150 M84,150 L108,150" stroke="#FF9F43" stroke-width="3"/>
+<path d="M112,96 Q148,100 140,138 Q116,134 108,118 Z" fill="#473d75" stroke="#2B2A4A" stroke-width="4"/>
+<ellipse cx="80" cy="98" rx="44" ry="42" fill="#5a4e8c" stroke="#2B2A4A" stroke-width="4"/>
+<ellipse cx="74" cy="110" rx="26" ry="28" fill="#c9bff0" stroke="#2B2A4A" stroke-width="2"/>
+<path d="M62,96 Q70,102 78,96 M60,108 Q70,114 80,108 M62,120 Q70,126 78,120" fill="none" stroke="#8f82c9" stroke-width="2.5"/>
+<path d="M34,40 L26,10 L58,28 Z M126,40 L134,10 L102,28 Z" fill="#5a4e8c" stroke="#2B2A4A" stroke-width="4"/>
+<ellipse cx="80" cy="52" rx="48" ry="34" fill="#5a4e8c" stroke="#2B2A4A" stroke-width="4"/>
+<circle cx="58" cy="50" r="22" fill="#FFE27A" stroke="#2B2A4A" stroke-width="4"/><circle cx="102" cy="50" r="22" fill="#FFE27A" stroke="#2B2A4A" stroke-width="4"/>
+<circle cx="54" cy="52" r="12" fill="#2B2A4A"/><circle cx="98" cy="52" r="12" fill="#2B2A4A"/>
+<circle cx="50" cy="47" r="4.5" fill="#fff"/><circle cx="94" cy="47" r="4.5" fill="#fff"/>
+<path d="M72,60 L80,74 L88,60 Z" fill="#FF9F43" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M80,68 L80,76" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M62,76 L80,86 L98,76 L98,92 L80,86 L62,92 Z" fill="#E8505B" stroke="#2B2A4A" stroke-width="3"/><circle cx="80" cy="85" r="5" fill="#C93A48" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M30,90 L8,86 L8,104 L30,100 Z" fill="#FFC94A" stroke="#2B2A4A" stroke-width="3.5"/>
+<path d="M8,80 Q0,95 8,110 Q16,96 8,80 Z" fill="#FF9F43" stroke="#2B2A4A" stroke-width="3.5"/>
+<path d="M2,76 L-0,70 M0,95 L-2,95 M2,114 L-0,120" stroke="#2B2A4A" stroke-width="0"/>
+</svg>

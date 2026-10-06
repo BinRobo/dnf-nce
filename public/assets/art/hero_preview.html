@@ -1,0 +1,66 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Hero Preview</title>
+<style>
+  body { margin: 0; background: #cfe8d8; font-family: sans-serif; }
+  .row { display: flex; gap: 20px; padding: 20px; flex-wrap: wrap; align-items: flex-end; }
+  .cell { text-align: center; }
+  .stage { position: relative; width: 260px; height: 420px; }
+  .stage img { position: absolute; }
+  .faces { display:flex; gap:4px; }
+  .faces img { width: 89px; }
+</style>
+<!-- 用法：hero_preview.html?dirs=hero,hero_sf  —— 每个主角画 站立、挥剑 两个姿势 + 4 种表情；含武器 -->
+<div class="row" id="row"></div>
+<script>
+const dirs = (new URLSearchParams(location.search).get('dirs') || 'hero').split(',').filter(Boolean);
+(async () => {
+  const row = document.getElementById('row');
+  for (const d of dirs) {
+    const BASE = `chars/${d}/`;
+    const rig = await fetch(BASE + 'rig.json').then((r) => r.json());
+    for (const pose of ['stand', 'swing']) {
+      const cell = document.createElement('div'); cell.className = 'cell';
+      const st = document.createElement('div'); st.className = 'stage';
+      const ox = 130, oy = 400;
+      const byId = {};
+      for (const p of [...rig.parts].sort((a, b) => a.z - b.z)) {
+        const img = new Image(); img.src = BASE + p.file;
+        img.style.zIndex = p.z * 10; byId[p.id] = img;
+        if (p.id === 'weapon') continue;
+        img.style.left = ox + (p.x - p.px) + 'px'; img.style.top = oy + (p.y - p.py) + 'px';
+        img.style.transformOrigin = `${p.px}px ${p.py}px`;
+        if (pose === 'swing' && p.id === 'armR') img.style.transform = 'rotate(-120deg)';
+        if (pose === 'swing' && p.id === 'legL') img.style.transform = 'rotate(18deg)';
+        if (pose === 'swing' && p.id === 'legR') img.style.transform = 'rotate(-18deg)';
+        st.appendChild(img);
+      }
+      const w = rig.parts.find((p) => p.id === 'weapon'), a = rig.parts.find((p) => p.id === 'armR');
+      const wi = byId.weapon;
+      // 武器挂在 armR 上：armR 局部坐标 (w.x,w.y)，绕 armR 锚点旋转
+      const ang = (pose === 'swing' ? -120 : 0);
+      wi.style.left = ox + (a.x - a.px) + w.x - w.px + 'px'; wi.style.top = oy + (a.y - a.py) + w.y - w.py + 'px';
+      wi.style.transformOrigin = `${w.px}px ${w.py}px`;
+      // 先绕自身握把旋转 w.rot，再整体绕 armR 锚点旋转
+      const cx = a.px - w.x + w.px, cy = a.py - w.y + w.py;
+      wi.style.transformOrigin = `${cx}px ${cy}px`;
+      wi.style.transform = `rotate(${ang}deg) rotate(${w.rot || 0}deg)`;
+      wi.style.transformOrigin = `${w.px}px ${w.py}px`;
+      wi.style.transform = '';
+      const pivot = document.createElement('div');
+      Object.assign(pivot.style, { position: 'absolute', left: ox + a.x + 'px', top: oy + a.y + 'px', width: 0, height: 0, zIndex: w.z * 10, transform: `rotate(${ang}deg)` });
+      const inner = document.createElement('div');
+      Object.assign(inner.style, { position: 'absolute', left: w.x + 'px', top: w.y + 'px', width: 0, height: 0, transform: `rotate(${w.rot || 0}deg)` });
+      wi.style.left = -w.px + 'px'; wi.style.top = -w.py + 'px';
+      inner.appendChild(wi); pivot.appendChild(inner); st.appendChild(pivot);
+      cell.appendChild(st); cell.appendChild(document.createTextNode(`${d} · ${pose}`));
+      row.appendChild(cell);
+    }
+    const cell = document.createElement('div'); cell.className = 'cell';
+    const f = document.createElement('div'); f.className = 'faces';
+    f.style.flexWrap = 'wrap'; f.style.width = '190px';
+    for (const k of Object.values(rig.faces)) { const i = new Image(); i.src = BASE + k; f.appendChild(i); }
+    cell.appendChild(f); cell.appendChild(document.createTextNode(`${d} · faces`)); row.appendChild(cell);
+  }
+})();
+</script>

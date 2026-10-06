@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" stroke-linejoin="round" stroke-linecap="round">
+<path d="M56,134 L56,148 M104,134 L104,148" stroke="#2B2A4A" stroke-width="10"/><path d="M56,134 L56,148 M104,134 L104,148" stroke="#a8742f" stroke-width="4"/>
+<path d="M44,150 L68,150 M92,150 L116,150" stroke="#2B2A4A" stroke-width="9"/><path d="M44,150 L68,150 M92,150 L116,150" stroke="#a8742f" stroke-width="3"/>
+<rect x="30" y="30" width="100" height="100" fill="#f0d9a0" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M112,34 L126,34 L126,126 L112,126 Z" fill="#d9bd7c"/>
+<rect x="22" y="10" width="116" height="26" rx="13" fill="#e6c27a" stroke="#2B2A4A" stroke-width="4"/>
+<ellipse cx="30" cy="23" rx="7" ry="9" fill="#d9a85a" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="22" y="124" width="116" height="26" rx="13" fill="#e6c27a" stroke="#2B2A4A" stroke-width="4" transform="translate(0,-4)"/>
+<ellipse cx="30" cy="133" rx="7" ry="9" fill="#d9a85a" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="14" y="4" width="8" height="42" rx="4" fill="#a8742f" stroke="#2B2A4A" stroke-width="3" transform="translate(0,0)"/>
+<rect x="138" y="4" width="8" height="42" rx="4" fill="#a8742f" stroke="#2B2A4A" stroke-width="3" transform="translate(0,0)"/>
+<path d="M44,98 L50,86 L56,98 M47,94 L53,94" fill="none" stroke="#B77AF0" stroke-width="4"/>
+<path d="M98,92 L98,106 M98,92 Q110,92 110,98 Q110,102 98,102" fill="none" stroke="#E8505B" stroke-width="4" transform="rotate(14 100 100)"/>
+<path d="M112,70 Q104,66 106,76 Q108,84 116,80" fill="none" stroke="#4FB3F6" stroke-width="4" transform="rotate(-18 110 74)"/>
+<circle cx="62" cy="58" r="11" fill="#fff" stroke="#2B2A4A" stroke-width="3"/><circle cx="98" cy="58" r="11" fill="#fff" stroke="#2B2A4A" stroke-width="3"/>
+<circle cx="59" cy="60" r="5.5" fill="#2B2A4A"/><circle cx="95" cy="60" r="5.5" fill="#2B2A4A"/>
+<circle cx="57" cy="57" r="2" fill="#fff"/><circle cx="93" cy="57" r="2" fill="#fff"/>
+<path d="M70,78 Q80,86 90,78" fill="none" stroke="#2B2A4A" stroke-width="4"/>
+<circle cx="46" cy="76" r="5" fill="#FF8FA3" fill-opacity=".7"/>
+<path d="M30,108 L22,118" stroke="#B77AF0" stroke-width="0"/>
+<rect x="20" y="138" width="9" height="9" rx="2" fill="#6BCB77" stroke="#2B2A4A" stroke-width="2.5" transform="rotate(-20 24 142)"/>
+<rect x="132" y="140" width="9" height="9" rx="2" fill="#FF9F43" stroke="#2B2A4A" stroke-width="2.5" transform="rotate(25 136 144)"/>
+</svg>

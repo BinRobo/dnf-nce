@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" stroke-linejoin="round" stroke-linecap="round" stroke="#2B2A4A" stroke-width="4">
+<!-- bottom -->
+<circle cx="214" cy="330" r="86" fill="#f4fbff"/>
+<path d="M240,250 Q316,300 280,392 Q250,414 214,416 Q290,380 240,250 Z" fill="#bfeaf7" stroke="none"/>
+<circle cx="214" cy="330" r="86" fill="none"/>
+<circle cx="214" cy="300" r="9" fill="#2B2A4A"/><circle cx="214" cy="334" r="9" fill="#2B2A4A"/><circle cx="214" cy="368" r="9" fill="#2B2A4A"/>
+<!-- feet -->
+<ellipse cx="160" cy="412" rx="34" ry="8" fill="#8fd3ff" stroke-width="3"/><ellipse cx="274" cy="412" rx="34" ry="8" fill="#8fd3ff" stroke-width="3"/>
+<!-- middle -->
+<circle cx="208" cy="226" r="66" fill="#f4fbff"/>
+<path d="M240,170 Q290,226 250,284 Q232,282 214,290 Q262,240 240,170 Z" fill="#bfeaf7" stroke="none"/>
+<circle cx="208" cy="226" r="66" fill="none"/>
+<!-- arms -->
+<path d="M146,214 Q96,198 70,150 M96,192 L74,196 M84,172 L62,160" fill="none" stroke-width="12"/>
+<path d="M146,214 Q96,198 70,150 M96,192 L74,196 M84,172 L62,160" fill="none" stroke="#8a5a2b" stroke-width="5"/>
+<circle cx="52" cy="128" r="28" fill="#fff"/><path d="M40,124 Q50,112 66,118" fill="none" stroke="#bfeaf7" stroke-width="4"/>
+<path d="M268,234 Q326,236 356,282 M320,246 L336,222 M338,266 L364,258" fill="none" stroke-width="12"/>
+<path d="M268,234 Q326,236 356,282 M320,246 L336,222 M338,266 L364,258" fill="none" stroke="#8a5a2b" stroke-width="5"/>
+<!-- head (shifted, shoulder uneven) -->
+<circle cx="200" cy="130" r="50" fill="#f4fbff"/>
+<path d="M232,96 Q262,140 226,176 Q240,150 232,96 Z" fill="#bfeaf7" stroke="none"/>
+<circle cx="200" cy="130" r="50" fill="none"/>
+<!-- eyes -->
+<circle cx="170" cy="122" r="13" fill="#fff"/><circle cx="166" cy="125" r="7" fill="#2B2A4A"/><circle cx="163" cy="122" r="2.5" fill="#fff" stroke="none"/>
+<circle cx="214" cy="120" r="13" fill="#fff"/><circle cx="210" cy="123" r="7" fill="#2B2A4A"/><circle cx="207" cy="120" r="2.5" fill="#fff" stroke="none"/>
+<path d="M154,102 L186,112 M200,108 L232,98" fill="none" stroke-width="5"/>
+<circle cx="160" cy="146" r="8" fill="#ff8fa3" fill-opacity=".6" stroke="none"/>
+<path d="M176,156 Q194,168 214,156" fill="none" stroke-width="4"/>
+<!-- carrot nose frozen -->
+<path d="M186,134 L104,142 L186,152 Z" fill="#ff8c2a"/>
+<path d="M150,138 L146,148 M132,140 L128,148" fill="none" stroke-width="2"/>
+<path d="M104,142 L88,128 M104,142 L84,146 M104,142 L90,160" fill="none" stroke="#8fd3ff" stroke-width="6"/>
+<path d="M104,142 L88,128 M104,142 L84,146 M104,142 L90,160" fill="none" stroke="#e8f9ff" stroke-width="2"/>
+<!-- breath -->
+<circle cx="70" cy="172" r="12" fill="#fff" fill-opacity=".85" stroke-width="3"/><circle cx="48" cy="188" r="9" fill="#fff" fill-opacity=".85" stroke-width="3"/>
+<!-- bucket hat -->
+<path d="M156,92 L246,68 L254,16 L164,34 Z" transform="rotate(-8 205 60)" fill="#9aa5b8" stroke="none"/>
+<g transform="rotate(-8 205 70)">
+<path d="M158,86 L170,24 L240,24 L252,86 Z" fill="#c4ccd9"/>
+<path d="M240,24 L252,86 L228,86 L226,24 Z" fill="#9aa5b8" stroke="none"/>
+<path d="M158,86 L170,24 L240,24 L252,86 Z" fill="none"/>
+<ellipse cx="205" cy="24" rx="35" ry="7" fill="#e6ebf2"/>
+<rect x="150" y="82" width="110" height="14" rx="6" fill="#8a5a2b"/>
+<path d="M180,70 L184,40 M200,70 L204,40" fill="none" stroke="#8fd3ff" stroke-width="3"/>
+</g>
+<!-- scarf with icicles -->
+<path d="M148,170 Q205,200 262,170 L268,198 Q205,226 142,198 Z" fill="#4aa3d8"/>
+<path d="M158,182 L198,196 M180,188 L222,200" fill="none" stroke="#bfeaf7" stroke-width="4"/>
+<path d="M142,198 L136,214 L150,222 L156,204 Z" fill="#4aa3d8"/>
+<path d="M156,206 L162,236 L170,208 Z M176,212 L184,246 L192,214 Z M200,216 L206,238 L214,216 Z M226,212 L234,252 L242,208 Z M248,200 L254,226 L262,196 Z" fill="#e8f9ff" stroke-width="3"/>
+<!-- sparkles -->
+<path d="M330,120 L336,140 L356,146 L336,152 L330,172 L324,152 L304,146 L324,140 Z" fill="#e8f9ff" stroke-width="3"/>
+<path d="M30,250 L34,262 L46,266 L34,270 L30,282 L26,270 L14,266 L26,262 Z" fill="#e8f9ff" stroke-width="3"/>
+</svg>

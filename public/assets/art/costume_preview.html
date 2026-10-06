@@ -1,0 +1,51 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Costume Preview</title>
+<style>
+  body { margin: 0; background: #cfe8d8; font-family: sans-serif; }
+  .row { display: flex; gap: 30px; padding: 20px; flex-wrap: wrap; align-items: flex-end; }
+  .cell { text-align: center; }
+  .stage { position: relative; width: 260px; height: 420px; }
+  .stage img { position: absolute; }
+</style>
+<!-- 用法：costume_preview.html?sets=school,knight  —— 每套画 2 个姿势：站立、挥剑（右臂抬起）；第一个总是原始主角做对比 -->
+<div class="row" id="row"></div>
+<script>
+const BASE = 'chars/hero/';
+const sets = (new URLSearchParams(location.search).get('sets') || '').split(',').filter(Boolean);
+fetch(BASE + 'rig.json').then((r) => r.json()).then((rig) => {
+  const row = document.getElementById('row');
+  for (const set of ['', ...sets]) for (const pose of ['stand', 'swing']) {
+    const cell = document.createElement('div');
+    cell.className = 'cell';
+    const st = document.createElement('div');
+    st.className = 'stage';
+    const S = 1, ox = 130, oy = 400; // 脚底中点
+    const parts = [...rig.parts].filter((p) => p.id !== 'weapon').sort((a, b) => a.z - b.z);
+    for (const p of parts) {
+      const file = set && p.id !== 'head' ? `costume/${set}/${p.file}` : p.file;
+      const img = new Image();
+      img.src = BASE + file;
+      img.style.left = ox + (p.x - p.px) * S + 'px';
+      img.style.top = oy + (p.y - p.py) * S + 'px';
+      img.style.transformOrigin = `${p.px}px ${p.py}px`;
+      if (pose === 'swing' && p.id === 'armR') img.style.transform = 'rotate(-120deg)';
+      if (pose === 'swing' && p.id === 'legL') img.style.transform = 'rotate(18deg)';
+      if (pose === 'swing' && p.id === 'legR') img.style.transform = 'rotate(-18deg)';
+      img.style.zIndex = p.z * 10;
+      st.appendChild(img);
+      if (set && p.id === 'head') {
+        // 帽子：与 head.svg 同尺寸同坐标，叠在头上
+        const hat = new Image();
+        hat.src = `${BASE}costume/${set}/hat.svg`;
+        hat.style.left = img.style.left; hat.style.top = img.style.top;
+        hat.style.zIndex = p.z * 10 + 5;
+        st.appendChild(hat);
+      }
+    }
+    cell.appendChild(st);
+    cell.appendChild(document.createTextNode(`${set || '原始'} · ${pose}`));
+    row.appendChild(cell);
+  }
+});
+</script>
