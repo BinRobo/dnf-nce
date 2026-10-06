@@ -2,6 +2,7 @@ import Phaser from 'phaser';
 import { BALANCE, expToNext } from '../config';
 import { hasMusic, music, sfx } from '../audio/sound';
 import { isTouch } from '../ui/device';
+import { TownSocial } from './townSocial';
 import { bossBannerInfo } from '../battle/plan';
 import { dungeonNo } from '../config';
 import { loadNow, need } from '../assets';
@@ -19,6 +20,8 @@ import { canCraft, craftEpic, CRAFT_COST, epicsFor, RARITY } from '../systems/it
 import { weaponLook } from '../gfx/icons';
 import { classOf } from '../systems/classes';
 import { fullSet } from '../systems/costumes';
+import { dungeonOpen } from '../systems/progress';
+import { party } from '../net/party';
 import { canChangeJob, JOBS, playerStats } from '../systems/player';
 import { dueItems } from '../systems/questions';
 import { ACHIEVEMENTS, claimDaily, DAILY_TASKS } from '../systems/session';
@@ -125,6 +128,7 @@ export class TownScene extends Phaser.Scene {
     this.targetX = null;
     this.objTargetX = null;
     this.edgeArrow = undefined;
+    this.social = undefined;
     const dist = this.resolveDistrict();
     s.town.district = dist.id;
     this.dist = dist;
@@ -242,7 +246,12 @@ export class TownScene extends Phaser.Scene {
     void this.startBarks();
     if (this.openMap) this.time.delayedCall(200, () => this.worldMap());
     this.events.once('shutdown', () => (this.lastX = this.hero?.x));
+    // 多人：登录、家长没关闭、服务器可用时，同街区的孩子能互相看到
+    this.social = new TownSocial(this, this.world, TownScene.GROUND, dist.id, () => this.hero);
+    this.social.start(x0);
   }
+
+  private social?: TownSocial;
 
   private touchDir = 0;
   private actBtn?: Phaser.GameObjects.Container;
@@ -308,6 +317,7 @@ export class TownScene extends Phaser.Scene {
       this.hero.idle();
     }
     this.heroLabel.setX(this.hero.x);
+    this.social?.update(dt, this.hero.x, this.hero.scaleX < 0 ? -1 : 1, !!dir);
     // 摄像机跟随（平滑）
     const want = Phaser.Math.Clamp(this.hero.x - 640, 0, this.W - 1280);
     this.camX += (want - this.camX) * Math.min(1, dt * 6);
@@ -846,7 +856,7 @@ export class TownScene extends Phaser.Scene {
       const rec = s.dungeons[id];
       const fresh = TownScene.NEW.has(id);
       // 切片：L5-6 在通关 L1-2 后直接开放（主线任务）
-      const open = unlocked && (i === 0 || this.cleared(region.dungeons[i - 1]) || (id === 'L005-006' && this.cleared('L001-002')));
+      const open = dungeonOpen(game.s, game.manifest, id);
       const cx = x + 132 + (i % 2) * 256;
       const cy = 140 + Math.floor(i / 2) * 76;
       this.dungeonPos[id] = [cx, cy];
@@ -899,6 +909,7 @@ export class TownScene extends Phaser.Scene {
     const d = today();
     if (!s.stats.playDays.includes(d)) s.stats.playDays.push(d);
     void game.persist();
+    party.leave(); // 自己去打副本就先退出队伍，免得让队友干等
     this.scene.start('Battle', { plan });
   }
 

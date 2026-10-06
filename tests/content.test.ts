@@ -2,7 +2,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import type { LessonPair, Manifest } from '../src/content/types';
 import { newSave } from '../src/save/schema';
-import { buildDungeon, ContentIndex } from '../src/systems/questions';
+import { buildDungeon, meaningQ, ContentIndex } from '../src/systems/questions';
 
 const BASE = 'public/content/book1';
 const manifest = JSON.parse(readFileSync(`${BASE}/manifest.json`, 'utf8')) as Manifest;
@@ -51,6 +51,18 @@ describe('课程内容', () => {
         if (q.kind === 'spell') for (const ch of q.word) expect(q.tiles).toContain(ch);
         if (q.kind === 'order') expect([...q.chips].sort()).toEqual([...q.answer].sort());
       }
+    }
+  });
+});
+
+describe('识词题的干扰项', () => {
+  it('不会出现只差大小写的选项（miss / Miss）', () => {
+    const lesson = lessons.find((l) => l.words.some((w) => w.en === 'miss'));
+    expect(lesson).toBeTruthy();
+    const w = lesson!.words.find((x) => x.en === 'miss')!;
+    for (let n = 0; n < 300; n++) {
+      const q = meaningQ(w, idx, lesson!.words);
+      expect(new Set(q.options.map((o: string) => o.toLowerCase())).size).toBe(q.options.length);
     }
   });
 });

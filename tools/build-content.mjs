@@ -105,3 +105,9 @@ mkdirSync('public/content/skills', { recursive: true });
 for (const f of existsSync('content-src/skills') ? readdirSync('content-src/skills').filter((f) => f.endsWith('.json')) : []) {
   writeFileSync(`public/content/skills/${f}`, readFileSync(`content-src/skills/${f}`));
 }
+
+// 多人在线的预设短句：content-src/social/phrases.json → public/content/social/
+if (existsSync('content-src/social/phrases.json')) {
+  mkdirSync('public/content/social', { recursive: true });
+  writeFileSync('public/content/social/phrases.json', readFileSync('content-src/social/phrases.json'));
+}

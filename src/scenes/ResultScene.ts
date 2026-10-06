@@ -14,6 +14,7 @@ import { buildAbyssBattle, buildBattle } from '../battle/plan';
 import { music, sfx } from '../audio/sound';
 import { timeLeftMs } from '../save/schema';
 import { game } from '../state';
+import type { PartyEnd } from '../net/party';
 import { bar, button, COLORS, EN_FONT, panel, text, toast } from '../ui/widgets';
 
 const RANK_COLOR: Record<string, string> = { SSS: '#ffb020', SS: '#ff6bc8', S: '#b46bff', A: '#5aa9ff', B: '#cfd3dc', C: '#8f96c2' };
@@ -21,12 +22,14 @@ const RANK_COLOR: Record<string, string> = { SSS: '#ffb020', SS: '#ff6bc8', S: '
 export class ResultScene extends Phaser.Scene {
   private r!: RunResult;
   private plan!: { id: string; title: string; isAbyss: boolean };
+  private party: PartyEnd | null = null;
 
   constructor() {
     super('Result');
   }
 
-  init(data: { result: RunResult; plan: { id: string; title: string; isAbyss: boolean } }) {
+  init(data: { result: RunResult; plan: { id: string; title: string; isAbyss: boolean }; party?: PartyEnd }) {
+    this.party = data.party ?? null;
     this.r = data.result;
     this.plan = data.plan;
   }
@@ -107,7 +110,8 @@ export class ResultScene extends Phaser.Scene {
     });
 
     button(this, width / 2 - 160, 650, 260, 60, '回到城镇', () => this.scene.start('Town', { from: 'battle' }));
-    button(this, width / 2 + 160, 650, 260, 60, '再来一次', () => this.again(), { color: 0x3b62d9 });
+    if (this.party) this.partyBoard(width);
+    else button(this, width / 2 + 160, 650, 260, 60, '再来一次', () => this.again(), { color: 0x3b62d9 });
   }
 
   /** 升级仪式：光柱 + 等级大字 + 属性提升 + 新技能解锁卡 */
@@ -147,6 +151,20 @@ export class ResultScene extends Phaser.Scene {
     });
     extras.forEach((t, i) => c.add(text(this, 280, 280 + i * 40, `✨ ${t}`, 22, '#9fe3ff', { stroke: '#000', strokeThickness: 4 }).setOrigin(0.5)));
     c.add(button(this, 640, 650, 240, 56, '太棒了！', () => c.destroy(), { color: 0x3b62d9 }));
+  }
+
+  /** 组队结算：每个队员答对数、伤害、救人次数 + 加成说明 */
+  private partyBoard(width: number) {
+    const p = this.party!;
+    const reason = { win: '大家一起打败了 Boss！', down: '全员倒下了…', left: '队友都离开了', time: '时间到了，Boss 还没倒…' }[p.reason];
+    text(this, 900, 128, `🛡 ${reason}`, 20, p.win ? '#7dffa0' : '#ffd27a').setOrigin(0.5);
+    text(this, 900, 158, `组队加成：经验、金币 +${Math.round((this.r.partyBonus ?? 0) * 100)}%`, 16, COLORS.dim).setOrigin(0.5);
+    p.stats.forEach((m, i) => {
+      const y = 196 + i * 30;
+      text(this, 700, y, `${m.name}${m.left ? '（中途离开）' : ''}`, 18, m.left ? COLORS.dim : '#ffffff');
+      text(this, 1100, y, `答对${m.correct}  伤害${m.damage}${m.rescues ? `  救人${m.rescues}` : ''}`, 16, COLORS.dim).setOrigin(1, 0);
+    });
+    void width;
   }
 
   private again() {

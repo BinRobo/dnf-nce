@@ -6,6 +6,8 @@ import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
 import zlib from 'node:zlib';
+import { createRealtime } from './realtime.mjs';
+import { createSocial } from './social.mjs';
 
 const MAX_BODY = 3 * 1024 * 1024;
 const SESSION_DAYS = 90;
@@ -150,6 +152,7 @@ export function createApp(opts) {
   function dropSessions(uid) {
     for (const [k, s] of Object.entries(sessions)) if (s.uid === uid) delete sessions[k];
     sessionsF.save();
+    rt?.kick(uid);
   }
 
   // ---------- 存档文件 ----------
@@ -189,8 +192,11 @@ export function createApp(opts) {
     return data && typeof data === 'object' && data.id === id && typeof data.name === 'string' && data.name.length <= 40 && Number.isFinite(data.level) && Number.isFinite(data.updatedAt) && typeof data.version === 'number';
   }
 
+  let rt;
+  const social = createSocial({ users, usersF, HttpError, limited, fail, ip, readJson, send, authUser, listSaveIds, readSave, rt: () => rt, dataDir, phraseOk });
+
   // ---------- API ----------
-  const publicUser = (u) => ({ id: u.id, username: u.username, displayName: u.displayName, dailyMinutes: u.dailyMinutes ?? null });
+  const publicUser = (u) => ({ id: u.id, username: u.username, displayName: u.displayName, dailyMinutes: u.dailyMinutes ?? null, social: u.social !== false });
 
   async function api(req, res, url) {
     const m = req.method;
@@ -274,6 +280,9 @@ export function createApp(opts) {
       return send(res, 200, { ok: true });
     }
 
+    // ----- 好友 -----
+    if (await social.handle(req, res, url)) return;
+
     // ----- 云存档 -----
     if (p === '/api/saves' && m === 'GET') {
       const u = authUser(req);
@@ -344,10 +353,14 @@ export function createApp(opts) {
         return send(res, 200, {
           users: Object.values(users).map((u) => ({
             id: u.id, username: u.username, createdAt: u.createdAt, lastSeen: u.lastSeen, disabled: u.disabled, dailyMinutes: u.dailyMinutes ?? null, label: u.label ?? '',
+            social: u.social !== false, online: rt?.online(u.id) ?? null, friends: (u.friends ?? []).map((id) => users[id]?.username).filter(Boolean),
             saves: listSaveIds(u.id).map((id) => ({ id, rec: readSave(u.id, id) })).filter((x) => x.rec).map((x) => meta(x.id, x.rec)),
           })),
           invites: Object.entries(invites).map(([code, i]) => ({ code, label: i.label, exp: i.exp, used: i.used, maxUses: i.maxUses, active: i.exp > now && i.used < i.maxUses })),
         });
+      }
+      if (p === '/api/admin/gifts' && m === 'GET') {
+        return send(res, 200, { gifts: social.recentGifts(Math.min(300, Number(url.searchParams.get('limit')) || 100)) });
       }
       if (p === '/api/admin/invites' && m === 'POST') {
         const b = await readJson(req);
@@ -371,6 +384,7 @@ export function createApp(opts) {
         if (!action && m === 'DELETE') {
           fs.mkdirSync(path.join(dataDir, 'trash', u.id), { recursive: true });
           for (const id of listSaveIds(u.id)) fs.renameSync(saveFile(u.id, id), path.join(dataDir, 'trash', u.id, `${id}.${Date.now()}.json`));
+          social.forget(u.id);
           delete users[u.id];
           dropSessions(u.id);
           usersF.save();
@@ -389,6 +403,13 @@ export function createApp(opts) {
           const b = await readJson(req);
           u.disabled = !!b.disabled;
           if (u.disabled) dropSessions(u.id);
+          usersF.save();
+          return send(res, 200, { ok: true });
+        }
+        if (action === 'social' && m === 'POST') {
+          const b = await readJson(req);
+          u.social = !!b.enabled;
+          if (!u.social) rt?.kick(u.id, 4003, '多人功能已被家长关闭');
           usersF.save();
           return send(res, 200, { ok: true });
         }
@@ -482,6 +503,27 @@ export function createApp(opts) {
     return req.method === 'HEAD' ? res.end() : fs.createReadStream(file).pipe(res);
   }
 
+  // ---------- 多人在线（WebSocket） ----------
+  // 预设短句表：孩子只能发这里面的 id。服务器从托管的游戏目录里读，每分钟刷新一次
+  let phraseCache = { at: 0, ids: null };
+  function phraseOk(id) {
+    if (opts.phraseIds) return opts.phraseIds.has(id);
+    if (Date.now() - phraseCache.at > 60_000) {
+      let ids = null;
+      // 线上：托管目录里的 content/social/phrases.json；本地开发（没有托管目录）：public/ 里的
+      for (const dir of [staticDir, path.resolve('public')]) {
+        if (!dir) continue;
+        try {
+          ids = new Set(JSON.parse(fs.readFileSync(path.join(dir, 'content', 'social', 'phrases.json'), 'utf8')).map((p) => p.id));
+          break;
+        } catch {
+          /* 换下一个位置；都没有就全部拒绝 */
+        }
+      }
+      phraseCache = { at: Date.now(), ids };
+    }
+    return !!phraseCache.ids?.has(id);
+  }
   const server = http.createServer(async (req, res) => {
     const url = new URL(req.url, 'http://x');
     try {
@@ -494,5 +536,19 @@ export function createApp(opts) {
     }
   });
   server.requestTimeout = 60_000;
-  return { server, close: () => new Promise((r) => server.close(() => r())) };
+  rt = createRealtime({
+    server,
+    phraseOk,
+    users,
+    partyOpts: opts.party,
+    authenticate: (req) => {
+      const sess = session(req, 'user');
+      const u = sess && users[sess.uid];
+      if (!u || u.disabled) return { code: 401 };
+      if (u.social === false) return { code: 403 };
+      u.lastSeen = Date.now();
+      return { user: u };
+    },
+  });
+  return { server, rt, close: () => new Promise((r) => { rt.closeAll(); server.close(() => r()); server.closeAllConnections?.(); }) };
 }

@@ -31,6 +31,8 @@ export interface RunResult {
   firstClear: boolean;
   newAchievements: string[];
   bestCombo: number;
+  /** 组队加成（0.25 = 经验和金币 +25%） */
+  partyBonus?: number;
 }
 
 export const ACHIEVEMENTS: Record<string, { name: string; desc: string; test: (s: SaveData) => boolean }> = {
@@ -98,7 +100,7 @@ export function consumeFatigue(save: SaveData, isAbyss: boolean) {
 }
 
 /** 每道题只记录第一次作答（答错后重新出现的那次不计入记忆曲线） */
-export function finishRun(save: SaveData, plan: Pick<DungeonPlan, 'id' | 'title' | 'isAbyss'>, logs: AnswerLog[], bestCombo: number, cleared: boolean): RunResult {
+export function finishRun(save: SaveData, plan: Pick<DungeonPlan, 'id' | 'title' | 'isAbyss'>, logs: AnswerLog[], bestCombo: number, cleared: boolean, partyBonus = 0): RunResult {
   const now = Date.now();
   for (const l of logs) {
     const grade = !l.firstTry ? 1 : l.ms < 6000 ? 5 : 4;
@@ -178,6 +180,10 @@ export function finishRun(save: SaveData, plan: Pick<DungeonPlan, 'id' | 'title'
   for (const it of loot) if (it.rarity === 'epic') save.stats.epicDrops++;
   save.inventory.push(...loot);
   recordCodex(save, loot);
+  if (partyBonus) {
+    exp = Math.round(exp * (1 + partyBonus));
+    gold = Math.round(gold * (1 + partyBonus));
+  }
   save.gold += gold;
   save.stones += stones;
   const levelUps = addExp(save, exp);
@@ -189,5 +195,5 @@ export function finishRun(save: SaveData, plan: Pick<DungeonPlan, 'id' | 'title'
       newAchievements.push(id);
     }
   }
-  return { cleared, rank, score, accuracy, exp, gold, stones, shards, souls, mats, levelUps, loot, firstClear, newAchievements, bestCombo };
+  return { cleared, rank, score, accuracy, exp, gold, stones, shards, souls, mats, levelUps, loot, firstClear, newAchievements, bestCombo, partyBonus: partyBonus || undefined };
 }

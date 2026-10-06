@@ -35,6 +35,8 @@ label{display:block;font-size:14px;color:var(--mute);margin:10px 0 4px}
 .between{justify-content:space-between}
 .mute{color:var(--mute);font-size:14px}
 .chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 10px;font-size:13px}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--ok);margin-right:6px;vertical-align:baseline}
+.onl{color:var(--ok);font-weight:600;margin-top:4px;overflow-wrap:anywhere}
 .chip.ok{background:var(--okbg);color:var(--ok)}.chip.bad{background:var(--badbg);color:var(--bad)}
 .uname{font-size:18px;font-weight:700;overflow-wrap:anywhere}
 .chars{margin-top:10px;border-top:1px dashed var(--line)}
@@ -54,6 +56,8 @@ label{display:block;font-size:14px;color:var(--mute);margin:10px 0 4px}
 .modal h3{margin:0 0 8px;font-size:18px}
 .modal .btns{display:flex;gap:8px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
 .snap{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 0;border-bottom:1px dashed var(--line)}
+.gift{padding:10px 0;border-bottom:1px dashed var(--line);overflow-wrap:anywhere}
+.gift:last-child{border:0}
 [hidden]{display:none!important}
 </style>
 </head>
@@ -64,7 +68,8 @@ label{display:block;font-size:14px;color:var(--mute);margin:10px 0 4px}
 (function(){
 'use strict';
 var $app=document.getElementById('app'),$toast=document.getElementById('toast');
-var state={view:'loading',users:[],invites:[],newCode:null};
+var state={view:'loading',users:[],invites:[],newCode:null,gifts:[],giftShow:10};
+var DIST={campus:'学园区',market:'集市区',valley:'山谷村',king:'国王街',station:'集市与车站',snow:'雪山邮局',theatre:'剧院区'};
 var CLS={sword:'剑士',gunner:'神枪手',mage:'魔法师'},SEX={m:'男',f:'女'};
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 
@@ -103,6 +108,7 @@ function ago(t){
 }
 function p2(n){return n<10?'0'+n:''+n}
 function fmt(t){var d=new Date(t);return d.getFullYear()+'-'+p2(d.getMonth()+1)+'-'+p2(d.getDate())+' '+p2(d.getHours())+':'+p2(d.getMinutes())}
+function fmtMD(t){var d=new Date(t);return (d.getMonth()+1)+'月'+d.getDate()+'日 '+p2(d.getHours())+':'+p2(d.getMinutes())}
 function fmtDay(t){return fmt(t).slice(0,10)}
 function codeFmt(c){c=String(c);return c.length>4?c.slice(0,4)+'-'+c.slice(4):c}
 
@@ -136,10 +142,30 @@ function modal(o){
 // ---------- 数据 ----------
 function load(){
   return api('GET','/api/admin/overview').then(function(j){
+    return loadGifts().then(function(){return j})
+  }).then(function(j){
     state.users=j.users||[];state.invites=(j.invites||[]).sort(function(a,b){return b.exp-a.exp});
     state.view='main';render();
   },function(e){if(e.status!==401){state.view='main';render();toast(e.message)}});
 }
+
+function loadGifts(){
+  return api('GET','/api/admin/gifts?limit=100').then(function(g){state.gifts=g.gifts||[]},function(e){if(e.status===401)throw e})
+}
+function onlineCount(){return state.users.filter(function(u){return u.online}).length}
+function auto(){
+  if(document.hidden||state.view!=='main'||document.querySelector('.mask'))return;
+  var ae=document.activeElement;if(ae&&ae.tagName==='INPUT'&&$app.contains(ae))return;
+  api('GET','/api/admin/overview').then(function(j){
+    return loadGifts().then(function(){return j},function(){return j})
+  }).then(function(j){
+    if(document.querySelector('.mask')||state.view!=='main')return;
+    state.users=j.users||[];state.invites=(j.invites||[]).sort(function(a,b){return b.exp-a.exp});
+    var ae=document.activeElement;if(ae&&ae.tagName==='INPUT'&&$app.contains(ae))return;
+    var y=window.scrollY;render();window.scrollTo(0,y);
+  },function(){});
+}
+setInterval(auto,20000);
 
 // ---------- 渲染 ----------
 function render(){
@@ -154,9 +180,16 @@ function render(){
   }
   var h='<header><h1>英语地下城 · 家长管理</h1><button id="logout" class="sm">退出</button></header>';
   h+='<div class="tip">孩子打开游戏后点“登录/注册”，输入邀请码即可创建账号</div>';
-  h+='<h2>孩子账号</h2>';
+  h+='<h2>孩子账号</h2><div class="mute" id="olcount" style="margin:-4px 0 10px">现在在线 '+onlineCount()+' 人</div>';
   if(!state.users.length)h+='<div class="card mute">还没有孩子账号。先在下面创建一个邀请码吧。</div>';
   state.users.forEach(function(u){h+=userCard(u)});
+  h+='<h2>赠送记录</h2><div class="card">';
+  if(!state.gifts.length)h+='<div class="mute">还没有赠送记录</div>';
+  state.gifts.slice(0,state.giftShow).forEach(function(g){
+    h+='<div class="gift"><div class="mute">'+fmtMD(g.at)+'</div><div><b>'+esc(g.from)+'</b>（'+esc(g.fromUser)+'）→ <b>'+esc(g.to)+'</b>（'+esc(g.toUser)+'）</div><div>'+esc(g.gift)+(g.phrase?' <span class="chip">附话</span>':'')+'</div></div>';
+  });
+  if(state.gifts.length>state.giftShow)h+='<div style="margin-top:10px"><button class="sm" data-a="moregifts">显示更多</button></div>';
+  h+='</div>';
   h+='<h2>邀请码</h2><div class="card"><form id="inf" class="form">'+
     '<div class="full"><label for="il" style="margin-top:0">备注（孩子的名字）</label><input id="il" maxlength="20" placeholder="例如：小明"></div>'+
     '<div><label for="id">有效天数（1–60）</label><input id="id" type="number" inputmode="numeric" min="1" max="60" value="14"></div>'+
@@ -178,8 +211,12 @@ function render(){
 }
 function userCard(u){
   var h='<div class="card" data-uid="'+esc(u.id)+'"><div class="row between"><span class="uname">'+esc(u.username)+'</span><span class="chip '+(u.disabled?'bad':'ok')+'">'+(u.disabled?'已暂停':'正常')+'</span></div>';
+  if(u.online)h+='<div class="onl"><span class="dot"></span>在线 · '+(u.online.district?esc(DIST[u.online.district]||u.online.district):'在副本里')+' · '+esc(u.online.name)+'</div>';
+  if(u.social===false)h+='<div style="margin-top:4px"><span class="chip">多人功能已关闭</span></div>';
+  var fr=u.friends||[];
+  h+='<div class="mute" style="overflow-wrap:anywhere">'+(fr.length?'好友：'+fr.map(esc).join('、')+'（共 '+fr.length+' 位）':'好友：还没有')+'</div>';
   h+='<div class="mute">'+(u.label?'备注：'+esc(u.label)+' · ':'')+'注册于 '+fmtDay(u.createdAt)+' · 最近上线 '+ago(u.lastSeen)+'<br>每日时长：'+(u.dailyMinutes?u.dailyMinutes+' 分钟':'用孩子设备上的设置')+'</div>';
-  h+='<div class="acts"><button class="sm" data-a="pw">重置密码</button><button class="sm" data-a="dis">'+(u.disabled?'恢复账号':'暂停账号')+'</button><button class="sm" data-a="limit">每日游戏时长</button><button class="sm danger" data-a="del">删除账号</button></div>';
+  h+='<div class="acts"><button class="sm" data-a="pw">重置密码</button><button class="sm" data-a="dis">'+(u.disabled?'恢复账号':'暂停账号')+'</button><button class="sm" data-a="limit">每日游戏时长</button><button class="sm" data-a="social">'+(u.social===false?'开启多人功能':'关闭多人功能')+'</button><button class="sm danger" data-a="del">删除账号</button></div>';
   h+='<div class="chars">';
   if(!u.saves||!u.saves.length)h+='<div class="char mute">还没有角色存档</div>';
   (u.saves||[]).forEach(function(s){
@@ -237,6 +274,7 @@ function download(u,sid){
 $app.addEventListener('click',function(e){
   var b=e.target.closest('[data-a]');if(!b)return;
   var a=b.getAttribute('data-a');
+  if(a==='moregifts'){state.giftShow+=20;var y=window.scrollY;render();window.scrollTo(0,y);return}
   if(a==='revoke'){
     var code=b.getAttribute('data-code');
     modal({title:'撤销邀请码？',body:'<p>邀请码 '+esc(codeFmt(code))+' 撤销后就不能再用了。已经注册的账号不受影响。</p>',ok:'撤销',danger:true,
@@ -255,6 +293,12 @@ $app.addEventListener('click',function(e){
     var to=!u.disabled;
     modal({title:(to?'暂停':'恢复')+'账号？',body:'<p>'+(to?'暂停后“'+esc(u.username)+'”会被退出登录，不能再登录，存档保留。':'恢复后“'+esc(u.username)+'”可以重新登录。')+'</p>',ok:to?'暂停':'恢复',danger:to,
       onOk:function(){return run(api('POST','/api/admin/users/'+u.id+'/disable',{disabled:to}),to?'已暂停':'已恢复').then(load)}});
+  }
+  else if(a==='social'){
+    var en=u.social===false;
+    var send=function(){return run(api('POST','/api/admin/users/'+u.id+'/social',{enabled:en}),en?'已开启多人功能':'已关闭多人功能').then(load)};
+    if(en)send().catch(function(){});
+    else modal({title:'关闭多人功能？',body:'<p>关闭后他会马上从游戏里下线，也看不到别人。</p>',ok:'关闭多人功能',danger:true,onOk:send});
   }
   else if(a==='limit')modal({title:'每日游戏时长 · '+u.username,body:'<p class="mute">填 5–600 分钟。留空表示用孩子设备上的设置。</p>',input:{label:'每天最多玩（分钟）',type:'number',ph:'留空 = 不限制',value:u.dailyMinutes||''},ok:'保存',
     onOk:function(v){v=String(v).trim();var n=null;

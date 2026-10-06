@@ -15,6 +15,8 @@ export interface CloudUser {
   displayName: string;
   /** 家长在后台设置的每天游戏时长（分钟），null = 用设备上的设置 */
   dailyMinutes: number | null;
+  /** 家长是否允许多人功能（默认允许） */
+  social?: boolean;
 }
 interface Meta {
   user: string;

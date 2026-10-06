@@ -7,6 +7,7 @@ import { makeHero } from '../gfx/hero';
 import { classOf } from '../systems/classes';
 import { game } from '../state';
 import { cloud } from '../save/cloud';
+import { net } from '../net/realtime';
 import { isStandalone, isTouch } from '../ui/device';
 import { domDialog } from '../ui/dom';
 import { downloadText, pickTextFile, stamp } from '../ui/files';
@@ -46,7 +47,10 @@ export class ProfileScene extends Phaser.Scene {
         confirmBox(this, '退出登录会清掉这台平板上本账号的角色（进度在云端，下次登录会回来）。确定吗？', async () => {
           const err = await cloud.logout();
           if (err) toast(this, err, '#ff9a9a');
-          else this.scene.restart();
+          else {
+            net.close();
+            this.scene.restart();
+          }
         }), { size: 17, color: 0x444a6b });
     } else {
       button(this, 1130, 44, 250, 50, '☁ 登录 / 注册', () => this.openLogin(), { size: 21, color: 0x8a5a12 });

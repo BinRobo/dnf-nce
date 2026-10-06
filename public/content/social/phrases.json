@@ -1,0 +1,302 @@
+[
+  {
+    "id": "excuse_me",
+    "en": "Excuse me!",
+    "zh": "打扰一下！",
+    "unlock": "L001-002",
+    "audio": {
+      "lesson": "L001-002",
+      "line": 0
+    }
+  },
+  {
+    "id": "thank_you_much",
+    "en": "Thank you very much.",
+    "zh": "非常感谢！",
+    "unlock": "L001-002",
+    "audio": {
+      "lesson": "L001-002",
+      "line": 6
+    }
+  },
+  {
+    "id": "sorry_sir",
+    "en": "Sorry, sir.",
+    "zh": "对不起，先生。",
+    "unlock": "L003-004",
+    "audio": {
+      "lesson": "L003-004",
+      "line": 6
+    }
+  },
+  {
+    "id": "good_morning",
+    "en": "Good morning.",
+    "zh": "早上好。",
+    "unlock": "L005-006",
+    "audio": {
+      "lesson": "L005-006",
+      "line": 0
+    }
+  },
+  {
+    "id": "nice_to_meet_you",
+    "en": "Nice to meet you.",
+    "zh": "很高兴认识你。",
+    "unlock": "L005-006",
+    "audio": {
+      "lesson": "L005-006",
+      "line": 7
+    }
+  },
+  {
+    "id": "how_are_you",
+    "en": "How are you today?",
+    "zh": "你今天好吗？",
+    "unlock": "L009-010",
+    "audio": {
+      "lesson": "L009-010",
+      "line": 2
+    }
+  },
+  {
+    "id": "goodbye",
+    "en": "Goodbye.",
+    "zh": "再见。",
+    "unlock": "L009-010",
+    "audio": {
+      "lesson": "L009-010",
+      "line": 13
+    }
+  },
+  {
+    "id": "lovely_hat",
+    "en": "That is a lovely hat!",
+    "zh": "好漂亮的帽子！",
+    "unlock": "L013-014",
+    "audio": {
+      "lesson": "L013-014",
+      "line": 12
+    }
+  },
+  {
+    "id": "here_you_are",
+    "en": "Here you are.",
+    "zh": "给你。",
+    "unlock": "L021-022",
+    "audio": {
+      "lesson": "L021-022",
+      "line": 6
+    }
+  },
+  {
+    "id": "thanks",
+    "en": "Thanks.",
+    "zh": "谢谢。",
+    "unlock": "L023-024",
+    "audio": {
+      "lesson": "L023-024",
+      "line": 8
+    }
+  },
+  {
+    "id": "be_careful",
+    "en": "Be careful!",
+    "zh": "小心点！",
+    "unlock": "L039-040",
+    "audio": {
+      "lesson": "L039-040",
+      "line": 6
+    }
+  },
+  {
+    "id": "there_we_are",
+    "en": "There we are!",
+    "zh": "好啦，到了！",
+    "unlock": "L039-040",
+    "audio": {
+      "lesson": "L039-040",
+      "line": 10
+    }
+  },
+  {
+    "id": "yes_please",
+    "en": "Yes, please.",
+    "zh": "好的，谢谢。",
+    "unlock": "L047-048",
+    "audio": {
+      "lesson": "L047-048",
+      "line": 5
+    }
+  },
+  {
+    "id": "no_thank_you",
+    "en": "No, thank you.",
+    "zh": "不用了，谢谢。",
+    "unlock": "L047-048",
+    "audio": {
+      "lesson": "L047-048",
+      "line": 7
+    }
+  },
+  {
+    "id": "thats_all_right",
+    "en": "That's all right.",
+    "zh": "没关系。",
+    "unlock": "L065-066",
+    "audio": {
+      "lesson": "L065-066",
+      "line": 17
+    }
+  },
+  {
+    "id": "enjoy_yourself",
+    "en": "Enjoy yourself!",
+    "zh": "玩得开心！",
+    "unlock": "L065-066",
+    "audio": {
+      "lesson": "L065-066",
+      "line": 19
+    }
+  },
+  {
+    "id": "bye_bye",
+    "en": "Bye-bye.",
+    "zh": "拜拜！",
+    "unlock": "L065-066",
+    "audio": {
+      "lesson": "L065-066",
+      "line": 21
+    }
+  },
+  {
+    "id": "hello",
+    "en": "Hello.",
+    "zh": "你好。",
+    "unlock": "L067-068",
+    "audio": {
+      "lesson": "L067-068",
+      "line": 0
+    }
+  },
+  {
+    "id": "im_sorry",
+    "en": "I'm sorry.",
+    "zh": "对不起。",
+    "unlock": "L075-076",
+    "audio": {
+      "lesson": "L075-076",
+      "line": 5
+    }
+  },
+  {
+    "id": "yes_of_course",
+    "en": "Yes, of course.",
+    "zh": "当然可以。",
+    "unlock": "L089-090",
+    "audio": {
+      "lesson": "L089-090",
+      "line": 4
+    }
+  },
+  {
+    "id": "come_in",
+    "en": "Come in.",
+    "zh": "请进。",
+    "unlock": "L089-090",
+    "audio": {
+      "lesson": "L089-090",
+      "line": 5
+    }
+  },
+  {
+    "id": "thank_you",
+    "en": "Thank you.",
+    "zh": "谢谢您。",
+    "unlock": "L097-098",
+    "audio": {
+      "lesson": "L097-098",
+      "line": 15
+    }
+  },
+  {
+    "id": "let_me_help",
+    "en": "Here. Let me help you.",
+    "zh": "我来帮你。",
+    "unlock": "L099-100",
+    "audio": {
+      "lesson": "L099-100",
+      "line": 8
+    }
+  },
+  {
+    "id": "cheer_up",
+    "en": "Oh, cheer up!",
+    "zh": "打起精神来！",
+    "unlock": "L103-104",
+    "audio": {
+      "lesson": "L103-104",
+      "line": 15
+    }
+  },
+  {
+    "id": "very_nice",
+    "en": "That was very nice.",
+    "zh": "真不错。",
+    "unlock": "L109-110",
+    "audio": {
+      "lesson": "L109-110",
+      "line": 10
+    }
+  },
+  {
+    "id": "of_course",
+    "en": "Of course.",
+    "zh": "当然。",
+    "unlock": "L109-110",
+    "audio": {
+      "lesson": "L109-110",
+      "line": 15
+    }
+  },
+  {
+    "id": "beautiful_ship",
+    "en": "What a beautiful ship!",
+    "zh": "多漂亮的船！",
+    "unlock": "L123-124",
+    "audio": {
+      "lesson": "L123-124",
+      "line": 7
+    }
+  },
+  {
+    "id": "that_was_quick",
+    "en": "That was quick!",
+    "zh": "好快啊！",
+    "unlock": "L125-126",
+    "audio": {
+      "lesson": "L125-126",
+      "line": 12
+    }
+  },
+  {
+    "id": "be_more_careful",
+    "en": "I'll certainly be more careful.",
+    "zh": "我会更加小心的。",
+    "unlock": "L129-130",
+    "audio": {
+      "lesson": "L129-130",
+      "line": 18
+    }
+  },
+  {
+    "id": "enjoy_yourselves",
+    "en": "I'm sure you'll enjoy yourselves.",
+    "zh": "我相信你们会玩得开心。",
+    "unlock": "L131-132",
+    "audio": {
+      "lesson": "L131-132",
+      "line": 9
+    }
+  }
+]

@@ -110,6 +110,16 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
         proxy_request_buffering off;
     }
+    # 多人在线用 WebSocket（/ws）：必须转发升级头，并把超时放长，否则孩子们看不到彼此
+    location /ws {
+        proxy_pass http://127.0.0.1:5180;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_read_timeout 120s;
+    }
 }
 ```
 
@@ -122,6 +132,8 @@ server {
 3. 孩子在平板上打开游戏地址，点右上角“☁ 登录 / 注册”→ 输入邀请码、用户名、密码 → 创建角色开始玩。
 4. **平板上“添加到主屏幕”**（iPad：Safari 点分享 → 添加到主屏幕；安卓：Chrome 菜单 → 安装应用 / 添加到主屏幕），之后从图标打开就是全屏 App。
 5. 家长可以在后台：重置孩子密码、暂停账号、设置每天游戏时长、从历史快照恢复存档、下载存档。
+6. **好友、礼物、组队**：互相确认的好友才能送礼物（每人每天最多 3 件，不含史诗装备/碎片/Boss 之魂，后台“赠送记录”可查）；2–4 个好友可以组队打同一个 Boss（每人答自己的题，血量、合击、救人、终结合唱由服务器裁决，组队通关经验和金币 +25%）。队伍只存在内存里，服务重启后自动解散。
+7. **多人在线**：同一街区里的孩子能互相看到，并发课文里学过的英语短句（不能自由打字）。后台能看到谁在线、在哪个街区，可以对单个孩子“关闭多人功能”（他会立刻下线）。在线状态只放内存，服务重启后孩子们会自动重连。
 
 ## 7. 备份与恢复
 
@@ -159,6 +171,7 @@ systemctl start nce-dungeon
 - 数据目录必须在 `dist/` 之外（服务启动时会检查），权限 700，只有 `nce` 用户可读写。
 - 服务以非 root 用户运行，systemd 开启了 `ProtectSystem=strict`、`NoNewPrivileges`。
 - 接口防护：登录和注册限速、跨站请求（Origin 不一致）拒绝、请求体 3 MB 上限、只接受 JSON。
+- 多人在线：只有登录的孩子能连；同一账号只保留一个连接；孩子只能发短句表里的句子（服务器校验，且每 1.5 秒最多一句）；外观信息只接受白名单字段；对方看不到你的登录用户名，只看到角色名。
 - 如果之前把服务器密码发给过别人或写进过聊天记录，部署完成后请改掉，并改用 SSH 密钥登录、关闭密码登录。
 
 ## 11. 目录速查（给需要改代码的 AI）
@@ -169,6 +182,10 @@ systemctl start nce-dungeon
 | `public/admin.html` | 管理后台页面（单文件，无外部依赖） |
 | `deploy/` | `push.sh` 一键推送、`make-bundle.sh` 离线包、`install-server.sh` 服务器安装脚本 |
 | `src/save/cloud.ts` | 客户端云同步（登录、冲突处理、断网补传） |
+| `server/party.mjs` | 组队战斗：队伍、邀请、Boss 血量、合击、倒下 / 救人、终结合唱（内存状态，服务器裁决） |
+| `server/realtime.mjs` | 多人在线：手写的最小 WebSocket 服务（无依赖），房间 = 街区，位置同步和预设短句 |
+| `src/net/realtime.ts`、`src/scenes/townSocial.ts` | 客户端连接管理；城镇里画出其他孩子、打招呼、在线名单 |
+| `content-src/social/phrases.json` | 预设短句表（课文原句，随通关解锁），`node tools/validate-phrases.mjs` 校验 |
 | `src/` 其余 | 游戏代码；`content-src/` 源数据；`public/content/` 由 `tools/build-content.mjs` 生成 |
 | `tests/` | `npm test` 单元与后端测试；`tests/e2e/*.mjs` 浏览器端到端（`cloud.mjs` 两台平板同步测试） |
 

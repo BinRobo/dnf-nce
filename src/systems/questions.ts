@@ -122,7 +122,12 @@ export function listenQ(w: Word, idx: ContentIndex, lessonWords: Word[]): PickQ 
 
 export function meaningQ(w: Word, idx: ContentIndex, lessonWords: Word[]): PickQ {
   const pool = [...lessonWords, ...idx.allWords];
-  const uniq = [...new Set(distractors(pool, (x) => x.en === w.en, 12).map((x) => x.en))].slice(0, 3);
+  // 干扰项不能和正确答案只差大小写（miss / Miss），也不能互相只差大小写
+  const seen = new Set([w.en.toLowerCase()]);
+  const uniq = distractors(pool, (x) => x.en.toLowerCase() === w.en.toLowerCase(), 12)
+    .map((x) => x.en)
+    .filter((en) => !seen.has(en.toLowerCase()) && !!seen.add(en.toLowerCase()))
+    .slice(0, 3);
   const options = shuffle([w.en, ...uniq]);
   return {
     kind: 'pick', mode: 'meaning', itemId: wordId(w),

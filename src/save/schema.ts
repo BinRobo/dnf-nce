@@ -84,6 +84,8 @@ export interface SaveData {
   /** 城镇：当前所在街区与已打造过的史诗 */
   town: { district: string };
   crafted: string[];
+  /** 已收下的信件编号（最近 200 个）：保证同一份礼物不会收两次 */
+  mail: { claimed: string[] };
 }
 
 export interface Settings {
@@ -159,6 +161,7 @@ export function newSave(id: string, name: string, now = Date.now()): SaveData {
     codex: { items: [] },
     town: { district: 'campus' },
     crafted: [],
+    mail: { claimed: [] },
   };
 }
 
@@ -191,6 +194,7 @@ export function migrate(raw: unknown): SaveData {
     mats: { ...base.mats, ...s.mats },
     wardrobe: { ...base.wardrobe, ...s.wardrobe },
     codex: { ...base.codex, ...s.codex },
+    mail: { ...base.mail, ...s.mail },
     town: { ...base.town, ...s.town },
     version: SAVE_VERSION,
   } as SaveData;
