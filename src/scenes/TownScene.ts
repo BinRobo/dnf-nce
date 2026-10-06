@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import { BALANCE, expToNext } from '../config';
 import { hasMusic, music, sfx } from '../audio/sound';
+import { isTouch } from '../ui/device';
 import { bossBannerInfo } from '../battle/plan';
 import { dungeonNo } from '../config';
 import { loadNow, need } from '../assets';
@@ -220,6 +221,8 @@ export class TownScene extends Phaser.Scene {
 
     // 互动提示
     this.prompt = this.add.container(0, 0).setDepth(55).setVisible(false);
+    this.touchDir = 0;
+    if (isTouch) this.touchControls();
     // 输入
     const kb = this.input.keyboard!;
     this.keys = {
@@ -241,6 +244,31 @@ export class TownScene extends Phaser.Scene {
     this.events.once('shutdown', () => (this.lastX = this.hero?.x));
   }
 
+  private touchDir = 0;
+  private actBtn?: Phaser.GameObjects.Container;
+
+  /** 平板：左下角 ◀ ▶ 按住走路，右下角大按钮互动（点地面走路、点提示条互动也照常可用） */
+  private touchControls() {
+    const mk = (x: number, label: string, dir: number) => {
+      const c = this.add.container(x, 586).setDepth(52);
+      const bg = this.add.circle(0, 0, 44, 0x2a3a6a, 0.72).setStrokeStyle(3, 0x9fe3ff, 0.9).setInteractive();
+      c.add([bg, text(this, 0, -2, label, 40, '#ffffff').setOrigin(0.5)]);
+      bg.on('pointerdown', () => { this.touchDir = dir; this.targetX = null; this.autoAct = null; bg.setFillStyle(0x3b62d9, 0.9); });
+      const up = () => { if (this.touchDir === dir) this.touchDir = 0; bg.setFillStyle(0x2a3a6a, 0.72); };
+      bg.on('pointerup', up);
+      bg.on('pointerout', up);
+      bg.on('pointerupoutside', up);
+    };
+    mk(70, '◀', -1);
+    mk(180, '▶', 1);
+    const c = this.add.container(1170, 586).setDepth(52).setVisible(false);
+    const bg = this.add.circle(0, 0, 58, 0x8a5a12, 0.88).setStrokeStyle(4, 0xffe14a, 1).setInteractive();
+    c.add([bg, text(this, 0, 0, '互动', 30, '#ffffff', { fontStyle: 'bold' }).setOrigin(0.5)]);
+    bg.on('pointerdown', () => this.interact());
+    this.tweens.add({ targets: c, scale: 1.08, duration: 500, yoyo: true, repeat: -1 });
+    this.actBtn = c;
+  }
+
   private autoAct: { id: string; x: number; label: string; act: () => unknown } | null = null;
 
   update(_t: number, dtMs: number) {
@@ -250,8 +278,8 @@ export class TownScene extends Phaser.Scene {
     const dt = dtMs / 1000;
     let dir = 0;
     if (!storyOn) {
-      if (this.keys.left.isDown || this.keys.a.isDown) dir = -1;
-      else if (this.keys.right.isDown || this.keys.d.isDown) dir = 1;
+      if (this.keys.left.isDown || this.keys.a.isDown || this.touchDir < 0) dir = -1;
+      else if (this.keys.right.isDown || this.keys.d.isDown || this.touchDir > 0) dir = 1;
       if (dir) {
         this.targetX = null;
         this.autoAct = null;
@@ -307,6 +335,7 @@ export class TownScene extends Phaser.Scene {
         this.prompt.add([t, b]);
       }
       this.prompt.setVisible(!!near);
+      this.actBtn?.setVisible(!!near);
     }
     if (near) this.prompt.setPosition(near.x - this.camX, 300);
     // 目标在屏幕外时，屏幕边缘的方向箭头

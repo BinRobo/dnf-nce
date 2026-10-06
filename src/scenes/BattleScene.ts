@@ -8,6 +8,7 @@ import { bossBannerInfo, bossDef, MOB_SFX, qtype, type BattlePlan, type Enemy, t
 import { boom, castSkill, makeSkillTextures, slashAnim } from '../battle/skills';
 import { BAR_KEYS, barSize, baseSkill, skillDef } from '../battle/skilldata';
 import { classOf } from '../systems/classes';
+import { isTouch } from '../ui/device';
 import { fullSet } from '../systems/costumes';
 import { makeHero } from '../gfx/hero';
 import { weaponHit, weaponStyle, type WeaponStyle } from '../battle/weaponfx';
@@ -103,7 +104,7 @@ export class BattleScene extends Phaser.Scene {
     this.queued = null;
     this.fx = new Fx(this, s.settings.reduceFx);
     makeSkillTextures(this);
-    const spellMode = s.settings.spellMode === 'auto' ? (this.young ? 'tiles' : 'keyboard') : s.settings.spellMode;
+    const spellMode = s.settings.spellMode === 'auto' ? (this.young || isTouch ? 'tiles' : 'keyboard') : s.settings.spellMode;
     this.quiz = new QuizPanel(this, { spellMode, young: this.young });
     this.startedAt = Date.now();
 

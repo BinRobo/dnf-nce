@@ -7,7 +7,10 @@
     "dev": "vite --host",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host",
-    "test": "vitest run"
+    "test": "vitest run",
+    "server": "node server/index.mjs",
+    "bundle": "bash deploy/make-bundle.sh",
+    "deploy": "bash deploy/push.sh"
   },
   "dependencies": {
     "phaser": "^3.90.0"

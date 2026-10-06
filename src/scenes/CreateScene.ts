@@ -3,6 +3,8 @@ import Phaser from 'phaser';
 import { sfx } from '../audio/sound';
 import { makeHero } from '../gfx/hero';
 import { saveProfile } from '../save/db';
+import { cloud } from '../save/cloud';
+import { domPrompt } from '../ui/dom';
 import { newSave } from '../save/schema';
 import { normalizeSkills, skillTree } from '../battle/skilldata';
 import { CLASS_IDS, CLASSES, type ClassId, type Gender } from '../systems/classes';
@@ -76,7 +78,7 @@ export class CreateScene extends Phaser.Scene {
   }
 
   private async confirm() {
-    const name = window.prompt('给你的角色起个名字：', '')?.trim();
+    const name = await domPrompt('给你的角色起个名字', { maxLength: 12, submitLabel: '开始冒险' });
     if (!name) return;
     const s = newSave(uid(), name.slice(0, 12));
     s.cls = this.cls;
@@ -84,6 +86,7 @@ export class CreateScene extends Phaser.Scene {
     normalizeSkills(s);
     await saveProfile(s);
     game.use(s);
+    if (cloud.user) void cloud.adopt(s);
     this.scene.start('Town');
   }
 }

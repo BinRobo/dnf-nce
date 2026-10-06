@@ -77,8 +77,20 @@ export async function listProfiles(): Promise<SaveData[]> {
   return out.sort((a, b) => b.updatedAt - a.updatedAt);
 }
 
-export async function saveProfile(data: SaveData) {
-  data.updatedAt = Date.now();
+export async function getProfile(id: string): Promise<SaveData | null> {
+  const db = await open();
+  const raw = await result(db.transaction('profiles').objectStore('profiles').get(id));
+  if (!raw) return null;
+  try {
+    return migrate(raw);
+  } catch {
+    return null;
+  }
+}
+
+/** keepTime：从云端拉下来的存档保留原来的修改时间（不当作“刚刚改过”） */
+export async function saveProfile(data: SaveData, keepTime = false) {
+  if (!keepTime) data.updatedAt = Date.now();
   const snapshot = structuredClone(data);
   const db = await open();
   const tx = db.transaction(['profiles', 'backups'], 'readwrite');

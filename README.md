@@ -5,7 +5,7 @@
 
 ## 部署到其他服务器
 
-见 [docs/DEPLOY.md](docs/DEPLOY.md)（静态网站 + nginx，含验证步骤与存档迁移说明）。
+见 [docs/DEPLOY.md](docs/DEPLOY.md)：一个 Node 进程同时托管游戏和“账号 + 云存档”后端，`deploy/push.sh` 一键推送，或用 `deploy/make-bundle.sh` 打离线包。家长在 `/admin` 管理孩子账号。
 
 ## 运行
 

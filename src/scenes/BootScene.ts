@@ -2,6 +2,7 @@ import Phaser from 'phaser';
 import { initSound, queueAudio } from '../audio/sound';
 import { loadVoiceIndex } from '../audio/speech';
 import { loadManifest } from '../content/loader';
+import { cloud } from '../save/cloud';
 import { uiSfxKeys } from '../assets';
 import { makeIconTextures } from '../gfx/icons';
 import { registerClassSkills } from '../battle/skilldata';
@@ -63,6 +64,9 @@ export class BootScene extends Phaser.Scene {
       bar.destroy();
       try {
         game.setContent(await loadManifest(), []);
+        // 账号：连得上后端就恢复登录并对齐云存档（最多等 10 秒，连不上就用本机存档）
+        await cloud.init();
+        await Promise.race([cloud.sync(), new Promise((r) => setTimeout(r, 10_000))]).catch(() => null);
         await loadVoiceIndex();
         void requestPersistence();
         if (new URLSearchParams(location.search).has('test')) {

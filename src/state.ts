@@ -2,6 +2,7 @@ import { normalizeSkills } from './battle/skilldata';
 import { setSpeechRate } from './audio/speech';
 import type { LessonPair, Manifest } from './content/types';
 import { saveProfile } from './save/db';
+import { cloud } from './save/cloud';
 import { fetchLesson } from './content/loader';
 import { refreshDaily, type SaveData } from './save/schema';
 import { ContentIndex } from './systems/questions';
@@ -45,6 +46,8 @@ class GameState {
     // 只有测试角色不保存；切回真实角色时自动恢复保存
     this.testMode = save.id === '__test__';
     normalizeSkills(save);
+    // 家长在后台给这个账号设了每天游戏时长，就以它为准
+    if (cloud.user?.dailyMinutes) save.settings.dailyMinutes = cloud.user.dailyMinutes;
     setSpeechRate(save.settings.speechRate);
     if (refreshDaily(save)) void this.persist();
   }
@@ -55,6 +58,7 @@ class GameState {
     const snapshot = this.save;
     this.pending = this.pending
       .then(() => saveProfile(snapshot))
+      .then(() => cloud.noteSaved(snapshot))
       .then(() => {
         this.lastSaveError = null;
       })

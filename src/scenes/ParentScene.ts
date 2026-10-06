@@ -4,6 +4,7 @@ import { refreshMusic } from '../audio/sound';
 import { backdrop } from '../gfx/textures';
 import { emptyDayLog, today, type Settings } from '../save/schema';
 import { game } from '../state';
+import { domPrompt } from '../ui/dom';
 import { button, COLORS, EN_FONT, panel, text, toast } from '../ui/widgets';
 
 const TYPE_NAME: Record<string, string> = { listen: '听音辨义', meaning: '见义识词', fill: '句型填空', spell: '拼写', order: '连词成句' };
@@ -19,21 +20,22 @@ export class ParentScene extends Phaser.Scene {
   create() {
     backdrop(this, 'dungeon', 700);
     button(this, 100, 676, 160, 50, '← 回城', () => this.scene.start('Town'));
-    if (!this.unlocked && !this.gate()) return;
-    this.render();
+    if (this.unlocked) this.render();
+    else void this.gate().then((ok) => ok && this.render());
   }
 
-  private gate(): boolean {
+  private async gate(): Promise<boolean> {
     const s = game.s;
+    const ask = (title: string, hint?: string) => domPrompt(title, { hint, type: 'password', inputMode: 'numeric', maxLength: 4, label: '4 位数字' });
     if (!s.settings.pin) {
-      const a = window.prompt('第一次进入家长页，请设置 4 位数字密码：')?.trim();
+      const a = await ask('设置家长密码', '第一次进入家长页，请设置 4 位数字密码');
       if (!a || !/^\d{4}$/.test(a)) return this.back('密码需要 4 位数字');
-      const b = window.prompt('请再输入一次：')?.trim();
+      const b = await ask('再输入一次');
       if (a !== b) return this.back('两次输入不一致');
       s.settings.pin = a;
       void game.persist();
     } else {
-      const a = window.prompt('请输入家长密码：')?.trim();
+      const a = await ask('请输入家长密码');
       if (a !== s.settings.pin) return this.back('密码不正确');
     }
     this.unlocked = true;

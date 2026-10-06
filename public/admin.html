@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>英语地下城 · 家长管理</title>
+<style>
+:root{--bg:#f4f1ea;--card:#fff;--fg:#25221c;--mute:#6f6a5e;--line:#e3ded2;--pri:#b45309;--pri-fg:#fff;--ok:#15803d;--okbg:#dcfce7;--bad:#b91c1c;--badbg:#fee2e2;--tip:#fef3c7;--tipfg:#78350f;--chip:#efeadd}
+@media (prefers-color-scheme:dark){:root{--bg:#17150f;--card:#232018;--fg:#f0ebdd;--mute:#a39d8c;--line:#3a3629;--pri:#f59e0b;--pri-fg:#1a1200;--ok:#4ade80;--okbg:#14351f;--bad:#f87171;--badbg:#401818;--tip:#3a2f10;--tipfg:#fde68a;--chip:#2d2a1f}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;overflow-x:hidden}
+.wrap{max-width:920px;margin:0 auto;padding:0 16px 48px}
+header{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:14px 0}
+h1{font-size:20px;margin:0}
+h2{font-size:18px;margin:28px 0 10px}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:8px;padding:8px 12px;min-height:40px}
+button:hover{border-color:var(--pri)}
+button.pri{background:var(--pri);color:var(--pri-fg);border-color:var(--pri);font-weight:600}
+button.danger{color:var(--bad)}
+button.sm{min-height:34px;padding:4px 10px;font-size:14px}
+button:disabled{opacity:.5;cursor:default}
+input{font:inherit;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-height:40px;width:100%}
+input:focus,button:focus-visible{outline:2px solid var(--pri);outline-offset:1px}
+label{display:block;font-size:14px;color:var(--mute);margin:10px 0 4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+.tip{background:var(--tip);color:var(--tipfg);border-radius:10px;padding:10px 12px;font-size:15px}
+.toast{position:fixed;top:0;left:0;right:0;z-index:50;padding:12px 16px;text-align:center;font-weight:600;display:none}
+.toast.show{display:block}
+.toast.err{background:var(--badbg);color:var(--bad)}
+.toast.ok{background:var(--okbg);color:var(--ok)}
+.login{max-width:360px;margin:12vh auto 0}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.between{justify-content:space-between}
+.mute{color:var(--mute);font-size:14px}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 10px;font-size:13px}
+.chip.ok{background:var(--okbg);color:var(--ok)}.chip.bad{background:var(--badbg);color:var(--bad)}
+.uname{font-size:18px;font-weight:700;overflow-wrap:anywhere}
+.chars{margin-top:10px;border-top:1px dashed var(--line)}
+.char{padding:10px 0;border-bottom:1px dashed var(--line)}
+.char:last-child{border-bottom:0}
+.cname{font-weight:600;overflow-wrap:anywhere}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.form{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.form .full{grid-column:1/-1}
+@media(max-width:560px){.form{grid-template-columns:1fr 1fr}.form .full{grid-column:1/-1}}
+.code{font:700 38px/1.2 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.08em;text-align:center;padding:14px 4px;background:var(--chip);border-radius:10px;margin:10px 0;user-select:all;overflow-wrap:anywhere}
+.inv{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px dashed var(--line)}
+.inv:last-child{border:0}
+.inv b{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:17px}
+.mask{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:40;display:flex;align-items:center;justify-content:center;padding:16px}
+.modal{background:var(--card);border-radius:14px;padding:18px;width:100%;max-width:440px;max-height:85vh;overflow:auto;border:1px solid var(--line)}
+.modal h3{margin:0 0 8px;font-size:18px}
+.modal .btns{display:flex;gap:8px;justify-content:flex-end;margin-top:16px;flex-wrap:wrap}
+.snap{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px 0;border-bottom:1px dashed var(--line)}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div id="toast" class="toast" role="status"></div>
+<div class="wrap" id="app"></div>
+<script>
+(function(){
+'use strict';
+var $app=document.getElementById('app'),$toast=document.getElementById('toast');
+var state={view:'loading',users:[],invites:[],newCode:null};
+var CLS={sword:'剑士',gunner:'神枪手',mage:'魔法师'},SEX={m:'男',f:'女'};
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+
+var tt;
+function toast(msg,kind){clearTimeout(tt);$toast.textContent=msg;$toast.className='toast show '+(kind||'err');tt=setTimeout(function(){$toast.className='toast'},4000)}
+
+function api(method,path,body){
+  var o={method:method,credentials:'same-origin',headers:{}};
+  if(body!==undefined){o.headers['Content-Type']='application/json';o.body=JSON.stringify(body)}
+  return fetch(path,o).then(function(r){
+    return r.json().catch(function(){return{}}).then(function(j){
+      if(!r.ok){
+        var e=new Error(j.error||('出错了（'+r.status+'）'));e.status=r.status;
+        if(r.status===401&&path!=='/api/admin/login'){state.view='login';render()}
+        throw e;
+      }
+      return j;
+    });
+  },function(){throw new Error('网络不通，请检查网络后重试')});
+}
+function run(p,okMsg){return p.then(function(r){if(okMsg)toast(okMsg,'ok');return r},function(e){toast(e.message);throw e})}
+
+function ago(t){
+  if(!t)return '从未';
+  var d=Date.now()-t;if(d<0)d=0;
+  var m=Math.floor(d/60000);
+  if(m<1)return '刚刚';
+  if(m<60)return m+' 分钟前';
+  var h=Math.floor(m/60);
+  if(h<24)return h+' 小时前';
+  var a=new Date(t),b=new Date();a.setHours(0,0,0,0);b.setHours(0,0,0,0);
+  var days=Math.round((b-a)/864e5);
+  if(days===1)return '昨天';
+  if(days<30)return days+' 天前';
+  return fmt(t);
+}
+function p2(n){return n<10?'0'+n:''+n}
+function fmt(t){var d=new Date(t);return d.getFullYear()+'-'+p2(d.getMonth()+1)+'-'+p2(d.getDate())+' '+p2(d.getHours())+':'+p2(d.getMinutes())}
+function fmtDay(t){return fmt(t).slice(0,10)}
+function codeFmt(c){c=String(c);return c.length>4?c.slice(0,4)+'-'+c.slice(4):c}
+
+// ---------- 页面内对话框 ----------
+function modal(o){
+  var mask=document.createElement('div');mask.className='mask';
+  var html='<div class="modal" role="dialog" aria-modal="true"><h3>'+esc(o.title)+'</h3>'+(o.body||'');
+  if(o.input)html+='<label for="mi">'+esc(o.input.label)+'</label><input id="mi" '+(o.input.type?'type="'+o.input.type+'" ':'')+'autocomplete="off" placeholder="'+esc(o.input.ph||'')+'" value="'+esc(o.input.value||'')+'">';
+  html+='<div class="btns">'+(o.noCancel?'':'<button data-x="cancel">'+esc(o.cancelText||'取消')+'</button>')+(o.ok?'<button class="'+(o.danger?'danger':'pri')+'" data-x="ok">'+esc(o.ok)+'</button>':'')+'</div></div>';
+  mask.innerHTML=html;document.body.appendChild(mask);
+  var inp=mask.querySelector('#mi');
+  function close(){mask.remove();document.removeEventListener('keydown',key)}
+  function key(e){if(e.key==='Escape')close();if(e.key==='Enter'&&inp&&document.activeElement===inp)ok()}
+  function ok(){
+    if(o.onOk){
+      var b=mask.querySelector('[data-x=ok]');b.disabled=true;
+      Promise.resolve(o.onOk(inp?inp.value:'',mask)).then(function(keep){if(keep!==false)close();else b.disabled=false},function(){b.disabled=false});
+    }else close();
+  }
+  mask.addEventListener('click',function(e){
+    if(e.target===mask)close();
+    var x=e.target.getAttribute&&e.target.getAttribute('data-x');
+    if(x==='cancel')close();else if(x==='ok')ok();
+    if(o.onClick)o.onClick(e,close);
+  });
+  document.addEventListener('keydown',key);
+  setTimeout(function(){(inp||mask.querySelector('button')).focus()},30);
+  return{close:close,el:mask};
+}
+
+// ---------- 数据 ----------
+function load(){
+  return api('GET','/api/admin/overview').then(function(j){
+    state.users=j.users||[];state.invites=(j.invites||[]).sort(function(a,b){return b.exp-a.exp});
+    state.view='main';render();
+  },function(e){if(e.status!==401){state.view='main';render();toast(e.message)}});
+}
+
+// ---------- 渲染 ----------
+function render(){
+  if(state.view==='loading'){$app.innerHTML='<p class="mute" style="padding-top:30vh;text-align:center">加载中…</p>';return}
+  if(state.view==='login'){
+    $app.innerHTML='<div class="login card"><h1>家长管理</h1><p class="mute">英语地下城 · 请输入管理员密码</p><form id="lf"><label for="pw">管理员密码</label><input id="pw" type="password" autocomplete="current-password"><div style="margin-top:14px"><button class="pri" style="width:100%" type="submit">登录</button></div></form></div>';
+    var f=document.getElementById('lf');
+    f.onsubmit=function(e){e.preventDefault();var pw=document.getElementById('pw').value;
+      if(!pw){toast('请输入密码');return}
+      run(api('POST','/api/admin/login',{password:pw})).then(load,function(){})};
+    return;
+  }
+  var h='<header><h1>英语地下城 · 家长管理</h1><button id="logout" class="sm">退出</button></header>';
+  h+='<div class="tip">孩子打开游戏后点“登录/注册”，输入邀请码即可创建账号</div>';
+  h+='<h2>孩子账号</h2>';
+  if(!state.users.length)h+='<div class="card mute">还没有孩子账号。先在下面创建一个邀请码吧。</div>';
+  state.users.forEach(function(u){h+=userCard(u)});
+  h+='<h2>邀请码</h2><div class="card"><form id="inf" class="form">'+
+    '<div class="full"><label for="il" style="margin-top:0">备注（孩子的名字）</label><input id="il" maxlength="20" placeholder="例如：小明"></div>'+
+    '<div><label for="id">有效天数（1–60）</label><input id="id" type="number" inputmode="numeric" min="1" max="60" value="14"></div>'+
+    '<div><label for="im">可用次数（1–10）</label><input id="im" type="number" inputmode="numeric" min="1" max="10" value="1"></div>'+
+    '<div class="full"><button class="pri" type="submit">创建邀请码</button></div></form>';
+  if(state.newCode)h+='<div id="newbox"><div class="mute" style="margin-top:14px">新邀请码（发给孩子即可）：</div><div class="code" id="codeTxt">'+esc(codeFmt(state.newCode))+'</div><div class="row"><button id="copy">复制邀请码</button><span class="mute" id="copyMsg"></span></div></div>';
+  h+='</div>';
+  h+='<div class="card"><b>现有邀请码</b>';
+  if(!state.invites.length)h+='<p class="mute" style="margin-bottom:0">暂时没有邀请码</p>';
+  state.invites.forEach(function(i){
+    var now=Date.now(),st=i.exp<=now?['已过期','bad']:i.used>=i.maxUses?['已用完','']:['可用','ok'];
+    h+='<div class="inv"><div><b>'+esc(codeFmt(i.code))+'</b> <span class="chip '+st[1]+'">'+st[0]+'</span><div class="mute">'+(i.label?esc(i.label)+' · ':'')+'已用 '+i.used+'/'+i.maxUses+' 次 · '+(i.exp<=now?'已于 ':'到期 ')+fmtDay(i.exp)+'</div></div><button class="sm danger" data-a="revoke" data-code="'+esc(i.code)+'">撤销</button></div>';
+  });
+  h+='</div>';
+  $app.innerHTML=h;
+  document.getElementById('logout').onclick=function(){api('POST','/api/admin/logout').then(function(){state.view='login';render()},function(e){toast(e.message)})};
+  document.getElementById('inf').onsubmit=createInvite;
+  var cp=document.getElementById('copy');if(cp)cp.onclick=copyCode;
+}
+function userCard(u){
+  var h='<div class="card" data-uid="'+esc(u.id)+'"><div class="row between"><span class="uname">'+esc(u.username)+'</span><span class="chip '+(u.disabled?'bad':'ok')+'">'+(u.disabled?'已暂停':'正常')+'</span></div>';
+  h+='<div class="mute">'+(u.label?'备注：'+esc(u.label)+' · ':'')+'注册于 '+fmtDay(u.createdAt)+' · 最近上线 '+ago(u.lastSeen)+'<br>每日时长：'+(u.dailyMinutes?u.dailyMinutes+' 分钟':'用孩子设备上的设置')+'</div>';
+  h+='<div class="acts"><button class="sm" data-a="pw">重置密码</button><button class="sm" data-a="dis">'+(u.disabled?'恢复账号':'暂停账号')+'</button><button class="sm" data-a="limit">每日游戏时长</button><button class="sm danger" data-a="del">删除账号</button></div>';
+  h+='<div class="chars">';
+  if(!u.saves||!u.saves.length)h+='<div class="char mute">还没有角色存档</div>';
+  (u.saves||[]).forEach(function(s){
+    h+='<div class="char" data-sid="'+esc(s.id)+'"><div class="cname">'+esc(s.name)+'</div><div class="mute">'+(CLS[s.cls]||esc(s.cls))+'·'+(SEX[s.gender]||esc(s.gender))+' · Lv.'+esc(s.level)+' · 通关 '+s.cleared+' 个副本'+(s.todayMin!=null?' · 今天玩了 '+s.todayMin+' 分钟':'')+'<br>最后保存：'+ago(s.updatedAt)+'</div><div class="acts" style="margin-top:6px"><button class="sm" data-a="dl">下载存档</button><button class="sm" data-a="snaps">历史快照</button></div></div>';
+  });
+  return h+'</div></div>';
+}
+
+// ---------- 动作 ----------
+function createInvite(e){
+  e.preventDefault();
+  var days=Number(document.getElementById('id').value),max=Number(document.getElementById('im').value);
+  if(!(days>=1&&days<=60)){toast('有效天数要在 1–60 之间');return}
+  if(!(max>=1&&max<=10)){toast('可用次数要在 1–10 之间');return}
+  var label=document.getElementById('il').value.trim();
+  run(api('POST','/api/admin/invites',{label:label,days:Math.round(days),maxUses:Math.round(max)}),'邀请码已创建').then(function(j){state.newCode=j.code;return load()},function(){});
+}
+function copyCode(){
+  var t=codeFmt(state.newCode),msg=document.getElementById('copyMsg');
+  function manual(){
+    var el=document.getElementById('codeTxt'),r=document.createRange();r.selectNodeContents(el);
+    var s=getSelection();s.removeAllRanges();s.addRange(r);msg.textContent='请长按或按 Ctrl+C 手动复制';
+  }
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(function(){toast('已复制','ok');msg.textContent='已复制'},manual);
+  else manual();
+}
+function findUser(id){return state.users.filter(function(u){return u.id===id})[0]}
+
+function snapsDialog(u,sid){
+  var name=(u.saves.filter(function(s){return s.id===sid})[0]||{}).name||'';
+  var m=modal({title:'历史快照 · '+name,body:'<div id="sl" class="mute">加载中…</div>',noCancel:true,ok:'关闭',
+    onClick:function(e,close){
+      var b=e.target.closest&&e.target.closest('[data-ts]');if(!b)return;
+      var ts=Number(b.getAttribute('data-ts'));
+      modal({title:'恢复到这个时间？',body:'<p>角色“'+esc(name)+'”会恢复到 '+esc(fmt(ts))+' 的进度。现在的进度会先自动存成一个快照，之后还能再恢复回来。</p>',ok:'确认恢复',
+        onOk:function(){return run(api('POST','/api/admin/users/'+u.id+'/saves/'+sid+'/restore',{ts:ts}),'已恢复，孩子下次打开游戏就会看到').then(function(){close();return load()})}});
+    }});
+  api('GET','/api/admin/users/'+u.id+'/saves/'+sid+'/snapshots').then(function(j){
+    var l=m.el.querySelector('#sl');if(!l)return;
+    var s=j.snapshots||[];
+    if(!s.length){l.textContent='还没有历史快照';return}
+    l.className='';l.innerHTML=s.map(function(x){return'<div class="snap"><div>'+esc(fmt(x.ts))+'<div class="mute">Lv.'+esc(x.level)+' · 通关 '+x.cleared+' 个副本</div></div><button class="sm" data-ts="'+x.ts+'">恢复到这个时间</button></div>'}).join('');
+  },function(e){m.close();toast(e.message)});
+}
+function download(u,sid){
+  run(api('GET','/api/admin/users/'+u.id+'/saves/'+sid)).then(function(j){
+    var blob=new Blob([JSON.stringify(j.data,null,2)],{type:'application/json'});
+    var a=document.createElement('a'),nm=(j.data&&j.data.name)||sid;
+    a.href=URL.createObjectURL(blob);a.download='存档-'+u.username+'-'+nm+'.json';
+    document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},2000);
+    toast('已下载存档','ok');
+  },function(){});
+}
+
+$app.addEventListener('click',function(e){
+  var b=e.target.closest('[data-a]');if(!b)return;
+  var a=b.getAttribute('data-a');
+  if(a==='revoke'){
+    var code=b.getAttribute('data-code');
+    modal({title:'撤销邀请码？',body:'<p>邀请码 '+esc(codeFmt(code))+' 撤销后就不能再用了。已经注册的账号不受影响。</p>',ok:'撤销',danger:true,
+      onOk:function(){return run(api('DELETE','/api/admin/invites/'+code),'已撤销').then(function(){if(state.newCode===code)state.newCode=null;return load()})}});
+    return;
+  }
+  var card=b.closest('[data-uid]');if(!card)return;
+  var u=findUser(card.getAttribute('data-uid'));if(!u)return;
+  var ch=b.closest('[data-sid]'),sid=ch&&ch.getAttribute('data-sid');
+  if(a==='dl')download(u,sid);
+  else if(a==='snaps')snapsDialog(u,sid);
+  else if(a==='pw')modal({title:'重置密码 · '+u.username,body:'<p class="mute">设置后孩子会被退出登录，需要用新密码重新登录。</p>',input:{label:'新密码（至少 6 位）',type:'text',ph:'新密码'},ok:'确定',
+    onOk:function(v){if(v.length<6){toast('密码至少 6 位');return false}
+      return run(api('POST','/api/admin/users/'+u.id+'/password',{password:v}),'密码已重置')}});
+  else if(a==='dis'){
+    var to=!u.disabled;
+    modal({title:(to?'暂停':'恢复')+'账号？',body:'<p>'+(to?'暂停后“'+esc(u.username)+'”会被退出登录，不能再登录，存档保留。':'恢复后“'+esc(u.username)+'”可以重新登录。')+'</p>',ok:to?'暂停':'恢复',danger:to,
+      onOk:function(){return run(api('POST','/api/admin/users/'+u.id+'/disable',{disabled:to}),to?'已暂停':'已恢复').then(load)}});
+  }
+  else if(a==='limit')modal({title:'每日游戏时长 · '+u.username,body:'<p class="mute">填 5–600 分钟。留空表示用孩子设备上的设置。</p>',input:{label:'每天最多玩（分钟）',type:'number',ph:'留空 = 不限制',value:u.dailyMinutes||''},ok:'保存',
+    onOk:function(v){v=String(v).trim();var n=null;
+      if(v!==''){n=Number(v);if(!(n>=5&&n<=600)){toast('每天时长要在 5–600 分钟之间');return false}}
+      return run(api('POST','/api/admin/users/'+u.id+'/limit',{dailyMinutes:n}),'已保存').then(load)}});
+  else if(a==='del')modal({title:'删除账号“'+u.username+'”？',body:'<p>存档会移到回收站，不会立刻彻底删除。但这个账号将无法再登录。</p>',ok:'确认删除',danger:true,
+    onOk:function(){return run(api('DELETE','/api/admin/users/'+u.id),'账号已删除').then(load)}});
+});
+
+load();
+})();
+</script>
+</body>
+</html>
