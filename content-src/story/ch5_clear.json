@@ -1,0 +1,59 @@
+{
+  "id": "ch5_clear",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "boss_thief",
+      "face": "sad",
+      "zh": "哼……我只是想要一句好台词。"
+    },
+    {
+      "t": "say",
+      "who": "david",
+      "face": "happy",
+      "en": "Thank you.",
+      "audio": {
+        "lesson": "L097-098",
+        "line": 15
+      }
+    },
+    {
+      "t": "say",
+      "who": "lucy",
+      "face": "happy",
+      "zh": "邮局恢复啦，信都送出去了！"
+    },
+    {
+      "t": "say",
+      "who": "andy",
+      "face": "happy",
+      "zh": "（滑倒）Ow！不过我不疼！"
+    },
+    {
+      "t": "item",
+      "key": "page120",
+      "zh": "台词簿第 120 页已恢复"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "第五章完成！台词簿快满了。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "surprised",
+      "zh": "不过剧院那边，灯全灭了……"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：前往剧院区（第 6 章 L121-144）"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "finale",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "flash"
+    },
+    {
+      "t": "narr",
+      "zh": "公爵嘴上的封条，裂开了一道缝。"
+    },
+    {
+      "t": "say",
+      "who": "duke",
+      "face": "sad",
+      "zh": "我……只是怕说错，被人嘲笑。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "说错没关系！来，给自己打打气！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "happy",
+      "en": "Oh, cheer up!",
+      "audio": {
+        "lesson": "L103-104",
+        "line": 15
+      }
+    },
+    {
+      "t": "say",
+      "who": "duke",
+      "face": "surprised",
+      "en": "It's a pleasant dream",
+      "audio": {
+        "lesson": "L137-138",
+        "line": 22
+      }
+    },
+    {
+      "t": "narr",
+      "zh": "封条化作无数金色的字母，飞向远方。"
+    },
+    {
+      "t": "enter",
+      "who": "blake",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "同学们，英语不是背出来的，是说出来的！"
+    },
+    {
+      "t": "say",
+      "who": "hans",
+      "face": "happy",
+      "en": "Yes, I have.",
+      "audio": {
+        "lesson": "L133-134",
+        "line": 1
+      }
+    },
+    {
+      "t": "say",
+      "who": "naoko",
+      "face": "happy",
+      "zh": "谢谢你，我们的名字都回来了。"
+    },
+    {
+      "t": "say",
+      "who": "mrs_smith",
+      "face": "happy",
+      "zh": "厨房和街道，也都热闹起来了。"
+    },
+    {
+      "t": "say",
+      "who": "actress",
+      "face": "happy",
+      "zh": "舞台上有了掌声，真好听。"
+    },
+    {
+      "t": "item",
+      "key": "book_full",
+      "zh": "台词簿全部找回！"
+    },
+    {
+      "t": "say",
+      "who": "duke",
+      "face": "happy",
+      "en": "That was a pleasant surprise.",
+      "audio": {
+        "lesson": "L125-126",
+        "line": 18
+      }
+    },
+    {
+      "t": "narr",
+      "zh": "公爵第一次笑了。他终于可以大声说话了。"
+    }
+  ]
+}

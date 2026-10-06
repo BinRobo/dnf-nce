@@ -1,0 +1,241 @@
+{
+ "id": "L131-132",
+ "lessons": [
+  131,
+  132
+ ],
+ "title": "Don't be so sure!",
+ "titleZh": "别那么肯定！",
+ "evenTitle": "He may be ... He may have been ... I'm not sure.",
+ "evenTitleZh": "他可能是……他可能已经……我不敢肯定。",
+ "video": {
+  "pass": 0,
+  "starts": [
+   1,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ]
+ },
+ "words": [
+  {
+   "en": "Egypt",
+   "ipa": "'iːdʒɪpt",
+   "pos": "n.",
+   "zh": "埃及",
+   "lesson": 131
+  },
+  {
+   "en": "abroad",
+   "ipa": "ə'brɔːd",
+   "pos": "adv.",
+   "zh": "国外",
+   "lesson": 131
+  },
+  {
+   "en": "worry",
+   "ipa": "'wʌrɪ",
+   "pos": "v.",
+   "zh": "担忧",
+   "lesson": 131
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Martin",
+   "en": "Where are you going to spend your holidays this year, Gary?",
+   "zh": "加里，今年你们打算去哪里度假？"
+  },
+  {
+   "speaker": "Gary",
+   "en": "We may go abroad. I'm not sure.",
+   "zh": "我们可能到国外去，但我不敢肯定。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "My wife wants to go to Egypt.",
+   "zh": "我妻子想到埃及去。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "I'd like to go there, too.",
+   "zh": "我也想去那儿。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "We can't make up our minds.",
+   "zh": "我们还拿不定主意。"
+  },
+  {
+   "speaker": "Martin",
+   "en": "Will you travel by sea or by air?",
+   "zh": "你们乘船去，还是乘飞机去？"
+  },
+  {
+   "speaker": "Gary",
+   "en": "We may travel by sea.",
+   "zh": "我们可能乘船去。"
+  },
+  {
+   "speaker": "Martin",
+   "en": "It's cheaper, isn't it?",
+   "zh": "这更便宜些，是吗？"
+  },
+  {
+   "speaker": "Gary",
+   "en": "It may be cheaper, but it takes a long time.",
+   "zh": "可能是便宜些，但花的时间长。"
+  },
+  {
+   "speaker": "Martin",
+   "en": "I'm sure you'll enjoy yourselves.",
+   "zh": "我肯定你们一定会玩得很痛快。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "Don't be so sure.",
+   "zh": "别那么肯定。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "We might not go anywhere.",
+   "zh": "我们可能哪里也去不成。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "My wife always worries too much.",
+   "zh": "我妻子总是担心这担心那的。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "Who's going to look after the dog?",
+   "zh": "谁来照看狗啦，"
+  },
+  {
+   "speaker": "Gary",
+   "en": "Who's going to look after the house?",
+   "zh": "谁来看管房子啦，"
+  },
+  {
+   "speaker": "Gary",
+   "en": "Who's going to look after the garden?",
+   "zh": "谁来照料花园啦，"
+  },
+  {
+   "speaker": "Gary",
+   "en": "We have this problem every year.",
+   "zh": "我们每年都碰到这类问题。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "In the end, we stay at home and look after everything!",
+   "zh": "末了，我们呆在家里来照看一切。"
+  }
+ ],
+ "drills": [
+  {
+   "en": "Where are you going to ___ your holidays this year?",
+   "zh": "今年你们打算去哪里度假？",
+   "options": [
+    "spend",
+    "spent",
+    "spends",
+    "spending"
+   ]
+  },
+  {
+   "en": "We may ___ abroad.",
+   "zh": "我们可能到国外去。",
+   "options": [
+    "go",
+    "went",
+    "goes",
+    "going"
+   ]
+  },
+  {
+   "en": "My wife wants to go ___ Egypt.",
+   "zh": "我妻子想到埃及去。",
+   "options": [
+    "to",
+    "at",
+    "in",
+    "on"
+   ]
+  },
+  {
+   "en": "Will you travel by sea or ___ air?",
+   "zh": "你们乘船去，还是乘飞机去？",
+   "options": [
+    "by",
+    "on",
+    "in",
+    "with"
+   ]
+  },
+  {
+   "en": "It may be cheaper, ___ it takes a long time.",
+   "zh": "可能是便宜些，但花的时间长。",
+   "options": [
+    "but",
+    "so",
+    "because",
+    "or"
+   ]
+  },
+  {
+   "en": "I'm sure you'll enjoy ___.",
+   "zh": "我肯定你们一定会玩得很痛快。",
+   "options": [
+    "yourselves",
+    "yourself",
+    "themselves",
+    "ourself"
+   ]
+  },
+  {
+   "en": "Don't be so ___!",
+   "zh": "别那么肯定！",
+   "options": [
+    "sure",
+    "surely",
+    "sured",
+    "sures"
+   ]
+  },
+  {
+   "en": "Who's going to look ___ the dog?",
+   "zh": "谁来照看狗啦？",
+   "options": [
+    "after",
+    "up",
+    "out",
+    "in"
+   ]
+  },
+  {
+   "en": "My wife always ___ too much.",
+   "zh": "我妻子总是担心这担心那的。",
+   "options": [
+    "worries",
+    "worry",
+    "worried",
+    "worrying"
+   ]
+  }
+ ]
+}

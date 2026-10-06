@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" stroke-linejoin="round" stroke-linecap="round">
+<rect x="0" y="0" width="1280" height="120" rx="0" fill="#1E2250" stroke="none"/>
+<rect x="0" y="120" width="1280" height="120" rx="0" fill="#2E2A66" stroke="none"/>
+<rect x="0" y="240" width="1280" height="100" rx="0" fill="#4A3880" stroke="none"/>
+<rect x="0" y="340" width="1280" height="70" rx="0" fill="#6A4C9C" stroke="none"/>
+<rect x="0" y="410" width="1280" height="60" rx="0" fill="#9A62A8" stroke="none"/>
+<rect x="0" y="470" width="1280" height="250" rx="0" fill="#4A3880" stroke="none"/>
+<ellipse cx="640" cy="470" rx="700" ry="60" fill="#E08AA0" fill-opacity="0.25" stroke="none"/>
+<ellipse cx="640" cy="470" rx="520" ry="34" fill="#F5C542" fill-opacity="0.25" stroke="none"/>
+<rect x="0" y="390" width="100" height="82" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="100" y="350" width="100" height="122" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="200" y="410" width="100" height="62" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="300" y="380" width="80" height="92" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="380" y="410" width="100" height="62" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="480" y="410" width="60" height="62" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="540" y="420" width="80" height="52" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="620" y="420" width="60" height="52" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="680" y="410" width="100" height="62" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="780" y="380" width="100" height="92" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="880" y="380" width="60" height="92" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="940" y="350" width="80" height="122" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="1020" y="420" width="60" height="52" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="1080" y="410" width="60" height="62" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="1140" y="420" width="60" height="52" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="1200" y="380" width="60" height="92" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="1260" y="390" width="60" height="82" rx="0" fill="#3A2D70" stroke="#2B2A4A" stroke-width="3"/>
+<path d="M100.0,53.0 L101.9,57.5 L106.7,57.8 L103.0,61.0 L104.1,65.7 L100.0,63.1 L95.9,65.7 L97.0,61.0 L93.3,57.8 L98.1,57.5 Z" fill="#FFF3B8" fill-opacity="1" stroke="none"/>
+<path d="M260.0,145.0 L261.3,148.2 L264.8,148.5 L262.1,150.7 L262.9,154.0 L260.0,152.2 L257.1,154.0 L257.9,150.7 L255.2,148.5 L258.7,148.2 Z" fill="#FFF3B8" fill-opacity="1" stroke="none"/>
+<path d="M430.0,34.0 L431.6,37.8 L435.7,38.1 L432.6,40.8 L433.5,44.9 L430.0,42.7 L426.5,44.9 L427.4,40.8 L424.3,38.1 L428.4,37.8 Z" fill="#FFF3B8" fill-opacity="0.9" stroke="none"/>
+<path d="M600.0,106.0 L601.1,108.5 L603.8,108.8 L601.7,110.6 L602.4,113.2 L600.0,111.8 L597.6,113.2 L598.3,110.6 L596.2,108.8 L598.9,108.5 Z" fill="#FFF3B8" fill-opacity="1" stroke="none"/>
+<path d="M780.0,63.0 L781.9,67.5 L786.7,67.8 L783.0,71.0 L784.1,75.7 L780.0,73.2 L775.9,75.7 L777.0,71.0 L773.3,67.8 L778.1,67.5 Z" fill="#FFF3B8" fill-opacity="1" stroke="none"/>
+<path d="M960.0,25.0 L961.3,28.2 L964.8,28.5 L962.1,30.7 L962.9,34.0 L960.0,32.2 L957.1,34.0 L957.9,30.7 L955.2,28.5 L958.7,28.2 Z" fill="#FFF3B8" fill-opacity="1" stroke="none"/>
+<path d="M1120.0,124.0 L1121.6,127.8 L1125.7,128.1 L1122.6,130.8 L1123.5,134.9 L1120.0,132.7 L1116.5,134.9 L1117.4,130.8 L1114.3,128.1 L1118.4,127.8 Z" fill="#FFF3B8" fill-opacity="0.9" stroke="none"/>
+<path d="M1240.0,55.0 L1241.3,58.2 L1244.8,58.5 L1242.1,60.7 L1242.9,64.0 L1240.0,62.2 L1237.1,64.0 L1237.9,60.7 L1235.2,58.5 L1238.7,58.2 Z" fill="#FFF3B8" fill-opacity="1" stroke="none"/>
+</svg>

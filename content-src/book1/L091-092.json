@@ -1,0 +1,52 @@
+{
+  "id": "L091-092",
+  "lessons": [91, 92],
+  "title": "Poor Ian!",
+  "titleZh": "可怜的伊恩！",
+  "evenTitle": "When will ...?",
+  "evenTitleZh": "什么时候要……？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 16, 18, 19, 20, 21, 22, 23] },
+  "words": [
+    { "en": "still", "ipa": "stɪl", "pos": "adv.", "zh": "还，仍旧", "lesson": 91 },
+    { "en": "move", "ipa": "muːv", "pos": "v.", "zh": "搬家", "lesson": 91 },
+    { "en": "miss", "ipa": "mɪs", "pos": "v.", "zh": "想念，思念", "lesson": 91 },
+    { "en": "neighbour", "ipa": "'neɪbə", "pos": "n.", "zh": "邻居", "lesson": 91 },
+    { "en": "person", "ipa": "'pɜːsən", "pos": "n.", "zh": "人", "lesson": 91 },
+    { "en": "people", "ipa": "'piːpəl", "pos": "n.", "zh": "人们", "lesson": 91 },
+    { "en": "poor", "ipa": "pʊə", "pos": "adj.", "zh": "可怜的", "lesson": 91 }
+  ],
+  "lines": [
+    { "speaker": "Catherine", "en": "Has Ian sold his house yet?", "zh": "伊恩已把他的房子卖掉了吗？" },
+    { "speaker": "Jenny", "en": "Yes, he has.", "zh": "是的，卖掉了。" },
+    { "speaker": "Jenny", "en": "He sold it last week.", "zh": "他上星期卖掉的。" },
+    { "speaker": "Catherine", "en": "Has he moved to his new house yet?", "zh": "他已经迁进新居了吗？" },
+    { "speaker": "Jenny", "en": "No, not yet.", "zh": "不，还没有。" },
+    { "speaker": "Jenny", "en": "He's still here.", "zh": "他仍在这里。" },
+    { "speaker": "Jenny", "en": "He's going to move tomorrow.", "zh": "他打算明天搬家。" },
+    { "speaker": "Catherine", "en": "When? Tomorrow morning?", "zh": "什么时候？明天上午吗？" },
+    { "speaker": "Jenny", "en": "No. Tomorrow afternoon.", "zh": "不，明天下午。" },
+    { "speaker": "Jenny", "en": "I'll miss him.", "zh": "我会想念他的。" },
+    { "speaker": "Jenny", "en": "He has always been a good neighbour.", "zh": "他一直是个好邻居。" },
+    { "speaker": "Linda", "en": "He's a very nice person.", "zh": "他是个非常好的人，" },
+    { "speaker": "Linda", "en": "We'll all miss him.", "zh": "我们大家都会想念他的。" },
+    { "speaker": "Catherine", "en": "When will the new people move into this house?", "zh": "新住户什么时候搬进这所房子？" },
+    { "speaker": "Jenny", "en": "I think that they'll move in the day after tomorrow.", "zh": "我想他们将在后天搬进来吧。" },
+    { "speaker": "Linda", "en": "Will you see Ian today, Jenny?", "zh": "詹尼，您今天会见到伊恩吗？" },
+    { "speaker": "Jenny", "en": "Yes, I will.", "zh": "是的，我会见到他。" },
+    { "speaker": "Linda", "en": "Please give him my regards.", "zh": "请代我问候他。" },
+    { "speaker": "Catherine", "en": "Poor Ian!", "zh": "可怜的伊恩！" },
+    { "speaker": "Catherine", "en": "He didn't want to leave this house.", "zh": "他本不想离开这幢房子。" },
+    { "speaker": "Jenny", "en": "No, he didn't want to leave, but his wife did!", "zh": "是啊，他是不想离开，可是他妻子要离开。" }
+  ],
+  "drills": [
+    { "en": "It will rain tomorrow. → It___ rain tomorrow.", "zh": "明天会下雨。", "options": ["'ll", "'s", "'d", "'re"] },
+    { "en": "He ___ arrive tomorrow morning.", "zh": "他明天上午会到。", "options": ["will", "did", "has", "was"] },
+    { "en": "It snowed yesterday. Yes, and it will ___ tomorrow, too.", "zh": "昨天下雪了。是的，明天也会下。", "options": ["snow", "snowed", "snows", "snowing"] },
+    { "en": "He will not ___ me.", "zh": "他不会相信我。", "options": ["believe", "believed", "believes", "believing"] },
+    { "en": "When will the new people ___ into this house?", "zh": "新住户什么时候搬进这所房子？", "options": ["move", "moved", "moves", "moving"] },
+    { "en": "Has Ian sold his house ___? Yes, he has.", "zh": "伊恩已把房子卖掉了吗？是的。", "options": ["yet", "ago", "since", "tomorrow"] },
+    { "en": "He's a very nice ___.", "zh": "他是个非常好的人。", "options": ["person", "people", "neighbours", "houses"] },
+    { "en": "We'll all ___ him.", "zh": "我们大家都会想念他的。", "options": ["miss", "move", "sell", "cut"] },
+    { "en": "The new people will move in the day after ___.", "zh": "新住户后天搬进来。", "options": ["tomorrow", "yesterday", "ago", "yet"] }
+  ]
+}

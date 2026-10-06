@@ -1,0 +1,668 @@
+{
+  "bosses": {
+    "boss_weixin": {
+      "title": "混名魔术师",
+      "name": "维辛",
+      "color": "#c13ccb",
+      "moves": [
+        "tags",
+        "fog",
+        "hats"
+      ],
+      "moveNames": [
+        "混名飞牌",
+        "烟雾换位",
+        "礼帽乱坠"
+      ],
+      "line": "名字？我来给你换一个！"
+    },
+    "boss_wardrobe": {
+      "title": "挪位领主",
+      "name": "柜柜",
+      "color": "#8b5a2b",
+      "moves": [
+        "slam",
+        "hats",
+        "inhale"
+      ],
+      "moveNames": [
+        "柜门重压",
+        "衣服暴雨",
+        "吸进衣橱"
+      ],
+      "line": "东西都放错地方啦！"
+    },
+    "boss_cloud": {
+      "title": "遮天领主",
+      "name": "闷雷",
+      "color": "#7a7fbf",
+      "moves": [
+        "waves",
+        "fog",
+        "hats"
+      ],
+      "moveNames": [
+        "闷雷声波",
+        "躲进云雾",
+        "冰雹乱砸"
+      ],
+      "line": "太阳？我把它藏起来啦！"
+    },
+    "boss_teapot": {
+      "title": "沸腾领主",
+      "name": "咕噜",
+      "color": "#ff6f91",
+      "moves": [
+        "waves",
+        "slam",
+        "hats"
+      ],
+      "moveNames": [
+        "汽笛尖啸",
+        "壶盖重砸",
+        "茶杯飞雨"
+      ],
+      "line": "茶凉了，话也该凉透啦！"
+    },
+    "boss_sneeze": {
+      "title": "喷嚏领主",
+      "name": "阿嚏",
+      "color": "#b5d33d",
+      "moves": [
+        "waves",
+        "inhale",
+        "hats"
+      ],
+      "moveNames": [
+        "喷嚏冲击",
+        "鼻塞吸入",
+        "纸巾乱飞"
+      ],
+      "line": "阿——嚏！台词全吹跑！"
+    },
+    "boss_clock": {
+      "title": "滴答领主",
+      "name": "摆摆",
+      "color": "#2a9d8f",
+      "moves": [
+        "slam",
+        "tags",
+        "fog"
+      ],
+      "moveNames": [
+        "钟摆重击",
+        "时间卡飞镖",
+        "时差闪现"
+      ],
+      "line": "时间归我管，你迟到啦！"
+    },
+    "boss_phone": {
+      "title": "连环领主",
+      "name": "铃叮",
+      "color": "#d7263d",
+      "moves": [
+        "waves",
+        "tags",
+        "inhale"
+      ],
+      "moveNames": [
+        "铃声冲击",
+        "通话卡镖",
+        "吸走听筒"
+      ],
+      "line": "喂喂喂，不许挂电话！"
+    },
+    "boss_shoe": {
+      "title": "磨脚领主",
+      "name": "大靴靴",
+      "color": "#7b4bd8",
+      "moves": [
+        "slam",
+        "hats",
+        "inhale"
+      ],
+      "moveNames": [
+        "大脚重踩",
+        "鞋带雨",
+        "吸进鞋筒"
+      ],
+      "line": "新鞋夹脚？忍着点！"
+    },
+    "boss_suitcase": {
+      "title": "行囊领主",
+      "name": "满满",
+      "color": "#d9a521",
+      "moves": [
+        "slam",
+        "inhale",
+        "tags"
+      ],
+      "moveNames": [
+        "行李重压",
+        "吸进箱子",
+        "标签飞镖"
+      ],
+      "line": "都装进来，一件不剩！"
+    },
+    "boss_train": {
+      "title": "汽笛领主",
+      "name": "呜呜",
+      "color": "#3b6ea8",
+      "moves": [
+        "waves",
+        "slam",
+        "fog"
+      ],
+      "moveNames": [
+        "汽笛声波",
+        "撞轨冲锋",
+        "蒸汽遁形"
+      ],
+      "line": "检票！没票不许上车！"
+    },
+    "boss_snowman": {
+      "title": "冻结领主",
+      "name": "雪团",
+      "color": "#bfeaf7",
+      "moves": [
+        "slam",
+        "hats",
+        "inhale"
+      ],
+      "moveNames": [
+        "雪球重砸",
+        "暴雪飘落",
+        "寒风吸入"
+      ],
+      "line": "冻住你的舌头！"
+    },
+    "boss_mailbox": {
+      "title": "寄丢领主",
+      "name": "邮邮",
+      "color": "#6b5b73",
+      "moves": [
+        "tags",
+        "inhale",
+        "waves"
+      ],
+      "moveNames": [
+        "信封飞镖",
+        "吞信大口",
+        "邮局广播"
+      ],
+      "line": "盖章！这封信我收了！"
+    },
+    "boss_thief": {
+      "title": "窃贼领主",
+      "name": "黑雪",
+      "color": "#2d3142",
+      "moves": [
+        "fog",
+        "tags",
+        "hats"
+      ],
+      "moveNames": [
+        "雪夜遁形",
+        "飞刀卡片",
+        "赃物乱坠"
+      ],
+      "line": "台词是我的战利品！"
+    },
+    "boss_mask": {
+      "title": "假面领主",
+      "name": "笑哭",
+      "color": "#f5f1e6",
+      "moves": [
+        "waves",
+        "fog",
+        "tags"
+      ],
+      "moveNames": [
+        "悲喜声波",
+        "换脸闪现",
+        "面具飞镖"
+      ],
+      "line": "我换张脸，你还认得我吗？"
+    },
+    "boss_spotlight": {
+      "title": "聚光领主",
+      "name": "亮亮",
+      "color": "#00b4d8",
+      "moves": [
+        "waves",
+        "hats",
+        "slam"
+      ],
+      "moveNames": [
+        "强光波",
+        "灯泡雨",
+        "灯座重砸"
+      ],
+      "line": "看我！所有人都看我！"
+    },
+    "boss_curtain": {
+      "title": "落幕领主",
+      "name": "大幕",
+      "color": "#a4133c",
+      "moves": [
+        "slam",
+        "hats",
+        "inhale"
+      ],
+      "moveNames": [
+        "大幕压下",
+        "流苏飞雨",
+        "吸入幕后"
+      ],
+      "line": "大幕落下，台词全带走！"
+    }
+  },
+  "mobs": {
+    "mob_whistler": {
+      "name": "尖啸水壶",
+      "qtype": "listen"
+    },
+    "mob_drawer": {
+      "name": "抽屉怪",
+      "qtype": "meaning"
+    },
+    "mob_sprout": {
+      "name": "字母芽",
+      "qtype": "spell"
+    },
+    "mob_alarm": {
+      "name": "铃铃闹钟",
+      "qtype": "listen"
+    },
+    "mob_sausage": {
+      "name": "香肠狗",
+      "qtype": "meaning"
+    },
+    "mob_pill": {
+      "name": "药丸小兵",
+      "qtype": "spell"
+    },
+    "mob_speaker": {
+      "name": "广播喇叭",
+      "qtype": "listen"
+    },
+    "mob_sticker": {
+      "name": "贴纸行李怪",
+      "qtype": "meaning"
+    },
+    "mob_ticket": {
+      "name": "检票小怪",
+      "qtype": "spell"
+    },
+    "mob_icebell": {
+      "name": "冰铃铛",
+      "qtype": "listen"
+    },
+    "mob_envelope": {
+      "name": "信封怪",
+      "qtype": "meaning"
+    },
+    "mob_snowball": {
+      "name": "字母雪球",
+      "qtype": "spell"
+    },
+    "mob_owl": {
+      "name": "剧院猫头鹰",
+      "qtype": "listen"
+    },
+    "mob_puppet": {
+      "name": "提线木偶",
+      "qtype": "meaning"
+    },
+    "mob_scroll": {
+      "name": "剧本卷轴怪",
+      "qtype": "spell"
+    }
+  },
+  "chapters": [
+    {
+      "ch": 1,
+      "mobs": {
+        "listen": "bat",
+        "meaning": "slime",
+        "spell": "goblin"
+      },
+      "elite": "吞音骑士·埃可"
+    },
+    {
+      "ch": 2,
+      "mobs": {
+        "listen": "mob_whistler",
+        "meaning": "mob_drawer",
+        "spell": "mob_sprout"
+      },
+      "elite": "抽屉卫兵·屉屉"
+    },
+    {
+      "ch": 3,
+      "mobs": {
+        "listen": "mob_alarm",
+        "meaning": "mob_sausage",
+        "spell": "mob_pill"
+      },
+      "elite": "药瓶骑士·苦苦"
+    },
+    {
+      "ch": 4,
+      "mobs": {
+        "listen": "mob_speaker",
+        "meaning": "mob_sticker",
+        "spell": "mob_ticket"
+      },
+      "elite": "检票官·咔嚓"
+    },
+    {
+      "ch": 5,
+      "mobs": {
+        "listen": "mob_icebell",
+        "meaning": "mob_envelope",
+        "spell": "mob_snowball"
+      },
+      "elite": "雪橇信使·冻冻"
+    },
+    {
+      "ch": 6,
+      "mobs": {
+        "listen": "mob_owl",
+        "meaning": "mob_puppet",
+        "spell": "mob_scroll"
+      },
+      "elite": "提词幽灵·悄悄"
+    }
+  ],
+  "dungeons": {
+    "L001-002": {
+      "boss": "boss_pardon",
+      "tagline": "吞掉了街上的 Excuse me!"
+    },
+    "L003-004": {
+      "boss": "boss_pardon",
+      "tagline": "把你的伞和外套搞混了"
+    },
+    "L005-006": {
+      "boss": "boss_whomist",
+      "tagline": "偷走全班同学的名字"
+    },
+    "L007-008": {
+      "boss": "boss_whomist",
+      "tagline": "把 teacher 的名牌偷走了"
+    },
+    "L009-010": {
+      "boss": "boss_pardon",
+      "tagline": "把问候吞成含糊的回声"
+    },
+    "L011-012": {
+      "boss": "boss_weixin",
+      "tagline": "把衬衫变成别人的衬衫"
+    },
+    "L013-014": {
+      "boss": "boss_whomist",
+      "tagline": "撕掉新裙子上的名牌"
+    },
+    "L015-016": {
+      "boss": "boss_pardon",
+      "tagline": "把检查护照喊成含糊声"
+    },
+    "L017-018": {
+      "boss": "boss_whomist",
+      "tagline": "把握手时的名字偷光了"
+    },
+    "L019-020": {
+      "boss": "boss_weixin",
+      "tagline": "变走了孩子们的冰淇淋"
+    },
+    "L021-022": {
+      "boss": "boss_weixin",
+      "tagline": "把书架上的书混成一团"
+    },
+    "L023-024": {
+      "boss": "boss_weixin",
+      "tagline": "用魔术把眼镜全变没了"
+    },
+    "L025-026": {
+      "boss": "boss_wardrobe",
+      "tagline": "把冰箱和炉子搬错了位置"
+    },
+    "L027-028": {
+      "boss": "boss_wardrobe",
+      "tagline": "把电视和音响搬到窗外"
+    },
+    "L029-030": {
+      "boss": "boss_wardrobe",
+      "tagline": "把乱衣服全塞进衣柜"
+    },
+    "L031-032": {
+      "boss": "boss_cloud",
+      "tagline": "把树上的 Tim 藏进云里"
+    },
+    "L033-034": {
+      "boss": "boss_cloud",
+      "tagline": "遮住了桥上的太阳"
+    },
+    "L035-036": {
+      "boss": "boss_cloud",
+      "tagline": "把小村庄埋进浓雾云"
+    },
+    "L037-038": {
+      "boss": "boss_wardrobe",
+      "tagline": "偷走了乔治的大锤子"
+    },
+    "L039-040": {
+      "boss": "boss_wardrobe",
+      "tagline": "想摔碎 Penny 的花瓶"
+    },
+    "L041-042": {
+      "boss": "boss_wardrobe",
+      "tagline": "把 Penny 的袋子藏进柜子"
+    },
+    "L043-044": {
+      "boss": "boss_cloud",
+      "tagline": "放出蒸汽云挡住了茶叶"
+    },
+    "L045-046": {
+      "boss": "boss_wardrobe",
+      "tagline": "把老板的信锁进抽屉"
+    },
+    "L047-048": {
+      "boss": "boss_teapot",
+      "tagline": "把咖啡和饼干全煮没了"
+    },
+    "L049-050": {
+      "boss": "boss_sneeze",
+      "tagline": "喷嚏吹跑了肉铺的羊肉"
+    },
+    "L051-052": {
+      "boss": "boss_sneeze",
+      "tagline": "把希腊的暖风吹成感冒"
+    },
+    "L053-054": {
+      "boss": "boss_sneeze",
+      "tagline": "让英国的天气一天三变"
+    },
+    "L055-056": {
+      "boss": "boss_clock",
+      "tagline": "把 Sawyer 一家作息打乱"
+    },
+    "L057-058": {
+      "boss": "boss_clock",
+      "tagline": "拨乱了时钟，大家反常"
+    },
+    "L059-060": {
+      "boss": "boss_clock",
+      "tagline": "偷走了文具店的找零"
+    },
+    "L061-062": {
+      "boss": "boss_sneeze",
+      "tagline": "让 Jimmy 重感冒卧床"
+    },
+    "L063-064": {
+      "boss": "boss_sneeze",
+      "tagline": "拦着 Jimmy 不让他起床"
+    },
+    "L065-066": {
+      "boss": "boss_clock",
+      "tagline": "把 Jill 的回家时间拨乱"
+    },
+    "L067-068": {
+      "boss": "boss_clock",
+      "tagline": "把周末三天缩成一天"
+    },
+    "L069-070": {
+      "boss": "boss_clock",
+      "tagline": "把赛车的计时全拨乱"
+    },
+    "L071-072": {
+      "boss": "boss_phone",
+      "tagline": "一天打来七通骚扰电话"
+    },
+    "L073-074": {
+      "boss": "boss_shoe",
+      "tagline": "让 Mills 太太越走越迷路"
+    },
+    "L075-076": {
+      "boss": "boss_shoe",
+      "tagline": "把舒服的鞋变成夹脚鞋"
+    },
+    "L077-078": {
+      "boss": "boss_shoe",
+      "tagline": "给 Croft 先生的牙添乱"
+    },
+    "L079-080": {
+      "boss": "boss_shoe",
+      "tagline": "踩坏了 Carol 的购物单"
+    },
+    "L081-082": {
+      "boss": "boss_shoe",
+      "tagline": "把土豆踩成了土豆泥"
+    },
+    "L083-084": {
+      "boss": "boss_suitcase",
+      "tagline": "把度假行李箱塞爆了"
+    },
+    "L085-086": {
+      "boss": "boss_suitcase",
+      "tagline": "把去巴黎的行李箱藏起来"
+    },
+    "L087-088": {
+      "boss": "boss_suitcase",
+      "tagline": "把修车厂堆满了行李"
+    },
+    "L089-090": {
+      "boss": "boss_suitcase",
+      "tagline": "给待售的房子乱贴标签"
+    },
+    "L091-092": {
+      "boss": "boss_suitcase",
+      "tagline": "把 Ian 的搬家箱子藏了"
+    },
+    "L093-094": {
+      "boss": "boss_suitcase",
+      "tagline": "把飞行员 Nigel 的行李搞丢"
+    },
+    "L095-096": {
+      "boss": "boss_train",
+      "tagline": "吞掉车票，还把时钟拨慢"
+    },
+    "L097-098": {
+      "boss": "boss_mailbox",
+      "tagline": "把蓝色小箱子寄错了人"
+    },
+    "L099-100": {
+      "boss": "boss_snowman",
+      "tagline": "雪地结冰害 Andy 摔了一跤"
+    },
+    "L101-102": {
+      "boss": "boss_mailbox",
+      "tagline": "把吉米的明信片念成含糊声"
+    },
+    "L103-104": {
+      "boss": "boss_mailbox",
+      "tagline": "让考生交了白卷，一字没写"
+    },
+    "L105-106": {
+      "boss": "boss_mailbox",
+      "tagline": "把信打成满纸错字"
+    },
+    "L107-108": {
+      "boss": "boss_snowman",
+      "tagline": "把连衣裙缩小，穿不进去"
+    },
+    "L109-110": {
+      "boss": "boss_snowman",
+      "tagline": "偷光了咖啡里的糖和牛奶"
+    },
+    "L111-112": {
+      "boss": "boss_snowman",
+      "tagline": "把最贵的电视机藏起来"
+    },
+    "L113-114": {
+      "boss": "boss_mailbox",
+      "tagline": "拿走了公交车的零钱"
+    },
+    "L115-116": {
+      "boss": "boss_mailbox",
+      "tagline": "锁上大门，没人应门"
+    },
+    "L117-118": {
+      "boss": "boss_snowman",
+      "tagline": "让汤米吞下早餐的硬币"
+    },
+    "L119-120": {
+      "boss": "boss_thief",
+      "tagline": "雪夜撬进 George 的厨房"
+    },
+    "L121-122": {
+      "boss": "boss_mask",
+      "tagline": "偷走书店里的两本词典"
+    },
+    "L123-124": {
+      "boss": "boss_mask",
+      "tagline": "偷走澳洲之行的照片"
+    },
+    "L125-126": {
+      "boss": "boss_mask",
+      "tagline": "让花园干得没法喝茶"
+    },
+    "L127-128": {
+      "boss": "boss_spotlight",
+      "tagline": "让女明星的年龄露馅"
+    },
+    "L129-130": {
+      "boss": "boss_spotlight",
+      "tagline": "让 Gary 超速被警察拦下"
+    },
+    "L131-132": {
+      "boss": "boss_mask",
+      "tagline": "让全家假期去不成"
+    },
+    "L133-134": {
+      "boss": "boss_spotlight",
+      "tagline": "把女明星的新闻吹上头条"
+    },
+    "L135-136": {
+      "boss": "boss_spotlight",
+      "tagline": "让 Karen 的退休变来变去"
+    },
+    "L137-138": {
+      "boss": "boss_mask",
+      "tagline": "把中奖美梦变成泡影"
+    },
+    "L139-140": {
+      "boss": "boss_spotlight",
+      "tagline": "让电话打错，约饭乱套"
+    },
+    "L141-142": {
+      "boss": "boss_curtain",
+      "tagline": "让 Sally 的火车上闹笑话"
+    },
+    "L143-144": {
+      "boss": "duke",
+      "tagline": "把树林堆满垃圾"
+    }
+  }
+}

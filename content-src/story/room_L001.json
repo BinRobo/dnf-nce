@@ -1,0 +1,27 @@
+{
+  "id": "room_L001",
+  "bg": "street",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "woman",
+      "side": "right"
+    },
+    {
+      "t": "narr",
+      "zh": "女士被灰雾裹住，只能拼命比划。"
+    },
+    {
+      "t": "say",
+      "who": "woman",
+      "face": "sad",
+      "zh": "（指着空空的手臂，着急比划）"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "zh": "听一听，帮她说出来！"
+    }
+  ]
+}

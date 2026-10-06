@@ -1,0 +1,306 @@
+{
+  "id": "L015-016",
+  "lessons": [
+    15,
+    16
+  ],
+  "title": "Your passports, please.",
+  "titleZh": "请出示你们的护照。",
+  "evenTitle": "Are you ...?",
+  "evenTitleZh": "你是……吗？",
+  "words": [
+    {
+      "en": "customs",
+      "ipa": "'kʌstəmz",
+      "pos": "n.",
+      "zh": "海关",
+      "lesson": 15
+    },
+    {
+      "en": "officer",
+      "ipa": "'ɒfɪsə",
+      "pos": "n.",
+      "zh": "官员",
+      "lesson": 15
+    },
+    {
+      "en": "girl",
+      "ipa": "ɡɜːl",
+      "pos": "n.",
+      "zh": "女孩，姑娘",
+      "lesson": 15
+    },
+    {
+      "en": "Danish",
+      "ipa": "'deɪnɪʃ",
+      "pos": "adj. & n.",
+      "zh": "丹麦人；丹麦的",
+      "lesson": 15
+    },
+    {
+      "en": "friend",
+      "ipa": "frend",
+      "pos": "n.",
+      "zh": "朋友",
+      "lesson": 15
+    },
+    {
+      "en": "Norwegian",
+      "ipa": "nɔː'wiːdʒən",
+      "pos": "adj. & n.",
+      "zh": "挪威人；挪威的",
+      "lesson": 15
+    },
+    {
+      "en": "passport",
+      "ipa": "'pɑːspɔːt",
+      "pos": "n.",
+      "zh": "护照",
+      "lesson": 15
+    },
+    {
+      "en": "brown",
+      "ipa": "braʊn",
+      "pos": "adj.",
+      "zh": "棕色的",
+      "lesson": 15
+    },
+    {
+      "en": "tourist",
+      "ipa": "'tʊərɪst",
+      "pos": "n.",
+      "zh": "旅游者",
+      "lesson": 15
+    },
+    {
+      "en": "Russian",
+      "ipa": "'rʌʃən",
+      "pos": "adj. & n.",
+      "zh": "俄罗斯人；俄罗斯的",
+      "lesson": 16
+    },
+    {
+      "en": "Dutch",
+      "ipa": "dʌtʃ",
+      "pos": "adj. & n.",
+      "zh": "荷兰人；荷兰的",
+      "lesson": 16
+    },
+    {
+      "en": "these",
+      "ipa": "ðiːz",
+      "pos": "pron.",
+      "zh": "这些（this 的复数）",
+      "lesson": 16
+    },
+    {
+      "en": "red",
+      "ipa": "red",
+      "pos": "adj.",
+      "zh": "红色的",
+      "lesson": 16
+    },
+    {
+      "en": "grey",
+      "ipa": "ɡreɪ",
+      "pos": "adj.",
+      "zh": "灰色的",
+      "lesson": 16
+    },
+    {
+      "en": "yellow",
+      "ipa": "'jeləʊ",
+      "pos": "adj.",
+      "zh": "黄色的",
+      "lesson": 16
+    },
+    {
+      "en": "black",
+      "ipa": "blæk",
+      "pos": "adj.",
+      "zh": "黑色的",
+      "lesson": 16
+    },
+    {
+      "en": "orange",
+      "ipa": "'ɒrɪndʒ",
+      "pos": "adj.",
+      "zh": "橘黄色的",
+      "lesson": 16
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Customs officer",
+      "en": "Are you Swedish?",
+      "zh": "你们是瑞典人吗？"
+    },
+    {
+      "speaker": "Girls",
+      "en": "No, we are not.",
+      "zh": "不，我们不是瑞典人。"
+    },
+    {
+      "speaker": "Girls",
+      "en": "We are Danish.",
+      "zh": "我们是丹麦人。"
+    },
+    {
+      "speaker": "Customs officer",
+      "en": "Are your friends Danish, too?",
+      "zh": "你们的朋友也是丹麦人吗？"
+    },
+    {
+      "speaker": "Girls",
+      "en": "No, they aren't.",
+      "zh": "不，他们不是丹麦人。"
+    },
+    {
+      "speaker": "Girls",
+      "en": "They are Norwegian.",
+      "zh": "他们是挪威人。"
+    },
+    {
+      "speaker": "Customs officer",
+      "en": "Your passports, please.",
+      "zh": "请出示你们的护照。"
+    },
+    {
+      "speaker": "Girls",
+      "en": "Here they are.",
+      "zh": "给您。"
+    },
+    {
+      "speaker": "Customs officer",
+      "en": "Are these your cases?",
+      "zh": "这些是你们的箱子吗？"
+    },
+    {
+      "speaker": "Girls",
+      "en": "No, they aren't.",
+      "zh": "不，不是。"
+    },
+    {
+      "speaker": "Girls",
+      "en": "Our cases are brown.",
+      "zh": "我们的箱子是棕色的。"
+    },
+    {
+      "speaker": "Girls",
+      "en": "Here they are.",
+      "zh": "在这儿呢。"
+    },
+    {
+      "speaker": "Customs officer",
+      "en": "Are you tourists?",
+      "zh": "你们是来旅游的吗？"
+    },
+    {
+      "speaker": "Girls",
+      "en": "Yes, we are.",
+      "zh": "是的，我们是来旅游的。"
+    },
+    {
+      "speaker": "Customs officer",
+      "en": "Are your friends tourists too?",
+      "zh": "你们的朋友也是来旅游的吗？"
+    },
+    {
+      "speaker": "Girls",
+      "en": "Yes, they are.",
+      "zh": "是的，他们也是。"
+    },
+    {
+      "speaker": "Customs officer",
+      "en": "That's fine.",
+      "zh": "好了。"
+    },
+    {
+      "speaker": "Girls",
+      "en": "Thank you very much.",
+      "zh": "非常感谢。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "It is ___ English car.",
+      "zh": "这是一辆英国车。",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "it"
+      ]
+    },
+    {
+      "en": "It is ___ Japanese car.",
+      "zh": "这是一辆日本车。",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "is"
+      ]
+    },
+    {
+      "en": "Robert is not ___ teacher.",
+      "zh": "罗伯特不是老师。",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "his"
+      ]
+    },
+    {
+      "en": "What colour are your books? ___ books are red.",
+      "zh": "你们的书是什么颜色的？我们的书是红色的。",
+      "options": [
+        "Our",
+        "We",
+        "Your",
+        "They"
+      ]
+    },
+    {
+      "en": "Are ___ your cases? No, they aren't.",
+      "zh": "这些是你们的箱子吗？不，不是。",
+      "options": [
+        "these",
+        "this",
+        "they",
+        "we"
+      ]
+    },
+    {
+      "en": "Are your friends Danish, too? No, ___ aren't.",
+      "zh": "你们的朋友也是丹麦人吗？不，他们不是。",
+      "options": [
+        "they",
+        "we",
+        "it",
+        "these"
+      ]
+    },
+    {
+      "en": "Are you tourists? Yes, ___ are.",
+      "zh": "你们是来旅游的吗？是的，我们是。",
+      "options": [
+        "we",
+        "they",
+        "you",
+        "our"
+      ]
+    },
+    {
+      "en": "Your ___, please.",
+      "zh": "请出示你们的护照。",
+      "options": [
+        "passports",
+        "friends",
+        "tickets",
+        "cases"
+      ]
+    }
+  ]
+}

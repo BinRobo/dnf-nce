@@ -1,0 +1,43 @@
+{
+  "id": "ch6_boss",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "boss_curtain",
+      "side": "right"
+    },
+    {
+      "t": "sfx",
+      "key": "boss_appear"
+    },
+    {
+      "t": "say",
+      "who": "boss_curtain",
+      "face": "normal",
+      "zh": "大幕将落，所有台词，都该退场。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "zh": "我们一路走来，每句台词都记着呢！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "surprised",
+      "en": "Don't be so sure.",
+      "audio": {
+        "lesson": "L131-132",
+        "line": 10
+      }
+    },
+    {
+      "t": "say",
+      "who": "boss_curtain",
+      "face": "normal",
+      "zh": "舞台只属于沉默！"
+    }
+  ]
+}

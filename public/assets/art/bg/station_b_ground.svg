@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" stroke-linejoin="round" stroke-linecap="round">
+<rect x="0" y="470" width="1280" height="250" rx="0" fill="#F6C27A" stroke="none" />
+<rect x="0" y="470" width="1280" height="70" rx="0" fill="#FFD79A" stroke="none" />
+<rect x="0" y="540" width="1280" height="180" rx="0" fill="#D9A66A" stroke="none" />
+<rect x="0" y="540" width="1280" height="18" rx="0" fill="#BE8A52" stroke="none" />
+<path d="M0,540 H1280" fill="none" stroke="#2B2A4A" stroke-width="4" />
+<path d="M0,470 H1280" fill="none" stroke="#2B2A4A" stroke-width="4" />
+<path d="M0,600 H1280" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M0,660 H1280" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M-80,540 V600 M-40,600 V660 M-80,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M0,540 V600 M40,600 V660 M0,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M80,540 V600 M120,600 V660 M80,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M160,540 V600 M200,600 V660 M160,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M240,540 V600 M280,600 V660 M240,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M320,540 V600 M360,600 V660 M320,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M400,540 V600 M440,600 V660 M400,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M480,540 V600 M520,600 V660 M480,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M560,540 V600 M600,600 V660 M560,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M640,540 V600 M680,600 V660 M640,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M720,540 V600 M760,600 V660 M720,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M800,540 V600 M840,600 V660 M800,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M880,540 V600 M920,600 V660 M880,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M960,540 V600 M1000,600 V660 M960,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M1040,540 V600 M1080,600 V660 M1040,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M1120,540 V600 M1160,600 V660 M1120,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M1200,540 V600 M1240,600 V660 M1200,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+<path d="M1280,540 V600 M1320,600 V660 M1280,660 V720" fill="none" stroke="#A87A44" stroke-width="2" />
+</svg>

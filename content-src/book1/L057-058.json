@@ -1,0 +1,218 @@
+{
+  "id": "L057-058",
+  "lessons": [
+    57,
+    58
+  ],
+  "title": "An unusual day",
+  "titleZh": "很不平常的一天",
+  "evenTitle": "What's the time?",
+  "evenTitleZh": "几点钟？",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      1,
+      3,
+      5,
+      6,
+      8,
+      10,
+      11,
+      14,
+      16,
+      17,
+      20,
+      22,
+      24,
+      25,
+      27,
+      29
+    ]
+  },
+  "words": [
+    {
+      "en": "o'clock",
+      "ipa": "ə'klɒk",
+      "pos": "adv.",
+      "zh": "点钟",
+      "lesson": 57
+    },
+    {
+      "en": "shop",
+      "ipa": "ʃɒp",
+      "pos": "n.",
+      "zh": "商店",
+      "lesson": 57
+    },
+    {
+      "en": "moment",
+      "ipa": "'məʊmənt",
+      "pos": "n.",
+      "zh": "片刻，瞬间",
+      "lesson": 57
+    }
+  ],
+  "lines": [
+    {
+      "en": "It is eight o'clock.",
+      "zh": "现在是 8 点钟。"
+    },
+    {
+      "en": "The children go to school by car every day,",
+      "zh": "孩子们每天都乘小汽车去上学，"
+    },
+    {
+      "en": "but today, they are going to school on foot.",
+      "zh": "而今天，他们正步行去上学。"
+    },
+    {
+      "en": "It is ten o'clock.",
+      "zh": "现在是 10 点钟。"
+    },
+    {
+      "en": "Mrs. Sawyer usually stays at home in the morning,",
+      "zh": "上午，索耶夫人通常是呆在家里的，"
+    },
+    {
+      "en": "but this morning, she is going to the shops.",
+      "zh": "但今天上午，她正去商店买东西。"
+    },
+    {
+      "en": "It is four o'clock.",
+      "zh": "现在是 4 点钟。"
+    },
+    {
+      "en": "In the afternoon, Mrs. Sawyer usually drinks tea in the living room.",
+      "zh": "下午，索耶夫人通常是在客厅里喝茶，"
+    },
+    {
+      "en": "But this afternoon, she is drinking tea in the garden.",
+      "zh": "但今天下午，她正在花园里喝茶。"
+    },
+    {
+      "en": "It is six o'clock.",
+      "zh": "现在是 6 点钟。"
+    },
+    {
+      "en": "In the evening, the children usually do their homework,",
+      "zh": "晚上，孩子们通常是做作业，"
+    },
+    {
+      "en": "but this evening, they are not doing their homework.",
+      "zh": "而今天晚上，他们没做作业。"
+    },
+    {
+      "en": "At the moment, they are playing in the garden.",
+      "zh": "此刻，他们正在花园里玩。"
+    },
+    {
+      "en": "It is nine o'clock.",
+      "zh": "现在是 9 点钟。"
+    },
+    {
+      "en": "Mr. Sawyer usually reads his newspaper at night.",
+      "zh": "索耶先生通常是在晚上看报，"
+    },
+    {
+      "en": "But he's not reading his newspaper tonight.",
+      "zh": "但今天晚上他没看报。"
+    },
+    {
+      "en": "At the moment, he's reading an interesting book.",
+      "zh": "此刻，他正在看一本有趣的书。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "He usually shaves at 7.00 o'clock, but today, he ___ shaving at 8.00.",
+      "zh": "他通常 7 点刮脸，但今天他 8 点在刮脸。",
+      "options": [
+        "is",
+        "are",
+        "does",
+        "am"
+      ]
+    },
+    {
+      "en": "She usually drinks tea in the morning, but this morning, she is ___ coffee.",
+      "zh": "她通常早上喝茶，但今天早上她在喝咖啡。",
+      "options": [
+        "drinking",
+        "drinks",
+        "drink",
+        "drinkking"
+      ]
+    },
+    {
+      "en": "They usually play in the garden in the afternoon, but this afternoon, they are ___ in the park.",
+      "zh": "他们通常下午在花园玩，但今天下午他们在公园玩。",
+      "options": [
+        "playing",
+        "plays",
+        "play",
+        "plaing"
+      ]
+    },
+    {
+      "en": "He usually washes the dishes at night, but tonight he is ___ clothes.",
+      "zh": "他通常晚上洗盘子，但今晚他在洗衣服。",
+      "options": [
+        "washing",
+        "washes",
+        "wash",
+        "washs"
+      ]
+    },
+    {
+      "en": "What do they usually do every day? They usually ___ to school by car.",
+      "zh": "他们每天通常做什么？他们通常坐车上学。",
+      "options": [
+        "go",
+        "goes",
+        "going",
+        "are going"
+      ]
+    },
+    {
+      "en": "What are they doing today? They are ___ to school on foot.",
+      "zh": "他们今天在做什么？他们正步行去上学。",
+      "options": [
+        "going",
+        "go",
+        "goes",
+        "goed"
+      ]
+    },
+    {
+      "en": "The children go to school ___ car every day.",
+      "zh": "孩子们每天乘小汽车去上学。",
+      "options": [
+        "by",
+        "on",
+        "in",
+        "at"
+      ]
+    },
+    {
+      "en": "Today they are going to school ___ foot.",
+      "zh": "今天他们步行去上学。",
+      "options": [
+        "on",
+        "by",
+        "in",
+        "at"
+      ]
+    },
+    {
+      "en": "At the ___, he's reading an interesting book.",
+      "zh": "此刻，他正在看一本有趣的书。",
+      "options": [
+        "moment",
+        "minute",
+        "night",
+        "shop"
+      ]
+    }
+  ]
+}

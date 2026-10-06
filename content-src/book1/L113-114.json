@@ -1,0 +1,308 @@
+{
+ "id": "L113-114",
+ "lessons": [
+  113,
+  114
+ ],
+ "title": "Small change",
+ "titleZh": "零钱",
+ "evenTitle": "I've got none.",
+ "evenTitleZh": "我没有。",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   14,
+   15,
+   16,
+   17,
+   18,
+   20,
+   22,
+   23,
+   24
+  ]
+ },
+ "words": [
+  {
+   "en": "conductor",
+   "ipa": "kən'dʌktə",
+   "pos": "n.",
+   "zh": "售票员",
+   "lesson": 113
+  },
+  {
+   "en": "fare",
+   "ipa": "feə",
+   "pos": "n.",
+   "zh": "车费，车票",
+   "lesson": 113
+  },
+  {
+   "en": "change",
+   "ipa": "tʃeɪndʒ",
+   "pos": "v.",
+   "zh": "兑换（钱）",
+   "lesson": 113
+  },
+  {
+   "en": "note",
+   "ipa": "nəʊt",
+   "pos": "n.",
+   "zh": "纸币",
+   "lesson": 113
+  },
+  {
+   "en": "passenger",
+   "ipa": "'pæsɪndʒə",
+   "pos": "n.",
+   "zh": "乘客",
+   "lesson": 113
+  },
+  {
+   "en": "none",
+   "ipa": "nʌn",
+   "pos": "pron.",
+   "zh": "没有任何东西",
+   "lesson": 113
+  },
+  {
+   "en": "neither",
+   "ipa": "'naɪðə",
+   "pos": "adv.",
+   "zh": "也不",
+   "lesson": 113
+  },
+  {
+   "en": "get off",
+   "ipa": "",
+   "pos": "v.",
+   "zh": "下车",
+   "lesson": 113
+  },
+  {
+   "en": "tramp",
+   "ipa": "træmp",
+   "pos": "n.",
+   "zh": "流浪汉",
+   "lesson": 113
+  },
+  {
+   "en": "except",
+   "ipa": "ɪk'sept",
+   "pos": "prep.",
+   "zh": "除……外",
+   "lesson": 113
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Conductor",
+   "en": "Fares, please!",
+   "zh": "请买票！"
+  },
+  {
+   "speaker": "Man",
+   "en": "Trafalgar Square, please.",
+   "zh": "请买一张到特拉法加广场的票。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "I'm sorry, sir.",
+   "zh": "对不起，先生。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "I can't change a ten-pound note.",
+   "zh": "我找不开 10 英镑的钞票。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "Haven't you got any small change?",
+   "zh": "您没有零钱吗？"
+  },
+  {
+   "speaker": "Man",
+   "en": "I've got no small change, I'm afraid.",
+   "zh": "恐怕我没有零钱。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "I'll ask some of the passengers.",
+   "zh": "我来问问其他乘客。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "Have you any small change, sir?",
+   "zh": "先生，您有零钱吗？"
+  },
+  {
+   "speaker": "1st Passenger",
+   "en": "I'm sorry.",
+   "zh": "对不起，我没有。"
+  },
+  {
+   "speaker": "1st Passenger",
+   "en": "I've got none.",
+   "zh": "我没有。"
+  },
+  {
+   "speaker": "2nd Passenger",
+   "en": "I haven't got any either.",
+   "zh": "我也没有。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "Can you change this ten-pound note, madam?",
+   "zh": "夫人，您能把这 10 英镑的钞票换开吗？"
+  },
+  {
+   "speaker": "3rd Passenger",
+   "en": "I'm afraid I can't.",
+   "zh": "恐怕不能。"
+  },
+  {
+   "speaker": "4th Passenger",
+   "en": "Neither can I.",
+   "zh": "我也不能。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "I'm very sorry, sir.",
+   "zh": "非常抱歉，先生。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "You must get off the bus.",
+   "zh": "您必须下车。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "None of our passengers can change this note.",
+   "zh": "我们的乘客中没人能换开这张钞票。"
+  },
+  {
+   "speaker": "Conductor",
+   "en": "They're all millionaires!",
+   "zh": "他们都是百万富翁！"
+  },
+  {
+   "speaker": "Two Tramps",
+   "en": "Except us.",
+   "zh": "我们俩除外。"
+  },
+  {
+   "speaker": "1st Tramp",
+   "en": "I've got some small change.",
+   "zh": "我有零钱。"
+  },
+  {
+   "speaker": "2nd Tramp",
+   "en": "So have I.",
+   "zh": "我也有。"
+  }
+ ],
+ "drills": [
+  {
+   "en": "I can't ___ a ten-pound note.",
+   "zh": "我找不开 10 英镑的钞票。",
+   "options": [
+    "change",
+    "changes",
+    "changing",
+    "to changes"
+   ]
+  },
+  {
+   "en": "Haven't you got ___ small change?",
+   "zh": "您没有零钱吗？",
+   "options": [
+    "any",
+    "some",
+    "none",
+    "no one"
+   ]
+  },
+  {
+   "en": "I haven't got any either. ___ have I.",
+   "zh": "我也没有。我也没有。",
+   "options": [
+    "Neither",
+    "So",
+    "Either",
+    "Too"
+   ]
+  },
+  {
+   "en": "I've got some small change. ___ have I.",
+   "zh": "我有零钱。我也有。",
+   "options": [
+    "So",
+    "Neither",
+    "Either",
+    "Nor can"
+   ]
+  },
+  {
+   "en": "I've got ___ small change, I'm afraid.",
+   "zh": "恐怕我没有零钱。",
+   "options": [
+    "no",
+    "any",
+    "none",
+    "not"
+   ]
+  },
+  {
+   "en": "Have you got any chocolate? I've got ___.",
+   "zh": "你有巧克力吗？我一点也没有。",
+   "options": [
+    "none",
+    "any",
+    "no",
+    "some"
+   ]
+  },
+  {
+   "en": "There is ___ milk in that bottle.",
+   "zh": "那个瓶子里没有牛奶。",
+   "options": [
+    "no",
+    "any",
+    "none",
+    "a"
+   ]
+  },
+  {
+   "en": "I'm not tired. ___ am I.",
+   "zh": "我不累。我也不累。",
+   "options": [
+    "Neither",
+    "So",
+    "Too",
+    "Either"
+   ]
+  },
+  {
+   "en": "You must get ___ the bus.",
+   "zh": "您必须下车。",
+   "options": [
+    "off",
+    "in",
+    "up",
+    "out"
+   ]
+  }
+ ]
+}

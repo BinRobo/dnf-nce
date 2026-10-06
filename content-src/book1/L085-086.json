@@ -1,0 +1,49 @@
+{
+  "id": "L085-086",
+  "lessons": [85, 86],
+  "title": "Paris in the spring",
+  "titleZh": "巴黎之春",
+  "evenTitle": "What have you done?",
+  "evenTitleZh": "你已经做了什么？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 19, 20] },
+  "words": [
+    { "en": "Paris", "ipa": "'pærɪs", "pos": "n.", "zh": "巴黎", "lesson": 85 },
+    { "en": "cinema", "ipa": "'sɪnɪmə", "pos": "n.", "zh": "电影院", "lesson": 85 },
+    { "en": "film", "ipa": "fɪlm", "pos": "n.", "zh": "电影", "lesson": 85 },
+    { "en": "beautiful", "ipa": "'bjuːtɪfəl", "pos": "adj.", "zh": "漂亮的", "lesson": 85 },
+    { "en": "city", "ipa": "'sɪti", "pos": "n.", "zh": "城市", "lesson": 85 },
+    { "en": "never", "ipa": "'nevə", "pos": "adv.", "zh": "从来没有", "lesson": 85 },
+    { "en": "ever", "ipa": "'evə", "pos": "adv.", "zh": "在任何时候", "lesson": 85 }
+  ],
+  "lines": [
+    { "speaker": "George", "en": "Hello, Ken.", "zh": "你好，肯。" },
+    { "speaker": "Ken", "en": "Hi, George.", "zh": "你好，乔治。" },
+    { "speaker": "George", "en": "Have you just been to the cinema?", "zh": "你刚去过电影院吗？" },
+    { "speaker": "Ken", "en": "Yes, I have.", "zh": "是的，我刚去过。" },
+    { "speaker": "George", "en": "What's on?", "zh": "上映什么片子？" },
+    { "speaker": "Ken", "en": "'Paris in the Spring'.", "zh": "《巴黎之春》。" },
+    { "speaker": "George", "en": "Oh, I've already seen it.", "zh": "噢，我已看过了。" },
+    { "speaker": "George", "en": "I saw it on television last year.", "zh": "我是去年在电视上看的。" },
+    { "speaker": "George", "en": "It's an old film, but it's very good.", "zh": "这是部老片子，但很好。" },
+    { "speaker": "Ken", "en": "Paris is a beautiful city.", "zh": "巴黎是座美丽的城市。" },
+    { "speaker": "George", "en": "I've never been there.", "zh": "我从未去过。" },
+    { "speaker": "George", "en": "Have you ever been there, Ken?", "zh": "肯，你去过吗？" },
+    { "speaker": "Ken", "en": "Yes, I have.", "zh": "是的，我去过。" },
+    { "speaker": "Ken", "en": "I was there in April.", "zh": "4 月份我在那儿。" },
+    { "speaker": "George", "en": "Paris in the spring, eh?", "zh": "那是巴黎之春，是吗？" },
+    { "speaker": "Ken", "en": "It was spring, but the weather was awful.", "zh": "是春天，但天气太糟了。" },
+    { "speaker": "Ken", "en": "It rained all the time.", "zh": "一直在下雨。" },
+    { "speaker": "George", "en": "Just like London!", "zh": "就像伦敦一样！" }
+  ],
+  "drills": [
+    { "en": "She ___ just boiled an egg.", "zh": "她刚煮了一个鸡蛋。", "options": ["has", "have", "is", "was"] },
+    { "en": "He ___ already painted that bookcase.", "zh": "他已经漆好了那个书架。", "options": ["has", "have", "is", "did"] },
+    { "en": "He painted it a week ___.", "zh": "他一周前漆的。", "options": ["ago", "already", "just", "ever"] },
+    { "en": "Air the room! I've already ___ the room.", "zh": "给房间通风！我已经通过了。", "options": ["aired", "air", "airs", "airing"] },
+    { "en": "Open the window! I ___ it an hour ago.", "zh": "开窗！我一小时前就开了。", "options": ["opened", "have opened", "open", "opens"] },
+    { "en": "Have you just ___ to the cinema?", "zh": "你刚去过电影院吗？", "options": ["been", "be", "was", "gone to"] },
+    { "en": "Oh, I've already ___ it.", "zh": "噢，我已看过了。", "options": ["seen", "saw", "see", "seed"] },
+    { "en": "Have you ___ been there, Ken?", "zh": "肯，你去过吗？", "options": ["ever", "never", "already", "ago"] },
+    { "en": "I've ___ been there.", "zh": "我从未去过。", "options": ["never", "ever", "ago", "yet"] }
+  ]
+}

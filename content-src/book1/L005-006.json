@@ -1,0 +1,411 @@
+{
+  "id": "L005-006",
+  "lessons": [
+    5,
+    6
+  ],
+  "title": "Nice to meet you.",
+  "titleZh": "很高兴见到你。",
+  "evenTitle": "What make is it?",
+  "evenTitleZh": "它是什么牌子的？",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  },
+  "words": [
+    {
+      "en": "Mr.",
+      "ipa": "'mɪstə",
+      "pos": "",
+      "zh": "先生",
+      "lesson": 5
+    },
+    {
+      "en": "good",
+      "ipa": "ɡʊd",
+      "pos": "adj.",
+      "zh": "好",
+      "lesson": 5
+    },
+    {
+      "en": "morning",
+      "ipa": "'mɔːnɪŋ",
+      "pos": "n.",
+      "zh": "早晨",
+      "lesson": 5
+    },
+    {
+      "en": "Miss",
+      "ipa": "mɪs",
+      "pos": "",
+      "zh": "小姐",
+      "lesson": 5
+    },
+    {
+      "en": "new",
+      "ipa": "njuː",
+      "pos": "adj.",
+      "zh": "新的",
+      "lesson": 5
+    },
+    {
+      "en": "student",
+      "ipa": "'stjuːdənt",
+      "pos": "n.",
+      "zh": "学生",
+      "lesson": 5
+    },
+    {
+      "en": "French",
+      "ipa": "frentʃ",
+      "pos": "adj. & n.",
+      "zh": "法国人；法国的",
+      "lesson": 5
+    },
+    {
+      "en": "German",
+      "ipa": "'dʒɜːmən",
+      "pos": "adj. & n.",
+      "zh": "德国人；德国的",
+      "lesson": 5
+    },
+    {
+      "en": "nice",
+      "ipa": "naɪs",
+      "pos": "adj.",
+      "zh": "美好的",
+      "lesson": 5
+    },
+    {
+      "en": "meet",
+      "ipa": "miːt",
+      "pos": "v.",
+      "zh": "遇见",
+      "lesson": 5
+    },
+    {
+      "en": "Japanese",
+      "ipa": "dʒæpə'niːz",
+      "pos": "adj. & n.",
+      "zh": "日本人；日本的",
+      "lesson": 5
+    },
+    {
+      "en": "Korean",
+      "ipa": "kə'rɪən",
+      "pos": "adj. & n.",
+      "zh": "韩国人；韩国的",
+      "lesson": 5
+    },
+    {
+      "en": "Chinese",
+      "ipa": "ˌtʃaɪ'niːz",
+      "pos": "adj. & n.",
+      "zh": "中国人；中国的",
+      "lesson": 5
+    },
+    {
+      "en": "too",
+      "ipa": "tuː",
+      "pos": "adv.",
+      "zh": "也",
+      "lesson": 5
+    },
+    {
+      "en": "make",
+      "ipa": "meɪk",
+      "pos": "n.",
+      "zh": "（产品的）牌号",
+      "lesson": 6
+    },
+    {
+      "en": "Swedish",
+      "ipa": "'swiːdɪʃ",
+      "pos": "adj.",
+      "zh": "瑞典的",
+      "lesson": 6
+    },
+    {
+      "en": "English",
+      "ipa": "'ɪŋɡlɪʃ",
+      "pos": "adj.",
+      "zh": "英国的",
+      "lesson": 6
+    },
+    {
+      "en": "American",
+      "ipa": "ə'merɪkən",
+      "pos": "adj.",
+      "zh": "美国的",
+      "lesson": 6
+    },
+    {
+      "en": "Italian",
+      "ipa": "ɪ'tæliən",
+      "pos": "adj.",
+      "zh": "意大利的",
+      "lesson": 6
+    },
+    {
+      "en": "Volvo",
+      "ipa": "'vɒlvəʊ",
+      "pos": "n.",
+      "zh": "沃尔沃",
+      "lesson": 6
+    },
+    {
+      "en": "Peugeot",
+      "ipa": "'pɜːʒəʊ",
+      "pos": "n.",
+      "zh": "标致",
+      "lesson": 6
+    },
+    {
+      "en": "Mercedes",
+      "ipa": "mə'seɪdiːz",
+      "pos": "n.",
+      "zh": "梅赛德斯",
+      "lesson": 6
+    },
+    {
+      "en": "Toyota",
+      "ipa": "'təʊjəʊtə",
+      "pos": "n.",
+      "zh": "丰田",
+      "lesson": 6
+    },
+    {
+      "en": "Daewoo",
+      "ipa": "'dɑːwuː",
+      "pos": "n.",
+      "zh": "大宇",
+      "lesson": 6
+    },
+    {
+      "en": "Mini",
+      "ipa": "'mɪni",
+      "pos": "n.",
+      "zh": "迷你",
+      "lesson": 6
+    },
+    {
+      "en": "Ford",
+      "ipa": "fɔːd",
+      "pos": "n.",
+      "zh": "福特",
+      "lesson": 6
+    },
+    {
+      "en": "Fiat",
+      "ipa": "'fiːæt",
+      "pos": "n.",
+      "zh": "菲亚特",
+      "lesson": 6
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Mr. Blake",
+      "en": "Good morning.",
+      "zh": "早上好。"
+    },
+    {
+      "speaker": "Students",
+      "en": "Good morning, Mr. Blake.",
+      "zh": "早上好，布莱克先生。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "This is Miss Sophie Dupont.",
+      "zh": "这位是索菲娅·杜邦小姐。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "Sophie is a new student.",
+      "zh": "索菲娅是个新学生。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "She is French.",
+      "zh": "她是法国人。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "Sophie, this is Hans.",
+      "zh": "索菲娅，这位是汉斯。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "He is German.",
+      "zh": "他是德国人。"
+    },
+    {
+      "speaker": "Hans",
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "And this is Naoko.",
+      "zh": "这位是直子。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "She's Japanese.",
+      "zh": "她是日本人。"
+    },
+    {
+      "speaker": "Naoko",
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "And this is Chang-woo.",
+      "zh": "这位是昌宇。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "He's Korean.",
+      "zh": "他是韩国人。"
+    },
+    {
+      "speaker": "Chang-woo",
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "And this is Luming.",
+      "zh": "这位是鲁明。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "He's Chinese.",
+      "zh": "他是中国人。"
+    },
+    {
+      "speaker": "Luming",
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "And this is Xiaohui.",
+      "zh": "这位是晓惠。"
+    },
+    {
+      "speaker": "Mr. Blake",
+      "en": "She's Chinese, too.",
+      "zh": "她也是中国人。"
+    },
+    {
+      "speaker": "Xiaohui",
+      "en": "Nice to meet you.",
+      "zh": "很高兴见到你。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Alice is a student. ___ is French.",
+      "zh": "艾丽斯是个学生。她是法国人。",
+      "options": [
+        "She",
+        "He",
+        "It",
+        "This"
+      ]
+    },
+    {
+      "en": "Hans is a student. ___ is German.",
+      "zh": "汉斯是个学生。他是德国人。",
+      "options": [
+        "He",
+        "She",
+        "It",
+        "His"
+      ]
+    },
+    {
+      "en": "This is her car. ___ is a French car.",
+      "zh": "这是她的车。它是一辆法国车。",
+      "options": [
+        "It",
+        "She",
+        "He",
+        "This"
+      ]
+    },
+    {
+      "en": "It's a Volvo. It's a ___ car.",
+      "zh": "这是一辆沃尔沃。它是瑞典车。",
+      "options": [
+        "Swedish",
+        "Italian",
+        "American",
+        "Japanese"
+      ]
+    },
+    {
+      "en": "It's a Toyota. It's a ___ car.",
+      "zh": "这是一辆丰田。它是日本车。",
+      "options": [
+        "Japanese",
+        "German",
+        "English",
+        "Korean"
+      ]
+    },
+    {
+      "en": "Is it a Swedish car ___ a French car?",
+      "zh": "它是瑞典车还是法国车？",
+      "options": [
+        "or",
+        "and",
+        "too",
+        "is"
+      ]
+    },
+    {
+      "en": "It isn't a French car. It's ___ Italian car.",
+      "zh": "它不是法国车，它是意大利车。",
+      "options": [
+        "an",
+        "a",
+        "the",
+        "it"
+      ]
+    },
+    {
+      "en": "Nice to ___ you.",
+      "zh": "很高兴见到你。",
+      "options": [
+        "meet",
+        "make",
+        "nice",
+        "good"
+      ]
+    }
+  ]
+}

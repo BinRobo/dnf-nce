@@ -1,0 +1,49 @@
+{
+  "id": "L087-088",
+  "lessons": [87, 88],
+  "title": "A car crash",
+  "titleZh": "车祸",
+  "evenTitle": "Have you ... yet?",
+  "evenTitleZh": "你已经……了吗？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 14, 15, 16, 17, 18, 20] },
+  "words": [
+    { "en": "attendant", "ipa": "ə'tendənt", "pos": "n.", "zh": "接待员", "lesson": 87 },
+    { "en": "bring", "ipa": "brɪŋ", "pos": "v.", "zh": "带来，送来（过去式 brought）", "lesson": 87 },
+    { "en": "garage", "ipa": "'ɡærɑːʒ", "pos": "n.", "zh": "车库，汽车修理厂", "lesson": 87 },
+    { "en": "crash", "ipa": "kræʃ", "pos": "n.", "zh": "碰撞", "lesson": 87 },
+    { "en": "lamp-post", "ipa": "'læmp-pəʊst", "pos": "n.", "zh": "灯杆", "lesson": 87 },
+    { "en": "repair", "ipa": "rɪ'peə", "pos": "v.", "zh": "修理", "lesson": 87 },
+    { "en": "try", "ipa": "traɪ", "pos": "v.", "zh": "努力，设法", "lesson": 87 }
+  ],
+  "lines": [
+    { "speaker": "Mr. Wood", "en": "Is my car ready yet?", "zh": "我的汽车修好了吗？" },
+    { "speaker": "Attendant", "en": "I don't know, sir.", "zh": "我不知道，先生。" },
+    { "speaker": "Attendant", "en": "What's the number of your car?", "zh": "您的汽车牌号是多少？" },
+    { "speaker": "Mr. Wood", "en": "It's LFZ 312 G.", "zh": "是 LFZ312G。" },
+    { "speaker": "Attendant", "en": "When did you bring it to us?", "zh": "您什么时候送来的？" },
+    { "speaker": "Mr. Wood", "en": "I brought it here three days ago.", "zh": "3 天前。" },
+    { "speaker": "Attendant", "en": "Ah yes, I remember now.", "zh": "啊，是的，我现在记起来了。" },
+    { "speaker": "Mr. Wood", "en": "Have your mechanics finished yet?", "zh": "你们的机械师修好了吗？" },
+    { "speaker": "Attendant", "en": "No, they're still working on it.", "zh": "没有，他们还在修呢。" },
+    { "speaker": "Attendant", "en": "Let's go into the garage and have a look at it.", "zh": "我们到车库去看一下吧。" },
+    { "speaker": "Attendant", "en": "Isn't that your car?", "zh": "这难道不是您的车吗？" },
+    { "speaker": "Mr. Wood", "en": "Well, it was my car.", "zh": "唔，这曾是我的车。" },
+    { "speaker": "Attendant", "en": "Didn't you have a crash?", "zh": "难道您没出车祸吗？" },
+    { "speaker": "Mr. Wood", "en": "That's right.", "zh": "是啊。" },
+    { "speaker": "Mr. Wood", "en": "I drove it into a lamp-post.", "zh": "我把汽车撞在电线杆上了。" },
+    { "speaker": "Mr. Wood", "en": "Can your mechanics repair it?", "zh": "你们的机械师能修好吗？" },
+    { "speaker": "Attendant", "en": "Well, they're trying to repair it, sir.", "zh": "啊，他们正设法修呢，先生。" },
+    { "speaker": "Attendant", "en": "But to tell you the truth, you need a new car!", "zh": "不过说实在的，您需要一辆新车了！" }
+  ],
+  "drills": [
+    { "en": "He bought a house last year. → ___ he buy a house last year?", "zh": "他去年买房子了吗？", "options": ["Did", "Does", "Has", "Was"] },
+    { "en": "He bought a house last year. → He ___ buy a house last year.", "zh": "他去年没买房子。", "options": ["didn't", "doesn't", "hasn't", "wasn't"] },
+    { "en": "He found his pen a minute ago. → Did he ___ his pen a minute ago?", "zh": "他一分钟前找到钢笔了吗？", "options": ["find", "found", "finds", "finded"] },
+    { "en": "Have they bought a new house yet? Yes, they have already ___ a new house.", "zh": "他们买新房子了吗？是的，已经买了。", "options": ["bought", "buy", "buyed", "brought"] },
+    { "en": "Has the boss left yet? Yes, he has. He ___ ten minutes ago.", "zh": "老板走了吗？是的，他十分钟前走的。", "options": ["left", "leaved", "has left", "leaves"] },
+    { "en": "Have you ___ Mrs. Jones yet?", "zh": "你见过琼斯夫人了吗？", "options": ["met", "meet", "meeted", "meets"] },
+    { "en": "She ___ the floor this morning.", "zh": "她今天早上扫了地。", "options": ["swept", "sweeped", "sweeps", "sweep"] },
+    { "en": "I ___ it here three days ago.", "zh": "我 3 天前把它送来的。", "options": ["brought", "bringed", "bought", "bring"] },
+    { "en": "They're trying to ___ it, sir.", "zh": "他们正设法修呢，先生。", "options": ["repair", "crash", "bring", "drive"] }
+  ]
+}

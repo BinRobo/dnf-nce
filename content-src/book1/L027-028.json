@@ -1,0 +1,44 @@
+{
+  "id": "L027-028",
+  "lessons": [27, 28],
+  "title": "Mrs. Smith's living room",
+  "titleZh": "史密斯太太的客厅",
+  "evenTitle": "Where are they?",
+  "evenTitleZh": "它们在哪里？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 15] },
+  "words": [
+    { "en": "living room", "ipa": "'lɪvɪŋ-rʊm", "pos": "", "zh": "客厅", "lesson": 27 },
+    { "en": "near", "ipa": "nɪə", "pos": "prep.", "zh": "靠近", "lesson": 27 },
+    { "en": "window", "ipa": "'wɪndəʊ", "pos": "n.", "zh": "窗户", "lesson": 27 },
+    { "en": "armchair", "ipa": "'ɑːmtʃeə", "pos": "n.", "zh": "扶手椅", "lesson": 27 },
+    { "en": "door", "ipa": "dɔː", "pos": "n.", "zh": "门", "lesson": 27 },
+    { "en": "picture", "ipa": "'pɪktʃə", "pos": "n.", "zh": "图画", "lesson": 27 },
+    { "en": "wall", "ipa": "wɔːl", "pos": "n.", "zh": "墙", "lesson": 27 },
+    { "en": "trousers", "ipa": "'traʊzəz", "pos": "n.", "zh": "长裤（复数）", "lesson": 28 }
+  ],
+  "lines": [
+    { "en": "Mrs. Smith's living room is large.", "zh": "史密斯夫人的客厅很大。" },
+    { "en": "There is a television in the room.", "zh": "客厅里有台电视机。" },
+    { "en": "The television is near the window.", "zh": "电视机靠近窗子。" },
+    { "en": "There are some magazines on the television.", "zh": "电视机上放着几本杂志。" },
+    { "en": "There is a table in the room.", "zh": "客厅里有张桌子。" },
+    { "en": "There are some newspapers on the table.", "zh": "桌上放着几份报纸。" },
+    { "en": "There are some armchairs in the room.", "zh": "客厅里有几把扶手椅。" },
+    { "en": "The armchairs are near the table.", "zh": "这些扶手椅靠近桌子。" },
+    { "en": "There is a stereo in the room.", "zh": "客厅里有台立体声音响。" },
+    { "en": "The stereo is near the door.", "zh": "音响靠近门。" },
+    { "en": "There are some books on the stereo.", "zh": "音响上面有几本书。" },
+    { "en": "There are some pictures in the room.", "zh": "客厅里有几幅画。" },
+    { "en": "The pictures are on the wall.", "zh": "画挂在墙上。" }
+  ],
+  "drills": [
+    { "en": "There is a pencil on the desk. → There are some ___ on the desk.", "zh": "桌上有几支铅笔。", "options": ["pencils", "pencil", "pencils'", "a pencil"] },
+    { "en": "There is a knife near that tin. → There are some ___ near that tin.", "zh": "那个罐头旁有几把刀。", "options": ["knives", "knifes", "knife", "knivs"] },
+    { "en": "There is a policeman in the kitchen. → There are some ___ in the kitchen.", "zh": "厨房里有几个警察。", "options": ["policemen", "policemans", "policeman", "policemens"] },
+    { "en": "There ___ some magazines on the television.", "zh": "电视机上放着几本杂志。", "options": ["are", "is", "am", "be"] },
+    { "en": "There ___ a stereo in the room.", "zh": "客厅里有台立体声音响。", "options": ["is", "are", "am", "be"] },
+    { "en": "Are there ___ books on the dressing table? No, there aren't.", "zh": "梳妆台上有书吗？不，没有。", "options": ["any", "some", "a", "the"] },
+    { "en": "Where are they? They're ___ that box.", "zh": "它们在哪儿？在那个盒子旁边。", "options": ["near", "of", "where", "there"] },
+    { "en": "The pictures are on the ___.", "zh": "画挂在墙上。", "options": ["wall", "door", "window", "floor"] }
+  ]
+}

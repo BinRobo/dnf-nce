@@ -1,0 +1,286 @@
+{
+ "id": "L099-100",
+ "lessons": [
+  99,
+  100
+ ],
+ "title": "Ow!",
+ "titleZh": "啊哟！",
+ "evenTitle": "He says that ... She says that ... They say that ...",
+ "evenTitleZh": "他／她／他们说……",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   13,
+   14,
+   16
+  ]
+ },
+ "words": [
+  {
+   "en": "ow",
+   "ipa": "aʊ",
+   "pos": "int.",
+   "zh": "哎哟",
+   "lesson": 99
+  },
+  {
+   "en": "slip",
+   "ipa": "slɪp",
+   "pos": "v.",
+   "zh": "滑倒，滑了一脚",
+   "lesson": 99
+  },
+  {
+   "en": "fall",
+   "ipa": "fɔːl",
+   "pos": "v.",
+   "zh": "落下，跌倒（过去式 fell，过去分词 fallen）",
+   "lesson": 99
+  },
+  {
+   "en": "downstairs",
+   "ipa": "ˌdaʊn'steəz",
+   "pos": "adv.",
+   "zh": "下楼",
+   "lesson": 99
+  },
+  {
+   "en": "hurt",
+   "ipa": "hɜːt",
+   "pos": "v.",
+   "zh": "伤，伤害，疼痛（过去式 hurt）",
+   "lesson": 99
+  },
+  {
+   "en": "back",
+   "ipa": "bæk",
+   "pos": "n.",
+   "zh": "背",
+   "lesson": 99
+  },
+  {
+   "en": "stand up",
+   "ipa": "'stænd-'ʌp",
+   "pos": "",
+   "zh": "起立，站起来",
+   "lesson": 99
+  },
+  {
+   "en": "help",
+   "ipa": "help",
+   "pos": "v.",
+   "zh": "帮助",
+   "lesson": 99
+  },
+  {
+   "en": "at once",
+   "ipa": "",
+   "pos": "",
+   "zh": "立即",
+   "lesson": 99
+  },
+  {
+   "en": "sure",
+   "ipa": "ʃɔː",
+   "pos": "adj.",
+   "zh": "一定的，确信的",
+   "lesson": 99
+  },
+  {
+   "en": "X-ray",
+   "ipa": "'eks-reɪ",
+   "pos": "n.",
+   "zh": "X 光透视",
+   "lesson": 99
+  },
+  {
+   "en": "licence",
+   "ipa": "'laɪsəns",
+   "pos": "n.",
+   "zh": "执照",
+   "lesson": 100
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Andy",
+   "en": "Ow!",
+   "zh": "啊哟！"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "What's the matter, Andy?",
+   "zh": "怎么了，安迪？"
+  },
+  {
+   "speaker": "Andy",
+   "en": "I slipped and fell downstairs.",
+   "zh": "我滑了一跤，从楼梯上摔下来了。"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "Have you hurt yourself?",
+   "zh": "你摔伤了没有？"
+  },
+  {
+   "speaker": "Andy",
+   "en": "Yes, I have.",
+   "zh": "是啊，摔伤了。"
+  },
+  {
+   "speaker": "Andy",
+   "en": "I think that I've hurt my back.",
+   "zh": "我想我把背摔坏了。"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "Try and stand up.",
+   "zh": "试试站起来。"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "Can you stand up?",
+   "zh": "你能站起来吗？"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "Here. Let me help you.",
+   "zh": "来，让我帮你。"
+  },
+  {
+   "speaker": "Andy",
+   "en": "I'm sorry, Lucy.",
+   "zh": "对不起，露西。"
+  },
+  {
+   "speaker": "Andy",
+   "en": "I'm afraid that I can't get up.",
+   "zh": "恐怕我站不起来。"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "I think that the doctor had better see you.",
+   "zh": "我想最好请医生来给你看一下。"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "I'll phone Dr. Carter.",
+   "zh": "我去给卡特医生打电话。"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "The doctor says that he will come at once.",
+   "zh": "医生说他马上就来。"
+  },
+  {
+   "speaker": "Lucy",
+   "en": "I'm sure that you need an X-ray, Andy.",
+   "zh": "安迪，我看你需要做一次 X 光透视。"
+  }
+ ],
+ "drills": [
+  {
+   "en": "I slipped and ___ downstairs.",
+   "zh": "我滑了一跤，从楼梯上摔了下来。",
+   "options": [
+    "fell",
+    "fall",
+    "fallen",
+    "falls"
+   ]
+  },
+  {
+   "en": "Have you ___ yourself?",
+   "zh": "你摔伤了没有？",
+   "options": [
+    "hurt",
+    "hurted",
+    "hurts",
+    "hurting"
+   ]
+  },
+  {
+   "en": "He says that he ___ tired.",
+   "zh": "他说他觉得累。",
+   "options": [
+    "feels",
+    "feel",
+    "feeling",
+    "to feel"
+   ]
+  },
+  {
+   "en": "She says that she ___ a headache.",
+   "zh": "她说她头疼。",
+   "options": [
+    "has",
+    "have",
+    "having",
+    "are"
+   ]
+  },
+  {
+   "en": "They say that they ___ some money.",
+   "zh": "他们说他们想要一些钱。",
+   "options": [
+    "want",
+    "wants",
+    "wanting",
+    "to want"
+   ]
+  },
+  {
+   "en": "Try and ___ up.",
+   "zh": "试试站起来。",
+   "options": [
+    "stand",
+    "stands",
+    "standing",
+    "stood"
+   ]
+  },
+  {
+   "en": "The doctor says that he will come at ___.",
+   "zh": "医生说他马上就来。",
+   "options": [
+    "once",
+    "twice",
+    "ever",
+    "never"
+   ]
+  },
+  {
+   "en": "I'm ___ that I can't get up.",
+   "zh": "恐怕我站不起来。",
+   "options": [
+    "afraid",
+    "afraids",
+    "afraided",
+    "fear"
+   ]
+  },
+  {
+   "en": "He knows that he ___ an X-ray.",
+   "zh": "他知道他需要做 X 光透视。",
+   "options": [
+    "needs",
+    "need",
+    "needing",
+    "to need"
+   ]
+  }
+ ]
+}

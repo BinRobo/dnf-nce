@@ -1,0 +1,331 @@
+{
+  "id": "L031-032",
+  "lessons": [
+    31,
+    32
+  ],
+  "title": "Where's Sally?",
+  "titleZh": "萨莉在哪里？",
+  "evenTitle": "What's he/she/it doing?",
+  "evenTitleZh": "他/她/它正在做什么？",
+  "words": [
+    {
+      "en": "garden",
+      "ipa": "'ɡɑːdn",
+      "pos": "n.",
+      "zh": "花园",
+      "lesson": 31
+    },
+    {
+      "en": "under",
+      "ipa": "'ʌndə",
+      "pos": "prep.",
+      "zh": "在……之下",
+      "lesson": 31
+    },
+    {
+      "en": "tree",
+      "ipa": "triː",
+      "pos": "n.",
+      "zh": "树",
+      "lesson": 31
+    },
+    {
+      "en": "climb",
+      "ipa": "klaɪm",
+      "pos": "v.",
+      "zh": "爬，攀登",
+      "lesson": 31
+    },
+    {
+      "en": "who",
+      "ipa": "huː",
+      "pos": "pron.",
+      "zh": "谁",
+      "lesson": 31
+    },
+    {
+      "en": "run",
+      "ipa": "rʌn",
+      "pos": "v.",
+      "zh": "跑",
+      "lesson": 31
+    },
+    {
+      "en": "grass",
+      "ipa": "ɡrɑːs",
+      "pos": "n.",
+      "zh": "草，草地",
+      "lesson": 31
+    },
+    {
+      "en": "after",
+      "ipa": "'ɑːftə",
+      "pos": "prep.",
+      "zh": "在……之后",
+      "lesson": 31
+    },
+    {
+      "en": "across",
+      "ipa": "ə'krɒs",
+      "pos": "prep.",
+      "zh": "横过，穿过",
+      "lesson": 31
+    },
+    {
+      "en": "cat",
+      "ipa": "kæt",
+      "pos": "n.",
+      "zh": "猫",
+      "lesson": 31
+    },
+    {
+      "en": "type",
+      "ipa": "taɪp",
+      "pos": "v.",
+      "zh": "打字",
+      "lesson": 32
+    },
+    {
+      "en": "letter",
+      "ipa": "'letə",
+      "pos": "n.",
+      "zh": "信",
+      "lesson": 32
+    },
+    {
+      "en": "basket",
+      "ipa": "'bɑːskɪt",
+      "pos": "n.",
+      "zh": "篮子",
+      "lesson": 32
+    },
+    {
+      "en": "eat",
+      "ipa": "iːt",
+      "pos": "v.",
+      "zh": "吃",
+      "lesson": 32
+    },
+    {
+      "en": "bone",
+      "ipa": "bəʊn",
+      "pos": "n.",
+      "zh": "骨头",
+      "lesson": 32
+    },
+    {
+      "en": "clean",
+      "ipa": "kliːn",
+      "pos": "v.",
+      "zh": "清洗",
+      "lesson": 32
+    },
+    {
+      "en": "tooth",
+      "ipa": "tuːθ",
+      "pos": "n.",
+      "zh": "牙齿（复数 teeth）",
+      "lesson": 32
+    },
+    {
+      "en": "cook",
+      "ipa": "kʊk",
+      "pos": "v.",
+      "zh": "做（饭菜）",
+      "lesson": 32
+    },
+    {
+      "en": "milk",
+      "ipa": "mɪlk",
+      "pos": "n.",
+      "zh": "牛奶",
+      "lesson": 32
+    },
+    {
+      "en": "meal",
+      "ipa": "miːl",
+      "pos": "n.",
+      "zh": "饭，一顿饭",
+      "lesson": 32
+    },
+    {
+      "en": "drink",
+      "ipa": "drɪŋk",
+      "pos": "v.",
+      "zh": "喝",
+      "lesson": 32
+    },
+    {
+      "en": "tap",
+      "ipa": "tæp",
+      "pos": "n.",
+      "zh": "（水）龙头",
+      "lesson": 32
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Jean",
+      "en": "Where's Sally, Jack?",
+      "zh": "杰克，萨莉在哪儿？"
+    },
+    {
+      "speaker": "Jack",
+      "en": "She's in the garden, Jean.",
+      "zh": "她在花园里，琼。"
+    },
+    {
+      "speaker": "Jean",
+      "en": "What's she doing?",
+      "zh": "她在干什么？"
+    },
+    {
+      "speaker": "Jack",
+      "en": "She's sitting under the tree.",
+      "zh": "她正在树荫下坐着。"
+    },
+    {
+      "speaker": "Jean",
+      "en": "Is Tim in the garden, too?",
+      "zh": "蒂姆也在花园里吗？"
+    },
+    {
+      "speaker": "Jack",
+      "en": "Yes, he is.",
+      "zh": "是的，他也在花园里。"
+    },
+    {
+      "speaker": "Jack",
+      "en": "He's climbing the tree.",
+      "zh": "他正在爬树。"
+    },
+    {
+      "speaker": "Jean",
+      "en": "I beg your pardon?",
+      "zh": "你说什么？"
+    },
+    {
+      "speaker": "Jean",
+      "en": "Who's climbing the tree?",
+      "zh": "谁在爬树？"
+    },
+    {
+      "speaker": "Jack",
+      "en": "Tim is.",
+      "zh": "蒂姆在爬树。"
+    },
+    {
+      "speaker": "Jean",
+      "en": "What about the dog?",
+      "zh": "那么狗呢？"
+    },
+    {
+      "speaker": "Jack",
+      "en": "The dog's in the garden, too.",
+      "zh": "狗也在花园里。"
+    },
+    {
+      "speaker": "Jack",
+      "en": "It's running across the grass.",
+      "zh": "它正在草地上跑，"
+    },
+    {
+      "speaker": "Jack",
+      "en": "It's running after a cat.",
+      "zh": "在追一只猫。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Sweep the floor! She is ___ it.",
+      "zh": "扫地！她正在扫。",
+      "options": [
+        "sweeping",
+        "sweep",
+        "sweeps",
+        "sweeped"
+      ]
+    },
+    {
+      "en": "Open the window! He is ___ it.",
+      "zh": "打开窗户！他正在开。",
+      "options": [
+        "opening",
+        "open",
+        "opens",
+        "openning"
+      ]
+    },
+    {
+      "en": "Sharpen this pencil! She is ___ it.",
+      "zh": "削这支铅笔！她正在削。",
+      "options": [
+        "sharpening",
+        "sharpen",
+        "sharpenning",
+        "sharpens"
+      ]
+    },
+    {
+      "en": "Look at the picture! He is ___ at it.",
+      "zh": "看这幅画！他正在看。",
+      "options": [
+        "looking",
+        "look",
+        "looks",
+        "lookking"
+      ]
+    },
+    {
+      "en": "The dog is ___ across the grass.",
+      "zh": "狗正在草地上跑。",
+      "options": [
+        "running",
+        "runing",
+        "run",
+        "runs"
+      ]
+    },
+    {
+      "en": "She's ___ under the tree.",
+      "zh": "她正在树下坐着。",
+      "options": [
+        "sitting",
+        "siting",
+        "sit",
+        "sits"
+      ]
+    },
+    {
+      "en": "My mother is ___ the bed.",
+      "zh": "我妈妈正在铺床。",
+      "options": [
+        "making",
+        "makeing",
+        "make",
+        "makes"
+      ]
+    },
+    {
+      "en": "What is Nicola doing? Is she emptying the basket? No, she ___.",
+      "zh": "尼古拉在做什么？她在倒篮子吗？不，没有。",
+      "options": [
+        "isn't",
+        "aren't",
+        "not",
+        "is"
+      ]
+    },
+    {
+      "en": "___ is climbing the tree? Tim is.",
+      "zh": "谁在爬树？蒂姆在爬。",
+      "options": [
+        "Who",
+        "What",
+        "Where",
+        "Whose"
+      ]
+    }
+  ]
+}

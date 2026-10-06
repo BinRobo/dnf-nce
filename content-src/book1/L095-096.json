@@ -1,0 +1,304 @@
+{
+  "id": "L095-096",
+  "lessons": [
+    95,
+    96
+  ],
+  "title": "Tickets, please.",
+  "titleZh": "请把车票拿出来。",
+  "evenTitle": "What's the exact time?",
+  "evenTitleZh": "确切的时间是几点？",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "splits": [
+      24.4
+    ]
+  },
+  "words": [
+    {
+      "en": "return",
+      "ipa": "rɪ'tɜːn",
+      "pos": "n.",
+      "zh": "往返",
+      "lesson": 95
+    },
+    {
+      "en": "train",
+      "ipa": "treɪn",
+      "pos": "n.",
+      "zh": "火车",
+      "lesson": 95
+    },
+    {
+      "en": "platform",
+      "ipa": "'plætfɔːm",
+      "pos": "n.",
+      "zh": "站台",
+      "lesson": 95
+    },
+    {
+      "en": "plenty",
+      "ipa": "'plenti",
+      "pos": "n.",
+      "zh": "大量",
+      "lesson": 95
+    },
+    {
+      "en": "bar",
+      "ipa": "bɑː",
+      "pos": "n.",
+      "zh": "酒吧",
+      "lesson": 95
+    },
+    {
+      "en": "station",
+      "ipa": "'steɪʃən",
+      "pos": "n.",
+      "zh": "车站，火车站",
+      "lesson": 95
+    },
+    {
+      "en": "porter",
+      "ipa": "'pɔːtə",
+      "pos": "n.",
+      "zh": "收票员",
+      "lesson": 95
+    },
+    {
+      "en": "catch",
+      "ipa": "kætʃ",
+      "pos": "v.",
+      "zh": "赶上（过去式 caught）",
+      "lesson": 95
+    },
+    {
+      "en": "miss",
+      "ipa": "mɪs",
+      "pos": "v.",
+      "zh": "错过",
+      "lesson": 95
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "George",
+      "en": "Two return tickets to London, please.",
+      "zh": "买两张到伦敦的往返票。"
+    },
+    {
+      "speaker": "George",
+      "en": "What time will the next train leave?",
+      "zh": "下一班火车什么时候开？"
+    },
+    {
+      "speaker": "Attendant",
+      "en": "At nineteen minutes past eight.",
+      "zh": "8 点 19 分。"
+    },
+    {
+      "speaker": "George",
+      "en": "Which platform?",
+      "zh": "在哪个站台？"
+    },
+    {
+      "speaker": "Attendant",
+      "en": "Platform Two. Over the bridge.",
+      "zh": "2 号站台。过天桥。"
+    },
+    {
+      "speaker": "Ken",
+      "en": "What time will the next train leave?",
+      "zh": "下一班火车什么时候开？"
+    },
+    {
+      "speaker": "George",
+      "en": "At eight nineteen.",
+      "zh": "8 点 19 分。"
+    },
+    {
+      "speaker": "Ken",
+      "en": "We've got plenty of time.",
+      "zh": "我们的时间还很宽裕。"
+    },
+    {
+      "speaker": "George",
+      "en": "It's only three minutes to eight.",
+      "zh": "现在才 7 点 57 分。"
+    },
+    {
+      "speaker": "Ken",
+      "en": "Let's go and have a drink.",
+      "zh": "让我们去喝点东西吧。"
+    },
+    {
+      "speaker": "Ken",
+      "en": "There's a bar next door to the station.",
+      "zh": "车站旁有一个酒吧。"
+    },
+    {
+      "speaker": "George",
+      "en": "We had better go back to the station now, Ken.",
+      "zh": "肯，我们现在最好回到车站去。"
+    },
+    {
+      "speaker": "Porter",
+      "en": "Tickets, please.",
+      "zh": "请把车票拿出来。"
+    },
+    {
+      "speaker": "George",
+      "en": "We want to catch the eight nineteen to London.",
+      "zh": "我们要乘 8 点 19 分的车去伦敦。"
+    },
+    {
+      "speaker": "Porter",
+      "en": "You've just missed it!",
+      "zh": "你们刚好错过了那班车。"
+    },
+    {
+      "speaker": "George",
+      "en": "What!",
+      "zh": "什么！"
+    },
+    {
+      "speaker": "George",
+      "en": "It's only eight fifteen.",
+      "zh": "现在只有 8 点 15 分。"
+    },
+    {
+      "speaker": "Porter",
+      "en": "I'm sorry, sir.",
+      "zh": "对不起，先生。"
+    },
+    {
+      "speaker": "Porter",
+      "en": "That clock's ten minutes slow.",
+      "zh": "那个钟慢了 10 分钟。"
+    },
+    {
+      "speaker": "George",
+      "en": "When's the next train?",
+      "zh": "下一班车是什么时候？"
+    },
+    {
+      "speaker": "Porter",
+      "en": "In five hours' time!",
+      "zh": "5 个小时以后！"
+    }
+  ],
+  "drills": [
+    {
+      "en": "We ___ better go back to the station now.",
+      "zh": "我们现在最好回车站去。",
+      "options": [
+        "had",
+        "have",
+        "has",
+        "having"
+      ]
+    },
+    {
+      "en": "She had better ___.",
+      "zh": "她最好快点。",
+      "options": [
+        "hurry",
+        "hurries",
+        "hurrying",
+        "to hurry"
+      ]
+    },
+    {
+      "en": "I went to Sydney a month ago. → I'll go to Sydney in a ___ time.",
+      "zh": "我一个月前去了悉尼。我一个月后再去。",
+      "options": [
+        "month's",
+        "month",
+        "months",
+        "months'"
+      ]
+    },
+    {
+      "en": "A train left an hour ago. → The next one will leave in an hour's ___.",
+      "zh": "一小时前有一班火车开走了。下一班一小时后开。",
+      "options": [
+        "time",
+        "ago",
+        "before",
+        "last"
+      ]
+    },
+    {
+      "en": "Tom flew to Stockholm two weeks ago. → She'll fly to Stockholm in two ___ time.",
+      "zh": "汤姆两周前飞去了斯德哥尔摩。她将在两周后飞去。",
+      "options": [
+        "weeks'",
+        "week",
+        "week's",
+        "a week"
+      ]
+    },
+    {
+      "en": "We've got ___ of time.",
+      "zh": "我们的时间还很宽裕。",
+      "options": [
+        "plenty",
+        "many",
+        "much",
+        "few"
+      ]
+    },
+    {
+      "en": "You've just ___ it!",
+      "zh": "你们刚好错过了那班车！",
+      "options": [
+        "missed",
+        "miss",
+        "misses",
+        "missing"
+      ]
+    },
+    {
+      "en": "We want to ___ the eight nineteen to London.",
+      "zh": "我们要乘 8 点 19 分的车去伦敦。",
+      "options": [
+        "catch",
+        "caught",
+        "catches",
+        "catching"
+      ]
+    },
+    {
+      "en": "Two ___ tickets to London, please.",
+      "zh": "买两张到伦敦的往返票。",
+      "options": [
+        "return",
+        "train",
+        "plenty",
+        "bar"
+      ]
+    }
+  ]
+}

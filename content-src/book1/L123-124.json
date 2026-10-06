@@ -1,0 +1,307 @@
+{
+ "id": "L123-124",
+ "lessons": [
+  123,
+  124
+ ],
+ "title": "A trip to Australia",
+ "titleZh": "澳大利亚之行",
+ "evenTitle": "(Who) / (whom), (which) and (that)",
+ "evenTitleZh": "关系代词",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   1,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25
+  ]
+ },
+ "words": [
+  {
+   "en": "during",
+   "ipa": "'djʊərɪŋ",
+   "pos": "prep.",
+   "zh": "在……期间",
+   "lesson": 123
+  },
+  {
+   "en": "trip",
+   "ipa": "trɪp",
+   "pos": "n.",
+   "zh": "旅行",
+   "lesson": 123
+  },
+  {
+   "en": "travel",
+   "ipa": "'trævəl",
+   "pos": "v.",
+   "zh": "旅行",
+   "lesson": 123
+  },
+  {
+   "en": "offer",
+   "ipa": "'ɒfə",
+   "pos": "v.",
+   "zh": "提供",
+   "lesson": 123
+  },
+  {
+   "en": "job",
+   "ipa": "dʒɒb",
+   "pos": "n.",
+   "zh": "工作",
+   "lesson": 123
+  },
+  {
+   "en": "guess",
+   "ipa": "ges",
+   "pos": "v.",
+   "zh": "猜",
+   "lesson": 123
+  },
+  {
+   "en": "grow",
+   "ipa": "grəʊ",
+   "pos": "v.",
+   "zh": "长，让……生长（过去式 grew，过去分词 grown）",
+   "lesson": 123
+  },
+  {
+   "en": "beard",
+   "ipa": "bɪəd",
+   "pos": "n.",
+   "zh": "（下巴上的）胡子，络腮胡子",
+   "lesson": 123
+  },
+  {
+   "en": "kitten",
+   "ipa": "'kɪtn",
+   "pos": "n.",
+   "zh": "小猫",
+   "lesson": 124
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Mike",
+   "en": "Look, Scott.",
+   "zh": "看，斯科特。"
+  },
+  {
+   "speaker": "Mike",
+   "en": "This is a photograph I took during my trip to Australia.",
+   "zh": "这是我到澳大利亚旅行时拍的一张照片。"
+  },
+  {
+   "speaker": "Scott",
+   "en": "Let me see it, Mike.",
+   "zh": "让我看看，迈克。"
+  },
+  {
+   "speaker": "Scott",
+   "en": "This is a good photograph.",
+   "zh": "这是一张很好的照片。"
+  },
+  {
+   "speaker": "Scott",
+   "en": "Who are these people?",
+   "zh": "这些人是谁？"
+  },
+  {
+   "speaker": "Mike",
+   "en": "They're people I met during the trip.",
+   "zh": "他们是我旅行时认识的人。"
+  },
+  {
+   "speaker": "Mike",
+   "en": "That's the ship we travelled on.",
+   "zh": "这是我们所乘的那条船。"
+  },
+  {
+   "speaker": "Scott",
+   "en": "What a beautiful ship!",
+   "zh": "多漂亮的船啊！"
+  },
+  {
+   "speaker": "Scott",
+   "en": "Who's this?",
+   "zh": "这是谁？"
+  },
+  {
+   "speaker": "Mike",
+   "en": "That's the man I told you about.",
+   "zh": "这就是我跟你说过的那个人。"
+  },
+  {
+   "speaker": "Mike",
+   "en": "Remember?",
+   "zh": "还记得吗？"
+  },
+  {
+   "speaker": "Scott",
+   "en": "Ah yes.",
+   "zh": "啊，记得。"
+  },
+  {
+   "speaker": "Scott",
+   "en": "The one who offered you a job in Australia.",
+   "zh": "就是在澳大利亚给你工作做的那个人。"
+  },
+  {
+   "speaker": "Mike",
+   "en": "That's right.",
+   "zh": "对。"
+  },
+  {
+   "speaker": "Scott",
+   "en": "Who's this?",
+   "zh": "这是谁？"
+  },
+  {
+   "speaker": "Mike",
+   "en": "Guess!",
+   "zh": "你猜！"
+  },
+  {
+   "speaker": "Scott",
+   "en": "It's not you, is it?",
+   "zh": "这不是你，对吗？"
+  },
+  {
+   "speaker": "Mike",
+   "en": "That's right.",
+   "zh": "不，是我。"
+  },
+  {
+   "speaker": "Mike",
+   "en": "I grew a beard during the trip,",
+   "zh": "我在旅行时留了胡子，"
+  },
+  {
+   "speaker": "Mike",
+   "en": "but I shaved it off when I came home.",
+   "zh": "但我回到家时就把它刮了。"
+  },
+  {
+   "speaker": "Scott",
+   "en": "Why did you shave it off?",
+   "zh": "你为什么把它刮了？"
+  },
+  {
+   "speaker": "Mike",
+   "en": "My wife didn't like it!",
+   "zh": "我妻子不喜欢！"
+  }
+ ],
+ "drills": [
+  {
+   "en": "This is a photograph I took ___ my trip to Australia.",
+   "zh": "这是我到澳大利亚旅行时拍的一张照片。",
+   "options": [
+    "during",
+    "while",
+    "when",
+    "because"
+   ]
+  },
+  {
+   "en": "That's the ship we ___ on.",
+   "zh": "这是我们所乘的那条船。",
+   "options": [
+    "travelled",
+    "travelling",
+    "travels",
+    "traveller"
+   ]
+  },
+  {
+   "en": "The one who ___ you a job in Australia.",
+   "zh": "就是在澳大利亚给你工作做的那个人。",
+   "options": [
+    "offered",
+    "offer",
+    "offering",
+    "to offer"
+   ]
+  },
+  {
+   "en": "I ___ a beard during the trip, but I shaved it off.",
+   "zh": "我在旅行时留了胡子，但后来把它刮了。",
+   "options": [
+    "grew",
+    "grow",
+    "grown",
+    "growing"
+   ]
+  },
+  {
+   "en": "Why did you ___ it off?",
+   "zh": "你为什么把它刮了？",
+   "options": [
+    "shave",
+    "shaved",
+    "shaves",
+    "shaving"
+   ]
+  },
+  {
+   "en": "My wife didn't ___ it!",
+   "zh": "我妻子不喜欢！",
+   "options": [
+    "like",
+    "likes",
+    "liked",
+    "liking"
+   ]
+  },
+  {
+   "en": "This is the film you told me ___.",
+   "zh": "这就是你跟我说过的那部电影。",
+   "options": [
+    "about",
+    "at",
+    "on",
+    "with"
+   ]
+  },
+  {
+   "en": "It's not you, ___ it?",
+   "zh": "这不是你，对吗？",
+   "options": [
+    "is",
+    "does",
+    "has",
+    "was"
+   ]
+  },
+  {
+   "en": "This is the kitten I found in the ___.",
+   "zh": "这就是我在花园里找到的那只小猫。",
+   "options": [
+    "garden",
+    "road",
+    "job",
+    "beard"
+   ]
+  }
+ ]
+}

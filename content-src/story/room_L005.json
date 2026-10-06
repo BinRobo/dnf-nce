@@ -1,0 +1,24 @@
+{
+  "id": "room_L005",
+  "bg": "classroom",
+  "steps": [
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "zh": "Naoko 被雾困住了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "sad",
+      "zh": "她的名牌不见了！"
+    },
+    {
+      "t": "say",
+      "who": "naoko",
+      "face": "sad",
+      "zh": "（张着嘴，却没有声音）"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "prologue",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "narr",
+      "zh": "开学第一天，阳光真好。"
+    },
+    {
+      "t": "enter",
+      "who": "blake",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "en": "Good morning.",
+      "audio": {
+        "lesson": "L005-006",
+        "line": 0
+      }
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "欢迎来到我们班！今天有新同学哦。"
+    },
+    {
+      "t": "enter",
+      "who": "sophie",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "en": "This is Miss Sophie Dupont.",
+      "audio": {
+        "lesson": "L005-006",
+        "line": 2
+      }
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "你好！我们今天都是新生！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "happy",
+      "zh": "（用力点头）"
+    },
+    {
+      "t": "fx",
+      "key": "fog"
+    },
+    {
+      "t": "sfx",
+      "key": "boss_appear"
+    },
+    {
+      "t": "narr",
+      "zh": "一团灰雾涌进城里，声音一下全没了。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "sad",
+      "zh": "我……说不出……话了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "zh": "大家的嘴都在动，却没有声音！"
+    },
+    {
+      "t": "fx",
+      "key": "shake"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "surprised",
+      "zh": "咦？我还能说话？"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "surprised",
+      "zh": "雾还不认识你，所以你没事！"
+    },
+    {
+      "t": "narr",
+      "zh": "传说，这雾是缄默公爵放的。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "normal",
+      "zh": "拿着，这是空白的台词簿。"
+    },
+    {
+      "t": "item",
+      "key": "book",
+      "zh": "获得：台词簿"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "找回台词写进去，大家就能开口。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "我跟你一起去找！"
+    },
+    {
+      "t": "exit",
+      "who": "blake"
+    },
+    {
+      "t": "narr",
+      "zh": "目标：先去帮街上那位说不出话的女士。"
+    }
+  ]
+}

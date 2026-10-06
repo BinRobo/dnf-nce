@@ -1,0 +1,52 @@
+{
+  "id": "L083-084",
+  "lessons": [83, 84],
+  "title": "Going on holiday",
+  "titleZh": "度假",
+  "evenTitle": "Have you had ...?",
+  "evenTitleZh": "你已经……了吗？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 14, 15, 16, 17, 18, 19, 21, 22, 24, 25, 27, 28] },
+  "words": [
+    { "en": "mess", "ipa": "mes", "pos": "n.", "zh": "杂乱，凌乱", "lesson": 83 },
+    { "en": "pack", "ipa": "pæk", "pos": "v.", "zh": "包装，打包，装箱", "lesson": 83 },
+    { "en": "suitcase", "ipa": "'suːtkeɪs", "pos": "n.", "zh": "手提箱", "lesson": 83 },
+    { "en": "leave", "ipa": "liːv", "pos": "v.", "zh": "离开（过去式 left）", "lesson": 83 },
+    { "en": "already", "ipa": "ɔːl'redi", "pos": "adv.", "zh": "已经", "lesson": 83 }
+  ],
+  "lines": [
+    { "speaker": "Carol", "en": "Hello, Sam. Come in.", "zh": "你好，萨姆。进来吧。" },
+    { "speaker": "Tom", "en": "Hi, Sam.", "zh": "你好，萨姆。" },
+    { "speaker": "Tom", "en": "We're having lunch.", "zh": "我们正在吃午饭，" },
+    { "speaker": "Tom", "en": "Do you want to have lunch with us?", "zh": "你跟我们一起吃午饭好吗？" },
+    { "speaker": "Sam", "en": "No, thank you, Tom.", "zh": "不，汤姆，谢谢。" },
+    { "speaker": "Sam", "en": "I've already had lunch.", "zh": "我已经吃过饭了。" },
+    { "speaker": "Sam", "en": "I had lunch at half past twelve.", "zh": "我在 12 点半吃的。" },
+    { "speaker": "Carol", "en": "Have a cup of coffee then.", "zh": "那么喝杯咖啡吧。" },
+    { "speaker": "Sam", "en": "I've just had a cup, thank you.", "zh": "我刚喝了一杯，谢谢。" },
+    { "speaker": "Sam", "en": "I had one after my lunch.", "zh": "我是在饭后喝的。" },
+    { "speaker": "Tom", "en": "Let's go into the living room, Carol.", "zh": "我们到客厅里去吧，卡罗尔。" },
+    { "speaker": "Tom", "en": "We can have our coffee there.", "zh": "我们可以在那里喝咖啡。" },
+    { "speaker": "Carol", "en": "Excuse the mess, Sam.", "zh": "屋子很乱，请原谅，萨姆。" },
+    { "speaker": "Carol", "en": "This room's very untidy.", "zh": "房间里乱七八糟。" },
+    { "speaker": "Carol", "en": "We're packing our suitcases.", "zh": "我们正在收拾手提箱。" },
+    { "speaker": "Carol", "en": "We're going to leave tomorrow.", "zh": "明天我们就要走了。" },
+    { "speaker": "Carol", "en": "Tom and I are going to have a holiday.", "zh": "我和汤姆准备去度假。" },
+    { "speaker": "Sam", "en": "Aren't you lucky!", "zh": "你们真幸运！" },
+    { "speaker": "Tom", "en": "When are you going to have a holiday, Sam?", "zh": "萨姆，你准备什么时候去度假？" },
+    { "speaker": "Sam", "en": "I don't know.", "zh": "我不知道。" },
+    { "speaker": "Sam", "en": "I've already had my holiday this year.", "zh": "今年我已度过假了。" },
+    { "speaker": "Carol", "en": "Where did you go?", "zh": "你去哪儿了？" },
+    { "speaker": "Sam", "en": "I stayed at home!", "zh": "我呆在家里了！" }
+  ],
+  "drills": [
+    { "en": "Have some coffee. I've already had ___.", "zh": "喝点咖啡吧。我已经喝过了。", "options": ["some", "one", "any", "it"] },
+    { "en": "Have a banana. I've already had ___.", "zh": "吃根香蕉吧。我已经吃过一根了。", "options": ["one", "some", "any", "it"] },
+    { "en": "Have some milk. I've already had ___.", "zh": "喝点牛奶吧。我已经喝过了。", "options": ["some", "one", "any", "a"] },
+    { "en": "Have an apple. I've already had ___.", "zh": "吃个苹果吧。我已经吃过一个了。", "options": ["one", "some", "any", "an"] },
+    { "en": "Has he had any beans or peas? He hasn't had ___ beans.", "zh": "他吃过豆角或豌豆吗？他没吃豆角。", "options": ["any", "some", "one", "a"] },
+    { "en": "I've ___ had lunch.", "zh": "我已经吃过饭了。", "options": ["already", "yet", "ago", "last"] },
+    { "en": "I've just ___ a cup, thank you.", "zh": "我刚喝了一杯，谢谢。", "options": ["had", "have", "has", "having"] },
+    { "en": "We're ___ our suitcases.", "zh": "我们正在收拾手提箱。", "options": ["packing", "pack", "packed", "packs"] },
+    { "en": "Excuse the ___, Sam.", "zh": "屋子很乱，请原谅，萨姆。", "options": ["mess", "suitcase", "holiday", "lunch"] }
+  ]
+}

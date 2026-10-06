@@ -1,0 +1,294 @@
+{
+ "id": "L105-106",
+ "lessons": [
+  105,
+  106
+ ],
+ "title": "Full of mistakes",
+ "titleZh": "错误百出",
+ "evenTitle": "I want you/him/her/them to ... Tell him/her/them to ...",
+ "evenTitleZh": "我要你／他／她／他们……告诉他／她／他们……",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21
+  ]
+ },
+ "words": [
+  {
+   "en": "spell",
+   "ipa": "spel",
+   "pos": "v.",
+   "zh": "拼写（过去式 spelt，过去分词 spelt）",
+   "lesson": 105
+  },
+  {
+   "en": "intelligent",
+   "ipa": "ɪn'telɪdʒənt",
+   "pos": "adj.",
+   "zh": "聪明的，有智慧的",
+   "lesson": 105
+  },
+  {
+   "en": "mistake",
+   "ipa": "mɪ'steɪk",
+   "pos": "n.",
+   "zh": "错误",
+   "lesson": 105
+  },
+  {
+   "en": "present",
+   "ipa": "'prezənt",
+   "pos": "n.",
+   "zh": "礼物",
+   "lesson": 105
+  },
+  {
+   "en": "dictionary",
+   "ipa": "'dɪkʃənəri",
+   "pos": "n.",
+   "zh": "词典",
+   "lesson": 105
+  },
+  {
+   "en": "carry",
+   "ipa": "'kæri",
+   "pos": "v.",
+   "zh": "携带",
+   "lesson": 106
+  },
+  {
+   "en": "correct",
+   "ipa": "kə'rekt",
+   "pos": "v.",
+   "zh": "改正，纠正",
+   "lesson": 106
+  },
+  {
+   "en": "keep",
+   "ipa": "kiːp",
+   "pos": "v.",
+   "zh": "保存，保留",
+   "lesson": 106
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "The Boss",
+   "en": "Where's Sandra, Bob?",
+   "zh": "鲍勃，桑德拉在哪儿？"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "I want her.",
+   "zh": "我要找她。"
+  },
+  {
+   "speaker": "Bob",
+   "en": "Do you want to speak to her?",
+   "zh": "您要同她谈话吗？"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "Yes, I do.",
+   "zh": "是的。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "I want her to come to my office.",
+   "zh": "我要她到我的办公室来。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "Tell her to come at once.",
+   "zh": "叫她马上就来。"
+  },
+  {
+   "speaker": "Sandra",
+   "en": "Did you want to see me?",
+   "zh": "您找我吗？"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "Ah, yes, Sandra.",
+   "zh": "啊，是的，桑德拉。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "How do you spell 'intelligent'?",
+   "zh": "“intelligent”怎样拼写？"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "Can you tell me?",
+   "zh": "你能告诉我吗？"
+  },
+  {
+   "speaker": "Sandra",
+   "en": "I-N-T-E-L-L-I-G-E-N-T.",
+   "zh": "I－N－T－E－L－L－I－G－E－N－T。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "That's right.",
+   "zh": "对的。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "You've typed it with only one 'L'.",
+   "zh": "但你只打了1个“L”。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "This letter's full of mistakes.",
+   "zh": "这封信里错误百出。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "I want you to type it again.",
+   "zh": "我要你重打一遍。"
+  },
+  {
+   "speaker": "Sandra",
+   "en": "Yes, I'll do that.",
+   "zh": "是，我重打。"
+  },
+  {
+   "speaker": "Sandra",
+   "en": "I'm sorry about that.",
+   "zh": "对此我感到很抱歉。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "And here's a little present for you.",
+   "zh": "这里有一件小礼物送你。"
+  },
+  {
+   "speaker": "Sandra",
+   "en": "What is it?",
+   "zh": "是什么？"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "It's a dictionary.",
+   "zh": "是本词典。"
+  },
+  {
+   "speaker": "The Boss",
+   "en": "I hope it'll help you.",
+   "zh": "我希望它能对你有所帮助。"
+  }
+ ],
+ "drills": [
+  {
+   "en": "I want her ___ come to my office.",
+   "zh": "我要她到我的办公室来。",
+   "options": [
+    "to",
+    "for",
+    "at",
+    "of"
+   ]
+  },
+  {
+   "en": "Tell her to come at ___.",
+   "zh": "叫她马上就来。",
+   "options": [
+    "once",
+    "twice",
+    "ever",
+    "never"
+   ]
+  },
+  {
+   "en": "How do you ___ 'intelligent'?",
+   "zh": "“intelligent”怎样拼写？",
+   "options": [
+    "spell",
+    "spells",
+    "spelling",
+    "spelled"
+   ]
+  },
+  {
+   "en": "This letter's full ___ mistakes.",
+   "zh": "这封信里错误百出。",
+   "options": [
+    "of",
+    "with",
+    "in",
+    "for"
+   ]
+  },
+  {
+   "en": "I want you to ___ it again.",
+   "zh": "我要你重打一遍。",
+   "options": [
+    "type",
+    "typed",
+    "types",
+    "typing"
+   ]
+  },
+  {
+   "en": "He is telling her not ___ type it again.",
+   "zh": "他在告诉她不要再打这封信了。",
+   "options": [
+    "to",
+    "for",
+    "at",
+    "of"
+   ]
+  },
+  {
+   "en": "He doesn't want her ___ type it again.",
+   "zh": "他不要她再打这封信了。",
+   "options": [
+    "to",
+    "for",
+    "at",
+    "of"
+   ]
+  },
+  {
+   "en": "I hope it'll ___ you.",
+   "zh": "我希望它能对你有所帮助。",
+   "options": [
+    "help",
+    "helps",
+    "helped",
+    "helping"
+   ]
+  },
+  {
+   "en": "What do you want ___ to do?",
+   "zh": "你要我做什么？",
+   "options": [
+    "me",
+    "I",
+    "my",
+    "mine"
+   ]
+  }
+ ]
+}

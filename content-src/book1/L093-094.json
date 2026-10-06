@@ -1,0 +1,51 @@
+{
+  "id": "L093-094",
+  "lessons": [93, 94],
+  "title": "Our new neighbour",
+  "titleZh": "我们的新邻居",
+  "evenTitle": "When did you/will you go to ...?",
+  "evenTitleZh": "你过去/将在什么时候去……？",
+  "video": { "pass": 0, "starts": [0, 2, 3, 4, 5, 7, 8, 9, 11, 15, 16, 17] },
+  "words": [
+    { "en": "pilot", "ipa": "'paɪlət", "pos": "n.", "zh": "飞行员", "lesson": 93 },
+    { "en": "return", "ipa": "rɪ'tɜːn", "pos": "v.", "zh": "返回", "lesson": 93 },
+    { "en": "New York", "ipa": "'njuː-'jɔːk", "pos": "n.", "zh": "纽约", "lesson": 93 },
+    { "en": "Tokyo", "ipa": "'təʊkiəʊ", "pos": "n.", "zh": "东京", "lesson": 93 },
+    { "en": "Madrid", "ipa": "mə'drɪd", "pos": "n.", "zh": "马德里", "lesson": 93 },
+    { "en": "fly", "ipa": "flaɪ", "pos": "v.", "zh": "飞行（过去式 flew，过去分词 flown）", "lesson": 93 },
+    { "en": "Athens", "ipa": "'æθɪnz", "pos": "n.", "zh": "雅典", "lesson": 94 },
+    { "en": "Berlin", "ipa": "bɜː'lɪn", "pos": "n.", "zh": "柏林", "lesson": 94 },
+    { "en": "Bombay", "ipa": "bɒm'beɪ", "pos": "n.", "zh": "孟买", "lesson": 94 },
+    { "en": "Geneva", "ipa": "dʒɪ'niːvə", "pos": "n.", "zh": "日内瓦", "lesson": 94 },
+    { "en": "Moscow", "ipa": "'mɒskəʊ", "pos": "n.", "zh": "莫斯科", "lesson": 94 },
+    { "en": "Rome", "ipa": "rəʊm", "pos": "n.", "zh": "罗马", "lesson": 94 },
+    { "en": "Seoul", "ipa": "səʊl", "pos": "n.", "zh": "汉城", "lesson": 94 },
+    { "en": "Stockholm", "ipa": "'stɒkhəʊm", "pos": "n.", "zh": "斯德哥尔摩", "lesson": 94 },
+    { "en": "Sydney", "ipa": "'sɪdni", "pos": "n.", "zh": "悉尼", "lesson": 94 }
+  ],
+  "lines": [
+    { "en": "Nigel is our new next-door neighbour.", "zh": "奈杰尔是我们新搬来的隔壁邻居。" },
+    { "en": "He's a pilot.", "zh": "他是个飞行员。" },
+    { "en": "He was in the R.A.F.", "zh": "他曾在皇家空军任职。" },
+    { "en": "He will fly to New York next month.", "zh": "下个月他将飞往纽约。" },
+    { "en": "The month after next he'll fly to Tokyo.", "zh": "再下个月他将飞往东京。" },
+    { "en": "At the moment, he's in Madrid.", "zh": "现在他在马德里。" },
+    { "en": "He flew to Spain a week ago.", "zh": "他是一星期以前飞到西班牙的。" },
+    { "en": "He'll return to London the week after next.", "zh": "再下个星期他将返回伦敦。" },
+    { "en": "He's only forty-one years old, and he has already been to nearly every country in the world.", "zh": "他只有 41 岁，但他却去过世界上几乎每一个国家。" },
+    { "en": "Nigel is a very lucky man.", "zh": "奈杰尔是个很幸运的人。" },
+    { "en": "But his wife isn't very lucky.", "zh": "但他的妻子运气不很好。" },
+    { "en": "She usually stays at home!", "zh": "她总是呆在家里！" }
+  ],
+  "drills": [
+    { "en": "He went to Beijing last year. → He ___ go to Beijing next year.", "zh": "他明年将去北京。", "options": ["will", "did", "has", "was"] },
+    { "en": "Will you go to Athens next week? No, I ___ go to Athens next week.", "zh": "你下周去雅典吗？不，我下周不去雅典。", "options": ["won't", "didn't", "hasn't", "don't"] },
+    { "en": "I went to Paris the year before last. → I will go to Paris the year ___ next.", "zh": "我后年将去巴黎。", "options": ["after", "before", "ago", "since"] },
+    { "en": "He will fly to New York next month. The month after ___ he'll fly to Tokyo.", "zh": "下个月他飞往纽约，再下个月飞往东京。", "options": ["next", "last", "ago", "yet"] },
+    { "en": "He flew to Spain a week ___.", "zh": "他一星期以前飞到西班牙的。", "options": ["ago", "yet", "since", "after"] },
+    { "en": "He'll ___ to London the week after next.", "zh": "再下个星期他将返回伦敦。", "options": ["return", "returned", "returns", "returning"] },
+    { "en": "Nigel is a ___. He flies planes.", "zh": "奈杰尔是个飞行员。他开飞机。", "options": ["pilot", "neighbour", "penny", "garage"] },
+    { "en": "He has already ___ to nearly every country in the world.", "zh": "他去过世界上几乎每个国家。", "options": ["been", "be", "was", "being"] },
+    { "en": "At the moment, he ___ in Madrid.", "zh": "现在他在马德里。", "options": ["is", "was", "were", "will"] }
+  ]
+}

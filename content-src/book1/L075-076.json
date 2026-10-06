@@ -1,0 +1,50 @@
+{
+  "id": "L075-076",
+  "lessons": [75, 76],
+  "title": "Uncomfortable shoes",
+  "titleZh": "不舒适的鞋子",
+  "evenTitle": "When did you ...?",
+  "evenTitleZh": "你什么时候……？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 16, 17, 19, 21, 22, 23, 24] },
+  "words": [
+    { "en": "ago", "ipa": "ə'ɡəʊ", "pos": "adv.", "zh": "以前", "lesson": 75 },
+    { "en": "buy", "ipa": "baɪ", "pos": "v.", "zh": "买（过去式 bought）", "lesson": 75 },
+    { "en": "pair", "ipa": "peə", "pos": "n.", "zh": "双，对", "lesson": 75 },
+    { "en": "fashion", "ipa": "'fæʃən", "pos": "n.", "zh": "（服装的）流行式样", "lesson": 75 },
+    { "en": "uncomfortable", "ipa": "ʌn'kʌmftəbəl", "pos": "adj.", "zh": "不舒服的", "lesson": 75 },
+    { "en": "wear", "ipa": "weə", "pos": "v.", "zh": "穿着（过去式 wore）", "lesson": 75 }
+  ],
+  "lines": [
+    { "speaker": "Lady", "en": "Do you have any shoes like these?", "zh": "像这样的鞋子你们有吗？" },
+    { "speaker": "Shop assistant", "en": "What size?", "zh": "什么尺码的？" },
+    { "speaker": "Lady", "en": "Size five.", "zh": "5 号的。" },
+    { "speaker": "Shop assistant", "en": "What colour?", "zh": "什么颜色？" },
+    { "speaker": "Lady", "en": "Black.", "zh": "黑的。" },
+    { "speaker": "Shop assistant", "en": "I'm sorry.", "zh": "对不起，" },
+    { "speaker": "Shop assistant", "en": "We don't have any.", "zh": "我们没有。" },
+    { "speaker": "Lady", "en": "But my sister bought this pair last month.", "zh": "但是，我姐姐上个月买到了这样的一双。" },
+    { "speaker": "Shop assistant", "en": "Did she buy them here?", "zh": "她是在这儿买的吗？" },
+    { "speaker": "Lady", "en": "No, she bought them in the U.S.", "zh": "不，她是在美国买的。" },
+    { "speaker": "Shop assistant", "en": "We had some shoes like those a month ago,", "zh": "一个月前我们有这样的鞋，" },
+    { "speaker": "Shop assistant", "en": "but we don't have any now.", "zh": "但是现在没有了。" },
+    { "speaker": "Lady", "en": "Can you get a pair for me, please?", "zh": "您能为我找一双吗？" },
+    { "speaker": "Shop assistant", "en": "I'm afraid that I can't.", "zh": "恐怕不行。" },
+    { "speaker": "Shop assistant", "en": "They were in fashion last year and the year before last.", "zh": "这鞋在去年和前年时兴，" },
+    { "speaker": "Shop assistant", "en": "But they're not in fashion this year.", "zh": "而今年已不流行了。" },
+    { "speaker": "Shop assistant", "en": "These shoes are in fashion now.", "zh": "现在流行的是这种鞋子。" },
+    { "speaker": "Lady", "en": "They look very uncomfortable.", "zh": "这种鞋子看上去很不舒适。" },
+    { "speaker": "Shop assistant", "en": "They are very uncomfortable.", "zh": "的确很不舒适。" },
+    { "speaker": "Shop assistant", "en": "But women always wear uncomfortable shoes!", "zh": "可是女人们总是穿不舒适的鞋子！" }
+  ],
+  "drills": [
+    { "en": "She goes to town every day. → She ___ to town yesterday.", "zh": "她昨天进城了。", "options": ["went", "goed", "goes", "go"] },
+    { "en": "She meets her friends every day. → She ___ her friends yesterday.", "zh": "她昨天见了她的朋友。", "options": ["met", "meeted", "meets", "meet"] },
+    { "en": "They drink some milk every day. → They ___ some milk yesterday.", "zh": "他们昨天喝了些牛奶。", "options": ["drank", "drinked", "drinks", "drunk"] },
+    { "en": "He swims in the river every day. → He ___ in the river yesterday.", "zh": "他昨天在河里游泳了。", "options": ["swam", "swimmed", "swims", "swum"] },
+    { "en": "She takes him to school every day. → She ___ him to school yesterday.", "zh": "她昨天送他去上学了。", "options": ["took", "taked", "takes", "taken"] },
+    { "en": "When did you look at that photograph? I looked at it an hour ___.", "zh": "你什么时候看的那张照片？我一小时前看的。", "options": ["ago", "last", "before", "after"] },
+    { "en": "But my sister ___ this pair last month.", "zh": "但是我姐姐上个月买到了这样的一双。", "options": ["bought", "buyed", "buys", "brought"] },
+    { "en": "They were in fashion last year and the year before ___.", "zh": "这鞋在去年和前年时兴。", "options": ["last", "ago", "yesterday", "now"] },
+    { "en": "But women always ___ uncomfortable shoes!", "zh": "可是女人们总是穿不舒适的鞋子！", "options": ["wear", "wears", "wore", "wearing"] }
+  ]
+}

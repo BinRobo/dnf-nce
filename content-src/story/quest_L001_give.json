@@ -1,0 +1,28 @@
+{
+  "id": "quest_L001_give",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "sad",
+      "zh": "街上有位女士被雾困住了。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "normal",
+      "zh": "她说不出话，快去帮帮她！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "happy",
+      "zh": "（点头）"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：去街上帮助说不出话的女士（L1-2）"
+    }
+  ]
+}

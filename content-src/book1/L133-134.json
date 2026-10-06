@@ -1,0 +1,247 @@
+{
+  "id": "L133-134",
+  "lessons": [
+    133,
+    134
+  ],
+  "title": "Sensational news!",
+  "titleZh": "爆炸性新闻！",
+  "evenTitle": "He said (that) he ... / He told me (that) he ...",
+  "evenTitleZh": "他（曾）说他……／他（曾）告诉我说他……",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      11,
+      12,
+      14,
+      15,
+      17,
+      19,
+      21,
+      23,
+      24,
+      26,
+      28
+    ]
+  },
+  "words": [
+    {
+      "en": "reporter",
+      "ipa": "rɪ'pɔːtə",
+      "pos": "n.",
+      "zh": "记者",
+      "lesson": 133
+    },
+    {
+      "en": "sensational",
+      "ipa": "sen'seɪʃənl",
+      "pos": "adj.",
+      "zh": "爆炸性的，耸人听闻的",
+      "lesson": 133
+    },
+    {
+      "en": "mink coat",
+      "ipa": "'mɪŋk-kəʊt",
+      "pos": "",
+      "zh": "貂皮大衣",
+      "lesson": 133
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Reporter",
+      "en": "Have you just made a new film, Miss Marsh?",
+      "zh": "您刚拍完一部新电影吗，马什小姐？"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "Yes, I have.",
+      "zh": "是的，我刚拍完。"
+    },
+    {
+      "speaker": "Reporter",
+      "en": "Are you going to make another?",
+      "zh": "您准备再拍一部吗？"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "No, I'm not.",
+      "zh": "不，我不准备拍了。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "I'm going to retire.",
+      "zh": "我准备退休了。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "I feel very tired.",
+      "zh": "我感觉累得很。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "I don't want to make another film for a long time.",
+      "zh": "我早就不想再拍片子了。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "Let's buy a newspaper, Liz.",
+      "zh": "我们买份报纸吧，莉兹。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "Listen to this!",
+      "zh": "你听这段："
+    },
+    {
+      "speaker": "Kate",
+      "en": "'Karen Marsh: Sensational News!",
+      "zh": "“卡伦·马什：爆炸性新闻！"
+    },
+    {
+      "speaker": "Kate",
+      "en": "By our reporter, Alan Jones.",
+      "zh": "由本报记者艾伦·琼斯报导。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "Karen Marsh arrived at London Airport today.",
+      "zh": "卡伦·马什今天到达伦敦机场。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "She was wearing a blue dress and a mink coat.",
+      "zh": "她穿着一身蓝色的套装和一件貂皮大衣。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "She told me she had just made a new film.",
+      "zh": "她告诉我她刚拍完一部新片子。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "She said she was not going to make another.",
+      "zh": "她说她不准备再拍电影了。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "She said she was going to retire.",
+      "zh": "她说她准备退休。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "She told reporters she felt very tired",
+      "zh": "她告诉记者她感到很疲劳，"
+    },
+    {
+      "speaker": "Kate",
+      "en": "and didn't want to make another film for a long time.'",
+      "zh": "早就不想再拍电影了。”"
+    },
+    {
+      "speaker": "Liz",
+      "en": "I wonder why!",
+      "zh": "我很想知道为什么。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "I'm tired. → He said he ___ tired.",
+      "zh": "他说他累了。",
+      "options": [
+        "was",
+        "were",
+        "been",
+        "being"
+      ]
+    },
+    {
+      "en": "I'm reading. → She said she ___ reading.",
+      "zh": "她说她在看书。",
+      "options": [
+        "was",
+        "were",
+        "are",
+        "be"
+      ]
+    },
+    {
+      "en": "We want our dinner. → They told me they ___ their dinner.",
+      "zh": "他们告诉我他们要吃晚饭。",
+      "options": [
+        "wanted",
+        "want",
+        "wants",
+        "wanting"
+      ]
+    },
+    {
+      "en": "I've finished. → He told me he ___ finished.",
+      "zh": "他告诉我他已经做完了。",
+      "options": [
+        "had",
+        "has",
+        "have",
+        "was"
+      ]
+    },
+    {
+      "en": "Have you just made a new film, Miss Marsh? Yes, I ___.",
+      "zh": "您刚拍完一部新电影吗，马什小姐？是的。",
+      "options": [
+        "have",
+        "did",
+        "am",
+        "do"
+      ]
+    },
+    {
+      "en": "Are you going to make another? No, I'm ___.",
+      "zh": "您准备再拍一部吗？不准备。",
+      "options": [
+        "not",
+        "don't",
+        "no",
+        "haven't"
+      ]
+    },
+    {
+      "en": "Karen Marsh ___ at London Airport today.",
+      "zh": "卡伦·马什今天到达伦敦机场。",
+      "options": [
+        "arrived",
+        "arrive",
+        "arrives",
+        "arriving"
+      ]
+    },
+    {
+      "en": "She was wearing a blue dress and a ___ coat.",
+      "zh": "她穿着蓝色的套装和一件貂皮大衣。",
+      "options": [
+        "mink",
+        "sensational",
+        "reporter",
+        "tired"
+      ]
+    },
+    {
+      "en": "Who was asking Miss Marsh questions? A ___.",
+      "zh": "谁在向马什小姐提问？一位记者。",
+      "options": [
+        "reporter",
+        "coat",
+        "film",
+        "newspaper"
+      ]
+    }
+  ]
+}

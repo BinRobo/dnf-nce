@@ -1,0 +1,283 @@
+{
+  "id": "L045-046",
+  "lessons": [
+    45,
+    46
+  ],
+  "title": "The boss's letter",
+  "titleZh": "老板的信",
+  "evenTitle": "Can you ...?",
+  "evenTitleZh": "你能……吗？",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "words": [
+    {
+      "en": "can",
+      "ipa": "kæn",
+      "pos": "v.",
+      "zh": "能够",
+      "lesson": 45
+    },
+    {
+      "en": "boss",
+      "ipa": "bɒs",
+      "pos": "n.",
+      "zh": "老板，上司",
+      "lesson": 45
+    },
+    {
+      "en": "minute",
+      "ipa": "'mɪnɪt",
+      "pos": "n.",
+      "zh": "分（钟）",
+      "lesson": 45
+    },
+    {
+      "en": "ask",
+      "ipa": "ɑːsk",
+      "pos": "v.",
+      "zh": "请求，要求",
+      "lesson": 45
+    },
+    {
+      "en": "handwriting",
+      "ipa": "'hændˌraɪtɪŋ",
+      "pos": "n.",
+      "zh": "书写",
+      "lesson": 45
+    },
+    {
+      "en": "terrible",
+      "ipa": "'terɪbəl",
+      "pos": "adj.",
+      "zh": "糟糕的，可怕的",
+      "lesson": 45
+    },
+    {
+      "en": "lift",
+      "ipa": "lɪft",
+      "pos": "v.",
+      "zh": "拿起，搬起，举起",
+      "lesson": 46
+    },
+    {
+      "en": "cake",
+      "ipa": "keɪk",
+      "pos": "n.",
+      "zh": "饼，蛋糕",
+      "lesson": 46
+    },
+    {
+      "en": "biscuit",
+      "ipa": "'bɪskɪt",
+      "pos": "n.",
+      "zh": "饼干",
+      "lesson": 46
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "The boss",
+      "en": "Can you come here a minute please, Bob?",
+      "zh": "请你来一下好吗，鲍勃？"
+    },
+    {
+      "speaker": "Bob",
+      "en": "Yes, sir?",
+      "zh": "什么事，先生？"
+    },
+    {
+      "speaker": "The boss",
+      "en": "Where's Pamela?",
+      "zh": "帕梅拉在哪儿？"
+    },
+    {
+      "speaker": "Bob",
+      "en": "She's next door.",
+      "zh": "她在隔壁，"
+    },
+    {
+      "speaker": "Bob",
+      "en": "She's in her office, sir.",
+      "zh": "在她的办公室里，先生。"
+    },
+    {
+      "speaker": "The boss",
+      "en": "Can she type this letter for me?",
+      "zh": "她能为我打一下这封信吗？"
+    },
+    {
+      "speaker": "The boss",
+      "en": "Ask her please.",
+      "zh": "请问问她。"
+    },
+    {
+      "speaker": "Bob",
+      "en": "Yes, sir.",
+      "zh": "好的，先生。"
+    },
+    {
+      "speaker": "Bob",
+      "en": "Can you type this letter for the boss please, Pamela?",
+      "zh": "请你把这封信给老板打一下可以吗，帕梅拉？"
+    },
+    {
+      "speaker": "Pamela",
+      "en": "Yes, of course I can.",
+      "zh": "可以，当然可以。"
+    },
+    {
+      "speaker": "Bob",
+      "en": "Here you are.",
+      "zh": "给你这信。"
+    },
+    {
+      "speaker": "Pamela",
+      "en": "Thank you, Bob.",
+      "zh": "谢谢你，鲍勃。"
+    },
+    {
+      "speaker": "Pamela",
+      "en": "Bob!",
+      "zh": "鲍勃！"
+    },
+    {
+      "speaker": "Bob",
+      "en": "Yes?",
+      "zh": "怎么了？"
+    },
+    {
+      "speaker": "Bob",
+      "en": "What's the matter?",
+      "zh": "怎么回事？"
+    },
+    {
+      "speaker": "Pamela",
+      "en": "I can't type this letter.",
+      "zh": "我打不了这封信。"
+    },
+    {
+      "speaker": "Pamela",
+      "en": "I can't read it!",
+      "zh": "我看不懂这封信，"
+    },
+    {
+      "speaker": "Pamela",
+      "en": "The boss's handwriting is terrible!",
+      "zh": "老板的书写太糟糕了！"
+    }
+  ],
+  "drills": [
+    {
+      "en": "He is taking his book. → He ___ take his book.",
+      "zh": "他能拿他的书。",
+      "options": [
+        "can",
+        "is",
+        "cans",
+        "are"
+      ]
+    },
+    {
+      "en": "She is making the bed. → She can ___ the bed.",
+      "zh": "她能铺床。",
+      "options": [
+        "make",
+        "making",
+        "makes",
+        "maked"
+      ]
+    },
+    {
+      "en": "They are typing these letters. → They can ___ these letters.",
+      "zh": "他们能打这些信。",
+      "options": [
+        "type",
+        "typing",
+        "types",
+        "to typing"
+      ]
+    },
+    {
+      "en": "Can you type this letter? Yes, I ___.",
+      "zh": "你能打这封信吗？是的，我能。",
+      "options": [
+        "can",
+        "am",
+        "do",
+        "can't"
+      ]
+    },
+    {
+      "en": "Can Penny and Jane wash the dishes? Yes, ___ can.",
+      "zh": "彭妮和简能洗盘子吗？能。",
+      "options": [
+        "they",
+        "she",
+        "we",
+        "them"
+      ]
+    },
+    {
+      "en": "I can put my hat on, but I ___ put my coat on.",
+      "zh": "我能戴上帽子，但穿不上外衣。",
+      "options": [
+        "can't",
+        "can",
+        "not",
+        "isn't"
+      ]
+    },
+    {
+      "en": "I can lift that chair, but I can't ___ this table.",
+      "zh": "我能搬起那把椅子，但搬不动这张桌子。",
+      "options": [
+        "lift",
+        "lifting",
+        "lifts",
+        "to lift"
+      ]
+    },
+    {
+      "en": "The boss's handwriting is ___!",
+      "zh": "老板的书写太糟糕了！",
+      "options": [
+        "terrible",
+        "careful",
+        "favourite",
+        "lovely"
+      ]
+    },
+    {
+      "en": "Can you come here a ___ please, Bob?",
+      "zh": "请你来一下好吗，鲍勃？",
+      "options": [
+        "minute",
+        "boss",
+        "letter",
+        "matter"
+      ]
+    }
+  ]
+}

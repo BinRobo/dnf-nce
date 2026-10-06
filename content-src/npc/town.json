@@ -1,0 +1,654 @@
+{
+ "_说明": "城镇数据：街区 districts（按章节解锁，每个 area 是一屏宽 1280 的背景）、室内 interiors、NPC 与可互动地点 spots。加 NPC / 街区只改这个文件。act：story:<剧本id> / bark / shop / daily / inventory / skills / dungeons / abyss / craft；after：通关某副本后才出现；link：走到这里切换到别的街区/室内。 portal：在这里画传送门；region：传送门默认打开第几张副本地图（0 起）。街区按 学园区→集市区→集市与车站→剧院区→雪山邮局→国王街→山谷村 串成一条路，也可以用城镇地图直接传送。",
+ "districts": [
+  {
+   "id": "campus",
+   "name": "学园区",
+   "chapter": 1,
+   "map": [
+    250,
+    520
+   ],
+   "music": "campus",
+   "areas": [
+    {
+     "bg": "town",
+     "name": "学校门口"
+    },
+    {
+     "bg": "training",
+     "name": "训练场"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "name": "集市区",
+   "chapter": 1,
+   "map": [
+    520,
+    470
+   ],
+   "music": "market",
+   "areas": [
+    {
+     "bg": "plaza",
+     "name": "喷泉广场"
+    },
+    {
+     "bg": "gate",
+     "name": "地下城入口"
+    }
+   ]
+  },
+  {
+   "id": "valley",
+   "name": "山谷村",
+   "chapter": 2,
+   "map": [
+    360,
+    270
+   ],
+   "areas": [
+    {
+     "bg": "valley_a",
+     "name": "村口"
+    },
+    {
+     "bg": "valley_b",
+     "name": "村中小路"
+    }
+   ],
+   "music": "valley"
+  },
+  {
+   "id": "king",
+   "name": "国王街",
+   "chapter": 3,
+   "map": [
+    720,
+    300
+   ],
+   "areas": [
+    {
+     "bg": "king_a",
+     "name": "联排街"
+    },
+    {
+     "bg": "king_b",
+     "name": "街角公园"
+    }
+   ],
+   "music": "king"
+  },
+  {
+   "id": "station",
+   "name": "集市与车站",
+   "chapter": 4,
+   "map": [
+    980,
+    430
+   ],
+   "areas": [
+    {
+     "bg": "station_a",
+     "name": "集市摊位"
+    },
+    {
+     "bg": "station_b",
+     "name": "火车站台"
+    }
+   ],
+   "music": "station"
+  },
+  {
+   "id": "snow",
+   "name": "雪山邮局",
+   "chapter": 5,
+   "map": [
+    900,
+    140
+   ],
+   "areas": [
+    {
+     "bg": "snow_a",
+     "name": "雪山邮局"
+    },
+    {
+     "bg": "snow_b",
+     "name": "雪地小坡"
+    }
+   ],
+   "music": "snow"
+  },
+  {
+   "id": "theatre",
+   "name": "剧院区",
+   "chapter": 6,
+   "map": [
+    1110,
+    220
+   ],
+   "areas": [
+    {
+     "bg": "theatre_a",
+     "name": "剧院正门"
+    },
+    {
+     "bg": "theatre_b",
+     "name": "剧院广场"
+    }
+   ],
+   "music": "theatre"
+  },
+  {
+   "id": "shop",
+   "name": "女士的小店",
+   "interior": true,
+   "areas": [
+    {
+     "bg": "shop",
+     "name": "女士的小店"
+    }
+   ],
+   "music": "shop"
+  }
+ ],
+ "spots": [
+  {
+   "id": "blake",
+   "district": "campus",
+   "x": 640,
+   "npc": "blake",
+   "name": "Mr. Blake",
+   "label": "和 Mr. Blake 说话",
+   "act": "story:town_blake"
+  },
+  {
+   "id": "board",
+   "district": "campus",
+   "x": 790,
+   "label": "📋 看告示板（每日任务）",
+   "act": "daily"
+  },
+  {
+   "id": "changwoo",
+   "district": "campus",
+   "x": 1000,
+   "npc": "kid",
+   "head": "changwoo",
+   "name": "Chang-woo",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L005-006"
+  },
+  {
+   "id": "luming",
+   "district": "campus",
+   "x": 1110,
+   "npc": "kid",
+   "head": "luming",
+   "name": "Lu Ming",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L005-006"
+  },
+  {
+   "id": "xiaohui",
+   "district": "campus",
+   "x": 1210,
+   "npc": "kid",
+   "head": "xiaohui",
+   "name": "Xiaohui",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L005-006"
+  },
+  {
+   "id": "rack",
+   "district": "campus",
+   "x": 1500,
+   "label": "🎒 兵器架（背包与装备）",
+   "act": "inventory"
+  },
+  {
+   "id": "sophie",
+   "district": "campus",
+   "x": 1680,
+   "npc": "sophie",
+   "name": "Sophie",
+   "label": "和 Sophie 说话",
+   "act": "story:town_sophie"
+  },
+  {
+   "id": "dummy",
+   "district": "campus",
+   "x": 2180,
+   "label": "⚔ 木头假人（学习技能）",
+   "act": "skills"
+  },
+  {
+   "id": "to_market",
+   "district": "campus",
+   "x": 2490,
+   "label": "➡ 去集市区",
+   "link": {
+    "to": "market",
+    "x": 160
+   }
+  },
+  {
+   "id": "to_campus",
+   "district": "market",
+   "x": 70,
+   "label": "⬅ 回学园区",
+   "link": {
+    "to": "campus",
+    "x": 2380
+   }
+  },
+  {
+   "id": "shopdoor",
+   "district": "market",
+   "x": 420,
+   "label": "🚪 进入女士的小店",
+   "link": {
+    "to": "shop",
+    "x": 260
+   },
+   "after": "L001-002",
+   "door": true
+  },
+  {
+   "id": "hans",
+   "district": "market",
+   "x": 600,
+   "npc": "kid",
+   "head": "hans",
+   "name": "Hans",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L005-006"
+  },
+  {
+   "id": "naoko",
+   "district": "market",
+   "x": 740,
+   "npc": "kid",
+   "head": "naoko",
+   "name": "Naoko",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L005-006"
+  },
+  {
+   "id": "smith",
+   "district": "market",
+   "x": 1000,
+   "name": "铁匠老乔",
+   "label": "🔨 史诗工坊（打造史诗武器）",
+   "act": "craft",
+   "anvil": true
+  },
+  {
+   "id": "tailor",
+   "district": "market",
+   "x": 1480,
+   "npc": "tailor",
+   "name": "裁缝阿姨",
+   "label": "✂ 裁缝铺（打造装扮）",
+   "act": "tailor"
+  },
+  {
+   "id": "portal",
+   "district": "market",
+   "x": 1920,
+   "label": "🌀 进入地下城（选择副本）",
+   "act": "dungeons",
+   "r": 190
+  },
+  {
+   "id": "abyss",
+   "district": "market",
+   "x": 2330,
+   "label": "🌑 每日深渊（复习）",
+   "act": "abyss",
+   "r": 130
+  },
+  {
+   "id": "shopexit",
+   "district": "shop",
+   "x": 120,
+   "label": "🚪 回到集市",
+   "link": {
+    "to": "market",
+    "x": 420
+   },
+   "door": true
+  },
+  {
+   "id": "woman",
+   "district": "shop",
+   "x": 820,
+   "npc": "woman",
+   "name": "小店老板娘",
+   "label": "🛒 买东西",
+   "act": "shop"
+  },
+  {
+   "id": "lnk_station_w",
+   "district": "station",
+   "x": 70,
+   "label": "⬅ 去集市区",
+   "link": {
+    "to": "market",
+    "x": 2380
+   },
+   "r": 80
+  },
+  {
+   "id": "lnk_station_e",
+   "district": "station",
+   "x": 2490,
+   "label": "➡ 去剧院区",
+   "link": {
+    "to": "theatre",
+    "x": 160
+   },
+   "r": 80
+  },
+  {
+   "id": "portal_station",
+   "district": "station",
+   "x": 1920,
+   "label": "🌀 进入地下城（第 4 章）",
+   "act": "dungeons",
+   "portal": true,
+   "region": 3,
+   "r": 150
+  },
+  {
+   "id": "lnk_theatre_w",
+   "district": "theatre",
+   "x": 70,
+   "label": "⬅ 去集市与车站",
+   "link": {
+    "to": "station",
+    "x": 2380
+   },
+   "r": 80
+  },
+  {
+   "id": "lnk_theatre_e",
+   "district": "theatre",
+   "x": 2490,
+   "label": "➡ 去雪山邮局",
+   "link": {
+    "to": "snow",
+    "x": 160
+   },
+   "r": 80
+  },
+  {
+   "id": "portal_theatre",
+   "district": "theatre",
+   "x": 1920,
+   "label": "🌀 进入地下城（第 6 章）",
+   "act": "dungeons",
+   "portal": true,
+   "region": 5,
+   "r": 150
+  },
+  {
+   "id": "lnk_snow_w",
+   "district": "snow",
+   "x": 70,
+   "label": "⬅ 去剧院区",
+   "link": {
+    "to": "theatre",
+    "x": 2380
+   },
+   "r": 80
+  },
+  {
+   "id": "lnk_snow_e",
+   "district": "snow",
+   "x": 2490,
+   "label": "➡ 去国王街",
+   "link": {
+    "to": "king",
+    "x": 160
+   },
+   "r": 80
+  },
+  {
+   "id": "portal_snow",
+   "district": "snow",
+   "x": 1920,
+   "label": "🌀 进入地下城（第 5 章）",
+   "act": "dungeons",
+   "portal": true,
+   "region": 4,
+   "r": 150
+  },
+  {
+   "id": "lnk_king_w",
+   "district": "king",
+   "x": 70,
+   "label": "⬅ 去雪山邮局",
+   "link": {
+    "to": "snow",
+    "x": 2380
+   },
+   "r": 80
+  },
+  {
+   "id": "lnk_king_e",
+   "district": "king",
+   "x": 2490,
+   "label": "➡ 去山谷村",
+   "link": {
+    "to": "valley",
+    "x": 160
+   },
+   "r": 80
+  },
+  {
+   "id": "portal_king",
+   "district": "king",
+   "x": 1920,
+   "label": "🌀 进入地下城（第 3 章）",
+   "act": "dungeons",
+   "portal": true,
+   "region": 2,
+   "r": 150
+  },
+  {
+   "id": "lnk_valley_w",
+   "district": "valley",
+   "x": 70,
+   "label": "⬅ 去国王街",
+   "link": {
+    "to": "king",
+    "x": 2380
+   },
+   "r": 80
+  },
+  {
+   "id": "portal_valley",
+   "district": "valley",
+   "x": 1920,
+   "label": "🌀 进入地下城（第 2 章）",
+   "act": "dungeons",
+   "portal": true,
+   "region": 1,
+   "r": 150
+  },
+  {
+   "id": "lnk_market_e",
+   "district": "market",
+   "x": 2515,
+   "label": "➡ 去集市与车站",
+   "link": {
+    "to": "station",
+    "x": 160
+   },
+   "r": 60
+  },
+  {
+   "id": "mrs_smith",
+   "district": "valley",
+   "x": 600,
+   "npc": "woman",
+   "name": "Mrs. Smith",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L025-026"
+  },
+  {
+   "id": "tim",
+   "district": "valley",
+   "x": 950,
+   "npc": "kid",
+   "head": "tim",
+   "name": "Tim",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L025-026"
+  },
+  {
+   "id": "george",
+   "district": "valley",
+   "x": 1350,
+   "npc": "man",
+   "name": "George",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L025-026"
+  },
+  {
+   "id": "mrs_bird",
+   "district": "king",
+   "x": 560,
+   "npc": "tailor",
+   "name": "Mrs. Bird",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L049-050"
+  },
+  {
+   "id": "jimmy",
+   "district": "king",
+   "x": 900,
+   "npc": "kid",
+   "head": "jimmy",
+   "name": "Jimmy",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L049-050"
+  },
+  {
+   "id": "doctor",
+   "district": "king",
+   "x": 1300,
+   "npc": "man",
+   "name": "医生",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L049-050"
+  },
+  {
+   "id": "carol",
+   "district": "station",
+   "x": 560,
+   "npc": "lady",
+   "name": "Carol",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L073-074"
+  },
+  {
+   "id": "sam",
+   "district": "station",
+   "x": 900,
+   "npc": "man",
+   "name": "Sam",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L073-074"
+  },
+  {
+   "id": "mrs_mills",
+   "district": "station",
+   "x": 1300,
+   "npc": "woman",
+   "name": "Mills 太太",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L073-074"
+  },
+  {
+   "id": "david",
+   "district": "snow",
+   "x": 560,
+   "npc": "man",
+   "name": "David",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L097-098"
+  },
+  {
+   "id": "andy",
+   "district": "snow",
+   "x": 900,
+   "npc": "kid",
+   "head": "andy",
+   "name": "Andy",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L097-098"
+  },
+  {
+   "id": "lucy",
+   "district": "snow",
+   "x": 1300,
+   "npc": "kid",
+   "head": "lucy",
+   "name": "Lucy",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L097-098"
+  },
+  {
+   "id": "sally",
+   "district": "theatre",
+   "x": 560,
+   "npc": "kid",
+   "head": "sally",
+   "name": "Sally",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L121-122"
+  },
+  {
+   "id": "actress",
+   "district": "theatre",
+   "x": 900,
+   "npc": "woman",
+   "name": "女明星",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L121-122"
+  },
+  {
+   "id": "reporter",
+   "district": "theatre",
+   "x": 1300,
+   "npc": "man",
+   "name": "记者",
+   "label": "聊聊天",
+   "act": "bark",
+   "after": "L121-122"
+  }
+ ]
+}

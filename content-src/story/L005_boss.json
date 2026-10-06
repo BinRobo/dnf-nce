@@ -1,0 +1,12 @@
+{
+  "id": "L005_boss",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "boss_whomist",
+      "face": "normal",
+      "zh": "名字？统统归我啦！"
+    }
+  ]
+}

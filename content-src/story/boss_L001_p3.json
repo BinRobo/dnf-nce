@@ -1,0 +1,12 @@
+{
+  "id": "boss_L001_p3",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "boss_pardon",
+      "face": "happy",
+      "zh": "啊呜！手提包是我的点心！"
+    }
+  ]
+}

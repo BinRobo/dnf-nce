@@ -1,0 +1,16 @@
+{
+  "id": "L001_boss",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "boss_pardon",
+      "face": "normal",
+      "en": "Pardon?",
+      "audio": {
+        "lesson": "L001-002",
+        "line": 3
+      }
+    }
+  ]
+}

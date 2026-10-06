@@ -1,0 +1,46 @@
+{
+  "id": "L077-078",
+  "lessons": [77, 78],
+  "title": "Terrible toothache",
+  "titleZh": "要命的牙痛",
+  "evenTitle": "When did you ...?",
+  "evenTitleZh": "你什么时候……？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 19, 20] },
+  "words": [
+    { "en": "appointment", "ipa": "ə'pɔɪntmənt", "pos": "n.", "zh": "约会，预约", "lesson": 77 },
+    { "en": "urgent", "ipa": "'ɜːdʒənt", "pos": "adj.", "zh": "紧急的，急迫的", "lesson": 77 },
+    { "en": "till", "ipa": "tɪl", "pos": "prep.", "zh": "直到……为止", "lesson": 77 }
+  ],
+  "lines": [
+    { "speaker": "Nurse", "en": "Good morning, Mr. Croft.", "zh": "早上好，克罗夫特先生。" },
+    { "speaker": "Mr. Croft", "en": "Good morning, nurse.", "zh": "早上好，护士。" },
+    { "speaker": "Mr. Croft", "en": "I want to see the dentist, please.", "zh": "我想见牙科医生。" },
+    { "speaker": "Nurse", "en": "Do you have an appointment?", "zh": "您约好了吗？" },
+    { "speaker": "Mr. Croft", "en": "No, I don't.", "zh": "没有。" },
+    { "speaker": "Nurse", "en": "Is it urgent?", "zh": "急吗？" },
+    { "speaker": "Mr. Croft", "en": "Yes, it is.", "zh": "是的，" },
+    { "speaker": "Mr. Croft", "en": "It's very urgent.", "zh": "很急。" },
+    { "speaker": "Mr. Croft", "en": "I feel awful.", "zh": "我难受极了，" },
+    { "speaker": "Mr. Croft", "en": "I have a terrible toothache.", "zh": "牙痛得要命。" },
+    { "speaker": "Nurse", "en": "Can you come at 10 a.m. on Monday, April 24th?", "zh": "您在 4 月 24 日星期一上午 10 点钟来可以吗？" },
+    { "speaker": "Mr. Croft", "en": "I must see the dentist now, nurse.", "zh": "我必须现在就见牙科医生，护士。" },
+    { "speaker": "Nurse", "en": "The dentist is very busy at the moment.", "zh": "牙科医生这会儿很忙。" },
+    { "speaker": "Nurse", "en": "Can you come at 2 p.m.?", "zh": "您下午两点钟来行吗？" },
+    { "speaker": "Mr. Croft", "en": "That's very late.", "zh": "那就太晚了。" },
+    { "speaker": "Mr. Croft", "en": "Can the dentist see me now?", "zh": "牙科医生现在就不能给我看一下吗？" },
+    { "speaker": "Nurse", "en": "I'm afraid that he can't, Mr. Croft.", "zh": "恐怕不能，克罗夫特先生。" },
+    { "speaker": "Nurse", "en": "Can't you wait till this afternoon?", "zh": "您就不能等到今天下午了吗？" },
+    { "speaker": "Mr. Croft", "en": "I can wait, but my toothache can't!", "zh": "我倒是可以等，可是我的牙痛等不了啊！" }
+  ],
+  "drills": [
+    { "en": "She buys a new car every year. She ___ a new car last year.", "zh": "她去年买了一辆新车。", "options": ["bought", "buyed", "buys", "brought"] },
+    { "en": "She airs the room every day. She ___ it this morning.", "zh": "她今天早上给房间通了风。", "options": ["aired", "airs", "airred", "air"] },
+    { "en": "He often loses his pen. He ___ his pen this morning.", "zh": "他今天早上丢了钢笔。", "options": ["lost", "losed", "loses", "lose"] },
+    { "en": "She always listens to the news. She ___ to the news yesterday.", "zh": "她昨天听了新闻。", "options": ["listened", "listens", "listenned", "listen"] },
+    { "en": "She empties this basket every day. She ___ it yesterday.", "zh": "她昨天倒空了这个篮子。", "options": ["emptied", "emptyed", "empties", "empty"] },
+    { "en": "It's eight o'clock. When did you see him? I ___ him at half past seven.", "zh": "现在 8 点。你什么时候见到他的？我 7 点半见到他的。", "options": ["saw", "seed", "see", "seen"] },
+    { "en": "Do you have an ___?", "zh": "您约好了吗？", "options": ["appointment", "urgent", "awful", "moment"] },
+    { "en": "Can't you wait ___ this afternoon?", "zh": "您就不能等到今天下午了吗？", "options": ["till", "on", "at", "ago"] },
+    { "en": "Can you come at 10 a.m. ___ Monday, April 24th?", "zh": "您在 4 月 24 日星期一上午 10 点钟来可以吗？", "options": ["on", "in", "at", "till"] }
+  ]
+}

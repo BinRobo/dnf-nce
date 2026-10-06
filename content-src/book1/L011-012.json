@@ -1,0 +1,263 @@
+{
+  "id": "L011-012",
+  "lessons": [
+    11,
+    12
+  ],
+  "title": "Is this your shirt?",
+  "titleZh": "这是你的衬衫吗？",
+  "evenTitle": "Whose is this ...? This is my/your/his/her ...",
+  "evenTitleZh": "这……是谁的？这是我的/你的/他的/她的……",
+  "words": [
+    {
+      "en": "whose",
+      "ipa": "huːz",
+      "pos": "pron.",
+      "zh": "谁的",
+      "lesson": 11
+    },
+    {
+      "en": "blue",
+      "ipa": "bluː",
+      "pos": "adj.",
+      "zh": "蓝色的",
+      "lesson": 11
+    },
+    {
+      "en": "perhaps",
+      "ipa": "pə'hæps",
+      "pos": "adv.",
+      "zh": "大概",
+      "lesson": 11
+    },
+    {
+      "en": "white",
+      "ipa": "waɪt",
+      "pos": "adj.",
+      "zh": "白色的",
+      "lesson": 11
+    },
+    {
+      "en": "catch",
+      "ipa": "kætʃ",
+      "pos": "v.",
+      "zh": "抓住",
+      "lesson": 11
+    },
+    {
+      "en": "father",
+      "ipa": "'fɑːðə",
+      "pos": "n.",
+      "zh": "父亲",
+      "lesson": 12
+    },
+    {
+      "en": "mother",
+      "ipa": "'mʌðə",
+      "pos": "n.",
+      "zh": "母亲",
+      "lesson": 12
+    },
+    {
+      "en": "blouse",
+      "ipa": "blaʊz",
+      "pos": "n.",
+      "zh": "女衬衫",
+      "lesson": 12
+    },
+    {
+      "en": "sister",
+      "ipa": "'sɪstə",
+      "pos": "n.",
+      "zh": "姐，妹",
+      "lesson": 12
+    },
+    {
+      "en": "tie",
+      "ipa": "taɪ",
+      "pos": "n.",
+      "zh": "领带",
+      "lesson": 12
+    },
+    {
+      "en": "brother",
+      "ipa": "'brʌðə",
+      "pos": "n.",
+      "zh": "兄，弟",
+      "lesson": 12
+    },
+    {
+      "en": "his",
+      "ipa": "hɪz",
+      "pos": "adj.",
+      "zh": "他的",
+      "lesson": 12
+    },
+    {
+      "en": "her",
+      "ipa": "hɜː",
+      "pos": "adj.",
+      "zh": "她的",
+      "lesson": 12
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Teacher",
+      "en": "Whose shirt is that?",
+      "zh": "那是谁的衬衫？"
+    },
+    {
+      "speaker": "Teacher",
+      "en": "Is this your shirt, Dave?",
+      "zh": "戴夫，这是你的衬衫吗？"
+    },
+    {
+      "speaker": "Dave",
+      "en": "No, sir.",
+      "zh": "不，先生。"
+    },
+    {
+      "speaker": "Dave",
+      "en": "It's not my shirt.",
+      "zh": "这不是我的衬衫。"
+    },
+    {
+      "speaker": "Dave",
+      "en": "This is my shirt. My shirt's blue.",
+      "zh": "这是我的衬衫。我的衬衫是蓝色的。"
+    },
+    {
+      "speaker": "Teacher",
+      "en": "Is this shirt Tim's?",
+      "zh": "这件衬衫是蒂姆的吗？"
+    },
+    {
+      "speaker": "Dave",
+      "en": "Perhaps it is, sir.",
+      "zh": "也许是，先生。"
+    },
+    {
+      "speaker": "Dave",
+      "en": "Tim's shirt's white.",
+      "zh": "蒂姆的衬衫是白色的。"
+    },
+    {
+      "speaker": "Teacher",
+      "en": "Tim!",
+      "zh": "蒂姆！"
+    },
+    {
+      "speaker": "Tim",
+      "en": "Yes, sir?",
+      "zh": "什么事，先生？"
+    },
+    {
+      "speaker": "Teacher",
+      "en": "Is this your shirt?",
+      "zh": "这是你的衬衫吗？"
+    },
+    {
+      "speaker": "Tim",
+      "en": "Yes, sir.",
+      "zh": "是的，先生。"
+    },
+    {
+      "speaker": "Teacher",
+      "en": "Here you are.",
+      "zh": "给你。"
+    },
+    {
+      "speaker": "Teacher",
+      "en": "Catch!",
+      "zh": "接着！"
+    },
+    {
+      "speaker": "Tim",
+      "en": "Thank you, sir.",
+      "zh": "谢谢您，先生。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Stella is here. That is ___ car.",
+      "zh": "斯特拉在这儿。那是她的车。",
+      "options": [
+        "her",
+        "his",
+        "my",
+        "your"
+      ]
+    },
+    {
+      "en": "Excuse me, Steven. Is this ___ umbrella?",
+      "zh": "对不起，史蒂文。这是你的伞吗？",
+      "options": [
+        "your",
+        "my",
+        "her",
+        "his"
+      ]
+    },
+    {
+      "en": "I am an air hostess. ___ name is Britt.",
+      "zh": "我是空中小姐，我的名字叫布里特。",
+      "options": [
+        "My",
+        "Her",
+        "Your",
+        "His"
+      ]
+    },
+    {
+      "en": "Paul is here, too. That is ___ coat.",
+      "zh": "保罗也在这儿。那是他的外衣。",
+      "options": [
+        "his",
+        "her",
+        "my",
+        "your"
+      ]
+    },
+    {
+      "en": "___ is this shirt? It's Tim's.",
+      "zh": "这是谁的衬衫？是蒂姆的。",
+      "options": [
+        "Whose",
+        "What",
+        "How",
+        "Who"
+      ]
+    },
+    {
+      "en": "Whose is this handbag? It's ___.",
+      "zh": "这个手提包是谁的？是斯特拉的。",
+      "options": [
+        "Stella's",
+        "Stella",
+        "Stellas",
+        "her"
+      ]
+    },
+    {
+      "en": "Whose is that tie? It's my ___.",
+      "zh": "那条领带是谁的？是我哥哥的。",
+      "options": [
+        "brother's",
+        "brother",
+        "brothers",
+        "his"
+      ]
+    },
+    {
+      "en": "Here you ___.",
+      "zh": "给你。",
+      "options": [
+        "are",
+        "is",
+        "am",
+        "be"
+      ]
+    }
+  ]
+}

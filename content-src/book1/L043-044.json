@@ -1,0 +1,49 @@
+{
+  "id": "L043-044",
+  "lessons": [43, 44],
+  "title": "Hurry up!",
+  "titleZh": "快点！",
+  "evenTitle": "Are there any ...? Is there any ...?",
+  "evenTitleZh": "有些……吗？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18] },
+  "words": [
+    { "en": "of course", "ipa": "əv-'kɔːs", "pos": "", "zh": "当然", "lesson": 43 },
+    { "en": "kettle", "ipa": "'ketl", "pos": "n.", "zh": "水壶", "lesson": 43 },
+    { "en": "behind", "ipa": "bɪ'haɪnd", "pos": "prep.", "zh": "在……后面", "lesson": 43 },
+    { "en": "teapot", "ipa": "'tiːpɒt", "pos": "n.", "zh": "茶壶", "lesson": 43 },
+    { "en": "now", "ipa": "naʊ", "pos": "adv.", "zh": "现在，此刻", "lesson": 43 },
+    { "en": "find", "ipa": "faɪnd", "pos": "v.", "zh": "找到", "lesson": 43 },
+    { "en": "boil", "ipa": "bɔɪl", "pos": "v.", "zh": "沸腾，开", "lesson": 43 }
+  ],
+  "lines": [
+    { "speaker": "Penny", "en": "Can you make the tea, Sam?", "zh": "你会沏茶吗，萨姆？" },
+    { "speaker": "Sam", "en": "Yes, of course I can, Penny.", "zh": "会的，我当然会，彭妮。" },
+    { "speaker": "Sam", "en": "Is there any water in this kettle?", "zh": "这水壶里有水吗？" },
+    { "speaker": "Penny", "en": "Yes, there is.", "zh": "有水。" },
+    { "speaker": "Sam", "en": "Where's the tea?", "zh": "茶叶在哪儿？" },
+    { "speaker": "Penny", "en": "It's over there, behind the teapot.", "zh": "就在那儿，茶壶后面。" },
+    { "speaker": "Penny", "en": "Can you see it?", "zh": "你看见了吗？" },
+    { "speaker": "Sam", "en": "I can see the teapot,", "zh": "茶壶我看见了，" },
+    { "speaker": "Sam", "en": "but I can't see the tea.", "zh": "但茶叶没看到。" },
+    { "speaker": "Penny", "en": "There it is!", "zh": "那不是么！" },
+    { "speaker": "Penny", "en": "It's in front of you!", "zh": "就在你眼前。" },
+    { "speaker": "Sam", "en": "Ah yes, I can see it now.", "zh": "噢，是啊，我现在看到了。" },
+    { "speaker": "Sam", "en": "Where are the cups?", "zh": "茶杯在哪儿呢？" },
+    { "speaker": "Penny", "en": "There are some in the cupboard.", "zh": "碗橱里有几只。" },
+    { "speaker": "Penny", "en": "Can you find them?", "zh": "你找得到吗？" },
+    { "speaker": "Sam", "en": "Yes. Here they are.", "zh": "找得到。就在这儿呢。" },
+    { "speaker": "Penny", "en": "Hurry up, Sam!", "zh": "快点，萨姆！" },
+    { "speaker": "Penny", "en": "The kettle's boiling!", "zh": "水开了！" }
+  ],
+  "drills": [
+    { "en": "I can see some spoons, but I can't see any ___.", "zh": "我能看见一些勺子，但看不到刀。", "options": ["knives", "knifes", "knife", "knivs"] },
+    { "en": "I can see some hammers, but I can't see any ___.", "zh": "我能看见一些锤子，但看不到盒子。", "options": ["boxes", "boxs", "box", "boxies"] },
+    { "en": "I can see some cupboards, but I can't see any ___.", "zh": "我能看见一些碗橱，但看不到架子。", "options": ["shelves", "shelfs", "shelf", "shelvs"] },
+    { "en": "I can see some cups, but I can't see any ___.", "zh": "我能看见一些杯子，但看不到盘子。", "options": ["dishes", "dishs", "dish", "dishies"] },
+    { "en": "Is there any bread here? Yes, there is. There's ___ on the table.", "zh": "这儿有面包吗？有，桌上有一些。", "options": ["some", "any", "a", "one"] },
+    { "en": "Are there ___ hammers here? Yes, there are.", "zh": "这儿有锤子吗？有。", "options": ["any", "some", "a", "an"] },
+    { "en": "Can you make the tea, Sam? Yes, ___ course I can.", "zh": "你会沏茶吗，萨姆？会的，我当然会。", "options": ["of", "on", "in", "for"] },
+    { "en": "It's over there, ___ the teapot.", "zh": "就在那儿，茶壶后面。", "options": ["behind", "between", "along", "off"] },
+    { "en": "Hurry ___, Sam! The kettle's boiling!", "zh": "快点，萨姆！水开了！", "options": ["up", "on", "off", "in"] }
+  ]
+}

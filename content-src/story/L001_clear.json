@@ -1,0 +1,25 @@
+{
+  "id": "L001_clear",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "woman",
+      "face": "happy",
+      "en": "Thank you very much.",
+      "audio": {
+        "lesson": "L001-002",
+        "line": 6
+      }
+    },
+    {
+      "t": "item",
+      "key": "page1",
+      "zh": "台词簿第 1 页已恢复"
+    }
+  ]
+}

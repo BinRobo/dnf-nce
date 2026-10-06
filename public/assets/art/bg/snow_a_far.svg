@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" stroke-linejoin="round" stroke-linecap="round">
+<rect x="0" y="0" width="1280" height="330" rx="0" fill="#CDEBFF" stroke="none" />
+<rect x="0" y="330" width="1280" height="140" rx="0" fill="#E6F5FF" stroke="none" />
+<rect x="0" y="470" width="1280" height="250" rx="0" fill="#F4FAFF" stroke="none" />
+<ellipse cx="200.0" cy="90.0" rx="27.0" ry="27.0" fill="#fff" stroke="none" />
+<ellipse cx="236.0" cy="81.0" rx="34.2" ry="34.2" fill="#fff" stroke="none" />
+<ellipse cx="273.8" cy="93.6" rx="25.2" ry="25.2" fill="#fff" stroke="none" />
+<ellipse cx="600.0" cy="60.0" rx="33.0" ry="33.0" fill="#fff" stroke="none" />
+<ellipse cx="644.0" cy="49.0" rx="41.800000000000004" ry="41.800000000000004" fill="#fff" stroke="none" />
+<ellipse cx="690.2" cy="64.4" rx="30.800000000000004" ry="30.800000000000004" fill="#fff" stroke="none" />
+<ellipse cx="980.0" cy="120.0" rx="24.0" ry="24.0" fill="#fff" stroke="none" />
+<ellipse cx="1012.0" cy="112.0" rx="30.400000000000002" ry="30.400000000000002" fill="#fff" stroke="none" />
+<ellipse cx="1045.6" cy="123.2" rx="22.400000000000002" ry="22.400000000000002" fill="#fff" stroke="none" />
+<path d="M0,470 L0,380 L0,309 L20,283 L40,262 L60,247 L80,239 L100,237 L120,242 L140,251 L160,262 L180,273 L200,283 L220,291 L240,295 L260,295 L280,292 L300,288 L320,284 L340,282 L360,284 L380,291 L400,305 L420,326 L440,351 L460,344 L480,341 L500,340 L520,338 L540,334 L560,326 L580,314 L600,299 L620,281 L640,262 L660,244 L680,229 L700,218 L720,214 L740,217 L760,227 L780,244 L800,265 L820,290 L840,316 L860,340 L880,363 L900,381 L920,395 L940,407 L960,378 L980,347 L1000,317 L1020,289 L1040,267 L1060,250 L1080,240 L1100,237 L1120,240 L1140,248 L1160,259 L1180,270 L1200,281 L1220,289 L1240,294 L1260,295 L1280,293 L1280,470 Z" fill="#AAD4F0" stroke="none" />
+<path d="M0,470 L0,420 L0,316 L20,319 L40,331 L60,348 L80,367 L100,386 L120,399 L140,408 L160,412 L180,416 L200,388 L220,366 L240,352 L260,347 L280,349 L300,354 L320,361 L340,364 L360,363 L380,358 L400,350 L420,344 L440,342 L460,348 L480,363 L500,385 L520,413 L540,420 L560,414 L580,403 L600,388 L620,368 L640,348 L660,330 L680,319 L700,316 L720,323 L740,338 L760,357 L780,376 L800,392 L820,404 L840,410 L860,414 L880,404 L900,378 L920,359 L940,349 L960,347 L980,351 L1000,357 L1020,363 L1040,364 L1060,361 L1080,354 L1100,347 L1120,342 L1140,344 L1160,354 L1180,372 L1200,397 L1220,422 L1240,417 L1260,410 L1280,397 L1280,470 Z" fill="#8FC3E8" stroke="none" />
+<path d="M20,283 L40,262 L30,297 Z" fill="#fff" stroke="none" />
+<path d="M40,262 L60,247 L50,276 Z" fill="#fff" stroke="none" />
+<path d="M60,247 L80,239 L70,261 Z" fill="#fff" stroke="none" />
+<path d="M80,239 L100,237 L90,253 Z" fill="#fff" stroke="none" />
+<path d="M100,237 L120,242 L110,251 Z" fill="#fff" stroke="none" />
+<path d="M120,242 L140,251 L130,256 Z" fill="#fff" stroke="none" />
+<path d="M140,251 L160,262 L150,265 Z" fill="#fff" stroke="none" />
+<path d="M160,262 L180,273 L170,276 Z" fill="#fff" stroke="none" />
+<path d="M180,273 L200,283 L190,287 Z" fill="#fff" stroke="none" />
+<path d="M200,283 L220,291 L210,297 Z" fill="#fff" stroke="none" />
+<path d="M220,291 L240,295 L230,305 Z" fill="#fff" stroke="none" />
+<path d="M240,295 L260,295 L250,309 Z" fill="#fff" stroke="none" />
+<path d="M260,295 L280,292 L270,309 Z" fill="#fff" stroke="none" />
+<path d="M280,292 L300,288 L290,306 Z" fill="#fff" stroke="none" />
+<path d="M300,288 L320,284 L310,302 Z" fill="#fff" stroke="none" />
+<path d="M320,284 L340,282 L330,298 Z" fill="#fff" stroke="none" />
+<path d="M340,282 L360,284 L350,296 Z" fill="#fff" stroke="none" />
+<path d="M360,284 L380,291 L370,298 Z" fill="#fff" stroke="none" />
+<path d="M380,291 L400,305 L390,305 Z" fill="#fff" stroke="none" />
+<path d="M600,299 L620,281 L610,313 Z" fill="#fff" stroke="none" />
+<path d="M620,281 L640,262 L630,295 Z" fill="#fff" stroke="none" />
+<path d="M640,262 L660,244 L650,276 Z" fill="#fff" stroke="none" />
+<path d="M660,244 L680,229 L670,258 Z" fill="#fff" stroke="none" />
+<path d="M680,229 L700,218 L690,243 Z" fill="#fff" stroke="none" />
+<path d="M700,218 L720,214 L710,232 Z" fill="#fff" stroke="none" />
+<path d="M720,214 L740,217 L730,228 Z" fill="#fff" stroke="none" />
+<path d="M740,217 L760,227 L750,231 Z" fill="#fff" stroke="none" />
+<path d="M760,227 L780,244 L770,241 Z" fill="#fff" stroke="none" />
+<path d="M780,244 L800,265 L790,258 Z" fill="#fff" stroke="none" />
+<path d="M800,265 L820,290 L810,279 Z" fill="#fff" stroke="none" />
+<path d="M820,290 L840,316 L830,304 Z" fill="#fff" stroke="none" />
+<path d="M1020,289 L1040,267 L1030,303 Z" fill="#fff" stroke="none" />
+<path d="M1040,267 L1060,250 L1050,281 Z" fill="#fff" stroke="none" />
+<path d="M1060,250 L1080,240 L1070,264 Z" fill="#fff" stroke="none" />
+<path d="M1080,240 L1100,237 L1090,254 Z" fill="#fff" stroke="none" />
+<path d="M1100,237 L1120,240 L1110,251 Z" fill="#fff" stroke="none" />
+<path d="M1120,240 L1140,248 L1130,254 Z" fill="#fff" stroke="none" />
+<path d="M1140,248 L1160,259 L1150,262 Z" fill="#fff" stroke="none" />
+<path d="M1160,259 L1180,270 L1170,273 Z" fill="#fff" stroke="none" />
+<path d="M1180,270 L1200,281 L1190,284 Z" fill="#fff" stroke="none" />
+<path d="M1200,281 L1220,289 L1210,295 Z" fill="#fff" stroke="none" />
+<path d="M1220,289 L1240,294 L1230,303 Z" fill="#fff" stroke="none" />
+<path d="M1240,294 L1260,295 L1250,308 Z" fill="#fff" stroke="none" />
+<path d="M1260,295 L1280,293 L1270,309 Z" fill="#fff" stroke="none" />
+</svg>

@@ -1,0 +1,281 @@
+{
+ "id": "L125-126",
+ "lessons": [
+  125,
+  126
+ ],
+ "title": "Tea for two",
+ "titleZh": "两个人一起喝茶",
+ "evenTitle": "Have to and do not need to",
+ "evenTitleZh": "不得不和不必要",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   20,
+   21
+  ]
+ },
+ "words": [
+  {
+   "en": "water",
+   "ipa": "'wɔːtə",
+   "pos": "v.",
+   "zh": "浇水",
+   "lesson": 125
+  },
+  {
+   "en": "terribly",
+   "ipa": "'terɪblɪ",
+   "pos": "adv.",
+   "zh": "非常",
+   "lesson": 125
+  },
+  {
+   "en": "dry",
+   "ipa": "draɪ",
+   "pos": "adj.",
+   "zh": "干燥的，干的",
+   "lesson": 125
+  },
+  {
+   "en": "nuisance",
+   "ipa": "'njuːsəns",
+   "pos": "n.",
+   "zh": "讨厌的东西或人",
+   "lesson": 125
+  },
+  {
+   "en": "mean",
+   "ipa": "miːn",
+   "pos": "v.",
+   "zh": "意味着，意思是（过去式 meant）",
+   "lesson": 125
+  },
+  {
+   "en": "surprise",
+   "ipa": "sə'praɪz",
+   "pos": "n.",
+   "zh": "惊奇，意外的事",
+   "lesson": 125
+  },
+  {
+   "en": "immediately",
+   "ipa": "ɪ'miːdɪətlɪ",
+   "pos": "adv.",
+   "zh": "立即地",
+   "lesson": 126
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Susan",
+   "en": "Can't you come in and have tea now, Peter?",
+   "zh": "彼得，你现在能进来喝茶吗？"
+  },
+  {
+   "speaker": "Peter",
+   "en": "Not yet.",
+   "zh": "还不能。"
+  },
+  {
+   "speaker": "Peter",
+   "en": "I must water the garden first.",
+   "zh": "我得先给花园浇水。"
+  },
+  {
+   "speaker": "Susan",
+   "en": "Do you have to water it now?",
+   "zh": "你一定得现在浇吗？"
+  },
+  {
+   "speaker": "Peter",
+   "en": "I'm afraid I must.",
+   "zh": "恐怕我得现在浇。"
+  },
+  {
+   "speaker": "Peter",
+   "en": "Look at it!",
+   "zh": "你看看，"
+  },
+  {
+   "speaker": "Peter",
+   "en": "It's terribly dry.",
+   "zh": "干得厉害。"
+  },
+  {
+   "speaker": "Susan",
+   "en": "What a nuisance!",
+   "zh": "真讨厌！"
+  },
+  {
+   "speaker": "Peter",
+   "en": "Last summer it was very dry, too.",
+   "zh": "去年夏天也是干得很。"
+  },
+  {
+   "speaker": "Peter",
+   "en": "Don't you remember?",
+   "zh": "你不记得了吗？"
+  },
+  {
+   "speaker": "Peter",
+   "en": "I had to water it every day.",
+   "zh": "我不得不每天浇水。"
+  },
+  {
+   "speaker": "Susan",
+   "en": "Well, I'll have tea by myself.",
+   "zh": "好吧，我一个人喝茶了。"
+  },
+  {
+   "speaker": "Susan",
+   "en": "That was quick!",
+   "zh": "好快啊！"
+  },
+  {
+   "speaker": "Susan",
+   "en": "Have you finished already?",
+   "zh": "你已经浇完了？"
+  },
+  {
+   "speaker": "Peter",
+   "en": "Yes.",
+   "zh": "是的。"
+  },
+  {
+   "speaker": "Peter",
+   "en": "Look out of the window.",
+   "zh": "你看看窗外。"
+  },
+  {
+   "speaker": "Susan",
+   "en": "It's raining!",
+   "zh": "下雨了！"
+  },
+  {
+   "speaker": "Susan",
+   "en": "That means you don't need to water the garden.",
+   "zh": "这就是说，你不必给花园浇水了。"
+  },
+  {
+   "speaker": "Peter",
+   "en": "That was a pleasant surprise.",
+   "zh": "这是意想不到的好事。"
+  },
+  {
+   "speaker": "Peter",
+   "en": "It means I can have tea, instead.",
+   "zh": "这意味着我反倒可以喝茶了。"
+  }
+ ],
+ "drills": [
+  {
+   "en": "Can't you come in and have tea ___, Peter?",
+   "zh": "彼得，你现在能进来喝茶吗？",
+   "options": [
+    "now",
+    "yesterday",
+    "ago",
+    "last"
+   ]
+  },
+  {
+   "en": "I must ___ the garden first.",
+   "zh": "我得先给花园浇水。",
+   "options": [
+    "water",
+    "waters",
+    "watered",
+    "watering"
+   ]
+  },
+  {
+   "en": "It's ___ dry.",
+   "zh": "干得厉害。",
+   "options": [
+    "terribly",
+    "terrible",
+    "terror",
+    "terrify"
+   ]
+  },
+  {
+   "en": "Last summer it was very dry, ___.",
+   "zh": "去年夏天也是干得很。",
+   "options": [
+    "too",
+    "either",
+    "neither",
+    "yet"
+   ]
+  },
+  {
+   "en": "Last summer I ___ to water it every day.",
+   "zh": "去年夏天我不得不每天浇水。",
+   "options": [
+    "had",
+    "have",
+    "has",
+    "having"
+   ]
+  },
+  {
+   "en": "That means you don't ___ to water the garden.",
+   "zh": "这就是说，你不必给花园浇水了。",
+   "options": [
+    "need",
+    "needs",
+    "needed",
+    "needing"
+   ]
+  },
+  {
+   "en": "Do you have to go now? Yes, I have to leave ___.",
+   "zh": "你现在必须走吗？是的，我得立刻离开。",
+   "options": [
+    "immediately",
+    "immediate",
+    "immediacy",
+    "immediates"
+   ]
+  },
+  {
+   "en": "Did you have to take a taxi? I'm afraid I ___ to.",
+   "zh": "你不得不乘出租车吗？恐怕是的，我只得这样。",
+   "options": [
+    "had",
+    "have",
+    "has",
+    "having"
+   ]
+  },
+  {
+   "en": "Do we have to walk to the station? No, we ___ need to.",
+   "zh": "我们得走到车站吗？不，我们不必。",
+   "options": [
+    "don't",
+    "doesn't",
+    "aren't",
+    "haven't"
+   ]
+  }
+ ]
+}

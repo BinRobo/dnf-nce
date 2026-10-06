@@ -1,0 +1,288 @@
+{
+ "id": "L097-098",
+ "lessons": [
+  97,
+  98
+ ],
+ "title": "A small blue case",
+ "titleZh": "一只蓝色的小箱子",
+ "evenTitle": "Whose is it? Whose are they?",
+ "evenTitleZh": "它是谁的？它们是谁的？",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   3,
+   5,
+   7,
+   9,
+   10,
+   12,
+   13,
+   14,
+   16,
+   17,
+   19,
+   20,
+   22,
+   23,
+   24,
+   25,
+   26,
+   28,
+   29
+  ]
+ },
+ "words": [
+  {
+   "en": "leave",
+   "ipa": "liːv",
+   "pos": "v.",
+   "zh": "遗留（过去式 left）",
+   "lesson": 97
+  },
+  {
+   "en": "describe",
+   "ipa": "dɪ'skraɪb",
+   "pos": "v.",
+   "zh": "描述",
+   "lesson": 97
+  },
+  {
+   "en": "zip",
+   "ipa": "zɪp",
+   "pos": "n.",
+   "zh": "拉链",
+   "lesson": 97
+  },
+  {
+   "en": "label",
+   "ipa": "'leɪbəl",
+   "pos": "n.",
+   "zh": "标签",
+   "lesson": 97
+  },
+  {
+   "en": "handle",
+   "ipa": "'hændl",
+   "pos": "n.",
+   "zh": "提手，把手",
+   "lesson": 97
+  },
+  {
+   "en": "address",
+   "ipa": "ə'dres",
+   "pos": "n.",
+   "zh": "地址",
+   "lesson": 97
+  },
+  {
+   "en": "pence",
+   "ipa": "'pens",
+   "pos": "n.",
+   "zh": "penny 的复数形式",
+   "lesson": 97
+  },
+  {
+   "en": "belong",
+   "ipa": "bɪ'lɒŋ",
+   "pos": "v.",
+   "zh": "属于",
+   "lesson": 97
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Mr. Hall",
+   "en": "I left a suitcase on the train to London the other day.",
+   "zh": "几天前我把一只手提箱忘在开往伦敦的火车上了。"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Can you describe it, sir?",
+   "zh": "先生，您能描述一下它是什么样子的吗？"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "It's a small blue case and it's got a zip.",
+   "zh": "是只蓝色的小箱子，上面有拉链。"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "There's a label on the handle with my name and address on it.",
+   "zh": "箱把上有一标签，上面写着我的姓名和住址。"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Is this case yours?",
+   "zh": "这箱子是您的吗？"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "No, that's not mine.",
+   "zh": "不，那不是我的。"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "What about this one?",
+   "zh": "这只是不是？"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "This one's got a label.",
+   "zh": "这只箱子有张标签。"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "Let me see it.",
+   "zh": "让我看看。"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "What's your name and address?",
+   "zh": "您的姓名和住址？"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "David Hall, 83, Bridge Street.",
+   "zh": "大卫·霍尔，大桥街 83 号。"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "That's right.",
+   "zh": "那就对了。"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "D. N. Hall, 83, Bridge Street.",
+   "zh": "D·N·霍尔，大桥街 83 号。"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Three pounds fifty pence, please.",
+   "zh": "请付 3 英镑 50 便士。"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "Here you are.",
+   "zh": "给您。"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Thank you.",
+   "zh": "谢谢您。"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "Hey!",
+   "zh": "嗨！"
+  },
+  {
+   "speaker": "Attendant",
+   "en": "What's the matter?",
+   "zh": "怎么回事？"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "This case doesn't belong to me!",
+   "zh": "这箱子不是我的！"
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "You've given me the wrong case!",
+   "zh": "您给错了！"
+  }
+ ],
+ "drills": [
+  {
+   "en": "This dress belongs to my sister. It is ___.",
+   "zh": "这条裙子是我姐姐的。它是她的。",
+   "options": [
+    "hers",
+    "her",
+    "she",
+    "herself"
+   ]
+  },
+  {
+   "en": "These things belong to my husband. They are ___.",
+   "zh": "这些东西是我丈夫的。它们是他的。",
+   "options": [
+    "his",
+    "he's",
+    "him",
+    "he"
+   ]
+  },
+  {
+   "en": "This coat belongs to me. It is ___.",
+   "zh": "这件外套是我的。",
+   "options": [
+    "mine",
+    "my",
+    "me",
+    "I"
+   ]
+  },
+  {
+   "en": "These books belong to my brother and me. They are ___.",
+   "zh": "这些书是我哥哥和我的。它们是我们的。",
+   "options": [
+    "ours",
+    "our",
+    "us",
+    "we"
+   ]
+  },
+  {
+   "en": "These pens belong to Tom and Jill. The pens are ___.",
+   "zh": "这些钢笔是汤姆和吉尔的。它们是他们的。",
+   "options": [
+    "theirs",
+    "their",
+    "them",
+    "they"
+   ]
+  },
+  {
+   "en": "This suitcase belongs to you. It is ___.",
+   "zh": "这只手提箱是你的。它是你的。",
+   "options": [
+    "yours",
+    "your",
+    "you",
+    "yourself"
+   ]
+  },
+  {
+   "en": "Is this case ___? No, that's not mine.",
+   "zh": "这箱子是您的吗？不，那不是我的。",
+   "options": [
+    "yours",
+    "your",
+    "you",
+    "you're"
+   ]
+  },
+  {
+   "en": "This case doesn't ___ to me!",
+   "zh": "这箱子不是我的！",
+   "options": [
+    "belong",
+    "belongs",
+    "belonging",
+    "belonged"
+   ]
+  },
+  {
+   "en": "Can you ___ it, sir?",
+   "zh": "先生，您能描述一下它吗？",
+   "options": [
+    "describe",
+    "describes",
+    "described",
+    "describing"
+   ]
+  }
+ ]
+}

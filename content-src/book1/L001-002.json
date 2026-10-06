@@ -1,0 +1,48 @@
+{
+  "id": "L001-002",
+  "lessons": [1, 2],
+  "title": "Excuse me!",
+  "titleZh": "对不起！",
+  "evenTitle": "Is this your ...?",
+  "evenTitleZh": "这是你的……吗？",
+  "words": [
+    { "en": "excuse", "ipa": "ɪks'kjuːz", "pos": "v.", "zh": "原谅", "lesson": 1 },
+    { "en": "me", "ipa": "miː", "pos": "pron.", "zh": "我（宾格）", "lesson": 1 },
+    { "en": "yes", "ipa": "jes", "pos": "adv.", "zh": "是的", "lesson": 1 },
+    { "en": "is", "ipa": "ɪz", "pos": "v.", "zh": "是（be 动词第三人称单数）", "lesson": 1 },
+    { "en": "this", "ipa": "ðɪs", "pos": "pron.", "zh": "这", "lesson": 1 },
+    { "en": "your", "ipa": "jɔː", "pos": "adj.", "zh": "你的，你们的", "lesson": 1 },
+    { "en": "handbag", "ipa": "'hændbæɡ", "pos": "n.", "zh": "（女用）手提包", "lesson": 1 },
+    { "en": "pardon", "ipa": "'pɑːdn", "pos": "int.", "zh": "原谅，请再说一遍", "lesson": 1 },
+    { "en": "it", "ipa": "ɪt", "pos": "pron.", "zh": "它", "lesson": 1 },
+    { "en": "thank you", "ipa": "'θæŋk-juː", "pos": "", "zh": "感谢你（们）", "lesson": 1 },
+    { "en": "very much", "ipa": "'veri-mʌtʃ", "pos": "", "zh": "非常地", "lesson": 1 },
+    { "en": "pen", "ipa": "pen", "pos": "n.", "zh": "钢笔", "lesson": 2 },
+    { "en": "pencil", "ipa": "'pensəl", "pos": "n.", "zh": "铅笔", "lesson": 2 },
+    { "en": "book", "ipa": "bʊk", "pos": "n.", "zh": "书", "lesson": 2 },
+    { "en": "watch", "ipa": "wɒtʃ", "pos": "n.", "zh": "手表", "lesson": 2 },
+    { "en": "coat", "ipa": "kəʊt", "pos": "n.", "zh": "上衣，外衣", "lesson": 2 },
+    { "en": "dress", "ipa": "dres", "pos": "n.", "zh": "连衣裙", "lesson": 2 },
+    { "en": "skirt", "ipa": "skɜːt", "pos": "n.", "zh": "裙子", "lesson": 2 },
+    { "en": "shirt", "ipa": "ʃɜːt", "pos": "n.", "zh": "衬衣", "lesson": 2 },
+    { "en": "car", "ipa": "kɑː", "pos": "n.", "zh": "小汽车", "lesson": 2 },
+    { "en": "house", "ipa": "haʊs", "pos": "n.", "zh": "房子", "lesson": 2 }
+  ],
+  "lines": [
+    { "speaker": "Man", "en": "Excuse me!", "zh": "对不起。" },
+    { "speaker": "Woman", "en": "Yes?", "zh": "什么事？" },
+    { "speaker": "Man", "en": "Is this your handbag?", "zh": "这是您的手提包吗？" },
+    { "speaker": "Woman", "en": "Pardon?", "zh": "对不起，请再说一遍。" },
+    { "speaker": "Man", "en": "Is this your handbag?", "zh": "这是您的手提包吗？" },
+    { "speaker": "Woman", "en": "Yes, it is.", "zh": "是的，是我的。" },
+    { "speaker": "Woman", "en": "Thank you very much.", "zh": "非常感谢！" }
+  ],
+  "drills": [
+    { "en": "Is this ___ pen?", "zh": "这是你的钢笔吗？", "options": ["your", "you", "yes", "me"] },
+    { "en": "___ this your book?", "zh": "这是你的书吗？", "options": ["Is", "It", "This", "Yes"] },
+    { "en": "Yes, it ___.", "zh": "是的，它是。", "options": ["is", "it", "this", "your"] },
+    { "en": "Is ___ your watch?", "zh": "这是你的手表吗？", "options": ["this", "is", "it", "pardon"] },
+    { "en": "Thank you very ___.", "zh": "非常感谢。", "options": ["much", "me", "yes", "is"] },
+    { "en": "___ me!", "zh": "对不起！", "options": ["Excuse", "Pardon", "Thank", "Yes"] }
+  ]
+}

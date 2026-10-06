@@ -1,0 +1,253 @@
+{
+  "id": "L039-040",
+  "lessons": [
+    39,
+    40
+  ],
+  "title": "Don't drop it!",
+  "titleZh": "别摔了！",
+  "evenTitle": "What are you going to do? I'm going to ...",
+  "evenTitleZh": "你准备做什么？我准备……",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16
+    ]
+  },
+  "words": [
+    {
+      "en": "front",
+      "ipa": "frʌnt",
+      "pos": "n.",
+      "zh": "前面",
+      "lesson": 39
+    },
+    {
+      "en": "in front of",
+      "ipa": "",
+      "pos": "",
+      "zh": "在……之前",
+      "lesson": 39
+    },
+    {
+      "en": "careful",
+      "ipa": "'keəfəl",
+      "pos": "adj.",
+      "zh": "小心的，仔细的",
+      "lesson": 39
+    },
+    {
+      "en": "vase",
+      "ipa": "vɑːz",
+      "pos": "n.",
+      "zh": "花瓶",
+      "lesson": 39
+    },
+    {
+      "en": "drop",
+      "ipa": "drɒp",
+      "pos": "v.",
+      "zh": "掉下",
+      "lesson": 39
+    },
+    {
+      "en": "flower",
+      "ipa": "'flaʊə",
+      "pos": "n.",
+      "zh": "花",
+      "lesson": 39
+    },
+    {
+      "en": "show",
+      "ipa": "ʃəʊ",
+      "pos": "v.",
+      "zh": "给……看",
+      "lesson": 40
+    },
+    {
+      "en": "send",
+      "ipa": "send",
+      "pos": "v.",
+      "zh": "送给",
+      "lesson": 40
+    },
+    {
+      "en": "take",
+      "ipa": "teɪk",
+      "pos": "v.",
+      "zh": "带给",
+      "lesson": 40
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Sam",
+      "en": "What are you going to do with that vase, Penny?",
+      "zh": "你打算如何处理那花瓶，彭妮？"
+    },
+    {
+      "speaker": "Penny",
+      "en": "I'm going to put it on this table, Sam.",
+      "zh": "我打算把它放在这张桌子上，萨姆。"
+    },
+    {
+      "speaker": "Sam",
+      "en": "Don't do that.",
+      "zh": "不要放在那儿，"
+    },
+    {
+      "speaker": "Sam",
+      "en": "Give it to me.",
+      "zh": "把它给我。"
+    },
+    {
+      "speaker": "Penny",
+      "en": "What are you going to do with it?",
+      "zh": "你打算怎么办？"
+    },
+    {
+      "speaker": "Sam",
+      "en": "I'm going to put it here, in front of the window.",
+      "zh": "我准备把它放在这儿，放在窗前。"
+    },
+    {
+      "speaker": "Penny",
+      "en": "Be careful!",
+      "zh": "小心点！"
+    },
+    {
+      "speaker": "Penny",
+      "en": "Don't drop it!",
+      "zh": "别摔了！"
+    },
+    {
+      "speaker": "Penny",
+      "en": "Don't put it there, Sam.",
+      "zh": "别放在那儿，萨姆。"
+    },
+    {
+      "speaker": "Penny",
+      "en": "Put it here, on this shelf.",
+      "zh": "放在这儿，这个架子上。"
+    },
+    {
+      "speaker": "Sam",
+      "en": "There we are!",
+      "zh": "放好了！"
+    },
+    {
+      "speaker": "Sam",
+      "en": "It's a lovely vase.",
+      "zh": "这是只漂亮的花瓶。"
+    },
+    {
+      "speaker": "Penny",
+      "en": "Those flowers are lovely, too.",
+      "zh": "那些花也很漂亮啊。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Give me that vase. → Give that vase ___ me.",
+      "zh": "把那只花瓶给我。",
+      "options": [
+        "to",
+        "for",
+        "on",
+        "with"
+      ]
+    },
+    {
+      "en": "Send George that letter. → Send that letter to ___.",
+      "zh": "把那封信寄给乔治。",
+      "options": [
+        "George",
+        "he",
+        "George's",
+        "his"
+      ]
+    },
+    {
+      "en": "Show me that picture. → Show that picture to ___.",
+      "zh": "把那幅画给我看看。",
+      "options": [
+        "me",
+        "I",
+        "my",
+        "your"
+      ]
+    },
+    {
+      "en": "Put on your coat! I'm going to put ___ on.",
+      "zh": "穿上你的外衣！我这就穿。",
+      "options": [
+        "it",
+        "them",
+        "its",
+        "they"
+      ]
+    },
+    {
+      "en": "Put on your shoes! I'm going to put ___ on.",
+      "zh": "穿上你的鞋！我这就穿。",
+      "options": [
+        "them",
+        "it",
+        "they",
+        "their"
+      ]
+    },
+    {
+      "en": "Turn off the light! I'm going to turn ___ off.",
+      "zh": "关灯！我这就关。",
+      "options": [
+        "it",
+        "them",
+        "its",
+        "they"
+      ]
+    },
+    {
+      "en": "Be ___! Don't drop it!",
+      "zh": "小心点！别摔了！",
+      "options": [
+        "careful",
+        "lovely",
+        "favourite",
+        "hard"
+      ]
+    },
+    {
+      "en": "___ put it there, Sam.",
+      "zh": "别放在那儿，萨姆。",
+      "options": [
+        "Don't",
+        "Not",
+        "No",
+        "Isn't"
+      ]
+    },
+    {
+      "en": "I'm going to put it here, in front ___ the window.",
+      "zh": "我准备把它放在这儿，放在窗前。",
+      "options": [
+        "of",
+        "to",
+        "on",
+        "with"
+      ]
+    }
+  ]
+}

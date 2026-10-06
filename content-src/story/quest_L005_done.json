@@ -1,0 +1,36 @@
+{
+  "id": "quest_L005_done",
+  "bg": "classroom",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "大家都能说话了！谢谢你！"
+    },
+    {
+      "t": "say",
+      "who": "hans",
+      "face": "happy",
+      "en": "Nice to meet you.",
+      "audio": {
+        "lesson": "L005-006",
+        "line": 7
+      }
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "sad",
+      "zh": "不过……公爵已经注意到你了。"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：本章更多冒险即将开放"
+    }
+  ]
+}

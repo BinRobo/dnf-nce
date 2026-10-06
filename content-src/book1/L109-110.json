@@ -1,0 +1,341 @@
+{
+ "id": "L109-110",
+ "lessons": [
+  109,
+  110
+ ],
+ "title": "A good idea",
+ "titleZh": "好主意",
+ "evenTitle": "How do they compare?",
+ "evenTitleZh": "它们的比较级和最高级是什么？",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23
+  ]
+ },
+ "words": [
+  {
+   "en": "idea",
+   "ipa": "aɪ'dɪə",
+   "pos": "n.",
+   "zh": "主意",
+   "lesson": 109
+  },
+  {
+   "en": "a little",
+   "ipa": "",
+   "pos": "",
+   "zh": "少许（用于不可数名词之前）",
+   "lesson": 109
+  },
+  {
+   "en": "teaspoonful",
+   "ipa": "'tiːspuːnfʊl",
+   "pos": "n.",
+   "zh": "一满茶匙",
+   "lesson": 109
+  },
+  {
+   "en": "less",
+   "ipa": "les",
+   "pos": "adj.",
+   "zh": "（little 的比较级）较少的，更小的",
+   "lesson": 109
+  },
+  {
+   "en": "a few",
+   "ipa": "ə-'fjuː",
+   "pos": "",
+   "zh": "几个（用于可数名词之前）",
+   "lesson": 109
+  },
+  {
+   "en": "pity",
+   "ipa": "'pɪti",
+   "pos": "n.",
+   "zh": "遗憾",
+   "lesson": 109
+  },
+  {
+   "en": "instead",
+   "ipa": "ɪn'sted",
+   "pos": "adv.",
+   "zh": "代替",
+   "lesson": 109
+  },
+  {
+   "en": "advice",
+   "ipa": "əd'vaɪs",
+   "pos": "n.",
+   "zh": "建议，忠告",
+   "lesson": 109
+  },
+  {
+   "en": "most",
+   "ipa": "məʊst",
+   "pos": "adj.",
+   "zh": "（many, much 的最高级）最多的",
+   "lesson": 110
+  },
+  {
+   "en": "least",
+   "ipa": "liːst",
+   "pos": "adj.",
+   "zh": "（little 的最高级）最小的，最少的",
+   "lesson": 110
+  },
+  {
+   "en": "best",
+   "ipa": "best",
+   "pos": "adj.",
+   "zh": "（good 的最高级）最好的",
+   "lesson": 110
+  },
+  {
+   "en": "worse",
+   "ipa": "wɜːs",
+   "pos": "adj.",
+   "zh": "（bad 的比较级）更坏的",
+   "lesson": 110
+  },
+  {
+   "en": "worst",
+   "ipa": "wɜːst",
+   "pos": "adj.",
+   "zh": "（bad 的最高级）最坏的",
+   "lesson": 110
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Charlotte",
+   "en": "Shall I make some coffee, Jane?",
+   "zh": "我来煮点咖啡好吗，简？"
+  },
+  {
+   "speaker": "Jane",
+   "en": "That's a good idea, Charlotte.",
+   "zh": "这是个好主意，夏洛特。"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "It's ready.",
+   "zh": "咖啡好了。"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Do you want any milk?",
+   "zh": "你要放点奶吗？"
+  },
+  {
+   "speaker": "Jane",
+   "en": "Just a little, please.",
+   "zh": "请稍加一点。"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "What about some sugar?",
+   "zh": "加些糖怎么样？"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Two teaspoonfuls?",
+   "zh": "两茶匙行吗？"
+  },
+  {
+   "speaker": "Jane",
+   "en": "No, less than that.",
+   "zh": "不，再少一些。"
+  },
+  {
+   "speaker": "Jane",
+   "en": "One and a half teaspoonfuls, please.",
+   "zh": "请放一勺半。"
+  },
+  {
+   "speaker": "Jane",
+   "en": "That's enough for me.",
+   "zh": "那对我已足够了。"
+  },
+  {
+   "speaker": "Jane",
+   "en": "That was very nice.",
+   "zh": "太好了。"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Would you like some more?",
+   "zh": "你再来点吗？"
+  },
+  {
+   "speaker": "Jane",
+   "en": "Yes, please.",
+   "zh": "好的，请再来一点。"
+  },
+  {
+   "speaker": "Jane",
+   "en": "I'd like a cigarette, too.",
+   "zh": "我还想抽支烟。"
+  },
+  {
+   "speaker": "Jane",
+   "en": "May I have one?",
+   "zh": "可以给我一支吗？"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Of course.",
+   "zh": "当然可以。"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "I think there are a few in that box.",
+   "zh": "我想那个盒子里有一些。"
+  },
+  {
+   "speaker": "Jane",
+   "en": "I'm afraid it's empty.",
+   "zh": "恐怕盒子是空的。"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "What a pity!",
+   "zh": "真遗憾！"
+  },
+  {
+   "speaker": "Jane",
+   "en": "It doesn't matter.",
+   "zh": "没关系。"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Have a biscuit instead.",
+   "zh": "那就吃块饼干吧。"
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Eat more and smoke less!",
+   "zh": "多吃点，少抽点！"
+  },
+  {
+   "speaker": "Jane",
+   "en": "That's very good advice!",
+   "zh": "这是极好的忠告啊！"
+  }
+ ],
+ "drills": [
+  {
+   "en": "Do you want any milk? Just a ___, please.",
+   "zh": "你要放点奶吗？请稍加一点。",
+   "options": [
+    "little",
+    "few",
+    "lot",
+    "many"
+   ]
+  },
+  {
+   "en": "I think there are a ___ in that box.",
+   "zh": "我想那个盒子里有一些。",
+   "options": [
+    "few",
+    "little",
+    "much",
+    "less"
+   ]
+  },
+  {
+   "en": "I haven't got any pens. I haven't got ___ either.",
+   "zh": "我没有钢笔。我也没有很多别的东西。",
+   "options": [
+    "many",
+    "much",
+    "less",
+    "fewer"
+   ]
+  },
+  {
+   "en": "I haven't got any money. I haven't got ___ either.",
+   "zh": "我没有钱，其他的也没有多少。",
+   "options": [
+    "much",
+    "many",
+    "fewer",
+    "more"
+   ]
+  },
+  {
+   "en": "I've got some money. I've got ___ than you have.",
+   "zh": "我有一些钱，比你的多。",
+   "options": [
+    "more",
+    "most",
+    "many",
+    "much"
+   ]
+  },
+  {
+   "en": "I've got some books. I've got ___ than you have.",
+   "zh": "我有一些书，比你的少。",
+   "options": [
+    "fewer",
+    "less",
+    "fewest",
+    "few"
+   ]
+  },
+  {
+   "en": "That's very good ___!",
+   "zh": "这是极好的忠告！",
+   "options": [
+    "advice",
+    "advices",
+    "advise",
+    "advised"
+   ]
+  },
+  {
+   "en": "Have a biscuit ___.",
+   "zh": "那就吃块饼干吧。",
+   "options": [
+    "instead",
+    "instead of",
+    "ever",
+    "yet"
+   ]
+  },
+  {
+   "en": "Eat more and smoke ___!",
+   "zh": "多吃点，少抽点！",
+   "options": [
+    "less",
+    "fewer",
+    "least",
+    "most"
+   ]
+  }
+ ]
+}

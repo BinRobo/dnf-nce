@@ -1,0 +1,257 @@
+{
+ "id": "L121-122",
+ "lessons": [
+  121,
+  122
+ ],
+ "title": "The man in a hat",
+ "titleZh": "戴帽子的男士",
+ "evenTitle": "Who (whom), which and that",
+ "evenTitleZh": "关系代词",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   5,
+   6,
+   8,
+   9,
+   11,
+   13,
+   15,
+   16,
+   18,
+   19,
+   20,
+   21,
+   22,
+   24,
+   25
+  ]
+ },
+ "words": [
+  {
+   "en": "customer",
+   "ipa": "'kʌstəmə",
+   "pos": "n.",
+   "zh": "顾客",
+   "lesson": 121
+  },
+  {
+   "en": "forget",
+   "ipa": "fə'get",
+   "pos": "v.",
+   "zh": "忘记（过去式 forgot，过去分词 forgotten）",
+   "lesson": 121
+  },
+  {
+   "en": "manager",
+   "ipa": "'mænɪdʒə",
+   "pos": "n.",
+   "zh": "经理",
+   "lesson": 121
+  },
+  {
+   "en": "serve",
+   "ipa": "sɜːv",
+   "pos": "v.",
+   "zh": "照应，服务，接待",
+   "lesson": 121
+  },
+  {
+   "en": "counter",
+   "ipa": "'kaʊntə",
+   "pos": "n.",
+   "zh": "柜台",
+   "lesson": 121
+  },
+  {
+   "en": "recognize",
+   "ipa": "'rekəgnaɪz",
+   "pos": "v.",
+   "zh": "认出",
+   "lesson": 121
+  },
+  {
+   "en": "road",
+   "ipa": "rəʊd",
+   "pos": "n.",
+   "zh": "路",
+   "lesson": 122
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Customer",
+   "en": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+   "zh": "半小时以前我在这里买了两本很贵的辞典，但是我忘了拿走。"
+  },
+  {
+   "speaker": "Manager",
+   "en": "Who served you, sir?",
+   "zh": "是谁接待您的，先生？"
+  },
+  {
+   "speaker": "Customer",
+   "en": "The lady who is standing behind the counter.",
+   "zh": "站在柜台后面的那位女士。"
+  },
+  {
+   "speaker": "Manager",
+   "en": "Which books did you buy?",
+   "zh": "您买的是两本什么书？"
+  },
+  {
+   "speaker": "Customer",
+   "en": "The books which are on the counter.",
+   "zh": "就是柜台上的那两本。"
+  },
+  {
+   "speaker": "Manager",
+   "en": "Did you serve this gentleman half an hour ago, Caroline?",
+   "zh": "卡罗琳，半小时前你接待过这位先生吗？"
+  },
+  {
+   "speaker": "Manager",
+   "en": "He says he's the man who bought these books.",
+   "zh": "他说他就是买这两本书的人。"
+  },
+  {
+   "speaker": "Caroline",
+   "en": "I can't remember.",
+   "zh": "我记不起来了。"
+  },
+  {
+   "speaker": "Caroline",
+   "en": "The man who I served was wearing a hat.",
+   "zh": "我接待的那个人戴着一顶帽子。"
+  },
+  {
+   "speaker": "Manager",
+   "en": "Have you got a hat, sir?",
+   "zh": "先生，您有帽子吗？"
+  },
+  {
+   "speaker": "Customer",
+   "en": "Yes, I have.",
+   "zh": "有的，我有帽子。"
+  },
+  {
+   "speaker": "Manager",
+   "en": "Would you put it on, please?",
+   "zh": "请您把帽子戴上好吗？"
+  },
+  {
+   "speaker": "Customer",
+   "en": "All right.",
+   "zh": "好吧。"
+  },
+  {
+   "speaker": "Manager",
+   "en": "Is this the man that you served, Caroline?",
+   "zh": "卡罗琳，这就是你接待过的那个人吗？"
+  },
+  {
+   "speaker": "Caroline",
+   "en": "Yes.",
+   "zh": "是他。"
+  },
+  {
+   "speaker": "Caroline",
+   "en": "I recognize him now.",
+   "zh": "我现在认出他来了。"
+  }
+ ],
+ "drills": [
+  {
+   "en": "I bought two expensive dictionaries here half an hour ___.",
+   "zh": "半小时以前我在这里买了两本很贵的辞典。",
+   "options": [
+    "ago",
+    "for",
+    "since",
+    "last"
+   ]
+  },
+  {
+   "en": "The lady ___ is standing behind the counter served me.",
+   "zh": "站在柜台后面的那位女士接待了我。",
+   "options": [
+    "who",
+    "which",
+    "whom",
+    "what"
+   ]
+  },
+  {
+   "en": "The books ___ are on the counter are mine.",
+   "zh": "柜台上的那几本书是我的。",
+   "options": [
+    "which",
+    "who",
+    "whom",
+    "what"
+   ]
+  },
+  {
+   "en": "He is the man ___ bought these books.",
+   "zh": "他就是买这几本书的人。",
+   "options": [
+    "who",
+    "which",
+    "whom",
+    "what"
+   ]
+  },
+  {
+   "en": "The man who I served ___ wearing a hat.",
+   "zh": "我接待的那个人戴着一顶帽子。",
+   "options": [
+    "was",
+    "were",
+    "are",
+    "been"
+   ]
+  },
+  {
+   "en": "Would you ___ it on, please?",
+   "zh": "请您把它戴上好吗？",
+   "options": [
+    "put",
+    "puts",
+    "putting",
+    "to put"
+   ]
+  },
+  {
+   "en": "I can't ___.",
+   "zh": "我记不起来了。",
+   "options": [
+    "remember",
+    "remembers",
+    "remembering",
+    "remembered"
+   ]
+  },
+  {
+   "en": "She is the woman ___ I met at the party.",
+   "zh": "她就是我在聚会上遇见的那位女士。",
+   "options": [
+    "whom",
+    "which",
+    "what",
+    "where"
+   ]
+  },
+  {
+   "en": "Who is making all that noise? The men ___ are repairing the road.",
+   "zh": "谁在制造这么大的噪音？是正在修路的那些人。",
+   "options": [
+    "who",
+    "which",
+    "whom",
+    "what"
+   ]
+  }
+ ]
+}

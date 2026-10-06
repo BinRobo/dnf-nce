@@ -1,0 +1,50 @@
+{
+  "id": "L041-042",
+  "lessons": [41, 42],
+  "title": "Penny's bag",
+  "titleZh": "彭妮的提包",
+  "evenTitle": "Is there a/any ... in/on that ...?",
+  "evenTitleZh": "在那个……中/上有（一个）……吗？",
+  "words": [
+    { "en": "cheese", "ipa": "tʃiːz", "pos": "n.", "zh": "乳酪，干酪", "lesson": 41 },
+    { "en": "bread", "ipa": "bred", "pos": "n.", "zh": "面包", "lesson": 41 },
+    { "en": "soap", "ipa": "səʊp", "pos": "n.", "zh": "肥皂", "lesson": 41 },
+    { "en": "chocolate", "ipa": "'tʃɒklɪt", "pos": "n.", "zh": "巧克力", "lesson": 41 },
+    { "en": "sugar", "ipa": "'ʃʊɡə", "pos": "n.", "zh": "糖", "lesson": 41 },
+    { "en": "coffee", "ipa": "'kɒfi", "pos": "n.", "zh": "咖啡", "lesson": 41 },
+    { "en": "tea", "ipa": "tiː", "pos": "n.", "zh": "茶", "lesson": 41 },
+    { "en": "tobacco", "ipa": "tə'bækəʊ", "pos": "n.", "zh": "烟草，烟丝", "lesson": 41 },
+    { "en": "bird", "ipa": "bɜːd", "pos": "n.", "zh": "鸟", "lesson": 42 },
+    { "en": "any", "ipa": "'eni", "pos": "det.", "zh": "一些", "lesson": 42 },
+    { "en": "some", "ipa": "sʌm", "pos": "det.", "zh": "一些", "lesson": 42 }
+  ],
+  "lines": [
+    { "speaker": "Sam", "en": "Is that bag heavy, Penny?", "zh": "那个提包重吗，彭妮？" },
+    { "speaker": "Penny", "en": "Not very.", "zh": "不太重。" },
+    { "speaker": "Sam", "en": "Here!", "zh": "放这儿。" },
+    { "speaker": "Sam", "en": "Put it on this chair.", "zh": "把它放在这把椅子上。" },
+    { "speaker": "Sam", "en": "What's in it?", "zh": "里面是什么东西？" },
+    { "speaker": "Penny", "en": "A piece of cheese.", "zh": "一块乳酪，" },
+    { "speaker": "Penny", "en": "A loaf of bread.", "zh": "一个面包，" },
+    { "speaker": "Penny", "en": "A bar of soap.", "zh": "一块肥皂，" },
+    { "speaker": "Penny", "en": "A bar of chocolate.", "zh": "一块巧克力，" },
+    { "speaker": "Penny", "en": "A bottle of milk.", "zh": "一瓶牛奶，" },
+    { "speaker": "Penny", "en": "A pound of sugar.", "zh": "一磅糖，" },
+    { "speaker": "Penny", "en": "Half a pound of coffee.", "zh": "半磅咖啡，" },
+    { "speaker": "Penny", "en": "A quarter of a pound of tea.", "zh": "1/4 磅茶叶，" },
+    { "speaker": "Penny", "en": "And a tin of tobacco.", "zh": "和一听烟丝。" },
+    { "speaker": "Sam", "en": "Is that tin of tobacco for me?", "zh": "那听烟丝是给我的吗？" },
+    { "speaker": "Penny", "en": "Well, it's certainly not for me!", "zh": "噢，当然不会是给我的！" }
+  ],
+  "drills": [
+    { "en": "Is there ___ bread in the kitchen?", "zh": "厨房里有面包吗？", "options": ["any", "a", "some", "an"] },
+    { "en": "There's ___ loaf on the table.", "zh": "桌上有一个面包。", "options": ["a", "any", "some", "an"] },
+    { "en": "There's ___ coffee on the table, too.", "zh": "桌上也有些咖啡。", "options": ["some", "any", "a", "an"] },
+    { "en": "There isn't ___ chocolate on the table.", "zh": "桌上没有巧克力。", "options": ["any", "some", "a", "an"] },
+    { "en": "There's ___ spoon on that dish.", "zh": "那个盘子上有把勺子。", "options": ["a", "any", "some", "an"] },
+    { "en": "A ___ of cheese.", "zh": "一块乳酪。", "options": ["piece", "loaf", "bottle", "tin"] },
+    { "en": "A ___ of bread.", "zh": "一个面包。", "options": ["loaf", "bar", "bottle", "pound"] },
+    { "en": "A ___ of milk.", "zh": "一瓶牛奶。", "options": ["bottle", "bar", "loaf", "piece"] },
+    { "en": "A ___ of tobacco.", "zh": "一听烟丝。", "options": ["tin", "loaf", "bar", "piece"] }
+  ]
+}

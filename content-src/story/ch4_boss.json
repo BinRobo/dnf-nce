@@ -1,0 +1,47 @@
+{
+  "id": "ch4_boss",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "boss_train",
+      "side": "right"
+    },
+    {
+      "t": "sfx",
+      "key": "boss_appear"
+    },
+    {
+      "t": "say",
+      "who": "boss_train",
+      "face": "normal",
+      "zh": "呜——！检票了，所有人排好队！"
+    },
+    {
+      "t": "say",
+      "who": "boss_train",
+      "face": "normal",
+      "en": "Tickets, please.",
+      "audio": {
+        "lesson": "L095-096",
+        "line": 12
+      }
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "zh": "我们要去哪儿？你把时钟拨慢啦！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "surprised",
+      "en": "You've just missed it!",
+      "audio": {
+        "lesson": "L095-096",
+        "line": 14
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "boss_L005_p3",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "boss_whomist",
+      "face": "surprised",
+      "zh": "我的项链！名牌别跑！"
+    }
+  ]
+}

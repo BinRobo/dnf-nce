@@ -1,0 +1,309 @@
+{
+  "id": "L033-034",
+  "lessons": [
+    33,
+    34
+  ],
+  "title": "A fine day",
+  "titleZh": "晴天",
+  "evenTitle": "What are they doing?",
+  "evenTitleZh": "他们在做什么？",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "words": [
+    {
+      "en": "day",
+      "ipa": "deɪ",
+      "pos": "n.",
+      "zh": "日子",
+      "lesson": 33
+    },
+    {
+      "en": "cloud",
+      "ipa": "klaʊd",
+      "pos": "n.",
+      "zh": "云",
+      "lesson": 33
+    },
+    {
+      "en": "sky",
+      "ipa": "skaɪ",
+      "pos": "n.",
+      "zh": "天空",
+      "lesson": 33
+    },
+    {
+      "en": "sun",
+      "ipa": "sʌn",
+      "pos": "n.",
+      "zh": "太阳",
+      "lesson": 33
+    },
+    {
+      "en": "shine",
+      "ipa": "ʃaɪn",
+      "pos": "v.",
+      "zh": "照耀",
+      "lesson": 33
+    },
+    {
+      "en": "with",
+      "ipa": "wɪð",
+      "pos": "prep.",
+      "zh": "和……在一起",
+      "lesson": 33
+    },
+    {
+      "en": "family",
+      "ipa": "'fæmɪli",
+      "pos": "n.",
+      "zh": "家庭（成员）",
+      "lesson": 33
+    },
+    {
+      "en": "walk",
+      "ipa": "wɔːk",
+      "pos": "v.",
+      "zh": "走路，步行",
+      "lesson": 33
+    },
+    {
+      "en": "over",
+      "ipa": "'əʊvə",
+      "pos": "prep.",
+      "zh": "跨越，在……之上",
+      "lesson": 33
+    },
+    {
+      "en": "bridge",
+      "ipa": "brɪdʒ",
+      "pos": "n.",
+      "zh": "桥",
+      "lesson": 33
+    },
+    {
+      "en": "boat",
+      "ipa": "bəʊt",
+      "pos": "n.",
+      "zh": "船",
+      "lesson": 33
+    },
+    {
+      "en": "river",
+      "ipa": "'rɪvə",
+      "pos": "n.",
+      "zh": "河",
+      "lesson": 33
+    },
+    {
+      "en": "ship",
+      "ipa": "ʃɪp",
+      "pos": "n.",
+      "zh": "轮船",
+      "lesson": 33
+    },
+    {
+      "en": "aeroplane",
+      "ipa": "'eərəpleɪn",
+      "pos": "n.",
+      "zh": "飞机",
+      "lesson": 33
+    },
+    {
+      "en": "fly",
+      "ipa": "flaɪ",
+      "pos": "v.",
+      "zh": "飞",
+      "lesson": 33
+    },
+    {
+      "en": "sleep",
+      "ipa": "sliːp",
+      "pos": "v.",
+      "zh": "睡觉",
+      "lesson": 34
+    },
+    {
+      "en": "shave",
+      "ipa": "ʃeɪv",
+      "pos": "v.",
+      "zh": "刮脸",
+      "lesson": 34
+    },
+    {
+      "en": "cry",
+      "ipa": "kraɪ",
+      "pos": "v.",
+      "zh": "哭，喊",
+      "lesson": 34
+    },
+    {
+      "en": "wash",
+      "ipa": "wɒʃ",
+      "pos": "v.",
+      "zh": "洗",
+      "lesson": 34
+    },
+    {
+      "en": "wait",
+      "ipa": "weɪt",
+      "pos": "v.",
+      "zh": "等",
+      "lesson": 34
+    },
+    {
+      "en": "jump",
+      "ipa": "dʒʌmp",
+      "pos": "v.",
+      "zh": "跳",
+      "lesson": 34
+    }
+  ],
+  "lines": [
+    {
+      "en": "It is a fine day today.",
+      "zh": "今天天气好。"
+    },
+    {
+      "en": "There are some clouds in the sky, but the sun is shining.",
+      "zh": "天空中飘着几朵云，但阳光灿烂。"
+    },
+    {
+      "en": "Mr. Jones is with his family.",
+      "zh": "琼斯先生同他的家人在一起。"
+    },
+    {
+      "en": "They are walking over the bridge.",
+      "zh": "他们正在过桥。"
+    },
+    {
+      "en": "There are some boats on the river.",
+      "zh": "河上有几艘船。"
+    },
+    {
+      "en": "Mr. Jones and his wife are looking at them.",
+      "zh": "琼斯先生和他的妻子正在看这些船。"
+    },
+    {
+      "en": "Sally is looking at a big ship.",
+      "zh": "萨莉正在观看一艘大船。"
+    },
+    {
+      "en": "The ship is going under the bridge.",
+      "zh": "那船正从桥下驶过。"
+    },
+    {
+      "en": "Tim is looking at an aeroplane.",
+      "zh": "蒂姆正望着一架飞机。"
+    },
+    {
+      "en": "The aeroplane is flying over the river.",
+      "zh": "飞机正从河上飞过。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Type ... She is ___ a letter.",
+      "zh": "她正在打一封信。",
+      "options": [
+        "typing",
+        "typeing",
+        "type",
+        "types"
+      ]
+    },
+    {
+      "en": "Make ... She is ___ the bed.",
+      "zh": "她正在铺床。",
+      "options": [
+        "making",
+        "makeing",
+        "make",
+        "makking"
+      ]
+    },
+    {
+      "en": "Come ... He is ___.",
+      "zh": "他正在过来。",
+      "options": [
+        "coming",
+        "comeing",
+        "comming",
+        "come"
+      ]
+    },
+    {
+      "en": "Shine ... The sun is ___.",
+      "zh": "阳光灿烂。",
+      "options": [
+        "shining",
+        "shineing",
+        "shinning",
+        "shine"
+      ]
+    },
+    {
+      "en": "What are the children doing? They're ___ at the boats on the river.",
+      "zh": "孩子们在做什么？他们在看河上的船。",
+      "options": [
+        "looking",
+        "look",
+        "looks",
+        "lookking"
+      ]
+    },
+    {
+      "en": "The birds are ___ over the river.",
+      "zh": "鸟儿正从河上飞过。",
+      "options": [
+        "flying",
+        "fly",
+        "flies",
+        "flys"
+      ]
+    },
+    {
+      "en": "The man and the woman are ___ for a bus.",
+      "zh": "那个男人和女人正在等公共汽车。",
+      "options": [
+        "waiting",
+        "wait",
+        "waits",
+        "waitting"
+      ]
+    },
+    {
+      "en": "There are some clouds in the sky, ___ the sun is shining.",
+      "zh": "天空中有几朵云，但阳光灿烂。",
+      "options": [
+        "but",
+        "and",
+        "or",
+        "with"
+      ]
+    },
+    {
+      "en": "Mr. Jones is ___ his family.",
+      "zh": "琼斯先生同他的家人在一起。",
+      "options": [
+        "with",
+        "on",
+        "over",
+        "under"
+      ]
+    }
+  ]
+}

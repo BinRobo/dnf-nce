@@ -1,0 +1,317 @@
+{
+  "id": "L143-144",
+  "lessons": [
+    143,
+    144
+  ],
+  "title": "A walk through the woods",
+  "titleZh": "林中散步",
+  "evenTitle": "He hasn't been served yet. / He will be served soon.",
+  "evenTitleZh": "还没有人来侍候他。／很快会有人来侍候他的。",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      3,
+      4,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      21,
+      25,
+      27
+    ]
+  },
+  "words": [
+    {
+      "en": "surround",
+      "ipa": "sə'raʊnd",
+      "pos": "v.",
+      "zh": "包围",
+      "lesson": 143
+    },
+    {
+      "en": "wood",
+      "ipa": "wʊd",
+      "pos": "n.",
+      "zh": "树林",
+      "lesson": 143
+    },
+    {
+      "en": "beauty spot",
+      "ipa": "'bjuːti-spɒt",
+      "pos": "n.",
+      "zh": "风景点",
+      "lesson": 143
+    },
+    {
+      "en": "hundred",
+      "ipa": "'hʌndrɪd",
+      "pos": "n.",
+      "zh": "百",
+      "lesson": 143
+    },
+    {
+      "en": "city",
+      "ipa": "'sɪti",
+      "pos": "n.",
+      "zh": "城市",
+      "lesson": 143
+    },
+    {
+      "en": "through",
+      "ipa": "θruː",
+      "pos": "prep.",
+      "zh": "穿过",
+      "lesson": 143
+    },
+    {
+      "en": "visitor",
+      "ipa": "'vɪzɪtə",
+      "pos": "n.",
+      "zh": "参观者，游客，来访者",
+      "lesson": 143
+    },
+    {
+      "en": "tidy",
+      "ipa": "'taɪdi",
+      "pos": "adj.",
+      "zh": "整齐的",
+      "lesson": 143
+    },
+    {
+      "en": "litter",
+      "ipa": "'lɪtə",
+      "pos": "n.",
+      "zh": "杂乱的东西",
+      "lesson": 143
+    },
+    {
+      "en": "litter basket",
+      "ipa": "",
+      "pos": "n.",
+      "zh": "废物筐",
+      "lesson": 143
+    },
+    {
+      "en": "place",
+      "ipa": "pleɪs",
+      "pos": "v.",
+      "zh": "放",
+      "lesson": 143
+    },
+    {
+      "en": "throw",
+      "ipa": "θrəʊ",
+      "pos": "v.",
+      "zh": "扔，抛（过去式 threw，过去分词 thrown）",
+      "lesson": 143
+    },
+    {
+      "en": "rubbish",
+      "ipa": "'rʌbɪʃ",
+      "pos": "n.",
+      "zh": "垃圾",
+      "lesson": 143
+    },
+    {
+      "en": "count",
+      "ipa": "kaʊnt",
+      "pos": "v.",
+      "zh": "数，点",
+      "lesson": 143
+    },
+    {
+      "en": "cover",
+      "ipa": "'kʌvə",
+      "pos": "v.",
+      "zh": "覆盖",
+      "lesson": 143
+    },
+    {
+      "en": "piece",
+      "ipa": "piːs",
+      "pos": "n.",
+      "zh": "碎片",
+      "lesson": 143
+    },
+    {
+      "en": "tyre",
+      "ipa": "'taɪə",
+      "pos": "n.",
+      "zh": "轮胎",
+      "lesson": 143
+    },
+    {
+      "en": "rusty",
+      "ipa": "'rʌsti",
+      "pos": "adj.",
+      "zh": "生锈的",
+      "lesson": 143
+    },
+    {
+      "en": "among",
+      "ipa": "ə'mʌŋ",
+      "pos": "prep.",
+      "zh": "在……之间",
+      "lesson": 143
+    },
+    {
+      "en": "prosecute",
+      "ipa": "'prɒsɪkjuːt",
+      "pos": "v.",
+      "zh": "依法处置",
+      "lesson": 143
+    }
+  ],
+  "lines": [
+    {
+      "en": "I live in a very old town which is surrounded by beautiful woods.",
+      "zh": "我住在一个由美丽的树林环绕的古老小镇上。"
+    },
+    {
+      "en": "It is a famous beauty spot.",
+      "zh": "这是一个著名的风景胜地。"
+    },
+    {
+      "en": "On Sundays, hundreds of people come from the city to see our town and to walk through the woods.",
+      "zh": "每逢星期天，有许许多多人从城里来观赏我们的小镇，并在树林中散步。"
+    },
+    {
+      "en": "Visitors have been asked to keep the woods clean and tidy.",
+      "zh": "游客已被告知要保持树林的整洁。"
+    },
+    {
+      "en": "Litter baskets have been placed under the trees,",
+      "zh": "树下都已设置了废物筐，"
+    },
+    {
+      "en": "but people still throw their rubbish everywhere.",
+      "zh": "但是人们仍到处扔垃圾。"
+    },
+    {
+      "en": "Last Wednesday, I went for a walk in the woods.",
+      "zh": "上星期三我到树林里去散步。"
+    },
+    {
+      "en": "What I saw made me very sad.",
+      "zh": "我所见到的一切使我非常难过。"
+    },
+    {
+      "en": "I counted seven old cars and three old refrigerators.",
+      "zh": "我数了一下，有7辆旧汽车和3个旧冰箱。"
+    },
+    {
+      "en": "The litter baskets were empty",
+      "zh": "废物筐是空的，"
+    },
+    {
+      "en": "and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.",
+      "zh": "而满地都是纸片、烟头、旧轮胎、空瓶子和生锈的空罐头盒。"
+    },
+    {
+      "en": "Among the rubbish, I found a sign which said,",
+      "zh": "在垃圾堆中我发现了一块牌子，上面写着："
+    },
+    {
+      "en": "'Anyone who leaves litter in these woods will be prosecuted!'",
+      "zh": "“凡在此树林里丢弃垃圾者，将依法处置。”"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Visitors have been ___ to keep the woods clean and tidy.",
+      "zh": "游客已被告知要保持树林的整洁。",
+      "options": [
+        "asked",
+        "ask",
+        "asking",
+        "asks"
+      ]
+    },
+    {
+      "en": "Litter baskets have been ___ under the trees.",
+      "zh": "树下已设置了废物筐。",
+      "options": [
+        "placed",
+        "place",
+        "placing",
+        "places"
+      ]
+    },
+    {
+      "en": "Hasn't anyone repaired this car yet? It has already been ___.",
+      "zh": "还没有人修这辆车吗？它已经被修好了！",
+      "options": [
+        "repaired",
+        "repair",
+        "repairs",
+        "repairing"
+      ]
+    },
+    {
+      "en": "Hasn't anyone corrected these exercise books yet? They have already ___ corrected!",
+      "zh": "还没有人批改这些练习本吗？它们已经被批改了！",
+      "options": [
+        "been",
+        "be",
+        "being",
+        "was"
+      ]
+    },
+    {
+      "en": "He hasn't been caught yet. He will be ___ soon!",
+      "zh": "他还没被抓住。他很快会被抓住的！",
+      "options": [
+        "caught",
+        "catch",
+        "catches",
+        "catching"
+      ]
+    },
+    {
+      "en": "Hasn't anyone opened the window yet? It hasn't been opened yet. It ___ be opened tomorrow.",
+      "zh": "还没有人开窗吗？它还没被打开，明天会被打开。",
+      "options": [
+        "will",
+        "has",
+        "is",
+        "did"
+      ]
+    },
+    {
+      "en": "The ground was covered ___ pieces of paper.",
+      "zh": "地上满是纸片。",
+      "options": [
+        "with",
+        "for",
+        "to",
+        "at"
+      ]
+    },
+    {
+      "en": "What I saw ___ me very sad.",
+      "zh": "我所见到的一切使我非常难过。",
+      "options": [
+        "made",
+        "make",
+        "makes",
+        "making"
+      ]
+    },
+    {
+      "en": "Among the rubbish, I found a ___ which said, 'Anyone who leaves litter will be prosecuted!'",
+      "zh": "在垃圾堆中我发现了一块牌子，上面写着：“乱扔垃圾者将依法处置！”",
+      "options": [
+        "sign",
+        "tyre",
+        "wood",
+        "city"
+      ]
+    }
+  ]
+}

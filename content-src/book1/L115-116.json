@@ -1,0 +1,340 @@
+{
+ "id": "L115-116",
+ "lessons": [
+  115,
+  116
+ ],
+ "title": "Knock, knock!",
+ "titleZh": "敲敲门！",
+ "evenTitle": "Every, no, any and some",
+ "evenTitleZh": "每一、无、若干和一些",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9,
+   10,
+   11,
+   12,
+   13,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25
+  ]
+ },
+ "words": [
+  {
+   "en": "anyone",
+   "ipa": "'eniwʌn",
+   "pos": "pron.",
+   "zh": "任何人（用于疑问句、否定式）",
+   "lesson": 115
+  },
+  {
+   "en": "knock",
+   "ipa": "nɒk",
+   "pos": "v.",
+   "zh": "敲，打",
+   "lesson": 115
+  },
+  {
+   "en": "everything",
+   "ipa": "'evriθɪŋ",
+   "pos": "pron.",
+   "zh": "一切事物",
+   "lesson": 115
+  },
+  {
+   "en": "quiet",
+   "ipa": "'kwaɪət",
+   "pos": "adj.",
+   "zh": "宁静的，安静的",
+   "lesson": 115
+  },
+  {
+   "en": "impossible",
+   "ipa": "ɪm'pɒsɪbəl",
+   "pos": "adj.",
+   "zh": "不可能的",
+   "lesson": 115
+  },
+  {
+   "en": "invite",
+   "ipa": "ɪn'vaɪt",
+   "pos": "v.",
+   "zh": "邀请",
+   "lesson": 115
+  },
+  {
+   "en": "anything",
+   "ipa": "'eniθɪŋ",
+   "pos": "pron.",
+   "zh": "任何东西",
+   "lesson": 115
+  },
+  {
+   "en": "nothing",
+   "ipa": "'nʌθɪŋ",
+   "pos": "pron.",
+   "zh": "什么也没有",
+   "lesson": 115
+  },
+  {
+   "en": "lemonade",
+   "ipa": "ˌlemə'neɪd",
+   "pos": "n.",
+   "zh": "柠檬水",
+   "lesson": 115
+  },
+  {
+   "en": "joke",
+   "ipa": "dʒəʊk",
+   "pos": "v.",
+   "zh": "开玩笑",
+   "lesson": 115
+  },
+  {
+   "en": "asleep",
+   "ipa": "ə'sliːp",
+   "pos": "adj.",
+   "zh": "睡觉，睡着（用作表语）",
+   "lesson": 116
+  },
+  {
+   "en": "glasses",
+   "ipa": "'glɑːsɪz",
+   "pos": "n.",
+   "zh": "眼镜",
+   "lesson": 116
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Helen",
+   "en": "Isn't there anyone at home?",
+   "zh": "家里没有人吗？"
+  },
+  {
+   "speaker": "Jim",
+   "en": "I'll knock again, Helen.",
+   "zh": "海伦，我再敲一次。"
+  },
+  {
+   "speaker": "Jim",
+   "en": "Everything's very quiet.",
+   "zh": "毫无动静。"
+  },
+  {
+   "speaker": "Jim",
+   "en": "I'm sure there's no one at home.",
+   "zh": "肯定家里没有人。"
+  },
+  {
+   "speaker": "Helen",
+   "en": "But that's impossible.",
+   "zh": "但这是不可能的。"
+  },
+  {
+   "speaker": "Helen",
+   "en": "Carol and Tom invited us to lunch.",
+   "zh": "卡罗尔和汤姆请我们来吃午饭。"
+  },
+  {
+   "speaker": "Helen",
+   "en": "Look through the window.",
+   "zh": "从窗子往里看看。"
+  },
+  {
+   "speaker": "Helen",
+   "en": "Can you see anything?",
+   "zh": "你能看见什么吗？"
+  },
+  {
+   "speaker": "Jim",
+   "en": "Nothing at all.",
+   "zh": "什么也看不见。"
+  },
+  {
+   "speaker": "Helen",
+   "en": "Let's try the back door.",
+   "zh": "让我们到后门去试试。"
+  },
+  {
+   "speaker": "Jim",
+   "en": "Look! Everyone's in the garden.",
+   "zh": "瞧！大家都在花园里。"
+  },
+  {
+   "speaker": "Carol",
+   "en": "Hello, Helen. Hello, Jim.",
+   "zh": "你好，海伦。你好，吉姆。"
+  },
+  {
+   "speaker": "Tom",
+   "en": "Everybody wants to have lunch in the garden.",
+   "zh": "大家都想在花园里吃午饭。"
+  },
+  {
+   "speaker": "Tom",
+   "en": "It's nice and warm out here.",
+   "zh": "这外面挺暖和。"
+  },
+  {
+   "speaker": "Carol",
+   "en": "Come and have something to drink.",
+   "zh": "来喝点什么。"
+  },
+  {
+   "speaker": "Jim",
+   "en": "Thanks, Carol.",
+   "zh": "谢谢，卡罗尔。"
+  },
+  {
+   "speaker": "Jim",
+   "en": "May I have a glass of beer please?",
+   "zh": "给我一杯啤酒好吗？"
+  },
+  {
+   "speaker": "Carol",
+   "en": "Beer?",
+   "zh": "啤酒？"
+  },
+  {
+   "speaker": "Carol",
+   "en": "There's none left.",
+   "zh": "一点都不剩了。"
+  },
+  {
+   "speaker": "Carol",
+   "en": "You can have some lemonade.",
+   "zh": "你可以喝点柠檬水。"
+  },
+  {
+   "speaker": "Jim",
+   "en": "Lemonade!",
+   "zh": "柠檬水！"
+  },
+  {
+   "speaker": "Tom",
+   "en": "Don't believe her, Jim.",
+   "zh": "吉姆，别信她的。"
+  },
+  {
+   "speaker": "Tom",
+   "en": "She's only joking.",
+   "zh": "她只是在开玩笑。"
+  },
+  {
+   "speaker": "Tom",
+   "en": "Have some beer!",
+   "zh": "喝点啤酒吧！"
+  }
+ ],
+ "drills": [
+  {
+   "en": "Isn't there ___ at home?",
+   "zh": "家里没有人吗？",
+   "options": [
+    "anyone",
+    "someone",
+    "no one",
+    "everyone"
+   ]
+  },
+  {
+   "en": "I'm sure there's ___ at home.",
+   "zh": "我肯定家里没有人。",
+   "options": [
+    "no one",
+    "anyone",
+    "anything",
+    "everyone"
+   ]
+  },
+  {
+   "en": "Can you see ___?",
+   "zh": "你能看见什么吗？",
+   "options": [
+    "anything",
+    "something",
+    "nothing",
+    "everything"
+   ]
+  },
+  {
+   "en": "I can see ___ at all.",
+   "zh": "我什么也看不见。",
+   "options": [
+    "nothing",
+    "anything",
+    "something",
+    "everything"
+   ]
+  },
+  {
+   "en": "___ is in the garden.",
+   "zh": "大家都在花园里。",
+   "options": [
+    "Everyone",
+    "Anyone",
+    "No one",
+    "Nothing"
+   ]
+  },
+  {
+   "en": "There's ___ left.",
+   "zh": "一点都不剩了。",
+   "options": [
+    "none",
+    "any",
+    "some",
+    "every"
+   ]
+  },
+  {
+   "en": "I didn't buy ___.",
+   "zh": "我什么也没买。",
+   "options": [
+    "anything",
+    "something",
+    "nothing",
+    "everything"
+   ]
+  },
+  {
+   "en": "Where did you go yesterday? ___. I stayed at home.",
+   "zh": "你昨天去哪儿了？哪儿也没去，我待在家里。",
+   "options": [
+    "Nowhere",
+    "Anywhere",
+    "Somewhere",
+    "Everywhere"
+   ]
+  },
+  {
+   "en": "I looked for my pen ___.",
+   "zh": "我到处找我的钢笔。",
+   "options": [
+    "everywhere",
+    "nowhere",
+    "no one",
+    "nothing"
+   ]
+  }
+ ]
+}

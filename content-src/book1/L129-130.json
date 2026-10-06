@@ -1,0 +1,314 @@
+{
+ "id": "L129-130",
+ "lessons": [
+  129,
+  130
+ ],
+ "title": "Seventy miles an hour",
+ "titleZh": "时速 70 英里",
+ "evenTitle": "He can't have been ... He must have been ...",
+ "evenTitleZh": "他那时不可能……他那时肯定是……",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   25
+  ]
+ },
+ "words": [
+  {
+   "en": "wave",
+   "ipa": "weɪv",
+   "pos": "v.",
+   "zh": "招手",
+   "lesson": 129
+  },
+  {
+   "en": "track",
+   "ipa": "træk",
+   "pos": "n.",
+   "zh": "跑道",
+   "lesson": 129
+  },
+  {
+   "en": "mile",
+   "ipa": "maɪl",
+   "pos": "n.",
+   "zh": "英里",
+   "lesson": 129
+  },
+  {
+   "en": "overtake",
+   "ipa": "ˌəʊvə'teɪk",
+   "pos": "v.",
+   "zh": "从后面超越，超车（过去式 overtook，过去分词 overtaken）",
+   "lesson": 129
+  },
+  {
+   "en": "speed limit",
+   "ipa": "'spiːd ˌlɪmɪt",
+   "pos": "n.",
+   "zh": "限速",
+   "lesson": 129
+  },
+  {
+   "en": "dream",
+   "ipa": "driːm",
+   "pos": "v.",
+   "zh": "做梦，思想不集中",
+   "lesson": 129
+  },
+  {
+   "en": "sign",
+   "ipa": "saɪn",
+   "pos": "n.",
+   "zh": "标记，牌子",
+   "lesson": 129
+  },
+  {
+   "en": "driving licence",
+   "ipa": "",
+   "pos": "n.",
+   "zh": "驾驶执照",
+   "lesson": 129
+  },
+  {
+   "en": "charge",
+   "ipa": "tʃɑːdʒ",
+   "pos": "v.",
+   "zh": "罚款",
+   "lesson": 129
+  },
+  {
+   "en": "darling",
+   "ipa": "'dɑːlɪŋ",
+   "pos": "n.",
+   "zh": "亲爱的（用作表示称呼）",
+   "lesson": 129
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Ann",
+   "en": "Look, Gary!",
+   "zh": "瞧，加里！"
+  },
+  {
+   "speaker": "Ann",
+   "en": "That policeman's waving to you.",
+   "zh": "那个警察正朝你挥手呢。"
+  },
+  {
+   "speaker": "Ann",
+   "en": "He wants you to stop.",
+   "zh": "他要你停下来。"
+  },
+  {
+   "speaker": "Policeman",
+   "en": "Where do you think you are?",
+   "zh": "你认为你现在是在哪儿？"
+  },
+  {
+   "speaker": "Policeman",
+   "en": "On a race track?",
+   "zh": "在赛车道上吗？"
+  },
+  {
+   "speaker": "Policeman",
+   "en": "You must have been driving at seventy miles an hour.",
+   "zh": "你刚才一定是以每小时 70 英里的速度开车。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "I can't have been.",
+   "zh": "我不会开得那样快的。"
+  },
+  {
+   "speaker": "Policeman",
+   "en": "I was doing eighty when I overtook you.",
+   "zh": "我是以每小时 80 英里的速度赶上你的。"
+  },
+  {
+   "speaker": "Policeman",
+   "en": "Didn't you see the speed limit?",
+   "zh": "难道你没看见限速牌吗？"
+  },
+  {
+   "speaker": "Gary",
+   "en": "I'm afraid I didn't, officer.",
+   "zh": "恐怕我没有看见，警官。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "I must have been dreaming.",
+   "zh": "我一定是思想开小差了。"
+  },
+  {
+   "speaker": "Ann",
+   "en": "He wasn't dreaming, officer.",
+   "zh": "警官，他思想没有开小差。"
+  },
+  {
+   "speaker": "Ann",
+   "en": "I was telling him to drive slowly.",
+   "zh": "我刚才正告诉他开慢点。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "That's why I didn't see the sign.",
+   "zh": "所以我才没看见那牌子。"
+  },
+  {
+   "speaker": "Policeman",
+   "en": "Let me see your driving licence.",
+   "zh": "让我看一看你的驾驶执照。"
+  },
+  {
+   "speaker": "Policeman",
+   "en": "I won't charge you this time.",
+   "zh": "这次我就不罚你款了。"
+  },
+  {
+   "speaker": "Policeman",
+   "en": "But you'd better not do it again!",
+   "zh": "但你最好不要再开得这样快。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "Thank you.",
+   "zh": "谢谢您。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "I'll certainly be more careful.",
+   "zh": "我以后一定会多加注意。"
+  },
+  {
+   "speaker": "Ann",
+   "en": "I told you to drive slowly, Gary.",
+   "zh": "加里，我刚才叫你开慢点吧。"
+  },
+  {
+   "speaker": "Gary",
+   "en": "You always tell me to drive slowly, darling.",
+   "zh": "你总是叫我开慢点，亲爱的。"
+  },
+  {
+   "speaker": "Ann",
+   "en": "Well, next time you'd better take my advice!",
+   "zh": "好啦，下次你最好还是听从我的劝告吧！"
+  }
+ ],
+ "drills": [
+  {
+   "en": "You must have been ___ at seventy miles an hour.",
+   "zh": "你刚才一定是以每小时 70 英里的速度开车。",
+   "options": [
+    "driving",
+    "drive",
+    "drove",
+    "driven"
+   ]
+  },
+  {
+   "en": "I was doing eighty when I ___ you.",
+   "zh": "我是以每小时 80 英里的速度赶上你的。",
+   "options": [
+    "overtook",
+    "overtake",
+    "overtaken",
+    "overtakes"
+   ]
+  },
+  {
+   "en": "I must have been ___.",
+   "zh": "我一定是思想开小差了。",
+   "options": [
+    "dreaming",
+    "dream",
+    "dreams",
+    "dreamed"
+   ]
+  },
+  {
+   "en": "I was telling him to drive slowly. That's ___ I didn't see the sign.",
+   "zh": "我刚才正告诉他开慢点。所以我才没看见那牌子。",
+   "options": [
+    "why",
+    "what",
+    "who",
+    "which"
+   ]
+  },
+  {
+   "en": "Let me see your driving ___.",
+   "zh": "让我看一看你的驾驶执照。",
+   "options": [
+    "licence",
+    "wave",
+    "mile",
+    "track"
+   ]
+  },
+  {
+   "en": "I won't ___ you this time.",
+   "zh": "这次我就不罚你款了。",
+   "options": [
+    "charge",
+    "charged",
+    "charges",
+    "charging"
+   ]
+  },
+  {
+   "en": "But you'd better ___ do it again!",
+   "zh": "但你最好不要再这样做了！",
+   "options": [
+    "not",
+    "no",
+    "don't",
+    "nor"
+   ]
+  },
+  {
+   "en": "It can't have been my new hat. It ___ have been my old one.",
+   "zh": "不可能是我的新帽子。肯定是我的旧帽子。",
+   "options": [
+    "must",
+    "can't",
+    "won't",
+    "didn't"
+   ]
+  },
+  {
+   "en": "He didn't come to work yesterday. He must have ___ ill.",
+   "zh": "他昨天没来上班。他肯定是病了。",
+   "options": [
+    "been",
+    "be",
+    "is",
+    "was"
+   ]
+  }
+ ]
+}

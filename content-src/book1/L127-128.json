@@ -1,0 +1,273 @@
+{
+ "id": "L127-128",
+ "lessons": [
+  127,
+  128
+ ],
+ "title": "A famous actress",
+ "titleZh": "著名的女演员",
+ "evenTitle": "He can't be ... He must be ...",
+ "evenTitleZh": "他不可能……他肯定是……",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   20,
+   21,
+   22
+  ]
+ },
+ "words": [
+  {
+   "en": "famous",
+   "ipa": "'feɪməs",
+   "pos": "adj.",
+   "zh": "著名的",
+   "lesson": 127
+  },
+  {
+   "en": "actress",
+   "ipa": "'æktrɪs",
+   "pos": "n.",
+   "zh": "女演员",
+   "lesson": 127
+  },
+  {
+   "en": "at least",
+   "ipa": "ət-'liːst",
+   "pos": "",
+   "zh": "至少",
+   "lesson": 127
+  },
+  {
+   "en": "actor",
+   "ipa": "'æktə",
+   "pos": "n.",
+   "zh": "男演员",
+   "lesson": 127
+  },
+  {
+   "en": "read",
+   "ipa": "riːd",
+   "pos": "v.",
+   "zh": "通过阅读得知（过去式 read /red/，过去分词 read）",
+   "lesson": 127
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Kate",
+   "en": "Can you recognize that woman, Liz?",
+   "zh": "莉兹，你能认出那个女人吗？"
+  },
+  {
+   "speaker": "Liz",
+   "en": "I think I can, Kate.",
+   "zh": "我想我认得出来，凯特。"
+  },
+  {
+   "speaker": "Liz",
+   "en": "It must be Karen Marsh, the actress.",
+   "zh": "那一定是女演员卡伦·马什。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "I thought so.",
+   "zh": "我也这样想。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "Who's that beside her?",
+   "zh": "她旁边的那个人是谁？"
+  },
+  {
+   "speaker": "Liz",
+   "en": "That must be Conrad Reeves.",
+   "zh": "一定是康拉德·里弗斯。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "Conrad Reeves, the actor?",
+   "zh": "康拉德·里弗斯，那个男演员吗？"
+  },
+  {
+   "speaker": "Kate",
+   "en": "It can't be.",
+   "zh": "不可能是。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "Let me have another look.",
+   "zh": "让我再看一看。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "I think you're right!",
+   "zh": "我想你是对的。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "Isn't he her third husband?",
+   "zh": "他不是她的第 3 个丈夫吗？"
+  },
+  {
+   "speaker": "Liz",
+   "en": "No. He must be her fourth or fifth.",
+   "zh": "不，他一定是她的第 4 个或第 5 个丈夫。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "Doesn't Karen Marsh look old!",
+   "zh": "卡伦看上去不显老嘛！"
+  },
+  {
+   "speaker": "Liz",
+   "en": "She does, doesn't she!",
+   "zh": "是的，谁说不是呢！"
+  },
+  {
+   "speaker": "Liz",
+   "en": "I read she's twenty-nine,",
+   "zh": "我从报上看到她是 29 岁，"
+  },
+  {
+   "speaker": "Liz",
+   "en": "but she must be at least forty.",
+   "zh": "但她一定至少有 40 岁了。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "I'm sure she is.",
+   "zh": "我肯定她有 40 岁了。"
+  },
+  {
+   "speaker": "Liz",
+   "en": "She was a famous actress when I was still at school.",
+   "zh": "当我还是学生时，她就是个著名的演员了。"
+  },
+  {
+   "speaker": "Kate",
+   "en": "That was a long time ago, wasn't it?",
+   "zh": "那是好久以前的事了，是吗？"
+  },
+  {
+   "speaker": "Liz",
+   "en": "Not that long ago!",
+   "zh": "不，没有那么久。"
+  },
+  {
+   "speaker": "Liz",
+   "en": "I'm not more than twenty-nine myself.",
+   "zh": "我自己现在还没 29 岁呢。"
+  }
+ ],
+ "drills": [
+  {
+   "en": "Can you ___ that woman, Liz?",
+   "zh": "莉兹，你能认出那个女人吗？",
+   "options": [
+    "recognize",
+    "recognizes",
+    "recognized",
+    "recognizing"
+   ]
+  },
+  {
+   "en": "Conrad Reeves, the actor? It can't ___.",
+   "zh": "康拉德·里弗斯，那个男演员吗？不可能是他。",
+   "options": [
+    "be",
+    "is",
+    "been",
+    "being"
+   ]
+  },
+  {
+   "en": "She looks very old. She ___ be at least forty.",
+   "zh": "她看上去很老。她一定至少有 40 岁了。",
+   "options": [
+    "must",
+    "can't",
+    "won't",
+    "doesn't"
+   ]
+  },
+  {
+   "en": "That was a long time ___, wasn't it?",
+   "zh": "那是好久以前的事了，是吗？",
+   "options": [
+    "ago",
+    "before",
+    "since",
+    "last"
+   ]
+  },
+  {
+   "en": "I'm not more than twenty-nine ___.",
+   "zh": "我自己现在还没 29 岁呢。",
+   "options": [
+    "myself",
+    "me",
+    "my",
+    "mine"
+   ]
+  },
+  {
+   "en": "He can't be ill. He ___ be tired.",
+   "zh": "他不可能是病了。他一定是累了。",
+   "options": [
+    "must",
+    "can't",
+    "won't",
+    "doesn't"
+   ]
+  },
+  {
+   "en": "She can't be Danish. She must be ___.",
+   "zh": "她不可能是丹麦人。她一定是瑞典人。",
+   "options": [
+    "Swedish",
+    "Sweden",
+    "Swedes",
+    "Swedishly"
+   ]
+  },
+  {
+   "en": "It can't be the 20th. It must be the ___.",
+   "zh": "不可能是 20 号。一定是 21 号。",
+   "options": [
+    "21st",
+    "21",
+    "twenty-one",
+    "21th"
+   ]
+  },
+  {
+   "en": "He can't be reading. He must be ___.",
+   "zh": "他不可能在看书。他一定在睡觉。",
+   "options": [
+    "sleeping",
+    "sleep",
+    "sleeps",
+    "slept"
+   ]
+  }
+ ]
+}

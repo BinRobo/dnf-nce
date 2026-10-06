@@ -1,0 +1,302 @@
+{
+  "id": "L141-142",
+  "lessons": [
+    141,
+    142
+  ],
+  "title": "Sally's first train ride",
+  "titleZh": "萨莉第一次乘火车旅行",
+  "evenTitle": "Someone invited Sally to a party. / Sally was invited to a party.",
+  "evenTitleZh": "有人邀请萨莉出席一个聚会。／萨莉应邀出席一个聚会。",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      4,
+      5,
+      8,
+      11,
+      14,
+      15,
+      17,
+      20,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      34
+    ]
+  },
+  "words": [
+    {
+      "en": "excited",
+      "ipa": "ɪk'saɪtɪd",
+      "pos": "adj.",
+      "zh": "兴奋的",
+      "lesson": 141
+    },
+    {
+      "en": "get on",
+      "ipa": "",
+      "pos": "",
+      "zh": "登上",
+      "lesson": 141
+    },
+    {
+      "en": "middle-aged",
+      "ipa": "ˌmɪdl-'eɪdʒd",
+      "pos": "adj.",
+      "zh": "中年的",
+      "lesson": 141
+    },
+    {
+      "en": "opposite",
+      "ipa": "'ɒpəzɪt",
+      "pos": "prep.",
+      "zh": "在……对面",
+      "lesson": 141
+    },
+    {
+      "en": "curiously",
+      "ipa": "'kjʊəriəsli",
+      "pos": "adv.",
+      "zh": "好奇地",
+      "lesson": 141
+    },
+    {
+      "en": "funny",
+      "ipa": "'fʌni",
+      "pos": "adj.",
+      "zh": "可笑的，滑稽的",
+      "lesson": 141
+    },
+    {
+      "en": "powder",
+      "ipa": "'paʊdə",
+      "pos": "n.",
+      "zh": "香粉",
+      "lesson": 141
+    },
+    {
+      "en": "compact",
+      "ipa": "'kɒmpækt",
+      "pos": "n.",
+      "zh": "带镜的化妆盒",
+      "lesson": 141
+    },
+    {
+      "en": "kindly",
+      "ipa": "'kaɪndli",
+      "pos": "adv.",
+      "zh": "和蔼地",
+      "lesson": 141
+    },
+    {
+      "en": "ugly",
+      "ipa": "'ʌɡli",
+      "pos": "adj.",
+      "zh": "丑陋的",
+      "lesson": 141
+    },
+    {
+      "en": "amused",
+      "ipa": "ə'mjuːzd",
+      "pos": "adj.",
+      "zh": "有趣的",
+      "lesson": 141
+    },
+    {
+      "en": "smile",
+      "ipa": "smaɪl",
+      "pos": "v.",
+      "zh": "微笑",
+      "lesson": 141
+    },
+    {
+      "en": "embarrassed",
+      "ipa": "ɪm'bærəst",
+      "pos": "adj.",
+      "zh": "尴尬的，窘迫的",
+      "lesson": 141
+    },
+    {
+      "en": "worried",
+      "ipa": "'wʌrid",
+      "pos": "adj.",
+      "zh": "担心，担忧",
+      "lesson": 142
+    },
+    {
+      "en": "regularly",
+      "ipa": "'reɡjʊləli",
+      "pos": "adv.",
+      "zh": "经常地，定期地",
+      "lesson": 142
+    }
+  ],
+  "lines": [
+    {
+      "en": "Last week, my four-year-old daughter, Sally, was invited to a children's party.",
+      "zh": "上周，我4岁的女儿萨莉被邀请去参加一个儿童聚会。"
+    },
+    {
+      "en": "I decided to take her by train.",
+      "zh": "我决定带她乘火车去。"
+    },
+    {
+      "en": "Sally was very excited because she had never travelled on a train before.",
+      "zh": "萨莉非常激动，因为她从未乘过火车。"
+    },
+    {
+      "en": "She sat near the window and asked questions about everything she saw.",
+      "zh": "她靠车窗坐着，对她所看到的一切都要问个明白。"
+    },
+    {
+      "en": "Suddenly, a middle-aged lady got on the train and sat opposite Sally.",
+      "zh": "突然，一个中年妇女上了火车，坐在萨莉的对面。"
+    },
+    {
+      "en": "'Hello, little girl,' she said.",
+      "zh": "“你好，小姑娘，”她说。"
+    },
+    {
+      "en": "Sally did not answer, but looked at her curiously.",
+      "zh": "萨莉没回答，却好奇地看着她。"
+    },
+    {
+      "en": "The lady was dressed in a blue coat and a large, funny hat.",
+      "zh": "那位妇女穿着一件蓝色的大衣，戴着一顶大而滑稽的帽子。"
+    },
+    {
+      "en": "After the train had left the station,",
+      "zh": "火车开出车站后，"
+    },
+    {
+      "en": "the lady opened her handbag and took out her powder compact.",
+      "zh": "那位妇女打开了手提包，拿出了粉盒。"
+    },
+    {
+      "en": "She then began to make up her face.",
+      "zh": "然后她开始打扮起来。"
+    },
+    {
+      "en": "'Why are you doing that?' Sally asked.",
+      "zh": "“你为什么要那样做呢？”萨莉问。"
+    },
+    {
+      "en": "'To make myself beautiful,' the lady answered.",
+      "zh": "“为了把自己打扮漂亮啊，”那位妇女答道。"
+    },
+    {
+      "en": "She put away her compact and smiled kindly.",
+      "zh": "她放好了粉盒，慈祥地微笑着。"
+    },
+    {
+      "en": "'But you are still ugly,' Sally said.",
+      "zh": "“可是你仍然难看呀，”萨莉说。"
+    },
+    {
+      "en": "Sally was amused,",
+      "zh": "萨莉感到很有趣，"
+    },
+    {
+      "en": "but I was very embarrassed!",
+      "zh": "而我却很尴尬！"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Sally was invited ___ a children's party.",
+      "zh": "萨莉被邀请去参加一个儿童聚会。",
+      "options": [
+        "to",
+        "at",
+        "in",
+        "by"
+      ]
+    },
+    {
+      "en": "Sally was very ___ because she had never travelled on a train before.",
+      "zh": "萨莉非常兴奋，因为她从未乘过火车。",
+      "options": [
+        "excited",
+        "embarrassed",
+        "ugly",
+        "worried"
+      ]
+    },
+    {
+      "en": "She had never ___ on a train before.",
+      "zh": "她以前从未乘过火车。",
+      "options": [
+        "travelled",
+        "travel",
+        "travels",
+        "travelling"
+      ]
+    },
+    {
+      "en": "The lady ___ her handbag and took out her powder compact.",
+      "zh": "那位妇女打开手提包，拿出了粉盒。",
+      "options": [
+        "opened",
+        "open",
+        "opens",
+        "opening"
+      ]
+    },
+    {
+      "en": "Someone repairs it regularly. → It is ___ regularly.",
+      "zh": "有人经常修它。→ 它经常被修理。",
+      "options": [
+        "repaired",
+        "repair",
+        "repairing",
+        "repairs"
+      ]
+    },
+    {
+      "en": "Someone met him at the station this morning. → He was ___ at the station this morning.",
+      "zh": "今天早上有人在车站接他。→ 他今天早上在车站被接。",
+      "options": [
+        "met",
+        "meet",
+        "meeting",
+        "meets"
+      ]
+    },
+    {
+      "en": "Someone corrects them regularly. → They ___ corrected regularly.",
+      "zh": "有人经常批改它们。→ 它们经常被批改。",
+      "options": [
+        "are",
+        "is",
+        "was",
+        "has"
+      ]
+    },
+    {
+      "en": "Someone opened it this morning. → It ___ opened this morning.",
+      "zh": "今天早上有人打开了它。→ 它今天早上被打开了。",
+      "options": [
+        "was",
+        "is",
+        "were",
+        "has"
+      ]
+    },
+    {
+      "en": "The lady put away her compact and smiled ___.",
+      "zh": "那位妇女放好粉盒，慈祥地微笑着。",
+      "options": [
+        "kindly",
+        "kind",
+        "ugly",
+        "funny"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "L025-026",
+  "lessons": [25, 26],
+  "title": "Mrs. Smith's kitchen",
+  "titleZh": "史密斯太太的厨房",
+  "evenTitle": "Where is it?",
+  "evenTitleZh": "它在哪里？",
+  "video": { "pass": 0, "starts": [0, 1, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13] },
+  "words": [
+    { "en": "Mrs.", "ipa": "'mɪsɪz", "pos": "", "zh": "夫人", "lesson": 25 },
+    { "en": "kitchen", "ipa": "'kɪtʃən", "pos": "n.", "zh": "厨房", "lesson": 25 },
+    { "en": "refrigerator", "ipa": "rɪ'frɪdʒəreɪtə", "pos": "n.", "zh": "电冰箱", "lesson": 25 },
+    { "en": "right", "ipa": "raɪt", "pos": "n.", "zh": "右边", "lesson": 25 },
+    { "en": "electric", "ipa": "ɪ'lektrɪk", "pos": "adj.", "zh": "带电的，可通电的", "lesson": 25 },
+    { "en": "left", "ipa": "left", "pos": "n.", "zh": "左边", "lesson": 25 },
+    { "en": "cooker", "ipa": "'kʊkə", "pos": "n.", "zh": "炉子，炊具", "lesson": 25 },
+    { "en": "middle", "ipa": "'mɪdl", "pos": "n.", "zh": "中间", "lesson": 25 },
+    { "en": "of", "ipa": "əv", "pos": "prep.", "zh": "（属于）……的", "lesson": 25 },
+    { "en": "room", "ipa": "ruːm", "pos": "n.", "zh": "房间", "lesson": 25 },
+    { "en": "where", "ipa": "weə", "pos": "adv.", "zh": "在哪里", "lesson": 26 },
+    { "en": "in", "ipa": "ɪn", "pos": "prep.", "zh": "在……里", "lesson": 26 }
+  ],
+  "lines": [
+    { "en": "Mrs. Smith's kitchen is small.", "zh": "史密斯夫人的厨房很小。" },
+    { "en": "There is a refrigerator in the kitchen.", "zh": "厨房里有个电冰箱。" },
+    { "en": "The refrigerator is white.", "zh": "冰箱的颜色是白的。" },
+    { "en": "It is on the right.", "zh": "它位于房间右侧。" },
+    { "en": "There is an electric cooker in the kitchen.", "zh": "厨房里有个电灶。" },
+    { "en": "The cooker is blue.", "zh": "电灶的颜色是蓝的。" },
+    { "en": "It is on the left.", "zh": "它位于房间左侧。" },
+    { "en": "There is a table in the middle of the room.", "zh": "房间的中央有张桌子。" },
+    { "en": "There is a bottle on the table.", "zh": "桌子上有个瓶子。" },
+    { "en": "The bottle is empty.", "zh": "瓶子是空的。" },
+    { "en": "There is a cup on the table, too.", "zh": "桌子上还有一只杯子。" },
+    { "en": "The cup is clean.", "zh": "杯子很干净。" }
+  ],
+  "drills": [
+    { "en": "Give me ___ glass. Which glass? The empty one.", "zh": "给我一只杯子。哪一只？空的那只。", "options": ["a", "the", "an", "one"] },
+    { "en": "Give me some cups. Which cups? ___ cups on the table.", "zh": "给我几只杯子。哪几只？桌上的那几只。", "options": ["The", "A", "An", "Some"] },
+    { "en": "Is there a book on ___ table? Yes, there is.", "zh": "桌上有一本书吗？是的，有。", "options": ["the", "a", "an", "one"] },
+    { "en": "___ is a refrigerator in the kitchen.", "zh": "厨房里有个电冰箱。", "options": ["There", "It", "This", "Where"] },
+    { "en": "There is ___ electric cooker in the kitchen.", "zh": "厨房里有个电灶。", "options": ["an", "a", "the", "one"] },
+    { "en": "It is on the ___.", "zh": "它在右边。", "options": ["right", "left", "middle", "room"] },
+    { "en": "There is a table in the middle ___ the room.", "zh": "房间中央有张桌子。", "options": ["of", "on", "in", "the"] },
+    { "en": "There is a spoon ___ the cup.", "zh": "杯子里有把勺子。", "options": ["in", "of", "the", "is"] },
+    { "en": "___ is it? It's on the table.", "zh": "它在哪儿？在桌子上。", "options": ["Where", "What", "Which", "Whose"] }
+  ]
+}

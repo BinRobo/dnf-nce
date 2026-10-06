@@ -1,0 +1,240 @@
+{
+  "id": "L023-024",
+  "lessons": [
+    23,
+    24
+  ],
+  "title": "Which glasses?",
+  "titleZh": "哪几只杯子？",
+  "evenTitle": "Give me/him/her/us/them some ... Which ones?",
+  "evenTitleZh": "给我/他/她/我们/他们一些……哪些？",
+  "words": [
+    {
+      "en": "on",
+      "ipa": "ɒn",
+      "pos": "prep.",
+      "zh": "在……之上",
+      "lesson": 23
+    },
+    {
+      "en": "shelf",
+      "ipa": "ʃelf",
+      "pos": "n.",
+      "zh": "架子，搁板",
+      "lesson": 23
+    },
+    {
+      "en": "desk",
+      "ipa": "desk",
+      "pos": "n.",
+      "zh": "课桌",
+      "lesson": 24
+    },
+    {
+      "en": "table",
+      "ipa": "'teɪbl",
+      "pos": "n.",
+      "zh": "桌子",
+      "lesson": 24
+    },
+    {
+      "en": "plate",
+      "ipa": "pleɪt",
+      "pos": "n.",
+      "zh": "盘子",
+      "lesson": 24
+    },
+    {
+      "en": "cupboard",
+      "ipa": "'kʌbəd",
+      "pos": "n.",
+      "zh": "食橱",
+      "lesson": 24
+    },
+    {
+      "en": "cigarette",
+      "ipa": "ˌsɪɡə'ret",
+      "pos": "n.",
+      "zh": "香烟",
+      "lesson": 24
+    },
+    {
+      "en": "television",
+      "ipa": "'telɪˌvɪʒən",
+      "pos": "n.",
+      "zh": "电视机",
+      "lesson": 24
+    },
+    {
+      "en": "floor",
+      "ipa": "flɔː",
+      "pos": "n.",
+      "zh": "地板",
+      "lesson": 24
+    },
+    {
+      "en": "dressing table",
+      "ipa": "'dresɪŋ-'teɪbl",
+      "pos": "",
+      "zh": "梳妆台",
+      "lesson": 24
+    },
+    {
+      "en": "magazine",
+      "ipa": "ˌmæɡə'ziːn",
+      "pos": "n.",
+      "zh": "杂志",
+      "lesson": 24
+    },
+    {
+      "en": "bed",
+      "ipa": "bed",
+      "pos": "n.",
+      "zh": "床",
+      "lesson": 24
+    },
+    {
+      "en": "newspaper",
+      "ipa": "'njuːspeɪpə",
+      "pos": "n.",
+      "zh": "报纸",
+      "lesson": 24
+    },
+    {
+      "en": "stereo",
+      "ipa": "'steriəʊ",
+      "pos": "n.",
+      "zh": "立体声音响",
+      "lesson": 24
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Man",
+      "en": "Give me some glasses please, Jane.",
+      "zh": "请拿给我几只玻璃杯，简。"
+    },
+    {
+      "speaker": "Woman",
+      "en": "Which glasses?",
+      "zh": "哪几只？"
+    },
+    {
+      "speaker": "Woman",
+      "en": "These glasses?",
+      "zh": "是这几只吗？"
+    },
+    {
+      "speaker": "Man",
+      "en": "No, not those.",
+      "zh": "不，不是那几只。"
+    },
+    {
+      "speaker": "Man",
+      "en": "The ones on the shelf.",
+      "zh": "是架子上的那几只。"
+    },
+    {
+      "speaker": "Woman",
+      "en": "These?",
+      "zh": "这几只？"
+    },
+    {
+      "speaker": "Man",
+      "en": "Yes, please.",
+      "zh": "是的，请拿给我。"
+    },
+    {
+      "speaker": "Woman",
+      "en": "Here you are.",
+      "zh": "给你。"
+    },
+    {
+      "speaker": "Man",
+      "en": "Thanks.",
+      "zh": "谢谢。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Give Jane this watch. Give ___ this one, too.",
+      "zh": "把这块表给简，把这块也给她。",
+      "options": [
+        "her",
+        "him",
+        "them",
+        "us"
+      ]
+    },
+    {
+      "en": "Give the children these ice creams. Give ___ these, too.",
+      "zh": "把这些冰淇淋给孩子们，把这些也给他们。",
+      "options": [
+        "them",
+        "they",
+        "him",
+        "her"
+      ]
+    },
+    {
+      "en": "Give Tom this book. Give ___ this one, too.",
+      "zh": "把这本书给汤姆，把这本也给他。",
+      "options": [
+        "him",
+        "he",
+        "her",
+        "them"
+      ]
+    },
+    {
+      "en": "That is my passport. Give ___ my passport please.",
+      "zh": "那是我的护照，请把护照给我。",
+      "options": [
+        "me",
+        "I",
+        "my",
+        "us"
+      ]
+    },
+    {
+      "en": "Those are our umbrellas. Give ___ our umbrellas please.",
+      "zh": "那些是我们的伞，请把伞给我们。",
+      "options": [
+        "us",
+        "we",
+        "our",
+        "them"
+      ]
+    },
+    {
+      "en": "Give me some glasses please. Which ___? These?",
+      "zh": "请给我几只杯子。哪几只？这几只？",
+      "options": [
+        "ones",
+        "one",
+        "glass",
+        "this"
+      ]
+    },
+    {
+      "en": "No, not those. The ones ___ the shelf.",
+      "zh": "不，不是那几只。是架子上的那几只。",
+      "options": [
+        "on",
+        "one",
+        "not",
+        "and"
+      ]
+    },
+    {
+      "en": "Give me some ___ please. Which ones? The ones on the bed.",
+      "zh": "请给我几本杂志。哪几本？床上的那几本。",
+      "options": [
+        "magazines",
+        "magazine",
+        "newspaper",
+        "plate"
+      ]
+    }
+  ]
+}

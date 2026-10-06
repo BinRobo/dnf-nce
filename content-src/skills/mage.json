@@ -1,0 +1,600 @@
+[
+ {
+  "id": "m_spark",
+  "name": "星火弹",
+  "level": 1,
+  "desc": "随时可用，射出小火球",
+  "glyph": "火",
+  "color": "#ff9a4a",
+  "element": "fire",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "fireball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 90
+   }
+  ]
+ },
+ {
+  "id": "m_frostorb",
+  "name": "冰晶弹",
+  "level": 1,
+  "desc": "连发冰球，冻得敌人发抖",
+  "glyph": "冰",
+  "color": "#9fe8ff",
+  "element": "ice",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "iceball",
+    "n": 3,
+    "perRank": 1,
+    "gap": 80
+   }
+  ]
+ },
+ {
+  "id": "m_zap",
+  "name": "雷电球",
+  "level": 3,
+  "desc": "电球飞出，炸开一团电花",
+  "glyph": "电",
+  "color": "#b8a6ff",
+  "element": "thunder",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#b8a6ff"
+   },
+   {
+    "do": "shoot",
+    "proj": "thunderball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 100
+   },
+   {
+    "do": "explode",
+    "kind": "thunder",
+    "scale": 1
+   }
+  ]
+ },
+ {
+  "id": "m_lightorb",
+  "name": "光明球",
+  "level": 3,
+  "desc": "一串光球接连命中",
+  "glyph": "光",
+  "color": "#fff1a8",
+  "element": "light",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "lightorb",
+    "n": 4,
+    "perRank": 1,
+    "gap": 70,
+    "spread": 20
+   }
+  ]
+ },
+ {
+  "id": "m_stars",
+  "name": "流星雨",
+  "level": 5,
+  "desc": "星星从夜空落下",
+  "glyph": "星",
+  "color": "#ffe14a",
+  "element": "light",
+  "fx": [
+   {
+    "do": "rain",
+    "proj": "star",
+    "n": 5,
+    "perRank": 1,
+    "gap": 80
+   }
+  ]
+ },
+ {
+  "id": "m_icespike",
+  "name": "冰锥术",
+  "level": 5,
+  "desc": "冰锥破土而出刺中敌人",
+  "glyph": "锥",
+  "color": "#7fe0ff",
+  "element": "ice",
+  "fx": [
+   {
+    "do": "spikes",
+    "n": 3,
+    "perRank": 1
+   }
+  ]
+ },
+ {
+  "id": "m_pillar",
+  "name": "烈焰柱",
+  "level": 8,
+  "desc": "地面喷出一排火柱",
+  "glyph": "柱",
+  "color": "#ff7a45",
+  "element": "fire",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ff7a45"
+   },
+   {
+    "do": "pillar",
+    "n": 4,
+    "perRank": 1
+   }
+  ]
+ },
+ {
+  "id": "m_bolt",
+  "name": "落雷术",
+  "level": 8,
+  "desc": "天降分叉闪电",
+  "glyph": "霆",
+  "color": "#a58cff",
+  "element": "thunder",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "thunder"
+   },
+   {
+    "do": "lightning",
+    "n": 3,
+    "perRank": 1
+   }
+  ]
+ },
+ {
+  "id": "m_freezeshatter",
+  "name": "冰封术",
+  "level": 12,
+  "desc": "先冻成冰块，再一击击碎",
+  "glyph": "封",
+  "color": "#5fd0ff",
+  "element": "ice",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#9fe8ff"
+   },
+   {
+    "do": "freeze"
+   },
+   {
+    "do": "wait",
+    "ms": 300
+   },
+   {
+    "do": "shatter"
+   }
+  ]
+ },
+ {
+  "id": "m_lightray",
+  "name": "圣光柱",
+  "level": 12,
+  "desc": "光柱从天而降",
+  "glyph": "圣",
+  "color": "#fff6c8",
+  "element": "light",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "light"
+   },
+   {
+    "do": "ray",
+    "n": 4,
+    "perRank": 1
+   }
+  ]
+ },
+ {
+  "id": "m_wordnote",
+  "name": "音符魔弹",
+  "level": 15,
+  "desc": "找回的音符化作魔弹",
+  "glyph": "音",
+  "color": "#ffd34a",
+  "element": "light",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ffd34a"
+   },
+   {
+    "do": "shoot",
+    "proj": "note",
+    "n": 5,
+    "perRank": 1,
+    "gap": 70,
+    "spread": 30
+   },
+   {
+    "do": "explode",
+    "kind": "light",
+    "scale": 1.2
+   }
+  ]
+ },
+ {
+  "id": "m_inferno",
+  "name": "爆炎术",
+  "level": 18,
+  "desc": "火球连发，最后大爆炸",
+  "glyph": "爆",
+  "color": "#ff6a2e",
+  "element": "fire",
+  "fx": [
+   {
+    "do": "zoom"
+   },
+   {
+    "do": "shoot",
+    "proj": "fireball",
+    "n": 4,
+    "perRank": 1,
+    "gap": 80
+   },
+   {
+    "do": "explode",
+    "kind": "fire",
+    "scale": 1.6
+   }
+  ]
+ },
+ {
+  "id": "m_blizzard",
+  "name": "暴风雪",
+  "level": 18,
+  "desc": "冰球如雪花漫天落下",
+  "glyph": "雪",
+  "color": "#b5f0ff",
+  "element": "ice",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "ice"
+   },
+   {
+    "do": "rain",
+    "proj": "iceball",
+    "n": 6,
+    "perRank": 1,
+    "gap": 70
+   }
+  ]
+ },
+ {
+  "id": "m_chainbolt",
+  "name": "连锁闪电",
+  "level": 22,
+  "desc": "闪电连跳，电光四射",
+  "glyph": "链",
+  "color": "#9b7bff",
+  "element": "thunder",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#b8a6ff"
+   },
+   {
+    "do": "lightning",
+    "n": 5,
+    "perRank": 1
+   },
+   {
+    "do": "explode",
+    "kind": "thunder",
+    "scale": 1.4
+   }
+  ]
+ },
+ {
+  "id": "m_crossglow",
+  "name": "十字圣光",
+  "level": 22,
+  "desc": "光柱落下，十字光芒贯穿",
+  "glyph": "十",
+  "color": "#fff1a8",
+  "element": "light",
+  "fx": [
+   {
+    "do": "ray",
+    "n": 3,
+    "perRank": 1
+   },
+   {
+    "do": "wait",
+    "ms": 150
+   },
+   {
+    "do": "cross"
+   }
+  ]
+ },
+ {
+  "id": "m_dragonfire",
+  "name": "炎龙术",
+  "level": 34,
+  "desc": "召唤火龙咆哮冲撞",
+  "glyph": "龙",
+  "color": "#ff5a2e",
+  "element": "fire",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "fire"
+   },
+   {
+    "do": "charge",
+    "color": "#ff7a45"
+   },
+   {
+    "do": "pillar",
+    "n": 3,
+    "perRank": 1
+   },
+   {
+    "do": "shake",
+    "px": 8
+   },
+   {
+    "do": "dragon"
+   }
+  ]
+ },
+ {
+  "id": "m_glacier",
+  "name": "冰河咆哮",
+  "level": 34,
+  "desc": "冰封全场，巨冰砸碎",
+  "glyph": "川",
+  "color": "#5fd0ff",
+  "element": "ice",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "ice"
+   },
+   {
+    "do": "spikes",
+    "n": 4,
+    "perRank": 1
+   },
+   {
+    "do": "freeze"
+   },
+   {
+    "do": "wait",
+    "ms": 250
+   },
+   {
+    "do": "shatter"
+   }
+  ]
+ },
+ {
+  "id": "m_skythunder",
+  "name": "九天雷",
+  "level": 38,
+  "desc": "天色变暗，雷电连劈",
+  "glyph": "雷",
+  "color": "#8f6bff",
+  "element": "thunder",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "thunder"
+   },
+   {
+    "do": "zoom"
+   },
+   {
+    "do": "lightning",
+    "n": 6,
+    "perRank": 2
+   },
+   {
+    "do": "explode",
+    "kind": "thunder",
+    "scale": 1.8
+   }
+  ]
+ },
+ {
+  "id": "m_phoenix",
+  "name": "火凤降临",
+  "level": 38,
+  "desc": "火凤凰展翅俯冲",
+  "glyph": "凰",
+  "color": "#ff8a3d",
+  "element": "fire",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "fire"
+   },
+   {
+    "do": "charge",
+    "color": "#ffb347"
+   },
+   {
+    "do": "rain",
+    "proj": "fireball",
+    "n": 4,
+    "perRank": 1,
+    "gap": 80
+   },
+   {
+    "do": "phoenix"
+   }
+  ]
+ },
+ {
+  "id": "m_judgement",
+  "name": "星辰审判",
+  "level": 42,
+  "desc": "星光与光柱审判敌人",
+  "glyph": "审",
+  "color": "#fff6c8",
+  "element": "light",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "light"
+   },
+   {
+    "do": "rain",
+    "proj": "star",
+    "n": 6,
+    "perRank": 1,
+    "gap": 60
+   },
+   {
+    "do": "ray",
+    "n": 4,
+    "perRank": 1
+   },
+   {
+    "do": "cross"
+   }
+  ]
+ },
+ {
+  "id": "m_stormmix",
+  "name": "元素风暴",
+  "level": 42,
+  "desc": "火冰雷轮番轰炸",
+  "glyph": "风",
+  "color": "#ff9fe0",
+  "element": "mix",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "fireball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 80
+   },
+   {
+    "do": "shoot",
+    "proj": "iceball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 80
+   },
+   {
+    "do": "lightning",
+    "n": 3,
+    "perRank": 1
+   },
+   {
+    "do": "explode",
+    "kind": "light",
+    "scale": 1.6
+   }
+  ]
+ },
+ {
+  "id": "m_fusion",
+  "name": "四象归一",
+  "level": 54,
+  "desc": "火冰雷光合为彩色巨爆",
+  "glyph": "合",
+  "color": "#ffffff",
+  "element": "mix",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ffffff"
+   },
+   {
+    "do": "zoom"
+   },
+   {
+    "do": "pillar",
+    "n": 2,
+    "perRank": 1
+   },
+   {
+    "do": "spikes",
+    "n": 2,
+    "perRank": 1
+   },
+   {
+    "do": "lightning",
+    "n": 2,
+    "perRank": 1
+   },
+   {
+    "do": "ray",
+    "n": 2,
+    "perRank": 1
+   },
+   {
+    "do": "shake",
+    "px": 12
+   },
+   {
+    "do": "explode",
+    "kind": "light",
+    "scale": 2.2
+   }
+  ]
+ },
+ {
+  "id": "m_finale",
+  "name": "台词大魔法",
+  "level": 58,
+  "desc": "念出找回的台词，召唤终极魔法",
+  "glyph": "诵",
+  "color": "#ffe9a0",
+  "element": "mix",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ffe9a0"
+   },
+   {
+    "do": "zoom"
+   },
+   {
+    "do": "rain",
+    "proj": "letter",
+    "n": 6,
+    "perRank": 1,
+    "gap": 50
+   },
+   {
+    "do": "rain",
+    "proj": "note",
+    "n": 4,
+    "perRank": 1,
+    "gap": 50
+   },
+   {
+    "do": "dragon"
+   },
+   {
+    "do": "shake",
+    "px": 14
+   },
+   {
+    "do": "beam",
+    "color": "#ffe9a0"
+   }
+  ]
+ }
+]

@@ -1,0 +1,50 @@
+{
+  "id": "L055-056",
+  "lessons": [55, 56],
+  "title": "The Sawyer family",
+  "titleZh": "索耶一家人",
+  "evenTitle": "What do they usually do?",
+  "evenTitleZh": "他们通常做什么？",
+  "video": { "pass": 0, "starts": [0, 1, 4, 6, 8, 9, 10, 12, 13, 15, 16, 17, 18, 21, 22, 24] },
+  "words": [
+    { "en": "live", "ipa": "lɪv", "pos": "v.", "zh": "住，生活", "lesson": 55 },
+    { "en": "stay", "ipa": "steɪ", "pos": "v.", "zh": "呆在，停留", "lesson": 55 },
+    { "en": "home", "ipa": "həʊm", "pos": "n. & adv.", "zh": "家；在家，到家", "lesson": 55 },
+    { "en": "housework", "ipa": "'haʊswɜːk", "pos": "n.", "zh": "家务", "lesson": 55 },
+    { "en": "lunch", "ipa": "lʌntʃ", "pos": "n.", "zh": "午饭", "lesson": 55 },
+    { "en": "afternoon", "ipa": "ˌɑːftə'nuːn", "pos": "n.", "zh": "下午", "lesson": 55 },
+    { "en": "usually", "ipa": "'juːʒʊəli", "pos": "adv.", "zh": "通常", "lesson": 55 },
+    { "en": "together", "ipa": "tə'ɡeðə", "pos": "adv.", "zh": "一起", "lesson": 55 },
+    { "en": "evening", "ipa": "'iːvnɪŋ", "pos": "n.", "zh": "晚上", "lesson": 55 },
+    { "en": "arrive", "ipa": "ə'raɪv", "pos": "v.", "zh": "到达", "lesson": 55 }
+  ],
+  "lines": [
+    { "en": "The Sawyers live at 87 King Street.", "zh": "索耶一家住在国王街 87 号。" },
+    { "en": "In the morning, Mr. Sawyer goes to work and the children go to school.", "zh": "早上，索耶先生去上班，孩子们去上学。" },
+    { "en": "Their father takes them to school every day.", "zh": "父亲每天送孩子们去上学。" },
+    { "en": "Mrs. Sawyer stays at home every day.", "zh": "索耶夫人每天呆在家里。" },
+    { "en": "She does the housework.", "zh": "她料理家务。" },
+    { "en": "She always eats her lunch at noon.", "zh": "她总是在正午吃午饭。" },
+    { "en": "In the afternoon, she usually sees her friends.", "zh": "下午，她总是会见她的朋友。" },
+    { "en": "They often drink tea together.", "zh": "她们经常在一起喝茶。" },
+    { "en": "In the evening, the children come home from school.", "zh": "傍晚，孩子们放学回家。" },
+    { "en": "They arrive home early.", "zh": "他们到家很早。" },
+    { "en": "Mr. Sawyer comes home from work.", "zh": "索耶先生下班回家。" },
+    { "en": "He arrives home late.", "zh": "他到家很晚。" },
+    { "en": "At night, the children always do their homework.", "zh": "晚上，孩子们总是做作业，" },
+    { "en": "Then they go to bed.", "zh": "然后去睡觉。" },
+    { "en": "Mr. Sawyer usually reads his newspaper,", "zh": "索耶先生总是读报纸，" },
+    { "en": "but sometimes he and his wife watch television.", "zh": "但有时和他的妻子一起看电视。" }
+  ],
+  "drills": [
+    { "en": "She ___ the dishes every day.", "zh": "她每天洗盘子。", "options": ["washes", "washs", "wash", "washing"] },
+    { "en": "The children ___ to school in the morning.", "zh": "孩子们早上去上学。", "options": ["go", "goes", "gos", "going"] },
+    { "en": "Their father ___ them to school.", "zh": "他们的父亲送他们上学。", "options": ["takes", "take", "takies", "taking"] },
+    { "en": "Mrs. Sawyer ___ at home.", "zh": "索耶夫人呆在家里。", "options": ["stays", "stay", "staies", "staying"] },
+    { "en": "She ___ the housework.", "zh": "她料理家务。", "options": ["does", "do", "dos", "doing"] },
+    { "en": "What does she do in the morning? She often ___ the cupboard in the morning.", "zh": "她早上做什么？她早上常给碗橱掸灰。", "options": ["dusts", "dust", "dusting", "dustes"] },
+    { "en": "She always eats her lunch ___ noon.", "zh": "她总是在正午吃午饭。", "options": ["at", "in", "on", "to"] },
+    { "en": "___ the afternoon, she usually sees her friends.", "zh": "下午，她总是会见她的朋友。", "options": ["In", "At", "On", "To"] },
+    { "en": "They often drink tea ___.", "zh": "她们经常在一起喝茶。", "options": ["together", "usually", "always", "early"] }
+  ]
+}

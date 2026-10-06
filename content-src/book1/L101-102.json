@@ -1,0 +1,287 @@
+{
+ "id": "L101-102",
+ "lessons": [
+  101,
+  102
+ ],
+ "title": "A card from Jimmy",
+ "titleZh": "吉米的明信片",
+ "evenTitle": "He says he ... She says she ... They say they ...",
+ "evenTitleZh": "他／她／他们说他／她／他们……",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   2,
+   4,
+   5,
+   7,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25
+  ]
+ },
+ "words": [
+  {
+   "en": "Scotland",
+   "ipa": "'skɒtlənd",
+   "pos": "n.",
+   "zh": "苏格兰（英国）",
+   "lesson": 101
+  },
+  {
+   "en": "card",
+   "ipa": "kɑːd",
+   "pos": "n.",
+   "zh": "明信片",
+   "lesson": 101
+  },
+  {
+   "en": "youth",
+   "ipa": "juːθ",
+   "pos": "n.",
+   "zh": "青年",
+   "lesson": 101
+  },
+  {
+   "en": "hostel",
+   "ipa": "'hɒstl",
+   "pos": "n.",
+   "zh": "招待所，旅馆",
+   "lesson": 101
+  },
+  {
+   "en": "association",
+   "ipa": "ə,səʊsi'eɪʃən",
+   "pos": "n.",
+   "zh": "协会",
+   "lesson": 101
+  },
+  {
+   "en": "soon",
+   "ipa": "suːn",
+   "pos": "adv.",
+   "zh": "不久",
+   "lesson": 101
+  },
+  {
+   "en": "write",
+   "ipa": "raɪt",
+   "pos": "v.",
+   "zh": "写（过去式 wrote，过去分词 written）",
+   "lesson": 101
+  }
+ ],
+ "lines": [
+  {
+   "speaker": "Grandmother",
+   "en": "Read Jimmy's card to me please, Penny.",
+   "zh": "请把吉米的明信片念给我听听，彭妮。"
+  },
+  {
+   "speaker": "Penny",
+   "en": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'",
+   "zh": "“我刚到苏格兰，我现在住在一家青年招待所。”"
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "Eh?",
+   "zh": "什么？"
+  },
+  {
+   "speaker": "Penny",
+   "en": "He says he's just arrived in Scotland.",
+   "zh": "他说他刚到苏格兰。"
+  },
+  {
+   "speaker": "Penny",
+   "en": "He says he's staying at a Youth Hostel.",
+   "zh": "他说他现在住在一家青年招待所。"
+  },
+  {
+   "speaker": "Penny",
+   "en": "You know he's a member of the Y.H.A.",
+   "zh": "您知道，他是“青招协”的一个成员。"
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "The what?",
+   "zh": "什么？"
+  },
+  {
+   "speaker": "Penny",
+   "en": "The Y.H.A., Mum.",
+   "zh": "“青招协”，妈妈。"
+  },
+  {
+   "speaker": "Penny",
+   "en": "The Youth Hostels Association.",
+   "zh": "青年招待所协会。"
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "What else does he say?",
+   "zh": "他还说了些什么？"
+  },
+  {
+   "speaker": "Penny",
+   "en": "'I'll write a letter soon.",
+   "zh": "“我很快会写信的。"
+  },
+  {
+   "speaker": "Penny",
+   "en": "I hope you are all well.'",
+   "zh": "祝你们大家身体都好。”"
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "What?",
+   "zh": "什么？"
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "Speak up, Penny.",
+   "zh": "彭妮，大声一点。"
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "I'm afraid I can't hear you.",
+   "zh": "我可听不见你念的。"
+  },
+  {
+   "speaker": "Penny",
+   "en": "He says he'll write a letter soon.",
+   "zh": "他说他很快会写信的。"
+  },
+  {
+   "speaker": "Penny",
+   "en": "He hopes we are all well.",
+   "zh": "他祝我们大家身体好。"
+  },
+  {
+   "speaker": "Penny",
+   "en": "'Love, Jimmy.'",
+   "zh": "“谨此问候，吉米。”"
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "Is that all?",
+   "zh": "就这些吗？"
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "He doesn't say very much, does he?",
+   "zh": "他没写许多，是吗？"
+  },
+  {
+   "speaker": "Penny",
+   "en": "He can't write very much on a card, Mum.",
+   "zh": "在明信片上他写不了很多，妈妈。"
+  }
+ ],
+ "drills": [
+  {
+   "en": "He says he ___ just arrived in Scotland.",
+   "zh": "他说他刚到苏格兰。",
+   "options": [
+    "has",
+    "have",
+    "are",
+    "will"
+   ]
+  },
+  {
+   "en": "She says she ___ tired.",
+   "zh": "她说她觉得累。",
+   "options": [
+    "feels",
+    "feel",
+    "feeling",
+    "to feel"
+   ]
+  },
+  {
+   "en": "They say they ___ some money.",
+   "zh": "他们说他们需要一些钱。",
+   "options": [
+    "need",
+    "needs",
+    "needing",
+    "to need"
+   ]
+  },
+  {
+   "en": "He says he ___ a letter soon.",
+   "zh": "他说他很快会写信。",
+   "options": [
+    "will write",
+    "to write",
+    "writing",
+    "wrote"
+   ]
+  },
+  {
+   "en": "He says he has ___ his milk.",
+   "zh": "他说他已经把牛奶喝完了。",
+   "options": [
+    "drunk",
+    "drink",
+    "drinks",
+    "drinking"
+   ]
+  },
+  {
+   "en": "He says he ___ a cold.",
+   "zh": "他说他感冒了。",
+   "options": [
+    "has got",
+    "is got",
+    "feels got",
+    "must got"
+   ]
+  },
+  {
+   "en": "He hopes we ___ all well.",
+   "zh": "他祝我们大家身体好。",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "He doesn't say very much, ___ he?",
+   "zh": "他没写许多，是吗？",
+   "options": [
+    "does",
+    "doesn't",
+    "is",
+    "isn't"
+   ]
+  },
+  {
+   "en": "He says he ___ wait for a bus.",
+   "zh": "他说他必须等公共汽车。",
+   "options": [
+    "must",
+    "musts",
+    "to must",
+    "musting"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "id": "L119-120",
+ "lessons": [
+  119,
+  120
+ ],
+ "title": "A true story",
+ "titleZh": "一个真实的故事",
+ "evenTitle": "It had already happened.",
+ "evenTitleZh": "它已经发生了。",
+ "video": {
+  "pass": 0,
+  "starts": [
+   0,
+   2,
+   3,
+   5,
+   7,
+   10,
+   12,
+   13,
+   14,
+   15,
+   18,
+   20,
+   23,
+   26,
+   27,
+   28,
+   29,
+   31,
+   32,
+   34
+  ]
+ },
+ "words": [
+  {
+   "en": "story",
+   "ipa": "'stɔːri",
+   "pos": "n.",
+   "zh": "故事",
+   "lesson": 119
+  },
+  {
+   "en": "happen",
+   "ipa": "'hæpən",
+   "pos": "v.",
+   "zh": "发生",
+   "lesson": 119
+  },
+  {
+   "en": "thief",
+   "ipa": "θiːf",
+   "pos": "n.",
+   "zh": "贼（复数 thieves）",
+   "lesson": 119
+  },
+  {
+   "en": "enter",
+   "ipa": "'entə",
+   "pos": "v.",
+   "zh": "进入",
+   "lesson": 119
+  },
+  {
+   "en": "dark",
+   "ipa": "dɑːk",
+   "pos": "adj.",
+   "zh": "黑暗的",
+   "lesson": 119
+  },
+  {
+   "en": "torch",
+   "ipa": "tɔːtʃ",
+   "pos": "n.",
+   "zh": "手电筒",
+   "lesson": 119
+  },
+  {
+   "en": "voice",
+   "ipa": "vɔɪs",
+   "pos": "n.",
+   "zh": "（说话的）声音",
+   "lesson": 119
+  },
+  {
+   "en": "parrot",
+   "ipa": "'pærət",
+   "pos": "n.",
+   "zh": "鹦鹉",
+   "lesson": 119
+  },
+  {
+   "en": "exercise book",
+   "ipa": "'eksəsaɪz-bʊk",
+   "pos": "n.",
+   "zh": "练习本",
+   "lesson": 120
+  }
+ ],
+ "lines": [
+  {
+   "en": "Do you like stories?",
+   "zh": "你喜欢听故事吗？"
+  },
+  {
+   "en": "I want to tell you a true story.",
+   "zh": "我要告诉你一个真实的故事。"
+  },
+  {
+   "en": "It happened to a friend of mine a year ago.",
+   "zh": "这是一年前发生在我的一个朋友身上的故事。"
+  },
+  {
+   "en": "While my friend, George, was reading in bed,",
+   "zh": "当我的朋友乔治在床上看书时，"
+  },
+  {
+   "en": "two thieves climbed into his kitchen.",
+   "zh": "两个小偷爬进了他的厨房。"
+  },
+  {
+   "en": "After they had entered the house,",
+   "zh": "他们进到屋里后，"
+  },
+  {
+   "en": "they went into the dining room.",
+   "zh": "走进了饭厅。"
+  },
+  {
+   "en": "It was very dark,",
+   "zh": "饭厅里很暗，"
+  },
+  {
+   "en": "so they turned on a torch.",
+   "zh": "于是他们打开了手电筒。"
+  },
+  {
+   "en": "Suddenly, they heard a voice behind them.",
+   "zh": "突然他们听到身后有声音。"
+  },
+  {
+   "en": "'What's up? What's up?' someone called.",
+   "zh": "“什么事？什么事？”有人叫着。"
+  },
+  {
+   "en": "The thieves dropped the torch and ran away as quickly as they could.",
+   "zh": "小偷扔下了手电筒，飞快地逃走了。"
+  },
+  {
+   "en": "George heard the noise and came downstairs quickly.",
+   "zh": "乔治听到了响声，迅速地下了楼。"
+  },
+  {
+   "en": "He turned on the light,",
+   "zh": "他开了灯，"
+  },
+  {
+   "en": "but he couldn't see anyone.",
+   "zh": "但不见一个人。"
+  },
+  {
+   "en": "The thieves had already gone.",
+   "zh": "小偷逃走了。"
+  },
+  {
+   "en": "But George's parrot, Henry, was still there.",
+   "zh": "但是乔治的鹦鹉亨利仍在那里。"
+  },
+  {
+   "en": "'What's up, George?' he called.",
+   "zh": "“什么事，乔治？”它叫着。"
+  },
+  {
+   "en": "'Nothing, Henry,' George said and smiled.",
+   "zh": "“没事，亨利。”乔治笑着说，"
+  },
+  {
+   "en": "'Go back to sleep.'",
+   "zh": "“接着睡觉吧。”"
+  }
+ ],
+ "drills": [
+  {
+   "en": "It ___ to a friend of mine a year ago.",
+   "zh": "这件事发生在一年前我的一个朋友身上。",
+   "options": [
+    "happened",
+    "happen",
+    "happens",
+    "happening"
+   ]
+  },
+  {
+   "en": "Two ___ climbed into his kitchen.",
+   "zh": "两个小偷爬进了他的厨房。",
+   "options": [
+    "thieves",
+    "thief",
+    "thiefs",
+    "thieve"
+   ]
+  },
+  {
+   "en": "It was very dark, so they turned on a ___.",
+   "zh": "很黑，于是他们打开了手电筒。",
+   "options": [
+    "torch",
+    "voice",
+    "parrot",
+    "story"
+   ]
+  },
+  {
+   "en": "They heard a ___ behind them.",
+   "zh": "他们听到身后有声音。",
+   "options": [
+    "voice",
+    "torch",
+    "coin",
+    "story"
+   ]
+  },
+  {
+   "en": "The thieves ran away as quickly as they ___.",
+   "zh": "小偷尽可能快地逃跑了。",
+   "options": [
+    "could",
+    "can",
+    "will",
+    "must"
+   ]
+  },
+  {
+   "en": "The thieves had already ___.",
+   "zh": "小偷已经逃走了。",
+   "options": [
+    "gone",
+    "go",
+    "went",
+    "going"
+   ]
+  },
+  {
+   "en": "I ran to the platform, but the train had already ___.",
+   "zh": "我跑到站台，但火车已经开走了。",
+   "options": [
+    "left",
+    "leave",
+    "leaves",
+    "leaving"
+   ]
+  },
+  {
+   "en": "She went on holiday after she had ___ the examination.",
+   "zh": "她参加完考试后去度假了。",
+   "options": [
+    "taken",
+    "take",
+    "took",
+    "taking"
+   ]
+  },
+  {
+   "en": "We had had dinner ___ they arrived.",
+   "zh": "他们到达之前我们已吃过饭了。",
+   "options": [
+    "before",
+    "after",
+    "while",
+    "until"
+   ]
+  }
+ ]
+}

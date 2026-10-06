@@ -1,0 +1,59 @@
+{
+  "id": "ch3_clear",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "boss_phone",
+      "face": "sad",
+      "zh": "……话筒掉了。我只是太孤单了。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "en": "Better. Thank you, doctor.",
+      "audio": {
+        "lesson": "L063-064",
+        "line": 1
+      }
+    },
+    {
+      "t": "say",
+      "who": "doctor",
+      "face": "happy",
+      "zh": "听诊器好了，Jimmy 的感冒也好了。"
+    },
+    {
+      "t": "say",
+      "who": "jimmy",
+      "face": "normal",
+      "zh": "我明天……还是不想上学。"
+    },
+    {
+      "t": "item",
+      "key": "page72",
+      "zh": "台词簿第 72 页已恢复"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "第三章完成！你真是好样的。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "surprised",
+      "zh": "车站那边有位太太迷路了，雾里还有汽笛声。"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：前往集市与车站（第 4 章 L73-96）"
+    }
+  ]
+}

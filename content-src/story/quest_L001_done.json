@@ -1,0 +1,40 @@
+{
+  "id": "quest_L001_done",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "太棒了！女士的话找回来了！"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "normal",
+      "zh": "吞声领主只是个小喽啰。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "sad",
+      "zh": "他背后还有混名魔术师维辛。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "女士在广场开了小店，去看看吧。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "surprised",
+      "zh": "新麻烦：同学们的名字被偷了！"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：回教室，帮同学们找回名字（L5-6）"
+    }
+  ]
+}

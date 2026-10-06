@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" stroke-linejoin="round" stroke-linecap="round">
+<rect x="0" y="470" width="1280" height="250" rx="0" fill="#5B4A88" stroke="none"/>
+<rect x="0" y="470" width="1280" height="56" rx="0" fill="#7A66A8" stroke="none"/>
+<rect x="0" y="526" width="1280" height="16" rx="0" fill="#4A3A78" stroke="none"/>
+<path d="M0,470 H1280" fill="none" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M0,542 H1280" fill="none" stroke="#2B2A4A" stroke-width="4"/>
+<rect x="0" y="542" width="1280" height="178" rx="0" fill="#3A3068" stroke="none"/>
+<rect x="0" y="542" width="1280" height="14" rx="0" fill="#2E2658" stroke="none"/>
+<path d="M-40,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M40,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M120,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M200,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M280,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M360,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M440,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M520,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M600,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M680,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M760,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M840,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M920,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M1000,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M1080,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M1160,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M1240,470 V526" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M0,526 L10,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M80,526 L90,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M160,526 L170,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M240,526 L250,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M320,526 L330,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M400,526 L410,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M480,526 L490,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M560,526 L570,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M640,526 L650,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M720,526 L730,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M800,526 L810,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M880,526 L890,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M960,526 L970,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M1040,526 L1050,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M1120,526 L1130,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M1200,526 L1210,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<path d="M1280,526 L1290,542" fill="none" stroke="#4A3A78" stroke-width="2"/>
+<rect x="20" y="630" width="90" height="10" rx="4" fill="#F5C542" stroke="none"/>
+<rect x="180" y="630" width="90" height="10" rx="4" fill="#F5C542" stroke="none"/>
+<rect x="340" y="630" width="90" height="10" rx="4" fill="#F5C542" stroke="none"/>
+<rect x="500" y="630" width="90" height="10" rx="4" fill="#F5C542" stroke="none"/>
+<rect x="660" y="630" width="90" height="10" rx="4" fill="#F5C542" stroke="none"/>
+<rect x="820" y="630" width="90" height="10" rx="4" fill="#F5C542" stroke="none"/>
+<rect x="980" y="630" width="90" height="10" rx="4" fill="#F5C542" stroke="none"/>
+<rect x="1140" y="630" width="90" height="10" rx="4" fill="#F5C542" stroke="none"/>
+<path d="M520,470 H760 L800,560 H480 Z" fill="#C23B4E" stroke="#2B2A4A" stroke-width="4"/>
+<path d="M540,470 H740 L772,548 H508 Z" fill="#E0566A" stroke="none"/>
+<path d="M500,500 H780" fill="none" stroke="#F5C542" stroke-width="3"/>
+<rect x="474" y="545" width="12" height="14" rx="3" fill="#F5C542" stroke="#2B2A4A" stroke-width="3"/>
+<rect x="794" y="545" width="12" height="14" rx="3" fill="#F5C542" stroke="#2B2A4A" stroke-width="3"/>
+</svg>

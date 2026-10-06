@@ -1,0 +1,57 @@
+{
+  "id": "ch1_clear",
+  "bg": "classroom",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "维辛的魔术破啦，东西都回到主人手里！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "happy",
+      "en": "Here you are.",
+      "audio": {
+        "lesson": "L021-022",
+        "line": 6
+      }
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "en": "Thanks.",
+      "audio": {
+        "lesson": "L023-024",
+        "line": 8
+      }
+    },
+    {
+      "t": "item",
+      "key": "page24",
+      "zh": "台词簿第 24 页已恢复"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "很好！第一章的雾散了。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "surprised",
+      "zh": "不过山谷村传来消息：史密斯太太的厨房也起雾了。"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：前往山谷村（第 2 章 L25-48）"
+    }
+  ]
+}

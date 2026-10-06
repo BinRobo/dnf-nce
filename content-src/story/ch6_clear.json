@@ -1,0 +1,59 @@
+{
+  "id": "ch6_clear",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "boss_curtain",
+      "face": "sad",
+      "zh": "大幕……缓缓拉开了。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "en": "I think you're right!",
+      "audio": {
+        "lesson": "L127-128",
+        "line": 9
+      }
+    },
+    {
+      "t": "say",
+      "who": "actress",
+      "face": "happy",
+      "zh": "我的台词回来啦，掌声在哪里？"
+    },
+    {
+      "t": "say",
+      "who": "reporter",
+      "face": "happy",
+      "zh": "号外号外！台词簿几乎满啦！"
+    },
+    {
+      "t": "item",
+      "key": "page142",
+      "zh": "台词簿第 142 页已恢复"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "normal",
+      "zh": "只剩最后一页了。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "公爵就在后台，去吧，勇敢地说出来！"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：挑战缄默公爵（L143-144）"
+    }
+  ]
+}

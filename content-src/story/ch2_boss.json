@@ -1,0 +1,47 @@
+{
+  "id": "ch2_boss",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "boss_teapot",
+      "side": "right"
+    },
+    {
+      "t": "sfx",
+      "key": "boss_appear"
+    },
+    {
+      "t": "say",
+      "who": "boss_teapot",
+      "face": "normal",
+      "zh": "咕噜噜……我是沸腾领主，茶凉了话也要凉！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "en": "Do you like coffee, Ann?",
+      "audio": {
+        "lesson": "L047-048",
+        "line": 0
+      }
+    },
+    {
+      "t": "say",
+      "who": "boss_teapot",
+      "face": "normal",
+      "zh": "咖啡？饼干？统统被我煮没啦！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "normal",
+      "en": "Do you want a cup?",
+      "audio": {
+        "lesson": "L047-048",
+        "line": 2
+      }
+    }
+  ]
+}

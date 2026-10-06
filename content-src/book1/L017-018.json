@@ -1,0 +1,244 @@
+{
+  "id": "L017-018",
+  "lessons": [
+    17,
+    18
+  ],
+  "title": "How do you do?",
+  "titleZh": "你好！",
+  "evenTitle": "What are their jobs?",
+  "evenTitleZh": "他们是做什么工作的？",
+  "words": [
+    {
+      "en": "employee",
+      "ipa": "ˌɪmplɔɪ'iː",
+      "pos": "n.",
+      "zh": "雇员",
+      "lesson": 17
+    },
+    {
+      "en": "hard-working",
+      "ipa": "ˌhɑːd'wɜːkɪŋ",
+      "pos": "adj.",
+      "zh": "勤奋的",
+      "lesson": 17
+    },
+    {
+      "en": "sales reps",
+      "ipa": "'seɪlz-'reps",
+      "pos": "",
+      "zh": "推销员",
+      "lesson": 17
+    },
+    {
+      "en": "man",
+      "ipa": "mæn",
+      "pos": "n.",
+      "zh": "男人",
+      "lesson": 17
+    },
+    {
+      "en": "office",
+      "ipa": "'ɒfɪs",
+      "pos": "n.",
+      "zh": "办公室",
+      "lesson": 17
+    },
+    {
+      "en": "assistant",
+      "ipa": "ə'sɪstənt",
+      "pos": "n.",
+      "zh": "助手",
+      "lesson": 17
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Mr. Jackson",
+      "en": "Come and meet our employees,",
+      "zh": "来见见我们的雇员，"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "Mr. Richards.",
+      "zh": "理查兹先生。"
+    },
+    {
+      "speaker": "Mr. Richards",
+      "en": "Thank you, Mr. Jackson.",
+      "zh": "谢谢，杰克逊先生。"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "This is Nicola Grey,",
+      "zh": "这位是尼古拉·格雷，"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "and this is Claire Taylor.",
+      "zh": "这位是克莱尔·泰勒。"
+    },
+    {
+      "speaker": "Mr. Richards",
+      "en": "How do you do?",
+      "zh": "你们好！"
+    },
+    {
+      "speaker": "Mr. Richards",
+      "en": "Those women are very hard-working.",
+      "zh": "那些姑娘很勤快。"
+    },
+    {
+      "speaker": "Mr. Richards",
+      "en": "What are their jobs?",
+      "zh": "她们是做什么工作的？"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "They're keyboard operators.",
+      "zh": "她们是电脑输录入员。"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "This is Michael Baker,",
+      "zh": "这位是迈克尔·贝克，"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "and this is Jeremy Short.",
+      "zh": "这位是杰里米·肖特。"
+    },
+    {
+      "speaker": "Mr. Richards",
+      "en": "How do you do?",
+      "zh": "你们好！"
+    },
+    {
+      "speaker": "Mr. Richards",
+      "en": "They aren't very busy!",
+      "zh": "他们不很忙吧！"
+    },
+    {
+      "speaker": "Mr. Richards",
+      "en": "What are their jobs?",
+      "zh": "他们是做什么工作的？"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "They're sales reps.",
+      "zh": "他们是推销员。"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "They're very lazy.",
+      "zh": "他们非常懒。"
+    },
+    {
+      "speaker": "Mr. Richards",
+      "en": "Who is this young man?",
+      "zh": "这个年轻人是谁？"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "This is Jim.",
+      "zh": "他是吉姆，"
+    },
+    {
+      "speaker": "Mr. Jackson",
+      "en": "He's our office assistant.",
+      "zh": "是我们办公室的勤杂人员。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "That man is tall. ___ is a policeman.",
+      "zh": "那个男人很高，他是警察。",
+      "options": [
+        "He",
+        "She",
+        "We",
+        "They"
+      ]
+    },
+    {
+      "en": "Those girls are busy. ___ are keyboard operators.",
+      "zh": "那些姑娘很忙，她们是电脑录入员。",
+      "options": [
+        "They",
+        "She",
+        "We",
+        "He"
+      ]
+    },
+    {
+      "en": "Our names are Britt and Inge. ___ are Swedish.",
+      "zh": "我们的名字是布里特和英奇，我们是瑞典人。",
+      "options": [
+        "We",
+        "They",
+        "She",
+        "He"
+      ]
+    },
+    {
+      "en": "Look at Nicola. ___ is very pretty.",
+      "zh": "看看尼古拉，她很漂亮。",
+      "options": [
+        "She",
+        "He",
+        "They",
+        "We"
+      ]
+    },
+    {
+      "en": "What are ___ jobs? They're sales reps.",
+      "zh": "他们是做什么工作的？他们是推销员。",
+      "options": [
+        "their",
+        "they",
+        "there",
+        "our"
+      ]
+    },
+    {
+      "en": "Are they mechanics? No, they ___ mechanics.",
+      "zh": "他们是机械师吗？不，他们不是机械师。",
+      "options": [
+        "aren't",
+        "isn't",
+        "not",
+        "are"
+      ]
+    },
+    {
+      "en": "one policeman, two ___",
+      "zh": "一个警察，两个警察",
+      "options": [
+        "policemen",
+        "policemans",
+        "policemens",
+        "police"
+      ]
+    },
+    {
+      "en": "one housewife, two ___",
+      "zh": "一个家庭妇女，两个家庭妇女",
+      "options": [
+        "housewives",
+        "housewifes",
+        "housewife",
+        "housewifs"
+      ]
+    },
+    {
+      "en": "Come and ___ our employees.",
+      "zh": "来见见我们的雇员。",
+      "options": [
+        "meet",
+        "look",
+        "catch",
+        "thank"
+      ]
+    }
+  ]
+}

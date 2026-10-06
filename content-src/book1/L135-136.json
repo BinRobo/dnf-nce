@@ -1,0 +1,285 @@
+{
+  "id": "L135-136",
+  "lessons": [
+    135,
+    136
+  ],
+  "title": "The latest report",
+  "titleZh": "最新消息",
+  "evenTitle": "He said (that) he ... / He told me (that) he ...",
+  "evenTitleZh": "他（曾）说他……／他（曾）告诉我说他……",
+  "video": {
+    "pass": 0,
+    "starts": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      35
+    ]
+  },
+  "words": [
+    {
+      "en": "future",
+      "ipa": "'fjuːtʃə",
+      "pos": "adj.",
+      "zh": "未来的",
+      "lesson": 135
+    },
+    {
+      "en": "get married",
+      "ipa": "",
+      "pos": "",
+      "zh": "结婚",
+      "lesson": 135
+    },
+    {
+      "en": "hotel",
+      "ipa": "həʊ'tel",
+      "pos": "n.",
+      "zh": "饭店，旅馆",
+      "lesson": 135
+    },
+    {
+      "en": "latest",
+      "ipa": "'leɪtɪst",
+      "pos": "adj.",
+      "zh": "最新的",
+      "lesson": 135
+    },
+    {
+      "en": "introduce",
+      "ipa": "ˌɪntrə'djuːs",
+      "pos": "v.",
+      "zh": "介绍",
+      "lesson": 135
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Reporter",
+      "en": "Are you really going to retire, Miss Marsh?",
+      "zh": "马什小姐，您真的准备退休吗？"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "I may.",
+      "zh": "有可能退。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "I can't make up my mind.",
+      "zh": "我还拿不定主意。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "I will have to ask my future husband.",
+      "zh": "我得问一下我的未婚夫。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "He won't let me make another film.",
+      "zh": "他不会再让我拍电影了。"
+    },
+    {
+      "speaker": "Reporter",
+      "en": "Your future husband, Miss Marsh?",
+      "zh": "您的未婚夫，马什小姐？"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "Yes.",
+      "zh": "是的。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "Let me introduce him to you.",
+      "zh": "让我把他给你们介绍一下。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "His name is Carlos.",
+      "zh": "他叫卡洛斯。"
+    },
+    {
+      "speaker": "Miss Marsh",
+      "en": "We're going to get married next week.",
+      "zh": "下星期我们就要结婚了。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "Look, Liz!",
+      "zh": "看啊，莉兹！"
+    },
+    {
+      "speaker": "Kate",
+      "en": "Here's another report about Karen Marsh.",
+      "zh": "这又有一篇关于卡伦·马什的报道。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "Listen: 'Karen Marsh: The latest.",
+      "zh": "你听，“卡伦·马什：最新消息。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "At her London Hotel today",
+      "zh": "今天在伦敦旅馆，"
+    },
+    {
+      "speaker": "Kate",
+      "en": "Miss Marsh told reporters she might retire.",
+      "zh": "马什小姐告诉记者她可能要退休。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "She said she couldn't make up her mind.",
+      "zh": "她说她还拿不定主意。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "She said she would have to ask her future husband.",
+      "zh": "她说她得问问她的未婚夫。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "She said her future husband would not let her make another film.",
+      "zh": "她说她的未婚夫不会再让她拍电影。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "Then she introduced us to Carlos",
+      "zh": "然后她把我们介绍给卡洛斯，"
+    },
+    {
+      "speaker": "Kate",
+      "en": "and told us they would get married next week.'",
+      "zh": "并告诉我们说他们下星期结婚。”"
+    },
+    {
+      "speaker": "Liz",
+      "en": "That's sensational news, isn't it, Kate?",
+      "zh": "凯特，这真是条轰动的消息，是不是？"
+    },
+    {
+      "speaker": "Kate",
+      "en": "It certainly is.",
+      "zh": "当然啦。"
+    },
+    {
+      "speaker": "Kate",
+      "en": "He'll be her sixth husband!",
+      "zh": "他将是她的第6个丈夫！"
+    }
+  ],
+  "drills": [
+    {
+      "en": "I will leave tomorrow. → He said he ___ leave tomorrow.",
+      "zh": "他说他明天走。",
+      "options": [
+        "would",
+        "will",
+        "is",
+        "does"
+      ]
+    },
+    {
+      "en": "I can't do this Maths problem. → He said he ___ do this Maths problem.",
+      "zh": "他说他做不了这道数学题。",
+      "options": [
+        "couldn't",
+        "can't",
+        "didn't",
+        "hasn't"
+      ]
+    },
+    {
+      "en": "I may return at six o'clock. → She said she ___ return at six o'clock.",
+      "zh": "她说她可能六点回来。",
+      "options": [
+        "might",
+        "may",
+        "must",
+        "mights"
+      ]
+    },
+    {
+      "en": "I will write to him. → He said he ___ write to him.",
+      "zh": "他说他会给他写信。",
+      "options": [
+        "would",
+        "will",
+        "shall",
+        "does"
+      ]
+    },
+    {
+      "en": "I can finish it. → He told me he ___ finish it.",
+      "zh": "他告诉我他能做完。",
+      "options": [
+        "could",
+        "can",
+        "did",
+        "may"
+      ]
+    },
+    {
+      "en": "Are you really going to retire, Miss Marsh? I ___.",
+      "zh": "您真的准备退休吗，马什小姐？有可能。",
+      "options": [
+        "may",
+        "are",
+        "do",
+        "did"
+      ]
+    },
+    {
+      "en": "Let me ___ him to you.",
+      "zh": "让我把他给你们介绍一下。",
+      "options": [
+        "introduce",
+        "introduced",
+        "introduces",
+        "introducing"
+      ]
+    },
+    {
+      "en": "They're going to get ___ next week.",
+      "zh": "他们下星期就要结婚了。",
+      "options": [
+        "married",
+        "marry",
+        "marrying",
+        "hotel"
+      ]
+    },
+    {
+      "en": "Miss Marsh will have to ask her ___ husband.",
+      "zh": "马什小姐得问问她的未婚夫。",
+      "options": [
+        "future",
+        "latest",
+        "sensational",
+        "married"
+      ]
+    }
+  ]
+}

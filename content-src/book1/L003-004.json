@@ -1,0 +1,230 @@
+{
+  "id": "L003-004",
+  "lessons": [
+    3,
+    4
+  ],
+  "title": "Sorry, sir.",
+  "titleZh": "对不起，先生。",
+  "evenTitle": "Is this your ...?",
+  "evenTitleZh": "这是你的……吗？",
+  "words": [
+    {
+      "en": "umbrella",
+      "ipa": "ʌm'brelə",
+      "pos": "n.",
+      "zh": "伞",
+      "lesson": 3
+    },
+    {
+      "en": "please",
+      "ipa": "pliːz",
+      "pos": "int.",
+      "zh": "请",
+      "lesson": 3
+    },
+    {
+      "en": "here",
+      "ipa": "hɪə",
+      "pos": "adv.",
+      "zh": "这里",
+      "lesson": 3
+    },
+    {
+      "en": "my",
+      "ipa": "maɪ",
+      "pos": "adj.",
+      "zh": "我的",
+      "lesson": 3
+    },
+    {
+      "en": "ticket",
+      "ipa": "'tɪkɪt",
+      "pos": "n.",
+      "zh": "票",
+      "lesson": 3
+    },
+    {
+      "en": "number",
+      "ipa": "'nʌmbə",
+      "pos": "n.",
+      "zh": "号码",
+      "lesson": 3
+    },
+    {
+      "en": "five",
+      "ipa": "faɪv",
+      "pos": "num.",
+      "zh": "五",
+      "lesson": 3
+    },
+    {
+      "en": "sorry",
+      "ipa": "'sɒri",
+      "pos": "adj.",
+      "zh": "对不起的",
+      "lesson": 3
+    },
+    {
+      "en": "sir",
+      "ipa": "sɜː",
+      "pos": "n.",
+      "zh": "先生",
+      "lesson": 3
+    },
+    {
+      "en": "cloakroom",
+      "ipa": "'kləʊkrʊm",
+      "pos": "n.",
+      "zh": "衣帽存放处",
+      "lesson": 3
+    },
+    {
+      "en": "suit",
+      "ipa": "suːt",
+      "pos": "n.",
+      "zh": "一套衣服",
+      "lesson": 4
+    },
+    {
+      "en": "school",
+      "ipa": "skuːl",
+      "pos": "n.",
+      "zh": "学校",
+      "lesson": 4
+    },
+    {
+      "en": "teacher",
+      "ipa": "'tiːtʃə",
+      "pos": "n.",
+      "zh": "老师",
+      "lesson": 4
+    },
+    {
+      "en": "son",
+      "ipa": "sʌn",
+      "pos": "n.",
+      "zh": "儿子",
+      "lesson": 4
+    },
+    {
+      "en": "daughter",
+      "ipa": "'dɔːtə",
+      "pos": "n.",
+      "zh": "女儿",
+      "lesson": 4
+    }
+  ],
+  "lines": [
+    {
+      "en": "My coat and my umbrella please.",
+      "zh": "请把我的大衣和伞拿给我。"
+    },
+    {
+      "en": "Here is my ticket.",
+      "zh": "这是我（寄存东西）的牌子。"
+    },
+    {
+      "en": "Thank you, sir.",
+      "zh": "谢谢，先生。"
+    },
+    {
+      "en": "Number five.",
+      "zh": "是5号。"
+    },
+    {
+      "en": "Here's your umbrella and your coat.",
+      "zh": "这是您的伞和大衣。"
+    },
+    {
+      "en": "This is not my umbrella.",
+      "zh": "这不是我的伞。"
+    },
+    {
+      "en": "Sorry, sir.",
+      "zh": "对不起，先生。"
+    },
+    {
+      "en": "Is this your umbrella?",
+      "zh": "这把伞是您的吗？"
+    },
+    {
+      "en": "No, it isn't.",
+      "zh": "不，不是！"
+    },
+    {
+      "en": "Is this it?",
+      "zh": "这把是吗？"
+    },
+    {
+      "en": "Yes, it is.",
+      "zh": "是，是这把。"
+    },
+    {
+      "en": "Thank you very much.",
+      "zh": "非常感谢。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Is this your suit? No, it ___.",
+      "zh": "这是你的西装吗？不，不是。",
+      "options": [
+        "isn't",
+        "is",
+        "not",
+        "it"
+      ]
+    },
+    {
+      "en": "This is ___ my umbrella.",
+      "zh": "这不是我的伞。",
+      "options": [
+        "not",
+        "no",
+        "isn't",
+        "my"
+      ]
+    },
+    {
+      "en": "___ is my ticket.",
+      "zh": "这是我的票。",
+      "options": [
+        "Here",
+        "Is",
+        "Please",
+        "Sir"
+      ]
+    },
+    {
+      "en": "Is this your school? Yes, ___ is.",
+      "zh": "这是你的学校吗？是的。",
+      "options": [
+        "it",
+        "this",
+        "is",
+        "your"
+      ]
+    },
+    {
+      "en": "No. It isn't my umbrella. It's ___ umbrella.",
+      "zh": "不，这不是我的伞，是你的伞。",
+      "options": [
+        "your",
+        "my",
+        "you",
+        "it"
+      ]
+    },
+    {
+      "en": "Is this your ___?",
+      "zh": "这是你的儿子吗？",
+      "options": [
+        "son",
+        "daughter",
+        "teacher",
+        "school"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "L013-014",
+  "lessons": [
+    13,
+    14
+  ],
+  "title": "A new dress",
+  "titleZh": "一件新连衣裙",
+  "evenTitle": "What colour's your ...?",
+  "evenTitleZh": "你的……是什么颜色的？",
+  "words": [
+    {
+      "en": "colour",
+      "ipa": "'kʌlə",
+      "pos": "n.",
+      "zh": "颜色",
+      "lesson": 13
+    },
+    {
+      "en": "green",
+      "ipa": "ɡriːn",
+      "pos": "adj.",
+      "zh": "绿色",
+      "lesson": 13
+    },
+    {
+      "en": "come",
+      "ipa": "kʌm",
+      "pos": "v.",
+      "zh": "来",
+      "lesson": 13
+    },
+    {
+      "en": "upstairs",
+      "ipa": "ʌp'steəz",
+      "pos": "adv.",
+      "zh": "楼上",
+      "lesson": 13
+    },
+    {
+      "en": "smart",
+      "ipa": "smɑːt",
+      "pos": "adj.",
+      "zh": "时髦的，巧妙的",
+      "lesson": 13
+    },
+    {
+      "en": "hat",
+      "ipa": "hæt",
+      "pos": "n.",
+      "zh": "帽子",
+      "lesson": 13
+    },
+    {
+      "en": "same",
+      "ipa": "seɪm",
+      "pos": "adj.",
+      "zh": "相同的",
+      "lesson": 13
+    },
+    {
+      "en": "lovely",
+      "ipa": "'lʌvli",
+      "pos": "adj.",
+      "zh": "可爱的，秀丽的",
+      "lesson": 13
+    },
+    {
+      "en": "case",
+      "ipa": "keɪs",
+      "pos": "n.",
+      "zh": "箱子",
+      "lesson": 14
+    },
+    {
+      "en": "carpet",
+      "ipa": "'kɑːpɪt",
+      "pos": "n.",
+      "zh": "地毯",
+      "lesson": 14
+    },
+    {
+      "en": "dog",
+      "ipa": "dɒɡ",
+      "pos": "n.",
+      "zh": "狗",
+      "lesson": 14
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Louise",
+      "en": "What colour's your new dress?",
+      "zh": "你的新连衣裙是什么颜色的？"
+    },
+    {
+      "speaker": "Anna",
+      "en": "It's green.",
+      "zh": "是绿色的。"
+    },
+    {
+      "speaker": "Anna",
+      "en": "Come upstairs and see it.",
+      "zh": "到楼上来看看吧。"
+    },
+    {
+      "speaker": "Louise",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    },
+    {
+      "speaker": "Anna",
+      "en": "Look!",
+      "zh": "瞧，"
+    },
+    {
+      "speaker": "Anna",
+      "en": "Here it is!",
+      "zh": "就是这件。"
+    },
+    {
+      "speaker": "Louise",
+      "en": "That's a nice dress.",
+      "zh": "这件连衣裙真好，"
+    },
+    {
+      "speaker": "Louise",
+      "en": "It's very smart.",
+      "zh": "真漂亮。"
+    },
+    {
+      "speaker": "Anna",
+      "en": "My hat's new, too.",
+      "zh": "我的帽子也是新的。"
+    },
+    {
+      "speaker": "Louise",
+      "en": "What colour is it?",
+      "zh": "是什么颜色的？"
+    },
+    {
+      "speaker": "Anna",
+      "en": "It's the same colour.",
+      "zh": "一样的颜色，"
+    },
+    {
+      "speaker": "Anna",
+      "en": "It's green, too.",
+      "zh": "也是绿的。"
+    },
+    {
+      "speaker": "Louise",
+      "en": "That is a lovely hat!",
+      "zh": "真是一顶可爱的帽子！"
+    }
+  ],
+  "drills": [
+    {
+      "en": "This is Paul. This is his car. → This is ___ car.",
+      "zh": "这是保罗的车。",
+      "options": [
+        "Paul's",
+        "Paul",
+        "his's",
+        "Pauls"
+      ]
+    },
+    {
+      "en": "This is Helen. This is her dog. → This is ___ dog.",
+      "zh": "这是海伦的狗。",
+      "options": [
+        "Helen's",
+        "her's",
+        "Helen",
+        "Helens"
+      ]
+    },
+    {
+      "en": "What colour's Steven's umbrella? ___ umbrella's black.",
+      "zh": "史蒂文的伞是什么颜色的？他的伞是黑色的。",
+      "options": [
+        "His",
+        "Her",
+        "He's",
+        "Its"
+      ]
+    },
+    {
+      "en": "What colour's Sophie's coat? Her coat's ___.",
+      "zh": "索菲娅的外衣是什么颜色的？她的外衣是灰色的。",
+      "options": [
+        "grey",
+        "green",
+        "blue",
+        "white"
+      ]
+    },
+    {
+      "en": "___ colour's your new dress?",
+      "zh": "你的新连衣裙是什么颜色的？",
+      "options": [
+        "What",
+        "Whose",
+        "How",
+        "Which"
+      ]
+    },
+    {
+      "en": "Come ___ and see it.",
+      "zh": "到楼上来看看吧。",
+      "options": [
+        "upstairs",
+        "here",
+        "look",
+        "same"
+      ]
+    },
+    {
+      "en": "It's the ___ colour. It's green, too.",
+      "zh": "一样的颜色，也是绿的。",
+      "options": [
+        "same",
+        "smart",
+        "nice",
+        "new"
+      ]
+    },
+    {
+      "en": "That is a ___ hat!",
+      "zh": "真是一顶可爱的帽子！",
+      "options": [
+        "lovely",
+        "lazy",
+        "busy",
+        "dirty"
+      ]
+    }
+  ]
+}

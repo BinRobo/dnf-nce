@@ -1,0 +1,266 @@
+{
+  "id": "L021-022",
+  "lessons": [
+    21,
+    22
+  ],
+  "title": "Which book?",
+  "titleZh": "哪一本书？",
+  "evenTitle": "Give me/him/her/us/them a ... Which one?",
+  "evenTitleZh": "给我/他/她/我们/他们一……哪一……？",
+  "words": [
+    {
+      "en": "give",
+      "ipa": "ɡɪv",
+      "pos": "v.",
+      "zh": "给",
+      "lesson": 21
+    },
+    {
+      "en": "one",
+      "ipa": "wʌn",
+      "pos": "pron.",
+      "zh": "一个",
+      "lesson": 21
+    },
+    {
+      "en": "which",
+      "ipa": "wɪtʃ",
+      "pos": "",
+      "zh": "哪一个",
+      "lesson": 21
+    },
+    {
+      "en": "empty",
+      "ipa": "'empti",
+      "pos": "adj.",
+      "zh": "空的",
+      "lesson": 22
+    },
+    {
+      "en": "full",
+      "ipa": "fʊl",
+      "pos": "adj.",
+      "zh": "满的",
+      "lesson": 22
+    },
+    {
+      "en": "large",
+      "ipa": "lɑːdʒ",
+      "pos": "adj.",
+      "zh": "大的",
+      "lesson": 22
+    },
+    {
+      "en": "little",
+      "ipa": "'lɪtl",
+      "pos": "adj.",
+      "zh": "小的",
+      "lesson": 22
+    },
+    {
+      "en": "sharp",
+      "ipa": "ʃɑːp",
+      "pos": "adj.",
+      "zh": "尖的，锋利的",
+      "lesson": 22
+    },
+    {
+      "en": "blunt",
+      "ipa": "blʌnt",
+      "pos": "adj.",
+      "zh": "钝的",
+      "lesson": 22
+    },
+    {
+      "en": "box",
+      "ipa": "bɒks",
+      "pos": "n.",
+      "zh": "盒子，箱子",
+      "lesson": 22
+    },
+    {
+      "en": "glass",
+      "ipa": "ɡlɑːs",
+      "pos": "n.",
+      "zh": "杯子",
+      "lesson": 22
+    },
+    {
+      "en": "cup",
+      "ipa": "kʌp",
+      "pos": "n.",
+      "zh": "茶杯",
+      "lesson": 22
+    },
+    {
+      "en": "bottle",
+      "ipa": "'bɒtl",
+      "pos": "n.",
+      "zh": "瓶子",
+      "lesson": 22
+    },
+    {
+      "en": "tin",
+      "ipa": "tɪn",
+      "pos": "n.",
+      "zh": "罐头",
+      "lesson": 22
+    },
+    {
+      "en": "knife",
+      "ipa": "naɪf",
+      "pos": "n.",
+      "zh": "刀子",
+      "lesson": 22
+    },
+    {
+      "en": "fork",
+      "ipa": "fɔːk",
+      "pos": "n.",
+      "zh": "叉子",
+      "lesson": 22
+    },
+    {
+      "en": "spoon",
+      "ipa": "spuːn",
+      "pos": "n.",
+      "zh": "勺子",
+      "lesson": 22
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Man",
+      "en": "Give me a book please, Jane.",
+      "zh": "请拿本书给我，简。"
+    },
+    {
+      "speaker": "Woman",
+      "en": "Which book?",
+      "zh": "哪一本？"
+    },
+    {
+      "speaker": "Woman",
+      "en": "This one?",
+      "zh": "是这本吗？"
+    },
+    {
+      "speaker": "Man",
+      "en": "No, not that one. The red one.",
+      "zh": "不，不是那本。是那本红皮的。"
+    },
+    {
+      "speaker": "Woman",
+      "en": "This one?",
+      "zh": "这本吗？"
+    },
+    {
+      "speaker": "Man",
+      "en": "Yes, please.",
+      "zh": "是的，请给我。"
+    },
+    {
+      "speaker": "Woman",
+      "en": "Here you are.",
+      "zh": "给你。"
+    },
+    {
+      "speaker": "Man",
+      "en": "Thank you.",
+      "zh": "谢谢。"
+    }
+  ],
+  "drills": [
+    {
+      "en": "Is this Nicola's coat? No, it's not. ___ coat is grey.",
+      "zh": "这是尼古拉的外衣吗？不是。她的外衣是灰色的。",
+      "options": [
+        "Her",
+        "His",
+        "Our",
+        "Their"
+      ]
+    },
+    {
+      "en": "Are these your pens? No, they're not. ___ pens are blue.",
+      "zh": "这些是你们的钢笔吗？不是。我们的钢笔是蓝色的。",
+      "options": [
+        "Our",
+        "Their",
+        "His",
+        "Her"
+      ]
+    },
+    {
+      "en": "Is this Mr. Jackson's hat? No, it's not. ___ hat is black.",
+      "zh": "这是杰克逊先生的帽子吗？不是。他的帽子是黑色的。",
+      "options": [
+        "His",
+        "Her",
+        "Our",
+        "Their"
+      ]
+    },
+    {
+      "en": "Are these the children's books? No, they're not. ___ books are red.",
+      "zh": "这些是孩子们的书吗？不是。他们的书是红色的。",
+      "options": [
+        "Their",
+        "Our",
+        "His",
+        "Her"
+      ]
+    },
+    {
+      "en": "Give me a cup please. Which one? This dirty one? No, not this dirty one. That clean ___.",
+      "zh": "请给我一个茶杯。哪一个？这个脏的？不，是那个干净的。",
+      "options": [
+        "one",
+        "cup's",
+        "it",
+        "ones"
+      ]
+    },
+    {
+      "en": "___ book? This one?",
+      "zh": "哪一本？是这本吗？",
+      "options": [
+        "Which",
+        "What",
+        "Whose",
+        "How"
+      ]
+    },
+    {
+      "en": "Give ___ a book please, Jane.",
+      "zh": "请拿本书给我，简。",
+      "options": [
+        "me",
+        "my",
+        "I",
+        "your"
+      ]
+    },
+    {
+      "en": "This glass isn't full. It's ___.",
+      "zh": "这个杯子不是满的，是空的。",
+      "options": [
+        "empty",
+        "blunt",
+        "sharp",
+        "little"
+      ]
+    },
+    {
+      "en": "This knife isn't sharp. It's ___.",
+      "zh": "这把刀不锋利，是钝的。",
+      "options": [
+        "blunt",
+        "empty",
+        "full",
+        "large"
+      ]
+    }
+  ]
+}
