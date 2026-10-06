@@ -1,0 +1,31 @@
+{
+  "id": "L001_intro",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "woman",
+      "side": "right"
+    },
+    {
+      "t": "narr",
+      "zh": "她急得直跺脚，却一个字也说不出。"
+    },
+    {
+      "t": "say",
+      "who": "woman",
+      "face": "sad",
+      "zh": "我的包……我的……！（拼命比划）"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "normal",
+      "en": "Is this your handbag?",
+      "audio": {
+        "lesson": "L001-002",
+        "line": 2
+      }
+    }
+  ]
+}

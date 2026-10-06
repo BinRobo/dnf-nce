@@ -1,0 +1,18 @@
+{
+  "id": "boss_L005_p2",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "boss_whomist",
+      "face": "happy",
+      "zh": "嘿嘿，你们的名字真好吃！"
+    },
+    {
+      "t": "say",
+      "who": "naoko",
+      "face": "happy",
+      "zh": "加油！我们相信你！"
+    }
+  ]
+}

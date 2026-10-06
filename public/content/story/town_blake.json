@@ -1,0 +1,28 @@
+{
+  "id": "town_blake",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "en": "Good morning.",
+      "audio": {
+        "lesson": "L005-006",
+        "line": 0
+      }
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "normal",
+      "zh": "每恢复一页台词簿，雾就薄一点。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "慢慢来，说错了也没关系。"
+    }
+  ]
+}

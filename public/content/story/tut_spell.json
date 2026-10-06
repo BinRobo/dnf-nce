@@ -1,0 +1,18 @@
+{
+  "id": "tut_spell",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "zh": "拆字哥布林来了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "拼对一个字母砍一刀，拼完放大招！"
+    }
+  ]
+}

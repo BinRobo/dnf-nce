@@ -1,0 +1,18 @@
+{
+  "id": "tut_wrong",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "没关系，护盾先挡住了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "zh": "看看正确答案，它还会回来。"
+    }
+  ]
+}

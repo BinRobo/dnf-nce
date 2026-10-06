@@ -1,0 +1,18 @@
+{
+  "id": "tut_exit",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "zh": "看右上角小地图。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "绿色是去过的房间，也可去宝箱房。"
+    }
+  ]
+}

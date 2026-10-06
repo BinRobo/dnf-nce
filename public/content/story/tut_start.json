@@ -1,0 +1,24 @@
+{
+  "id": "tut_start",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "zh": "每只怪都偷走了一个词。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "答对题，就能出招！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "别着急，答题时不计时。"
+    }
+  ]
+}

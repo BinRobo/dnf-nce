@@ -1,0 +1,44 @@
+{
+  "id": "L005_duke",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "flash"
+    },
+    {
+      "t": "narr",
+      "zh": "舞台灯一盏盏熄灭。"
+    },
+    {
+      "t": "fx",
+      "key": "shake"
+    },
+    {
+      "t": "say",
+      "who": "duke",
+      "face": "normal",
+      "zh": "说话，只会被人嘲笑……"
+    },
+    {
+      "t": "say",
+      "who": "duke",
+      "face": "normal",
+      "zh": "小家伙，我们很快再见。"
+    },
+    {
+      "t": "narr",
+      "zh": "公爵消失在黑暗里。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "zh": "我们一定会赢的。"
+    },
+    {
+      "t": "narr",
+      "zh": "Sophie 握紧了拳头。"
+    }
+  ]
+}

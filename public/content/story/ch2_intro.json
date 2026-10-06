@@ -1,0 +1,68 @@
+{
+  "id": "ch2_intro",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "narr",
+      "zh": "山谷村的烟囱不冒烟了，一切安安静静。"
+    },
+    {
+      "t": "enter",
+      "who": "mrs_smith",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "mrs_smith",
+      "face": "sad",
+      "zh": "我的厨房……东西全跑错地方了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "en": "Mrs. Smith's kitchen is small.",
+      "audio": {
+        "lesson": "L025-026",
+        "line": 0
+      }
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "zh": "可现在连小冰箱都找不到了。"
+    },
+    {
+      "t": "enter",
+      "who": "tim",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "tim",
+      "face": "surprised",
+      "zh": "我在爬树，雾一来，树就不见啦！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "en": "He's climbing the tree.",
+      "audio": {
+        "lesson": "L031-032",
+        "line": 6
+      }
+    },
+    {
+      "t": "say",
+      "who": "mrs_smith",
+      "face": "normal",
+      "zh": "孩子，帮我们把东西找回来吧！"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：进入山谷村地下城（L25-48）"
+    }
+  ]
+}

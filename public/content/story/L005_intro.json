@@ -1,0 +1,33 @@
+{
+  "id": "L005_intro",
+  "bg": "classroom",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "blake",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "sad",
+      "zh": "这位是……呃，名字被雾吃掉了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "sad",
+      "zh": "我还想认识大家呢……"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "normal",
+      "en": "And this is Naoko.",
+      "audio": {
+        "lesson": "L005-006",
+        "line": 8
+      }
+    }
+  ]
+}

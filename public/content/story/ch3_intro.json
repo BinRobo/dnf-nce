@@ -1,0 +1,73 @@
+{
+  "id": "ch3_intro",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "narr",
+      "zh": "国王街冷冷清清，只有咳嗽声。"
+    },
+    {
+      "t": "enter",
+      "who": "mrs_bird",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "mrs_bird",
+      "face": "sad",
+      "zh": "大家都病倒了，肉铺也没开门。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "en": "The Sawyers live at 87 King Street.",
+      "audio": {
+        "lesson": "L055-056",
+        "line": 0
+      }
+    },
+    {
+      "t": "enter",
+      "who": "jimmy",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "jimmy",
+      "face": "normal",
+      "zh": "咳咳，我感冒了，今天不用上学吧？"
+    },
+    {
+      "t": "say",
+      "who": "mrs_bird",
+      "face": "normal",
+      "en": "We must call the doctor.",
+      "audio": {
+        "lesson": "L061-062",
+        "line": 5
+      }
+    },
+    {
+      "t": "enter",
+      "who": "doctor",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "doctor",
+      "face": "surprised",
+      "zh": "雾把我的听诊器都糊住了。"
+    },
+    {
+      "t": "say",
+      "who": "doctor",
+      "face": "normal",
+      "zh": "小英雄，请帮帮这条街。"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：进入国王街地下城（L49-72）"
+    }
+  ]
+}

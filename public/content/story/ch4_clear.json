@@ -1,0 +1,59 @@
+{
+  "id": "ch4_clear",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "boss_train",
+      "face": "sad",
+      "zh": "呜……我只是想让大家都准点上车。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "en": "Two return tickets to London, please.",
+      "audio": {
+        "lesson": "L095-096",
+        "line": 0
+      }
+    },
+    {
+      "t": "say",
+      "who": "carol",
+      "face": "happy",
+      "zh": "清单恢复啦，今晚不吃烤牛肉！"
+    },
+    {
+      "t": "say",
+      "who": "mrs_mills",
+      "face": "happy",
+      "zh": "我知道去 King Street 的路了！"
+    },
+    {
+      "t": "item",
+      "key": "page96",
+      "zh": "台词簿第 96 页已恢复"
+    },
+    {
+      "t": "say",
+      "who": "sam",
+      "face": "happy",
+      "zh": "祝你们旅途愉快，别忘了带伞。"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "surprised",
+      "zh": "听，雪山那边有铃声，邮局好像出事了。"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：前往雪山邮局（第 5 章 L97-120）"
+    }
+  ]
+}

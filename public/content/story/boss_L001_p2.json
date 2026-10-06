@@ -1,0 +1,22 @@
+{
+  "id": "boss_L001_p2",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "boss_pardon",
+      "face": "happy",
+      "zh": "呼——吞音雾！你们听不清啦！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "en": "Pardon?",
+      "audio": {
+        "lesson": "L001-002",
+        "line": 3
+      }
+    }
+  ]
+}

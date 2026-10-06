@@ -1,0 +1,47 @@
+{
+  "id": "ch3_boss",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "boss_phone",
+      "side": "right"
+    },
+    {
+      "t": "sfx",
+      "key": "boss_appear"
+    },
+    {
+      "t": "say",
+      "who": "boss_phone",
+      "face": "normal",
+      "zh": "叮铃铃！我是连环领主，今天打了七通电话！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "en": "He's awful!",
+      "audio": {
+        "lesson": "L071-072",
+        "line": 1
+      }
+    },
+    {
+      "t": "say",
+      "who": "boss_phone",
+      "face": "normal",
+      "zh": "谁让你们不接？我要一直响下去！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "normal",
+      "en": "But I didn't answer the phone!",
+      "audio": {
+        "lesson": "L071-072",
+        "line": 10
+      }
+    }
+  ]
+}

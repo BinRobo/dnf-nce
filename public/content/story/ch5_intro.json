@@ -1,0 +1,77 @@
+{
+  "id": "ch5_intro",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "narr",
+      "zh": "雪山邮局被大雪埋了半截。"
+    },
+    {
+      "t": "enter",
+      "who": "david",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "david",
+      "face": "sad",
+      "zh": "我的小蓝箱子……又被寄错了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "en": "It's a small blue case and it's got a zip.",
+      "audio": {
+        "lesson": "L097-098",
+        "line": 2
+      }
+    },
+    {
+      "t": "enter",
+      "who": "andy",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "andy",
+      "face": "surprised",
+      "en": "Ow!",
+      "audio": {
+        "lesson": "L099-100",
+        "line": 0
+      }
+    },
+    {
+      "t": "enter",
+      "who": "lucy",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "lucy",
+      "face": "normal",
+      "en": "Here. Let me help you.",
+      "audio": {
+        "lesson": "L099-100",
+        "line": 8
+      }
+    },
+    {
+      "t": "say",
+      "who": "andy",
+      "face": "happy",
+      "zh": "没事，我是雪人战士！"
+    },
+    {
+      "t": "say",
+      "who": "david",
+      "face": "normal",
+      "zh": "小英雄，请你找回邮局的信。"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：进入雪山地下城（L97-120）"
+    }
+  ]
+}

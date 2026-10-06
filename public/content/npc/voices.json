@@ -1,0 +1,267 @@
+{
+  "_说明": "每个角色的配音（微软中文神经语音）。rate/pitch 为相对调整。",
+  "blake": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "-5%",
+    "pitch": "+0%",
+    "persona": "和蔼、有点啰嗦的班主任，戴眼镜，爱鼓励学生"
+  },
+  "sophie": {
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "+5%",
+    "pitch": "+5%",
+    "persona": "活泼话多的法国女孩，主角的第一个伙伴，好奇心强"
+  },
+  "woman": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "pitch": "+0%",
+    "persona": "温柔热情的女士，被救后在广场开了小店"
+  },
+  "hans": {
+    "voice": "zh-CN-YunxiaNeural",
+    "rate": "+0%",
+    "pitch": "+0%",
+    "persona": "德国男孩，憨厚爱运动"
+  },
+  "naoko": {
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "-5%",
+    "pitch": "+10%",
+    "persona": "日本女孩，文静害羞"
+  },
+  "changwoo": {
+    "voice": "zh-CN-YunxiaNeural",
+    "rate": "+8%",
+    "pitch": "+8%",
+    "persona": "韩国男孩，调皮"
+  },
+  "luming": {
+    "voice": "zh-CN-YunxiaNeural",
+    "rate": "-5%",
+    "pitch": "-5%",
+    "persona": "中国男孩，爱读书"
+  },
+  "xiaohui": {
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "+0%",
+    "pitch": "+0%",
+    "persona": "中国女孩，开朗"
+  },
+  "smith": {
+    "voice": "zh-CN-YunjianNeural",
+    "rate": "-8%",
+    "pitch": "-12%",
+    "persona": "集市区史诗工坊的老铁匠老乔，粗嗓门、豪爽"
+  },
+  "duke": {
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-15%",
+    "pitch": "-15%",
+    "persona": "缄默公爵，阴冷的反派，曾因忘词被嘲笑"
+  },
+  "boss_pardon": {
+    "voice": "zh-CN-YunjianNeural",
+    "rate": "-5%",
+    "pitch": "-10%",
+    "persona": "吞声领主帕顿，嗓门大、自大"
+  },
+  "boss_whomist": {
+    "voice": "zh-CN-YunyeNeural",
+    "rate": "-10%",
+    "pitch": "-5%",
+    "persona": "夺名迷雾胡迷斯，狡猾、慢吞吞"
+  },
+  "tailor": {
+    "voice": "zh-CN-XiaohanNeural",
+    "rate": "+8%",
+    "pitch": "-3%",
+    "persona": "集市的裁缝阿姨，热情爱夸人，语速偏快"
+  },
+  "mrs_smith": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-3%",
+    "pitch": "+0%",
+    "persona": "爱干净的厨房主人，整理狂，说话温柔唠叨"
+  },
+  "tim": {
+    "voice": "zh-CN-YunxiaNeural",
+    "rate": "+8%",
+    "pitch": "+10%",
+    "persona": "爱爬树的淘气男孩，Sally 的弟弟"
+  },
+  "george": {
+    "voice": "zh-CN-YunjianNeural",
+    "rate": "-5%",
+    "pitch": "-5%",
+    "persona": "热心手巧的木匠叔叔，爱给女儿做东西"
+  },
+  "mrs_bird": {
+    "voice": "zh-CN-XiaohanNeural",
+    "rate": "+0%",
+    "pitch": "+0%",
+    "persona": "爱聊天的家庭主妇，老逛肉铺"
+  },
+  "jimmy": {
+    "voice": "zh-CN-YunxiaNeural",
+    "rate": "+3%",
+    "pitch": "+8%",
+    "persona": "爱装病逃学的小男孩"
+  },
+  "doctor": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "-8%",
+    "pitch": "-8%",
+    "persona": "耐心稳重的家庭医生，爱叮嘱"
+  },
+  "carol": {
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "+5%",
+    "pitch": "+3%",
+    "persona": "精打细算的购物达人，爱列清单"
+  },
+  "sam": {
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "+0%",
+    "pitch": "+0%",
+    "persona": "爱开玩笑的邻居叔叔，什么都“已经”干过了"
+  },
+  "mrs_mills": {
+    "voice": "zh-CN-XiaomengNeural",
+    "rate": "+0%",
+    "pitch": "+2%",
+    "persona": "容易迷路的老太太，礼貌"
+  },
+  "david": {
+    "voice": "zh-CN-YunfengNeural",
+    "rate": "-3%",
+    "pitch": "-3%",
+    "persona": "粗心的旅客，常丢东西"
+  },
+  "andy": {
+    "voice": "zh-CN-YunxiaNeural",
+    "rate": "+5%",
+    "pitch": "+5%",
+    "persona": "爱冒险的男孩，总爱摔跤"
+  },
+  "lucy": {
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "+0%",
+    "pitch": "+10%",
+    "persona": "细心的女孩，爱照顾人"
+  },
+  "sally": {
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "+8%",
+    "pitch": "+8%",
+    "persona": "好奇心强的小女孩，第一次坐火车"
+  },
+  "actress": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "pitch": "+5%",
+    "persona": "爱美的大明星，容易夸张"
+  },
+  "reporter": {
+    "voice": "zh-CN-YunhaoNeural",
+    "rate": "+5%",
+    "pitch": "+0%",
+    "persona": "忙碌的记者，爱喊“轰动新闻”"
+  },
+  "boss_weixin": {
+    "voice": "zh-CN-YunyeNeural",
+    "rate": "+5%",
+    "pitch": "+5%",
+    "persona": "混名魔术师维辛，爱耍帅的魔术师"
+  },
+  "boss_wardrobe": {
+    "voice": "zh-CN-YunjianNeural",
+    "rate": "-10%",
+    "pitch": "-15%",
+    "persona": "挪位领主柜柜，笨重慢吞吞"
+  },
+  "boss_cloud": {
+    "voice": "zh-CN-YunyangNeural",
+    "rate": "-12%",
+    "pitch": "-10%",
+    "persona": "遮天领主闷雷，懒洋洋、嗡嗡的"
+  },
+  "boss_teapot": {
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "+0%",
+    "pitch": "+8%",
+    "persona": "沸腾领主咕噜，傲娇的茶壶女王"
+  },
+  "boss_sneeze": {
+    "voice": "zh-CN-YunxiaNeural",
+    "rate": "+10%",
+    "pitch": "+5%",
+    "persona": "喷嚏领主阿嚏，鼻音很重"
+  },
+  "boss_clock": {
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-8%",
+    "pitch": "-5%",
+    "persona": "滴答领主摆摆，严格死板"
+  },
+  "boss_phone": {
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "+15%",
+    "pitch": "+10%",
+    "persona": "连环领主铃叮，话多又急"
+  },
+  "boss_shoe": {
+    "voice": "zh-CN-YunjianNeural",
+    "rate": "-5%",
+    "pitch": "-18%",
+    "persona": "磨脚领主大靴靴，粗声粗气"
+  },
+  "boss_suitcase": {
+    "voice": "zh-CN-YunfengNeural",
+    "rate": "+0%",
+    "pitch": "-3%",
+    "persona": "行囊领主满满，贪心"
+  },
+  "boss_train": {
+    "voice": "zh-CN-YunhaoNeural",
+    "rate": "-5%",
+    "pitch": "-8%",
+    "persona": "汽笛领主呜呜，严厉的检票官"
+  },
+  "boss_snowman": {
+    "voice": "zh-CN-XiaohanNeural",
+    "rate": "-8%",
+    "pitch": "-5%",
+    "persona": "冻结领主雪团，慢吞吞冷冰冰"
+  },
+  "boss_mailbox": {
+    "voice": "zh-CN-YunyeNeural",
+    "rate": "+0%",
+    "pitch": "-3%",
+    "persona": "寄丢领主邮邮，官腔十足"
+  },
+  "boss_thief": {
+    "voice": "zh-CN-YunxiNeural",
+    "rate": "-12%",
+    "pitch": "-12%",
+    "persona": "窃贼领主黑雪，低声窃笑"
+  },
+  "boss_mask": {
+    "voice": "zh-CN-XiaoyiNeural",
+    "rate": "+0%",
+    "pitch": "+0%",
+    "persona": "假面领主笑哭，一会儿笑一会儿哭"
+  },
+  "boss_spotlight": {
+    "voice": "zh-CN-YunhaoNeural",
+    "rate": "+10%",
+    "pitch": "+8%",
+    "persona": "聚光领主亮亮，爱出风头"
+  },
+  "boss_curtain": {
+    "voice": "zh-CN-YunjianNeural",
+    "rate": "-10%",
+    "pitch": "-12%",
+    "persona": "落幕领主大幕，庄严夸张"
+  }
+}

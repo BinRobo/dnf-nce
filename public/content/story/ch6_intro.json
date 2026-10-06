@@ -1,0 +1,73 @@
+{
+  "id": "ch6_intro",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "narr",
+      "zh": "剧院的灯一盏盏全灭了，幕布纹丝不动。"
+    },
+    {
+      "t": "enter",
+      "who": "sally",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "sally",
+      "face": "sad",
+      "zh": "我第一次坐火车来，剧院却关门了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "en": "Can you recognize that woman, Liz?",
+      "audio": {
+        "lesson": "L127-128",
+        "line": 0
+      }
+    },
+    {
+      "t": "enter",
+      "who": "actress",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "actress",
+      "face": "sad",
+      "zh": "我是大明星，可台词全不见了！"
+    },
+    {
+      "t": "enter",
+      "who": "reporter",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "reporter",
+      "face": "surprised",
+      "zh": "轰动新闻！公爵躲在舞台最深处！"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "normal",
+      "en": "Are you going to make another?",
+      "audio": {
+        "lesson": "L133-134",
+        "line": 2
+      }
+    },
+    {
+      "t": "say",
+      "who": "sally",
+      "face": "happy",
+      "zh": "加油！等你来点亮舞台！"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：进入剧院地下城（L121-144）"
+    }
+  ]
+}

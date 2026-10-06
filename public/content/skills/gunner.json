@@ -1,0 +1,643 @@
+[
+ {
+  "id": "g_rapid",
+  "name": "速射",
+  "level": 1,
+  "desc": "连开四枪，字母子弹打个不停",
+  "glyph": "射",
+  "color": "#ffd34a",
+  "element": "phys",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "letter",
+    "n": 4,
+    "perRank": 1,
+    "gap": 70
+   }
+  ]
+ },
+ {
+  "id": "g_quick",
+  "name": "双枪连点",
+  "level": 1,
+  "desc": "左右开弓，音符子弹交替射出",
+  "glyph": "双",
+  "color": "#ffb86b",
+  "element": "phys",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "note",
+    "n": 6,
+    "perRank": 1,
+    "gap": 60,
+    "spread": 20
+   }
+  ]
+ },
+ {
+  "id": "g_grenade",
+  "name": "字母手雷",
+  "level": 3,
+  "desc": "扔出手雷，在敌人脚下炸开",
+  "glyph": "雷",
+  "color": "#ff8a3d",
+  "element": "fire",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "grenade",
+    "n": 1,
+    "perRank": 0,
+    "gap": 0
+   },
+   {
+    "do": "explode",
+    "kind": "fire",
+    "scale": 1.2
+   }
+  ]
+ },
+ {
+  "id": "g_kick",
+  "name": "回旋踢",
+  "level": 3,
+  "desc": "旋身连踢，再补一枪",
+  "glyph": "踢",
+  "color": "#7dffa5",
+  "element": "phys",
+  "fx": [
+   {
+    "do": "slash",
+    "n": 3,
+    "perRank": 1
+   },
+   {
+    "do": "shoot",
+    "proj": "bullet",
+    "n": 2,
+    "perRank": 1,
+    "gap": 80
+   }
+  ]
+ },
+ {
+  "id": "g_snipe",
+  "name": "精准狙击",
+  "level": 5,
+  "desc": "蓄力瞄准，一枪穿透敌人",
+  "glyph": "狙",
+  "color": "#9fe3ff",
+  "element": "phys",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#9fe3ff"
+   },
+   {
+    "do": "zoom"
+   },
+   {
+    "do": "shoot",
+    "proj": "bullet",
+    "n": 1,
+    "perRank": 0,
+    "gap": 0
+   },
+   {
+    "do": "explode",
+    "kind": "phys",
+    "scale": 1.3
+   }
+  ]
+ },
+ {
+  "id": "g_laser",
+  "name": "激光扫射",
+  "level": 5,
+  "desc": "一道横向激光扫过全场",
+  "glyph": "光",
+  "color": "#ff6b8b",
+  "element": "light",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ff6b8b"
+   },
+   {
+    "do": "beam",
+    "color": "#ff6b8b"
+   }
+  ]
+ },
+ {
+  "id": "g_emp",
+  "name": "电磁脉冲",
+  "level": 8,
+  "desc": "电磁弹带电爆炸，劈下闪电",
+  "glyph": "电",
+  "color": "#b8a6ff",
+  "element": "thunder",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "thunderball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 100
+   },
+   {
+    "do": "tint",
+    "element": "thunder"
+   },
+   {
+    "do": "lightning",
+    "n": 2,
+    "perRank": 1
+   }
+  ]
+ },
+ {
+  "id": "g_rocket",
+  "name": "火箭齐发",
+  "level": 8,
+  "desc": "火箭弹连发，炸成一片火海",
+  "glyph": "箭",
+  "color": "#ff7a45",
+  "element": "fire",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "rocket",
+    "n": 3,
+    "perRank": 1,
+    "gap": 120,
+    "spread": 30
+   },
+   {
+    "do": "explode",
+    "kind": "fire",
+    "scale": 1.4
+   }
+  ]
+ },
+ {
+  "id": "g_frost",
+  "name": "冰淇淋弹",
+  "level": 12,
+  "desc": "冰淇淋球把敌人冻住，再一枪击碎",
+  "glyph": "冰",
+  "color": "#9fe8ff",
+  "element": "ice",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "iceball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 100
+   },
+   {
+    "do": "freeze"
+   },
+   {
+    "do": "shoot",
+    "proj": "bullet",
+    "n": 1,
+    "perRank": 0,
+    "gap": 0
+   },
+   {
+    "do": "shatter"
+   }
+  ]
+ },
+ {
+  "id": "g_note",
+  "name": "音符弹幕",
+  "level": 12,
+  "desc": "满屏音符像雨点一样扫射",
+  "glyph": "音",
+  "color": "#ffe14a",
+  "element": "light",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "note",
+    "n": 8,
+    "perRank": 1,
+    "gap": 50,
+    "spread": 40
+   }
+  ]
+ },
+ {
+  "id": "g_flash",
+  "name": "闪光连射",
+  "level": 15,
+  "desc": "先闪光晃眼，再四面八方开火",
+  "glyph": "闪",
+  "color": "#fff1a8",
+  "element": "light",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "light"
+   },
+   {
+    "do": "shoot",
+    "proj": "lightorb",
+    "n": 4,
+    "perRank": 1,
+    "gap": 70,
+    "spread": 50
+   },
+   {
+    "do": "shoot",
+    "proj": "star",
+    "n": 4,
+    "perRank": 1,
+    "gap": 60,
+    "spread": 60
+   }
+  ]
+ },
+ {
+  "id": "g_cannon",
+  "name": "单词重炮",
+  "level": 18,
+  "desc": "扛起大炮轰出巨型字母，震撼全场",
+  "glyph": "炮",
+  "color": "#ff9f43",
+  "element": "phys",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ff9f43"
+   },
+   {
+    "do": "shake",
+    "px": 6
+   },
+   {
+    "do": "shoot",
+    "proj": "rocket",
+    "n": 2,
+    "perRank": 1,
+    "gap": 200
+   },
+   {
+    "do": "explode",
+    "kind": "phys",
+    "scale": 1.8
+   }
+  ]
+ },
+ {
+  "id": "g_rain",
+  "name": "子弹雨",
+  "level": 18,
+  "desc": "字母子弹从天空倾泻而下",
+  "glyph": "雨",
+  "color": "#7fd0ff",
+  "element": "phys",
+  "fx": [
+   {
+    "do": "rain",
+    "proj": "letter",
+    "n": 10,
+    "perRank": 2,
+    "gap": 50
+   }
+  ]
+ },
+ {
+  "id": "g_chain",
+  "name": "雷霆连锁",
+  "level": 22,
+  "desc": "电磁弹引来九连闪电",
+  "glyph": "霆",
+  "color": "#a58cff",
+  "element": "thunder",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#a58cff"
+   },
+   {
+    "do": "shoot",
+    "proj": "thunderball",
+    "n": 3,
+    "perRank": 1,
+    "gap": 90
+   },
+   {
+    "do": "lightning",
+    "n": 5,
+    "perRank": 1
+   }
+  ]
+ },
+ {
+  "id": "g_napalm",
+  "name": "烈焰地狱",
+  "level": 22,
+  "desc": "燃烧弹落地，火柱接连喷发",
+  "glyph": "焰",
+  "color": "#ff5a2e",
+  "element": "fire",
+  "fx": [
+   {
+    "do": "shoot",
+    "proj": "grenade",
+    "n": 2,
+    "perRank": 1,
+    "gap": 150
+   },
+   {
+    "do": "pillar",
+    "n": 4,
+    "perRank": 1
+   },
+   {
+    "do": "explode",
+    "kind": "fire",
+    "scale": 1.6
+   }
+  ]
+ },
+ {
+  "id": "g_blizzard",
+  "name": "冰雪风暴",
+  "level": 34,
+  "desc": "冰弹暴雨，冻结后整块碎裂",
+  "glyph": "暴",
+  "color": "#5fd0ff",
+  "element": "ice",
+  "fx": [
+   {
+    "do": "tint",
+    "element": "ice"
+   },
+   {
+    "do": "rain",
+    "proj": "iceball",
+    "n": 6,
+    "perRank": 1,
+    "gap": 70
+   },
+   {
+    "do": "freeze"
+   },
+   {
+    "do": "spikes",
+    "n": 3,
+    "perRank": 1
+   },
+   {
+    "do": "shatter"
+   }
+  ]
+ },
+ {
+  "id": "g_satellite",
+  "name": "卫星炮",
+  "level": 34,
+  "desc": "呼叫太空光炮，光柱连续轰击",
+  "glyph": "卫",
+  "color": "#fff6c8",
+  "element": "light",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#fff6c8"
+   },
+   {
+    "do": "zoom"
+   },
+   {
+    "do": "ray",
+    "n": 5,
+    "perRank": 1
+   },
+   {
+    "do": "beam",
+    "color": "#fff6c8"
+   }
+  ]
+ },
+ {
+  "id": "g_gatling",
+  "name": "加特林狂欢",
+  "level": 38,
+  "desc": "枪管狂转，子弹和音符打成一条线",
+  "glyph": "狂",
+  "color": "#ffd34a",
+  "element": "phys",
+  "fx": [
+   {
+    "do": "zoom"
+   },
+   {
+    "do": "shoot",
+    "proj": "bullet",
+    "n": 8,
+    "perRank": 1,
+    "gap": 40
+   },
+   {
+    "do": "shoot",
+    "proj": "note",
+    "n": 4,
+    "perRank": 1,
+    "gap": 50
+   }
+  ]
+ },
+ {
+  "id": "g_mine",
+  "name": "彩虹地雷",
+  "level": 38,
+  "desc": "撒下彩色地雷，接连引爆",
+  "glyph": "虹",
+  "color": "#ff6bc8",
+  "element": "mix",
+  "fx": [
+   {
+    "do": "rain",
+    "proj": "grenade",
+    "n": 4,
+    "perRank": 1,
+    "gap": 100
+   },
+   {
+    "do": "pillar",
+    "n": 3,
+    "perRank": 1
+   },
+   {
+    "do": "explode",
+    "kind": "thunder",
+    "scale": 1.5
+   }
+  ]
+ },
+ {
+  "id": "g_overload",
+  "name": "全弹发射",
+  "level": 42,
+  "desc": "所有枪械一起开火，火力全开",
+  "glyph": "全",
+  "color": "#ff9f43",
+  "element": "phys",
+  "fx": [
+   {
+    "do": "shake",
+    "px": 5
+   },
+   {
+    "do": "shoot",
+    "proj": "bullet",
+    "n": 5,
+    "perRank": 1,
+    "gap": 50
+   },
+   {
+    "do": "shoot",
+    "proj": "rocket",
+    "n": 3,
+    "perRank": 1,
+    "gap": 100
+   },
+   {
+    "do": "shoot",
+    "proj": "grenade",
+    "n": 2,
+    "perRank": 1,
+    "gap": 120
+   },
+   {
+    "do": "explode",
+    "kind": "fire",
+    "scale": 1.8
+   }
+  ]
+ },
+ {
+  "id": "g_laserwall",
+  "name": "激光矩阵",
+  "level": 42,
+  "desc": "激光交织成网，把敌人困在中间",
+  "glyph": "网",
+  "color": "#ff6b8b",
+  "element": "light",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ff6b8b"
+   },
+   {
+    "do": "shoot",
+    "proj": "laser",
+    "n": 6,
+    "perRank": 1,
+    "gap": 60,
+    "spread": 50
+   },
+   {
+    "do": "beam",
+    "color": "#ff6b8b"
+   }
+  ]
+ },
+ {
+  "id": "g_fusion",
+  "name": "弹药融合",
+  "level": 54,
+  "desc": "火冰雷光四种子弹一起轰炸",
+  "glyph": "融",
+  "color": "#ffffff",
+  "element": "mix",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ffffff"
+   },
+   {
+    "do": "shoot",
+    "proj": "fireball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 90
+   },
+   {
+    "do": "shoot",
+    "proj": "iceball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 90
+   },
+   {
+    "do": "shoot",
+    "proj": "thunderball",
+    "n": 2,
+    "perRank": 1,
+    "gap": 90
+   },
+   {
+    "do": "shoot",
+    "proj": "lightorb",
+    "n": 2,
+    "perRank": 1,
+    "gap": 90
+   },
+   {
+    "do": "explode",
+    "kind": "light",
+    "scale": 2
+   }
+  ]
+ },
+ {
+  "id": "g_finale",
+  "name": "终幕大合唱",
+  "level": 58,
+  "desc": "终极技：全部字母与音符齐射，唱响整篇课文",
+  "glyph": "唱",
+  "color": "#ffe9a0",
+  "element": "mix",
+  "fx": [
+   {
+    "do": "charge",
+    "color": "#ffe9a0"
+   },
+   {
+    "do": "zoom"
+   },
+   {
+    "do": "rain",
+    "proj": "letter",
+    "n": 6,
+    "perRank": 1,
+    "gap": 50
+   },
+   {
+    "do": "rain",
+    "proj": "note",
+    "n": 6,
+    "perRank": 1,
+    "gap": 50
+   },
+   {
+    "do": "beam",
+    "color": "#ffe9a0"
+   },
+   {
+    "do": "explode",
+    "kind": "light",
+    "scale": 2.2
+   }
+  ]
+ }
+]

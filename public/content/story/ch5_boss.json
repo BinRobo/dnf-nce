@@ -1,0 +1,43 @@
+{
+  "id": "ch5_boss",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "boss_thief",
+      "side": "right"
+    },
+    {
+      "t": "sfx",
+      "key": "boss_appear"
+    },
+    {
+      "t": "say",
+      "who": "boss_thief",
+      "face": "normal",
+      "zh": "嘘……雪夜里，台词都是我的。"
+    },
+    {
+      "t": "say",
+      "who": "boss_thief",
+      "face": "normal",
+      "zh": "你看，手电筒也被我偷了。"
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "surprised",
+      "en": "but he couldn't see anyone.",
+      "audio": {
+        "lesson": "L119-120",
+        "line": 14
+      }
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "zh": "抓住他！他是雪夜大盗！"
+    }
+  ]
+}

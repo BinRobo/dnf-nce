@@ -1,0 +1,47 @@
+{
+  "id": "ch1_boss",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "enter",
+      "who": "boss_weixin",
+      "side": "right"
+    },
+    {
+      "t": "sfx",
+      "key": "boss_appear"
+    },
+    {
+      "t": "say",
+      "who": "boss_weixin",
+      "face": "normal",
+      "zh": "哈哈！帕顿和胡迷斯只是我的助手。"
+    },
+    {
+      "t": "say",
+      "who": "boss_weixin",
+      "face": "normal",
+      "zh": "看好了，我把所有东西都混在一起！"
+    },
+    {
+      "t": "say",
+      "who": "boss_weixin",
+      "face": "normal",
+      "en": "Which glasses?",
+      "audio": {
+        "lesson": "L023-024",
+        "line": 1
+      }
+    },
+    {
+      "t": "say",
+      "who": "hero",
+      "face": "normal",
+      "en": "These glasses?",
+      "audio": {
+        "lesson": "L023-024",
+        "line": 2
+      }
+    }
+  ]
+}

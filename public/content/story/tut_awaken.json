@@ -1,0 +1,18 @@
+{
+  "id": "tut_awaken",
+  "bg": "dungeon",
+  "steps": [
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "surprised",
+      "zh": "觉醒槽满了！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "下一道连词成句会变觉醒技！"
+    }
+  ]
+}

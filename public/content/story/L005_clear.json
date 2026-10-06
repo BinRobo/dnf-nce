@@ -1,0 +1,35 @@
+{
+  "id": "L005_clear",
+  "bg": "classroom",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "hans",
+      "face": "happy",
+      "en": "Nice to meet you.",
+      "audio": {
+        "lesson": "L005-006",
+        "line": 7
+      }
+    },
+    {
+      "t": "say",
+      "who": "naoko",
+      "face": "happy",
+      "en": "Nice to meet you.",
+      "audio": {
+        "lesson": "L005-006",
+        "line": 10
+      }
+    },
+    {
+      "t": "item",
+      "key": "page5",
+      "zh": "台词簿第 5 页已恢复"
+    }
+  ]
+}

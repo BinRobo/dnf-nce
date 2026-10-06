@@ -1,0 +1,69 @@
+{
+  "id": "ch4_intro",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "narr",
+      "zh": "车站的钟停了，旅客们不知所措。"
+    },
+    {
+      "t": "enter",
+      "who": "mrs_mills",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "mrs_mills",
+      "face": "sad",
+      "zh": "我又迷路了，这雾真讨厌！"
+    },
+    {
+      "t": "say",
+      "who": "mrs_mills",
+      "face": "surprised",
+      "en": "He did not understand English!",
+      "audio": {
+        "lesson": "L073-074",
+        "line": 7
+      }
+    },
+    {
+      "t": "enter",
+      "who": "carol",
+      "side": "left"
+    },
+    {
+      "t": "say",
+      "who": "carol",
+      "face": "surprised",
+      "zh": "我的购物清单被雾擦掉了。"
+    },
+    {
+      "t": "enter",
+      "who": "sam",
+      "side": "right"
+    },
+    {
+      "t": "say",
+      "who": "sam",
+      "face": "happy",
+      "zh": "别急，我已经吃过午饭了。"
+    },
+    {
+      "t": "say",
+      "who": "sam",
+      "face": "normal",
+      "zh": "（其实他也不知道该干什么。）"
+    },
+    {
+      "t": "say",
+      "who": "mrs_mills",
+      "face": "normal",
+      "zh": "小英雄，请带我们离开雾吧！"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：进入车站地下城（L73-96）"
+    }
+  ]
+}

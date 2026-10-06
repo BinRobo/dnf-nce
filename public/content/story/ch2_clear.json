@@ -1,0 +1,59 @@
+{
+  "id": "ch2_clear",
+  "bg": "boss",
+  "steps": [
+    {
+      "t": "fx",
+      "key": "fog_clear"
+    },
+    {
+      "t": "say",
+      "who": "boss_teapot",
+      "face": "sad",
+      "zh": "咕噜……我只是想有人陪我喝茶。"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "en": "Yes, please.",
+      "audio": {
+        "lesson": "L047-048",
+        "line": 13
+      }
+    },
+    {
+      "t": "say",
+      "who": "mrs_smith",
+      "face": "happy",
+      "zh": "太好了，我的厨房又热闹啦！"
+    },
+    {
+      "t": "say",
+      "who": "george",
+      "face": "happy",
+      "zh": "书柜也做好了，粉色的，嘿嘿。"
+    },
+    {
+      "t": "item",
+      "key": "page48",
+      "zh": "台词簿第 48 页已恢复"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "happy",
+      "zh": "第二章的台词找回来了！"
+    },
+    {
+      "t": "say",
+      "who": "blake",
+      "face": "surprised",
+      "zh": "国王街那边传来喷嚏声，大家都感冒了。"
+    },
+    {
+      "t": "quest",
+      "zh": "新目标：前往国王街（第 3 章 L49-72）"
+    }
+  ]
+}

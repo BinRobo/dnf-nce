@@ -1,0 +1,28 @@
+{
+  "id": "town_sophie",
+  "bg": "town",
+  "steps": [
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "zh": "我从法国来的，一起加油吧！"
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "happy",
+      "en": "Nice to meet you.",
+      "audio": {
+        "lesson": "L005-006",
+        "line": 7
+      }
+    },
+    {
+      "t": "say",
+      "who": "sophie",
+      "face": "normal",
+      "zh": "看看屏幕上方的“当前目标”吧。"
+    }
+  ]
+}
