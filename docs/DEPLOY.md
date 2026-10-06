@@ -51,7 +51,7 @@ ls /var/www/nce-dungeon/index.html \
 
 ### 方式 B：在新服务器上从源码构建
 
-源码在 Gitee 仓库 `gitee.com/Bingou3D/dnf-nce`（私有仓库，需要家长提供访问令牌）。
+源码在 GitHub 仓库 `github.com/BinRobo/dnf-nce`（用家长配置的 deploy key 或访问令牌拉取；Gitee 上的 `gitee.com/Bingou3D/dnf-nce` 是旧镜像，可能不是最新）。
 
 > ⚠ 不要把带账号密码的 URL 写进任何文件或日志。
 
@@ -64,8 +64,8 @@ ls /var/www/nce-dungeon/index.html \
 | `NewConceptEnglish/` | 大 | 原始课本 PDF 和视频 | 只部署不需要 |
 
 ```bash
-# 1) 取源码（令牌由家长提供，用环境变量传入，不要明文写进命令历史）
-git clone https://gitee.com/Bingou3D/dnf-nce.git nce-dungeon
+# 1) 取源码（SSH deploy key 由家长提供；不要把密钥或令牌写进任何文件或日志）
+GIT_SSH_COMMAND="ssh -i ~/.ssh/<deploy_key> -o IdentitiesOnly=yes" git clone git@github.com:BinRobo/dnf-nce.git nce-dungeon
 cd nce-dungeon
 
 # 2) 从原机器拷贝视频（在原机器上执行，或用 rsync 拉取）
