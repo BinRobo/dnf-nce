@@ -172,7 +172,13 @@ if [ "${NCE_NO_SYSTEMD:-0}" != 1 ]; then
   echo "首页、管理后台页：正常"
 fi
 
-IP="$(curl -fsS --max-time 5 https://api.ipify.org 2>/dev/null || hostname -I 2>/dev/null | awk '{print $1}')"
+IP=""
+for svc in https://api.ipify.org https://ifconfig.me https://myip.ipip.net https://ip.sb; do
+  IP="$(curl -fsS --max-time 4 "$svc" 2>/dev/null | grep -oE '([0-9]{1,3}\.){3}[0-9]{1,3}' | head -1 || true)"
+  [ -n "$IP" ] && break
+done
+# 取不到公网地址时，不要把内网 IP 当成访问地址
+[ -n "$IP" ] || IP="<服务器公网IP>"
 SHOWPORT=""; [ "$PORT" != 80 ] && SHOWPORT=":$PORT"
 say "完成"
 cat <<EOF

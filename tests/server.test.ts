@@ -72,7 +72,10 @@ describe('账号', () => {
     // 密码不能出现在任何响应里
     expect(JSON.stringify(r.json)).not.toMatch(/hash|salt|123456/);
     const k2 = browser();
-    expect((await k2('POST', '/api/register', { invite: code, username: 'other', password: '123456' })).status).toBe(400);
+    const used = await k2('POST', '/api/register', { invite: code, username: 'other', password: '123456' });
+    expect(used.status).toBe(400);
+    expect(used.json.error).toContain('用完');
+    expect((await k('POST', '/api/register', { invite: 'NOSUCHCODE', username: 'zz', password: '123456' })).json.error).toContain('没有这个邀请码');
   });
 
   it('用户名不能重复（不分大小写）、密码太短被拒、登录对错', async () => {

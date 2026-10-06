@@ -214,9 +214,11 @@ export function createApp(opts) {
       const inv = invites[code];
       const username = String(b.username ?? '').trim();
       const password = String(b.password ?? '');
-      if (!inv || inv.exp < Date.now() || inv.used >= inv.maxUses) {
+      // 分开说清楚是哪种情况，家长和孩子才知道怎么办
+      const why = !inv ? '没有这个邀请码：请检查有没有输错，或让家长在后台看看它还在不在' : inv.exp < Date.now() ? '这个邀请码已经过期了，请让家长重新生成一个' : inv.used >= inv.maxUses ? '这个邀请码已经用完了，请让家长重新生成一个' : '';
+      if (why) {
         fail(key);
-        throw new HttpError(400, '邀请码不对或已过期，请向家长要一个新的');
+        throw new HttpError(400, why);
       }
       if (!/^[A-Za-z0-9_一-龥]{2,16}$/.test(username)) throw new HttpError(400, '用户名要 2–16 个字（字母、数字、下划线或汉字）');
       if (password.length < 6 || password.length > 64) throw new HttpError(400, '密码至少 6 位');

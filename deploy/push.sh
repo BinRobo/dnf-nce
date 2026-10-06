@@ -19,6 +19,9 @@ ARGS=()
 for a in "$@"; do [ "$a" = "--no-build" ] && BUILD=0 || ARGS+=("$a"); done
 
 APP_DIR="${NCE_APP_DIR:-/opt/nce-dungeon}"
+# 不是 root 登录（如腾讯云 Ubuntu 的 ubuntu 用户）时，服务器上的写操作都加 sudo
+SUDO=""; RSYNC_PATH="rsync"
+if [ "${TARGET%@*}" != "root" ]; then SUDO="sudo"; RSYNC_PATH="sudo rsync"; fi
 SSH_OPTS=(-o StrictHostKeyChecking=accept-new -o ConnectTimeout=15 -o ServerAliveInterval=30)
 if [ -n "${SSHPASS:-}" ]; then
   command -v sshpass >/dev/null || { echo "用密码登录需要先安装 sshpass"; exit 1; }
@@ -50,10 +53,11 @@ sed -i "s/const VER = '[^']*'/const VER = '$STAMP'/" dist/sw.js
 [ -f dist/admin.html ] || { echo "dist/ 里缺 admin.html"; exit 1; }
 
 say "上传到 $TARGET:$APP_DIR"
-"${SSH[@]}" "$TARGET" "mkdir -p $APP_DIR"
+# 目录归登录用户，上传完再由安装脚本改成合适的权限
+"${SSH[@]}" "$TARGET" "$SUDO mkdir -p $APP_DIR && $SUDO chown -R \$(id -un) $APP_DIR"
 if "${SSH[@]}" "$TARGET" 'command -v rsync >/dev/null'; then
-  rsync -az --delete --info=progress2 -e "$RSH" dist/ "$TARGET:$APP_DIR/dist/"
-  rsync -az --delete -e "$RSH" server/ "$TARGET:$APP_DIR/server/"
+  rsync -az --delete --info=progress2 --rsync-path="$RSYNC_PATH" -e "$RSH" dist/ "$TARGET:$APP_DIR/dist/"
+  rsync -az --delete --rsync-path="$RSYNC_PATH" -e "$RSH" server/ "$TARGET:$APP_DIR/server/"
 else
   echo "服务器上没有 rsync，改用 tar 传输（会比较慢）"
   tar czf - dist | "${SSH[@]}" "$TARGET" "rm -rf $APP_DIR/dist && tar xzf - -C $APP_DIR"
@@ -62,4 +66,4 @@ fi
 "${SSH[@]}" "$TARGET" "cat > $APP_DIR/install-server.sh" < deploy/install-server.sh
 
 say "在服务器上安装 / 重启服务"
-"${SSH[@]}" "$TARGET" "bash $APP_DIR/install-server.sh ${ARGS[*]:-}"
+"${SSH[@]}" "$TARGET" "$SUDO bash $APP_DIR/install-server.sh ${ARGS[*]:-}"
