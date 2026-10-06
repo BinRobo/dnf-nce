@@ -1,0 +1,25 @@
+{
+  "particles": [
+    "circle_1",
+    "circle_2",
+    "dirt_1",
+    "fire_1",
+    "fire_2",
+    "flame_1",
+    "light_1",
+    "light_2",
+    "magic_1",
+    "magic_2",
+    "scorch_1",
+    "slash_1",
+    "smoke_1",
+    "smoke_2",
+    "spark_1",
+    "spark_2",
+    "star_1",
+    "star_2",
+    "trace_1",
+    "trace_2",
+    "twirl_1"
+  ]
+}
