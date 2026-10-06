@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>英语地下城 · 音乐与发音试听</title>
+<style>
+  :root { --bg: #f3f6ff; --card: #ffffff; --ink: #1d2140; --dim: #6a7091; --line: #dde3f5; --accent: #3b62d9; --pick: #e8f0ff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "PingFang SC", "Microsoft YaHei", sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 4px; }
+  .lead { color: var(--dim); margin: 0 0 8px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; margin-top: 12px; }
+  .card { background: var(--card); border: 2px solid var(--line); border-radius: 12px; padding: 12px 14px; cursor: pointer; }
+  .card.picked { border-color: var(--accent); background: var(--pick); }
+  .card h3 { margin: 0; font-size: 16px; }
+  .card .meta { color: var(--dim); font-size: 13px; }
+  .card audio { width: 100%; margin-top: 8px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+  button.say { border: 1px solid var(--line); background: #fff; border-radius: 8px; padding: 6px 10px; font: inherit; font-size: 14px; cursor: pointer; }
+  button.say:hover { border-color: var(--accent); }
+  .summary { position: sticky; bottom: 0; background: #1d2140; color: #fff; border-radius: 12px; padding: 12px 16px; margin-top: 32px; }
+  .summary code { color: #ffe14a; }
+  .badge { display: inline-block; font-size: 12px; padding: 0 6px; border-radius: 6px; background: #eef1fb; color: var(--dim); margin-left: 6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>英语地下城 · 音乐与发音试听</h1>
+  <p class="lead">点卡片里的播放键试听，点卡片本身选中。每个场景选一首、发音选一种。选完把页面底部那一行发给我即可。</p>
+
+  <h2>🎵 背景音乐</h2>
+  <p class="lead">每个场景 3 首候选。原来的 8-bit 音乐已经不在候选里。</p>
+  <div id="music"><p class="lead">音乐还在准备中，稍后刷新本页。</p></div>
+
+  <h2>🗣 单词发音</h2>
+  <p class="lead">用微软神经网络语音预先生成，游戏里所有单词都会换成选中的声音（课文句子仍用课本原声）。</p>
+  <div class="grid" id="voices"></div>
+
+  <div class="summary">我的选择：<code id="choice">（还没选）</code></div>
+</main>
+<script>
+const VOICES = [
+  { id: 'en-GB-SoniaNeural', name: '英音 · 女声 Sonia', desc: '标准英式，清晰温和，接近新概念录音风格' },
+  { id: 'en-GB-RyanNeural', name: '英音 · 男声 Ryan', desc: '标准英式男声，沉稳' },
+  { id: 'en-GB-MaisieNeural', name: '英音 · 女孩 Maisie', desc: '英式儿童声，亲切' },
+  { id: 'en-US-AnaNeural', name: '美音 · 女孩 Ana', desc: '美式儿童声，活泼' },
+];
+const ITEMS = [['handbag', 'handbag'], ['umbrella', 'umbrella'], ['daughter', 'daughter'], ['nationality', 'nationality'], ['thirsty', 'thirsty'], ['sentence', 'Is this your handbag?'], ['sentence2', 'Nice to meet you.']];
+const SCENES = { town: '城镇', dungeon: '副本战斗', boss: 'Boss 战', story: '剧情' };
+const picks = {};
+const load = () => { try { Object.assign(picks, JSON.parse(localStorage.getItem('audition') || '{}')); } catch {} };
+const save = () => { try { localStorage.setItem('audition', JSON.stringify(picks)); } catch {} };
+let player = null;
+function play(src) { player?.pause(); player = new Audio(src); player.play(); }
+function summary() {
+  const parts = Object.keys(SCENES).map((k) => `${SCENES[k]} ${picks[k] ? '#' + picks[k] : '?'}`);
+  const v = VOICES.find((x) => x.id === picks.voice);
+  parts.push(`发音 ${v ? v.name : '?'}`);
+  document.getElementById('choice').textContent = parts.join('，');
+}
+function mark(group, value, el) {
+  picks[group] = value;
+  save();
+  document.querySelectorAll(`[data-group="${group}"]`).forEach((c) => c.classList.toggle('picked', c === el));
+  summary();
+}
+function renderVoices() {
+  const box = document.getElementById('voices');
+  for (const v of VOICES) {
+    const card = document.createElement('div');
+    card.className = 'card' + (picks.voice === v.id ? ' picked' : '');
+    card.dataset.group = 'voice';
+    card.innerHTML = `<h3>${v.name}</h3><div class="meta">${v.desc}</div><div class="row"></div>`;
+    const row = card.querySelector('.row');
+    for (const [k, label] of ITEMS) {
+      const b = document.createElement('button');
+      b.className = 'say';
+      b.textContent = '🔊 ' + label;
+      b.onclick = (e) => { e.stopPropagation(); play(`voice/${v.id}_${k}.mp3`); };
+      row.append(b);
+    }
+    card.onclick = () => mark('voice', v.id, card);
+    box.append(card);
+  }
+}
+async function renderMusic() {
+  let list;
+  try { list = await (await fetch('music/candidates.json', { cache: 'no-store' })).json(); } catch { return; }
+  const box = document.getElementById('music');
+  box.innerHTML = '';
+  for (const [scene, zh] of Object.entries(SCENES)) {
+    const h = document.createElement('h3');
+    h.textContent = zh;
+    h.style.margin = '20px 0 0';
+    box.append(h);
+    const grid = document.createElement('div');
+    grid.className = 'grid';
+    for (const m of list.filter((x) => x.scene === scene)) {
+      const card = document.createElement('div');
+      card.className = 'card' + (picks[scene] === m.n ? ' picked' : '');
+      card.dataset.group = scene;
+      card.innerHTML = `<h3>#${m.n} ${m.title}<span class="badge">${m.license}</span></h3><div class="meta">${m.mood || ''} · ${m.author}</div><audio controls preload="none" src="${m.file}"></audio>`;
+      card.querySelector('audio').onplay = (e) => { document.querySelectorAll('audio').forEach((a) => a !== e.target && a.pause()); player?.pause(); };
+      card.onclick = (e) => { if (e.target.tagName !== 'AUDIO') mark(scene, m.n, card); };
+      grid.append(card);
+    }
+    box.append(grid);
+  }
+}
+load();
+renderVoices();
+renderMusic();
+summary();
+</script>
+</body>
+</html>
