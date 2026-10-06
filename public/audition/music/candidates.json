@@ -1,0 +1,122 @@
+[
+ {
+  "scene": "town",
+  "n": 1,
+  "file": "music/town_1.mp3",
+  "title": "Achaidh Cheide",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Achaidh Cheide)",
+  "mood": "凯尔特风格的温暖小镇曲，轻快有出发感"
+ },
+ {
+  "scene": "town",
+  "n": 2,
+  "file": "music/town_2.mp3",
+  "title": "Celtic Impulse",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Celtic Impulse)",
+  "mood": "明快的凯尔特民谣，充满冒险期待"
+ },
+ {
+  "scene": "town",
+  "n": 3,
+  "file": "music/town_3.mp3",
+  "title": "Folk Round",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Folk Round)",
+  "mood": "轻松欢快的民谣，热闹的村庄氛围"
+ },
+ {
+  "scene": "dungeon",
+  "n": 1,
+  "file": "music/dungeon_1.mp3",
+  "title": "Heroic Age",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Heroic Age)",
+  "mood": "英雄冒险风管弦，稳步推进不吵"
+ },
+ {
+  "scene": "dungeon",
+  "n": 2,
+  "file": "music/dungeon_2.mp3",
+  "title": "Prelude and Action",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Prelude and Action)",
+  "mood": "由序曲渐入行动的探险推进曲"
+ },
+ {
+  "scene": "dungeon",
+  "n": 3,
+  "file": "music/dungeon_3.mp3",
+  "title": "Adventure Meme",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Adventure Meme)",
+  "mood": "明朗的探险配乐，节奏轻快"
+ },
+ {
+  "scene": "boss",
+  "n": 1,
+  "file": "music/boss_1.mp3",
+  "title": "Crusade",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Crusade)",
+  "mood": "激昂的史诗进军曲，气势十足"
+ },
+ {
+  "scene": "boss",
+  "n": 2,
+  "file": "music/boss_2.mp3",
+  "title": "Volatile Reaction",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Volatile Reaction)",
+  "mood": "紧张的管弦战斗曲，节奏紧凑"
+ },
+ {
+  "scene": "boss",
+  "n": 3,
+  "file": "music/boss_3.mp3",
+  "title": "Hero Down",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Hero Down)",
+  "mood": "紧迫有力的对决配乐"
+ },
+ {
+  "scene": "story",
+  "n": 1,
+  "file": "music/story_1.mp3",
+  "title": "Heart of Nowhere",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Heart of Nowhere)",
+  "mood": "温柔略带神秘的钢琴弦乐"
+ },
+ {
+  "scene": "story",
+  "n": 2,
+  "file": "music/story_2.mp3",
+  "title": "Memory Lane",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Memory Lane)",
+  "mood": "怀旧柔和的回忆旋律"
+ },
+ {
+  "scene": "story",
+  "n": 3,
+  "file": "music/story_3.mp3",
+  "title": "Eternal Hope",
+  "author": "Kevin MacLeod",
+  "license": "CC-BY 4.0",
+  "source": "https://incompetech.com/music/royalty-free/music.html (track: Eternal Hope)",
+  "mood": "宁静温暖、带希望感的合唱氛围"
+ }
+]
