@@ -1,0 +1,698 @@
+{
+ "book": 1,
+ "titles": {
+  "L001-002": {
+   "title": "Excuse me!",
+   "titleZh": "对不起！",
+   "lessons": [
+    1,
+    2
+   ]
+  },
+  "L003-004": {
+   "title": "Sorry, sir.",
+   "titleZh": "对不起，先生。",
+   "lessons": [
+    3,
+    4
+   ]
+  },
+  "L005-006": {
+   "title": "Nice to meet you.",
+   "titleZh": "很高兴见到你。",
+   "lessons": [
+    5,
+    6
+   ]
+  },
+  "L007-008": {
+   "title": "Are you a teacher?",
+   "titleZh": "你是教师吗？",
+   "lessons": [
+    7,
+    8
+   ]
+  },
+  "L009-010": {
+   "title": "How are you today?",
+   "titleZh": "你今天好吗？",
+   "lessons": [
+    9,
+    10
+   ]
+  },
+  "L011-012": {
+   "title": "Is this your shirt?",
+   "titleZh": "这是你的衬衫吗？",
+   "lessons": [
+    11,
+    12
+   ]
+  },
+  "L013-014": {
+   "title": "A new dress",
+   "titleZh": "一件新连衣裙",
+   "lessons": [
+    13,
+    14
+   ]
+  },
+  "L015-016": {
+   "title": "Your passports, please.",
+   "titleZh": "请出示你们的护照。",
+   "lessons": [
+    15,
+    16
+   ]
+  },
+  "L017-018": {
+   "title": "How do you do?",
+   "titleZh": "你好！",
+   "lessons": [
+    17,
+    18
+   ]
+  },
+  "L019-020": {
+   "title": "Tired and thirsty",
+   "titleZh": "又累又渴",
+   "lessons": [
+    19,
+    20
+   ]
+  },
+  "L021-022": {
+   "title": "Which book?",
+   "titleZh": "哪一本书？",
+   "lessons": [
+    21,
+    22
+   ]
+  },
+  "L023-024": {
+   "title": "Which glasses?",
+   "titleZh": "哪几只杯子？",
+   "lessons": [
+    23,
+    24
+   ]
+  },
+  "L025-026": {
+   "title": "Mrs. Smith's kitchen",
+   "titleZh": "史密斯太太的厨房",
+   "lessons": [
+    25,
+    26
+   ]
+  },
+  "L027-028": {
+   "title": "Mrs. Smith's living room",
+   "titleZh": "史密斯太太的客厅",
+   "lessons": [
+    27,
+    28
+   ]
+  },
+  "L029-030": {
+   "title": "Come in, Amy.",
+   "titleZh": "进来，艾米。",
+   "lessons": [
+    29,
+    30
+   ]
+  },
+  "L031-032": {
+   "title": "Where's Sally?",
+   "titleZh": "萨莉在哪里？",
+   "lessons": [
+    31,
+    32
+   ]
+  },
+  "L033-034": {
+   "title": "A fine day",
+   "titleZh": "晴天",
+   "lessons": [
+    33,
+    34
+   ]
+  },
+  "L035-036": {
+   "title": "Our village",
+   "titleZh": "我们的村庄",
+   "lessons": [
+    35,
+    36
+   ]
+  },
+  "L037-038": {
+   "title": "Making a bookcase",
+   "titleZh": "做书架",
+   "lessons": [
+    37,
+    38
+   ]
+  },
+  "L039-040": {
+   "title": "Don't drop it!",
+   "titleZh": "别摔了！",
+   "lessons": [
+    39,
+    40
+   ]
+  },
+  "L041-042": {
+   "title": "Penny's bag",
+   "titleZh": "彭妮的提包",
+   "lessons": [
+    41,
+    42
+   ]
+  },
+  "L043-044": {
+   "title": "Hurry up!",
+   "titleZh": "快点！",
+   "lessons": [
+    43,
+    44
+   ]
+  },
+  "L045-046": {
+   "title": "The boss's letter",
+   "titleZh": "老板的信",
+   "lessons": [
+    45,
+    46
+   ]
+  },
+  "L047-048": {
+   "title": "A cup of coffee",
+   "titleZh": "一杯咖啡",
+   "lessons": [
+    47,
+    48
+   ]
+  },
+  "L049-050": {
+   "title": "At the butcher's",
+   "titleZh": "在肉店",
+   "lessons": [
+    49,
+    50
+   ]
+  },
+  "L051-052": {
+   "title": "A pleasant climate",
+   "titleZh": "宜人的气候",
+   "lessons": [
+    51,
+    52
+   ]
+  },
+  "L053-054": {
+   "title": "An interesting climate",
+   "titleZh": "有趣的气候",
+   "lessons": [
+    53,
+    54
+   ]
+  },
+  "L055-056": {
+   "title": "The Sawyer family",
+   "titleZh": "索耶一家人",
+   "lessons": [
+    55,
+    56
+   ]
+  },
+  "L057-058": {
+   "title": "An unusual day",
+   "titleZh": "很不平常的一天",
+   "lessons": [
+    57,
+    58
+   ]
+  },
+  "L059-060": {
+   "title": "Is that all?",
+   "titleZh": "就这些吗？",
+   "lessons": [
+    59,
+    60
+   ]
+  },
+  "L061-062": {
+   "title": "A bad cold",
+   "titleZh": "重感冒",
+   "lessons": [
+    61,
+    62
+   ]
+  },
+  "L063-064": {
+   "title": "Thank you, doctor.",
+   "titleZh": "谢谢你，医生。",
+   "lessons": [
+    63,
+    64
+   ]
+  },
+  "L065-066": {
+   "title": "Not a baby",
+   "titleZh": "不是一个孩子",
+   "lessons": [
+    65,
+    66
+   ]
+  },
+  "L067-068": {
+   "title": "The weekend",
+   "titleZh": "周末",
+   "lessons": [
+    67,
+    68
+   ]
+  },
+  "L069-070": {
+   "title": "The car race",
+   "titleZh": "汽车比赛",
+   "lessons": [
+    69,
+    70
+   ]
+  },
+  "L071-072": {
+   "title": "He's awful!",
+   "titleZh": "他讨厌透了！",
+   "lessons": [
+    71,
+    72
+   ]
+  },
+  "L073-074": {
+   "title": "The way to King Street",
+   "titleZh": "到国王街的走法",
+   "lessons": [
+    73,
+    74
+   ]
+  },
+  "L075-076": {
+   "title": "Uncomfortable shoes",
+   "titleZh": "不舒适的鞋子",
+   "lessons": [
+    75,
+    76
+   ]
+  },
+  "L077-078": {
+   "title": "Terrible toothache",
+   "titleZh": "要命的牙痛",
+   "lessons": [
+    77,
+    78
+   ]
+  },
+  "L079-080": {
+   "title": "Carol's shopping list",
+   "titleZh": "卡罗尔的购物单",
+   "lessons": [
+    79,
+    80
+   ]
+  },
+  "L081-082": {
+   "title": "Roast beef and potatoes",
+   "titleZh": "烤牛肉和土豆",
+   "lessons": [
+    81,
+    82
+   ]
+  },
+  "L083-084": {
+   "title": "Going on holiday",
+   "titleZh": "度假",
+   "lessons": [
+    83,
+    84
+   ]
+  },
+  "L085-086": {
+   "title": "Paris in the spring",
+   "titleZh": "巴黎之春",
+   "lessons": [
+    85,
+    86
+   ]
+  },
+  "L087-088": {
+   "title": "A car crash",
+   "titleZh": "车祸",
+   "lessons": [
+    87,
+    88
+   ]
+  },
+  "L089-090": {
+   "title": "For sale",
+   "titleZh": "待售",
+   "lessons": [
+    89,
+    90
+   ]
+  },
+  "L091-092": {
+   "title": "Poor Ian!",
+   "titleZh": "可怜的伊恩！",
+   "lessons": [
+    91,
+    92
+   ]
+  },
+  "L093-094": {
+   "title": "Our new neighbour",
+   "titleZh": "我们的新邻居",
+   "lessons": [
+    93,
+    94
+   ]
+  },
+  "L095-096": {
+   "title": "Tickets, please.",
+   "titleZh": "请把车票拿出来。",
+   "lessons": [
+    95,
+    96
+   ]
+  },
+  "L097-098": {
+   "title": "A small blue case",
+   "titleZh": "一只蓝色的小箱子",
+   "lessons": [
+    97,
+    98
+   ]
+  },
+  "L099-100": {
+   "title": "Ow!",
+   "titleZh": "啊哟！",
+   "lessons": [
+    99,
+    100
+   ]
+  },
+  "L101-102": {
+   "title": "A card from Jimmy",
+   "titleZh": "吉米的明信片",
+   "lessons": [
+    101,
+    102
+   ]
+  },
+  "L103-104": {
+   "title": "The French test",
+   "titleZh": "法语考试",
+   "lessons": [
+    103,
+    104
+   ]
+  },
+  "L105-106": {
+   "title": "Full of mistakes",
+   "titleZh": "错误百出",
+   "lessons": [
+    105,
+    106
+   ]
+  },
+  "L107-108": {
+   "title": "It's too small.",
+   "titleZh": "太小了。",
+   "lessons": [
+    107,
+    108
+   ]
+  },
+  "L109-110": {
+   "title": "A good idea",
+   "titleZh": "好主意",
+   "lessons": [
+    109,
+    110
+   ]
+  },
+  "L111-112": {
+   "title": "The most expensive model",
+   "titleZh": "最昂贵的型号",
+   "lessons": [
+    111,
+    112
+   ]
+  },
+  "L113-114": {
+   "title": "Small change",
+   "titleZh": "零钱",
+   "lessons": [
+    113,
+    114
+   ]
+  },
+  "L115-116": {
+   "title": "Knock, knock!",
+   "titleZh": "敲敲门！",
+   "lessons": [
+    115,
+    116
+   ]
+  },
+  "L117-118": {
+   "title": "Tommy's breakfast",
+   "titleZh": "汤米的早餐",
+   "lessons": [
+    117,
+    118
+   ]
+  },
+  "L119-120": {
+   "title": "A true story",
+   "titleZh": "一个真实的故事",
+   "lessons": [
+    119,
+    120
+   ]
+  },
+  "L121-122": {
+   "title": "The man in a hat",
+   "titleZh": "戴帽子的男士",
+   "lessons": [
+    121,
+    122
+   ]
+  },
+  "L123-124": {
+   "title": "A trip to Australia",
+   "titleZh": "澳大利亚之行",
+   "lessons": [
+    123,
+    124
+   ]
+  },
+  "L125-126": {
+   "title": "Tea for two",
+   "titleZh": "两个人一起喝茶",
+   "lessons": [
+    125,
+    126
+   ]
+  },
+  "L127-128": {
+   "title": "A famous actress",
+   "titleZh": "著名的女演员",
+   "lessons": [
+    127,
+    128
+   ]
+  },
+  "L129-130": {
+   "title": "Seventy miles an hour",
+   "titleZh": "时速 70 英里",
+   "lessons": [
+    129,
+    130
+   ]
+  },
+  "L131-132": {
+   "title": "Don't be so sure!",
+   "titleZh": "别那么肯定！",
+   "lessons": [
+    131,
+    132
+   ]
+  },
+  "L133-134": {
+   "title": "Sensational news!",
+   "titleZh": "爆炸性新闻！",
+   "lessons": [
+    133,
+    134
+   ]
+  },
+  "L135-136": {
+   "title": "The latest report",
+   "titleZh": "最新消息",
+   "lessons": [
+    135,
+    136
+   ]
+  },
+  "L137-138": {
+   "title": "A pleasant dream",
+   "titleZh": "美好的梦",
+   "lessons": [
+    137,
+    138
+   ]
+  },
+  "L139-140": {
+   "title": "Is that you, John?",
+   "titleZh": "是你吗，约翰？",
+   "lessons": [
+    139,
+    140
+   ]
+  },
+  "L141-142": {
+   "title": "Sally's first train ride",
+   "titleZh": "萨莉第一次乘火车旅行",
+   "lessons": [
+    141,
+    142
+   ]
+  },
+  "L143-144": {
+   "title": "A walk through the woods",
+   "titleZh": "林中散步",
+   "lessons": [
+    143,
+    144
+   ]
+  }
+ },
+ "title": "新概念英语 第一册",
+ "regions": [
+  {
+   "id": "village",
+   "name": "新手村",
+   "grammar": "be 动词 · this/that · 一般疑问句 · What/Whose",
+   "dungeons": [
+    "L001-002",
+    "L003-004",
+    "L005-006",
+    "L007-008",
+    "L009-010",
+    "L011-012",
+    "L013-014",
+    "L015-016",
+    "L017-018",
+    "L019-020",
+    "L021-022",
+    "L023-024"
+   ]
+  },
+  {
+   "id": "forest",
+   "name": "低语森林",
+   "grammar": "形容词 · 名词复数 · there be · 介词",
+   "dungeons": [
+    "L025-026",
+    "L027-028",
+    "L029-030",
+    "L031-032",
+    "L033-034",
+    "L035-036",
+    "L037-038",
+    "L039-040",
+    "L041-042",
+    "L043-044",
+    "L045-046",
+    "L047-048"
+   ]
+  },
+  {
+   "id": "castle",
+   "name": "钟楼城堡",
+   "grammar": "现在进行时 · 祈使句 · 人称代词宾格",
+   "dungeons": [
+    "L049-050",
+    "L051-052",
+    "L053-054",
+    "L055-056",
+    "L057-058",
+    "L059-060",
+    "L061-062",
+    "L063-064",
+    "L065-066",
+    "L067-068",
+    "L069-070",
+    "L071-072"
+   ]
+  },
+  {
+   "id": "desert",
+   "name": "黄沙遗迹",
+   "grammar": "一般现在时 · 情态动词 can/must · 可数与不可数",
+   "dungeons": [
+    "L073-074",
+    "L075-076",
+    "L077-078",
+    "L079-080",
+    "L081-082",
+    "L083-084",
+    "L085-086",
+    "L087-088",
+    "L089-090",
+    "L091-092",
+    "L093-094",
+    "L095-096"
+   ]
+  },
+  {
+   "id": "snow",
+   "name": "霜语雪山",
+   "grammar": "一般过去时 · 不规则动词 · 将来时",
+   "dungeons": [
+    "L097-098",
+    "L099-100",
+    "L101-102",
+    "L103-104",
+    "L105-106",
+    "L107-108",
+    "L109-110",
+    "L111-112",
+    "L113-114",
+    "L115-116",
+    "L117-118",
+    "L119-120"
+   ]
+  },
+  {
+   "id": "demon",
+   "name": "魔王城",
+   "grammar": "现在完成时 · 比较级与最高级 · 综合",
+   "dungeons": [
+    "L121-122",
+    "L123-124",
+    "L125-126",
+    "L127-128",
+    "L129-130",
+    "L131-132",
+    "L133-134",
+    "L135-136",
+    "L137-138",
+    "L139-140",
+    "L141-142",
+    "L143-144"
+   ]
+  }
+ ]
+}

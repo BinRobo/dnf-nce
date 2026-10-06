@@ -1,0 +1,340 @@
+{
+ "id": "L023-024",
+ "lessons": [
+  23,
+  24
+ ],
+ "title": "Which glasses?",
+ "titleZh": "哪几只杯子？",
+ "evenTitle": "Give me/him/her/us/them some ... Which ones?",
+ "evenTitleZh": "给我/他/她/我们/他们一些……哪些？",
+ "words": [
+  {
+   "en": "on",
+   "zh": "在……之上",
+   "ipa": "ɒn",
+   "pos": "prep.",
+   "lesson": 23,
+   "audio": {
+    "file": "words/on.mp3"
+   }
+  },
+  {
+   "en": "shelf",
+   "zh": "架子，搁板",
+   "ipa": "ʃelf",
+   "pos": "n.",
+   "lesson": 23,
+   "audio": {
+    "file": "words/shelf.mp3"
+   }
+  },
+  {
+   "en": "desk",
+   "zh": "课桌",
+   "ipa": "desk",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/desk.mp3"
+   }
+  },
+  {
+   "en": "table",
+   "zh": "桌子",
+   "ipa": "'teɪbl",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/table.mp3"
+   }
+  },
+  {
+   "en": "plate",
+   "zh": "盘子",
+   "ipa": "pleɪt",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/plate.mp3"
+   }
+  },
+  {
+   "en": "cupboard",
+   "zh": "食橱",
+   "ipa": "'kʌbəd",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/cupboard.mp3"
+   }
+  },
+  {
+   "en": "cigarette",
+   "zh": "香烟",
+   "ipa": "ˌsɪɡə'ret",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/cigarette.mp3"
+   }
+  },
+  {
+   "en": "television",
+   "zh": "电视机",
+   "ipa": "'telɪˌvɪʒən",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/television.mp3"
+   }
+  },
+  {
+   "en": "floor",
+   "zh": "地板",
+   "ipa": "flɔː",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/floor.mp3"
+   }
+  },
+  {
+   "en": "dressing table",
+   "zh": "梳妆台",
+   "ipa": "'dresɪŋ-'teɪbl",
+   "pos": "",
+   "lesson": 24,
+   "audio": {
+    "file": "words/dressing-table.mp3"
+   }
+  },
+  {
+   "en": "magazine",
+   "zh": "杂志",
+   "ipa": "ˌmæɡə'ziːn",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/magazine.mp3"
+   }
+  },
+  {
+   "en": "bed",
+   "zh": "床",
+   "ipa": "bed",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/bed.mp3"
+   }
+  },
+  {
+   "en": "newspaper",
+   "zh": "报纸",
+   "ipa": "'njuːspeɪpə",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/newspaper.mp3"
+   }
+  },
+  {
+   "en": "stereo",
+   "zh": "立体声音响",
+   "ipa": "'steriəʊ",
+   "pos": "n.",
+   "lesson": 24,
+   "audio": {
+    "file": "words/stereo.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Man",
+   "en": "Give me some glasses please, Jane.",
+   "zh": "请拿给我几只玻璃杯，简。",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 7.5,
+    "end": 12
+   }
+  },
+  {
+   "speaker": "Woman",
+   "en": "Which glasses?",
+   "zh": "哪几只？",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 12,
+    "end": 14.9
+   }
+  },
+  {
+   "speaker": "Woman",
+   "en": "These glasses?",
+   "zh": "是这几只吗？",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 14.9,
+    "end": 17.6
+   }
+  },
+  {
+   "speaker": "Man",
+   "en": "No, not those.",
+   "zh": "不，不是那几只。",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 17.6,
+    "end": 20.7
+   }
+  },
+  {
+   "speaker": "Man",
+   "en": "The ones on the shelf.",
+   "zh": "是架子上的那几只。",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 20.7,
+    "end": 23.6
+   }
+  },
+  {
+   "speaker": "Woman",
+   "en": "These?",
+   "zh": "这几只？",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 23.6,
+    "end": 25.3
+   }
+  },
+  {
+   "speaker": "Man",
+   "en": "Yes, please.",
+   "zh": "是的，请拿给我。",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 25.3,
+    "end": 27.8
+   }
+  },
+  {
+   "speaker": "Woman",
+   "en": "Here you are.",
+   "zh": "给你。",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 27.8,
+    "end": 30.1
+   }
+  },
+  {
+   "speaker": "Man",
+   "en": "Thanks.",
+   "zh": "谢谢。",
+   "audio": {
+    "file": "media/L023.mp4",
+    "start": 30.1,
+    "end": 32.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Give Jane this watch. Give ___ this one, too.",
+   "zh": "把这块表给简，把这块也给她。",
+   "answer": "her",
+   "options": [
+    "her",
+    "him",
+    "them",
+    "us"
+   ]
+  },
+  {
+   "en": "Give the children these ice creams. Give ___ these, too.",
+   "zh": "把这些冰淇淋给孩子们，把这些也给他们。",
+   "answer": "them",
+   "options": [
+    "them",
+    "they",
+    "him",
+    "her"
+   ]
+  },
+  {
+   "en": "Give Tom this book. Give ___ this one, too.",
+   "zh": "把这本书给汤姆，把这本也给他。",
+   "answer": "him",
+   "options": [
+    "him",
+    "he",
+    "her",
+    "them"
+   ]
+  },
+  {
+   "en": "That is my passport. Give ___ my passport please.",
+   "zh": "那是我的护照，请把护照给我。",
+   "answer": "me",
+   "options": [
+    "me",
+    "I",
+    "my",
+    "us"
+   ]
+  },
+  {
+   "en": "Those are our umbrellas. Give ___ our umbrellas please.",
+   "zh": "那些是我们的伞，请把伞给我们。",
+   "answer": "us",
+   "options": [
+    "us",
+    "we",
+    "our",
+    "them"
+   ]
+  },
+  {
+   "en": "Give me some glasses please. Which ___? These?",
+   "zh": "请给我几只杯子。哪几只？这几只？",
+   "answer": "ones",
+   "options": [
+    "ones",
+    "one",
+    "glass",
+    "this"
+   ]
+  },
+  {
+   "en": "No, not those. The ones ___ the shelf.",
+   "zh": "不，不是那几只。是架子上的那几只。",
+   "answer": "on",
+   "options": [
+    "on",
+    "one",
+    "not",
+    "and"
+   ]
+  },
+  {
+   "en": "Give me some ___ please. Which ones? The ones on the bed.",
+   "zh": "请给我几本杂志。哪几本？床上的那几本。",
+   "answer": "magazines",
+   "options": [
+    "magazines",
+    "magazine",
+    "newspaper",
+    "plate"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L023.mp4",
+  "start": 7,
+  "end": 32.2
+ }
+}

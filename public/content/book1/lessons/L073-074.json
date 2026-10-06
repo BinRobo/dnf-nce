@@ -1,0 +1,461 @@
+{
+ "id": "L073-074",
+ "lessons": [
+  73,
+  74
+ ],
+ "title": "The way to King Street",
+ "titleZh": "到国王街的走法",
+ "evenTitle": "What did they do?",
+ "evenTitleZh": "他们干了什么？",
+ "words": [
+  {
+   "en": "week",
+   "zh": "周",
+   "ipa": "wiːk",
+   "pos": "n.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/week.mp3"
+   }
+  },
+  {
+   "en": "London",
+   "zh": "伦敦",
+   "ipa": "'lʌndən",
+   "pos": "n.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/london.mp3"
+   }
+  },
+  {
+   "en": "suddenly",
+   "zh": "突然地",
+   "ipa": "'sʌdnli",
+   "pos": "adv.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/suddenly.mp3"
+   }
+  },
+  {
+   "en": "bus stop",
+   "zh": "公共汽车站",
+   "ipa": "'bʌs-stɒp",
+   "pos": "",
+   "lesson": 73,
+   "audio": {
+    "file": "words/bus-stop.mp3"
+   }
+  },
+  {
+   "en": "smile",
+   "zh": "微笑",
+   "ipa": "smaɪl",
+   "pos": "v.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/smile.mp3"
+   }
+  },
+  {
+   "en": "pleasantly",
+   "zh": "愉快地",
+   "ipa": "'plezəntli",
+   "pos": "adv.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/pleasantly.mp3"
+   }
+  },
+  {
+   "en": "understand",
+   "zh": "懂，明白（过去式 understood）",
+   "ipa": "ˌʌndə'stænd",
+   "pos": "v.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/understand.mp3"
+   }
+  },
+  {
+   "en": "speak",
+   "zh": "讲，说（过去式 spoke）",
+   "ipa": "spiːk",
+   "pos": "v.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/speak.mp3"
+   }
+  },
+  {
+   "en": "hand",
+   "zh": "手",
+   "ipa": "hænd",
+   "pos": "n.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/hand.mp3"
+   }
+  },
+  {
+   "en": "pocket",
+   "zh": "衣袋",
+   "ipa": "'pɒkɪt",
+   "pos": "n.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/pocket.mp3"
+   }
+  },
+  {
+   "en": "phrasebook",
+   "zh": "短语手册，常用语手册",
+   "ipa": "'freɪzbʊk",
+   "pos": "n.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/phrasebook.mp3"
+   }
+  },
+  {
+   "en": "phrase",
+   "zh": "短语",
+   "ipa": "freɪz",
+   "pos": "n.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/phrase.mp3"
+   }
+  },
+  {
+   "en": "slowly",
+   "zh": "缓慢地",
+   "ipa": "'sləʊli",
+   "pos": "adv.",
+   "lesson": 73,
+   "audio": {
+    "file": "words/slowly.mp3"
+   }
+  },
+  {
+   "en": "hurriedly",
+   "zh": "匆忙地",
+   "ipa": "'hʌrɪdli",
+   "pos": "adv.",
+   "lesson": 74,
+   "audio": {
+    "file": "words/hurriedly.mp3"
+   }
+  },
+  {
+   "en": "cut",
+   "zh": "割，切（过去式 cut）",
+   "ipa": "kʌt",
+   "pos": "v.",
+   "lesson": 74,
+   "audio": {
+    "file": "words/cut.mp3"
+   }
+  },
+  {
+   "en": "thirstily",
+   "zh": "口渴地",
+   "ipa": "'θɜːstɪli",
+   "pos": "adv.",
+   "lesson": 74,
+   "audio": {
+    "file": "words/thirstily.mp3"
+   }
+  },
+  {
+   "en": "go",
+   "zh": "走（过去式 went）",
+   "ipa": "ɡəʊ",
+   "pos": "v.",
+   "lesson": 74,
+   "audio": {
+    "file": "words/go.mp3"
+   }
+  },
+  {
+   "en": "greet",
+   "zh": "问候，打招呼",
+   "ipa": "ɡriːt",
+   "pos": "v.",
+   "lesson": 74,
+   "audio": {
+    "file": "words/greet.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "Last week Mrs. Mills went to London.",
+   "zh": "上星期米尔斯夫人去了伦敦。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 7.6,
+    "end": 11.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "She does not know London very well, and she lost her way.",
+   "zh": "她对伦敦不很熟悉，因此迷了路。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 11.4,
+    "end": 16.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Suddenly, she saw a man near a bus stop.",
+   "zh": "突然，她在公共汽车站附近看到一个男人。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 16.9,
+    "end": 21.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'I can ask him the way,' she said to herself.",
+   "zh": "“我可以向他问路，”她想。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 21.5,
+    "end": 26.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Excuse me,' she said.",
+   "zh": "“对不起，”她说。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 26.6,
+    "end": 30
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Can you tell me the way to King Street, please?'",
+   "zh": "“您能告诉我到国王街怎么走吗？”",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 30,
+    "end": 34.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The man smiled pleasantly.",
+   "zh": "这人友好地笑了笑。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 34.5,
+    "end": 37.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He did not understand English!",
+   "zh": "他不懂英语！",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 37.9,
+    "end": 41.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He spoke German.",
+   "zh": "他讲德语。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 41.3,
+    "end": 43.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He was a tourist.",
+   "zh": "他是个旅游者。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 43.8,
+    "end": 46.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Then he put his hand into his pocket,",
+   "zh": "然后他把手伸进了衣袋，",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 46.4,
+    "end": 49.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "and took out a phrasebook.",
+   "zh": "掏出了一本常用语手册。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 49.8,
+    "end": 53
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He opened the book and found a phrase.",
+   "zh": "他翻开书找到了一条短语。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 53,
+    "end": 57.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He read the phrase slowly.",
+   "zh": "他缓慢地读着短语。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 57.2,
+    "end": 61.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'I am sorry,' he said.",
+   "zh": "“很抱歉，”他说。",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 61.2,
+    "end": 66
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'I do not speak English.'",
+   "zh": "“我不会讲英语。”",
+   "audio": {
+    "file": "media/L073.mp4",
+    "start": 66,
+    "end": 72.6
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "She smiled ___. (pleasant)",
+   "zh": "她愉快地笑了。",
+   "answer": "pleasantly",
+   "options": [
+    "pleasantly",
+    "pleasant",
+    "pleasanty",
+    "pleasantely"
+   ]
+  },
+  {
+   "en": "He read the phrase ___. (slow)",
+   "zh": "他慢慢地读着短语。",
+   "answer": "slowly",
+   "options": [
+    "slowly",
+    "slow",
+    "slowely",
+    "slowlly"
+   ]
+  },
+  {
+   "en": "He worked ___. (lazy)",
+   "zh": "他工作很懒散。",
+   "answer": "lazily",
+   "options": [
+    "lazily",
+    "lazyly",
+    "lazy",
+    "lazly"
+   ]
+  },
+  {
+   "en": "He cut himself ___. (bad)",
+   "zh": "他把自己割伤得很厉害。",
+   "answer": "badly",
+   "options": [
+    "badly",
+    "bad",
+    "badily",
+    "badlly"
+   ]
+  },
+  {
+   "en": "He worked ___. (careful)",
+   "zh": "他工作很仔细。",
+   "answer": "carefully",
+   "options": [
+    "carefully",
+    "carefuly",
+    "careful",
+    "carefullly"
+   ]
+  },
+  {
+   "en": "The door opened ___. (sudden)",
+   "zh": "门突然开了。",
+   "answer": "suddenly",
+   "options": [
+    "suddenly",
+    "sudden",
+    "suddenely",
+    "suddenlly"
+   ]
+  },
+  {
+   "en": "Last week Mrs. Mills ___ to London.",
+   "zh": "上星期米尔斯夫人去了伦敦。",
+   "answer": "went",
+   "options": [
+    "went",
+    "goed",
+    "goes",
+    "go"
+   ]
+  },
+  {
+   "en": "He did not understand English! He ___ German.",
+   "zh": "他不懂英语！他讲德语。",
+   "answer": "spoke",
+   "options": [
+    "spoke",
+    "speaked",
+    "speaks",
+    "spoken"
+   ]
+  },
+  {
+   "en": "I gave him a glass of water and he drank it ___.",
+   "zh": "我给了他一杯水，他喝得很急。",
+   "answer": "thirstily",
+   "options": [
+    "thirstily",
+    "thirsty",
+    "thirstly",
+    "thirstyly"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L073.mp4",
+  "start": 7.1,
+  "end": 72.6
+ }
+}

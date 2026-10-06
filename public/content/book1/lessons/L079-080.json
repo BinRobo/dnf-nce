@@ -1,0 +1,441 @@
+{
+ "id": "L079-080",
+ "lessons": [
+  79,
+  80
+ ],
+ "title": "Carol's shopping list",
+ "titleZh": "卡罗尔的购物单",
+ "evenTitle": "I must go to the ...",
+ "evenTitleZh": "我必须去……",
+ "words": [
+  {
+   "en": "shopping",
+   "zh": "购物",
+   "ipa": "'ʃɒpɪŋ",
+   "pos": "n.",
+   "lesson": 79,
+   "audio": {
+    "file": "words/shopping.mp3"
+   }
+  },
+  {
+   "en": "list",
+   "zh": "单子",
+   "ipa": "lɪst",
+   "pos": "n.",
+   "lesson": 79,
+   "audio": {
+    "file": "words/list.mp3"
+   }
+  },
+  {
+   "en": "vegetable",
+   "zh": "蔬菜",
+   "ipa": "'vedʒtəbəl",
+   "pos": "n.",
+   "lesson": 79,
+   "audio": {
+    "file": "words/vegetable.mp3"
+   }
+  },
+  {
+   "en": "need",
+   "zh": "需要",
+   "ipa": "niːd",
+   "pos": "v.",
+   "lesson": 79,
+   "audio": {
+    "file": "words/need.mp3"
+   }
+  },
+  {
+   "en": "hope",
+   "zh": "希望",
+   "ipa": "həʊp",
+   "pos": "v.",
+   "lesson": 79,
+   "audio": {
+    "file": "words/hope.mp3"
+   }
+  },
+  {
+   "en": "thing",
+   "zh": "事情",
+   "ipa": "θɪŋ",
+   "pos": "n.",
+   "lesson": 79,
+   "audio": {
+    "file": "words/thing.mp3"
+   }
+  },
+  {
+   "en": "money",
+   "zh": "钱",
+   "ipa": "'mʌni",
+   "pos": "n.",
+   "lesson": 79,
+   "audio": {
+    "file": "words/money.mp3"
+   }
+  },
+  {
+   "en": "groceries",
+   "zh": "食品杂货",
+   "ipa": "'ɡrəʊsəriz",
+   "pos": "n.",
+   "lesson": 80,
+   "audio": {
+    "file": "words/groceries.mp3"
+   }
+  },
+  {
+   "en": "fruit",
+   "zh": "水果",
+   "ipa": "fruːt",
+   "pos": "n.",
+   "lesson": 80,
+   "audio": {
+    "file": "words/fruit.mp3"
+   }
+  },
+  {
+   "en": "stationery",
+   "zh": "文具",
+   "ipa": "'steɪʃənəri",
+   "pos": "n.",
+   "lesson": 80,
+   "audio": {
+    "file": "words/stationery.mp3"
+   }
+  },
+  {
+   "en": "newsagent",
+   "zh": "报刊零售人",
+   "ipa": "'njuːzˌeɪdʒənt",
+   "pos": "n.",
+   "lesson": 80,
+   "audio": {
+    "file": "words/newsagent.mp3"
+   }
+  },
+  {
+   "en": "chemist",
+   "zh": "药剂师，化学家",
+   "ipa": "'kemɪst",
+   "pos": "n.",
+   "lesson": 80,
+   "audio": {
+    "file": "words/chemist.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Tom",
+   "en": "What are you doing, Carol?",
+   "zh": "卡罗尔，你在干什么？",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 7.3,
+    "end": 10.4
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "I'm making a shopping list, Tom.",
+   "zh": "我在写购物单，汤姆。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 10.4,
+    "end": 13.8
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "What do we need?",
+   "zh": "我们都需要什么？",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 13.8,
+    "end": 15.6
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "We need a lot of things this week.",
+   "zh": "这星期我们需要很多东西。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 15.6,
+    "end": 19.2
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "I must go to the grocer's.",
+   "zh": "我得去一下食品店。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 19.2,
+    "end": 22.8
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "We haven't got much tea or coffee,",
+   "zh": "我们的茶叶和咖啡不多了，",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 22.8,
+    "end": 25.8
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "and we haven't got any sugar or jam.",
+   "zh": "糖和果酱也没有了。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 25.8,
+    "end": 29.5
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "What about vegetables?",
+   "zh": "蔬菜呢？",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 29.5,
+    "end": 32.8
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "I must go to the greengrocer's.",
+   "zh": "我还得到蔬菜水果店去一下。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 32.8,
+    "end": 35.8
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "We haven't got many tomatoes,",
+   "zh": "我们的番茄不多了，",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 35.8,
+    "end": 38.9
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "but we've got a lot of potatoes.",
+   "zh": "但土豆还有不少。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 38.9,
+    "end": 42.4
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "I must go to the butcher's, too.",
+   "zh": "我还要到肉店去一下。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 42.4,
+    "end": 45.4
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "We need some meat.",
+   "zh": "我们需要些肉。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 45.4,
+    "end": 47.4
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "We haven't got any meat at all.",
+   "zh": "我们一点肉也没有了。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 47.4,
+    "end": 50.3
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Have we got any beer and wine?",
+   "zh": "我们还有啤酒和葡萄酒吗？",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 50.3,
+    "end": 52.9
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "No, we haven't.",
+   "zh": "没有了。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 52.9,
+    "end": 54.2
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "And I'm not going to get any!",
+   "zh": "不过，我不打算去买！",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 54.2,
+    "end": 56.7
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "I hope that you've got some money.",
+   "zh": "我希望你还有钱。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 56.7,
+    "end": 59.9
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "I haven't got much.",
+   "zh": "我的钱不多了。",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 59.9,
+    "end": 62
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Well, I haven't got much either!",
+   "zh": "唉，我也不多了！",
+   "audio": {
+    "file": "media/L079.mp4",
+    "start": 62,
+    "end": 66
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I don't have any eggs. → I haven't got ___ eggs.",
+   "zh": "我没有多少鸡蛋了。",
+   "answer": "many",
+   "options": [
+    "many",
+    "much",
+    "a lot",
+    "some"
+   ]
+  },
+  {
+   "en": "He doesn't have any coffee. → He hasn't got ___ coffee.",
+   "zh": "他没有多少咖啡了。",
+   "answer": "much",
+   "options": [
+    "much",
+    "many",
+    "a lot",
+    "some"
+   ]
+  },
+  {
+   "en": "You don't have any envelopes. → You haven't got ___ envelopes.",
+   "zh": "你没有多少信封了。",
+   "answer": "many",
+   "options": [
+    "many",
+    "much",
+    "a lot",
+    "some"
+   ]
+  },
+  {
+   "en": "We don't have any milk. → We haven't got ___ milk.",
+   "zh": "我们没有多少牛奶了。",
+   "answer": "much",
+   "options": [
+    "much",
+    "many",
+    "a lot",
+    "some"
+   ]
+  },
+  {
+   "en": "Have you got any cheese? I must go to the ___ to get some cheese.",
+   "zh": "你有乳酪吗？我得去食品店买些乳酪。",
+   "answer": "grocer's",
+   "options": [
+    "grocer's",
+    "chemist's",
+    "newsagent's",
+    "butcher's"
+   ]
+  },
+  {
+   "en": "Has he got any medicine? He must go to the ___ to get some medicine.",
+   "zh": "他有药吗？他得去药店买些药。",
+   "answer": "chemist's",
+   "options": [
+    "chemist's",
+    "grocer's",
+    "baker's",
+    "butcher's"
+   ]
+  },
+  {
+   "en": "Have they got any magazines? They must go to the ___ to get some magazines.",
+   "zh": "他们有杂志吗？他们得去报刊店买杂志。",
+   "answer": "newsagent's",
+   "options": [
+    "newsagent's",
+    "baker's",
+    "dairy",
+    "chemist's"
+   ]
+  },
+  {
+   "en": "We haven't got any meat ___ all.",
+   "zh": "我们一点肉也没有了。",
+   "answer": "at",
+   "options": [
+    "at",
+    "in",
+    "on",
+    "of"
+   ]
+  },
+  {
+   "en": "Well, I haven't got much ___!",
+   "zh": "唉，我也不多了！",
+   "answer": "either",
+   "options": [
+    "either",
+    "too",
+    "also",
+    "so"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L079.mp4",
+  "start": 6.8,
+  "end": 66
+ }
+}

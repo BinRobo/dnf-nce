@@ -1,0 +1,331 @@
+{
+ "id": "L131-132",
+ "lessons": [
+  131,
+  132
+ ],
+ "title": "Don't be so sure!",
+ "titleZh": "别那么肯定！",
+ "evenTitle": "He may be ... He may have been ... I'm not sure.",
+ "evenTitleZh": "他可能是……他可能已经……我不敢肯定。",
+ "words": [
+  {
+   "en": "Egypt",
+   "zh": "埃及",
+   "ipa": "'iːdʒɪpt",
+   "pos": "n.",
+   "lesson": 131,
+   "audio": {
+    "file": "words/egypt.mp3"
+   }
+  },
+  {
+   "en": "abroad",
+   "zh": "国外",
+   "ipa": "ə'brɔːd",
+   "pos": "adv.",
+   "lesson": 131,
+   "audio": {
+    "file": "words/abroad.mp3"
+   }
+  },
+  {
+   "en": "worry",
+   "zh": "担忧",
+   "ipa": "'wʌrɪ",
+   "pos": "v.",
+   "lesson": 131,
+   "audio": {
+    "file": "words/worry.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Martin",
+   "en": "Where are you going to spend your holidays this year, Gary?",
+   "zh": "加里，今年你们打算去哪里度假？",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 9.3,
+    "end": 14.3
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "We may go abroad. I'm not sure.",
+   "zh": "我们可能到国外去，但我不敢肯定。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 14.3,
+    "end": 17.8
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "My wife wants to go to Egypt.",
+   "zh": "我妻子想到埃及去。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 17.8,
+    "end": 21.2
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "I'd like to go there, too.",
+   "zh": "我也想去那儿。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 21.2,
+    "end": 23.8
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "We can't make up our minds.",
+   "zh": "我们还拿不定主意。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 23.8,
+    "end": 27.5
+   }
+  },
+  {
+   "speaker": "Martin",
+   "en": "Will you travel by sea or by air?",
+   "zh": "你们乘船去，还是乘飞机去？",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 27.5,
+    "end": 31.4
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "We may travel by sea.",
+   "zh": "我们可能乘船去。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 31.4,
+    "end": 34.5
+   }
+  },
+  {
+   "speaker": "Martin",
+   "en": "It's cheaper, isn't it?",
+   "zh": "这更便宜些，是吗？",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 34.5,
+    "end": 37.3
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "It may be cheaper, but it takes a long time.",
+   "zh": "可能是便宜些，但花的时间长。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 37.3,
+    "end": 41.7
+   }
+  },
+  {
+   "speaker": "Martin",
+   "en": "I'm sure you'll enjoy yourselves.",
+   "zh": "我肯定你们一定会玩得很痛快。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 41.7,
+    "end": 45.4
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "Don't be so sure.",
+   "zh": "别那么肯定。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 45.4,
+    "end": 47.8
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "We might not go anywhere.",
+   "zh": "我们可能哪里也去不成。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 47.8,
+    "end": 50.7
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "My wife always worries too much.",
+   "zh": "我妻子总是担心这担心那的。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 50.7,
+    "end": 54.9
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "Who's going to look after the dog?",
+   "zh": "谁来照看狗啦，",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 54.9,
+    "end": 58.1
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "Who's going to look after the house?",
+   "zh": "谁来看管房子啦，",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 58.1,
+    "end": 61.4
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "Who's going to look after the garden?",
+   "zh": "谁来照料花园啦，",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 61.4,
+    "end": 64.8
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "We have this problem every year.",
+   "zh": "我们每年都碰到这类问题。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 64.8,
+    "end": 68
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "In the end, we stay at home and look after everything!",
+   "zh": "末了，我们呆在家里来照看一切。",
+   "audio": {
+    "file": "media/L131.mp4",
+    "start": 68.5,
+    "end": 74.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Where are you going to ___ your holidays this year?",
+   "zh": "今年你们打算去哪里度假？",
+   "answer": "spend",
+   "options": [
+    "spend",
+    "spent",
+    "spends",
+    "spending"
+   ]
+  },
+  {
+   "en": "We may ___ abroad.",
+   "zh": "我们可能到国外去。",
+   "answer": "go",
+   "options": [
+    "go",
+    "went",
+    "goes",
+    "going"
+   ]
+  },
+  {
+   "en": "My wife wants to go ___ Egypt.",
+   "zh": "我妻子想到埃及去。",
+   "answer": "to",
+   "options": [
+    "to",
+    "at",
+    "in",
+    "on"
+   ]
+  },
+  {
+   "en": "Will you travel by sea or ___ air?",
+   "zh": "你们乘船去，还是乘飞机去？",
+   "answer": "by",
+   "options": [
+    "by",
+    "on",
+    "in",
+    "with"
+   ]
+  },
+  {
+   "en": "It may be cheaper, ___ it takes a long time.",
+   "zh": "可能是便宜些，但花的时间长。",
+   "answer": "but",
+   "options": [
+    "but",
+    "so",
+    "because",
+    "or"
+   ]
+  },
+  {
+   "en": "I'm sure you'll enjoy ___.",
+   "zh": "我肯定你们一定会玩得很痛快。",
+   "answer": "yourselves",
+   "options": [
+    "yourselves",
+    "yourself",
+    "themselves",
+    "ourself"
+   ]
+  },
+  {
+   "en": "Don't be so ___!",
+   "zh": "别那么肯定！",
+   "answer": "sure",
+   "options": [
+    "sure",
+    "surely",
+    "sured",
+    "sures"
+   ]
+  },
+  {
+   "en": "Who's going to look ___ the dog?",
+   "zh": "谁来照看狗啦？",
+   "answer": "after",
+   "options": [
+    "after",
+    "up",
+    "out",
+    "in"
+   ]
+  },
+  {
+   "en": "My wife always ___ too much.",
+   "zh": "我妻子总是担心这担心那的。",
+   "answer": "worries",
+   "options": [
+    "worries",
+    "worry",
+    "worried",
+    "worrying"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L131.mp4",
+  "start": 8.8,
+  "end": 74.2
+ }
+}

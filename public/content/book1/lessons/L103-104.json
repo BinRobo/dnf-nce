@@ -1,0 +1,631 @@
+{
+ "id": "L103-104",
+ "lessons": [
+  103,
+  104
+ ],
+ "title": "The French test",
+ "titleZh": "法语考试",
+ "evenTitle": "Too, very, enough",
+ "evenTitleZh": "太、非常、足够",
+ "words": [
+  {
+   "en": "exam",
+   "zh": "考试",
+   "ipa": "ɪg'zæm",
+   "pos": "n.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/exam.mp3"
+   }
+  },
+  {
+   "en": "pass",
+   "zh": "及格，通过",
+   "ipa": "pɑːs",
+   "pos": "v.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/pass.mp3"
+   }
+  },
+  {
+   "en": "mathematics",
+   "zh": "数学（maths /mæθs/ 是缩写）",
+   "ipa": "ˌmæθə'mætɪks",
+   "pos": "n.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/mathematics.mp3"
+   }
+  },
+  {
+   "en": "question",
+   "zh": "问题",
+   "ipa": "'kwestʃən",
+   "pos": "n.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/question.mp3"
+   }
+  },
+  {
+   "en": "easy",
+   "zh": "容易的",
+   "ipa": "'iːzi",
+   "pos": "adj.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/easy.mp3"
+   }
+  },
+  {
+   "en": "enough",
+   "zh": "足够地",
+   "ipa": "ɪ'nʌf",
+   "pos": "adv.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/enough.mp3"
+   }
+  },
+  {
+   "en": "paper",
+   "zh": "考卷",
+   "ipa": "'peɪpə",
+   "pos": "n.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/paper.mp3"
+   }
+  },
+  {
+   "en": "fail",
+   "zh": "未及格，失败",
+   "ipa": "feɪl",
+   "pos": "v.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/fail.mp3"
+   }
+  },
+  {
+   "en": "answer",
+   "zh": "回答",
+   "ipa": "'ɑːnsə",
+   "pos": "v.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/answer.mp3"
+   }
+  },
+  {
+   "en": "mark",
+   "zh": "分数",
+   "ipa": "mɑːk",
+   "pos": "n.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/mark.mp3"
+   }
+  },
+  {
+   "en": "rest",
+   "zh": "其他的东西",
+   "ipa": "rest",
+   "pos": "n.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/rest.mp3"
+   }
+  },
+  {
+   "en": "difficult",
+   "zh": "困难的",
+   "ipa": "'dɪfɪkəlt",
+   "pos": "adj.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/difficult.mp3"
+   }
+  },
+  {
+   "en": "hate",
+   "zh": "讨厌",
+   "ipa": "heɪt",
+   "pos": "v.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/hate.mp3"
+   }
+  },
+  {
+   "en": "low",
+   "zh": "低的",
+   "ipa": "ləʊ",
+   "pos": "adj.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/low.mp3"
+   }
+  },
+  {
+   "en": "cheer",
+   "zh": "振作，振奋",
+   "ipa": "tʃɪə",
+   "pos": "v.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/cheer.mp3"
+   }
+  },
+  {
+   "en": "guy",
+   "zh": "家伙，人",
+   "ipa": "gaɪ",
+   "pos": "n.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/guy.mp3"
+   }
+  },
+  {
+   "en": "top",
+   "zh": "上方，顶部",
+   "ipa": "tɒp",
+   "pos": "n.",
+   "lesson": 103,
+   "audio": {
+    "file": "words/top.mp3"
+   }
+  },
+  {
+   "en": "clever",
+   "zh": "聪明的",
+   "ipa": "'klevə",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/clever.mp3"
+   }
+  },
+  {
+   "en": "stupid",
+   "zh": "笨的",
+   "ipa": "'stjuːpɪd",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/stupid.mp3"
+   }
+  },
+  {
+   "en": "cheap",
+   "zh": "便宜的",
+   "ipa": "tʃiːp",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/cheap.mp3"
+   }
+  },
+  {
+   "en": "expensive",
+   "zh": "贵的",
+   "ipa": "ɪk'spensɪv",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/expensive.mp3"
+   }
+  },
+  {
+   "en": "fresh",
+   "zh": "新鲜的",
+   "ipa": "freʃ",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/fresh.mp3"
+   }
+  },
+  {
+   "en": "stale",
+   "zh": "变馊的",
+   "ipa": "steɪl",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/stale.mp3"
+   }
+  },
+  {
+   "en": "low",
+   "zh": "低的，矮的",
+   "ipa": "ləʊ",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/low.mp3"
+   }
+  },
+  {
+   "en": "loud",
+   "zh": "大声的",
+   "ipa": "laʊd",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/loud.mp3"
+   }
+  },
+  {
+   "en": "high",
+   "zh": "高的",
+   "ipa": "haɪ",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/high.mp3"
+   }
+  },
+  {
+   "en": "hard",
+   "zh": "硬的",
+   "ipa": "hɑːd",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/hard.mp3"
+   }
+  },
+  {
+   "en": "sweet",
+   "zh": "甜的",
+   "ipa": "swiːt",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/sweet.mp3"
+   }
+  },
+  {
+   "en": "soft",
+   "zh": "软的",
+   "ipa": "sɒft",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/soft.mp3"
+   }
+  },
+  {
+   "en": "sour",
+   "zh": "酸的",
+   "ipa": "saʊə",
+   "pos": "adj.",
+   "lesson": 104,
+   "audio": {
+    "file": "words/sour.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Gary",
+   "en": "How was the exam, Richard?",
+   "zh": "考试考得怎么样，理查德？",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 6.9,
+    "end": 10
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "Not too bad.",
+   "zh": "不算太坏。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 10,
+    "end": 11.4
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "I think I passed in English and Mathematics.",
+   "zh": "我想我的英语和数学及格了。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 11.4,
+    "end": 14.8
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "The questions were very easy.",
+   "zh": "题目很容易。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 14.8,
+    "end": 17.9
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "How about you, Gary?",
+   "zh": "加里，你怎么样？",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 17.9,
+    "end": 20.6
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "The English and Maths papers weren't easy enough for me.",
+   "zh": "英语和数学试题对我来说不很容易。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 20.6,
+    "end": 24.7
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "I hope I haven't failed.",
+   "zh": "我希望别不及格。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 24.7,
+    "end": 27.7
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "I think I failed the French paper.",
+   "zh": "我想我的法语及不了格。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 27.7,
+    "end": 30.6
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "I could answer sixteen of the questions.",
+   "zh": "我能回答其中的16道题。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 30.6,
+    "end": 33.2
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "They were very easy.",
+   "zh": "这些题很容易。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 33.2,
+    "end": 35.2
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "But I couldn't answer the rest.",
+   "zh": "但我回答不出其余的题。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 35.2,
+    "end": 37.6
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "They were too difficult for me.",
+   "zh": "那些题对我来说太难了。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 37.6,
+    "end": 40.3
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "French tests are awful, aren't they?",
+   "zh": "法语考试太可怕了，你说呢？",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 40.3,
+    "end": 43.4
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "I hate them.",
+   "zh": "我讨厌法语考试。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 43.4,
+    "end": 44.8
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "I'm sure I've got a low mark.",
+   "zh": "我的法语成绩肯定很低。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 44.8,
+    "end": 47.4
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "Oh, cheer up!",
+   "zh": "啊，别灰心！",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 47.4,
+    "end": 49.4
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "Perhaps we didn't do too badly.",
+   "zh": "或许我们考得还不太糟。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 49.4,
+    "end": 51.8
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "The guy next to me wrote his name at the top of the paper.",
+   "zh": "坐在我旁边的那个人只在试卷顶端写了自己的名字。",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 51.8,
+    "end": 55.6
+   }
+  },
+  {
+   "speaker": "Richard",
+   "en": "Yes?",
+   "zh": "是吗？",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 55.6,
+    "end": 56.9
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "Then he sat there and looked at it for three hours!",
+   "zh": "然后他就坐在那里，对着考卷看了3个小时，",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 56.9,
+    "end": 60.9
+   }
+  },
+  {
+   "speaker": "Gary",
+   "en": "He didn't write a word!",
+   "zh": "一个字也没写！",
+   "audio": {
+    "file": "media/L103.mp4",
+    "start": 60.9,
+    "end": 63.6
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I think I ___ in English and Mathematics.",
+   "zh": "我想我的英语和数学及格了。",
+   "answer": "passed",
+   "options": [
+    "passed",
+    "pass",
+    "passes",
+    "passing"
+   ]
+  },
+  {
+   "en": "I couldn't speak to the boss. He was ___ busy.",
+   "zh": "我没能和老板说话。他太忙了。",
+   "answer": "too",
+   "options": [
+    "too",
+    "enough",
+    "much",
+    "more"
+   ]
+  },
+  {
+   "en": "I couldn't go out. It was ___ cold for me to go out.",
+   "zh": "我没能出去。天气太冷，我出不去。",
+   "answer": "too",
+   "options": [
+    "too",
+    "enough",
+    "much",
+    "more"
+   ]
+  },
+  {
+   "en": "I could answer all the questions. They were ___ easy.",
+   "zh": "我能回答所有的题。这些题非常容易。",
+   "answer": "very",
+   "options": [
+    "very",
+    "enough",
+    "much",
+    "more"
+   ]
+  },
+  {
+   "en": "Is that suitcase light ___ for you to carry?",
+   "zh": "那个手提箱对你来说够轻吗？",
+   "answer": "enough",
+   "options": [
+    "enough",
+    "too",
+    "much",
+    "more"
+   ]
+  },
+  {
+   "en": "Is your brother old ___ to be a member of our association?",
+   "zh": "你哥哥够大了，能当我们协会的会员吗？",
+   "answer": "enough",
+   "options": [
+    "enough",
+    "too",
+    "much",
+    "more"
+   ]
+  },
+  {
+   "en": "They couldn't see that film. They were ___ young.",
+   "zh": "他们没能看那部电影。他们太小了。",
+   "answer": "too",
+   "options": [
+    "too",
+    "enough",
+    "much",
+    "more"
+   ]
+  },
+  {
+   "en": "Could he buy the car? Yes, it was cheap ___ for him to buy.",
+   "zh": "他买得起这辆车吗？能，这辆车对他来说够便宜。",
+   "answer": "enough",
+   "options": [
+    "enough",
+    "too",
+    "much",
+    "more"
+   ]
+  },
+  {
+   "en": "Could they eat the cakes? No, they were ___ stale.",
+   "zh": "他们能吃那些蛋糕吗？不能，蛋糕太不新鲜了。",
+   "answer": "too",
+   "options": [
+    "too",
+    "enough",
+    "much",
+    "more"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L103.mp4",
+  "start": 6.4,
+  "end": 63.6
+ }
+}

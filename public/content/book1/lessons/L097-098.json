@@ -1,0 +1,401 @@
+{
+ "id": "L097-098",
+ "lessons": [
+  97,
+  98
+ ],
+ "title": "A small blue case",
+ "titleZh": "一只蓝色的小箱子",
+ "evenTitle": "Whose is it? Whose are they?",
+ "evenTitleZh": "它是谁的？它们是谁的？",
+ "words": [
+  {
+   "en": "leave",
+   "zh": "遗留（过去式 left）",
+   "ipa": "liːv",
+   "pos": "v.",
+   "lesson": 97,
+   "audio": {
+    "file": "words/leave.mp3"
+   }
+  },
+  {
+   "en": "describe",
+   "zh": "描述",
+   "ipa": "dɪ'skraɪb",
+   "pos": "v.",
+   "lesson": 97,
+   "audio": {
+    "file": "words/describe.mp3"
+   }
+  },
+  {
+   "en": "zip",
+   "zh": "拉链",
+   "ipa": "zɪp",
+   "pos": "n.",
+   "lesson": 97,
+   "audio": {
+    "file": "words/zip.mp3"
+   }
+  },
+  {
+   "en": "label",
+   "zh": "标签",
+   "ipa": "'leɪbəl",
+   "pos": "n.",
+   "lesson": 97,
+   "audio": {
+    "file": "words/label.mp3"
+   }
+  },
+  {
+   "en": "handle",
+   "zh": "提手，把手",
+   "ipa": "'hændl",
+   "pos": "n.",
+   "lesson": 97,
+   "audio": {
+    "file": "words/handle.mp3"
+   }
+  },
+  {
+   "en": "address",
+   "zh": "地址",
+   "ipa": "ə'dres",
+   "pos": "n.",
+   "lesson": 97,
+   "audio": {
+    "file": "words/address.mp3"
+   }
+  },
+  {
+   "en": "pence",
+   "zh": "penny 的复数形式",
+   "ipa": "'pens",
+   "pos": "n.",
+   "lesson": 97,
+   "audio": {
+    "file": "words/pence.mp3"
+   }
+  },
+  {
+   "en": "belong",
+   "zh": "属于",
+   "ipa": "bɪ'lɒŋ",
+   "pos": "v.",
+   "lesson": 97,
+   "audio": {
+    "file": "words/belong.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mr. Hall",
+   "en": "I left a suitcase on the train to London the other day.",
+   "zh": "几天前我把一只手提箱忘在开往伦敦的火车上了。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 7,
+    "end": 12.6
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Can you describe it, sir?",
+   "zh": "先生，您能描述一下它是什么样子的吗？",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 12.6,
+    "end": 15
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "It's a small blue case and it's got a zip.",
+   "zh": "是只蓝色的小箱子，上面有拉链。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 15,
+    "end": 19.8
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "There's a label on the handle with my name and address on it.",
+   "zh": "箱把上有一标签，上面写着我的姓名和住址。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 19.8,
+    "end": 26.1
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Is this case yours?",
+   "zh": "这箱子是您的吗？",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 26.1,
+    "end": 29.1
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "No, that's not mine.",
+   "zh": "不，那不是我的。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 29.1,
+    "end": 31.6
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "What about this one?",
+   "zh": "这只是不是？",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 31.6,
+    "end": 34.3
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "This one's got a label.",
+   "zh": "这只箱子有张标签。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 34.3,
+    "end": 37.5
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "Let me see it.",
+   "zh": "让我看看。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 37.5,
+    "end": 40.1
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "What's your name and address?",
+   "zh": "您的姓名和住址？",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 40.1,
+    "end": 43.5
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "David Hall, 83, Bridge Street.",
+   "zh": "大卫·霍尔，大桥街 83 号。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 43.5,
+    "end": 48.7
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "That's right.",
+   "zh": "那就对了。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 48.7,
+    "end": 50.5
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "D. N. Hall, 83, Bridge Street.",
+   "zh": "D·N·霍尔，大桥街 83 号。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 50.5,
+    "end": 56.9
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Three pounds fifty pence, please.",
+   "zh": "请付 3 英镑 50 便士。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 56.9,
+    "end": 61.1
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "Here you are.",
+   "zh": "给您。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 61.1,
+    "end": 62.7
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Thank you.",
+   "zh": "谢谢您。",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 62.7,
+    "end": 64
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "Hey!",
+   "zh": "嗨！",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 64,
+    "end": 65.8
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "What's the matter?",
+   "zh": "怎么回事？",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 65.8,
+    "end": 67.8
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "This case doesn't belong to me!",
+   "zh": "这箱子不是我的！",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 67.8,
+    "end": 70.2
+   }
+  },
+  {
+   "speaker": "Mr. Hall",
+   "en": "You've given me the wrong case!",
+   "zh": "您给错了！",
+   "audio": {
+    "file": "media/L097.mp4",
+    "start": 70.2,
+    "end": 72.3
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "This dress belongs to my sister. It is ___.",
+   "zh": "这条裙子是我姐姐的。它是她的。",
+   "answer": "hers",
+   "options": [
+    "hers",
+    "her",
+    "she",
+    "herself"
+   ]
+  },
+  {
+   "en": "These things belong to my husband. They are ___.",
+   "zh": "这些东西是我丈夫的。它们是他的。",
+   "answer": "his",
+   "options": [
+    "his",
+    "he's",
+    "him",
+    "he"
+   ]
+  },
+  {
+   "en": "This coat belongs to me. It is ___.",
+   "zh": "这件外套是我的。",
+   "answer": "mine",
+   "options": [
+    "mine",
+    "my",
+    "me",
+    "I"
+   ]
+  },
+  {
+   "en": "These books belong to my brother and me. They are ___.",
+   "zh": "这些书是我哥哥和我的。它们是我们的。",
+   "answer": "ours",
+   "options": [
+    "ours",
+    "our",
+    "us",
+    "we"
+   ]
+  },
+  {
+   "en": "These pens belong to Tom and Jill. The pens are ___.",
+   "zh": "这些钢笔是汤姆和吉尔的。它们是他们的。",
+   "answer": "theirs",
+   "options": [
+    "theirs",
+    "their",
+    "them",
+    "they"
+   ]
+  },
+  {
+   "en": "This suitcase belongs to you. It is ___.",
+   "zh": "这只手提箱是你的。它是你的。",
+   "answer": "yours",
+   "options": [
+    "yours",
+    "your",
+    "you",
+    "yourself"
+   ]
+  },
+  {
+   "en": "Is this case ___? No, that's not mine.",
+   "zh": "这箱子是您的吗？不，那不是我的。",
+   "answer": "yours",
+   "options": [
+    "yours",
+    "your",
+    "you",
+    "you're"
+   ]
+  },
+  {
+   "en": "This case doesn't ___ to me!",
+   "zh": "这箱子不是我的！",
+   "answer": "belong",
+   "options": [
+    "belong",
+    "belongs",
+    "belonging",
+    "belonged"
+   ]
+  },
+  {
+   "en": "Can you ___ it, sir?",
+   "zh": "先生，您能描述一下它吗？",
+   "answer": "describe",
+   "options": [
+    "describe",
+    "describes",
+    "described",
+    "describing"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L097.mp4",
+  "start": 6.5,
+  "end": 72.3
+ }
+}

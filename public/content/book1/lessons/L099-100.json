@@ -1,0 +1,391 @@
+{
+ "id": "L099-100",
+ "lessons": [
+  99,
+  100
+ ],
+ "title": "Ow!",
+ "titleZh": "啊哟！",
+ "evenTitle": "He says that ... She says that ... They say that ...",
+ "evenTitleZh": "他／她／他们说……",
+ "words": [
+  {
+   "en": "ow",
+   "zh": "哎哟",
+   "ipa": "aʊ",
+   "pos": "int.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/ow.mp3"
+   }
+  },
+  {
+   "en": "slip",
+   "zh": "滑倒，滑了一脚",
+   "ipa": "slɪp",
+   "pos": "v.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/slip.mp3"
+   }
+  },
+  {
+   "en": "fall",
+   "zh": "落下，跌倒（过去式 fell，过去分词 fallen）",
+   "ipa": "fɔːl",
+   "pos": "v.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/fall.mp3"
+   }
+  },
+  {
+   "en": "downstairs",
+   "zh": "下楼",
+   "ipa": "ˌdaʊn'steəz",
+   "pos": "adv.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/downstairs.mp3"
+   }
+  },
+  {
+   "en": "hurt",
+   "zh": "伤，伤害，疼痛（过去式 hurt）",
+   "ipa": "hɜːt",
+   "pos": "v.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/hurt.mp3"
+   }
+  },
+  {
+   "en": "back",
+   "zh": "背",
+   "ipa": "bæk",
+   "pos": "n.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/back.mp3"
+   }
+  },
+  {
+   "en": "stand up",
+   "zh": "起立，站起来",
+   "ipa": "'stænd-'ʌp",
+   "pos": "",
+   "lesson": 99,
+   "audio": {
+    "file": "words/stand-up.mp3"
+   }
+  },
+  {
+   "en": "help",
+   "zh": "帮助",
+   "ipa": "help",
+   "pos": "v.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/help.mp3"
+   }
+  },
+  {
+   "en": "at once",
+   "zh": "立即",
+   "ipa": "",
+   "pos": "",
+   "lesson": 99,
+   "audio": {
+    "file": "words/at-once.mp3"
+   }
+  },
+  {
+   "en": "sure",
+   "zh": "一定的，确信的",
+   "ipa": "ʃɔː",
+   "pos": "adj.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/sure.mp3"
+   }
+  },
+  {
+   "en": "X-ray",
+   "zh": "X 光透视",
+   "ipa": "'eks-reɪ",
+   "pos": "n.",
+   "lesson": 99,
+   "audio": {
+    "file": "words/x-ray.mp3"
+   }
+  },
+  {
+   "en": "licence",
+   "zh": "执照",
+   "ipa": "'laɪsəns",
+   "pos": "n.",
+   "lesson": 100,
+   "audio": {
+    "file": "words/licence.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Andy",
+   "en": "Ow!",
+   "zh": "啊哟！",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 7,
+    "end": 9.2
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "What's the matter, Andy?",
+   "zh": "怎么了，安迪？",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 9.2,
+    "end": 11.3
+   }
+  },
+  {
+   "speaker": "Andy",
+   "en": "I slipped and fell downstairs.",
+   "zh": "我滑了一跤，从楼梯上摔下来了。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 11.3,
+    "end": 14.6
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "Have you hurt yourself?",
+   "zh": "你摔伤了没有？",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 14.6,
+    "end": 16.6
+   }
+  },
+  {
+   "speaker": "Andy",
+   "en": "Yes, I have.",
+   "zh": "是啊，摔伤了。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 16.6,
+    "end": 18.3
+   }
+  },
+  {
+   "speaker": "Andy",
+   "en": "I think that I've hurt my back.",
+   "zh": "我想我把背摔坏了。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 18.3,
+    "end": 21.6
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "Try and stand up.",
+   "zh": "试试站起来。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 21.6,
+    "end": 24.2
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "Can you stand up?",
+   "zh": "你能站起来吗？",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 24.2,
+    "end": 26.4
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "Here. Let me help you.",
+   "zh": "来，让我帮你。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 26.4,
+    "end": 28.6
+   }
+  },
+  {
+   "speaker": "Andy",
+   "en": "I'm sorry, Lucy.",
+   "zh": "对不起，露西。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 29.1,
+    "end": 31.1
+   }
+  },
+  {
+   "speaker": "Andy",
+   "en": "I'm afraid that I can't get up.",
+   "zh": "恐怕我站不起来。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 31.1,
+    "end": 34
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "I think that the doctor had better see you.",
+   "zh": "我想最好请医生来给你看一下。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 35,
+    "end": 38.1
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "I'll phone Dr. Carter.",
+   "zh": "我去给卡特医生打电话。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 38.1,
+    "end": 41.6
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "The doctor says that he will come at once.",
+   "zh": "医生说他马上就来。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 41.6,
+    "end": 44.9
+   }
+  },
+  {
+   "speaker": "Lucy",
+   "en": "I'm sure that you need an X-ray, Andy.",
+   "zh": "安迪，我看你需要做一次 X 光透视。",
+   "audio": {
+    "file": "media/L099.mp4",
+    "start": 44.9,
+    "end": 48.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I slipped and ___ downstairs.",
+   "zh": "我滑了一跤，从楼梯上摔了下来。",
+   "answer": "fell",
+   "options": [
+    "fell",
+    "fall",
+    "fallen",
+    "falls"
+   ]
+  },
+  {
+   "en": "Have you ___ yourself?",
+   "zh": "你摔伤了没有？",
+   "answer": "hurt",
+   "options": [
+    "hurt",
+    "hurted",
+    "hurts",
+    "hurting"
+   ]
+  },
+  {
+   "en": "He says that he ___ tired.",
+   "zh": "他说他觉得累。",
+   "answer": "feels",
+   "options": [
+    "feels",
+    "feel",
+    "feeling",
+    "to feel"
+   ]
+  },
+  {
+   "en": "She says that she ___ a headache.",
+   "zh": "她说她头疼。",
+   "answer": "has",
+   "options": [
+    "has",
+    "have",
+    "having",
+    "are"
+   ]
+  },
+  {
+   "en": "They say that they ___ some money.",
+   "zh": "他们说他们想要一些钱。",
+   "answer": "want",
+   "options": [
+    "want",
+    "wants",
+    "wanting",
+    "to want"
+   ]
+  },
+  {
+   "en": "Try and ___ up.",
+   "zh": "试试站起来。",
+   "answer": "stand",
+   "options": [
+    "stand",
+    "stands",
+    "standing",
+    "stood"
+   ]
+  },
+  {
+   "en": "The doctor says that he will come at ___.",
+   "zh": "医生说他马上就来。",
+   "answer": "once",
+   "options": [
+    "once",
+    "twice",
+    "ever",
+    "never"
+   ]
+  },
+  {
+   "en": "I'm ___ that I can't get up.",
+   "zh": "恐怕我站不起来。",
+   "answer": "afraid",
+   "options": [
+    "afraid",
+    "afraids",
+    "afraided",
+    "fear"
+   ]
+  },
+  {
+   "en": "He knows that he ___ an X-ray.",
+   "zh": "他知道他需要做 X 光透视。",
+   "answer": "needs",
+   "options": [
+    "needs",
+    "need",
+    "needing",
+    "to need"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L099.mp4",
+  "start": 6.5,
+  "end": 48.2
+ }
+}

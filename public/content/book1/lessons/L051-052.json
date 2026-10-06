@@ -1,0 +1,651 @@
+{
+ "id": "L051-052",
+ "lessons": [
+  51,
+  52
+ ],
+ "title": "A pleasant climate",
+ "titleZh": "宜人的气候",
+ "evenTitle": "What nationality are they? Where do they come from?",
+ "evenTitleZh": "他们是哪国人？他们来自哪个国家？",
+ "words": [
+  {
+   "en": "Greece",
+   "zh": "希腊",
+   "ipa": "ɡriːs",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/greece.mp3"
+   }
+  },
+  {
+   "en": "climate",
+   "zh": "气候",
+   "ipa": "'klaɪmɪt",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/climate.mp3"
+   }
+  },
+  {
+   "en": "country",
+   "zh": "国家",
+   "ipa": "'kʌntri",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/country.mp3"
+   }
+  },
+  {
+   "en": "pleasant",
+   "zh": "宜人的",
+   "ipa": "'plezənt",
+   "pos": "adj.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/pleasant.mp3"
+   }
+  },
+  {
+   "en": "weather",
+   "zh": "天气",
+   "ipa": "'weðə",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/weather.mp3"
+   }
+  },
+  {
+   "en": "spring",
+   "zh": "春季",
+   "ipa": "sprɪŋ",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/spring.mp3"
+   }
+  },
+  {
+   "en": "windy",
+   "zh": "有风的",
+   "ipa": "'wɪndi",
+   "pos": "adj.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/windy.mp3"
+   }
+  },
+  {
+   "en": "warm",
+   "zh": "温暖的",
+   "ipa": "wɔːm",
+   "pos": "adj.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/warm.mp3"
+   }
+  },
+  {
+   "en": "rain",
+   "zh": "下雨",
+   "ipa": "reɪn",
+   "pos": "v.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/rain.mp3"
+   }
+  },
+  {
+   "en": "sometimes",
+   "zh": "有时",
+   "ipa": "'sʌmtaɪmz",
+   "pos": "adv.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/sometimes.mp3"
+   }
+  },
+  {
+   "en": "summer",
+   "zh": "夏天",
+   "ipa": "'sʌmə",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/summer.mp3"
+   }
+  },
+  {
+   "en": "autumn",
+   "zh": "秋天",
+   "ipa": "'ɔːtəm",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/autumn.mp3"
+   }
+  },
+  {
+   "en": "winter",
+   "zh": "冬天",
+   "ipa": "'wɪntə",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/winter.mp3"
+   }
+  },
+  {
+   "en": "snow",
+   "zh": "下雪",
+   "ipa": "snəʊ",
+   "pos": "v.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/snow.mp3"
+   }
+  },
+  {
+   "en": "January",
+   "zh": "1月",
+   "ipa": "'dʒænjuəri",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/january.mp3"
+   }
+  },
+  {
+   "en": "February",
+   "zh": "2月",
+   "ipa": "'februəri",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/february.mp3"
+   }
+  },
+  {
+   "en": "March",
+   "zh": "3月",
+   "ipa": "mɑːtʃ",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/march.mp3"
+   }
+  },
+  {
+   "en": "April",
+   "zh": "4月",
+   "ipa": "'eɪprəl",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/april.mp3"
+   }
+  },
+  {
+   "en": "May",
+   "zh": "5月",
+   "ipa": "meɪ",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/may.mp3"
+   }
+  },
+  {
+   "en": "June",
+   "zh": "6月",
+   "ipa": "dʒuːn",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/june.mp3"
+   }
+  },
+  {
+   "en": "July",
+   "zh": "7月",
+   "ipa": "dʒʊ'laɪ",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/july.mp3"
+   }
+  },
+  {
+   "en": "August",
+   "zh": "8月",
+   "ipa": "'ɔːɡəst",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/august.mp3"
+   }
+  },
+  {
+   "en": "September",
+   "zh": "9月",
+   "ipa": "sep'tembə",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/september.mp3"
+   }
+  },
+  {
+   "en": "October",
+   "zh": "10月",
+   "ipa": "ɒk'təʊbə",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/october.mp3"
+   }
+  },
+  {
+   "en": "November",
+   "zh": "11月",
+   "ipa": "nəʊ'vembə",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/november.mp3"
+   }
+  },
+  {
+   "en": "December",
+   "zh": "12月",
+   "ipa": "dɪ'sembə",
+   "pos": "n.",
+   "lesson": 51,
+   "audio": {
+    "file": "words/december.mp3"
+   }
+  },
+  {
+   "en": "the U.S.",
+   "zh": "美国",
+   "ipa": "",
+   "pos": "",
+   "lesson": 52,
+   "audio": {
+    "file": "words/the-u-s.mp3"
+   }
+  },
+  {
+   "en": "Brazil",
+   "zh": "巴西",
+   "ipa": "brə'zɪl",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/brazil.mp3"
+   }
+  },
+  {
+   "en": "Holland",
+   "zh": "荷兰",
+   "ipa": "'hɒlənd",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/holland.mp3"
+   }
+  },
+  {
+   "en": "England",
+   "zh": "英国",
+   "ipa": "'ɪŋɡlənd",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/england.mp3"
+   }
+  },
+  {
+   "en": "France",
+   "zh": "法国",
+   "ipa": "frɑːns",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/france.mp3"
+   }
+  },
+  {
+   "en": "Germany",
+   "zh": "德国",
+   "ipa": "'dʒɜːməni",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/germany.mp3"
+   }
+  },
+  {
+   "en": "Italy",
+   "zh": "意大利",
+   "ipa": "'ɪtəli",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/italy.mp3"
+   }
+  },
+  {
+   "en": "Norway",
+   "zh": "挪威",
+   "ipa": "'nɔːweɪ",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/norway.mp3"
+   }
+  },
+  {
+   "en": "Russia",
+   "zh": "俄罗斯",
+   "ipa": "'rʌʃə",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/russia.mp3"
+   }
+  },
+  {
+   "en": "Spain",
+   "zh": "西班牙",
+   "ipa": "speɪn",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/spain.mp3"
+   }
+  },
+  {
+   "en": "Sweden",
+   "zh": "瑞典",
+   "ipa": "'swiːdn",
+   "pos": "n.",
+   "lesson": 52,
+   "audio": {
+    "file": "words/sweden.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hans",
+   "en": "Where do you come from?",
+   "zh": "你是哪国人？",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 7,
+    "end": 10.4
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "I come from Greece.",
+   "zh": "我是希腊人。",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 10.4,
+    "end": 13.9
+   }
+  },
+  {
+   "speaker": "Hans",
+   "en": "What's the climate like in your country?",
+   "zh": "你们国家的气候怎么样？",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 13.9,
+    "end": 18.4
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "It's very pleasant.",
+   "zh": "气候非常宜人。",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 18.4,
+    "end": 22.4
+   }
+  },
+  {
+   "speaker": "Hans",
+   "en": "What's the weather like in spring?",
+   "zh": "春季的天气怎么样？",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 22.4,
+    "end": 26.9
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "It's often windy in March.",
+   "zh": "3月里常常刮风。",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 26.9,
+    "end": 30.4
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "It's always warm in April and May, but it rains sometimes.",
+   "zh": "4月和5月的天气总是暖洋洋的，但有时下雨。",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 30.4,
+    "end": 38.4
+   }
+  },
+  {
+   "speaker": "Hans",
+   "en": "What's it like in summer?",
+   "zh": "夏季的天气如何呢？",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 38.4,
+    "end": 42.7
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "It's always hot in June, July and August.",
+   "zh": "6月、7月和8月的天气总是炎热的，",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 42.7,
+    "end": 48.2
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "The sun shines every day.",
+   "zh": "每天都出太阳。",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 48.2,
+    "end": 52
+   }
+  },
+  {
+   "speaker": "Hans",
+   "en": "Is it cold or warm in autumn?",
+   "zh": "秋季的天气是冷还是暖呢？",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 52,
+    "end": 56.2
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "It's always warm in September and October.",
+   "zh": "9月和10月总是很暖和，",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 56.2,
+    "end": 61.2
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "It's often cold in November and it rains sometimes.",
+   "zh": "11月常常就冷了，而且有时下雨。",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 61.2,
+    "end": 67.4
+   }
+  },
+  {
+   "speaker": "Hans",
+   "en": "Is it very cold in winter?",
+   "zh": "冬季的天气很冷吗？",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 67.4,
+    "end": 71.2
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "It's often cold in December, January and February.",
+   "zh": "12月、1月和2月常常很冷，",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 71.2,
+    "end": 77.4
+   }
+  },
+  {
+   "speaker": "Dimitri",
+   "en": "It snows sometimes.",
+   "zh": "有时还下雪。",
+   "audio": {
+    "file": "media/L051.mp4",
+    "start": 77.4,
+    "end": 80.9
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I come from England, but Stella ___ from Spain.",
+   "zh": "我来自英国，但斯特拉来自西班牙。",
+   "answer": "comes",
+   "options": [
+    "comes",
+    "come",
+    "coming",
+    "is come"
+   ]
+  },
+  {
+   "en": "We come from Germany, but Dimitri ___ from Greece.",
+   "zh": "我们来自德国，但迪米特里来自希腊。",
+   "answer": "comes",
+   "options": [
+    "comes",
+    "come",
+    "is",
+    "coming"
+   ]
+  },
+  {
+   "en": "I like cold weather, but he ___ warm weather.",
+   "zh": "我喜欢冷天，但他喜欢暖和的天气。",
+   "answer": "likes",
+   "options": [
+    "likes",
+    "like",
+    "is like",
+    "liking"
+   ]
+  },
+  {
+   "en": "She doesn't like the winter, but she ___ the summer.",
+   "zh": "她不喜欢冬天，但她喜欢夏天。",
+   "answer": "likes",
+   "options": [
+    "likes",
+    "like",
+    "doesn't",
+    "liking"
+   ]
+  },
+  {
+   "en": "Stella comes from Spain, but Hans and Karl ___ from Germany.",
+   "zh": "斯特拉来自西班牙，但汉斯和卡尔来自德国。",
+   "answer": "come",
+   "options": [
+    "come",
+    "comes",
+    "is",
+    "coming"
+   ]
+  },
+  {
+   "en": "Where ___ he come from? He comes from the U.S.",
+   "zh": "他来自哪里？他来自美国。",
+   "answer": "does",
+   "options": [
+    "does",
+    "do",
+    "is",
+    "are"
+   ]
+  },
+  {
+   "en": "Does he come from Brazil? No, he ___ come from Brazil.",
+   "zh": "他来自巴西吗？不，他不是。",
+   "answer": "doesn't",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't",
+    "not"
+   ]
+  },
+  {
+   "en": "What's the ___ like in your country?",
+   "zh": "你们国家的气候怎么样？",
+   "answer": "climate",
+   "options": [
+    "climate",
+    "country",
+    "spring",
+    "minute"
+   ]
+  },
+  {
+   "en": "It's always hot in June, July and ___.",
+   "zh": "6月、7月和8月的天气总是炎热的。",
+   "answer": "August",
+   "options": [
+    "August",
+    "April",
+    "October",
+    "March"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L051.mp4",
+  "start": 6.5,
+  "end": 80.9
+ }
+}

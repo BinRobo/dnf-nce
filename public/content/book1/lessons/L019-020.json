@@ -1,0 +1,451 @@
+{
+ "id": "L019-020",
+ "lessons": [
+  19,
+  20
+ ],
+ "title": "Tired and thirsty",
+ "titleZh": "又累又渴",
+ "evenTitle": "Look at them!",
+ "evenTitleZh": "看看他/它们！",
+ "words": [
+  {
+   "en": "matter",
+   "zh": "事情",
+   "ipa": "'mætə",
+   "pos": "n.",
+   "lesson": 19,
+   "audio": {
+    "file": "words/matter.mp3"
+   }
+  },
+  {
+   "en": "children",
+   "zh": "孩子们（child 的复数）",
+   "ipa": "'tʃɪldrən",
+   "pos": "n.",
+   "lesson": 19,
+   "audio": {
+    "file": "words/children.mp3"
+   }
+  },
+  {
+   "en": "tired",
+   "zh": "累，疲乏",
+   "ipa": "taɪəd",
+   "pos": "adj.",
+   "lesson": 19,
+   "audio": {
+    "file": "words/tired.mp3"
+   }
+  },
+  {
+   "en": "boy",
+   "zh": "男孩",
+   "ipa": "bɔɪ",
+   "pos": "n.",
+   "lesson": 19,
+   "audio": {
+    "file": "words/boy.mp3"
+   }
+  },
+  {
+   "en": "thirsty",
+   "zh": "渴",
+   "ipa": "'θɜːsti",
+   "pos": "adj.",
+   "lesson": 19,
+   "audio": {
+    "file": "words/thirsty.mp3"
+   }
+  },
+  {
+   "en": "Mum",
+   "zh": "妈妈（儿语）",
+   "ipa": "mʌm",
+   "pos": "n.",
+   "lesson": 19,
+   "audio": {
+    "file": "words/mum.mp3"
+   }
+  },
+  {
+   "en": "sit down",
+   "zh": "坐下",
+   "ipa": "'sɪt-daʊn",
+   "pos": "",
+   "lesson": 19,
+   "audio": {
+    "file": "words/sit-down.mp3"
+   }
+  },
+  {
+   "en": "right",
+   "zh": "好，可以",
+   "ipa": "raɪt",
+   "pos": "adj.",
+   "lesson": 19,
+   "audio": {
+    "file": "words/right.mp3"
+   }
+  },
+  {
+   "en": "ice cream",
+   "zh": "冰淇淋",
+   "ipa": "'aɪs-'kriːm",
+   "pos": "",
+   "lesson": 19,
+   "audio": {
+    "file": "words/ice-cream.mp3"
+   }
+  },
+  {
+   "en": "big",
+   "zh": "大的",
+   "ipa": "bɪɡ",
+   "pos": "adj.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/big.mp3"
+   }
+  },
+  {
+   "en": "small",
+   "zh": "小的",
+   "ipa": "smɔːl",
+   "pos": "adj.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/small.mp3"
+   }
+  },
+  {
+   "en": "open",
+   "zh": "开着的",
+   "ipa": "'əʊpən",
+   "pos": "adj.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/open.mp3"
+   }
+  },
+  {
+   "en": "shut",
+   "zh": "关着的",
+   "ipa": "ʃʌt",
+   "pos": "adj.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/shut.mp3"
+   }
+  },
+  {
+   "en": "light",
+   "zh": "轻的",
+   "ipa": "laɪt",
+   "pos": "adj.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/light.mp3"
+   }
+  },
+  {
+   "en": "heavy",
+   "zh": "重的",
+   "ipa": "'hevi",
+   "pos": "adj.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/heavy.mp3"
+   }
+  },
+  {
+   "en": "long",
+   "zh": "长的",
+   "ipa": "lɒŋ",
+   "pos": "adj.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/long.mp3"
+   }
+  },
+  {
+   "en": "shoe",
+   "zh": "鞋子",
+   "ipa": "ʃuː",
+   "pos": "n.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/shoe.mp3"
+   }
+  },
+  {
+   "en": "grandfather",
+   "zh": "祖父，外祖父",
+   "ipa": "'ɡrændˌfɑːðə",
+   "pos": "n.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/grandfather.mp3"
+   }
+  },
+  {
+   "en": "grandmother",
+   "zh": "祖母，外祖母",
+   "ipa": "'ɡrænˌmʌðə",
+   "pos": "n.",
+   "lesson": 20,
+   "audio": {
+    "file": "words/grandmother.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mother",
+   "en": "What's the matter, children?",
+   "zh": "怎么啦，孩子们？",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 8.1,
+    "end": 11.7
+   }
+  },
+  {
+   "speaker": "Girl",
+   "en": "We're tired ...",
+   "zh": "我们累了……",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 11.7,
+    "end": 14.5
+   }
+  },
+  {
+   "speaker": "Boy",
+   "en": "... and thirsty, Mum.",
+   "zh": "……口也渴，妈妈。",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 14.5,
+    "end": 17.5
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Sit down here.",
+   "zh": "坐在这儿吧。",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 17.5,
+    "end": 20.8
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Are you all right now?",
+   "zh": "你们现在好些了吗？",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 20.8,
+    "end": 24.2
+   }
+  },
+  {
+   "speaker": "Boy",
+   "en": "No, we aren't.",
+   "zh": "不，还没有。",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 24.2,
+    "end": 28
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Look!",
+   "zh": "瞧！",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 28,
+    "end": 30.1
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "There's an ice cream man.",
+   "zh": "有个卖冰淇淋的。",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 30.1,
+    "end": 33.9
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Two ice creams please.",
+   "zh": "请拿两份冰淇淋。",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 33.9,
+    "end": 39.3
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Here you are, children.",
+   "zh": "拿着，孩子们。",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 39.3,
+    "end": 42.8
+   }
+  },
+  {
+   "speaker": "Children",
+   "en": "Thanks, Mum.",
+   "zh": "谢谢，妈妈。",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 42.8,
+    "end": 45.3
+   }
+  },
+  {
+   "speaker": "Girl",
+   "en": "These ice creams are nice.",
+   "zh": "这些冰淇淋真好吃。",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 45.3,
+    "end": 51.9
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Are you all right now?",
+   "zh": "你们现在好了吗？",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 51.9,
+    "end": 55.2
+   }
+  },
+  {
+   "speaker": "Children",
+   "en": "Yes, we are, thank you!",
+   "zh": "是的，现在好了，谢谢您！",
+   "audio": {
+    "file": "media/L019.mp4",
+    "start": 55.2,
+    "end": 60.7
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Those children ___ tired.",
+   "zh": "那些孩子们累了。",
+   "answer": "are",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "Their mother ___ tired, too.",
+   "zh": "他们的妈妈也累了。",
+   "answer": "is",
+   "options": [
+    "is",
+    "are",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "What's the matter, Tim? I ___ tired.",
+   "zh": "怎么了，蒂姆？我累了。",
+   "answer": "am",
+   "options": [
+    "am",
+    "is",
+    "are",
+    "be"
+   ]
+  },
+  {
+   "en": "What's the matter, children? We ___ thirsty.",
+   "zh": "怎么了，孩子们？我们渴了。",
+   "answer": "are",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "Are his shoes dirty or clean? They're not dirty. They're ___.",
+   "zh": "他的鞋是脏的还是干净的？不脏，是干净的。",
+   "answer": "clean",
+   "options": [
+    "clean",
+    "dirty",
+    "small",
+    "open"
+   ]
+  },
+  {
+   "en": "Are his cases heavy or light? They're not heavy. They're ___.",
+   "zh": "他的箱子是重的还是轻的？不重，是轻的。",
+   "answer": "light",
+   "options": [
+    "light",
+    "heavy",
+    "long",
+    "big"
+   ]
+  },
+  {
+   "en": "Are the shops shut or open? They're not shut. They're ___.",
+   "zh": "商店关着还是开着？没关，开着呢。",
+   "answer": "open",
+   "options": [
+    "open",
+    "shut",
+    "old",
+    "new"
+   ]
+  },
+  {
+   "en": "What's the ___, children?",
+   "zh": "怎么啦，孩子们？",
+   "answer": "matter",
+   "options": [
+    "matter",
+    "make",
+    "colour",
+    "job"
+   ]
+  },
+  {
+   "en": "___ down here.",
+   "zh": "坐在这儿吧。",
+   "answer": "Sit",
+   "options": [
+    "Sit",
+    "Catch",
+    "Look",
+    "See"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L019.mp4",
+  "start": 7.6,
+  "end": 60.7
+ }
+}

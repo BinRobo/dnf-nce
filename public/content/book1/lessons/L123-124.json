@@ -1,0 +1,431 @@
+{
+ "id": "L123-124",
+ "lessons": [
+  123,
+  124
+ ],
+ "title": "A trip to Australia",
+ "titleZh": "澳大利亚之行",
+ "evenTitle": "(Who) / (whom), (which) and (that)",
+ "evenTitleZh": "关系代词",
+ "words": [
+  {
+   "en": "during",
+   "zh": "在……期间",
+   "ipa": "'djʊərɪŋ",
+   "pos": "prep.",
+   "lesson": 123,
+   "audio": {
+    "file": "words/during.mp3"
+   }
+  },
+  {
+   "en": "trip",
+   "zh": "旅行",
+   "ipa": "trɪp",
+   "pos": "n.",
+   "lesson": 123,
+   "audio": {
+    "file": "words/trip.mp3"
+   }
+  },
+  {
+   "en": "travel",
+   "zh": "旅行",
+   "ipa": "'trævəl",
+   "pos": "v.",
+   "lesson": 123,
+   "audio": {
+    "file": "words/travel.mp3"
+   }
+  },
+  {
+   "en": "offer",
+   "zh": "提供",
+   "ipa": "'ɒfə",
+   "pos": "v.",
+   "lesson": 123,
+   "audio": {
+    "file": "words/offer.mp3"
+   }
+  },
+  {
+   "en": "job",
+   "zh": "工作",
+   "ipa": "dʒɒb",
+   "pos": "n.",
+   "lesson": 123,
+   "audio": {
+    "file": "words/job.mp3"
+   }
+  },
+  {
+   "en": "guess",
+   "zh": "猜",
+   "ipa": "ges",
+   "pos": "v.",
+   "lesson": 123,
+   "audio": {
+    "file": "words/guess.mp3"
+   }
+  },
+  {
+   "en": "grow",
+   "zh": "长，让……生长（过去式 grew，过去分词 grown）",
+   "ipa": "grəʊ",
+   "pos": "v.",
+   "lesson": 123,
+   "audio": {
+    "file": "words/grow.mp3"
+   }
+  },
+  {
+   "en": "beard",
+   "zh": "（下巴上的）胡子，络腮胡子",
+   "ipa": "bɪəd",
+   "pos": "n.",
+   "lesson": 123,
+   "audio": {
+    "file": "words/beard.mp3"
+   }
+  },
+  {
+   "en": "kitten",
+   "zh": "小猫",
+   "ipa": "'kɪtn",
+   "pos": "n.",
+   "lesson": 124,
+   "audio": {
+    "file": "words/kitten.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mike",
+   "en": "Look, Scott.",
+   "zh": "看，斯科特。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 9.4,
+    "end": 10.4
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "This is a photograph I took during my trip to Australia.",
+   "zh": "这是我到澳大利亚旅行时拍的一张照片。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 10.4,
+    "end": 15.5
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "Let me see it, Mike.",
+   "zh": "让我看看，迈克。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 15.5,
+    "end": 18.7
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "This is a good photograph.",
+   "zh": "这是一张很好的照片。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 18.7,
+    "end": 21.1
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "Who are these people?",
+   "zh": "这些人是谁？",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 21.1,
+    "end": 24.2
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "They're people I met during the trip.",
+   "zh": "他们是我旅行时认识的人。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 24.2,
+    "end": 28.1
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "That's the ship we travelled on.",
+   "zh": "这是我们所乘的那条船。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 28.1,
+    "end": 31.8
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "What a beautiful ship!",
+   "zh": "多漂亮的船啊！",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 31.8,
+    "end": 35.4
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "Who's this?",
+   "zh": "这是谁？",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 35.4,
+    "end": 37.8
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "That's the man I told you about.",
+   "zh": "这就是我跟你说过的那个人。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 37.8,
+    "end": 40
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "Remember?",
+   "zh": "还记得吗？",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 40,
+    "end": 41.6
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "Ah yes.",
+   "zh": "啊，记得。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 41.6,
+    "end": 43.6
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "The one who offered you a job in Australia.",
+   "zh": "就是在澳大利亚给你工作做的那个人。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 43.6,
+    "end": 46.7
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "That's right.",
+   "zh": "对。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 47.3,
+    "end": 49.6
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "Who's this?",
+   "zh": "这是谁？",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 49.6,
+    "end": 52
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "Guess!",
+   "zh": "你猜！",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 52,
+    "end": 54
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "It's not you, is it?",
+   "zh": "这不是你，对吗？",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 54,
+    "end": 56.8
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "That's right.",
+   "zh": "不，是我。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 56.8,
+    "end": 58.1
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "I grew a beard during the trip,",
+   "zh": "我在旅行时留了胡子，",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 58.1,
+    "end": 60.7
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "but I shaved it off when I came home.",
+   "zh": "但我回到家时就把它刮了。",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 60.7,
+    "end": 64.9
+   }
+  },
+  {
+   "speaker": "Scott",
+   "en": "Why did you shave it off?",
+   "zh": "你为什么把它刮了？",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 64.9,
+    "end": 68
+   }
+  },
+  {
+   "speaker": "Mike",
+   "en": "My wife didn't like it!",
+   "zh": "我妻子不喜欢！",
+   "audio": {
+    "file": "media/L123.mp4",
+    "start": 68,
+    "end": 71.5
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "This is a photograph I took ___ my trip to Australia.",
+   "zh": "这是我到澳大利亚旅行时拍的一张照片。",
+   "answer": "during",
+   "options": [
+    "during",
+    "while",
+    "when",
+    "because"
+   ]
+  },
+  {
+   "en": "That's the ship we ___ on.",
+   "zh": "这是我们所乘的那条船。",
+   "answer": "travelled",
+   "options": [
+    "travelled",
+    "travelling",
+    "travels",
+    "traveller"
+   ]
+  },
+  {
+   "en": "The one who ___ you a job in Australia.",
+   "zh": "就是在澳大利亚给你工作做的那个人。",
+   "answer": "offered",
+   "options": [
+    "offered",
+    "offer",
+    "offering",
+    "to offer"
+   ]
+  },
+  {
+   "en": "I ___ a beard during the trip, but I shaved it off.",
+   "zh": "我在旅行时留了胡子，但后来把它刮了。",
+   "answer": "grew",
+   "options": [
+    "grew",
+    "grow",
+    "grown",
+    "growing"
+   ]
+  },
+  {
+   "en": "Why did you ___ it off?",
+   "zh": "你为什么把它刮了？",
+   "answer": "shave",
+   "options": [
+    "shave",
+    "shaved",
+    "shaves",
+    "shaving"
+   ]
+  },
+  {
+   "en": "My wife didn't ___ it!",
+   "zh": "我妻子不喜欢！",
+   "answer": "like",
+   "options": [
+    "like",
+    "likes",
+    "liked",
+    "liking"
+   ]
+  },
+  {
+   "en": "This is the film you told me ___.",
+   "zh": "这就是你跟我说过的那部电影。",
+   "answer": "about",
+   "options": [
+    "about",
+    "at",
+    "on",
+    "with"
+   ]
+  },
+  {
+   "en": "It's not you, ___ it?",
+   "zh": "这不是你，对吗？",
+   "answer": "is",
+   "options": [
+    "is",
+    "does",
+    "has",
+    "was"
+   ]
+  },
+  {
+   "en": "This is the kitten I found in the ___.",
+   "zh": "这就是我在花园里找到的那只小猫。",
+   "answer": "garden",
+   "options": [
+    "garden",
+    "road",
+    "job",
+    "beard"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L123.mp4",
+  "start": 8.9,
+  "end": 71.5
+ }
+}

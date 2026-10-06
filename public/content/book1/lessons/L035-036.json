@@ -1,0 +1,431 @@
+{
+ "id": "L035-036",
+ "lessons": [
+  35,
+  36
+ ],
+ "title": "Our village",
+ "titleZh": "我们的村庄",
+ "evenTitle": "Where ...?",
+ "evenTitleZh": "……在哪里？",
+ "words": [
+  {
+   "en": "photograph",
+   "zh": "照片",
+   "ipa": "'fəʊtəɡrɑːf",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/photograph.mp3"
+   }
+  },
+  {
+   "en": "village",
+   "zh": "村庄",
+   "ipa": "'vɪlɪdʒ",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/village.mp3"
+   }
+  },
+  {
+   "en": "valley",
+   "zh": "山谷",
+   "ipa": "'væli",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/valley.mp3"
+   }
+  },
+  {
+   "en": "between",
+   "zh": "在……之间",
+   "ipa": "bɪ'twiːn",
+   "pos": "prep.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/between.mp3"
+   }
+  },
+  {
+   "en": "hill",
+   "zh": "小山",
+   "ipa": "hɪl",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/hill.mp3"
+   }
+  },
+  {
+   "en": "another",
+   "zh": "另一个",
+   "ipa": "ə'nʌðə",
+   "pos": "det.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/another.mp3"
+   }
+  },
+  {
+   "en": "wife",
+   "zh": "妻子",
+   "ipa": "waɪf",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/wife.mp3"
+   }
+  },
+  {
+   "en": "along",
+   "zh": "沿着",
+   "ipa": "ə'lɒŋ",
+   "pos": "prep.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/along.mp3"
+   }
+  },
+  {
+   "en": "bank",
+   "zh": "河岸",
+   "ipa": "bæŋk",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/bank.mp3"
+   }
+  },
+  {
+   "en": "water",
+   "zh": "水",
+   "ipa": "'wɔːtə",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/water.mp3"
+   }
+  },
+  {
+   "en": "swim",
+   "zh": "游泳",
+   "ipa": "swɪm",
+   "pos": "v.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/swim.mp3"
+   }
+  },
+  {
+   "en": "building",
+   "zh": "大楼，建筑物",
+   "ipa": "'bɪldɪŋ",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/building.mp3"
+   }
+  },
+  {
+   "en": "park",
+   "zh": "公园",
+   "ipa": "pɑːk",
+   "pos": "n.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/park.mp3"
+   }
+  },
+  {
+   "en": "into",
+   "zh": "进入",
+   "ipa": "'ɪntə",
+   "pos": "prep.",
+   "lesson": 35,
+   "audio": {
+    "file": "words/into.mp3"
+   }
+  },
+  {
+   "en": "beside",
+   "zh": "在……旁",
+   "ipa": "bɪ'saɪd",
+   "pos": "prep.",
+   "lesson": 36,
+   "audio": {
+    "file": "words/beside.mp3"
+   }
+  },
+  {
+   "en": "off",
+   "zh": "离开",
+   "ipa": "ɒf",
+   "pos": "prep.",
+   "lesson": 36,
+   "audio": {
+    "file": "words/off.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "This is a photograph of our village.",
+   "zh": "这是我们村庄的一张照片。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 7,
+    "end": 12.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Our village is in a valley.",
+   "zh": "我们的村庄坐落在一个山谷之中。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 12.6,
+    "end": 17.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "It is between two hills.",
+   "zh": "它位于两座小山之间。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 17.6,
+    "end": 22.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The village is on a river.",
+   "zh": "它靠近一条小河。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 22.1,
+    "end": 27.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Here is another photograph of the village.",
+   "zh": "这是我们村庄的另一张照片。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 27.8,
+    "end": 33.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "My wife and I are walking along the banks of the river.",
+   "zh": "我和妻子正沿河岸走着。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 33.4,
+    "end": 41.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "We are on the left.",
+   "zh": "我们在河的左侧。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 41.1,
+    "end": 44.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is a boy in the water.",
+   "zh": "河里面有个男孩。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 44.4,
+    "end": 48.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He is swimming across the river.",
+   "zh": "他正横渡小河。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 48.8,
+    "end": 53.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Here is another photograph.",
+   "zh": "这是另一张照片。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 53.8,
+    "end": 57.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "This is the school building.",
+   "zh": "这是学校大楼。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 57.8,
+    "end": 61.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "It is beside a park.",
+   "zh": "它位于公园的旁边。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 61.8,
+    "end": 65.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The park is on the right.",
+   "zh": "公园在右面。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 65.8,
+    "end": 70.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Some children are coming out of the building.",
+   "zh": "一些孩子正从楼里出来。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 70.7,
+    "end": 76.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Some of them are going into the park.",
+   "zh": "他们中有几个正走进公园。",
+   "audio": {
+    "file": "media/L035.mp4",
+    "start": 76.3,
+    "end": 80.9
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "swim ... He is ___ across the river.",
+   "zh": "他正在横渡小河。",
+   "answer": "swimming",
+   "options": [
+    "swimming",
+    "swiming",
+    "swim",
+    "swims"
+   ]
+  },
+  {
+   "en": "sit ... She is ___ on the grass.",
+   "zh": "她正坐在草地上。",
+   "answer": "sitting",
+   "options": [
+    "sitting",
+    "siting",
+    "sit",
+    "sits"
+   ]
+  },
+  {
+   "en": "run ... The cat is ___ along the wall.",
+   "zh": "猫正沿着墙跑。",
+   "answer": "running",
+   "options": [
+    "running",
+    "runing",
+    "run",
+    "runs"
+   ]
+  },
+  {
+   "en": "Where are the children going? They're going ___ the park.",
+   "zh": "孩子们去哪儿？他们正走进公园。",
+   "answer": "into",
+   "options": [
+    "into",
+    "off",
+    "along",
+    "under"
+   ]
+  },
+  {
+   "en": "Some children are coming ___ of the building.",
+   "zh": "一些孩子正从楼里出来。",
+   "answer": "out",
+   "options": [
+    "out",
+    "off",
+    "into",
+    "over"
+   ]
+  },
+  {
+   "en": "Our village is ___ two hills.",
+   "zh": "我们的村庄位于两座小山之间。",
+   "answer": "between",
+   "options": [
+    "between",
+    "beside",
+    "along",
+    "across"
+   ]
+  },
+  {
+   "en": "It is ___ a park.",
+   "zh": "它在公园旁边。",
+   "answer": "beside",
+   "options": [
+    "beside",
+    "between",
+    "into",
+    "off"
+   ]
+  },
+  {
+   "en": "The children are jumping ___ the branch.",
+   "zh": "孩子们正从树枝上跳下来。",
+   "answer": "off",
+   "options": [
+    "off",
+    "into",
+    "between",
+    "along"
+   ]
+  },
+  {
+   "en": "My wife and I are walking ___ the banks of the river.",
+   "zh": "我和妻子正沿河岸走着。",
+   "answer": "along",
+   "options": [
+    "along",
+    "between",
+    "into",
+    "off"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L035.mp4",
+  "start": 6.5,
+  "end": 80.9
+ }
+}

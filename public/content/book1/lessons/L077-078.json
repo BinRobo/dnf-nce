@@ -1,0 +1,341 @@
+{
+ "id": "L077-078",
+ "lessons": [
+  77,
+  78
+ ],
+ "title": "Terrible toothache",
+ "titleZh": "要命的牙痛",
+ "evenTitle": "When did you ...?",
+ "evenTitleZh": "你什么时候……？",
+ "words": [
+  {
+   "en": "appointment",
+   "zh": "约会，预约",
+   "ipa": "ə'pɔɪntmənt",
+   "pos": "n.",
+   "lesson": 77,
+   "audio": {
+    "file": "words/appointment.mp3"
+   }
+  },
+  {
+   "en": "urgent",
+   "zh": "紧急的，急迫的",
+   "ipa": "'ɜːdʒənt",
+   "pos": "adj.",
+   "lesson": 77,
+   "audio": {
+    "file": "words/urgent.mp3"
+   }
+  },
+  {
+   "en": "till",
+   "zh": "直到……为止",
+   "ipa": "tɪl",
+   "pos": "prep.",
+   "lesson": 77,
+   "audio": {
+    "file": "words/till.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Nurse",
+   "en": "Good morning, Mr. Croft.",
+   "zh": "早上好，克罗夫特先生。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 7,
+    "end": 9.2
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "Good morning, nurse.",
+   "zh": "早上好，护士。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 9.2,
+    "end": 10.8
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "I want to see the dentist, please.",
+   "zh": "我想见牙科医生。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 10.8,
+    "end": 14
+   }
+  },
+  {
+   "speaker": "Nurse",
+   "en": "Do you have an appointment?",
+   "zh": "您约好了吗？",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 14,
+    "end": 16.2
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "No, I don't.",
+   "zh": "没有。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 16.2,
+    "end": 18.8
+   }
+  },
+  {
+   "speaker": "Nurse",
+   "en": "Is it urgent?",
+   "zh": "急吗？",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 18.8,
+    "end": 20.8
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "Yes, it is.",
+   "zh": "是的，",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 20.8,
+    "end": 22.9
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "It's very urgent.",
+   "zh": "很急。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 22.9,
+    "end": 25.3
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "I feel awful.",
+   "zh": "我难受极了，",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 25.3,
+    "end": 28.1
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "I have a terrible toothache.",
+   "zh": "牙痛得要命。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 28.1,
+    "end": 31.5
+   }
+  },
+  {
+   "speaker": "Nurse",
+   "en": "Can you come at 10 a.m. on Monday, April 24th?",
+   "zh": "您在 4 月 24 日星期一上午 10 点钟来可以吗？",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 31.5,
+    "end": 40.2
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "I must see the dentist now, nurse.",
+   "zh": "我必须现在就见牙科医生，护士。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 40.2,
+    "end": 44.6
+   }
+  },
+  {
+   "speaker": "Nurse",
+   "en": "The dentist is very busy at the moment.",
+   "zh": "牙科医生这会儿很忙。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 44.6,
+    "end": 49.3
+   }
+  },
+  {
+   "speaker": "Nurse",
+   "en": "Can you come at 2 p.m.?",
+   "zh": "您下午两点钟来行吗？",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 49.3,
+    "end": 52.6
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "That's very late.",
+   "zh": "那就太晚了。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 52.6,
+    "end": 55.1
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "Can the dentist see me now?",
+   "zh": "牙科医生现在就不能给我看一下吗？",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 55.1,
+    "end": 58.4
+   }
+  },
+  {
+   "speaker": "Nurse",
+   "en": "I'm afraid that he can't, Mr. Croft.",
+   "zh": "恐怕不能，克罗夫特先生。",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 58.4,
+    "end": 62.4
+   }
+  },
+  {
+   "speaker": "Nurse",
+   "en": "Can't you wait till this afternoon?",
+   "zh": "您就不能等到今天下午了吗？",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 62.4,
+    "end": 66.2
+   }
+  },
+  {
+   "speaker": "Mr. Croft",
+   "en": "I can wait, but my toothache can't!",
+   "zh": "我倒是可以等，可是我的牙痛等不了啊！",
+   "audio": {
+    "file": "media/L077.mp4",
+    "start": 66.2,
+    "end": 71.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "She buys a new car every year. She ___ a new car last year.",
+   "zh": "她去年买了一辆新车。",
+   "answer": "bought",
+   "options": [
+    "bought",
+    "buyed",
+    "buys",
+    "brought"
+   ]
+  },
+  {
+   "en": "She airs the room every day. She ___ it this morning.",
+   "zh": "她今天早上给房间通了风。",
+   "answer": "aired",
+   "options": [
+    "aired",
+    "airs",
+    "airred",
+    "air"
+   ]
+  },
+  {
+   "en": "He often loses his pen. He ___ his pen this morning.",
+   "zh": "他今天早上丢了钢笔。",
+   "answer": "lost",
+   "options": [
+    "lost",
+    "losed",
+    "loses",
+    "lose"
+   ]
+  },
+  {
+   "en": "She always listens to the news. She ___ to the news yesterday.",
+   "zh": "她昨天听了新闻。",
+   "answer": "listened",
+   "options": [
+    "listened",
+    "listens",
+    "listenned",
+    "listen"
+   ]
+  },
+  {
+   "en": "She empties this basket every day. She ___ it yesterday.",
+   "zh": "她昨天倒空了这个篮子。",
+   "answer": "emptied",
+   "options": [
+    "emptied",
+    "emptyed",
+    "empties",
+    "empty"
+   ]
+  },
+  {
+   "en": "It's eight o'clock. When did you see him? I ___ him at half past seven.",
+   "zh": "现在 8 点。你什么时候见到他的？我 7 点半见到他的。",
+   "answer": "saw",
+   "options": [
+    "saw",
+    "seed",
+    "see",
+    "seen"
+   ]
+  },
+  {
+   "en": "Do you have an ___?",
+   "zh": "您约好了吗？",
+   "answer": "appointment",
+   "options": [
+    "appointment",
+    "urgent",
+    "awful",
+    "moment"
+   ]
+  },
+  {
+   "en": "Can't you wait ___ this afternoon?",
+   "zh": "您就不能等到今天下午了吗？",
+   "answer": "till",
+   "options": [
+    "till",
+    "on",
+    "at",
+    "ago"
+   ]
+  },
+  {
+   "en": "Can you come at 10 a.m. ___ Monday, April 24th?",
+   "zh": "您在 4 月 24 日星期一上午 10 点钟来可以吗？",
+   "answer": "on",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "till"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L077.mp4",
+  "start": 6.5,
+  "end": 71.2
+ }
+}

@@ -1,0 +1,491 @@
+{
+ "id": "L063-064",
+ "lessons": [
+  63,
+  64
+ ],
+ "title": "Thank you, doctor.",
+ "titleZh": "谢谢你，医生。",
+ "evenTitle": "Don't ...! You mustn't ...!",
+ "evenTitleZh": "不要……！你不应该……！",
+ "words": [
+  {
+   "en": "better",
+   "zh": "（well 的比较级）更好",
+   "ipa": "'betə",
+   "pos": "adj.",
+   "lesson": 63,
+   "audio": {
+    "file": "words/better.mp3"
+   }
+  },
+  {
+   "en": "certainly",
+   "zh": "当然",
+   "ipa": "'sɜːtnli",
+   "pos": "adv.",
+   "lesson": 63,
+   "audio": {
+    "file": "words/certainly.mp3"
+   }
+  },
+  {
+   "en": "get up",
+   "zh": "起床",
+   "ipa": "",
+   "pos": "",
+   "lesson": 63,
+   "audio": {
+    "file": "words/get-up.mp3"
+   }
+  },
+  {
+   "en": "yet",
+   "zh": "还，仍",
+   "ipa": "jet",
+   "pos": "adv.",
+   "lesson": 63,
+   "audio": {
+    "file": "words/yet.mp3"
+   }
+  },
+  {
+   "en": "rich",
+   "zh": "油腻的",
+   "ipa": "rɪtʃ",
+   "pos": "adj.",
+   "lesson": 63,
+   "audio": {
+    "file": "words/rich.mp3"
+   }
+  },
+  {
+   "en": "food",
+   "zh": "食物",
+   "ipa": "fuːd",
+   "pos": "n.",
+   "lesson": 63,
+   "audio": {
+    "file": "words/food.mp3"
+   }
+  },
+  {
+   "en": "remain",
+   "zh": "保持，继续",
+   "ipa": "rɪ'meɪn",
+   "pos": "v.",
+   "lesson": 63,
+   "audio": {
+    "file": "words/remain.mp3"
+   }
+  },
+  {
+   "en": "play",
+   "zh": "玩",
+   "ipa": "pleɪ",
+   "pos": "v.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/play.mp3"
+   }
+  },
+  {
+   "en": "match",
+   "zh": "火柴",
+   "ipa": "mætʃ",
+   "pos": "n.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/match.mp3"
+   }
+  },
+  {
+   "en": "talk",
+   "zh": "谈话",
+   "ipa": "tɔːk",
+   "pos": "v.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/talk.mp3"
+   }
+  },
+  {
+   "en": "library",
+   "zh": "图书馆",
+   "ipa": "'laɪbrəri",
+   "pos": "n.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/library.mp3"
+   }
+  },
+  {
+   "en": "drive",
+   "zh": "开车",
+   "ipa": "draɪv",
+   "pos": "v.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/drive.mp3"
+   }
+  },
+  {
+   "en": "so",
+   "zh": "如此地",
+   "ipa": "səʊ",
+   "pos": "adv.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/so.mp3"
+   }
+  },
+  {
+   "en": "quickly",
+   "zh": "快地",
+   "ipa": "'kwɪkli",
+   "pos": "adv.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/quickly.mp3"
+   }
+  },
+  {
+   "en": "lean out of",
+   "zh": "身体探出",
+   "ipa": "",
+   "pos": "",
+   "lesson": 64,
+   "audio": {
+    "file": "words/lean-out-of.mp3"
+   }
+  },
+  {
+   "en": "break",
+   "zh": "打破",
+   "ipa": "breɪk",
+   "pos": "v.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/break.mp3"
+   }
+  },
+  {
+   "en": "noise",
+   "zh": "喧闹声",
+   "ipa": "nɔɪz",
+   "pos": "n.",
+   "lesson": 64,
+   "audio": {
+    "file": "words/noise.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Doctor",
+   "en": "How's Jimmy today?",
+   "zh": "吉米今天怎么样了？",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 7,
+    "end": 10
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Better. Thank you, doctor.",
+   "zh": "他好些了。谢谢您，医生。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 10,
+    "end": 12.4
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "Can I see him please, Mrs. Williams?",
+   "zh": "我可以看看他吗，威廉斯夫人？",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 12.4,
+    "end": 15.7
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Certainly, doctor.",
+   "zh": "当然可以，医生。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 15.7,
+    "end": 17.1
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Come upstairs.",
+   "zh": "上楼吧。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 17.1,
+    "end": 19.4
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "You look very well, Jimmy.",
+   "zh": "你看上去很好，吉米。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 19.4,
+    "end": 22.7
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "You are better now, but you mustn't get up yet.",
+   "zh": "你现在好些了，但你还不应该起床。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 22.7,
+    "end": 27.7
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "You must stay in bed for another two days.",
+   "zh": "你必须再卧床两天。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 27.7,
+    "end": 32.7
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "The boy mustn't go to school yet, Mrs. Williams.",
+   "zh": "这孩子还不能去上学，威廉斯夫人，",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 32.7,
+    "end": 36.5
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "And he mustn't eat rich food.",
+   "zh": "而且不能吃油腻的食物。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 36.5,
+    "end": 39.9
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Does he have a temperature, doctor?",
+   "zh": "他还发烧吗，医生？",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 39.9,
+    "end": 43
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "No, he doesn't.",
+   "zh": "不，他不发烧了。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 43,
+    "end": 45.3
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Must he stay in bed?",
+   "zh": "他还必须卧床吗？",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 45.3,
+    "end": 47.2
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "Yes. He must remain in bed for another two days.",
+   "zh": "是的，他还必须卧床两天。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 47.2,
+    "end": 52.1
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "He can get up for about two hours each day,",
+   "zh": "他每天可以起来两个小时，",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 52.1,
+    "end": 55.8
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "but you must keep the room warm.",
+   "zh": "但您必须保持房间温暖。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 55.8,
+    "end": 59.5
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "Where's Mr. Williams this evening?",
+   "zh": "威廉斯先生今晚去哪儿了？",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 59.5,
+    "end": 62.7
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "He's in bed, doctor.",
+   "zh": "他在床上呢，医生。",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 62.7,
+    "end": 65.4
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Can you see him please?",
+   "zh": "您能看看他吗？",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 65.4,
+    "end": 67.8
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "He has a bad cold, too!",
+   "zh": "他也得了重感冒！",
+   "audio": {
+    "file": "media/L063.mp4",
+    "start": 67.8,
+    "end": 70.7
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I mustn't take any aspirins. → Jimmy ___ take any aspirins.",
+   "zh": "吉米不应该吃阿斯匹林。",
+   "answer": "mustn't",
+   "options": [
+    "mustn't",
+    "mustn'ts",
+    "doesn't must",
+    "isn't must"
+   ]
+  },
+  {
+   "en": "I can get up for two hours each day. → Jimmy ___ get up for two hours each day.",
+   "zh": "吉米每天可以起来两个小时。",
+   "answer": "can",
+   "options": [
+    "can",
+    "cans",
+    "is can",
+    "does can"
+   ]
+  },
+  {
+   "en": "I often read in bed. → Jimmy often ___ in bed.",
+   "zh": "吉米常在床上看书。",
+   "answer": "reads",
+   "options": [
+    "reads",
+    "read",
+    "reading",
+    "is read"
+   ]
+  },
+  {
+   "en": "I don't feel ill now. → Jimmy ___ feel ill now.",
+   "zh": "吉米现在不觉得难受了。",
+   "answer": "doesn't",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't",
+    "mustn't"
+   ]
+  },
+  {
+   "en": "___ eat rich food! You mustn't eat rich food!",
+   "zh": "不要吃油腻的食物！",
+   "answer": "Don't",
+   "options": [
+    "Don't",
+    "Doesn't",
+    "Not",
+    "No"
+   ]
+  },
+  {
+   "en": "Don't play with ___!",
+   "zh": "不要玩火柴！",
+   "answer": "matches",
+   "options": [
+    "matches",
+    "match",
+    "matchs",
+    "a matches"
+   ]
+  },
+  {
+   "en": "You mustn't drive so ___!",
+   "zh": "你不应该开这么快！",
+   "answer": "quickly",
+   "options": [
+    "quickly",
+    "quick",
+    "noise",
+    "rich"
+   ]
+  },
+  {
+   "en": "Don't ___ a noise!",
+   "zh": "不要吵闹！",
+   "answer": "make",
+   "options": [
+    "make",
+    "do",
+    "take",
+    "play"
+   ]
+  },
+  {
+   "en": "You must stay in bed for ___ two days.",
+   "zh": "你必须再卧床两天。",
+   "answer": "another",
+   "options": [
+    "another",
+    "other",
+    "an other",
+    "else"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L063.mp4",
+  "start": 6.5,
+  "end": 70.7
+ }
+}

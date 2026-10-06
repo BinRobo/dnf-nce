@@ -1,0 +1,661 @@
+{
+ "id": "L053-054",
+ "lessons": [
+  53,
+  54
+ ],
+ "title": "An interesting climate",
+ "titleZh": "有趣的气候",
+ "evenTitle": "What nationality are they? Where do they come from?",
+ "evenTitleZh": "他们是哪国人？他们来自哪个国家？",
+ "words": [
+  {
+   "en": "mild",
+   "zh": "温和的，温暖的",
+   "ipa": "maɪld",
+   "pos": "adj.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/mild.mp3"
+   }
+  },
+  {
+   "en": "always",
+   "zh": "总是",
+   "ipa": "'ɔːlweɪz",
+   "pos": "adv.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/always.mp3"
+   }
+  },
+  {
+   "en": "north",
+   "zh": "北方",
+   "ipa": "nɔːθ",
+   "pos": "n.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/north.mp3"
+   }
+  },
+  {
+   "en": "east",
+   "zh": "东方",
+   "ipa": "iːst",
+   "pos": "n.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/east.mp3"
+   }
+  },
+  {
+   "en": "wet",
+   "zh": "潮湿的",
+   "ipa": "wet",
+   "pos": "adj.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/wet.mp3"
+   }
+  },
+  {
+   "en": "west",
+   "zh": "西方",
+   "ipa": "west",
+   "pos": "n.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/west.mp3"
+   }
+  },
+  {
+   "en": "south",
+   "zh": "南方",
+   "ipa": "saʊθ",
+   "pos": "n.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/south.mp3"
+   }
+  },
+  {
+   "en": "season",
+   "zh": "季节",
+   "ipa": "'siːzən",
+   "pos": "n.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/season.mp3"
+   }
+  },
+  {
+   "en": "best",
+   "zh": "最",
+   "ipa": "best",
+   "pos": "adv.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/best.mp3"
+   }
+  },
+  {
+   "en": "night",
+   "zh": "夜晚",
+   "ipa": "naɪt",
+   "pos": "n.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/night.mp3"
+   }
+  },
+  {
+   "en": "rise",
+   "zh": "升起",
+   "ipa": "raɪz",
+   "pos": "v.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/rise.mp3"
+   }
+  },
+  {
+   "en": "early",
+   "zh": "早",
+   "ipa": "'ɜːli",
+   "pos": "adv.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/early.mp3"
+   }
+  },
+  {
+   "en": "set",
+   "zh": "（太阳）落下去",
+   "ipa": "set",
+   "pos": "v.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/set.mp3"
+   }
+  },
+  {
+   "en": "late",
+   "zh": "晚，迟",
+   "ipa": "leɪt",
+   "pos": "adv.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/late.mp3"
+   }
+  },
+  {
+   "en": "interesting",
+   "zh": "有趣的，有意思的",
+   "ipa": "'ɪntrɪstɪŋ",
+   "pos": "adj.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/interesting.mp3"
+   }
+  },
+  {
+   "en": "subject",
+   "zh": "话题",
+   "ipa": "'sʌbdʒɪkt",
+   "pos": "n.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/subject.mp3"
+   }
+  },
+  {
+   "en": "conversation",
+   "zh": "谈话",
+   "ipa": "ˌkɒnvə'seɪʃən",
+   "pos": "n.",
+   "lesson": 53,
+   "audio": {
+    "file": "words/conversation.mp3"
+   }
+  },
+  {
+   "en": "Australia",
+   "zh": "澳大利亚",
+   "ipa": "ɒs'treɪljə",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/australia.mp3"
+   }
+  },
+  {
+   "en": "Australian",
+   "zh": "澳大利亚人",
+   "ipa": "ɒs'treɪljən",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/australian.mp3"
+   }
+  },
+  {
+   "en": "Austria",
+   "zh": "奥地利",
+   "ipa": "'ɒstriə",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/austria.mp3"
+   }
+  },
+  {
+   "en": "Austrian",
+   "zh": "奥地利人",
+   "ipa": "'ɒstriən",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/austrian.mp3"
+   }
+  },
+  {
+   "en": "Canada",
+   "zh": "加拿大",
+   "ipa": "'kænədə",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/canada.mp3"
+   }
+  },
+  {
+   "en": "Canadian",
+   "zh": "加拿大人",
+   "ipa": "kə'neɪdiən",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/canadian.mp3"
+   }
+  },
+  {
+   "en": "China",
+   "zh": "中国",
+   "ipa": "'tʃaɪnə",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/china.mp3"
+   }
+  },
+  {
+   "en": "Finland",
+   "zh": "芬兰",
+   "ipa": "'fɪnlənd",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/finland.mp3"
+   }
+  },
+  {
+   "en": "Finnish",
+   "zh": "芬兰人",
+   "ipa": "'fɪnɪʃ",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/finnish.mp3"
+   }
+  },
+  {
+   "en": "India",
+   "zh": "印度",
+   "ipa": "'ɪndiə",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/india.mp3"
+   }
+  },
+  {
+   "en": "Indian",
+   "zh": "印度人",
+   "ipa": "'ɪndiən",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/indian.mp3"
+   }
+  },
+  {
+   "en": "Japan",
+   "zh": "日本",
+   "ipa": "dʒə'pæn",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/japan.mp3"
+   }
+  },
+  {
+   "en": "Nigeria",
+   "zh": "尼日利亚",
+   "ipa": "naɪ'dʒɪəriə",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/nigeria.mp3"
+   }
+  },
+  {
+   "en": "Nigerian",
+   "zh": "尼日利亚人",
+   "ipa": "naɪ'dʒɪəriən",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/nigerian.mp3"
+   }
+  },
+  {
+   "en": "Turkey",
+   "zh": "土耳其",
+   "ipa": "'tɜːki",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/turkey.mp3"
+   }
+  },
+  {
+   "en": "Turkish",
+   "zh": "土耳其人",
+   "ipa": "'tɜːkɪʃ",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/turkish.mp3"
+   }
+  },
+  {
+   "en": "Korea",
+   "zh": "韩国",
+   "ipa": "kə'rɪə",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/korea.mp3"
+   }
+  },
+  {
+   "en": "Polish",
+   "zh": "波兰人",
+   "ipa": "'pəʊlɪʃ",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/polish.mp3"
+   }
+  },
+  {
+   "en": "Poland",
+   "zh": "波兰",
+   "ipa": "'pəʊlənd",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/poland.mp3"
+   }
+  },
+  {
+   "en": "Thai",
+   "zh": "泰国人",
+   "ipa": "taɪ",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/thai.mp3"
+   }
+  },
+  {
+   "en": "Thailand",
+   "zh": "泰国",
+   "ipa": "'taɪlənd",
+   "pos": "n.",
+   "lesson": 54,
+   "audio": {
+    "file": "words/thailand.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Hans",
+   "en": "Where do you come from?",
+   "zh": "你是哪国人？",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 7,
+    "end": 11
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "I come from England.",
+   "zh": "我是英国人。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 11,
+    "end": 14.8
+   }
+  },
+  {
+   "speaker": "Hans",
+   "en": "What's the climate like in your country?",
+   "zh": "你们国家的气候怎么样？",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 14.8,
+    "end": 19.2
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "It's mild, but it's not always pleasant.",
+   "zh": "气候温和，但也不总是宜人的。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 19.2,
+    "end": 24
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "The weather's often cold in the North and windy in the East.",
+   "zh": "北部的天气常常寒冷，东部则常常刮风。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 24,
+    "end": 29.9
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "It's often wet in the West and sometimes warm in the South.",
+   "zh": "西部常下雨，南部有时则很暖和。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 29.9,
+    "end": 37
+   }
+  },
+  {
+   "speaker": "Hans",
+   "en": "Which seasons do you like best?",
+   "zh": "你最喜欢哪些季节？",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 37,
+    "end": 40.8
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "I like spring and summer.",
+   "zh": "我最喜欢春季和夏季。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 40.8,
+    "end": 43.9
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "The days are long and the nights are short.",
+   "zh": "因为此时白天长而夜晚短，",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 43.9,
+    "end": 48
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "The sun rises early and sets late.",
+   "zh": "太阳升得早而落得晚。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 48,
+    "end": 53.1
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "I don't like autumn and winter.",
+   "zh": "我不喜欢秋季和冬季。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 53.1,
+    "end": 56.5
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "The days are short and the nights are long.",
+   "zh": "因为此时白天短而夜晚长，",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 56.5,
+    "end": 60.9
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "The sun rises late and sets early.",
+   "zh": "太阳升得迟而落得早。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 60.9,
+    "end": 65.3
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "Our climate is not very good,",
+   "zh": "虽然我们国家的气候并不很好，",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 65.3,
+    "end": 68.4
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "but it's certainly interesting.",
+   "zh": "但又确实很有意思。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 68.4,
+    "end": 71.3
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "It's our favourite subject of conversation.",
+   "zh": "天气是我们最喜欢谈论的话题。",
+   "audio": {
+    "file": "media/L053.mp4",
+    "start": 71.3,
+    "end": 76
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "The sun rises early. → ___ the sun rise early?",
+   "zh": "太阳升得早吗？",
+   "answer": "Does",
+   "options": [
+    "Does",
+    "Do",
+    "Is",
+    "Are"
+   ]
+  },
+  {
+   "en": "The sun rises early. → The sun doesn't ___ early.",
+   "zh": "太阳升得不早。",
+   "answer": "rise",
+   "options": [
+    "rise",
+    "rises",
+    "rising",
+    "to rises"
+   ]
+  },
+  {
+   "en": "He likes ice cream. → ___ he like ice cream?",
+   "zh": "他喜欢冰淇淋吗？",
+   "answer": "Does",
+   "options": [
+    "Does",
+    "Do",
+    "Is",
+    "Can"
+   ]
+  },
+  {
+   "en": "Mrs. Jones wants a biscuit. → Mrs. Jones ___ want a biscuit.",
+   "zh": "琼斯夫人不想要饼干。",
+   "answer": "doesn't",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't",
+    "not"
+   ]
+  },
+  {
+   "en": "Where does he come from? Is he Brazilian? Yes. He's Brazilian. He comes from ___.",
+   "zh": "他来自哪里？他是巴西人吗？是的，他来自巴西。",
+   "answer": "Brazil",
+   "options": [
+    "Brazil",
+    "Brazilian",
+    "Brazils",
+    "the Brazil"
+   ]
+  },
+  {
+   "en": "She's Indian. She comes from ___.",
+   "zh": "她是印度人，她来自印度。",
+   "answer": "India",
+   "options": [
+    "India",
+    "Indian",
+    "China",
+    "Indians"
+   ]
+  },
+  {
+   "en": "They're Polish. They come from ___.",
+   "zh": "他们是波兰人，他们来自波兰。",
+   "answer": "Poland",
+   "options": [
+    "Poland",
+    "Polish",
+    "Polands",
+    "Holland"
+   ]
+  },
+  {
+   "en": "The sun rises early and ___ late.",
+   "zh": "太阳升得早而落得晚。",
+   "answer": "sets",
+   "options": [
+    "sets",
+    "set",
+    "rises",
+    "setting"
+   ]
+  },
+  {
+   "en": "Which seasons do you like ___?",
+   "zh": "你最喜欢哪些季节？",
+   "answer": "best",
+   "options": [
+    "best",
+    "very",
+    "much",
+    "good"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L053.mp4",
+  "start": 6.5,
+  "end": 76
+ }
+}

@@ -1,0 +1,451 @@
+{
+ "id": "L081-082",
+ "lessons": [
+  81,
+  82
+ ],
+ "title": "Roast beef and potatoes",
+ "titleZh": "烤牛肉和土豆",
+ "evenTitle": "I had ...",
+ "evenTitleZh": "我吃（喝、从事）了……",
+ "words": [
+  {
+   "en": "bath",
+   "zh": "洗澡",
+   "ipa": "bɑːθ",
+   "pos": "n.",
+   "lesson": 81,
+   "audio": {
+    "file": "words/bath.mp3"
+   }
+  },
+  {
+   "en": "nearly",
+   "zh": "几乎，将近",
+   "ipa": "'nɪəli",
+   "pos": "adv.",
+   "lesson": 81,
+   "audio": {
+    "file": "words/nearly.mp3"
+   }
+  },
+  {
+   "en": "ready",
+   "zh": "准备好的，完好的",
+   "ipa": "'redi",
+   "pos": "adj.",
+   "lesson": 81,
+   "audio": {
+    "file": "words/ready.mp3"
+   }
+  },
+  {
+   "en": "dinner",
+   "zh": "正餐，晚餐",
+   "ipa": "'dɪnə",
+   "pos": "n.",
+   "lesson": 81,
+   "audio": {
+    "file": "words/dinner.mp3"
+   }
+  },
+  {
+   "en": "restaurant",
+   "zh": "饭馆，餐馆",
+   "ipa": "'restərɒnt",
+   "pos": "n.",
+   "lesson": 81,
+   "audio": {
+    "file": "words/restaurant.mp3"
+   }
+  },
+  {
+   "en": "roast",
+   "zh": "烤的",
+   "ipa": "rəʊst",
+   "pos": "adj.",
+   "lesson": 81,
+   "audio": {
+    "file": "words/roast.mp3"
+   }
+  },
+  {
+   "en": "breakfast",
+   "zh": "早饭",
+   "ipa": "'brekfəst",
+   "pos": "n.",
+   "lesson": 82,
+   "audio": {
+    "file": "words/breakfast.mp3"
+   }
+  },
+  {
+   "en": "haircut",
+   "zh": "理发",
+   "ipa": "'heəkʌt",
+   "pos": "n.",
+   "lesson": 82,
+   "audio": {
+    "file": "words/haircut.mp3"
+   }
+  },
+  {
+   "en": "party",
+   "zh": "聚会",
+   "ipa": "'pɑːti",
+   "pos": "n.",
+   "lesson": 82,
+   "audio": {
+    "file": "words/party.mp3"
+   }
+  },
+  {
+   "en": "holiday",
+   "zh": "假日",
+   "ipa": "'hɒlɪdi",
+   "pos": "n.",
+   "lesson": 82,
+   "audio": {
+    "file": "words/holiday.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sam",
+   "en": "Hi, Carol!",
+   "zh": "你好，卡罗尔！",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 7.3,
+    "end": 8.8
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Where's Tom?",
+   "zh": "汤姆在哪儿？",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 8.8,
+    "end": 10
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "He's upstairs.",
+   "zh": "他在楼上。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 10,
+    "end": 11.2
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "He's having a bath.",
+   "zh": "他正在洗澡。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 11.2,
+    "end": 13.1
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "Tom!",
+   "zh": "汤姆！",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 13.1,
+    "end": 14.5
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Yes?",
+   "zh": "什么事？",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 14.5,
+    "end": 15.7
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "Sam's here.",
+   "zh": "萨姆来了。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 15.7,
+    "end": 17.2
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "I'm nearly ready.",
+   "zh": "我马上就好。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 17.2,
+    "end": 20.5
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Hello, Sam.",
+   "zh": "你好，萨姆。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 20.5,
+    "end": 22.5
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Have a cigarette.",
+   "zh": "请抽烟。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 22.5,
+    "end": 25
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "No, thanks, Tom.",
+   "zh": "不，谢谢，汤姆。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 25,
+    "end": 27.8
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Have a glass of whisky then.",
+   "zh": "那么，来杯威士忌吧。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 27.8,
+    "end": 30.6
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "OK. Thanks.",
+   "zh": "好的，谢谢。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 30.6,
+    "end": 34.6
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Is dinner ready, Carol?",
+   "zh": "卡罗尔，饭好了吗？",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 34.6,
+    "end": 36.6
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "It's nearly ready.",
+   "zh": "马上就好。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 36.6,
+    "end": 38.2
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "We can have dinner at seven o'clock.",
+   "zh": "7 点钟我们可以吃饭。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 38.2,
+    "end": 41.2
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Sam and I had lunch together today.",
+   "zh": "我和萨姆今天一起吃的午饭。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 41.2,
+    "end": 44.4
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "We went to a restaurant.",
+   "zh": "我们去了一家饭店。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 44.4,
+    "end": 46.4
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "What did you have?",
+   "zh": "你们吃什么？",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 46.4,
+    "end": 48.2
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "We had roast beef and potatoes.",
+   "zh": "我们吃的是烤牛肉和土豆。",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 48.2,
+    "end": 52.2
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "Oh!",
+   "zh": "噢！",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 52.2,
+    "end": 53.8
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "What's the matter, Carol?",
+   "zh": "怎么了，卡罗尔？",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 53.8,
+    "end": 56.2
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "Well, you're going to have roast beef and potatoes again tonight!",
+   "zh": "唉，今晚你们又要吃烤牛肉和土豆了！",
+   "audio": {
+    "file": "media/L081.mp4",
+    "start": 56.2,
+    "end": 62.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I had a cup of coffee. → I ___ a cup of coffee.",
+   "zh": "我喝了一杯咖啡。",
+   "answer": "drank",
+   "options": [
+    "drank",
+    "ate",
+    "drinked",
+    "went"
+   ]
+  },
+  {
+   "en": "They had a meal at a restaurant. → They ___ a meal at a restaurant.",
+   "zh": "他们在饭店吃了一顿饭。",
+   "answer": "ate",
+   "options": [
+    "ate",
+    "drank",
+    "eated",
+    "took"
+   ]
+  },
+  {
+   "en": "We had a holiday last month. → We ___ for a holiday last month.",
+   "zh": "我们上个月去度假了。",
+   "answer": "went",
+   "options": [
+    "went",
+    "goed",
+    "ate",
+    "drank"
+   ]
+  },
+  {
+   "en": "You had a good time. → You ___ yourself.",
+   "zh": "你玩得很开心。",
+   "answer": "enjoyed",
+   "options": [
+    "enjoyed",
+    "enjoied",
+    "had",
+    "took"
+   ]
+  },
+  {
+   "en": "They are having their lunch. → They ___ their lunch.",
+   "zh": "他们正在吃午饭。",
+   "answer": "are eating",
+   "options": [
+    "are eating",
+    "ate",
+    "eat",
+    "are eaten"
+   ]
+  },
+  {
+   "en": "What is he going to do? He's going to ___ a glass of whisky.",
+   "zh": "他打算做什么？他打算喝杯威士忌。",
+   "answer": "have",
+   "options": [
+    "have",
+    "having",
+    "had",
+    "has"
+   ]
+  },
+  {
+   "en": "What did they do? They ___ dinner.",
+   "zh": "他们做了什么？他们吃了晚饭。",
+   "answer": "had",
+   "options": [
+    "had",
+    "have",
+    "having",
+    "has"
+   ]
+  },
+  {
+   "en": "He's upstairs. He's ___ a bath.",
+   "zh": "他在楼上，正在洗澡。",
+   "answer": "having",
+   "options": [
+    "having",
+    "have",
+    "had",
+    "has"
+   ]
+  },
+  {
+   "en": "I'm ___ ready.",
+   "zh": "我马上就好。",
+   "answer": "nearly",
+   "options": [
+    "nearly",
+    "roast",
+    "ready",
+    "never"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L081.mp4",
+  "start": 6.8,
+  "end": 62.2
+ }
+}

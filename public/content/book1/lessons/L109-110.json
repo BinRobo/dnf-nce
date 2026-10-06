@@ -1,0 +1,481 @@
+{
+ "id": "L109-110",
+ "lessons": [
+  109,
+  110
+ ],
+ "title": "A good idea",
+ "titleZh": "好主意",
+ "evenTitle": "How do they compare?",
+ "evenTitleZh": "它们的比较级和最高级是什么？",
+ "words": [
+  {
+   "en": "idea",
+   "zh": "主意",
+   "ipa": "aɪ'dɪə",
+   "pos": "n.",
+   "lesson": 109,
+   "audio": {
+    "file": "words/idea.mp3"
+   }
+  },
+  {
+   "en": "a little",
+   "zh": "少许（用于不可数名词之前）",
+   "ipa": "",
+   "pos": "",
+   "lesson": 109,
+   "audio": {
+    "file": "words/a-little.mp3"
+   }
+  },
+  {
+   "en": "teaspoonful",
+   "zh": "一满茶匙",
+   "ipa": "'tiːspuːnfʊl",
+   "pos": "n.",
+   "lesson": 109,
+   "audio": {
+    "file": "words/teaspoonful.mp3"
+   }
+  },
+  {
+   "en": "less",
+   "zh": "（little 的比较级）较少的，更小的",
+   "ipa": "les",
+   "pos": "adj.",
+   "lesson": 109,
+   "audio": {
+    "file": "words/less.mp3"
+   }
+  },
+  {
+   "en": "a few",
+   "zh": "几个（用于可数名词之前）",
+   "ipa": "ə-'fjuː",
+   "pos": "",
+   "lesson": 109,
+   "audio": {
+    "file": "words/a-few.mp3"
+   }
+  },
+  {
+   "en": "pity",
+   "zh": "遗憾",
+   "ipa": "'pɪti",
+   "pos": "n.",
+   "lesson": 109,
+   "audio": {
+    "file": "words/pity.mp3"
+   }
+  },
+  {
+   "en": "instead",
+   "zh": "代替",
+   "ipa": "ɪn'sted",
+   "pos": "adv.",
+   "lesson": 109,
+   "audio": {
+    "file": "words/instead.mp3"
+   }
+  },
+  {
+   "en": "advice",
+   "zh": "建议，忠告",
+   "ipa": "əd'vaɪs",
+   "pos": "n.",
+   "lesson": 109,
+   "audio": {
+    "file": "words/advice.mp3"
+   }
+  },
+  {
+   "en": "most",
+   "zh": "（many, much 的最高级）最多的",
+   "ipa": "məʊst",
+   "pos": "adj.",
+   "lesson": 110,
+   "audio": {
+    "file": "words/most.mp3"
+   }
+  },
+  {
+   "en": "least",
+   "zh": "（little 的最高级）最小的，最少的",
+   "ipa": "liːst",
+   "pos": "adj.",
+   "lesson": 110,
+   "audio": {
+    "file": "words/least.mp3"
+   }
+  },
+  {
+   "en": "best",
+   "zh": "（good 的最高级）最好的",
+   "ipa": "best",
+   "pos": "adj.",
+   "lesson": 110,
+   "audio": {
+    "file": "words/best.mp3"
+   }
+  },
+  {
+   "en": "worse",
+   "zh": "（bad 的比较级）更坏的",
+   "ipa": "wɜːs",
+   "pos": "adj.",
+   "lesson": 110,
+   "audio": {
+    "file": "words/worse.mp3"
+   }
+  },
+  {
+   "en": "worst",
+   "zh": "（bad 的最高级）最坏的",
+   "ipa": "wɜːst",
+   "pos": "adj.",
+   "lesson": 110,
+   "audio": {
+    "file": "words/worst.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Charlotte",
+   "en": "Shall I make some coffee, Jane?",
+   "zh": "我来煮点咖啡好吗，简？",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 7.3,
+    "end": 10.5
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "That's a good idea, Charlotte.",
+   "zh": "这是个好主意，夏洛特。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 10.5,
+    "end": 13.4
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "It's ready.",
+   "zh": "咖啡好了。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 13.4,
+    "end": 14.5
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Do you want any milk?",
+   "zh": "你要放点奶吗？",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 14.5,
+    "end": 16.7
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "Just a little, please.",
+   "zh": "请稍加一点。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 16.7,
+    "end": 19.3
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "What about some sugar?",
+   "zh": "加些糖怎么样？",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 19.3,
+    "end": 21
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Two teaspoonfuls?",
+   "zh": "两茶匙行吗？",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 21,
+    "end": 23.3
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "No, less than that.",
+   "zh": "不，再少一些。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 23.3,
+    "end": 25.8
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "One and a half teaspoonfuls, please.",
+   "zh": "请放一勺半。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 25.8,
+    "end": 28.8
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "That's enough for me.",
+   "zh": "那对我已足够了。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 28.8,
+    "end": 31.4
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "That was very nice.",
+   "zh": "太好了。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 31.4,
+    "end": 34.4
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Would you like some more?",
+   "zh": "你再来点吗？",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 34.4,
+    "end": 36.4
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "Yes, please.",
+   "zh": "好的，请再来一点。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 36.4,
+    "end": 38.5
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "I'd like a cigarette, too.",
+   "zh": "我还想抽支烟。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 38.5,
+    "end": 40.2
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "May I have one?",
+   "zh": "可以给我一支吗？",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 40.2,
+    "end": 41.9
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Of course.",
+   "zh": "当然可以。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 41.9,
+    "end": 43.2
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "I think there are a few in that box.",
+   "zh": "我想那个盒子里有一些。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 43.2,
+    "end": 46.6
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "I'm afraid it's empty.",
+   "zh": "恐怕盒子是空的。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 46.6,
+    "end": 49
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "What a pity!",
+   "zh": "真遗憾！",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 49,
+    "end": 50.6
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "It doesn't matter.",
+   "zh": "没关系。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 50.6,
+    "end": 52
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Have a biscuit instead.",
+   "zh": "那就吃块饼干吧。",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 52,
+    "end": 53.8
+   }
+  },
+  {
+   "speaker": "Charlotte",
+   "en": "Eat more and smoke less!",
+   "zh": "多吃点，少抽点！",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 53.8,
+    "end": 56.6
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "That's very good advice!",
+   "zh": "这是极好的忠告啊！",
+   "audio": {
+    "file": "media/L109.mp4",
+    "start": 56.6,
+    "end": 59.4
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Do you want any milk? Just a ___, please.",
+   "zh": "你要放点奶吗？请稍加一点。",
+   "answer": "little",
+   "options": [
+    "little",
+    "few",
+    "lot",
+    "many"
+   ]
+  },
+  {
+   "en": "I think there are a ___ in that box.",
+   "zh": "我想那个盒子里有一些。",
+   "answer": "few",
+   "options": [
+    "few",
+    "little",
+    "much",
+    "less"
+   ]
+  },
+  {
+   "en": "I haven't got any pens. I haven't got ___ either.",
+   "zh": "我没有钢笔。我也没有很多别的东西。",
+   "answer": "many",
+   "options": [
+    "many",
+    "much",
+    "less",
+    "fewer"
+   ]
+  },
+  {
+   "en": "I haven't got any money. I haven't got ___ either.",
+   "zh": "我没有钱，其他的也没有多少。",
+   "answer": "much",
+   "options": [
+    "much",
+    "many",
+    "fewer",
+    "more"
+   ]
+  },
+  {
+   "en": "I've got some money. I've got ___ than you have.",
+   "zh": "我有一些钱，比你的多。",
+   "answer": "more",
+   "options": [
+    "more",
+    "most",
+    "many",
+    "much"
+   ]
+  },
+  {
+   "en": "I've got some books. I've got ___ than you have.",
+   "zh": "我有一些书，比你的少。",
+   "answer": "fewer",
+   "options": [
+    "fewer",
+    "less",
+    "fewest",
+    "few"
+   ]
+  },
+  {
+   "en": "That's very good ___!",
+   "zh": "这是极好的忠告！",
+   "answer": "advice",
+   "options": [
+    "advice",
+    "advices",
+    "advise",
+    "advised"
+   ]
+  },
+  {
+   "en": "Have a biscuit ___.",
+   "zh": "那就吃块饼干吧。",
+   "answer": "instead",
+   "options": [
+    "instead",
+    "instead of",
+    "ever",
+    "yet"
+   ]
+  },
+  {
+   "en": "Eat more and smoke ___!",
+   "zh": "多吃点，少抽点！",
+   "answer": "less",
+   "options": [
+    "less",
+    "fewer",
+    "least",
+    "most"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L109.mp4",
+  "start": 6.8,
+  "end": 59.4
+ }
+}

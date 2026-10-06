@@ -1,0 +1,351 @@
+{
+ "id": "L121-122",
+ "lessons": [
+  121,
+  122
+ ],
+ "title": "The man in a hat",
+ "titleZh": "戴帽子的男士",
+ "evenTitle": "Who (whom), which and that",
+ "evenTitleZh": "关系代词",
+ "words": [
+  {
+   "en": "customer",
+   "zh": "顾客",
+   "ipa": "'kʌstəmə",
+   "pos": "n.",
+   "lesson": 121,
+   "audio": {
+    "file": "words/customer.mp3"
+   }
+  },
+  {
+   "en": "forget",
+   "zh": "忘记（过去式 forgot，过去分词 forgotten）",
+   "ipa": "fə'get",
+   "pos": "v.",
+   "lesson": 121,
+   "audio": {
+    "file": "words/forget.mp3"
+   }
+  },
+  {
+   "en": "manager",
+   "zh": "经理",
+   "ipa": "'mænɪdʒə",
+   "pos": "n.",
+   "lesson": 121,
+   "audio": {
+    "file": "words/manager.mp3"
+   }
+  },
+  {
+   "en": "serve",
+   "zh": "照应，服务，接待",
+   "ipa": "sɜːv",
+   "pos": "v.",
+   "lesson": 121,
+   "audio": {
+    "file": "words/serve.mp3"
+   }
+  },
+  {
+   "en": "counter",
+   "zh": "柜台",
+   "ipa": "'kaʊntə",
+   "pos": "n.",
+   "lesson": 121,
+   "audio": {
+    "file": "words/counter.mp3"
+   }
+  },
+  {
+   "en": "recognize",
+   "zh": "认出",
+   "ipa": "'rekəgnaɪz",
+   "pos": "v.",
+   "lesson": 121,
+   "audio": {
+    "file": "words/recognize.mp3"
+   }
+  },
+  {
+   "en": "road",
+   "zh": "路",
+   "ipa": "rəʊd",
+   "pos": "n.",
+   "lesson": 122,
+   "audio": {
+    "file": "words/road.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Customer",
+   "en": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me.",
+   "zh": "半小时以前我在这里买了两本很贵的辞典，但是我忘了拿走。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 7.7,
+    "end": 16.4
+   }
+  },
+  {
+   "speaker": "Manager",
+   "en": "Who served you, sir?",
+   "zh": "是谁接待您的，先生？",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 16.4,
+    "end": 19.3
+   }
+  },
+  {
+   "speaker": "Customer",
+   "en": "The lady who is standing behind the counter.",
+   "zh": "站在柜台后面的那位女士。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 19.3,
+    "end": 23.3
+   }
+  },
+  {
+   "speaker": "Manager",
+   "en": "Which books did you buy?",
+   "zh": "您买的是两本什么书？",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 23.3,
+    "end": 26.8
+   }
+  },
+  {
+   "speaker": "Customer",
+   "en": "The books which are on the counter.",
+   "zh": "就是柜台上的那两本。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 26.8,
+    "end": 30.6
+   }
+  },
+  {
+   "speaker": "Manager",
+   "en": "Did you serve this gentleman half an hour ago, Caroline?",
+   "zh": "卡罗琳，半小时前你接待过这位先生吗？",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 30.6,
+    "end": 35.4
+   }
+  },
+  {
+   "speaker": "Manager",
+   "en": "He says he's the man who bought these books.",
+   "zh": "他说他就是买这两本书的人。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 35.4,
+    "end": 39.9
+   }
+  },
+  {
+   "speaker": "Caroline",
+   "en": "I can't remember.",
+   "zh": "我记不起来了。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 39.9,
+    "end": 42.4
+   }
+  },
+  {
+   "speaker": "Caroline",
+   "en": "The man who I served was wearing a hat.",
+   "zh": "我接待的那个人戴着一顶帽子。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 42.4,
+    "end": 46
+   }
+  },
+  {
+   "speaker": "Manager",
+   "en": "Have you got a hat, sir?",
+   "zh": "先生，您有帽子吗？",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 46,
+    "end": 48.8
+   }
+  },
+  {
+   "speaker": "Customer",
+   "en": "Yes, I have.",
+   "zh": "有的，我有帽子。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 48.8,
+    "end": 51.6
+   }
+  },
+  {
+   "speaker": "Manager",
+   "en": "Would you put it on, please?",
+   "zh": "请您把帽子戴上好吗？",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 51.6,
+    "end": 54.8
+   }
+  },
+  {
+   "speaker": "Customer",
+   "en": "All right.",
+   "zh": "好吧。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 54.8,
+    "end": 57
+   }
+  },
+  {
+   "speaker": "Manager",
+   "en": "Is this the man that you served, Caroline?",
+   "zh": "卡罗琳，这就是你接待过的那个人吗？",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 57,
+    "end": 60.2
+   }
+  },
+  {
+   "speaker": "Caroline",
+   "en": "Yes.",
+   "zh": "是他。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 60.2,
+    "end": 61.1
+   }
+  },
+  {
+   "speaker": "Caroline",
+   "en": "I recognize him now.",
+   "zh": "我现在认出他来了。",
+   "audio": {
+    "file": "media/L121.mp4",
+    "start": 61.1,
+    "end": 64
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I bought two expensive dictionaries here half an hour ___.",
+   "zh": "半小时以前我在这里买了两本很贵的辞典。",
+   "answer": "ago",
+   "options": [
+    "ago",
+    "for",
+    "since",
+    "last"
+   ]
+  },
+  {
+   "en": "The lady ___ is standing behind the counter served me.",
+   "zh": "站在柜台后面的那位女士接待了我。",
+   "answer": "who",
+   "options": [
+    "who",
+    "which",
+    "whom",
+    "what"
+   ]
+  },
+  {
+   "en": "The books ___ are on the counter are mine.",
+   "zh": "柜台上的那几本书是我的。",
+   "answer": "which",
+   "options": [
+    "which",
+    "who",
+    "whom",
+    "what"
+   ]
+  },
+  {
+   "en": "He is the man ___ bought these books.",
+   "zh": "他就是买这几本书的人。",
+   "answer": "who",
+   "options": [
+    "who",
+    "which",
+    "whom",
+    "what"
+   ]
+  },
+  {
+   "en": "The man who I served ___ wearing a hat.",
+   "zh": "我接待的那个人戴着一顶帽子。",
+   "answer": "was",
+   "options": [
+    "was",
+    "were",
+    "are",
+    "been"
+   ]
+  },
+  {
+   "en": "Would you ___ it on, please?",
+   "zh": "请您把它戴上好吗？",
+   "answer": "put",
+   "options": [
+    "put",
+    "puts",
+    "putting",
+    "to put"
+   ]
+  },
+  {
+   "en": "I can't ___.",
+   "zh": "我记不起来了。",
+   "answer": "remember",
+   "options": [
+    "remember",
+    "remembers",
+    "remembering",
+    "remembered"
+   ]
+  },
+  {
+   "en": "She is the woman ___ I met at the party.",
+   "zh": "她就是我在聚会上遇见的那位女士。",
+   "answer": "whom",
+   "options": [
+    "whom",
+    "which",
+    "what",
+    "where"
+   ]
+  },
+  {
+   "en": "Who is making all that noise? The men ___ are repairing the road.",
+   "zh": "谁在制造这么大的噪音？是正在修路的那些人。",
+   "answer": "who",
+   "options": [
+    "who",
+    "which",
+    "whom",
+    "what"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L121.mp4",
+  "start": 7.2,
+  "end": 64
+ }
+}

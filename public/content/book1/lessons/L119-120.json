@@ -1,0 +1,411 @@
+{
+ "id": "L119-120",
+ "lessons": [
+  119,
+  120
+ ],
+ "title": "A true story",
+ "titleZh": "一个真实的故事",
+ "evenTitle": "It had already happened.",
+ "evenTitleZh": "它已经发生了。",
+ "words": [
+  {
+   "en": "story",
+   "zh": "故事",
+   "ipa": "'stɔːri",
+   "pos": "n.",
+   "lesson": 119,
+   "audio": {
+    "file": "words/story.mp3"
+   }
+  },
+  {
+   "en": "happen",
+   "zh": "发生",
+   "ipa": "'hæpən",
+   "pos": "v.",
+   "lesson": 119,
+   "audio": {
+    "file": "words/happen.mp3"
+   }
+  },
+  {
+   "en": "thief",
+   "zh": "贼（复数 thieves）",
+   "ipa": "θiːf",
+   "pos": "n.",
+   "lesson": 119,
+   "audio": {
+    "file": "words/thief.mp3"
+   }
+  },
+  {
+   "en": "enter",
+   "zh": "进入",
+   "ipa": "'entə",
+   "pos": "v.",
+   "lesson": 119,
+   "audio": {
+    "file": "words/enter.mp3"
+   }
+  },
+  {
+   "en": "dark",
+   "zh": "黑暗的",
+   "ipa": "dɑːk",
+   "pos": "adj.",
+   "lesson": 119,
+   "audio": {
+    "file": "words/dark.mp3"
+   }
+  },
+  {
+   "en": "torch",
+   "zh": "手电筒",
+   "ipa": "tɔːtʃ",
+   "pos": "n.",
+   "lesson": 119,
+   "audio": {
+    "file": "words/torch.mp3"
+   }
+  },
+  {
+   "en": "voice",
+   "zh": "（说话的）声音",
+   "ipa": "vɔɪs",
+   "pos": "n.",
+   "lesson": 119,
+   "audio": {
+    "file": "words/voice.mp3"
+   }
+  },
+  {
+   "en": "parrot",
+   "zh": "鹦鹉",
+   "ipa": "'pærət",
+   "pos": "n.",
+   "lesson": 119,
+   "audio": {
+    "file": "words/parrot.mp3"
+   }
+  },
+  {
+   "en": "exercise book",
+   "zh": "练习本",
+   "ipa": "'eksəsaɪz-bʊk",
+   "pos": "n.",
+   "lesson": 120,
+   "audio": {
+    "file": "words/exercise-book.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "Do you like stories?",
+   "zh": "你喜欢听故事吗？",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 7.4,
+    "end": 10
+   }
+  },
+  {
+   "speaker": "",
+   "en": "I want to tell you a true story.",
+   "zh": "我要告诉你一个真实的故事。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 10,
+    "end": 13.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "It happened to a friend of mine a year ago.",
+   "zh": "这是一年前发生在我的一个朋友身上的故事。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 13.4,
+    "end": 17.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "While my friend, George, was reading in bed,",
+   "zh": "当我的朋友乔治在床上看书时，",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 17.3,
+    "end": 20.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "two thieves climbed into his kitchen.",
+   "zh": "两个小偷爬进了他的厨房。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 20.4,
+    "end": 24.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "After they had entered the house,",
+   "zh": "他们进到屋里后，",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 24.6,
+    "end": 27
+   }
+  },
+  {
+   "speaker": "",
+   "en": "they went into the dining room.",
+   "zh": "走进了饭厅。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 27,
+    "end": 30.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "It was very dark,",
+   "zh": "饭厅里很暗，",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 30.2,
+    "end": 32.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "so they turned on a torch.",
+   "zh": "于是他们打开了手电筒。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 32.1,
+    "end": 35.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Suddenly, they heard a voice behind them.",
+   "zh": "突然他们听到身后有声音。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 35.4,
+    "end": 39.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'What's up? What's up?' someone called.",
+   "zh": "“什么事？什么事？”有人叫着。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 39.2,
+    "end": 42.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The thieves dropped the torch and ran away as quickly as they could.",
+   "zh": "小偷扔下了手电筒，飞快地逃走了。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 42.9,
+    "end": 48.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "George heard the noise and came downstairs quickly.",
+   "zh": "乔治听到了响声，迅速地下了楼。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 48.1,
+    "end": 52.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He turned on the light,",
+   "zh": "他开了灯，",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 52.1,
+    "end": 54.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "but he couldn't see anyone.",
+   "zh": "但不见一个人。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 54.5,
+    "end": 57.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The thieves had already gone.",
+   "zh": "小偷逃走了。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 57.2,
+    "end": 60.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "But George's parrot, Henry, was still there.",
+   "zh": "但是乔治的鹦鹉亨利仍在那里。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 60.3,
+    "end": 64.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'What's up, George?' he called.",
+   "zh": "“什么事，乔治？”它叫着。",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 64.6,
+    "end": 67.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Nothing, Henry,' George said and smiled.",
+   "zh": "“没事，亨利。”乔治笑着说，",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 67.5,
+    "end": 70.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Go back to sleep.'",
+   "zh": "“接着睡觉吧。”",
+   "audio": {
+    "file": "media/L119.mp4",
+    "start": 70.4,
+    "end": 72.5
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "It ___ to a friend of mine a year ago.",
+   "zh": "这件事发生在一年前我的一个朋友身上。",
+   "answer": "happened",
+   "options": [
+    "happened",
+    "happen",
+    "happens",
+    "happening"
+   ]
+  },
+  {
+   "en": "Two ___ climbed into his kitchen.",
+   "zh": "两个小偷爬进了他的厨房。",
+   "answer": "thieves",
+   "options": [
+    "thieves",
+    "thief",
+    "thiefs",
+    "thieve"
+   ]
+  },
+  {
+   "en": "It was very dark, so they turned on a ___.",
+   "zh": "很黑，于是他们打开了手电筒。",
+   "answer": "torch",
+   "options": [
+    "torch",
+    "voice",
+    "parrot",
+    "story"
+   ]
+  },
+  {
+   "en": "They heard a ___ behind them.",
+   "zh": "他们听到身后有声音。",
+   "answer": "voice",
+   "options": [
+    "voice",
+    "torch",
+    "coin",
+    "story"
+   ]
+  },
+  {
+   "en": "The thieves ran away as quickly as they ___.",
+   "zh": "小偷尽可能快地逃跑了。",
+   "answer": "could",
+   "options": [
+    "could",
+    "can",
+    "will",
+    "must"
+   ]
+  },
+  {
+   "en": "The thieves had already ___.",
+   "zh": "小偷已经逃走了。",
+   "answer": "gone",
+   "options": [
+    "gone",
+    "go",
+    "went",
+    "going"
+   ]
+  },
+  {
+   "en": "I ran to the platform, but the train had already ___.",
+   "zh": "我跑到站台，但火车已经开走了。",
+   "answer": "left",
+   "options": [
+    "left",
+    "leave",
+    "leaves",
+    "leaving"
+   ]
+  },
+  {
+   "en": "She went on holiday after she had ___ the examination.",
+   "zh": "她参加完考试后去度假了。",
+   "answer": "taken",
+   "options": [
+    "taken",
+    "take",
+    "took",
+    "taking"
+   ]
+  },
+  {
+   "en": "We had had dinner ___ they arrived.",
+   "zh": "他们到达之前我们已吃过饭了。",
+   "answer": "before",
+   "options": [
+    "before",
+    "after",
+    "while",
+    "until"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L119.mp4",
+  "start": 6.9,
+  "end": 72.5
+ }
+}

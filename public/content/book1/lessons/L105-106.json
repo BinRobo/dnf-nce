@@ -1,0 +1,411 @@
+{
+ "id": "L105-106",
+ "lessons": [
+  105,
+  106
+ ],
+ "title": "Full of mistakes",
+ "titleZh": "错误百出",
+ "evenTitle": "I want you/him/her/them to ... Tell him/her/them to ...",
+ "evenTitleZh": "我要你／他／她／他们……告诉他／她／他们……",
+ "words": [
+  {
+   "en": "spell",
+   "zh": "拼写（过去式 spelt，过去分词 spelt）",
+   "ipa": "spel",
+   "pos": "v.",
+   "lesson": 105,
+   "audio": {
+    "file": "words/spell.mp3"
+   }
+  },
+  {
+   "en": "intelligent",
+   "zh": "聪明的，有智慧的",
+   "ipa": "ɪn'telɪdʒənt",
+   "pos": "adj.",
+   "lesson": 105,
+   "audio": {
+    "file": "words/intelligent.mp3"
+   }
+  },
+  {
+   "en": "mistake",
+   "zh": "错误",
+   "ipa": "mɪ'steɪk",
+   "pos": "n.",
+   "lesson": 105,
+   "audio": {
+    "file": "words/mistake.mp3"
+   }
+  },
+  {
+   "en": "present",
+   "zh": "礼物",
+   "ipa": "'prezənt",
+   "pos": "n.",
+   "lesson": 105,
+   "audio": {
+    "file": "words/present.mp3"
+   }
+  },
+  {
+   "en": "dictionary",
+   "zh": "词典",
+   "ipa": "'dɪkʃənəri",
+   "pos": "n.",
+   "lesson": 105,
+   "audio": {
+    "file": "words/dictionary.mp3"
+   }
+  },
+  {
+   "en": "carry",
+   "zh": "携带",
+   "ipa": "'kæri",
+   "pos": "v.",
+   "lesson": 106,
+   "audio": {
+    "file": "words/carry.mp3"
+   }
+  },
+  {
+   "en": "correct",
+   "zh": "改正，纠正",
+   "ipa": "kə'rekt",
+   "pos": "v.",
+   "lesson": 106,
+   "audio": {
+    "file": "words/correct.mp3"
+   }
+  },
+  {
+   "en": "keep",
+   "zh": "保存，保留",
+   "ipa": "kiːp",
+   "pos": "v.",
+   "lesson": 106,
+   "audio": {
+    "file": "words/keep.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "The Boss",
+   "en": "Where's Sandra, Bob?",
+   "zh": "鲍勃，桑德拉在哪儿？",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 7.3,
+    "end": 10
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "I want her.",
+   "zh": "我要找她。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 10,
+    "end": 12.3
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "Do you want to speak to her?",
+   "zh": "您要同她谈话吗？",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 12.3,
+    "end": 14.4
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "Yes, I do.",
+   "zh": "是的。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 14.4,
+    "end": 16
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "I want her to come to my office.",
+   "zh": "我要她到我的办公室来。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 16,
+    "end": 18.4
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "Tell her to come at once.",
+   "zh": "叫她马上就来。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 18.4,
+    "end": 22
+   }
+  },
+  {
+   "speaker": "Sandra",
+   "en": "Did you want to see me?",
+   "zh": "您找我吗？",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 22,
+    "end": 24.2
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "Ah, yes, Sandra.",
+   "zh": "啊，是的，桑德拉。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 24.2,
+    "end": 26.4
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "How do you spell 'intelligent'?",
+   "zh": "“intelligent”怎样拼写？",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 26.4,
+    "end": 29.4
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "Can you tell me?",
+   "zh": "你能告诉我吗？",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 29.4,
+    "end": 31.8
+   }
+  },
+  {
+   "speaker": "Sandra",
+   "en": "I-N-T-E-L-L-I-G-E-N-T.",
+   "zh": "I－N－T－E－L－L－I－G－E－N－T。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 31.8,
+    "end": 40.2
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "That's right.",
+   "zh": "对的。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 40.2,
+    "end": 41.6
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "You've typed it with only one 'L'.",
+   "zh": "但你只打了1个“L”。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 41.6,
+    "end": 45.4
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "This letter's full of mistakes.",
+   "zh": "这封信里错误百出。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 45.4,
+    "end": 47.9
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "I want you to type it again.",
+   "zh": "我要你重打一遍。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 47.9,
+    "end": 50.8
+   }
+  },
+  {
+   "speaker": "Sandra",
+   "en": "Yes, I'll do that.",
+   "zh": "是，我重打。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 50.8,
+    "end": 52.8
+   }
+  },
+  {
+   "speaker": "Sandra",
+   "en": "I'm sorry about that.",
+   "zh": "对此我感到很抱歉。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 52.8,
+    "end": 55
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "And here's a little present for you.",
+   "zh": "这里有一件小礼物送你。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 55,
+    "end": 57.9
+   }
+  },
+  {
+   "speaker": "Sandra",
+   "en": "What is it?",
+   "zh": "是什么？",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 57.9,
+    "end": 59.5
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "It's a dictionary.",
+   "zh": "是本词典。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 59.5,
+    "end": 61.9
+   }
+  },
+  {
+   "speaker": "The Boss",
+   "en": "I hope it'll help you.",
+   "zh": "我希望它能对你有所帮助。",
+   "audio": {
+    "file": "media/L105.mp4",
+    "start": 61.9,
+    "end": 64.5
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I want her ___ come to my office.",
+   "zh": "我要她到我的办公室来。",
+   "answer": "to",
+   "options": [
+    "to",
+    "for",
+    "at",
+    "of"
+   ]
+  },
+  {
+   "en": "Tell her to come at ___.",
+   "zh": "叫她马上就来。",
+   "answer": "once",
+   "options": [
+    "once",
+    "twice",
+    "ever",
+    "never"
+   ]
+  },
+  {
+   "en": "How do you ___ 'intelligent'?",
+   "zh": "“intelligent”怎样拼写？",
+   "answer": "spell",
+   "options": [
+    "spell",
+    "spells",
+    "spelling",
+    "spelled"
+   ]
+  },
+  {
+   "en": "This letter's full ___ mistakes.",
+   "zh": "这封信里错误百出。",
+   "answer": "of",
+   "options": [
+    "of",
+    "with",
+    "in",
+    "for"
+   ]
+  },
+  {
+   "en": "I want you to ___ it again.",
+   "zh": "我要你重打一遍。",
+   "answer": "type",
+   "options": [
+    "type",
+    "typed",
+    "types",
+    "typing"
+   ]
+  },
+  {
+   "en": "He is telling her not ___ type it again.",
+   "zh": "他在告诉她不要再打这封信了。",
+   "answer": "to",
+   "options": [
+    "to",
+    "for",
+    "at",
+    "of"
+   ]
+  },
+  {
+   "en": "He doesn't want her ___ type it again.",
+   "zh": "他不要她再打这封信了。",
+   "answer": "to",
+   "options": [
+    "to",
+    "for",
+    "at",
+    "of"
+   ]
+  },
+  {
+   "en": "I hope it'll ___ you.",
+   "zh": "我希望它能对你有所帮助。",
+   "answer": "help",
+   "options": [
+    "help",
+    "helps",
+    "helped",
+    "helping"
+   ]
+  },
+  {
+   "en": "What do you want ___ to do?",
+   "zh": "你要我做什么？",
+   "answer": "me",
+   "options": [
+    "me",
+    "I",
+    "my",
+    "mine"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L105.mp4",
+  "start": 6.8,
+  "end": 64.5
+ }
+}

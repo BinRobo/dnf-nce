@@ -1,0 +1,421 @@
+{
+ "id": "L095-096",
+ "lessons": [
+  95,
+  96
+ ],
+ "title": "Tickets, please.",
+ "titleZh": "请把车票拿出来。",
+ "evenTitle": "What's the exact time?",
+ "evenTitleZh": "确切的时间是几点？",
+ "words": [
+  {
+   "en": "return",
+   "zh": "往返",
+   "ipa": "rɪ'tɜːn",
+   "pos": "n.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/return.mp3"
+   }
+  },
+  {
+   "en": "train",
+   "zh": "火车",
+   "ipa": "treɪn",
+   "pos": "n.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/train.mp3"
+   }
+  },
+  {
+   "en": "platform",
+   "zh": "站台",
+   "ipa": "'plætfɔːm",
+   "pos": "n.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/platform.mp3"
+   }
+  },
+  {
+   "en": "plenty",
+   "zh": "大量",
+   "ipa": "'plenti",
+   "pos": "n.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/plenty.mp3"
+   }
+  },
+  {
+   "en": "bar",
+   "zh": "酒吧",
+   "ipa": "bɑː",
+   "pos": "n.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/bar.mp3"
+   }
+  },
+  {
+   "en": "station",
+   "zh": "车站，火车站",
+   "ipa": "'steɪʃən",
+   "pos": "n.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/station.mp3"
+   }
+  },
+  {
+   "en": "porter",
+   "zh": "收票员",
+   "ipa": "'pɔːtə",
+   "pos": "n.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/porter.mp3"
+   }
+  },
+  {
+   "en": "catch",
+   "zh": "赶上（过去式 caught）",
+   "ipa": "kætʃ",
+   "pos": "v.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/catch.mp3"
+   }
+  },
+  {
+   "en": "miss",
+   "zh": "错过",
+   "ipa": "mɪs",
+   "pos": "v.",
+   "lesson": 95,
+   "audio": {
+    "file": "words/miss.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "George",
+   "en": "Two return tickets to London, please.",
+   "zh": "买两张到伦敦的往返票。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 7.2,
+    "end": 11.2
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "What time will the next train leave?",
+   "zh": "下一班火车什么时候开？",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 11.2,
+    "end": 14.6
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "At nineteen minutes past eight.",
+   "zh": "8 点 19 分。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 14.6,
+    "end": 18.2
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Which platform?",
+   "zh": "在哪个站台？",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 18.2,
+    "end": 20.4
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Platform Two. Over the bridge.",
+   "zh": "2 号站台。过天桥。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 20.4,
+    "end": 24.4
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "What time will the next train leave?",
+   "zh": "下一班火车什么时候开？",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 24.4,
+    "end": 27.9
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "At eight nineteen.",
+   "zh": "8 点 19 分。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 27.9,
+    "end": 30.2
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "We've got plenty of time.",
+   "zh": "我们的时间还很宽裕。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 30.2,
+    "end": 33.2
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "It's only three minutes to eight.",
+   "zh": "现在才 7 点 57 分。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 33.2,
+    "end": 36.7
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "Let's go and have a drink.",
+   "zh": "让我们去喝点东西吧。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 36.7,
+    "end": 38.8
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "There's a bar next door to the station.",
+   "zh": "车站旁有一个酒吧。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 38.8,
+    "end": 43.6
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "We had better go back to the station now, Ken.",
+   "zh": "肯，我们现在最好回到车站去。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 43.6,
+    "end": 48.7
+   }
+  },
+  {
+   "speaker": "Porter",
+   "en": "Tickets, please.",
+   "zh": "请把车票拿出来。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 48.7,
+    "end": 51.6
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "We want to catch the eight nineteen to London.",
+   "zh": "我们要乘 8 点 19 分的车去伦敦。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 51.6,
+    "end": 56
+   }
+  },
+  {
+   "speaker": "Porter",
+   "en": "You've just missed it!",
+   "zh": "你们刚好错过了那班车。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 56,
+    "end": 58.6
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "What!",
+   "zh": "什么！",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 58.6,
+    "end": 59.5
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "It's only eight fifteen.",
+   "zh": "现在只有 8 点 15 分。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 59.5,
+    "end": 62.4
+   }
+  },
+  {
+   "speaker": "Porter",
+   "en": "I'm sorry, sir.",
+   "zh": "对不起，先生。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 62.4,
+    "end": 64.2
+   }
+  },
+  {
+   "speaker": "Porter",
+   "en": "That clock's ten minutes slow.",
+   "zh": "那个钟慢了 10 分钟。",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 64.2,
+    "end": 67.9
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "When's the next train?",
+   "zh": "下一班车是什么时候？",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 67.9,
+    "end": 70.6
+   }
+  },
+  {
+   "speaker": "Porter",
+   "en": "In five hours' time!",
+   "zh": "5 个小时以后！",
+   "audio": {
+    "file": "media/L095.mp4",
+    "start": 70.6,
+    "end": 74.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "We ___ better go back to the station now.",
+   "zh": "我们现在最好回车站去。",
+   "answer": "had",
+   "options": [
+    "had",
+    "have",
+    "has",
+    "having"
+   ]
+  },
+  {
+   "en": "She had better ___.",
+   "zh": "她最好快点。",
+   "answer": "hurry",
+   "options": [
+    "hurry",
+    "hurries",
+    "hurrying",
+    "to hurry"
+   ]
+  },
+  {
+   "en": "I went to Sydney a month ago. → I'll go to Sydney in a ___ time.",
+   "zh": "我一个月前去了悉尼。我一个月后再去。",
+   "answer": "month's",
+   "options": [
+    "month's",
+    "month",
+    "months",
+    "months'"
+   ]
+  },
+  {
+   "en": "A train left an hour ago. → The next one will leave in an hour's ___.",
+   "zh": "一小时前有一班火车开走了。下一班一小时后开。",
+   "answer": "time",
+   "options": [
+    "time",
+    "ago",
+    "before",
+    "last"
+   ]
+  },
+  {
+   "en": "Tom flew to Stockholm two weeks ago. → She'll fly to Stockholm in two ___ time.",
+   "zh": "汤姆两周前飞去了斯德哥尔摩。她将在两周后飞去。",
+   "answer": "weeks'",
+   "options": [
+    "weeks'",
+    "week",
+    "week's",
+    "a week"
+   ]
+  },
+  {
+   "en": "We've got ___ of time.",
+   "zh": "我们的时间还很宽裕。",
+   "answer": "plenty",
+   "options": [
+    "plenty",
+    "many",
+    "much",
+    "few"
+   ]
+  },
+  {
+   "en": "You've just ___ it!",
+   "zh": "你们刚好错过了那班车！",
+   "answer": "missed",
+   "options": [
+    "missed",
+    "miss",
+    "misses",
+    "missing"
+   ]
+  },
+  {
+   "en": "We want to ___ the eight nineteen to London.",
+   "zh": "我们要乘 8 点 19 分的车去伦敦。",
+   "answer": "catch",
+   "options": [
+    "catch",
+    "caught",
+    "catches",
+    "catching"
+   ]
+  },
+  {
+   "en": "Two ___ tickets to London, please.",
+   "zh": "买两张到伦敦的往返票。",
+   "answer": "return",
+   "options": [
+    "return",
+    "train",
+    "plenty",
+    "bar"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L095.mp4",
+  "start": 6.7,
+  "end": 74.2
+ }
+}

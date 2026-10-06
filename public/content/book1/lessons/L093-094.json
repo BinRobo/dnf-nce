@@ -1,0 +1,391 @@
+{
+ "id": "L093-094",
+ "lessons": [
+  93,
+  94
+ ],
+ "title": "Our new neighbour",
+ "titleZh": "我们的新邻居",
+ "evenTitle": "When did you/will you go to ...?",
+ "evenTitleZh": "你过去/将在什么时候去……？",
+ "words": [
+  {
+   "en": "pilot",
+   "zh": "飞行员",
+   "ipa": "'paɪlət",
+   "pos": "n.",
+   "lesson": 93,
+   "audio": {
+    "file": "words/pilot.mp3"
+   }
+  },
+  {
+   "en": "return",
+   "zh": "返回",
+   "ipa": "rɪ'tɜːn",
+   "pos": "v.",
+   "lesson": 93,
+   "audio": {
+    "file": "words/return.mp3"
+   }
+  },
+  {
+   "en": "New York",
+   "zh": "纽约",
+   "ipa": "'njuː-'jɔːk",
+   "pos": "n.",
+   "lesson": 93,
+   "audio": {
+    "file": "words/new-york.mp3"
+   }
+  },
+  {
+   "en": "Tokyo",
+   "zh": "东京",
+   "ipa": "'təʊkiəʊ",
+   "pos": "n.",
+   "lesson": 93,
+   "audio": {
+    "file": "words/tokyo.mp3"
+   }
+  },
+  {
+   "en": "Madrid",
+   "zh": "马德里",
+   "ipa": "mə'drɪd",
+   "pos": "n.",
+   "lesson": 93,
+   "audio": {
+    "file": "words/madrid.mp3"
+   }
+  },
+  {
+   "en": "fly",
+   "zh": "飞行（过去式 flew，过去分词 flown）",
+   "ipa": "flaɪ",
+   "pos": "v.",
+   "lesson": 93,
+   "audio": {
+    "file": "words/fly.mp3"
+   }
+  },
+  {
+   "en": "Athens",
+   "zh": "雅典",
+   "ipa": "'æθɪnz",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/athens.mp3"
+   }
+  },
+  {
+   "en": "Berlin",
+   "zh": "柏林",
+   "ipa": "bɜː'lɪn",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/berlin.mp3"
+   }
+  },
+  {
+   "en": "Bombay",
+   "zh": "孟买",
+   "ipa": "bɒm'beɪ",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/bombay.mp3"
+   }
+  },
+  {
+   "en": "Geneva",
+   "zh": "日内瓦",
+   "ipa": "dʒɪ'niːvə",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/geneva.mp3"
+   }
+  },
+  {
+   "en": "Moscow",
+   "zh": "莫斯科",
+   "ipa": "'mɒskəʊ",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/moscow.mp3"
+   }
+  },
+  {
+   "en": "Rome",
+   "zh": "罗马",
+   "ipa": "rəʊm",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/rome.mp3"
+   }
+  },
+  {
+   "en": "Seoul",
+   "zh": "汉城",
+   "ipa": "səʊl",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/seoul.mp3"
+   }
+  },
+  {
+   "en": "Stockholm",
+   "zh": "斯德哥尔摩",
+   "ipa": "'stɒkhəʊm",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/stockholm.mp3"
+   }
+  },
+  {
+   "en": "Sydney",
+   "zh": "悉尼",
+   "ipa": "'sɪdni",
+   "pos": "n.",
+   "lesson": 94,
+   "audio": {
+    "file": "words/sydney.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "Nigel is our new next-door neighbour.",
+   "zh": "奈杰尔是我们新搬来的隔壁邻居。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 7,
+    "end": 10.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He's a pilot.",
+   "zh": "他是个飞行员。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 10.4,
+    "end": 12
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He was in the R.A.F.",
+   "zh": "他曾在皇家空军任职。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 12,
+    "end": 15
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He will fly to New York next month.",
+   "zh": "下个月他将飞往纽约。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 15,
+    "end": 18.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The month after next he'll fly to Tokyo.",
+   "zh": "再下个月他将飞往东京。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 18.3,
+    "end": 22.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "At the moment, he's in Madrid.",
+   "zh": "现在他在马德里。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 22.1,
+    "end": 25
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He flew to Spain a week ago.",
+   "zh": "他是一星期以前飞到西班牙的。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 25,
+    "end": 28.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He'll return to London the week after next.",
+   "zh": "再下个星期他将返回伦敦。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 28.1,
+    "end": 31.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He's only forty-one years old, and he has already been to nearly every country in the world.",
+   "zh": "他只有 41 岁，但他却去过世界上几乎每一个国家。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 31.8,
+    "end": 39.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Nigel is a very lucky man.",
+   "zh": "奈杰尔是个很幸运的人。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 39.5,
+    "end": 42.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "But his wife isn't very lucky.",
+   "zh": "但他的妻子运气不很好。",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 42.8,
+    "end": 45.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "She usually stays at home!",
+   "zh": "她总是呆在家里！",
+   "audio": {
+    "file": "media/L093.mp4",
+    "start": 45.6,
+    "end": 49
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "He went to Beijing last year. → He ___ go to Beijing next year.",
+   "zh": "他明年将去北京。",
+   "answer": "will",
+   "options": [
+    "will",
+    "did",
+    "has",
+    "was"
+   ]
+  },
+  {
+   "en": "Will you go to Athens next week? No, I ___ go to Athens next week.",
+   "zh": "你下周去雅典吗？不，我下周不去雅典。",
+   "answer": "won't",
+   "options": [
+    "won't",
+    "didn't",
+    "hasn't",
+    "don't"
+   ]
+  },
+  {
+   "en": "I went to Paris the year before last. → I will go to Paris the year ___ next.",
+   "zh": "我后年将去巴黎。",
+   "answer": "after",
+   "options": [
+    "after",
+    "before",
+    "ago",
+    "since"
+   ]
+  },
+  {
+   "en": "He will fly to New York next month. The month after ___ he'll fly to Tokyo.",
+   "zh": "下个月他飞往纽约，再下个月飞往东京。",
+   "answer": "next",
+   "options": [
+    "next",
+    "last",
+    "ago",
+    "yet"
+   ]
+  },
+  {
+   "en": "He flew to Spain a week ___.",
+   "zh": "他一星期以前飞到西班牙的。",
+   "answer": "ago",
+   "options": [
+    "ago",
+    "yet",
+    "since",
+    "after"
+   ]
+  },
+  {
+   "en": "He'll ___ to London the week after next.",
+   "zh": "再下个星期他将返回伦敦。",
+   "answer": "return",
+   "options": [
+    "return",
+    "returned",
+    "returns",
+    "returning"
+   ]
+  },
+  {
+   "en": "Nigel is a ___. He flies planes.",
+   "zh": "奈杰尔是个飞行员。他开飞机。",
+   "answer": "pilot",
+   "options": [
+    "pilot",
+    "neighbour",
+    "penny",
+    "garage"
+   ]
+  },
+  {
+   "en": "He has already ___ to nearly every country in the world.",
+   "zh": "他去过世界上几乎每个国家。",
+   "answer": "been",
+   "options": [
+    "been",
+    "be",
+    "was",
+    "being"
+   ]
+  },
+  {
+   "en": "At the moment, he ___ in Madrid.",
+   "zh": "现在他在马德里。",
+   "answer": "is",
+   "options": [
+    "is",
+    "was",
+    "were",
+    "will"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L093.mp4",
+  "start": 6.5,
+  "end": 49
+ }
+}

@@ -1,0 +1,371 @@
+{
+ "id": "L017-018",
+ "lessons": [
+  17,
+  18
+ ],
+ "title": "How do you do?",
+ "titleZh": "你好！",
+ "evenTitle": "What are their jobs?",
+ "evenTitleZh": "他们是做什么工作的？",
+ "words": [
+  {
+   "en": "employee",
+   "zh": "雇员",
+   "ipa": "ˌɪmplɔɪ'iː",
+   "pos": "n.",
+   "lesson": 17,
+   "audio": {
+    "file": "words/employee.mp3"
+   }
+  },
+  {
+   "en": "hard-working",
+   "zh": "勤奋的",
+   "ipa": "ˌhɑːd'wɜːkɪŋ",
+   "pos": "adj.",
+   "lesson": 17,
+   "audio": {
+    "file": "words/hard-working.mp3"
+   }
+  },
+  {
+   "en": "sales reps",
+   "zh": "推销员",
+   "ipa": "'seɪlz-'reps",
+   "pos": "",
+   "lesson": 17,
+   "audio": {
+    "file": "words/sales-reps.mp3"
+   }
+  },
+  {
+   "en": "man",
+   "zh": "男人",
+   "ipa": "mæn",
+   "pos": "n.",
+   "lesson": 17,
+   "audio": {
+    "file": "words/man.mp3"
+   }
+  },
+  {
+   "en": "office",
+   "zh": "办公室",
+   "ipa": "'ɒfɪs",
+   "pos": "n.",
+   "lesson": 17,
+   "audio": {
+    "file": "words/office.mp3"
+   }
+  },
+  {
+   "en": "assistant",
+   "zh": "助手",
+   "ipa": "ə'sɪstənt",
+   "pos": "n.",
+   "lesson": 17,
+   "audio": {
+    "file": "words/assistant.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mr. Jackson",
+   "en": "Come and meet our employees,",
+   "zh": "来见见我们的雇员，",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 6.3,
+    "end": 8.7
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "Mr. Richards.",
+   "zh": "理查兹先生。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 8.7,
+    "end": 10.7
+   }
+  },
+  {
+   "speaker": "Mr. Richards",
+   "en": "Thank you, Mr. Jackson.",
+   "zh": "谢谢，杰克逊先生。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 10.7,
+    "end": 13.7
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "This is Nicola Grey,",
+   "zh": "这位是尼古拉·格雷，",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 13.7,
+    "end": 16.9
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "and this is Claire Taylor.",
+   "zh": "这位是克莱尔·泰勒。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 16.9,
+    "end": 21
+   }
+  },
+  {
+   "speaker": "Mr. Richards",
+   "en": "How do you do?",
+   "zh": "你们好！",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 21,
+    "end": 22.8
+   }
+  },
+  {
+   "speaker": "Mr. Richards",
+   "en": "Those women are very hard-working.",
+   "zh": "那些姑娘很勤快。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 22.8,
+    "end": 26.6
+   }
+  },
+  {
+   "speaker": "Mr. Richards",
+   "en": "What are their jobs?",
+   "zh": "她们是做什么工作的？",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 26.6,
+    "end": 29.7
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "They're keyboard operators.",
+   "zh": "她们是电脑输录入员。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 29.7,
+    "end": 33.6
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "This is Michael Baker,",
+   "zh": "这位是迈克尔·贝克，",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 33.6,
+    "end": 36.9
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "and this is Jeremy Short.",
+   "zh": "这位是杰里米·肖特。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 36.9,
+    "end": 41
+   }
+  },
+  {
+   "speaker": "Mr. Richards",
+   "en": "How do you do?",
+   "zh": "你们好！",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 41,
+    "end": 43
+   }
+  },
+  {
+   "speaker": "Mr. Richards",
+   "en": "They aren't very busy!",
+   "zh": "他们不很忙吧！",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 43,
+    "end": 45.8
+   }
+  },
+  {
+   "speaker": "Mr. Richards",
+   "en": "What are their jobs?",
+   "zh": "他们是做什么工作的？",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 45.8,
+    "end": 49
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "They're sales reps.",
+   "zh": "他们是推销员。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 49,
+    "end": 51.8
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "They're very lazy.",
+   "zh": "他们非常懒。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 51.8,
+    "end": 54.8
+   }
+  },
+  {
+   "speaker": "Mr. Richards",
+   "en": "Who is this young man?",
+   "zh": "这个年轻人是谁？",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 54.8,
+    "end": 58.6
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "This is Jim.",
+   "zh": "他是吉姆，",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 58.6,
+    "end": 60.8
+   }
+  },
+  {
+   "speaker": "Mr. Jackson",
+   "en": "He's our office assistant.",
+   "zh": "是我们办公室的勤杂人员。",
+   "audio": {
+    "file": "media/L017.mp4",
+    "start": 60.8,
+    "end": 64.9
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "That man is tall. ___ is a policeman.",
+   "zh": "那个男人很高，他是警察。",
+   "answer": "He",
+   "options": [
+    "He",
+    "She",
+    "We",
+    "They"
+   ]
+  },
+  {
+   "en": "Those girls are busy. ___ are keyboard operators.",
+   "zh": "那些姑娘很忙，她们是电脑录入员。",
+   "answer": "They",
+   "options": [
+    "They",
+    "She",
+    "We",
+    "He"
+   ]
+  },
+  {
+   "en": "Our names are Britt and Inge. ___ are Swedish.",
+   "zh": "我们的名字是布里特和英奇，我们是瑞典人。",
+   "answer": "We",
+   "options": [
+    "We",
+    "They",
+    "She",
+    "He"
+   ]
+  },
+  {
+   "en": "Look at Nicola. ___ is very pretty.",
+   "zh": "看看尼古拉，她很漂亮。",
+   "answer": "She",
+   "options": [
+    "She",
+    "He",
+    "They",
+    "We"
+   ]
+  },
+  {
+   "en": "What are ___ jobs? They're sales reps.",
+   "zh": "他们是做什么工作的？他们是推销员。",
+   "answer": "their",
+   "options": [
+    "their",
+    "they",
+    "there",
+    "our"
+   ]
+  },
+  {
+   "en": "Are they mechanics? No, they ___ mechanics.",
+   "zh": "他们是机械师吗？不，他们不是机械师。",
+   "answer": "aren't",
+   "options": [
+    "aren't",
+    "isn't",
+    "not",
+    "are"
+   ]
+  },
+  {
+   "en": "one policeman, two ___",
+   "zh": "一个警察，两个警察",
+   "answer": "policemen",
+   "options": [
+    "policemen",
+    "policemans",
+    "policemens",
+    "police"
+   ]
+  },
+  {
+   "en": "one housewife, two ___",
+   "zh": "一个家庭妇女，两个家庭妇女",
+   "answer": "housewives",
+   "options": [
+    "housewives",
+    "housewifes",
+    "housewife",
+    "housewifs"
+   ]
+  },
+  {
+   "en": "Come and ___ our employees.",
+   "zh": "来见见我们的雇员。",
+   "answer": "meet",
+   "options": [
+    "meet",
+    "look",
+    "catch",
+    "thank"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L017.mp4",
+  "start": 5.8,
+  "end": 64.9
+ }
+}

@@ -1,0 +1,401 @@
+{
+ "id": "L101-102",
+ "lessons": [
+  101,
+  102
+ ],
+ "title": "A card from Jimmy",
+ "titleZh": "吉米的明信片",
+ "evenTitle": "He says he ... She says she ... They say they ...",
+ "evenTitleZh": "他／她／他们说他／她／他们……",
+ "words": [
+  {
+   "en": "Scotland",
+   "zh": "苏格兰（英国）",
+   "ipa": "'skɒtlənd",
+   "pos": "n.",
+   "lesson": 101,
+   "audio": {
+    "file": "words/scotland.mp3"
+   }
+  },
+  {
+   "en": "card",
+   "zh": "明信片",
+   "ipa": "kɑːd",
+   "pos": "n.",
+   "lesson": 101,
+   "audio": {
+    "file": "words/card.mp3"
+   }
+  },
+  {
+   "en": "youth",
+   "zh": "青年",
+   "ipa": "juːθ",
+   "pos": "n.",
+   "lesson": 101,
+   "audio": {
+    "file": "words/youth.mp3"
+   }
+  },
+  {
+   "en": "hostel",
+   "zh": "招待所，旅馆",
+   "ipa": "'hɒstl",
+   "pos": "n.",
+   "lesson": 101,
+   "audio": {
+    "file": "words/hostel.mp3"
+   }
+  },
+  {
+   "en": "association",
+   "zh": "协会",
+   "ipa": "ə,səʊsi'eɪʃən",
+   "pos": "n.",
+   "lesson": 101,
+   "audio": {
+    "file": "words/association.mp3"
+   }
+  },
+  {
+   "en": "soon",
+   "zh": "不久",
+   "ipa": "suːn",
+   "pos": "adv.",
+   "lesson": 101,
+   "audio": {
+    "file": "words/soon.mp3"
+   }
+  },
+  {
+   "en": "write",
+   "zh": "写（过去式 wrote，过去分词 written）",
+   "ipa": "raɪt",
+   "pos": "v.",
+   "lesson": 101,
+   "audio": {
+    "file": "words/write.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Grandmother",
+   "en": "Read Jimmy's card to me please, Penny.",
+   "zh": "请把吉米的明信片念给我听听，彭妮。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 7.6,
+    "end": 12.6
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'",
+   "zh": "“我刚到苏格兰，我现在住在一家青年招待所。”",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 12.6,
+    "end": 18.7
+   }
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "Eh?",
+   "zh": "什么？",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 18.7,
+    "end": 20.6
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "He says he's just arrived in Scotland.",
+   "zh": "他说他刚到苏格兰。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 20.6,
+    "end": 24.6
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "He says he's staying at a Youth Hostel.",
+   "zh": "他说他现在住在一家青年招待所。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 24.6,
+    "end": 28.8
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "You know he's a member of the Y.H.A.",
+   "zh": "您知道，他是“青招协”的一个成员。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 28.8,
+    "end": 34.2
+   }
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "The what?",
+   "zh": "什么？",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 34.2,
+    "end": 36.3
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "The Y.H.A., Mum.",
+   "zh": "“青招协”，妈妈。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 36.3,
+    "end": 39.3
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "The Youth Hostels Association.",
+   "zh": "青年招待所协会。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 39.3,
+    "end": 43
+   }
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "What else does he say?",
+   "zh": "他还说了些什么？",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 43,
+    "end": 46.7
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "'I'll write a letter soon.",
+   "zh": "“我很快会写信的。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 46.7,
+    "end": 49.4
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "I hope you are all well.'",
+   "zh": "祝你们大家身体都好。”",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 49.4,
+    "end": 52.6
+   }
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "What?",
+   "zh": "什么？",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 52.6,
+    "end": 53.9
+   }
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "Speak up, Penny.",
+   "zh": "彭妮，大声一点。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 53.9,
+    "end": 56.2
+   }
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "I'm afraid I can't hear you.",
+   "zh": "我可听不见你念的。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 56.2,
+    "end": 59.8
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "He says he'll write a letter soon.",
+   "zh": "他说他很快会写信的。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 59.8,
+    "end": 63.6
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "He hopes we are all well.",
+   "zh": "他祝我们大家身体好。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 63.6,
+    "end": 66.4
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "'Love, Jimmy.'",
+   "zh": "“谨此问候，吉米。”",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 66.4,
+    "end": 69.4
+   }
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "Is that all?",
+   "zh": "就这些吗？",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 69.4,
+    "end": 71.2
+   }
+  },
+  {
+   "speaker": "Grandmother",
+   "en": "He doesn't say very much, does he?",
+   "zh": "他没写许多，是吗？",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 71.2,
+    "end": 74.8
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "He can't write very much on a card, Mum.",
+   "zh": "在明信片上他写不了很多，妈妈。",
+   "audio": {
+    "file": "media/L101.mp4",
+    "start": 74.8,
+    "end": 79.9
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "He says he ___ just arrived in Scotland.",
+   "zh": "他说他刚到苏格兰。",
+   "answer": "has",
+   "options": [
+    "has",
+    "have",
+    "are",
+    "will"
+   ]
+  },
+  {
+   "en": "She says she ___ tired.",
+   "zh": "她说她觉得累。",
+   "answer": "feels",
+   "options": [
+    "feels",
+    "feel",
+    "feeling",
+    "to feel"
+   ]
+  },
+  {
+   "en": "They say they ___ some money.",
+   "zh": "他们说他们需要一些钱。",
+   "answer": "need",
+   "options": [
+    "need",
+    "needs",
+    "needing",
+    "to need"
+   ]
+  },
+  {
+   "en": "He says he ___ a letter soon.",
+   "zh": "他说他很快会写信。",
+   "answer": "will write",
+   "options": [
+    "will write",
+    "to write",
+    "writing",
+    "wrote"
+   ]
+  },
+  {
+   "en": "He says he has ___ his milk.",
+   "zh": "他说他已经把牛奶喝完了。",
+   "answer": "drunk",
+   "options": [
+    "drunk",
+    "drink",
+    "drinks",
+    "drinking"
+   ]
+  },
+  {
+   "en": "He says he ___ a cold.",
+   "zh": "他说他感冒了。",
+   "answer": "has got",
+   "options": [
+    "has got",
+    "is got",
+    "feels got",
+    "must got"
+   ]
+  },
+  {
+   "en": "He hopes we ___ all well.",
+   "zh": "他祝我们大家身体好。",
+   "answer": "are",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "He doesn't say very much, ___ he?",
+   "zh": "他没写许多，是吗？",
+   "answer": "does",
+   "options": [
+    "does",
+    "doesn't",
+    "is",
+    "isn't"
+   ]
+  },
+  {
+   "en": "He says he ___ wait for a bus.",
+   "zh": "他说他必须等公共汽车。",
+   "answer": "must",
+   "options": [
+    "must",
+    "musts",
+    "to must",
+    "musting"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L101.mp4",
+  "start": 7.1,
+  "end": 79.9
+ }
+}

@@ -1,0 +1,371 @@
+{
+ "id": "L043-044",
+ "lessons": [
+  43,
+  44
+ ],
+ "title": "Hurry up!",
+ "titleZh": "快点！",
+ "evenTitle": "Are there any ...? Is there any ...?",
+ "evenTitleZh": "有些……吗？",
+ "words": [
+  {
+   "en": "of course",
+   "zh": "当然",
+   "ipa": "əv-'kɔːs",
+   "pos": "",
+   "lesson": 43,
+   "audio": {
+    "file": "words/of-course.mp3"
+   }
+  },
+  {
+   "en": "kettle",
+   "zh": "水壶",
+   "ipa": "'ketl",
+   "pos": "n.",
+   "lesson": 43,
+   "audio": {
+    "file": "words/kettle.mp3"
+   }
+  },
+  {
+   "en": "behind",
+   "zh": "在……后面",
+   "ipa": "bɪ'haɪnd",
+   "pos": "prep.",
+   "lesson": 43,
+   "audio": {
+    "file": "words/behind.mp3"
+   }
+  },
+  {
+   "en": "teapot",
+   "zh": "茶壶",
+   "ipa": "'tiːpɒt",
+   "pos": "n.",
+   "lesson": 43,
+   "audio": {
+    "file": "words/teapot.mp3"
+   }
+  },
+  {
+   "en": "now",
+   "zh": "现在，此刻",
+   "ipa": "naʊ",
+   "pos": "adv.",
+   "lesson": 43,
+   "audio": {
+    "file": "words/now.mp3"
+   }
+  },
+  {
+   "en": "find",
+   "zh": "找到",
+   "ipa": "faɪnd",
+   "pos": "v.",
+   "lesson": 43,
+   "audio": {
+    "file": "words/find.mp3"
+   }
+  },
+  {
+   "en": "boil",
+   "zh": "沸腾，开",
+   "ipa": "bɔɪl",
+   "pos": "v.",
+   "lesson": 43,
+   "audio": {
+    "file": "words/boil.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Penny",
+   "en": "Can you make the tea, Sam?",
+   "zh": "你会沏茶吗，萨姆？",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 6.9,
+    "end": 9.7
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Yes, of course I can, Penny.",
+   "zh": "会的，我当然会，彭妮。",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 9.7,
+    "end": 14
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Is there any water in this kettle?",
+   "zh": "这水壶里有水吗？",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 14,
+    "end": 17.7
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Yes, there is.",
+   "zh": "有水。",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 17.7,
+    "end": 19.4
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Where's the tea?",
+   "zh": "茶叶在哪儿？",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 19.4,
+    "end": 21.8
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "It's over there, behind the teapot.",
+   "zh": "就在那儿，茶壶后面。",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 21.8,
+    "end": 26.3
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Can you see it?",
+   "zh": "你看见了吗？",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 26.3,
+    "end": 28.5
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "I can see the teapot,",
+   "zh": "茶壶我看见了，",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 28.5,
+    "end": 31.4
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "but I can't see the tea.",
+   "zh": "但茶叶没看到。",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 31.4,
+    "end": 34.3
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "There it is!",
+   "zh": "那不是么！",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 34.3,
+    "end": 36.5
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "It's in front of you!",
+   "zh": "就在你眼前。",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 36.5,
+    "end": 38.9
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Ah yes, I can see it now.",
+   "zh": "噢，是啊，我现在看到了。",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 38.9,
+    "end": 44
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Where are the cups?",
+   "zh": "茶杯在哪儿呢？",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 44,
+    "end": 47.4
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "There are some in the cupboard.",
+   "zh": "碗橱里有几只。",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 47.4,
+    "end": 51.4
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Can you find them?",
+   "zh": "你找得到吗？",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 51.4,
+    "end": 53.7
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Yes. Here they are.",
+   "zh": "找得到。就在这儿呢。",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 53.7,
+    "end": 56.6
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Hurry up, Sam!",
+   "zh": "快点，萨姆！",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 56.6,
+    "end": 58.6
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "The kettle's boiling!",
+   "zh": "水开了！",
+   "audio": {
+    "file": "media/L043.mp4",
+    "start": 58.6,
+    "end": 61.4
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I can see some spoons, but I can't see any ___.",
+   "zh": "我能看见一些勺子，但看不到刀。",
+   "answer": "knives",
+   "options": [
+    "knives",
+    "knifes",
+    "knife",
+    "knivs"
+   ]
+  },
+  {
+   "en": "I can see some hammers, but I can't see any ___.",
+   "zh": "我能看见一些锤子，但看不到盒子。",
+   "answer": "boxes",
+   "options": [
+    "boxes",
+    "boxs",
+    "box",
+    "boxies"
+   ]
+  },
+  {
+   "en": "I can see some cupboards, but I can't see any ___.",
+   "zh": "我能看见一些碗橱，但看不到架子。",
+   "answer": "shelves",
+   "options": [
+    "shelves",
+    "shelfs",
+    "shelf",
+    "shelvs"
+   ]
+  },
+  {
+   "en": "I can see some cups, but I can't see any ___.",
+   "zh": "我能看见一些杯子，但看不到盘子。",
+   "answer": "dishes",
+   "options": [
+    "dishes",
+    "dishs",
+    "dish",
+    "dishies"
+   ]
+  },
+  {
+   "en": "Is there any bread here? Yes, there is. There's ___ on the table.",
+   "zh": "这儿有面包吗？有，桌上有一些。",
+   "answer": "some",
+   "options": [
+    "some",
+    "any",
+    "a",
+    "one"
+   ]
+  },
+  {
+   "en": "Are there ___ hammers here? Yes, there are.",
+   "zh": "这儿有锤子吗？有。",
+   "answer": "any",
+   "options": [
+    "any",
+    "some",
+    "a",
+    "an"
+   ]
+  },
+  {
+   "en": "Can you make the tea, Sam? Yes, ___ course I can.",
+   "zh": "你会沏茶吗，萨姆？会的，我当然会。",
+   "answer": "of",
+   "options": [
+    "of",
+    "on",
+    "in",
+    "for"
+   ]
+  },
+  {
+   "en": "It's over there, ___ the teapot.",
+   "zh": "就在那儿，茶壶后面。",
+   "answer": "behind",
+   "options": [
+    "behind",
+    "between",
+    "along",
+    "off"
+   ]
+  },
+  {
+   "en": "Hurry ___, Sam! The kettle's boiling!",
+   "zh": "快点，萨姆！水开了！",
+   "answer": "up",
+   "options": [
+    "up",
+    "on",
+    "off",
+    "in"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L043.mp4",
+  "start": 6.4,
+  "end": 61.4
+ }
+}

@@ -1,0 +1,391 @@
+{
+ "id": "L059-060",
+ "lessons": [
+  59,
+  60
+ ],
+ "title": "Is that all?",
+ "titleZh": "就这些吗？",
+ "evenTitle": "What's the time? Do you have any ...?",
+ "evenTitleZh": "几点钟？你有……吗？",
+ "words": [
+  {
+   "en": "envelope",
+   "zh": "信封",
+   "ipa": "'envələʊp",
+   "pos": "n.",
+   "lesson": 59,
+   "audio": {
+    "file": "words/envelope.mp3"
+   }
+  },
+  {
+   "en": "writing paper",
+   "zh": "信纸",
+   "ipa": "'raɪtɪŋ-'peɪpə",
+   "pos": "",
+   "lesson": 59,
+   "audio": {
+    "file": "words/writing-paper.mp3"
+   }
+  },
+  {
+   "en": "shop assistant",
+   "zh": "售货员",
+   "ipa": "'ʃɒp-ə'sɪstənt",
+   "pos": "",
+   "lesson": 59,
+   "audio": {
+    "file": "words/shop-assistant.mp3"
+   }
+  },
+  {
+   "en": "size",
+   "zh": "尺寸，尺码，大小",
+   "ipa": "saɪz",
+   "pos": "n.",
+   "lesson": 59,
+   "audio": {
+    "file": "words/size.mp3"
+   }
+  },
+  {
+   "en": "pad",
+   "zh": "信笺簿",
+   "ipa": "pæd",
+   "pos": "n.",
+   "lesson": 59,
+   "audio": {
+    "file": "words/pad.mp3"
+   }
+  },
+  {
+   "en": "glue",
+   "zh": "胶水",
+   "ipa": "ɡluː",
+   "pos": "n.",
+   "lesson": 59,
+   "audio": {
+    "file": "words/glue.mp3"
+   }
+  },
+  {
+   "en": "chalk",
+   "zh": "粉笔",
+   "ipa": "tʃɔːk",
+   "pos": "n.",
+   "lesson": 59,
+   "audio": {
+    "file": "words/chalk.mp3"
+   }
+  },
+  {
+   "en": "change",
+   "zh": "零钱，找给的钱",
+   "ipa": "tʃeɪndʒ",
+   "pos": "n.",
+   "lesson": 59,
+   "audio": {
+    "file": "words/change.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lady",
+   "en": "I want some envelopes, please.",
+   "zh": "请给我拿几个信封。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 6.9,
+    "end": 10
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "Do you want the large size or the small size?",
+   "zh": "您要大号的还是小号的？",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 10,
+    "end": 14
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "The large size, please.",
+   "zh": "请拿大号的。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 14,
+    "end": 16.7
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "Do you have any writing paper?",
+   "zh": "您有信纸吗？",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 16.7,
+    "end": 19.2
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "Yes, we do.",
+   "zh": "有。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 19.2,
+    "end": 22.2
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "I don't have any small pads.",
+   "zh": "我没有小本的信纸，",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 22.2,
+    "end": 25.6
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "I only have large ones.",
+   "zh": "只有大本的。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 25.6,
+    "end": 28.8
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "Do you want a pad?",
+   "zh": "您要一本吗？",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 28.8,
+    "end": 30.6
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "Yes, please.",
+   "zh": "好，请拿一本。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 30.6,
+    "end": 32.4
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "And I want some glue.",
+   "zh": "我还要些胶水。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 32.4,
+    "end": 35
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "A bottle of glue.",
+   "zh": "一瓶胶水。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 35,
+    "end": 37.6
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "And I want a large box of chalk, too.",
+   "zh": "我还要一大盒粉笔。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 37.6,
+    "end": 42.2
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "I only have small boxes.",
+   "zh": "我只有小盒的。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 42.2,
+    "end": 45
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "Do you want one?",
+   "zh": "您要一盒吗？",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 45,
+    "end": 46.8
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "No, thank you.",
+   "zh": "不了，谢谢。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 46.8,
+    "end": 48.7
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "Is that all?",
+   "zh": "就要这些吗？",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 48.7,
+    "end": 50.2
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "That's all, thank you.",
+   "zh": "就这些，谢谢。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 50.2,
+    "end": 52.4
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "What else do you want?",
+   "zh": "您还要什么吗？",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 52.4,
+    "end": 54
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "I want my change.",
+   "zh": "我要找的零钱。",
+   "audio": {
+    "file": "media/L059.mp4",
+    "start": 54,
+    "end": 56.5
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I don't have any ___, but I have some peaches.",
+   "zh": "我没有葡萄，但我有些桃子。",
+   "answer": "grapes",
+   "options": [
+    "grapes",
+    "grape",
+    "grapies",
+    "a grape"
+   ]
+  },
+  {
+   "en": "I don't have any tomatoes, but I have some ___.",
+   "zh": "我没有西红柿，但我有些土豆。",
+   "answer": "potatoes",
+   "options": [
+    "potatoes",
+    "potatos",
+    "potato",
+    "potatoies"
+   ]
+  },
+  {
+   "en": "I don't have any mince, but I have some ___.",
+   "zh": "我没有绞肉，但我有些牛排。",
+   "answer": "steak",
+   "options": [
+    "steak",
+    "steaks",
+    "a steak",
+    "steakes"
+   ]
+  },
+  {
+   "en": "I don't have any ___, but I have some writing paper.",
+   "zh": "我没有信封，但我有些信纸。",
+   "answer": "envelopes",
+   "options": [
+    "envelopes",
+    "envelope",
+    "envelopies",
+    "an envelope"
+   ]
+  },
+  {
+   "en": "Do you have any butter? I don't have ___ butter, but I have some cheese.",
+   "zh": "你有黄油吗？我没有黄油，但我有些乳酪。",
+   "answer": "any",
+   "options": [
+    "any",
+    "some",
+    "a",
+    "an"
+   ]
+  },
+  {
+   "en": "Do you want the large size ___ the small size?",
+   "zh": "您要大号的还是小号的？",
+   "answer": "or",
+   "options": [
+    "or",
+    "and",
+    "but",
+    "too"
+   ]
+  },
+  {
+   "en": "I only have large ___.",
+   "zh": "我只有大本的。",
+   "answer": "ones",
+   "options": [
+    "ones",
+    "one",
+    "a one",
+    "pad"
+   ]
+  },
+  {
+   "en": "What ___ do you want?",
+   "zh": "您还要什么吗？",
+   "answer": "else",
+   "options": [
+    "else",
+    "all",
+    "change",
+    "size"
+   ]
+  },
+  {
+   "en": "I want my ___.",
+   "zh": "我要找的零钱。",
+   "answer": "change",
+   "options": [
+    "change",
+    "chalk",
+    "glue",
+    "size"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L059.mp4",
+  "start": 6.4,
+  "end": 56.5
+ }
+}

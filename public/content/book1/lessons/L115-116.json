@@ -1,0 +1,481 @@
+{
+ "id": "L115-116",
+ "lessons": [
+  115,
+  116
+ ],
+ "title": "Knock, knock!",
+ "titleZh": "敲敲门！",
+ "evenTitle": "Every, no, any and some",
+ "evenTitleZh": "每一、无、若干和一些",
+ "words": [
+  {
+   "en": "anyone",
+   "zh": "任何人（用于疑问句、否定式）",
+   "ipa": "'eniwʌn",
+   "pos": "pron.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/anyone.mp3"
+   }
+  },
+  {
+   "en": "knock",
+   "zh": "敲，打",
+   "ipa": "nɒk",
+   "pos": "v.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/knock.mp3"
+   }
+  },
+  {
+   "en": "everything",
+   "zh": "一切事物",
+   "ipa": "'evriθɪŋ",
+   "pos": "pron.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/everything.mp3"
+   }
+  },
+  {
+   "en": "quiet",
+   "zh": "宁静的，安静的",
+   "ipa": "'kwaɪət",
+   "pos": "adj.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/quiet.mp3"
+   }
+  },
+  {
+   "en": "impossible",
+   "zh": "不可能的",
+   "ipa": "ɪm'pɒsɪbəl",
+   "pos": "adj.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/impossible.mp3"
+   }
+  },
+  {
+   "en": "invite",
+   "zh": "邀请",
+   "ipa": "ɪn'vaɪt",
+   "pos": "v.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/invite.mp3"
+   }
+  },
+  {
+   "en": "anything",
+   "zh": "任何东西",
+   "ipa": "'eniθɪŋ",
+   "pos": "pron.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/anything.mp3"
+   }
+  },
+  {
+   "en": "nothing",
+   "zh": "什么也没有",
+   "ipa": "'nʌθɪŋ",
+   "pos": "pron.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/nothing.mp3"
+   }
+  },
+  {
+   "en": "lemonade",
+   "zh": "柠檬水",
+   "ipa": "ˌlemə'neɪd",
+   "pos": "n.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/lemonade.mp3"
+   }
+  },
+  {
+   "en": "joke",
+   "zh": "开玩笑",
+   "ipa": "dʒəʊk",
+   "pos": "v.",
+   "lesson": 115,
+   "audio": {
+    "file": "words/joke.mp3"
+   }
+  },
+  {
+   "en": "asleep",
+   "zh": "睡觉，睡着（用作表语）",
+   "ipa": "ə'sliːp",
+   "pos": "adj.",
+   "lesson": 116,
+   "audio": {
+    "file": "words/asleep.mp3"
+   }
+  },
+  {
+   "en": "glasses",
+   "zh": "眼镜",
+   "ipa": "'glɑːsɪz",
+   "pos": "n.",
+   "lesson": 116,
+   "audio": {
+    "file": "words/glasses.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Helen",
+   "en": "Isn't there anyone at home?",
+   "zh": "家里没有人吗？",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 6.9,
+    "end": 10.8
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "I'll knock again, Helen.",
+   "zh": "海伦，我再敲一次。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 10.8,
+    "end": 12.8
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "Everything's very quiet.",
+   "zh": "毫无动静。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 12.8,
+    "end": 14.6
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "I'm sure there's no one at home.",
+   "zh": "肯定家里没有人。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 14.6,
+    "end": 17.2
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "But that's impossible.",
+   "zh": "但这是不可能的。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 17.2,
+    "end": 19.2
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "Carol and Tom invited us to lunch.",
+   "zh": "卡罗尔和汤姆请我们来吃午饭。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 19.2,
+    "end": 22.5
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "Look through the window.",
+   "zh": "从窗子往里看看。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 22.5,
+    "end": 25.2
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "Can you see anything?",
+   "zh": "你能看见什么吗？",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 25.2,
+    "end": 27.1
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "Nothing at all.",
+   "zh": "什么也看不见。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 27.1,
+    "end": 29.4
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "Let's try the back door.",
+   "zh": "让我们到后门去试试。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 29.4,
+    "end": 32
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "Look! Everyone's in the garden.",
+   "zh": "瞧！大家都在花园里。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 32,
+    "end": 36.3
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "Hello, Helen. Hello, Jim.",
+   "zh": "你好，海伦。你好，吉姆。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 36.3,
+    "end": 39.8
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Everybody wants to have lunch in the garden.",
+   "zh": "大家都想在花园里吃午饭。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 39.8,
+    "end": 42.4
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "It's nice and warm out here.",
+   "zh": "这外面挺暖和。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 42.4,
+    "end": 44.7
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "Come and have something to drink.",
+   "zh": "来喝点什么。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 44.7,
+    "end": 47.3
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "Thanks, Carol.",
+   "zh": "谢谢，卡罗尔。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 47.3,
+    "end": 48.5
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "May I have a glass of beer please?",
+   "zh": "给我一杯啤酒好吗？",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 48.5,
+    "end": 50.8
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "Beer?",
+   "zh": "啤酒？",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 50.8,
+    "end": 51.6
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "There's none left.",
+   "zh": "一点都不剩了。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 51.6,
+    "end": 53.1
+   }
+  },
+  {
+   "speaker": "Carol",
+   "en": "You can have some lemonade.",
+   "zh": "你可以喝点柠檬水。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 53.1,
+    "end": 55.2
+   }
+  },
+  {
+   "speaker": "Jim",
+   "en": "Lemonade!",
+   "zh": "柠檬水！",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 55.2,
+    "end": 56.6
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Don't believe her, Jim.",
+   "zh": "吉姆，别信她的。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 57.1,
+    "end": 58.7
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "She's only joking.",
+   "zh": "她只是在开玩笑。",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 58.7,
+    "end": 60.4
+   }
+  },
+  {
+   "speaker": "Tom",
+   "en": "Have some beer!",
+   "zh": "喝点啤酒吧！",
+   "audio": {
+    "file": "media/L115.mp4",
+    "start": 60.4,
+    "end": 61.6
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Isn't there ___ at home?",
+   "zh": "家里没有人吗？",
+   "answer": "anyone",
+   "options": [
+    "anyone",
+    "someone",
+    "no one",
+    "everyone"
+   ]
+  },
+  {
+   "en": "I'm sure there's ___ at home.",
+   "zh": "我肯定家里没有人。",
+   "answer": "no one",
+   "options": [
+    "no one",
+    "anyone",
+    "anything",
+    "everyone"
+   ]
+  },
+  {
+   "en": "Can you see ___?",
+   "zh": "你能看见什么吗？",
+   "answer": "anything",
+   "options": [
+    "anything",
+    "something",
+    "nothing",
+    "everything"
+   ]
+  },
+  {
+   "en": "I can see ___ at all.",
+   "zh": "我什么也看不见。",
+   "answer": "nothing",
+   "options": [
+    "nothing",
+    "anything",
+    "something",
+    "everything"
+   ]
+  },
+  {
+   "en": "___ is in the garden.",
+   "zh": "大家都在花园里。",
+   "answer": "Everyone",
+   "options": [
+    "Everyone",
+    "Anyone",
+    "No one",
+    "Nothing"
+   ]
+  },
+  {
+   "en": "There's ___ left.",
+   "zh": "一点都不剩了。",
+   "answer": "none",
+   "options": [
+    "none",
+    "any",
+    "some",
+    "every"
+   ]
+  },
+  {
+   "en": "I didn't buy ___.",
+   "zh": "我什么也没买。",
+   "answer": "anything",
+   "options": [
+    "anything",
+    "something",
+    "nothing",
+    "everything"
+   ]
+  },
+  {
+   "en": "Where did you go yesterday? ___. I stayed at home.",
+   "zh": "你昨天去哪儿了？哪儿也没去，我待在家里。",
+   "answer": "Nowhere",
+   "options": [
+    "Nowhere",
+    "Anywhere",
+    "Somewhere",
+    "Everywhere"
+   ]
+  },
+  {
+   "en": "I looked for my pen ___.",
+   "zh": "我到处找我的钢笔。",
+   "answer": "everywhere",
+   "options": [
+    "everywhere",
+    "nowhere",
+    "no one",
+    "nothing"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L115.mp4",
+  "start": 6.4,
+  "end": 61.6
+ }
+}

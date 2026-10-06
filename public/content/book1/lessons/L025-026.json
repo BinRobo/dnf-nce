@@ -1,0 +1,361 @@
+{
+ "id": "L025-026",
+ "lessons": [
+  25,
+  26
+ ],
+ "title": "Mrs. Smith's kitchen",
+ "titleZh": "史密斯太太的厨房",
+ "evenTitle": "Where is it?",
+ "evenTitleZh": "它在哪里？",
+ "words": [
+  {
+   "en": "Mrs.",
+   "zh": "夫人",
+   "ipa": "'mɪsɪz",
+   "pos": "",
+   "lesson": 25,
+   "audio": {
+    "file": "words/mrs.mp3"
+   }
+  },
+  {
+   "en": "kitchen",
+   "zh": "厨房",
+   "ipa": "'kɪtʃən",
+   "pos": "n.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/kitchen.mp3"
+   }
+  },
+  {
+   "en": "refrigerator",
+   "zh": "电冰箱",
+   "ipa": "rɪ'frɪdʒəreɪtə",
+   "pos": "n.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/refrigerator.mp3"
+   }
+  },
+  {
+   "en": "right",
+   "zh": "右边",
+   "ipa": "raɪt",
+   "pos": "n.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/right.mp3"
+   }
+  },
+  {
+   "en": "electric",
+   "zh": "带电的，可通电的",
+   "ipa": "ɪ'lektrɪk",
+   "pos": "adj.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/electric.mp3"
+   }
+  },
+  {
+   "en": "left",
+   "zh": "左边",
+   "ipa": "left",
+   "pos": "n.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/left.mp3"
+   }
+  },
+  {
+   "en": "cooker",
+   "zh": "炉子，炊具",
+   "ipa": "'kʊkə",
+   "pos": "n.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/cooker.mp3"
+   }
+  },
+  {
+   "en": "middle",
+   "zh": "中间",
+   "ipa": "'mɪdl",
+   "pos": "n.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/middle.mp3"
+   }
+  },
+  {
+   "en": "of",
+   "zh": "（属于）……的",
+   "ipa": "əv",
+   "pos": "prep.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/of.mp3"
+   }
+  },
+  {
+   "en": "room",
+   "zh": "房间",
+   "ipa": "ruːm",
+   "pos": "n.",
+   "lesson": 25,
+   "audio": {
+    "file": "words/room.mp3"
+   }
+  },
+  {
+   "en": "where",
+   "zh": "在哪里",
+   "ipa": "weə",
+   "pos": "adv.",
+   "lesson": 26,
+   "audio": {
+    "file": "words/where.mp3"
+   }
+  },
+  {
+   "en": "in",
+   "zh": "在……里",
+   "ipa": "ɪn",
+   "pos": "prep.",
+   "lesson": 26,
+   "audio": {
+    "file": "words/in.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "Mrs. Smith's kitchen is small.",
+   "zh": "史密斯夫人的厨房很小。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 6.9,
+    "end": 12.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is a refrigerator in the kitchen.",
+   "zh": "厨房里有个电冰箱。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 12.2,
+    "end": 18
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The refrigerator is white.",
+   "zh": "冰箱的颜色是白的。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 18,
+    "end": 23.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "It is on the right.",
+   "zh": "它位于房间右侧。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 23.2,
+    "end": 27.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is an electric cooker in the kitchen.",
+   "zh": "厨房里有个电灶。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 27.2,
+    "end": 32.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The cooker is blue.",
+   "zh": "电灶的颜色是蓝的。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 32.7,
+    "end": 37
+   }
+  },
+  {
+   "speaker": "",
+   "en": "It is on the left.",
+   "zh": "它位于房间左侧。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 37,
+    "end": 40.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is a table in the middle of the room.",
+   "zh": "房间的中央有张桌子。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 40.6,
+    "end": 46.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is a bottle on the table.",
+   "zh": "桌子上有个瓶子。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 46.7,
+    "end": 51.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The bottle is empty.",
+   "zh": "瓶子是空的。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 51.2,
+    "end": 55.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is a cup on the table, too.",
+   "zh": "桌子上还有一只杯子。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 55.6,
+    "end": 61.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The cup is clean.",
+   "zh": "杯子很干净。",
+   "audio": {
+    "file": "media/L025.mp4",
+    "start": 61.3,
+    "end": 65.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Give me ___ glass. Which glass? The empty one.",
+   "zh": "给我一只杯子。哪一只？空的那只。",
+   "answer": "a",
+   "options": [
+    "a",
+    "the",
+    "an",
+    "one"
+   ]
+  },
+  {
+   "en": "Give me some cups. Which cups? ___ cups on the table.",
+   "zh": "给我几只杯子。哪几只？桌上的那几只。",
+   "answer": "The",
+   "options": [
+    "The",
+    "A",
+    "An",
+    "Some"
+   ]
+  },
+  {
+   "en": "Is there a book on ___ table? Yes, there is.",
+   "zh": "桌上有一本书吗？是的，有。",
+   "answer": "the",
+   "options": [
+    "the",
+    "a",
+    "an",
+    "one"
+   ]
+  },
+  {
+   "en": "___ is a refrigerator in the kitchen.",
+   "zh": "厨房里有个电冰箱。",
+   "answer": "There",
+   "options": [
+    "There",
+    "It",
+    "This",
+    "Where"
+   ]
+  },
+  {
+   "en": "There is ___ electric cooker in the kitchen.",
+   "zh": "厨房里有个电灶。",
+   "answer": "an",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "one"
+   ]
+  },
+  {
+   "en": "It is on the ___.",
+   "zh": "它在右边。",
+   "answer": "right",
+   "options": [
+    "right",
+    "left",
+    "middle",
+    "room"
+   ]
+  },
+  {
+   "en": "There is a table in the middle ___ the room.",
+   "zh": "房间中央有张桌子。",
+   "answer": "of",
+   "options": [
+    "of",
+    "on",
+    "in",
+    "the"
+   ]
+  },
+  {
+   "en": "There is a spoon ___ the cup.",
+   "zh": "杯子里有把勺子。",
+   "answer": "in",
+   "options": [
+    "in",
+    "of",
+    "the",
+    "is"
+   ]
+  },
+  {
+   "en": "___ is it? It's on the table.",
+   "zh": "它在哪儿？在桌子上。",
+   "answer": "Where",
+   "options": [
+    "Where",
+    "What",
+    "Which",
+    "Whose"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L025.mp4",
+  "start": 6.4,
+  "end": 65.2
+ }
+}

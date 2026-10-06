@@ -1,0 +1,451 @@
+{
+ "id": "L089-090",
+ "lessons": [
+  89,
+  90
+ ],
+ "title": "For sale",
+ "titleZh": "待售",
+ "evenTitle": "Have you ... yet?",
+ "evenTitleZh": "你已经……了吗？",
+ "words": [
+  {
+   "en": "believe",
+   "zh": "相信，认为",
+   "ipa": "bɪ'liːv",
+   "pos": "v.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/believe.mp3"
+   }
+  },
+  {
+   "en": "may",
+   "zh": "（用于请求许可）可以",
+   "ipa": "meɪ",
+   "pos": "modal verb",
+   "lesson": 89,
+   "audio": {
+    "file": "words/may.mp3"
+   }
+  },
+  {
+   "en": "how long",
+   "zh": "多长",
+   "ipa": "",
+   "pos": "",
+   "lesson": 89,
+   "audio": {
+    "file": "words/how-long.mp3"
+   }
+  },
+  {
+   "en": "since",
+   "zh": "自从",
+   "ipa": "sɪns",
+   "pos": "prep.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/since.mp3"
+   }
+  },
+  {
+   "en": "why",
+   "zh": "为什么",
+   "ipa": "waɪ",
+   "pos": "adv.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/why.mp3"
+   }
+  },
+  {
+   "en": "sell",
+   "zh": "卖，出售（过去式 sold）",
+   "ipa": "sel",
+   "pos": "v.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/sell.mp3"
+   }
+  },
+  {
+   "en": "because",
+   "zh": "因为",
+   "ipa": "bɪ'kɒz",
+   "pos": "conj.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/because.mp3"
+   }
+  },
+  {
+   "en": "retire",
+   "zh": "退休",
+   "ipa": "rɪ'taɪə",
+   "pos": "v.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/retire.mp3"
+   }
+  },
+  {
+   "en": "cost",
+   "zh": "花费（过去式 cost）",
+   "ipa": "kɒst",
+   "pos": "v.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/cost.mp3"
+   }
+  },
+  {
+   "en": "pound",
+   "zh": "英镑（£）",
+   "ipa": "paʊnd",
+   "pos": "n.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/pound.mp3"
+   }
+  },
+  {
+   "en": "worth",
+   "zh": "值……钱",
+   "ipa": "wɜːθ",
+   "pos": "prep.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/worth.mp3"
+   }
+  },
+  {
+   "en": "penny",
+   "zh": "便士",
+   "ipa": "'peni",
+   "pos": "n.",
+   "lesson": 89,
+   "audio": {
+    "file": "words/penny.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Nigel",
+   "en": "Good afternoon.",
+   "zh": "下午好。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 7,
+    "end": 8.5
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "I believe that this house is for sale.",
+   "zh": "我想这房子是要出售的吧！",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 8.5,
+    "end": 12.3
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "That's right.",
+   "zh": "是的。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 12.3,
+    "end": 14.7
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "May I have a look at it, please?",
+   "zh": "我可以看一看吗？",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 14.7,
+    "end": 18.6
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "Yes, of course.",
+   "zh": "可以，当然可以。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 18.6,
+    "end": 20.7
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "Come in.",
+   "zh": "请进。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 20.7,
+    "end": 22.6
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "How long have you lived here?",
+   "zh": "您在这里住了多长时间？",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 22.6,
+    "end": 26
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "I've lived here for twenty years.",
+   "zh": "我在这里已经住了 20 年了。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 26,
+    "end": 30.2
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "Twenty years!",
+   "zh": "20 年！",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 30.2,
+    "end": 32.1
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "That's a long time.",
+   "zh": "这个时间可不短。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 32.1,
+    "end": 34.7
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "Yes, I've been here since 1976.",
+   "zh": "是啊，从 1976 年起我就住在这里。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 34.7,
+    "end": 41
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "Then why do you want to sell it?",
+   "zh": "那么，您为什么要卖掉它呢？",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 41,
+    "end": 44.5
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "Because I've just retired.",
+   "zh": "因为我刚退休。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 44.5,
+    "end": 47.8
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "I want to buy a small house in the country.",
+   "zh": "我想在乡下买幢小房子。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 47.8,
+    "end": 53.2
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "How much does this house cost?",
+   "zh": "这座房子卖多少钱？",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 53.2,
+    "end": 56.8
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "£68,500.",
+   "zh": "68,500 英镑。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 56.8,
+    "end": 61.8
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "That's a lot of money!",
+   "zh": "那可真是一大笔钱呢！",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 61.8,
+    "end": 64.7
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "It's worth every penny of it.",
+   "zh": "它确确实实值这么多钱。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 64.7,
+    "end": 68.2
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "Well, I like the house, but I can't decide yet.",
+   "zh": "啊，我喜欢这房子，但我还不能决定。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 68.2,
+    "end": 73.5
+   }
+  },
+  {
+   "speaker": "Nigel",
+   "en": "My wife must see it first.",
+   "zh": "我妻子必须先来看一看。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 73.5,
+    "end": 77.2
+   }
+  },
+  {
+   "speaker": "Ian",
+   "en": "Women always have the last word.",
+   "zh": "女人总是最后说了算的。",
+   "audio": {
+    "file": "media/L089.mp4",
+    "start": 77.2,
+    "end": 81.9
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Did you read this book last week? Yes, I ___ this book last week.",
+   "zh": "你上周读过这本书吗？是的，我上周读了。",
+   "answer": "read",
+   "options": [
+    "read",
+    "readed",
+    "reads",
+    "reading"
+   ]
+  },
+  {
+   "en": "He ate his lunch at one o'clock. → ___ he eat his lunch at one o'clock?",
+   "zh": "他是一点钟吃的午饭吗？",
+   "answer": "Did",
+   "options": [
+    "Did",
+    "Does",
+    "Has",
+    "Is"
+   ]
+  },
+  {
+   "en": "They did their homework last night. → They ___ do their homework last night.",
+   "zh": "他们昨晚没做作业。",
+   "answer": "didn't",
+   "options": [
+    "didn't",
+    "doesn't",
+    "hasn't",
+    "isn't"
+   ]
+  },
+  {
+   "en": "Has she spoken to him yet? Yes, she has. She ___ to him yesterday.",
+   "zh": "她跟他说过话了吗？是的，她昨天跟他说的。",
+   "answer": "spoke",
+   "options": [
+    "spoke",
+    "speaked",
+    "speaks",
+    "speak"
+   ]
+  },
+  {
+   "en": "We ___ across the river yesterday.",
+   "zh": "我们昨天游过了河。",
+   "answer": "swam",
+   "options": [
+    "swam",
+    "swim",
+    "swimmed",
+    "swum"
+   ]
+  },
+  {
+   "en": "How long have you lived here? I've lived here ___ twenty years.",
+   "zh": "你在这里住了多久？我在这里住了 20 年了。",
+   "answer": "for",
+   "options": [
+    "for",
+    "since",
+    "ago",
+    "yet"
+   ]
+  },
+  {
+   "en": "I've been here ___ 1976.",
+   "zh": "从 1976 年起我就住在这里。",
+   "answer": "since",
+   "options": [
+    "since",
+    "for",
+    "ago",
+    "yet"
+   ]
+  },
+  {
+   "en": "Why do you want to sell it? ___ I've just retired.",
+   "zh": "您为什么要卖掉它？因为我刚退休。",
+   "answer": "Because",
+   "options": [
+    "Because",
+    "Since",
+    "Why",
+    "Yet"
+   ]
+  },
+  {
+   "en": "It's worth every ___ of it.",
+   "zh": "它确确实实值这么多钱。",
+   "answer": "penny",
+   "options": [
+    "penny",
+    "pound",
+    "time",
+    "word"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L089.mp4",
+  "start": 6.5,
+  "end": 81.9
+ }
+}

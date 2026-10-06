@@ -1,0 +1,441 @@
+{
+ "id": "L141-142",
+ "lessons": [
+  141,
+  142
+ ],
+ "title": "Sally's first train ride",
+ "titleZh": "萨莉第一次乘火车旅行",
+ "evenTitle": "Someone invited Sally to a party. / Sally was invited to a party.",
+ "evenTitleZh": "有人邀请萨莉出席一个聚会。／萨莉应邀出席一个聚会。",
+ "words": [
+  {
+   "en": "excited",
+   "zh": "兴奋的",
+   "ipa": "ɪk'saɪtɪd",
+   "pos": "adj.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/excited.mp3"
+   }
+  },
+  {
+   "en": "get on",
+   "zh": "登上",
+   "ipa": "",
+   "pos": "",
+   "lesson": 141,
+   "audio": {
+    "file": "words/get-on.mp3"
+   }
+  },
+  {
+   "en": "middle-aged",
+   "zh": "中年的",
+   "ipa": "ˌmɪdl-'eɪdʒd",
+   "pos": "adj.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/middle-aged.mp3"
+   }
+  },
+  {
+   "en": "opposite",
+   "zh": "在……对面",
+   "ipa": "'ɒpəzɪt",
+   "pos": "prep.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/opposite.mp3"
+   }
+  },
+  {
+   "en": "curiously",
+   "zh": "好奇地",
+   "ipa": "'kjʊəriəsli",
+   "pos": "adv.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/curiously.mp3"
+   }
+  },
+  {
+   "en": "funny",
+   "zh": "可笑的，滑稽的",
+   "ipa": "'fʌni",
+   "pos": "adj.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/funny.mp3"
+   }
+  },
+  {
+   "en": "powder",
+   "zh": "香粉",
+   "ipa": "'paʊdə",
+   "pos": "n.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/powder.mp3"
+   }
+  },
+  {
+   "en": "compact",
+   "zh": "带镜的化妆盒",
+   "ipa": "'kɒmpækt",
+   "pos": "n.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/compact.mp3"
+   }
+  },
+  {
+   "en": "kindly",
+   "zh": "和蔼地",
+   "ipa": "'kaɪndli",
+   "pos": "adv.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/kindly.mp3"
+   }
+  },
+  {
+   "en": "ugly",
+   "zh": "丑陋的",
+   "ipa": "'ʌɡli",
+   "pos": "adj.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/ugly.mp3"
+   }
+  },
+  {
+   "en": "amused",
+   "zh": "有趣的",
+   "ipa": "ə'mjuːzd",
+   "pos": "adj.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/amused.mp3"
+   }
+  },
+  {
+   "en": "smile",
+   "zh": "微笑",
+   "ipa": "smaɪl",
+   "pos": "v.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/smile.mp3"
+   }
+  },
+  {
+   "en": "embarrassed",
+   "zh": "尴尬的，窘迫的",
+   "ipa": "ɪm'bærəst",
+   "pos": "adj.",
+   "lesson": 141,
+   "audio": {
+    "file": "words/embarrassed.mp3"
+   }
+  },
+  {
+   "en": "worried",
+   "zh": "担心，担忧",
+   "ipa": "'wʌrid",
+   "pos": "adj.",
+   "lesson": 142,
+   "audio": {
+    "file": "words/worried.mp3"
+   }
+  },
+  {
+   "en": "regularly",
+   "zh": "经常地，定期地",
+   "ipa": "'reɡjʊləli",
+   "pos": "adv.",
+   "lesson": 142,
+   "audio": {
+    "file": "words/regularly.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "Last week, my four-year-old daughter, Sally, was invited to a children's party.",
+   "zh": "上周，我4岁的女儿萨莉被邀请去参加一个儿童聚会。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 10.5,
+    "end": 20.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "I decided to take her by train.",
+   "zh": "我决定带她乘火车去。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 20.3,
+    "end": 25
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Sally was very excited because she had never travelled on a train before.",
+   "zh": "萨莉非常激动，因为她从未乘过火车。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 25,
+    "end": 32.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "She sat near the window and asked questions about everything she saw.",
+   "zh": "她靠车窗坐着，对她所看到的一切都要问个明白。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 32.5,
+    "end": 41.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Suddenly, a middle-aged lady got on the train and sat opposite Sally.",
+   "zh": "突然，一个中年妇女上了火车，坐在萨莉的对面。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 41.5,
+    "end": 50
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Hello, little girl,' she said.",
+   "zh": "“你好，小姑娘，”她说。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 50,
+    "end": 54.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Sally did not answer, but looked at her curiously.",
+   "zh": "萨莉没回答，却好奇地看着她。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 54.5,
+    "end": 60.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The lady was dressed in a blue coat and a large, funny hat.",
+   "zh": "那位妇女穿着一件蓝色的大衣，戴着一顶大而滑稽的帽子。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 60.7,
+    "end": 68.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "After the train had left the station,",
+   "zh": "火车开出车站后，",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 68.8,
+    "end": 72.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "the lady opened her handbag and took out her powder compact.",
+   "zh": "那位妇女打开了手提包，拿出了粉盒。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 72.4,
+    "end": 79.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "She then began to make up her face.",
+   "zh": "然后她开始打扮起来。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 79.4,
+    "end": 83.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Why are you doing that?' Sally asked.",
+   "zh": "“你为什么要那样做呢？”萨莉问。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 83.9,
+    "end": 91.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'To make myself beautiful,' the lady answered.",
+   "zh": "“为了把自己打扮漂亮啊，”那位妇女答道。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 91.1,
+    "end": 98.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "She put away her compact and smiled kindly.",
+   "zh": "她放好了粉盒，慈祥地微笑着。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 98.3,
+    "end": 104.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'But you are still ugly,' Sally said.",
+   "zh": "“可是你仍然难看呀，”萨莉说。",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 104.5,
+    "end": 109.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Sally was amused,",
+   "zh": "萨莉感到很有趣，",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 109.8,
+    "end": 112.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "but I was very embarrassed!",
+   "zh": "而我却很尴尬！",
+   "audio": {
+    "file": "media/L141.mp4",
+    "start": 112.3,
+    "end": 118.1
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Sally was invited ___ a children's party.",
+   "zh": "萨莉被邀请去参加一个儿童聚会。",
+   "answer": "to",
+   "options": [
+    "to",
+    "at",
+    "in",
+    "by"
+   ]
+  },
+  {
+   "en": "Sally was very ___ because she had never travelled on a train before.",
+   "zh": "萨莉非常兴奋，因为她从未乘过火车。",
+   "answer": "excited",
+   "options": [
+    "excited",
+    "embarrassed",
+    "ugly",
+    "worried"
+   ]
+  },
+  {
+   "en": "She had never ___ on a train before.",
+   "zh": "她以前从未乘过火车。",
+   "answer": "travelled",
+   "options": [
+    "travelled",
+    "travel",
+    "travels",
+    "travelling"
+   ]
+  },
+  {
+   "en": "The lady ___ her handbag and took out her powder compact.",
+   "zh": "那位妇女打开手提包，拿出了粉盒。",
+   "answer": "opened",
+   "options": [
+    "opened",
+    "open",
+    "opens",
+    "opening"
+   ]
+  },
+  {
+   "en": "Someone repairs it regularly. → It is ___ regularly.",
+   "zh": "有人经常修它。→ 它经常被修理。",
+   "answer": "repaired",
+   "options": [
+    "repaired",
+    "repair",
+    "repairing",
+    "repairs"
+   ]
+  },
+  {
+   "en": "Someone met him at the station this morning. → He was ___ at the station this morning.",
+   "zh": "今天早上有人在车站接他。→ 他今天早上在车站被接。",
+   "answer": "met",
+   "options": [
+    "met",
+    "meet",
+    "meeting",
+    "meets"
+   ]
+  },
+  {
+   "en": "Someone corrects them regularly. → They ___ corrected regularly.",
+   "zh": "有人经常批改它们。→ 它们经常被批改。",
+   "answer": "are",
+   "options": [
+    "are",
+    "is",
+    "was",
+    "has"
+   ]
+  },
+  {
+   "en": "Someone opened it this morning. → It ___ opened this morning.",
+   "zh": "今天早上有人打开了它。→ 它今天早上被打开了。",
+   "answer": "was",
+   "options": [
+    "was",
+    "is",
+    "were",
+    "has"
+   ]
+  },
+  {
+   "en": "The lady put away her compact and smiled ___.",
+   "zh": "那位妇女放好粉盒，慈祥地微笑着。",
+   "answer": "kindly",
+   "options": [
+    "kindly",
+    "kind",
+    "ugly",
+    "funny"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L141.mp4",
+  "start": 10,
+  "end": 118.1
+ }
+}

@@ -1,0 +1,481 @@
+{
+ "id": "L031-032",
+ "lessons": [
+  31,
+  32
+ ],
+ "title": "Where's Sally?",
+ "titleZh": "萨莉在哪里？",
+ "evenTitle": "What's he/she/it doing?",
+ "evenTitleZh": "他/她/它正在做什么？",
+ "words": [
+  {
+   "en": "garden",
+   "zh": "花园",
+   "ipa": "'ɡɑːdn",
+   "pos": "n.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/garden.mp3"
+   }
+  },
+  {
+   "en": "under",
+   "zh": "在……之下",
+   "ipa": "'ʌndə",
+   "pos": "prep.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/under.mp3"
+   }
+  },
+  {
+   "en": "tree",
+   "zh": "树",
+   "ipa": "triː",
+   "pos": "n.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/tree.mp3"
+   }
+  },
+  {
+   "en": "climb",
+   "zh": "爬，攀登",
+   "ipa": "klaɪm",
+   "pos": "v.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/climb.mp3"
+   }
+  },
+  {
+   "en": "who",
+   "zh": "谁",
+   "ipa": "huː",
+   "pos": "pron.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/who.mp3"
+   }
+  },
+  {
+   "en": "run",
+   "zh": "跑",
+   "ipa": "rʌn",
+   "pos": "v.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/run.mp3"
+   }
+  },
+  {
+   "en": "grass",
+   "zh": "草，草地",
+   "ipa": "ɡrɑːs",
+   "pos": "n.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/grass.mp3"
+   }
+  },
+  {
+   "en": "after",
+   "zh": "在……之后",
+   "ipa": "'ɑːftə",
+   "pos": "prep.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/after.mp3"
+   }
+  },
+  {
+   "en": "across",
+   "zh": "横过，穿过",
+   "ipa": "ə'krɒs",
+   "pos": "prep.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/across.mp3"
+   }
+  },
+  {
+   "en": "cat",
+   "zh": "猫",
+   "ipa": "kæt",
+   "pos": "n.",
+   "lesson": 31,
+   "audio": {
+    "file": "words/cat.mp3"
+   }
+  },
+  {
+   "en": "type",
+   "zh": "打字",
+   "ipa": "taɪp",
+   "pos": "v.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/type.mp3"
+   }
+  },
+  {
+   "en": "letter",
+   "zh": "信",
+   "ipa": "'letə",
+   "pos": "n.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/letter.mp3"
+   }
+  },
+  {
+   "en": "basket",
+   "zh": "篮子",
+   "ipa": "'bɑːskɪt",
+   "pos": "n.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/basket.mp3"
+   }
+  },
+  {
+   "en": "eat",
+   "zh": "吃",
+   "ipa": "iːt",
+   "pos": "v.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/eat.mp3"
+   }
+  },
+  {
+   "en": "bone",
+   "zh": "骨头",
+   "ipa": "bəʊn",
+   "pos": "n.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/bone.mp3"
+   }
+  },
+  {
+   "en": "clean",
+   "zh": "清洗",
+   "ipa": "kliːn",
+   "pos": "v.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/clean.mp3"
+   }
+  },
+  {
+   "en": "tooth",
+   "zh": "牙齿（复数 teeth）",
+   "ipa": "tuːθ",
+   "pos": "n.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/tooth.mp3"
+   }
+  },
+  {
+   "en": "cook",
+   "zh": "做（饭菜）",
+   "ipa": "kʊk",
+   "pos": "v.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/cook.mp3"
+   }
+  },
+  {
+   "en": "milk",
+   "zh": "牛奶",
+   "ipa": "mɪlk",
+   "pos": "n.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/milk.mp3"
+   }
+  },
+  {
+   "en": "meal",
+   "zh": "饭，一顿饭",
+   "ipa": "miːl",
+   "pos": "n.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/meal.mp3"
+   }
+  },
+  {
+   "en": "drink",
+   "zh": "喝",
+   "ipa": "drɪŋk",
+   "pos": "v.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/drink.mp3"
+   }
+  },
+  {
+   "en": "tap",
+   "zh": "（水）龙头",
+   "ipa": "tæp",
+   "pos": "n.",
+   "lesson": 32,
+   "audio": {
+    "file": "words/tap.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jean",
+   "en": "Where's Sally, Jack?",
+   "zh": "杰克，萨莉在哪儿？",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 7.1,
+    "end": 10.9
+   }
+  },
+  {
+   "speaker": "Jack",
+   "en": "She's in the garden, Jean.",
+   "zh": "她在花园里，琼。",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 10.9,
+    "end": 15.1
+   }
+  },
+  {
+   "speaker": "Jean",
+   "en": "What's she doing?",
+   "zh": "她在干什么？",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 15.1,
+    "end": 17.6
+   }
+  },
+  {
+   "speaker": "Jack",
+   "en": "She's sitting under the tree.",
+   "zh": "她正在树荫下坐着。",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 17.6,
+    "end": 21.5
+   }
+  },
+  {
+   "speaker": "Jean",
+   "en": "Is Tim in the garden, too?",
+   "zh": "蒂姆也在花园里吗？",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 21.5,
+    "end": 24.8
+   }
+  },
+  {
+   "speaker": "Jack",
+   "en": "Yes, he is.",
+   "zh": "是的，他也在花园里。",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 24.8,
+    "end": 27.8
+   }
+  },
+  {
+   "speaker": "Jack",
+   "en": "He's climbing the tree.",
+   "zh": "他正在爬树。",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 27.8,
+    "end": 31.4
+   }
+  },
+  {
+   "speaker": "Jean",
+   "en": "I beg your pardon?",
+   "zh": "你说什么？",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 31.4,
+    "end": 34.7
+   }
+  },
+  {
+   "speaker": "Jean",
+   "en": "Who's climbing the tree?",
+   "zh": "谁在爬树？",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 34.7,
+    "end": 37.4
+   }
+  },
+  {
+   "speaker": "Jack",
+   "en": "Tim is.",
+   "zh": "蒂姆在爬树。",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 37.4,
+    "end": 40
+   }
+  },
+  {
+   "speaker": "Jean",
+   "en": "What about the dog?",
+   "zh": "那么狗呢？",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 40,
+    "end": 43.2
+   }
+  },
+  {
+   "speaker": "Jack",
+   "en": "The dog's in the garden, too.",
+   "zh": "狗也在花园里。",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 43.2,
+    "end": 47
+   }
+  },
+  {
+   "speaker": "Jack",
+   "en": "It's running across the grass.",
+   "zh": "它正在草地上跑，",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 47,
+    "end": 50.6
+   }
+  },
+  {
+   "speaker": "Jack",
+   "en": "It's running after a cat.",
+   "zh": "在追一只猫。",
+   "audio": {
+    "file": "media/L031.mp4",
+    "start": 50.6,
+    "end": 55.4
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Sweep the floor! She is ___ it.",
+   "zh": "扫地！她正在扫。",
+   "answer": "sweeping",
+   "options": [
+    "sweeping",
+    "sweep",
+    "sweeps",
+    "sweeped"
+   ]
+  },
+  {
+   "en": "Open the window! He is ___ it.",
+   "zh": "打开窗户！他正在开。",
+   "answer": "opening",
+   "options": [
+    "opening",
+    "open",
+    "opens",
+    "openning"
+   ]
+  },
+  {
+   "en": "Sharpen this pencil! She is ___ it.",
+   "zh": "削这支铅笔！她正在削。",
+   "answer": "sharpening",
+   "options": [
+    "sharpening",
+    "sharpen",
+    "sharpenning",
+    "sharpens"
+   ]
+  },
+  {
+   "en": "Look at the picture! He is ___ at it.",
+   "zh": "看这幅画！他正在看。",
+   "answer": "looking",
+   "options": [
+    "looking",
+    "look",
+    "looks",
+    "lookking"
+   ]
+  },
+  {
+   "en": "The dog is ___ across the grass.",
+   "zh": "狗正在草地上跑。",
+   "answer": "running",
+   "options": [
+    "running",
+    "runing",
+    "run",
+    "runs"
+   ]
+  },
+  {
+   "en": "She's ___ under the tree.",
+   "zh": "她正在树下坐着。",
+   "answer": "sitting",
+   "options": [
+    "sitting",
+    "siting",
+    "sit",
+    "sits"
+   ]
+  },
+  {
+   "en": "My mother is ___ the bed.",
+   "zh": "我妈妈正在铺床。",
+   "answer": "making",
+   "options": [
+    "making",
+    "makeing",
+    "make",
+    "makes"
+   ]
+  },
+  {
+   "en": "What is Nicola doing? Is she emptying the basket? No, she ___.",
+   "zh": "尼古拉在做什么？她在倒篮子吗？不，没有。",
+   "answer": "isn't",
+   "options": [
+    "isn't",
+    "aren't",
+    "not",
+    "is"
+   ]
+  },
+  {
+   "en": "___ is climbing the tree? Tim is.",
+   "zh": "谁在爬树？蒂姆在爬。",
+   "answer": "Who",
+   "options": [
+    "Who",
+    "What",
+    "Where",
+    "Whose"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L031.mp4",
+  "start": 6.6,
+  "end": 55.4
+ }
+}

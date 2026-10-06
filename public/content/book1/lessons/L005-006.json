@@ -1,0 +1,580 @@
+{
+ "id": "L005-006",
+ "lessons": [
+  5,
+  6
+ ],
+ "title": "Nice to meet you.",
+ "titleZh": "很高兴见到你。",
+ "evenTitle": "What make is it?",
+ "evenTitleZh": "它是什么牌子的？",
+ "words": [
+  {
+   "en": "Mr.",
+   "zh": "先生",
+   "ipa": "'mɪstə",
+   "pos": "",
+   "lesson": 5,
+   "audio": {
+    "file": "words/mr.mp3"
+   }
+  },
+  {
+   "en": "good",
+   "zh": "好",
+   "ipa": "ɡʊd",
+   "pos": "adj.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/good.mp3"
+   }
+  },
+  {
+   "en": "morning",
+   "zh": "早晨",
+   "ipa": "'mɔːnɪŋ",
+   "pos": "n.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/morning.mp3"
+   }
+  },
+  {
+   "en": "Miss",
+   "zh": "小姐",
+   "ipa": "mɪs",
+   "pos": "",
+   "lesson": 5,
+   "audio": {
+    "file": "words/miss.mp3"
+   }
+  },
+  {
+   "en": "new",
+   "zh": "新的",
+   "ipa": "njuː",
+   "pos": "adj.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/new.mp3"
+   }
+  },
+  {
+   "en": "student",
+   "zh": "学生",
+   "ipa": "'stjuːdənt",
+   "pos": "n.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/student.mp3"
+   }
+  },
+  {
+   "en": "French",
+   "zh": "法国人；法国的",
+   "ipa": "frentʃ",
+   "pos": "adj. & n.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/french.mp3"
+   }
+  },
+  {
+   "en": "German",
+   "zh": "德国人；德国的",
+   "ipa": "'dʒɜːmən",
+   "pos": "adj. & n.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/german.mp3"
+   }
+  },
+  {
+   "en": "nice",
+   "zh": "美好的",
+   "ipa": "naɪs",
+   "pos": "adj.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/nice.mp3"
+   }
+  },
+  {
+   "en": "meet",
+   "zh": "遇见",
+   "ipa": "miːt",
+   "pos": "v.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/meet.mp3"
+   }
+  },
+  {
+   "en": "Japanese",
+   "zh": "日本人；日本的",
+   "ipa": "dʒæpə'niːz",
+   "pos": "adj. & n.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/japanese.mp3"
+   }
+  },
+  {
+   "en": "Korean",
+   "zh": "韩国人；韩国的",
+   "ipa": "kə'rɪən",
+   "pos": "adj. & n.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/korean.mp3"
+   }
+  },
+  {
+   "en": "Chinese",
+   "zh": "中国人；中国的",
+   "ipa": "ˌtʃaɪ'niːz",
+   "pos": "adj. & n.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/chinese.mp3"
+   }
+  },
+  {
+   "en": "too",
+   "zh": "也",
+   "ipa": "tuː",
+   "pos": "adv.",
+   "lesson": 5,
+   "audio": {
+    "file": "words/too.mp3"
+   }
+  },
+  {
+   "en": "make",
+   "zh": "（产品的）牌号",
+   "ipa": "meɪk",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/make.mp3"
+   }
+  },
+  {
+   "en": "Swedish",
+   "zh": "瑞典的",
+   "ipa": "'swiːdɪʃ",
+   "pos": "adj.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/swedish.mp3"
+   }
+  },
+  {
+   "en": "English",
+   "zh": "英国的",
+   "ipa": "'ɪŋɡlɪʃ",
+   "pos": "adj.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/english.mp3"
+   }
+  },
+  {
+   "en": "American",
+   "zh": "美国的",
+   "ipa": "ə'merɪkən",
+   "pos": "adj.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/american.mp3"
+   }
+  },
+  {
+   "en": "Italian",
+   "zh": "意大利的",
+   "ipa": "ɪ'tæliən",
+   "pos": "adj.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/italian.mp3"
+   }
+  },
+  {
+   "en": "Volvo",
+   "zh": "沃尔沃",
+   "ipa": "'vɒlvəʊ",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/volvo.mp3"
+   }
+  },
+  {
+   "en": "Peugeot",
+   "zh": "标致",
+   "ipa": "'pɜːʒəʊ",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/peugeot.mp3"
+   }
+  },
+  {
+   "en": "Mercedes",
+   "zh": "梅赛德斯",
+   "ipa": "mə'seɪdiːz",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/mercedes.mp3"
+   }
+  },
+  {
+   "en": "Toyota",
+   "zh": "丰田",
+   "ipa": "'təʊjəʊtə",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/toyota.mp3"
+   }
+  },
+  {
+   "en": "Daewoo",
+   "zh": "大宇",
+   "ipa": "'dɑːwuː",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/daewoo.mp3"
+   }
+  },
+  {
+   "en": "Mini",
+   "zh": "迷你",
+   "ipa": "'mɪni",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/mini.mp3"
+   }
+  },
+  {
+   "en": "Ford",
+   "zh": "福特",
+   "ipa": "fɔːd",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/ford.mp3"
+   }
+  },
+  {
+   "en": "Fiat",
+   "zh": "菲亚特",
+   "ipa": "'fiːæt",
+   "pos": "n.",
+   "lesson": 6,
+   "audio": {
+    "file": "words/fiat.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mr. Blake",
+   "en": "Good morning.",
+   "zh": "早上好。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 6.8,
+    "end": 9
+   }
+  },
+  {
+   "speaker": "Students",
+   "en": "Good morning, Mr. Blake.",
+   "zh": "早上好，布莱克先生。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 9,
+    "end": 11.6
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "This is Miss Sophie Dupont.",
+   "zh": "这位是索菲娅·杜邦小姐。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 11.6,
+    "end": 16
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "Sophie is a new student.",
+   "zh": "索菲娅是个新学生。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 16,
+    "end": 19.4
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "She is French.",
+   "zh": "她是法国人。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 19.4,
+    "end": 23.1
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "Sophie, this is Hans.",
+   "zh": "索菲娅，这位是汉斯。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 23.1,
+    "end": 26.6
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "He is German.",
+   "zh": "他是德国人。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 26.6,
+    "end": 30
+   }
+  },
+  {
+   "speaker": "Hans",
+   "en": "Nice to meet you.",
+   "zh": "很高兴见到你。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 30,
+    "end": 32.6
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "And this is Naoko.",
+   "zh": "这位是直子。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 32.6,
+    "end": 36.9
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "She's Japanese.",
+   "zh": "她是日本人。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 36.9,
+    "end": 39.9
+   }
+  },
+  {
+   "speaker": "Naoko",
+   "en": "Nice to meet you.",
+   "zh": "很高兴见到你。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 39.9,
+    "end": 42.7
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "And this is Chang-woo.",
+   "zh": "这位是昌宇。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 42.7,
+    "end": 46.6
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "He's Korean.",
+   "zh": "他是韩国人。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 47.1,
+    "end": 50.4
+   }
+  },
+  {
+   "speaker": "Chang-woo",
+   "en": "Nice to meet you.",
+   "zh": "很高兴见到你。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 50.4,
+    "end": 53.5
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "And this is Luming.",
+   "zh": "这位是鲁明。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 53.5,
+    "end": 57.9
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "He's Chinese.",
+   "zh": "他是中国人。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 58.6,
+    "end": 61.8
+   }
+  },
+  {
+   "speaker": "Luming",
+   "en": "Nice to meet you.",
+   "zh": "很高兴见到你。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 61.8,
+    "end": 64.9
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "And this is Xiaohui.",
+   "zh": "这位是晓惠。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 64.9,
+    "end": 68.7
+   }
+  },
+  {
+   "speaker": "Mr. Blake",
+   "en": "She's Chinese, too.",
+   "zh": "她也是中国人。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 68.7,
+    "end": 71.7
+   }
+  },
+  {
+   "speaker": "Xiaohui",
+   "en": "Nice to meet you.",
+   "zh": "很高兴见到你。",
+   "audio": {
+    "file": "media/L005.mp4",
+    "start": 71.7,
+    "end": 74.9
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Alice is a student. ___ is French.",
+   "zh": "艾丽斯是个学生。她是法国人。",
+   "answer": "She",
+   "options": [
+    "She",
+    "He",
+    "It",
+    "This"
+   ]
+  },
+  {
+   "en": "Hans is a student. ___ is German.",
+   "zh": "汉斯是个学生。他是德国人。",
+   "answer": "He",
+   "options": [
+    "He",
+    "She",
+    "It",
+    "His"
+   ]
+  },
+  {
+   "en": "This is her car. ___ is a French car.",
+   "zh": "这是她的车。它是一辆法国车。",
+   "answer": "It",
+   "options": [
+    "It",
+    "She",
+    "He",
+    "This"
+   ]
+  },
+  {
+   "en": "It's a Volvo. It's a ___ car.",
+   "zh": "这是一辆沃尔沃。它是瑞典车。",
+   "answer": "Swedish",
+   "options": [
+    "Swedish",
+    "Italian",
+    "American",
+    "Japanese"
+   ]
+  },
+  {
+   "en": "It's a Toyota. It's a ___ car.",
+   "zh": "这是一辆丰田。它是日本车。",
+   "answer": "Japanese",
+   "options": [
+    "Japanese",
+    "German",
+    "English",
+    "Korean"
+   ]
+  },
+  {
+   "en": "Is it a Swedish car ___ a French car?",
+   "zh": "它是瑞典车还是法国车？",
+   "answer": "or",
+   "options": [
+    "or",
+    "and",
+    "too",
+    "is"
+   ]
+  },
+  {
+   "en": "It isn't a French car. It's ___ Italian car.",
+   "zh": "它不是法国车，它是意大利车。",
+   "answer": "an",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "it"
+   ]
+  },
+  {
+   "en": "Nice to ___ you.",
+   "zh": "很高兴见到你。",
+   "answer": "meet",
+   "options": [
+    "meet",
+    "make",
+    "nice",
+    "good"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L005.mp4",
+  "start": 6.3,
+  "end": 74.9
+ }
+}

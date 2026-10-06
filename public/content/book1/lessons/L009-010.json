@@ -1,0 +1,470 @@
+{
+ "id": "L009-010",
+ "lessons": [
+  9,
+  10
+ ],
+ "title": "How are you today?",
+ "titleZh": "你今天好吗？",
+ "evenTitle": "Look at ...",
+ "evenTitleZh": "看……",
+ "words": [
+  {
+   "en": "hello",
+   "zh": "喂（表示问候）",
+   "ipa": "hə'ləʊ",
+   "pos": "int.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/hello.mp3"
+   }
+  },
+  {
+   "en": "hi",
+   "zh": "喂，嗨",
+   "ipa": "haɪ",
+   "pos": "int.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/hi.mp3"
+   }
+  },
+  {
+   "en": "how",
+   "zh": "怎样",
+   "ipa": "haʊ",
+   "pos": "adv.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/how.mp3"
+   }
+  },
+  {
+   "en": "today",
+   "zh": "今天",
+   "ipa": "tə'deɪ",
+   "pos": "adv.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/today.mp3"
+   }
+  },
+  {
+   "en": "well",
+   "zh": "身体好",
+   "ipa": "wel",
+   "pos": "adj.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/well.mp3"
+   }
+  },
+  {
+   "en": "fine",
+   "zh": "美好的",
+   "ipa": "faɪn",
+   "pos": "adj.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/fine.mp3"
+   }
+  },
+  {
+   "en": "thanks",
+   "zh": "谢谢",
+   "ipa": "θæŋks",
+   "pos": "int.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/thanks.mp3"
+   }
+  },
+  {
+   "en": "goodbye",
+   "zh": "再见",
+   "ipa": "ˌɡʊd'baɪ",
+   "pos": "int.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/goodbye.mp3"
+   }
+  },
+  {
+   "en": "see",
+   "zh": "见",
+   "ipa": "siː",
+   "pos": "v.",
+   "lesson": 9,
+   "audio": {
+    "file": "words/see.mp3"
+   }
+  },
+  {
+   "en": "fat",
+   "zh": "胖的",
+   "ipa": "fæt",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/fat.mp3"
+   }
+  },
+  {
+   "en": "woman",
+   "zh": "女人",
+   "ipa": "'wʊmən",
+   "pos": "n.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/woman.mp3"
+   }
+  },
+  {
+   "en": "thin",
+   "zh": "瘦的",
+   "ipa": "θɪn",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/thin.mp3"
+   }
+  },
+  {
+   "en": "tall",
+   "zh": "高的",
+   "ipa": "tɔːl",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/tall.mp3"
+   }
+  },
+  {
+   "en": "short",
+   "zh": "矮的",
+   "ipa": "ʃɔːt",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/short.mp3"
+   }
+  },
+  {
+   "en": "dirty",
+   "zh": "脏的",
+   "ipa": "'dɜːti",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/dirty.mp3"
+   }
+  },
+  {
+   "en": "clean",
+   "zh": "干净的",
+   "ipa": "kliːn",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/clean.mp3"
+   }
+  },
+  {
+   "en": "hot",
+   "zh": "热的",
+   "ipa": "hɒt",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/hot.mp3"
+   }
+  },
+  {
+   "en": "cold",
+   "zh": "冷的",
+   "ipa": "kəʊld",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/cold.mp3"
+   }
+  },
+  {
+   "en": "old",
+   "zh": "老的",
+   "ipa": "əʊld",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/old.mp3"
+   }
+  },
+  {
+   "en": "young",
+   "zh": "年轻的",
+   "ipa": "jʌŋ",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/young.mp3"
+   }
+  },
+  {
+   "en": "busy",
+   "zh": "忙的",
+   "ipa": "'bɪzi",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/busy.mp3"
+   }
+  },
+  {
+   "en": "lazy",
+   "zh": "懒的",
+   "ipa": "'leɪzi",
+   "pos": "adj.",
+   "lesson": 10,
+   "audio": {
+    "file": "words/lazy.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Steven",
+   "en": "Hello, Helen.",
+   "zh": "你好，海伦。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 7.9,
+    "end": 10.8
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "Hi, Steven.",
+   "zh": "你好，史蒂文。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 10.8,
+    "end": 13.4
+   }
+  },
+  {
+   "speaker": "Steven",
+   "en": "How are you today?",
+   "zh": "你今天好吗？",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 13.4,
+    "end": 17.4
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "I'm very well, thank you.",
+   "zh": "很好，谢谢你。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 17.4,
+    "end": 21.8
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "And you?",
+   "zh": "你好吗？",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 21.8,
+    "end": 23.6
+   }
+  },
+  {
+   "speaker": "Steven",
+   "en": "I'm fine, thanks.",
+   "zh": "很好，谢谢。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 23.6,
+    "end": 27.6
+   }
+  },
+  {
+   "speaker": "Steven",
+   "en": "How is Tony?",
+   "zh": "托尼好吗？",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 27.6,
+    "end": 30.8
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "He's fine, thanks.",
+   "zh": "他很好，谢谢。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 30.8,
+    "end": 34.7
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "How's Emma?",
+   "zh": "埃玛好吗？",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 34.7,
+    "end": 37.6
+   }
+  },
+  {
+   "speaker": "Steven",
+   "en": "She's very well, too, Helen.",
+   "zh": "她也很好，海伦。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 37.6,
+    "end": 42.5
+   }
+  },
+  {
+   "speaker": "Steven",
+   "en": "Goodbye, Helen.",
+   "zh": "再见，海伦。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 42.5,
+    "end": 45.2
+   }
+  },
+  {
+   "speaker": "Steven",
+   "en": "Nice to see you.",
+   "zh": "见到你真高兴。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 45.2,
+    "end": 48
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "Nice to see you, too, Steven.",
+   "zh": "我见到你也很高兴，史蒂文。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 48,
+    "end": 52.7
+   }
+  },
+  {
+   "speaker": "Helen",
+   "en": "Goodbye.",
+   "zh": "再见。",
+   "audio": {
+    "file": "media/L009.mp4",
+    "start": 52.7,
+    "end": 55.5
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Mr. Blake isn't a student. ___ a teacher.",
+   "zh": "布莱克先生不是学生，他是老师。",
+   "answer": "He's",
+   "options": [
+    "He's",
+    "She's",
+    "It's",
+    "He"
+   ]
+  },
+  {
+   "en": "This isn't my umbrella. ___ your umbrella.",
+   "zh": "这不是我的伞，是你的伞。",
+   "answer": "It's",
+   "options": [
+    "It's",
+    "He's",
+    "She's",
+    "Its"
+   ]
+  },
+  {
+   "en": "Sophie isn't a teacher. ___ a keyboard operator.",
+   "zh": "索菲娅不是老师，她是电脑录入员。",
+   "answer": "She's",
+   "options": [
+    "She's",
+    "He's",
+    "It's",
+    "Her"
+   ]
+  },
+  {
+   "en": "Steven isn't cold. He's ___.",
+   "zh": "史蒂文不冷，他很热。",
+   "answer": "hot",
+   "options": [
+    "hot",
+    "cold",
+    "old",
+    "lazy"
+   ]
+  },
+  {
+   "en": "Look at that woman! She's very ___.",
+   "zh": "看那个女人！她真瘦。",
+   "answer": "thin",
+   "options": [
+    "thin",
+    "fat",
+    "tall",
+    "young"
+   ]
+  },
+  {
+   "en": "How ___ you today?",
+   "zh": "你今天好吗？",
+   "answer": "are",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "do"
+   ]
+  },
+  {
+   "en": "I'm fine, ___.",
+   "zh": "很好，谢谢。",
+   "answer": "thanks",
+   "options": [
+    "thanks",
+    "thank",
+    "please",
+    "sorry"
+   ]
+  },
+  {
+   "en": "Nice to ___ you, too.",
+   "zh": "见到你我也很高兴。",
+   "answer": "see",
+   "options": [
+    "see",
+    "look",
+    "make",
+    "thank"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L009.mp4",
+  "start": 7.4,
+  "end": 55.5
+ }
+}

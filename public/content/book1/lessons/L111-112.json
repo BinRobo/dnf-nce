@@ -1,0 +1,371 @@
+{
+ "id": "L111-112",
+ "lessons": [
+  111,
+  112
+ ],
+ "title": "The most expensive model",
+ "titleZh": "最昂贵的型号",
+ "evenTitle": "How do they compare?",
+ "evenTitleZh": "它们的比较级和最高级是什么？",
+ "words": [
+  {
+   "en": "model",
+   "zh": "型号，式样",
+   "ipa": "'mɒdl",
+   "pos": "n.",
+   "lesson": 111,
+   "audio": {
+    "file": "words/model.mp3"
+   }
+  },
+  {
+   "en": "afford",
+   "zh": "付得起（钱）",
+   "ipa": "ə'fɔːd",
+   "pos": "v.",
+   "lesson": 111,
+   "audio": {
+    "file": "words/afford.mp3"
+   }
+  },
+  {
+   "en": "deposit",
+   "zh": "预付定金",
+   "ipa": "dɪ'pɒzɪt",
+   "pos": "n.",
+   "lesson": 111,
+   "audio": {
+    "file": "words/deposit.mp3"
+   }
+  },
+  {
+   "en": "instalment",
+   "zh": "分期付款",
+   "ipa": "ɪn'stɔːlmənt",
+   "pos": "n.",
+   "lesson": 111,
+   "audio": {
+    "file": "words/instalment.mp3"
+   }
+  },
+  {
+   "en": "price",
+   "zh": "价格",
+   "ipa": "praɪs",
+   "pos": "n.",
+   "lesson": 111,
+   "audio": {
+    "file": "words/price.mp3"
+   }
+  },
+  {
+   "en": "millionaire",
+   "zh": "百万富翁",
+   "ipa": "ˌmɪljə'neə",
+   "pos": "n.",
+   "lesson": 111,
+   "audio": {
+    "file": "words/millionaire.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mr. Frith",
+   "en": "I like this television very much.",
+   "zh": "我非常喜欢这台电视机。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 8.2,
+    "end": 12.1
+   }
+  },
+  {
+   "speaker": "Mr. Frith",
+   "en": "How much does it cost?",
+   "zh": "请问它多少钱？",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 12.1,
+    "end": 14.9
+   }
+  },
+  {
+   "speaker": "Assistant",
+   "en": "It's the most expensive model in the shop.",
+   "zh": "这是店里最贵的型号。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 14.9,
+    "end": 18.6
+   }
+  },
+  {
+   "speaker": "Assistant",
+   "en": "It costs five hundred pounds.",
+   "zh": "它的售价是 500 英镑。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 18.6,
+    "end": 23
+   }
+  },
+  {
+   "speaker": "Mrs. Frith",
+   "en": "That's too expensive for us.",
+   "zh": "这对我们来说是太贵了。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 23,
+    "end": 25.1
+   }
+  },
+  {
+   "speaker": "Mrs. Frith",
+   "en": "We can't afford all that money.",
+   "zh": "我们花不起那么多钱。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 25.1,
+    "end": 27.5
+   }
+  },
+  {
+   "speaker": "Assistant",
+   "en": "This model's less expensive than that one.",
+   "zh": "这种型号的比那种要便宜些。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 27.5,
+    "end": 31
+   }
+  },
+  {
+   "speaker": "Assistant",
+   "en": "It's only three hundred pounds.",
+   "zh": "它只要 300 英镑。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 31,
+    "end": 33.3
+   }
+  },
+  {
+   "speaker": "Assistant",
+   "en": "But, of course, it's not as good as the expensive one.",
+   "zh": "但是，它当然没有价钱高的那种好。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 33.3,
+    "end": 38.2
+   }
+  },
+  {
+   "speaker": "Mr. Frith",
+   "en": "I don't like this model.",
+   "zh": "我不喜欢这种型号。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 38.2,
+    "end": 39.9
+   }
+  },
+  {
+   "speaker": "Mr. Frith",
+   "en": "The other model's more expensive, but it's worth the money.",
+   "zh": "那一种型号价格是贵一些，但它值这么多钱。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 39.9,
+    "end": 45.1
+   }
+  },
+  {
+   "speaker": "Mr. Frith",
+   "en": "Can we buy it on instalments?",
+   "zh": "我们可以用分期付款的方式购买吗？",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 45.1,
+    "end": 48.3
+   }
+  },
+  {
+   "speaker": "Assistant",
+   "en": "Of course.",
+   "zh": "当然可以。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 48.3,
+    "end": 49.6
+   }
+  },
+  {
+   "speaker": "Assistant",
+   "en": "You can pay a deposit of thirty pounds, and then fourteen pounds a month for three years.",
+   "zh": "您可以先付 30 英镑定金，然后每月 14 镑，3 年付清。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 49.6,
+    "end": 58.1
+   }
+  },
+  {
+   "speaker": "Mr. Frith",
+   "en": "Do you like it, dear?",
+   "zh": "你喜欢吗，亲爱的？",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 58.1,
+    "end": 59.9
+   }
+  },
+  {
+   "speaker": "Mrs. Frith",
+   "en": "I certainly do, but I don't like the price.",
+   "zh": "我当然喜欢，但是我不喜欢这个价钱。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 59.9,
+    "end": 64.7
+   }
+  },
+  {
+   "speaker": "Mrs. Frith",
+   "en": "You always want the best, but we can't afford it.",
+   "zh": "你总是要买最好的，可我们买不起。",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 64.7,
+    "end": 69.8
+   }
+  },
+  {
+   "speaker": "Mrs. Frith",
+   "en": "Sometimes you think you're a millionaire!",
+   "zh": "有时候你认为自己是个百万富翁！",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 69.8,
+    "end": 73.4
+   }
+  },
+  {
+   "speaker": "Mr. Frith",
+   "en": "Millionaires don't buy things on instalments!",
+   "zh": "百万富翁是不会分期付款买东西的！",
+   "audio": {
+    "file": "media/L111.mp4",
+    "start": 73.4,
+    "end": 76.9
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "This dress is long, but that one is ___.",
+   "zh": "这条连衣裙很长，但那条更长。",
+   "answer": "longer",
+   "options": [
+    "longer",
+    "more long",
+    "longest",
+    "long"
+   ]
+  },
+  {
+   "en": "This book is cheap, but that one is ___.",
+   "zh": "这本书便宜，但那本更便宜。",
+   "answer": "cheaper",
+   "options": [
+    "cheaper",
+    "more cheap",
+    "cheapest",
+    "cheap"
+   ]
+  },
+  {
+   "en": "This book is expensive, but that one is ___ expensive.",
+   "zh": "这本书很贵，但那本更贵。",
+   "answer": "more",
+   "options": [
+    "more",
+    "most",
+    "much",
+    "very"
+   ]
+  },
+  {
+   "en": "This question is easy, but that one is ___.",
+   "zh": "这个问题容易，但那个更容易。",
+   "answer": "easier",
+   "options": [
+    "easier",
+    "more easy",
+    "easiest",
+    "easy"
+   ]
+  },
+  {
+   "en": "Tom is intelligent, but Bill is ___ intelligent.",
+   "zh": "汤姆很聪明，但比尔更聪明。",
+   "answer": "more",
+   "options": [
+    "more",
+    "most",
+    "much",
+    "very"
+   ]
+  },
+  {
+   "en": "It's the ___ expensive model in the shop.",
+   "zh": "这是店里最贵的型号。",
+   "answer": "most",
+   "options": [
+    "most",
+    "more",
+    "much",
+    "very"
+   ]
+  },
+  {
+   "en": "This model's ___ expensive than that one.",
+   "zh": "这种型号比那种便宜。",
+   "answer": "less",
+   "options": [
+    "less",
+    "least",
+    "more",
+    "much"
+   ]
+  },
+  {
+   "en": "The green apple isn't ___ sweet as the red apple.",
+   "zh": "青苹果没有红苹果那么甜。",
+   "answer": "as",
+   "options": [
+    "as",
+    "more",
+    "most",
+    "than"
+   ]
+  },
+  {
+   "en": "This is the ___ difficult test I have ever done!",
+   "zh": "这是我做过的最难的测验！",
+   "answer": "most",
+   "options": [
+    "most",
+    "more",
+    "much",
+    "very"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L111.mp4",
+  "start": 7.699999999999999,
+  "end": 76.9
+ }
+}

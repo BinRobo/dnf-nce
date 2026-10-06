@@ -1,0 +1,381 @@
+{
+ "id": "L075-076",
+ "lessons": [
+  75,
+  76
+ ],
+ "title": "Uncomfortable shoes",
+ "titleZh": "不舒适的鞋子",
+ "evenTitle": "When did you ...?",
+ "evenTitleZh": "你什么时候……？",
+ "words": [
+  {
+   "en": "ago",
+   "zh": "以前",
+   "ipa": "ə'ɡəʊ",
+   "pos": "adv.",
+   "lesson": 75,
+   "audio": {
+    "file": "words/ago.mp3"
+   }
+  },
+  {
+   "en": "buy",
+   "zh": "买（过去式 bought）",
+   "ipa": "baɪ",
+   "pos": "v.",
+   "lesson": 75,
+   "audio": {
+    "file": "words/buy.mp3"
+   }
+  },
+  {
+   "en": "pair",
+   "zh": "双，对",
+   "ipa": "peə",
+   "pos": "n.",
+   "lesson": 75,
+   "audio": {
+    "file": "words/pair.mp3"
+   }
+  },
+  {
+   "en": "fashion",
+   "zh": "（服装的）流行式样",
+   "ipa": "'fæʃən",
+   "pos": "n.",
+   "lesson": 75,
+   "audio": {
+    "file": "words/fashion.mp3"
+   }
+  },
+  {
+   "en": "uncomfortable",
+   "zh": "不舒服的",
+   "ipa": "ʌn'kʌmftəbəl",
+   "pos": "adj.",
+   "lesson": 75,
+   "audio": {
+    "file": "words/uncomfortable.mp3"
+   }
+  },
+  {
+   "en": "wear",
+   "zh": "穿着（过去式 wore）",
+   "ipa": "weə",
+   "pos": "v.",
+   "lesson": 75,
+   "audio": {
+    "file": "words/wear.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Lady",
+   "en": "Do you have any shoes like these?",
+   "zh": "像这样的鞋子你们有吗？",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 7.3,
+    "end": 10.6
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "What size?",
+   "zh": "什么尺码的？",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 10.6,
+    "end": 12.2
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "Size five.",
+   "zh": "5 号的。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 12.2,
+    "end": 13.4
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "What colour?",
+   "zh": "什么颜色？",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 13.4,
+    "end": 14.7
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "Black.",
+   "zh": "黑的。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 14.7,
+    "end": 15.7
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "I'm sorry.",
+   "zh": "对不起，",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 15.7,
+    "end": 17.1
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "We don't have any.",
+   "zh": "我们没有。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 17.1,
+    "end": 19
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "But my sister bought this pair last month.",
+   "zh": "但是，我姐姐上个月买到了这样的一双。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 19,
+    "end": 22.5
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "Did she buy them here?",
+   "zh": "她是在这儿买的吗？",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 22.5,
+    "end": 24.8
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "No, she bought them in the U.S.",
+   "zh": "不，她是在美国买的。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 24.8,
+    "end": 28.6
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "We had some shoes like those a month ago,",
+   "zh": "一个月前我们有这样的鞋，",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 28.6,
+    "end": 32.5
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "but we don't have any now.",
+   "zh": "但是现在没有了。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 32.5,
+    "end": 35.6
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "Can you get a pair for me, please?",
+   "zh": "您能为我找一双吗？",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 35.6,
+    "end": 38.5
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "I'm afraid that I can't.",
+   "zh": "恐怕不行。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 38.5,
+    "end": 41.1
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "They were in fashion last year and the year before last.",
+   "zh": "这鞋在去年和前年时兴，",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 41.1,
+    "end": 46.4
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "But they're not in fashion this year.",
+   "zh": "而今年已不流行了。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 46.4,
+    "end": 50.6
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "These shoes are in fashion now.",
+   "zh": "现在流行的是这种鞋子。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 50.6,
+    "end": 54
+   }
+  },
+  {
+   "speaker": "Lady",
+   "en": "They look very uncomfortable.",
+   "zh": "这种鞋子看上去很不舒适。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 54,
+    "end": 57.2
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "They are very uncomfortable.",
+   "zh": "的确很不舒适。",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 57.2,
+    "end": 60
+   }
+  },
+  {
+   "speaker": "Shop assistant",
+   "en": "But women always wear uncomfortable shoes!",
+   "zh": "可是女人们总是穿不舒适的鞋子！",
+   "audio": {
+    "file": "media/L075.mp4",
+    "start": 60,
+    "end": 64.7
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "She goes to town every day. → She ___ to town yesterday.",
+   "zh": "她昨天进城了。",
+   "answer": "went",
+   "options": [
+    "went",
+    "goed",
+    "goes",
+    "go"
+   ]
+  },
+  {
+   "en": "She meets her friends every day. → She ___ her friends yesterday.",
+   "zh": "她昨天见了她的朋友。",
+   "answer": "met",
+   "options": [
+    "met",
+    "meeted",
+    "meets",
+    "meet"
+   ]
+  },
+  {
+   "en": "They drink some milk every day. → They ___ some milk yesterday.",
+   "zh": "他们昨天喝了些牛奶。",
+   "answer": "drank",
+   "options": [
+    "drank",
+    "drinked",
+    "drinks",
+    "drunk"
+   ]
+  },
+  {
+   "en": "He swims in the river every day. → He ___ in the river yesterday.",
+   "zh": "他昨天在河里游泳了。",
+   "answer": "swam",
+   "options": [
+    "swam",
+    "swimmed",
+    "swims",
+    "swum"
+   ]
+  },
+  {
+   "en": "She takes him to school every day. → She ___ him to school yesterday.",
+   "zh": "她昨天送他去上学了。",
+   "answer": "took",
+   "options": [
+    "took",
+    "taked",
+    "takes",
+    "taken"
+   ]
+  },
+  {
+   "en": "When did you look at that photograph? I looked at it an hour ___.",
+   "zh": "你什么时候看的那张照片？我一小时前看的。",
+   "answer": "ago",
+   "options": [
+    "ago",
+    "last",
+    "before",
+    "after"
+   ]
+  },
+  {
+   "en": "But my sister ___ this pair last month.",
+   "zh": "但是我姐姐上个月买到了这样的一双。",
+   "answer": "bought",
+   "options": [
+    "bought",
+    "buyed",
+    "buys",
+    "brought"
+   ]
+  },
+  {
+   "en": "They were in fashion last year and the year before ___.",
+   "zh": "这鞋在去年和前年时兴。",
+   "answer": "last",
+   "options": [
+    "last",
+    "ago",
+    "yesterday",
+    "now"
+   ]
+  },
+  {
+   "en": "But women always ___ uncomfortable shoes!",
+   "zh": "可是女人们总是穿不舒适的鞋子！",
+   "answer": "wear",
+   "options": [
+    "wear",
+    "wears",
+    "wore",
+    "wearing"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L075.mp4",
+  "start": 6.8,
+  "end": 64.7
+ }
+}

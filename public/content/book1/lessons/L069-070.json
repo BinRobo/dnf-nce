@@ -1,0 +1,411 @@
+{
+ "id": "L069-070",
+ "lessons": [
+  69,
+  70
+ ],
+ "title": "The car race",
+ "titleZh": "汽车比赛",
+ "evenTitle": "When were they there?",
+ "evenTitleZh": "他们是什么时候在那里的？",
+ "words": [
+  {
+   "en": "year",
+   "zh": "年",
+   "ipa": "jɪə",
+   "pos": "n.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/year.mp3"
+   }
+  },
+  {
+   "en": "race",
+   "zh": "比赛",
+   "ipa": "reɪs",
+   "pos": "n.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/race.mp3"
+   }
+  },
+  {
+   "en": "town",
+   "zh": "城镇",
+   "ipa": "taʊn",
+   "pos": "n.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/town.mp3"
+   }
+  },
+  {
+   "en": "crowd",
+   "zh": "人群",
+   "ipa": "kraʊd",
+   "pos": "n.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/crowd.mp3"
+   }
+  },
+  {
+   "en": "stand",
+   "zh": "站立",
+   "ipa": "stænd",
+   "pos": "v.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/stand.mp3"
+   }
+  },
+  {
+   "en": "exciting",
+   "zh": "使人激动的",
+   "ipa": "ɪk'saɪtɪŋ",
+   "pos": "adj.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/exciting.mp3"
+   }
+  },
+  {
+   "en": "just",
+   "zh": "正好，恰好",
+   "ipa": "dʒʌst",
+   "pos": "adv.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/just.mp3"
+   }
+  },
+  {
+   "en": "finish",
+   "zh": "结尾，结束",
+   "ipa": "'fɪnɪʃ",
+   "pos": "n.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/finish.mp3"
+   }
+  },
+  {
+   "en": "winner",
+   "zh": "获胜者",
+   "ipa": "'wɪnə",
+   "pos": "n.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/winner.mp3"
+   }
+  },
+  {
+   "en": "behind",
+   "zh": "在……之后",
+   "ipa": "bɪ'haɪnd",
+   "pos": "prep.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/behind.mp3"
+   }
+  },
+  {
+   "en": "way",
+   "zh": "路途",
+   "ipa": "weɪ",
+   "pos": "n.",
+   "lesson": 69,
+   "audio": {
+    "file": "words/way.mp3"
+   }
+  },
+  {
+   "en": "stationer",
+   "zh": "文具商",
+   "ipa": "'steɪʃənə",
+   "pos": "n.",
+   "lesson": 70,
+   "audio": {
+    "file": "words/stationer.mp3"
+   }
+  },
+  {
+   "en": "Denmark",
+   "zh": "丹麦",
+   "ipa": "'denmɑːk",
+   "pos": "n.",
+   "lesson": 70,
+   "audio": {
+    "file": "words/denmark.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "There is a car race near our town every year.",
+   "zh": "在我们镇子附近每年都有一场汽车比赛。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 7,
+    "end": 11.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "In 1995, there was a very big race.",
+   "zh": "1995 年举行了一次盛大的比赛。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 11.9,
+    "end": 17.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There were hundreds of people there.",
+   "zh": "许许多多的人都去了赛场。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 17.6,
+    "end": 20.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "My wife and I were at the race.",
+   "zh": "我和我的妻子也去了。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 20.8,
+    "end": 24.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Our friends Julie and Jack were there, too.",
+   "zh": "我们的朋友朱莉和杰克也去了。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 24.3,
+    "end": 29
+   }
+  },
+  {
+   "speaker": "",
+   "en": "You can see us in the crowd.",
+   "zh": "你可以在人群中看到我们。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 29,
+    "end": 31.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "We are standing on the left.",
+   "zh": "我们站在左面。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 31.7,
+    "end": 35.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There were twenty cars in the race.",
+   "zh": "参加比赛的有 20 辆汽车。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 35.6,
+    "end": 39.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars.",
+   "zh": "有英国、法国、德国、意大利、美国和日本的汽车。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 39.1,
+    "end": 51
+   }
+  },
+  {
+   "speaker": "",
+   "en": "It was an exciting finish.",
+   "zh": "比赛的结尾是激动人心的。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 51,
+    "end": 54.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The winner was Billy Stewart.",
+   "zh": "获胜者是比利·斯图尔特。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 54.2,
+    "end": 57.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He was in car number fifteen.",
+   "zh": "他在第 15 号车里，",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 57.4,
+    "end": 60.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Five other cars were just behind him.",
+   "zh": "其他 5 辆汽车紧跟在他后面。",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 60.8,
+    "end": 65.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "On the way home, my wife said to me,",
+   "zh": "在回家的途中，我妻子对我说：",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 65.2,
+    "end": 69.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Don't drive so quickly!",
+   "zh": "“别开得这样快！",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 69.7,
+    "end": 72.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "You're not Billy Stewart!'",
+   "zh": "你可不是比利·斯图尔特！”",
+   "audio": {
+    "file": "media/L069.mp4",
+    "start": 72.2,
+    "end": 74.9
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "We were ___ the stationer's on Monday.",
+   "zh": "星期一我们在文具店。",
+   "answer": "at",
+   "options": [
+    "at",
+    "on",
+    "in",
+    "from"
+   ]
+  },
+  {
+   "en": "We were there ___ four o'clock.",
+   "zh": "4 点钟我们在那里。",
+   "answer": "at",
+   "options": [
+    "at",
+    "on",
+    "in",
+    "from"
+   ]
+  },
+  {
+   "en": "They were in Australia ___ September.",
+   "zh": "9 月份他们在澳大利亚。",
+   "answer": "in",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "from"
+   ]
+  },
+  {
+   "en": "___ November 25th, they were in Canada.",
+   "zh": "11 月 25 日他们在加拿大。",
+   "answer": "On",
+   "options": [
+    "On",
+    "In",
+    "At",
+    "From"
+   ]
+  },
+  {
+   "en": "They were there ___ 1990.",
+   "zh": "1990 年他们在那里。",
+   "answer": "in",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "from"
+   ]
+  },
+  {
+   "en": "Where were Sam and Penny on Monday? They ___ at the stationer's on Monday.",
+   "zh": "星期一萨姆和彭妮在哪儿？他们星期一在文具店。",
+   "answer": "were",
+   "options": [
+    "were",
+    "was",
+    "are",
+    "is"
+   ]
+  },
+  {
+   "en": "In 1995, there ___ a very big race.",
+   "zh": "1995 年举行了一次盛大的比赛。",
+   "answer": "was",
+   "options": [
+    "was",
+    "were",
+    "is",
+    "are"
+   ]
+  },
+  {
+   "en": "There were ___ of people there.",
+   "zh": "许许多多的人都去了赛场。",
+   "answer": "hundreds",
+   "options": [
+    "hundreds",
+    "hundred",
+    "a hundred",
+    "hundreds'"
+   ]
+  },
+  {
+   "en": "The ___ was Billy Stewart.",
+   "zh": "获胜者是比利·斯图尔特。",
+   "answer": "winner",
+   "options": [
+    "winner",
+    "finish",
+    "crowd",
+    "race"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L069.mp4",
+  "start": 6.5,
+  "end": 74.9
+ }
+}

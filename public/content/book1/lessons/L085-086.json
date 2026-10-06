@@ -1,0 +1,371 @@
+{
+ "id": "L085-086",
+ "lessons": [
+  85,
+  86
+ ],
+ "title": "Paris in the spring",
+ "titleZh": "巴黎之春",
+ "evenTitle": "What have you done?",
+ "evenTitleZh": "你已经做了什么？",
+ "words": [
+  {
+   "en": "Paris",
+   "zh": "巴黎",
+   "ipa": "'pærɪs",
+   "pos": "n.",
+   "lesson": 85,
+   "audio": {
+    "file": "words/paris.mp3"
+   }
+  },
+  {
+   "en": "cinema",
+   "zh": "电影院",
+   "ipa": "'sɪnɪmə",
+   "pos": "n.",
+   "lesson": 85,
+   "audio": {
+    "file": "words/cinema.mp3"
+   }
+  },
+  {
+   "en": "film",
+   "zh": "电影",
+   "ipa": "fɪlm",
+   "pos": "n.",
+   "lesson": 85,
+   "audio": {
+    "file": "words/film.mp3"
+   }
+  },
+  {
+   "en": "beautiful",
+   "zh": "漂亮的",
+   "ipa": "'bjuːtɪfəl",
+   "pos": "adj.",
+   "lesson": 85,
+   "audio": {
+    "file": "words/beautiful.mp3"
+   }
+  },
+  {
+   "en": "city",
+   "zh": "城市",
+   "ipa": "'sɪti",
+   "pos": "n.",
+   "lesson": 85,
+   "audio": {
+    "file": "words/city.mp3"
+   }
+  },
+  {
+   "en": "never",
+   "zh": "从来没有",
+   "ipa": "'nevə",
+   "pos": "adv.",
+   "lesson": 85,
+   "audio": {
+    "file": "words/never.mp3"
+   }
+  },
+  {
+   "en": "ever",
+   "zh": "在任何时候",
+   "ipa": "'evə",
+   "pos": "adv.",
+   "lesson": 85,
+   "audio": {
+    "file": "words/ever.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "George",
+   "en": "Hello, Ken.",
+   "zh": "你好，肯。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 6.9,
+    "end": 9.2
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "Hi, George.",
+   "zh": "你好，乔治。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 9.2,
+    "end": 11.2
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Have you just been to the cinema?",
+   "zh": "你刚去过电影院吗？",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 11.2,
+    "end": 14.4
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "Yes, I have.",
+   "zh": "是的，我刚去过。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 14.4,
+    "end": 16.8
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "What's on?",
+   "zh": "上映什么片子？",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 16.8,
+    "end": 18.8
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "'Paris in the Spring'.",
+   "zh": "《巴黎之春》。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 18.8,
+    "end": 21.7
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Oh, I've already seen it.",
+   "zh": "噢，我已看过了。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 21.7,
+    "end": 25
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "I saw it on television last year.",
+   "zh": "我是去年在电视上看的。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 25,
+    "end": 28.8
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "It's an old film, but it's very good.",
+   "zh": "这是部老片子，但很好。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 28.8,
+    "end": 33.4
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "Paris is a beautiful city.",
+   "zh": "巴黎是座美丽的城市。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 33.4,
+    "end": 36.8
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "I've never been there.",
+   "zh": "我从未去过。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 36.8,
+    "end": 39.2
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Have you ever been there, Ken?",
+   "zh": "肯，你去过吗？",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 39.2,
+    "end": 41.7
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "Yes, I have.",
+   "zh": "是的，我去过。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 41.7,
+    "end": 44
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "I was there in April.",
+   "zh": "4 月份我在那儿。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 44,
+    "end": 47.6
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Paris in the spring, eh?",
+   "zh": "那是巴黎之春，是吗？",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 47.6,
+    "end": 50.9
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "It was spring, but the weather was awful.",
+   "zh": "是春天，但天气太糟了。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 50.9,
+    "end": 55.4
+   }
+  },
+  {
+   "speaker": "Ken",
+   "en": "It rained all the time.",
+   "zh": "一直在下雨。",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 55.4,
+    "end": 58.9
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Just like London!",
+   "zh": "就像伦敦一样！",
+   "audio": {
+    "file": "media/L085.mp4",
+    "start": 58.9,
+    "end": 62.4
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "She ___ just boiled an egg.",
+   "zh": "她刚煮了一个鸡蛋。",
+   "answer": "has",
+   "options": [
+    "has",
+    "have",
+    "is",
+    "was"
+   ]
+  },
+  {
+   "en": "He ___ already painted that bookcase.",
+   "zh": "他已经漆好了那个书架。",
+   "answer": "has",
+   "options": [
+    "has",
+    "have",
+    "is",
+    "did"
+   ]
+  },
+  {
+   "en": "He painted it a week ___.",
+   "zh": "他一周前漆的。",
+   "answer": "ago",
+   "options": [
+    "ago",
+    "already",
+    "just",
+    "ever"
+   ]
+  },
+  {
+   "en": "Air the room! I've already ___ the room.",
+   "zh": "给房间通风！我已经通过了。",
+   "answer": "aired",
+   "options": [
+    "aired",
+    "air",
+    "airs",
+    "airing"
+   ]
+  },
+  {
+   "en": "Open the window! I ___ it an hour ago.",
+   "zh": "开窗！我一小时前就开了。",
+   "answer": "opened",
+   "options": [
+    "opened",
+    "have opened",
+    "open",
+    "opens"
+   ]
+  },
+  {
+   "en": "Have you just ___ to the cinema?",
+   "zh": "你刚去过电影院吗？",
+   "answer": "been",
+   "options": [
+    "been",
+    "be",
+    "was",
+    "gone to"
+   ]
+  },
+  {
+   "en": "Oh, I've already ___ it.",
+   "zh": "噢，我已看过了。",
+   "answer": "seen",
+   "options": [
+    "seen",
+    "saw",
+    "see",
+    "seed"
+   ]
+  },
+  {
+   "en": "Have you ___ been there, Ken?",
+   "zh": "肯，你去过吗？",
+   "answer": "ever",
+   "options": [
+    "ever",
+    "never",
+    "already",
+    "ago"
+   ]
+  },
+  {
+   "en": "I've ___ been there.",
+   "zh": "我从未去过。",
+   "answer": "never",
+   "options": [
+    "never",
+    "ever",
+    "ago",
+    "yet"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L085.mp4",
+  "start": 6.4,
+  "end": 62.4
+ }
+}

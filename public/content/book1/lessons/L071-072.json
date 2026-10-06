@@ -1,0 +1,391 @@
+{
+ "id": "L071-072",
+ "lessons": [
+  71,
+  72
+ ],
+ "title": "He's awful!",
+ "titleZh": "他讨厌透了！",
+ "evenTitle": "When did you ...?",
+ "evenTitleZh": "你什么时候……？",
+ "words": [
+  {
+   "en": "awful",
+   "zh": "让人讨厌的，坏的",
+   "ipa": "'ɔːfəl",
+   "pos": "adj.",
+   "lesson": 71,
+   "audio": {
+    "file": "words/awful.mp3"
+   }
+  },
+  {
+   "en": "telephone",
+   "zh": "打电话",
+   "ipa": "'telɪfəʊn",
+   "pos": "v.",
+   "lesson": 71,
+   "audio": {
+    "file": "words/telephone.mp3"
+   }
+  },
+  {
+   "en": "time",
+   "zh": "次（数）",
+   "ipa": "taɪm",
+   "pos": "n.",
+   "lesson": 71,
+   "audio": {
+    "file": "words/time.mp3"
+   }
+  },
+  {
+   "en": "answer",
+   "zh": "接（电话）",
+   "ipa": "'ɑːnsə",
+   "pos": "v.",
+   "lesson": 71,
+   "audio": {
+    "file": "words/answer.mp3"
+   }
+  },
+  {
+   "en": "last",
+   "zh": "最后的，前一次的",
+   "ipa": "lɑːst",
+   "pos": "adj.",
+   "lesson": 71,
+   "audio": {
+    "file": "words/last.mp3"
+   }
+  },
+  {
+   "en": "phone",
+   "zh": "电话",
+   "ipa": "fəʊn",
+   "pos": "n.",
+   "lesson": 71,
+   "audio": {
+    "file": "words/phone.mp3"
+   }
+  },
+  {
+   "en": "again",
+   "zh": "又一次地",
+   "ipa": "ə'ɡen",
+   "pos": "adv.",
+   "lesson": 71,
+   "audio": {
+    "file": "words/again.mp3"
+   }
+  },
+  {
+   "en": "say",
+   "zh": "说（过去式 said）",
+   "ipa": "seɪ",
+   "pos": "v.",
+   "lesson": 71,
+   "audio": {
+    "file": "words/say.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Jane",
+   "en": "What's Ron Marston like, Pauline?",
+   "zh": "波琳，朗·马斯顿是怎样一个人？",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 7,
+    "end": 11.5
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "He's awful!",
+   "zh": "他讨厌透了！",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 11.5,
+    "end": 13.2
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "He telephoned me four times yesterday, and three times the day before yesterday.",
+   "zh": "他昨天给我打了 4 次电话，前天打了 3 次。",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 13.2,
+    "end": 21
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "He telephoned the office yesterday morning and yesterday afternoon.",
+   "zh": "他昨天上午和下午把电话打到了我的办公室，",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 21,
+    "end": 27.1
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "My boss answered the telephone.",
+   "zh": "是我的老板接的。",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 27.1,
+    "end": 30.8
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "What did your boss say to him?",
+   "zh": "你老板是怎么对他说的？",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 30.8,
+    "end": 34.3
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "He said, 'Pauline is typing letters.",
+   "zh": "他说：“波琳正在打信，",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 34.3,
+    "end": 37.8
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "She can't speak to you now!'",
+   "zh": "她现在不能同你讲话！”",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 37.8,
+    "end": 40.8
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "Then I arrived home at six o'clock yesterday evening.",
+   "zh": "后来，我昨晚 6 点钟回到家里。",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 40.8,
+    "end": 45
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "He telephoned again.",
+   "zh": "他又打来电话，",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 45,
+    "end": 47
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "But I didn't answer the phone!",
+   "zh": "但我没接。",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 47,
+    "end": 50.2
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "Did he telephone again last night?",
+   "zh": "他昨天夜里又打电话了吗？",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 50.2,
+    "end": 53.4
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "Yes, he did.",
+   "zh": "是的，打了。",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 53.4,
+    "end": 55.1
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "He telephoned at nine o'clock.",
+   "zh": "他在 9 点钟又打来了电话。",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 55.1,
+    "end": 58.8
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "What did you say to him?",
+   "zh": "你对他怎么说的？",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 58.8,
+    "end": 61.4
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "I said, 'This is Pauline's mother.",
+   "zh": "我说：“我是波琳的母亲。",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 61.4,
+    "end": 65.2
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "Please don't telephone my daughter again!'",
+   "zh": "请不要再给我女儿打电话了！”",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 65.2,
+    "end": 68.6
+   }
+  },
+  {
+   "speaker": "Jane",
+   "en": "Did he telephone again?",
+   "zh": "他又打了没有？",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 68.6,
+    "end": 70.8
+   }
+  },
+  {
+   "speaker": "Pauline",
+   "en": "No, he didn't!",
+   "zh": "没有！",
+   "audio": {
+    "file": "media/L071.mp4",
+    "start": 70.8,
+    "end": 74.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "She is airing the room now. She ___ it yesterday.",
+   "zh": "她现在在给房间通风，她昨天也通过风。",
+   "answer": "aired",
+   "options": [
+    "aired",
+    "airs",
+    "airing",
+    "airred"
+   ]
+  },
+  {
+   "en": "It is raining now. It ___ yesterday.",
+   "zh": "现在在下雨，昨天也下了。",
+   "answer": "rained",
+   "options": [
+    "rained",
+    "rains",
+    "rainned",
+    "raining"
+   ]
+  },
+  {
+   "en": "He is boiling some eggs. He ___ some yesterday.",
+   "zh": "他在煮鸡蛋，昨天他也煮了一些。",
+   "answer": "boiled",
+   "options": [
+    "boiled",
+    "boils",
+    "boilled",
+    "boiling"
+   ]
+  },
+  {
+   "en": "We are enjoying our lunch. We ___ it yesterday, too.",
+   "zh": "我们正在享用午餐，昨天也很享受。",
+   "answer": "enjoyed",
+   "options": [
+    "enjoyed",
+    "enjoied",
+    "enjoys",
+    "enjoying"
+   ]
+  },
+  {
+   "en": "What did she do yesterday? She ___ the room yesterday.",
+   "zh": "她昨天做了什么？她昨天给房间通了风。",
+   "answer": "aired",
+   "options": [
+    "aired",
+    "airs",
+    "did air",
+    "air"
+   ]
+  },
+  {
+   "en": "He telephoned me four ___ yesterday.",
+   "zh": "他昨天给我打了 4 次电话。",
+   "answer": "times",
+   "options": [
+    "times",
+    "time",
+    "timies",
+    "o'clock"
+   ]
+  },
+  {
+   "en": "What ___ your boss say to him?",
+   "zh": "你老板是怎么对他说的？",
+   "answer": "did",
+   "options": [
+    "did",
+    "does",
+    "was",
+    "is"
+   ]
+  },
+  {
+   "en": "Did he telephone again? No, he ___!",
+   "zh": "他又打了没有？没有！",
+   "answer": "didn't",
+   "options": [
+    "didn't",
+    "doesn't",
+    "wasn't",
+    "don't"
+   ]
+  },
+  {
+   "en": "He's ___!",
+   "zh": "他讨厌透了！",
+   "answer": "awful",
+   "options": [
+    "awful",
+    "lucky",
+    "absent",
+    "exciting"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L071.mp4",
+  "start": 6.5,
+  "end": 74.2
+ }
+}

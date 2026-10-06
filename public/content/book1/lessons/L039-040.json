@@ -1,0 +1,341 @@
+{
+ "id": "L039-040",
+ "lessons": [
+  39,
+  40
+ ],
+ "title": "Don't drop it!",
+ "titleZh": "别摔了！",
+ "evenTitle": "What are you going to do? I'm going to ...",
+ "evenTitleZh": "你准备做什么？我准备……",
+ "words": [
+  {
+   "en": "front",
+   "zh": "前面",
+   "ipa": "frʌnt",
+   "pos": "n.",
+   "lesson": 39,
+   "audio": {
+    "file": "words/front.mp3"
+   }
+  },
+  {
+   "en": "in front of",
+   "zh": "在……之前",
+   "ipa": "",
+   "pos": "",
+   "lesson": 39,
+   "audio": {
+    "file": "words/in-front-of.mp3"
+   }
+  },
+  {
+   "en": "careful",
+   "zh": "小心的，仔细的",
+   "ipa": "'keəfəl",
+   "pos": "adj.",
+   "lesson": 39,
+   "audio": {
+    "file": "words/careful.mp3"
+   }
+  },
+  {
+   "en": "vase",
+   "zh": "花瓶",
+   "ipa": "vɑːz",
+   "pos": "n.",
+   "lesson": 39,
+   "audio": {
+    "file": "words/vase.mp3"
+   }
+  },
+  {
+   "en": "drop",
+   "zh": "掉下",
+   "ipa": "drɒp",
+   "pos": "v.",
+   "lesson": 39,
+   "audio": {
+    "file": "words/drop.mp3"
+   }
+  },
+  {
+   "en": "flower",
+   "zh": "花",
+   "ipa": "'flaʊə",
+   "pos": "n.",
+   "lesson": 39,
+   "audio": {
+    "file": "words/flower.mp3"
+   }
+  },
+  {
+   "en": "show",
+   "zh": "给……看",
+   "ipa": "ʃəʊ",
+   "pos": "v.",
+   "lesson": 40,
+   "audio": {
+    "file": "words/show.mp3"
+   }
+  },
+  {
+   "en": "send",
+   "zh": "送给",
+   "ipa": "send",
+   "pos": "v.",
+   "lesson": 40,
+   "audio": {
+    "file": "words/send.mp3"
+   }
+  },
+  {
+   "en": "take",
+   "zh": "带给",
+   "ipa": "teɪk",
+   "pos": "v.",
+   "lesson": 40,
+   "audio": {
+    "file": "words/take.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Sam",
+   "en": "What are you going to do with that vase, Penny?",
+   "zh": "你打算如何处理那花瓶，彭妮？",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 7,
+    "end": 12.9
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "I'm going to put it on this table, Sam.",
+   "zh": "我打算把它放在这张桌子上，萨姆。",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 12.9,
+    "end": 17.3
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Don't do that.",
+   "zh": "不要放在那儿，",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 17.3,
+    "end": 19.5
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "Give it to me.",
+   "zh": "把它给我。",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 19.5,
+    "end": 21.6
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "What are you going to do with it?",
+   "zh": "你打算怎么办？",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 21.6,
+    "end": 24.8
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "I'm going to put it here, in front of the window.",
+   "zh": "我准备把它放在这儿，放在窗前。",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 24.8,
+    "end": 30.3
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Be careful!",
+   "zh": "小心点！",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 30.3,
+    "end": 32
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Don't drop it!",
+   "zh": "别摔了！",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 32,
+    "end": 34.8
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Don't put it there, Sam.",
+   "zh": "别放在那儿，萨姆。",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 34.8,
+    "end": 37.6
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Put it here, on this shelf.",
+   "zh": "放在这儿，这个架子上。",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 37.6,
+    "end": 41.4
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "There we are!",
+   "zh": "放好了！",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 41.4,
+    "end": 43.7
+   }
+  },
+  {
+   "speaker": "Sam",
+   "en": "It's a lovely vase.",
+   "zh": "这是只漂亮的花瓶。",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 43.7,
+    "end": 46.2
+   }
+  },
+  {
+   "speaker": "Penny",
+   "en": "Those flowers are lovely, too.",
+   "zh": "那些花也很漂亮啊。",
+   "audio": {
+    "file": "media/L039.mp4",
+    "start": 46.2,
+    "end": 49.8
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Give me that vase. → Give that vase ___ me.",
+   "zh": "把那只花瓶给我。",
+   "answer": "to",
+   "options": [
+    "to",
+    "for",
+    "on",
+    "with"
+   ]
+  },
+  {
+   "en": "Send George that letter. → Send that letter to ___.",
+   "zh": "把那封信寄给乔治。",
+   "answer": "George",
+   "options": [
+    "George",
+    "he",
+    "George's",
+    "his"
+   ]
+  },
+  {
+   "en": "Show me that picture. → Show that picture to ___.",
+   "zh": "把那幅画给我看看。",
+   "answer": "me",
+   "options": [
+    "me",
+    "I",
+    "my",
+    "your"
+   ]
+  },
+  {
+   "en": "Put on your coat! I'm going to put ___ on.",
+   "zh": "穿上你的外衣！我这就穿。",
+   "answer": "it",
+   "options": [
+    "it",
+    "them",
+    "its",
+    "they"
+   ]
+  },
+  {
+   "en": "Put on your shoes! I'm going to put ___ on.",
+   "zh": "穿上你的鞋！我这就穿。",
+   "answer": "them",
+   "options": [
+    "them",
+    "it",
+    "they",
+    "their"
+   ]
+  },
+  {
+   "en": "Turn off the light! I'm going to turn ___ off.",
+   "zh": "关灯！我这就关。",
+   "answer": "it",
+   "options": [
+    "it",
+    "them",
+    "its",
+    "they"
+   ]
+  },
+  {
+   "en": "Be ___! Don't drop it!",
+   "zh": "小心点！别摔了！",
+   "answer": "careful",
+   "options": [
+    "careful",
+    "lovely",
+    "favourite",
+    "hard"
+   ]
+  },
+  {
+   "en": "___ put it there, Sam.",
+   "zh": "别放在那儿，萨姆。",
+   "answer": "Don't",
+   "options": [
+    "Don't",
+    "Not",
+    "No",
+    "Isn't"
+   ]
+  },
+  {
+   "en": "I'm going to put it here, in front ___ the window.",
+   "zh": "我准备把它放在这儿，放在窗前。",
+   "answer": "of",
+   "options": [
+    "of",
+    "to",
+    "on",
+    "with"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L039.mp4",
+  "start": 6.5,
+  "end": 49.8
+ }
+}

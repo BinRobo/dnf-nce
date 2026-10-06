@@ -1,0 +1,301 @@
+{
+ "id": "L117-118",
+ "lessons": [
+  117,
+  118
+ ],
+ "title": "Tommy's breakfast",
+ "titleZh": "汤米的早餐",
+ "evenTitle": "What were you doing?",
+ "evenTitleZh": "你那时正在做什么？",
+ "words": [
+  {
+   "en": "dining room",
+   "zh": "饭厅",
+   "ipa": "",
+   "pos": "n.",
+   "lesson": 117,
+   "audio": {
+    "file": "words/dining-room.mp3"
+   }
+  },
+  {
+   "en": "coin",
+   "zh": "硬币",
+   "ipa": "kɔɪn",
+   "pos": "n.",
+   "lesson": 117,
+   "audio": {
+    "file": "words/coin.mp3"
+   }
+  },
+  {
+   "en": "mouth",
+   "zh": "嘴",
+   "ipa": "maʊθ",
+   "pos": "n.",
+   "lesson": 117,
+   "audio": {
+    "file": "words/mouth.mp3"
+   }
+  },
+  {
+   "en": "swallow",
+   "zh": "吞下",
+   "ipa": "'swɒləʊ",
+   "pos": "v.",
+   "lesson": 117,
+   "audio": {
+    "file": "words/swallow.mp3"
+   }
+  },
+  {
+   "en": "later",
+   "zh": "后来",
+   "ipa": "'leɪtə",
+   "pos": "adv.",
+   "lesson": 117,
+   "audio": {
+    "file": "words/later.mp3"
+   }
+  },
+  {
+   "en": "toilet",
+   "zh": "厕所，盥洗室",
+   "ipa": "'tɔɪlɪt",
+   "pos": "n.",
+   "lesson": 117,
+   "audio": {
+    "file": "words/toilet.mp3"
+   }
+  },
+  {
+   "en": "ring",
+   "zh": "响（过去式 rang，过去分词 rung）",
+   "ipa": "rɪŋ",
+   "pos": "v.",
+   "lesson": 118,
+   "audio": {
+    "file": "words/ring.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "When my husband was going into the dining room this morning, he dropped some coins on the floor.",
+   "zh": "今天早晨我丈夫走进饭厅时，把一些硬币掉在地上了。",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 7.2,
+    "end": 14.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There were coins everywhere.",
+   "zh": "到处都是硬币。",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 14.9,
+    "end": 17.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "We looked for them, but we could not find them all.",
+   "zh": "我们虽然找了，但没能把它们全部找到。",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 17.5,
+    "end": 22.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "While we were having breakfast, our little boy, Tommy, found two small coins on the floor.",
+   "zh": "正当我们吃早饭时，我们的小男孩汤米在地上找到了两枚小硬币。",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 22.3,
+    "end": 31.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He put them both into his mouth.",
+   "zh": "他把这两枚硬币全都放进了嘴里。",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 31.4,
+    "end": 34.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "We both tried to get the coins, but it was too late.",
+   "zh": "我们俩都试图把这两枚硬币拿出来，但太迟了。",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 34.7,
+    "end": 39.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Tommy had already swallowed them!",
+   "zh": "汤米已经把硬币咽了下去！",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 39.5,
+    "end": 43.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Later that morning, when I was doing the housework, my husband phoned me from the office.",
+   "zh": "那天上午的晚些时候，当我正做家务时，我丈夫从办公室打来电话。",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 43.4,
+    "end": 50.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'How's Tommy?' he asked.",
+   "zh": "“汤米怎么样？”他问。",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 50.2,
+    "end": 53.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'I don't know,' I answered,",
+   "zh": "“我不知道，”我回答说，",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 53.1,
+    "end": 55.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'",
+   "zh": "“今天上午汤米去了 3 次厕所了，但我还没看到硬币！”",
+   "audio": {
+    "file": "media/L117.mp4",
+    "start": 55.7,
+    "end": 63
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "When my husband was going into the dining room, he ___ some coins.",
+   "zh": "我丈夫走进饭厅时，掉了一些硬币。",
+   "answer": "dropped",
+   "options": [
+    "dropped",
+    "drops",
+    "drop",
+    "dropping"
+   ]
+  },
+  {
+   "en": "While we ___ breakfast, Tommy found two coins.",
+   "zh": "我们吃早饭时，汤米找到了两枚硬币。",
+   "answer": "were having",
+   "options": [
+    "were having",
+    "are having",
+    "have",
+    "had been"
+   ]
+  },
+  {
+   "en": "Tommy had already ___ them!",
+   "zh": "汤米已经把它们咽下去了！",
+   "answer": "swallowed",
+   "options": [
+    "swallowed",
+    "swallow",
+    "swallows",
+    "swallowing"
+   ]
+  },
+  {
+   "en": "He ___ them both into his mouth.",
+   "zh": "他把它们全都放进了嘴里。",
+   "answer": "put",
+   "options": [
+    "put",
+    "puts",
+    "putting",
+    "to put"
+   ]
+  },
+  {
+   "en": "He arrived when I ___ a bath.",
+   "zh": "他来的时候我正在洗澡。",
+   "answer": "was having",
+   "options": [
+    "was having",
+    "had",
+    "am having",
+    "have"
+   ]
+  },
+  {
+   "en": "Someone knocked at the door when I ___ breakfast.",
+   "zh": "我吃早饭时有人敲门。",
+   "answer": "was having",
+   "options": [
+    "was having",
+    "am having",
+    "have",
+    "has"
+   ]
+  },
+  {
+   "en": "The telephone ___ just as I was opening the front door.",
+   "zh": "我正要开前门时，电话响了。",
+   "answer": "rang",
+   "options": [
+    "rang",
+    "ring",
+    "rung",
+    "ringing"
+   ]
+  },
+  {
+   "en": "She hurt herself while she ___ off the bus.",
+   "zh": "她下公共汽车时摔伤了自己。",
+   "answer": "was getting",
+   "options": [
+    "was getting",
+    "is getting",
+    "get",
+    "gets"
+   ]
+  },
+  {
+   "en": "My wife was cooking the dinner while I ___ in the garden.",
+   "zh": "我妻子做饭时，我在花园里干活。",
+   "answer": "was working",
+   "options": [
+    "was working",
+    "am working",
+    "work",
+    "works"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L117.mp4",
+  "start": 6.7,
+  "end": 63
+ }
+}

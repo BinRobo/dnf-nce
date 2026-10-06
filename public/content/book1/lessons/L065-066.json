@@ -1,0 +1,451 @@
+{
+ "id": "L065-066",
+ "lessons": [
+  65,
+  66
+ ],
+ "title": "Not a baby",
+ "titleZh": "不是一个孩子",
+ "evenTitle": "What's the time? When's your birthday?",
+ "evenTitleZh": "几点钟？你的生日是哪一天？",
+ "words": [
+  {
+   "en": "Dad",
+   "zh": "爸（儿语）",
+   "ipa": "dæd",
+   "pos": "n.",
+   "lesson": 65,
+   "audio": {
+    "file": "words/dad.mp3"
+   }
+  },
+  {
+   "en": "key",
+   "zh": "钥匙",
+   "ipa": "kiː",
+   "pos": "n.",
+   "lesson": 65,
+   "audio": {
+    "file": "words/key.mp3"
+   }
+  },
+  {
+   "en": "baby",
+   "zh": "婴儿",
+   "ipa": "'beɪbi",
+   "pos": "n.",
+   "lesson": 65,
+   "audio": {
+    "file": "words/baby.mp3"
+   }
+  },
+  {
+   "en": "hear",
+   "zh": "听见",
+   "ipa": "hɪə",
+   "pos": "v.",
+   "lesson": 65,
+   "audio": {
+    "file": "words/hear.mp3"
+   }
+  },
+  {
+   "en": "enjoy",
+   "zh": "玩得快活",
+   "ipa": "ɪn'dʒɔɪ",
+   "pos": "v.",
+   "lesson": 65,
+   "audio": {
+    "file": "words/enjoy.mp3"
+   }
+  },
+  {
+   "en": "yourself",
+   "zh": "你自己",
+   "ipa": "jɔː'self",
+   "pos": "pron.",
+   "lesson": 65,
+   "audio": {
+    "file": "words/yourself.mp3"
+   }
+  },
+  {
+   "en": "ourselves",
+   "zh": "我们自己",
+   "ipa": "ˌaʊə'selvz",
+   "pos": "pron.",
+   "lesson": 65,
+   "audio": {
+    "file": "words/ourselves.mp3"
+   }
+  },
+  {
+   "en": "myself",
+   "zh": "我自己",
+   "ipa": "maɪ'self",
+   "pos": "pron.",
+   "lesson": 66,
+   "audio": {
+    "file": "words/myself.mp3"
+   }
+  },
+  {
+   "en": "themselves",
+   "zh": "他们自己",
+   "ipa": "ðəm'selvz",
+   "pos": "pron.",
+   "lesson": 66,
+   "audio": {
+    "file": "words/themselves.mp3"
+   }
+  },
+  {
+   "en": "himself",
+   "zh": "他自己",
+   "ipa": "hɪm'self",
+   "pos": "pron.",
+   "lesson": 66,
+   "audio": {
+    "file": "words/himself.mp3"
+   }
+  },
+  {
+   "en": "herself",
+   "zh": "她自己",
+   "ipa": "hɜː'self",
+   "pos": "pron.",
+   "lesson": 66,
+   "audio": {
+    "file": "words/herself.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Father",
+   "en": "What are you going to do this evening, Jill?",
+   "zh": "今晚你打算干什么，吉尔？",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 7,
+    "end": 11.8
+   }
+  },
+  {
+   "speaker": "Jill",
+   "en": "I'm going to meet some friends, Dad.",
+   "zh": "我打算去看几个朋友，爸爸。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 11.8,
+    "end": 15.2
+   }
+  },
+  {
+   "speaker": "Father",
+   "en": "You mustn't come home late.",
+   "zh": "你不准回家太晚。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 15.2,
+    "end": 17.6
+   }
+  },
+  {
+   "speaker": "Father",
+   "en": "You must be home at half past ten.",
+   "zh": "你必须在 10 点半到家。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 17.6,
+    "end": 21.8
+   }
+  },
+  {
+   "speaker": "Jill",
+   "en": "I can't get home so early, Dad!",
+   "zh": "这么早我到不了家，爸爸！",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 21.8,
+    "end": 26.1
+   }
+  },
+  {
+   "speaker": "Jill",
+   "en": "Can I have the key to the front door, please?",
+   "zh": "我能带上前门的钥匙吗？",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 26.1,
+    "end": 29.8
+   }
+  },
+  {
+   "speaker": "Father",
+   "en": "No, you can't.",
+   "zh": "不行，你不能带。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 29.8,
+    "end": 33.2
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Jill's eighteen years old, Tom.",
+   "zh": "吉尔都 18 岁了，汤姆。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 33.2,
+    "end": 36.6
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "She's not a baby.",
+   "zh": "她不是小孩子了。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 36.6,
+    "end": 38.4
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Give her the key.",
+   "zh": "把钥匙给她吧。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 38.4,
+    "end": 40.3
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "She always comes home early.",
+   "zh": "她总是早早回家的。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 40.3,
+    "end": 43.4
+   }
+  },
+  {
+   "speaker": "Father",
+   "en": "Oh, all right!",
+   "zh": "那么，好吧！",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 43.4,
+    "end": 46.8
+   }
+  },
+  {
+   "speaker": "Father",
+   "en": "Here you are.",
+   "zh": "拿去。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 46.8,
+    "end": 48.4
+   }
+  },
+  {
+   "speaker": "Father",
+   "en": "But you mustn't come home after a quarter past eleven.",
+   "zh": "但你不能超过 11 点 1 刻回家。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 48.4,
+    "end": 52.7
+   }
+  },
+  {
+   "speaker": "Father",
+   "en": "Do you hear?",
+   "zh": "听见了吗？",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 52.7,
+    "end": 54.4
+   }
+  },
+  {
+   "speaker": "Jill",
+   "en": "Yes, Dad.",
+   "zh": "听见了，爸爸。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 54.4,
+    "end": 56.8
+   }
+  },
+  {
+   "speaker": "Jill",
+   "en": "Thanks, Mum.",
+   "zh": "谢谢，妈妈。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 56.8,
+    "end": 59.1
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "That's all right.",
+   "zh": "不用谢。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 59.1,
+    "end": 60.9
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Goodbye.",
+   "zh": "再见。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 60.9,
+    "end": 62.3
+   }
+  },
+  {
+   "speaker": "Mother",
+   "en": "Enjoy yourself!",
+   "zh": "好好玩吧！",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 62.3,
+    "end": 64.6
+   }
+  },
+  {
+   "speaker": "Jill",
+   "en": "We always enjoy ourselves, Mum.",
+   "zh": "我们总是玩得很开心的，妈妈。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 64.6,
+    "end": 67.7
+   }
+  },
+  {
+   "speaker": "Jill",
+   "en": "Bye-bye.",
+   "zh": "再见。",
+   "audio": {
+    "file": "media/L065.mp4",
+    "start": 67.7,
+    "end": 69.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I am going to see him ___ ten o'clock.",
+   "zh": "我打算 10 点去见他。",
+   "answer": "at",
+   "options": [
+    "at",
+    "in",
+    "from",
+    "on"
+   ]
+  },
+  {
+   "en": "It often rains ___ November.",
+   "zh": "11 月常下雨。",
+   "answer": "in",
+   "options": [
+    "in",
+    "at",
+    "from",
+    "on"
+   ]
+  },
+  {
+   "en": "Where do you come from? I come ___ France.",
+   "zh": "你是哪里人？我来自法国。",
+   "answer": "from",
+   "options": [
+    "from",
+    "in",
+    "at",
+    "to"
+   ]
+  },
+  {
+   "en": "I always go to work ___ the morning.",
+   "zh": "我总是早上去上班。",
+   "answer": "in",
+   "options": [
+    "in",
+    "at",
+    "from",
+    "on"
+   ]
+  },
+  {
+   "en": "When must you come home? I must come home at one ___.",
+   "zh": "你必须几点回家？我必须一点钟回家。",
+   "answer": "o'clock",
+   "options": [
+    "o'clock",
+    "clock",
+    "hour",
+    "time"
+   ]
+  },
+  {
+   "en": "You must be home at half ___ ten.",
+   "zh": "你必须在 10 点半到家。",
+   "answer": "past",
+   "options": [
+    "past",
+    "to",
+    "after",
+    "at"
+   ]
+  },
+  {
+   "en": "He's enjoying ___.",
+   "zh": "他玩得很开心。",
+   "answer": "himself",
+   "options": [
+    "himself",
+    "herself",
+    "hisself",
+    "themselves"
+   ]
+  },
+  {
+   "en": "They're enjoying ___.",
+   "zh": "他们玩得很开心。",
+   "answer": "themselves",
+   "options": [
+    "themselves",
+    "theirselves",
+    "ourselves",
+    "himself"
+   ]
+  },
+  {
+   "en": "Enjoy ___!",
+   "zh": "好好玩吧！",
+   "answer": "yourself",
+   "options": [
+    "yourself",
+    "you",
+    "your",
+    "yourselfs"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L065.mp4",
+  "start": 6.5,
+  "end": 69.2
+ }
+}

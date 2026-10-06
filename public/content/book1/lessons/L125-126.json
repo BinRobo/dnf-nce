@@ -1,0 +1,391 @@
+{
+ "id": "L125-126",
+ "lessons": [
+  125,
+  126
+ ],
+ "title": "Tea for two",
+ "titleZh": "两个人一起喝茶",
+ "evenTitle": "Have to and do not need to",
+ "evenTitleZh": "不得不和不必要",
+ "words": [
+  {
+   "en": "water",
+   "zh": "浇水",
+   "ipa": "'wɔːtə",
+   "pos": "v.",
+   "lesson": 125,
+   "audio": {
+    "file": "words/water.mp3"
+   }
+  },
+  {
+   "en": "terribly",
+   "zh": "非常",
+   "ipa": "'terɪblɪ",
+   "pos": "adv.",
+   "lesson": 125,
+   "audio": {
+    "file": "words/terribly.mp3"
+   }
+  },
+  {
+   "en": "dry",
+   "zh": "干燥的，干的",
+   "ipa": "draɪ",
+   "pos": "adj.",
+   "lesson": 125,
+   "audio": {
+    "file": "words/dry.mp3"
+   }
+  },
+  {
+   "en": "nuisance",
+   "zh": "讨厌的东西或人",
+   "ipa": "'njuːsəns",
+   "pos": "n.",
+   "lesson": 125,
+   "audio": {
+    "file": "words/nuisance.mp3"
+   }
+  },
+  {
+   "en": "mean",
+   "zh": "意味着，意思是（过去式 meant）",
+   "ipa": "miːn",
+   "pos": "v.",
+   "lesson": 125,
+   "audio": {
+    "file": "words/mean.mp3"
+   }
+  },
+  {
+   "en": "surprise",
+   "zh": "惊奇，意外的事",
+   "ipa": "sə'praɪz",
+   "pos": "n.",
+   "lesson": 125,
+   "audio": {
+    "file": "words/surprise.mp3"
+   }
+  },
+  {
+   "en": "immediately",
+   "zh": "立即地",
+   "ipa": "ɪ'miːdɪətlɪ",
+   "pos": "adv.",
+   "lesson": 126,
+   "audio": {
+    "file": "words/immediately.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Susan",
+   "en": "Can't you come in and have tea now, Peter?",
+   "zh": "彼得，你现在能进来喝茶吗？",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 8.1,
+    "end": 12.5
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "Not yet.",
+   "zh": "还不能。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 12.5,
+    "end": 14
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "I must water the garden first.",
+   "zh": "我得先给花园浇水。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 14,
+    "end": 17.3
+   }
+  },
+  {
+   "speaker": "Susan",
+   "en": "Do you have to water it now?",
+   "zh": "你一定得现在浇吗？",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 17.3,
+    "end": 20.2
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "I'm afraid I must.",
+   "zh": "恐怕我得现在浇。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 20.2,
+    "end": 22.5
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "Look at it!",
+   "zh": "你看看，",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 22.5,
+    "end": 23.7
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "It's terribly dry.",
+   "zh": "干得厉害。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 23.7,
+    "end": 26.3
+   }
+  },
+  {
+   "speaker": "Susan",
+   "en": "What a nuisance!",
+   "zh": "真讨厌！",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 26.3,
+    "end": 28.5
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "Last summer it was very dry, too.",
+   "zh": "去年夏天也是干得很。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 28.5,
+    "end": 32.1
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "Don't you remember?",
+   "zh": "你不记得了吗？",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 32.1,
+    "end": 33.7
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "I had to water it every day.",
+   "zh": "我不得不每天浇水。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 33.7,
+    "end": 37
+   }
+  },
+  {
+   "speaker": "Susan",
+   "en": "Well, I'll have tea by myself.",
+   "zh": "好吧，我一个人喝茶了。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 37,
+    "end": 40.9
+   }
+  },
+  {
+   "speaker": "Susan",
+   "en": "That was quick!",
+   "zh": "好快啊！",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 40.9,
+    "end": 42.8
+   }
+  },
+  {
+   "speaker": "Susan",
+   "en": "Have you finished already?",
+   "zh": "你已经浇完了？",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 42.8,
+    "end": 44.6
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "Yes.",
+   "zh": "是的。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 44.6,
+    "end": 45.7
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "Look out of the window.",
+   "zh": "你看看窗外。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 45.7,
+    "end": 47.8
+   }
+  },
+  {
+   "speaker": "Susan",
+   "en": "It's raining!",
+   "zh": "下雨了！",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 47.8,
+    "end": 49.8
+   }
+  },
+  {
+   "speaker": "Susan",
+   "en": "That means you don't need to water the garden.",
+   "zh": "这就是说，你不必给花园浇水了。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 49.8,
+    "end": 53.1
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "That was a pleasant surprise.",
+   "zh": "这是意想不到的好事。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 53.1,
+    "end": 55.8
+   }
+  },
+  {
+   "speaker": "Peter",
+   "en": "It means I can have tea, instead.",
+   "zh": "这意味着我反倒可以喝茶了。",
+   "audio": {
+    "file": "media/L125.mp4",
+    "start": 55.8,
+    "end": 59.6
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Can't you come in and have tea ___, Peter?",
+   "zh": "彼得，你现在能进来喝茶吗？",
+   "answer": "now",
+   "options": [
+    "now",
+    "yesterday",
+    "ago",
+    "last"
+   ]
+  },
+  {
+   "en": "I must ___ the garden first.",
+   "zh": "我得先给花园浇水。",
+   "answer": "water",
+   "options": [
+    "water",
+    "waters",
+    "watered",
+    "watering"
+   ]
+  },
+  {
+   "en": "It's ___ dry.",
+   "zh": "干得厉害。",
+   "answer": "terribly",
+   "options": [
+    "terribly",
+    "terrible",
+    "terror",
+    "terrify"
+   ]
+  },
+  {
+   "en": "Last summer it was very dry, ___.",
+   "zh": "去年夏天也是干得很。",
+   "answer": "too",
+   "options": [
+    "too",
+    "either",
+    "neither",
+    "yet"
+   ]
+  },
+  {
+   "en": "Last summer I ___ to water it every day.",
+   "zh": "去年夏天我不得不每天浇水。",
+   "answer": "had",
+   "options": [
+    "had",
+    "have",
+    "has",
+    "having"
+   ]
+  },
+  {
+   "en": "That means you don't ___ to water the garden.",
+   "zh": "这就是说，你不必给花园浇水了。",
+   "answer": "need",
+   "options": [
+    "need",
+    "needs",
+    "needed",
+    "needing"
+   ]
+  },
+  {
+   "en": "Do you have to go now? Yes, I have to leave ___.",
+   "zh": "你现在必须走吗？是的，我得立刻离开。",
+   "answer": "immediately",
+   "options": [
+    "immediately",
+    "immediate",
+    "immediacy",
+    "immediates"
+   ]
+  },
+  {
+   "en": "Did you have to take a taxi? I'm afraid I ___ to.",
+   "zh": "你不得不乘出租车吗？恐怕是的，我只得这样。",
+   "answer": "had",
+   "options": [
+    "had",
+    "have",
+    "has",
+    "having"
+   ]
+  },
+  {
+   "en": "Do we have to walk to the station? No, we ___ need to.",
+   "zh": "我们得走到车站吗？不，我们不必。",
+   "answer": "don't",
+   "options": [
+    "don't",
+    "doesn't",
+    "aren't",
+    "haven't"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L125.mp4",
+  "start": 7.6,
+  "end": 59.6
+ }
+}

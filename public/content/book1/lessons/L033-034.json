@@ -1,0 +1,431 @@
+{
+ "id": "L033-034",
+ "lessons": [
+  33,
+  34
+ ],
+ "title": "A fine day",
+ "titleZh": "晴天",
+ "evenTitle": "What are they doing?",
+ "evenTitleZh": "他们在做什么？",
+ "words": [
+  {
+   "en": "day",
+   "zh": "日子",
+   "ipa": "deɪ",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/day.mp3"
+   }
+  },
+  {
+   "en": "cloud",
+   "zh": "云",
+   "ipa": "klaʊd",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/cloud.mp3"
+   }
+  },
+  {
+   "en": "sky",
+   "zh": "天空",
+   "ipa": "skaɪ",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/sky.mp3"
+   }
+  },
+  {
+   "en": "sun",
+   "zh": "太阳",
+   "ipa": "sʌn",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/sun.mp3"
+   }
+  },
+  {
+   "en": "shine",
+   "zh": "照耀",
+   "ipa": "ʃaɪn",
+   "pos": "v.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/shine.mp3"
+   }
+  },
+  {
+   "en": "with",
+   "zh": "和……在一起",
+   "ipa": "wɪð",
+   "pos": "prep.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/with.mp3"
+   }
+  },
+  {
+   "en": "family",
+   "zh": "家庭（成员）",
+   "ipa": "'fæmɪli",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/family.mp3"
+   }
+  },
+  {
+   "en": "walk",
+   "zh": "走路，步行",
+   "ipa": "wɔːk",
+   "pos": "v.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/walk.mp3"
+   }
+  },
+  {
+   "en": "over",
+   "zh": "跨越，在……之上",
+   "ipa": "'əʊvə",
+   "pos": "prep.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/over.mp3"
+   }
+  },
+  {
+   "en": "bridge",
+   "zh": "桥",
+   "ipa": "brɪdʒ",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/bridge.mp3"
+   }
+  },
+  {
+   "en": "boat",
+   "zh": "船",
+   "ipa": "bəʊt",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/boat.mp3"
+   }
+  },
+  {
+   "en": "river",
+   "zh": "河",
+   "ipa": "'rɪvə",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/river.mp3"
+   }
+  },
+  {
+   "en": "ship",
+   "zh": "轮船",
+   "ipa": "ʃɪp",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/ship.mp3"
+   }
+  },
+  {
+   "en": "aeroplane",
+   "zh": "飞机",
+   "ipa": "'eərəpleɪn",
+   "pos": "n.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/aeroplane.mp3"
+   }
+  },
+  {
+   "en": "fly",
+   "zh": "飞",
+   "ipa": "flaɪ",
+   "pos": "v.",
+   "lesson": 33,
+   "audio": {
+    "file": "words/fly.mp3"
+   }
+  },
+  {
+   "en": "sleep",
+   "zh": "睡觉",
+   "ipa": "sliːp",
+   "pos": "v.",
+   "lesson": 34,
+   "audio": {
+    "file": "words/sleep.mp3"
+   }
+  },
+  {
+   "en": "shave",
+   "zh": "刮脸",
+   "ipa": "ʃeɪv",
+   "pos": "v.",
+   "lesson": 34,
+   "audio": {
+    "file": "words/shave.mp3"
+   }
+  },
+  {
+   "en": "cry",
+   "zh": "哭，喊",
+   "ipa": "kraɪ",
+   "pos": "v.",
+   "lesson": 34,
+   "audio": {
+    "file": "words/cry.mp3"
+   }
+  },
+  {
+   "en": "wash",
+   "zh": "洗",
+   "ipa": "wɒʃ",
+   "pos": "v.",
+   "lesson": 34,
+   "audio": {
+    "file": "words/wash.mp3"
+   }
+  },
+  {
+   "en": "wait",
+   "zh": "等",
+   "ipa": "weɪt",
+   "pos": "v.",
+   "lesson": 34,
+   "audio": {
+    "file": "words/wait.mp3"
+   }
+  },
+  {
+   "en": "jump",
+   "zh": "跳",
+   "ipa": "dʒʌmp",
+   "pos": "v.",
+   "lesson": 34,
+   "audio": {
+    "file": "words/jump.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "It is a fine day today.",
+   "zh": "今天天气好。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 6.9,
+    "end": 10.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There are some clouds in the sky, but the sun is shining.",
+   "zh": "天空中飘着几朵云，但阳光灿烂。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 10.8,
+    "end": 19.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Mr. Jones is with his family.",
+   "zh": "琼斯先生同他的家人在一起。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 19.4,
+    "end": 24.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "They are walking over the bridge.",
+   "zh": "他们正在过桥。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 24.3,
+    "end": 29.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There are some boats on the river.",
+   "zh": "河上有几艘船。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 29.5,
+    "end": 35.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Mr. Jones and his wife are looking at them.",
+   "zh": "琼斯先生和他的妻子正在看这些船。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 35.1,
+    "end": 41.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Sally is looking at a big ship.",
+   "zh": "萨莉正在观看一艘大船。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 41.2,
+    "end": 47.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The ship is going under the bridge.",
+   "zh": "那船正从桥下驶过。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 47.4,
+    "end": 52.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Tim is looking at an aeroplane.",
+   "zh": "蒂姆正望着一架飞机。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 52.6,
+    "end": 58.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The aeroplane is flying over the river.",
+   "zh": "飞机正从河上飞过。",
+   "audio": {
+    "file": "media/L033.mp4",
+    "start": 58.1,
+    "end": 64
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Type ... She is ___ a letter.",
+   "zh": "她正在打一封信。",
+   "answer": "typing",
+   "options": [
+    "typing",
+    "typeing",
+    "type",
+    "types"
+   ]
+  },
+  {
+   "en": "Make ... She is ___ the bed.",
+   "zh": "她正在铺床。",
+   "answer": "making",
+   "options": [
+    "making",
+    "makeing",
+    "make",
+    "makking"
+   ]
+  },
+  {
+   "en": "Come ... He is ___.",
+   "zh": "他正在过来。",
+   "answer": "coming",
+   "options": [
+    "coming",
+    "comeing",
+    "comming",
+    "come"
+   ]
+  },
+  {
+   "en": "Shine ... The sun is ___.",
+   "zh": "阳光灿烂。",
+   "answer": "shining",
+   "options": [
+    "shining",
+    "shineing",
+    "shinning",
+    "shine"
+   ]
+  },
+  {
+   "en": "What are the children doing? They're ___ at the boats on the river.",
+   "zh": "孩子们在做什么？他们在看河上的船。",
+   "answer": "looking",
+   "options": [
+    "looking",
+    "look",
+    "looks",
+    "lookking"
+   ]
+  },
+  {
+   "en": "The birds are ___ over the river.",
+   "zh": "鸟儿正从河上飞过。",
+   "answer": "flying",
+   "options": [
+    "flying",
+    "fly",
+    "flies",
+    "flys"
+   ]
+  },
+  {
+   "en": "The man and the woman are ___ for a bus.",
+   "zh": "那个男人和女人正在等公共汽车。",
+   "answer": "waiting",
+   "options": [
+    "waiting",
+    "wait",
+    "waits",
+    "waitting"
+   ]
+  },
+  {
+   "en": "There are some clouds in the sky, ___ the sun is shining.",
+   "zh": "天空中有几朵云，但阳光灿烂。",
+   "answer": "but",
+   "options": [
+    "but",
+    "and",
+    "or",
+    "with"
+   ]
+  },
+  {
+   "en": "Mr. Jones is ___ his family.",
+   "zh": "琼斯先生同他的家人在一起。",
+   "answer": "with",
+   "options": [
+    "with",
+    "on",
+    "over",
+    "under"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L033.mp4",
+  "start": 6.4,
+  "end": 64
+ }
+}

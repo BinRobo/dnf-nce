@@ -1,0 +1,421 @@
+{
+ "id": "L137-138",
+ "lessons": [
+  137,
+  138
+ ],
+ "title": "A pleasant dream",
+ "titleZh": "美好的梦",
+ "evenTitle": "If ...",
+ "evenTitleZh": "如果……",
+ "words": [
+  {
+   "en": "football",
+   "zh": "足球",
+   "ipa": "'fʊtbɔːl",
+   "pos": "n.",
+   "lesson": 137,
+   "audio": {
+    "file": "words/football.mp3"
+   }
+  },
+  {
+   "en": "pool",
+   "zh": "赌注",
+   "ipa": "puːl",
+   "pos": "n.",
+   "lesson": 137,
+   "audio": {
+    "file": "words/pool.mp3"
+   }
+  },
+  {
+   "en": "win",
+   "zh": "赢（过去式 won）",
+   "ipa": "wɪn",
+   "pos": "v.",
+   "lesson": 137,
+   "audio": {
+    "file": "words/win.mp3"
+   }
+  },
+  {
+   "en": "world",
+   "zh": "世界",
+   "ipa": "wɜːld",
+   "pos": "n.",
+   "lesson": 137,
+   "audio": {
+    "file": "words/world.mp3"
+   }
+  },
+  {
+   "en": "poor",
+   "zh": "贫穷的",
+   "ipa": "pʊə",
+   "pos": "adj.",
+   "lesson": 137,
+   "audio": {
+    "file": "words/poor.mp3"
+   }
+  },
+  {
+   "en": "depend",
+   "zh": "依靠 (on)",
+   "ipa": "dɪ'pend",
+   "pos": "v.",
+   "lesson": 137,
+   "audio": {
+    "file": "words/depend.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Julie",
+   "en": "Are you doing the football pools, Brian?",
+   "zh": "布赖恩，你正在下足球赛的赌注吗？",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 7.6,
+    "end": 10.5
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "Yes, I've nearly finished, Julie.",
+   "zh": "是的。我这就做完了，朱莉。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 10.5,
+    "end": 13.4
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "I'm sure we'll win something this week.",
+   "zh": "我敢肯定这星期我们会赢一点的。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 13.4,
+    "end": 16.4
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "You always say that,",
+   "zh": "你老是那样说，",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 16.4,
+    "end": 19
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "but we never win anything!",
+   "zh": "但是我们从来没赢过！",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 19,
+    "end": 22.2
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "What will you do if you win a lot of money?",
+   "zh": "要是你赢了许多钱，你打算做什么呢？",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 22.2,
+    "end": 26.7
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "If I win a lot of money",
+   "zh": "要是我赢了许多钱，",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 26.7,
+    "end": 29.6
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "I'll buy you a mink coat.",
+   "zh": "我给你买件貂皮大衣。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 29.6,
+    "end": 32.5
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "I don't want a mink coat!",
+   "zh": "我不要貂皮大衣。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 32.5,
+    "end": 35.7
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "I want to see the world.",
+   "zh": "我要去见见世面。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 35.7,
+    "end": 38.5
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "All right.",
+   "zh": "好吧。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 38.5,
+    "end": 39.7
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "If we win a lot of money",
+   "zh": "要是我们赢了很多钱，",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 39.7,
+    "end": 41.8
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "we'll travel round the world",
+   "zh": "我们就去周游世界，",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 41.8,
+    "end": 44.3
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "and we'll stay at the best hotels.",
+   "zh": "并且住最好的旅馆。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 44.3,
+    "end": 47.3
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "Then we'll return home",
+   "zh": "然后我们返回家园，",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 47.3,
+    "end": 48.9
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "and buy a big house in the country.",
+   "zh": "在乡下买幢大房子。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 48.9,
+    "end": 51.8
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "We'll have a beautiful garden and . . .",
+   "zh": "我们将有一个漂亮的花园和……",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 51.8,
+    "end": 54.2
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "But if we spend all that money",
+   "zh": "但是如果我们把所有钱都花光了，",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 54.2,
+    "end": 57.8
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "we'll be poor again.",
+   "zh": "我们又会变穷的。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 57.8,
+    "end": 60
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "What'll we do then?",
+   "zh": "那时我们怎么办呢？",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 60,
+    "end": 61.8
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "If we spend all the money",
+   "zh": "如果我们花光了所有钱，",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 61.8,
+    "end": 64.5
+   }
+  },
+  {
+   "speaker": "Brian",
+   "en": "we'll try and win the football pools again.",
+   "zh": "我们设法在足球赛赌注上再赢一次。",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 64.5,
+    "end": 68.6
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "It's a pleasant dream",
+   "zh": "这是个美好的梦，",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 68.6,
+    "end": 70.8
+   }
+  },
+  {
+   "speaker": "Julie",
+   "en": "but everything depends on 'if'!",
+   "zh": "但一切都取决于“如果”！",
+   "audio": {
+    "file": "media/L137.mp4",
+    "start": 70.8,
+    "end": 75.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "If we win a lot of money, we ___ travel round the world.",
+   "zh": "如果我们赢了很多钱，我们就去周游世界。",
+   "answer": "will",
+   "options": [
+    "will",
+    "would",
+    "won",
+    "are"
+   ]
+  },
+  {
+   "en": "If you break this window, you'll ___ to pay for it!",
+   "zh": "如果你打破这扇窗户，你就得赔偿！",
+   "answer": "have",
+   "options": [
+    "have",
+    "has",
+    "had",
+    "having"
+   ]
+  },
+  {
+   "en": "If you don't hurry, we'll ___ the train.",
+   "zh": "如果你不快点，我们就赶不上火车了。",
+   "answer": "miss",
+   "options": [
+    "miss",
+    "missed",
+    "misses",
+    "missing"
+   ]
+  },
+  {
+   "en": "If it rains tomorrow, we ___ go to the seaside.",
+   "zh": "如果明天下雨，我们就不去海边了。",
+   "answer": "won't",
+   "options": [
+    "won't",
+    "didn't",
+    "wouldn't",
+    "haven't"
+   ]
+  },
+  {
+   "en": "If he falls, he'll hurt ___.",
+   "zh": "如果他摔下来，他会伤着自己的。",
+   "answer": "himself",
+   "options": [
+    "himself",
+    "herself",
+    "itself",
+    "myself"
+   ]
+  },
+  {
+   "en": "If you feel better, you ___ get up.",
+   "zh": "如果你觉得好些了，你就可以起床。",
+   "answer": "can",
+   "options": [
+    "can",
+    "cans",
+    "did",
+    "are"
+   ]
+  },
+  {
+   "en": "What will you do if you ___ a lot of money?",
+   "zh": "如果你赢了许多钱，你打算做什么？",
+   "answer": "win",
+   "options": [
+    "win",
+    "won",
+    "wins",
+    "will win"
+   ]
+  },
+  {
+   "en": "If he ___ his old car, he'll buy a new one.",
+   "zh": "如果他卖掉旧车，他会买辆新的。",
+   "answer": "sells",
+   "options": [
+    "sells",
+    "sold",
+    "sell",
+    "will sell"
+   ]
+  },
+  {
+   "en": "Everything depends ___ 'if'!",
+   "zh": "一切都取决于“如果”！",
+   "answer": "on",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "of"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L137.mp4",
+  "start": 7.1,
+  "end": 75.2
+ }
+}

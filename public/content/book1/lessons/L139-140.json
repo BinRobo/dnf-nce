@@ -1,0 +1,381 @@
+{
+ "id": "L139-140",
+ "lessons": [
+  139,
+  140
+ ],
+ "title": "Is that you, John?",
+ "titleZh": "是你吗，约翰？",
+ "evenTitle": "He wants to know if/why/what/when",
+ "evenTitleZh": "他想知道是否／为什么／什么／什么时候",
+ "words": [
+  {
+   "en": "extra",
+   "zh": "额外的",
+   "ipa": "'ekstrə",
+   "pos": "adj.",
+   "lesson": 139,
+   "audio": {
+    "file": "words/extra.mp3"
+   }
+  },
+  {
+   "en": "overseas",
+   "zh": "海外的，国外的",
+   "ipa": "əʊvə'siːz",
+   "pos": "adj.",
+   "lesson": 139,
+   "audio": {
+    "file": "words/overseas.mp3"
+   }
+  },
+  {
+   "en": "engineering",
+   "zh": "工程",
+   "ipa": "ˌendʒɪ'nɪərɪŋ",
+   "pos": "n.",
+   "lesson": 139,
+   "audio": {
+    "file": "words/engineering.mp3"
+   }
+  },
+  {
+   "en": "company",
+   "zh": "公司",
+   "ipa": "'kʌmpəni",
+   "pos": "n.",
+   "lesson": 139,
+   "audio": {
+    "file": "words/company.mp3"
+   }
+  },
+  {
+   "en": "line",
+   "zh": "线路",
+   "ipa": "laɪn",
+   "pos": "n.",
+   "lesson": 139,
+   "audio": {
+    "file": "words/line.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Graham Turner",
+   "en": "Is that you, John?",
+   "zh": "是你吗，约翰？",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 8.5,
+    "end": 12
+   }
+  },
+  {
+   "speaker": "John Smith",
+   "en": "Yes, speaking.",
+   "zh": "是我，请讲。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 12,
+    "end": 14.5
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "Tell Mary we'll be late for dinner this evening.",
+   "zh": "你告诉玛丽，今晚吃饭我们将晚到一会儿。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 14.5,
+    "end": 18.9
+   }
+  },
+  {
+   "speaker": "John Smith",
+   "en": "I'm afraid I don't understand.",
+   "zh": "恐怕我还不明白您的意思。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 18.9,
+    "end": 22.9
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "Hasn't Mary told you?",
+   "zh": "玛丽没有告诉你吗？",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 22.9,
+    "end": 25.5
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "She invited Charlotte and me to dinner this evening.",
+   "zh": "她邀请我和夏洛特今晚去吃饭。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 25.5,
+    "end": 30.1
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "I said I would be at your house at six o'clock,",
+   "zh": "我说过我6点到你家，",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 30.1,
+    "end": 33.8
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "but the boss wants me to do some extra work.",
+   "zh": "但老板要我加班。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 33.8,
+    "end": 38.1
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "I'll have to stay at the office.",
+   "zh": "我不得不留在办公室，",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 38.1,
+    "end": 40.9
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "I don't know when I'll finish.",
+   "zh": "不知道什么时候才能结束。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 40.9,
+    "end": 43.5
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "Oh, and by the way,",
+   "zh": "喔，顺便问一句，",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 43.5,
+    "end": 45.5
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "my wife wants to know if Mary needs any help.",
+   "zh": "我妻子想知道玛丽是否需要帮忙。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 45.5,
+    "end": 50.3
+   }
+  },
+  {
+   "speaker": "John Smith",
+   "en": "I don't know what you're talking about.",
+   "zh": "我不知道您在说些什么。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 50.3,
+    "end": 55.1
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "That is John Smith, isn't it?",
+   "zh": "你是约翰·史密斯，对吗？",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 55.1,
+    "end": 58.1
+   }
+  },
+  {
+   "speaker": "John Smith",
+   "en": "Yes, I'm John Smith.",
+   "zh": "是的，我是约翰·史密斯。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 58.1,
+    "end": 61.4
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "You are John Smith, the engineer, aren't you?",
+   "zh": "你是工程师约翰·史密斯，对吗？",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 61.4,
+    "end": 65.4
+   }
+  },
+  {
+   "speaker": "John Smith",
+   "en": "That's right.",
+   "zh": "对。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 65.4,
+    "end": 67.6
+   }
+  },
+  {
+   "speaker": "Graham Turner",
+   "en": "You work for the Overseas Engineering Company, don't you?",
+   "zh": "你在海外工程公司上班，是吗？",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 67.6,
+    "end": 72.4
+   }
+  },
+  {
+   "speaker": "John Smith",
+   "en": "No, I don't.",
+   "zh": "不，不是。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 72.4,
+    "end": 74.7
+   }
+  },
+  {
+   "speaker": "John Smith",
+   "en": "I'm John Smith the telephone engineer",
+   "zh": "我是电话工程师约翰·史密斯，",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 74.7,
+    "end": 78.1
+   }
+  },
+  {
+   "speaker": "John Smith",
+   "en": "and I'm repairing your telephone line.",
+   "zh": "我正在修理您的电话线。",
+   "audio": {
+    "file": "media/L139.mp4",
+    "start": 78.1,
+    "end": 83.1
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Tell Mary we'll be late ___ dinner this evening.",
+   "zh": "告诉玛丽今晚吃饭我们将晚到一会儿。",
+   "answer": "for",
+   "options": [
+    "for",
+    "of",
+    "on",
+    "with"
+   ]
+  },
+  {
+   "en": "Mary invited Charlotte and ___ to dinner.",
+   "zh": "玛丽邀请夏洛特和我去吃饭。",
+   "answer": "me",
+   "options": [
+    "me",
+    "I",
+    "my",
+    "mine"
+   ]
+  },
+  {
+   "en": "Are you tired? → I want to know ___ you are tired.",
+   "zh": "你累吗？→ 我想知道你是否累了。",
+   "answer": "if",
+   "options": [
+    "if",
+    "do",
+    "are",
+    "what"
+   ]
+  },
+  {
+   "en": "Are you reading? What? → I want to know what you are ___.",
+   "zh": "你在读书吗？读什么？→ 我想知道你在读什么。",
+   "answer": "reading",
+   "options": [
+    "reading",
+    "read",
+    "reads",
+    "to read"
+   ]
+  },
+  {
+   "en": "I don't know when I'll ___.",
+   "zh": "我不知道什么时候才能结束。",
+   "answer": "finish",
+   "options": [
+    "finish",
+    "finished",
+    "finishes",
+    "finishing"
+   ]
+  },
+  {
+   "en": "I'm John Smith, the telephone ___.",
+   "zh": "我是电话工程师约翰·史密斯。",
+   "answer": "engineer",
+   "options": [
+    "engineer",
+    "company",
+    "line",
+    "overseas"
+   ]
+  },
+  {
+   "en": "You work for the Overseas Engineering ___, don't you?",
+   "zh": "你在海外工程公司上班，是吗？",
+   "answer": "Company",
+   "options": [
+    "Company",
+    "line",
+    "extra",
+    "engineer"
+   ]
+  },
+  {
+   "en": "I'm repairing your telephone ___.",
+   "zh": "我正在修理您的电话线。",
+   "answer": "line",
+   "options": [
+    "line",
+    "company",
+    "extra",
+    "engineering"
+   ]
+  },
+  {
+   "en": "The boss wants me to do some ___ work.",
+   "zh": "老板要我加班。",
+   "answer": "extra",
+   "options": [
+    "extra",
+    "line",
+    "company",
+    "engineer"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L139.mp4",
+  "start": 8,
+  "end": 83.1
+ }
+}

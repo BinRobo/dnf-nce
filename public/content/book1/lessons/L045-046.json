@@ -1,0 +1,391 @@
+{
+ "id": "L045-046",
+ "lessons": [
+  45,
+  46
+ ],
+ "title": "The boss's letter",
+ "titleZh": "老板的信",
+ "evenTitle": "Can you ...?",
+ "evenTitleZh": "你能……吗？",
+ "words": [
+  {
+   "en": "can",
+   "zh": "能够",
+   "ipa": "kæn",
+   "pos": "v.",
+   "lesson": 45,
+   "audio": {
+    "file": "words/can.mp3"
+   }
+  },
+  {
+   "en": "boss",
+   "zh": "老板，上司",
+   "ipa": "bɒs",
+   "pos": "n.",
+   "lesson": 45,
+   "audio": {
+    "file": "words/boss.mp3"
+   }
+  },
+  {
+   "en": "minute",
+   "zh": "分（钟）",
+   "ipa": "'mɪnɪt",
+   "pos": "n.",
+   "lesson": 45,
+   "audio": {
+    "file": "words/minute.mp3"
+   }
+  },
+  {
+   "en": "ask",
+   "zh": "请求，要求",
+   "ipa": "ɑːsk",
+   "pos": "v.",
+   "lesson": 45,
+   "audio": {
+    "file": "words/ask.mp3"
+   }
+  },
+  {
+   "en": "handwriting",
+   "zh": "书写",
+   "ipa": "'hændˌraɪtɪŋ",
+   "pos": "n.",
+   "lesson": 45,
+   "audio": {
+    "file": "words/handwriting.mp3"
+   }
+  },
+  {
+   "en": "terrible",
+   "zh": "糟糕的，可怕的",
+   "ipa": "'terɪbəl",
+   "pos": "adj.",
+   "lesson": 45,
+   "audio": {
+    "file": "words/terrible.mp3"
+   }
+  },
+  {
+   "en": "lift",
+   "zh": "拿起，搬起，举起",
+   "ipa": "lɪft",
+   "pos": "v.",
+   "lesson": 46,
+   "audio": {
+    "file": "words/lift.mp3"
+   }
+  },
+  {
+   "en": "cake",
+   "zh": "饼，蛋糕",
+   "ipa": "keɪk",
+   "pos": "n.",
+   "lesson": 46,
+   "audio": {
+    "file": "words/cake.mp3"
+   }
+  },
+  {
+   "en": "biscuit",
+   "zh": "饼干",
+   "ipa": "'bɪskɪt",
+   "pos": "n.",
+   "lesson": 46,
+   "audio": {
+    "file": "words/biscuit.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "The boss",
+   "en": "Can you come here a minute please, Bob?",
+   "zh": "请你来一下好吗，鲍勃？",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 6.9,
+    "end": 10.6
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "Yes, sir?",
+   "zh": "什么事，先生？",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 10.6,
+    "end": 12.7
+   }
+  },
+  {
+   "speaker": "The boss",
+   "en": "Where's Pamela?",
+   "zh": "帕梅拉在哪儿？",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 12.7,
+    "end": 15.1
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "She's next door.",
+   "zh": "她在隔壁，",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 15.1,
+    "end": 17
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "She's in her office, sir.",
+   "zh": "在她的办公室里，先生。",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 17,
+    "end": 19.7
+   }
+  },
+  {
+   "speaker": "The boss",
+   "en": "Can she type this letter for me?",
+   "zh": "她能为我打一下这封信吗？",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 19.7,
+    "end": 23.6
+   }
+  },
+  {
+   "speaker": "The boss",
+   "en": "Ask her please.",
+   "zh": "请问问她。",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 23.6,
+    "end": 25.8
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "Yes, sir.",
+   "zh": "好的，先生。",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 25.8,
+    "end": 27.5
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "Can you type this letter for the boss please, Pamela?",
+   "zh": "请你把这封信给老板打一下可以吗，帕梅拉？",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 27.5,
+    "end": 32.4
+   }
+  },
+  {
+   "speaker": "Pamela",
+   "en": "Yes, of course I can.",
+   "zh": "可以，当然可以。",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 32.4,
+    "end": 35
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "Here you are.",
+   "zh": "给你这信。",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 35,
+    "end": 37
+   }
+  },
+  {
+   "speaker": "Pamela",
+   "en": "Thank you, Bob.",
+   "zh": "谢谢你，鲍勃。",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 37,
+    "end": 39.4
+   }
+  },
+  {
+   "speaker": "Pamela",
+   "en": "Bob!",
+   "zh": "鲍勃！",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 39.4,
+    "end": 41.2
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "Yes?",
+   "zh": "怎么了？",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 41.2,
+    "end": 42.4
+   }
+  },
+  {
+   "speaker": "Bob",
+   "en": "What's the matter?",
+   "zh": "怎么回事？",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 42.4,
+    "end": 44.6
+   }
+  },
+  {
+   "speaker": "Pamela",
+   "en": "I can't type this letter.",
+   "zh": "我打不了这封信。",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 44.6,
+    "end": 47.2
+   }
+  },
+  {
+   "speaker": "Pamela",
+   "en": "I can't read it!",
+   "zh": "我看不懂这封信，",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 47.2,
+    "end": 49.5
+   }
+  },
+  {
+   "speaker": "Pamela",
+   "en": "The boss's handwriting is terrible!",
+   "zh": "老板的书写太糟糕了！",
+   "audio": {
+    "file": "media/L045.mp4",
+    "start": 49.5,
+    "end": 54.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "He is taking his book. → He ___ take his book.",
+   "zh": "他能拿他的书。",
+   "answer": "can",
+   "options": [
+    "can",
+    "is",
+    "cans",
+    "are"
+   ]
+  },
+  {
+   "en": "She is making the bed. → She can ___ the bed.",
+   "zh": "她能铺床。",
+   "answer": "make",
+   "options": [
+    "make",
+    "making",
+    "makes",
+    "maked"
+   ]
+  },
+  {
+   "en": "They are typing these letters. → They can ___ these letters.",
+   "zh": "他们能打这些信。",
+   "answer": "type",
+   "options": [
+    "type",
+    "typing",
+    "types",
+    "to typing"
+   ]
+  },
+  {
+   "en": "Can you type this letter? Yes, I ___.",
+   "zh": "你能打这封信吗？是的，我能。",
+   "answer": "can",
+   "options": [
+    "can",
+    "am",
+    "do",
+    "can't"
+   ]
+  },
+  {
+   "en": "Can Penny and Jane wash the dishes? Yes, ___ can.",
+   "zh": "彭妮和简能洗盘子吗？能。",
+   "answer": "they",
+   "options": [
+    "they",
+    "she",
+    "we",
+    "them"
+   ]
+  },
+  {
+   "en": "I can put my hat on, but I ___ put my coat on.",
+   "zh": "我能戴上帽子，但穿不上外衣。",
+   "answer": "can't",
+   "options": [
+    "can't",
+    "can",
+    "not",
+    "isn't"
+   ]
+  },
+  {
+   "en": "I can lift that chair, but I can't ___ this table.",
+   "zh": "我能搬起那把椅子，但搬不动这张桌子。",
+   "answer": "lift",
+   "options": [
+    "lift",
+    "lifting",
+    "lifts",
+    "to lift"
+   ]
+  },
+  {
+   "en": "The boss's handwriting is ___!",
+   "zh": "老板的书写太糟糕了！",
+   "answer": "terrible",
+   "options": [
+    "terrible",
+    "careful",
+    "favourite",
+    "lovely"
+   ]
+  },
+  {
+   "en": "Can you come here a ___ please, Bob?",
+   "zh": "请你来一下好吗，鲍勃？",
+   "answer": "minute",
+   "options": [
+    "minute",
+    "boss",
+    "letter",
+    "matter"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L045.mp4",
+  "start": 6.4,
+  "end": 54.2
+ }
+}

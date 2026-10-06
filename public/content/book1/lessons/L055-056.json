@@ -1,0 +1,381 @@
+{
+ "id": "L055-056",
+ "lessons": [
+  55,
+  56
+ ],
+ "title": "The Sawyer family",
+ "titleZh": "索耶一家人",
+ "evenTitle": "What do they usually do?",
+ "evenTitleZh": "他们通常做什么？",
+ "words": [
+  {
+   "en": "live",
+   "zh": "住，生活",
+   "ipa": "lɪv",
+   "pos": "v.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/live.mp3"
+   }
+  },
+  {
+   "en": "stay",
+   "zh": "呆在，停留",
+   "ipa": "steɪ",
+   "pos": "v.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/stay.mp3"
+   }
+  },
+  {
+   "en": "home",
+   "zh": "家；在家，到家",
+   "ipa": "həʊm",
+   "pos": "n. & adv.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/home.mp3"
+   }
+  },
+  {
+   "en": "housework",
+   "zh": "家务",
+   "ipa": "'haʊswɜːk",
+   "pos": "n.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/housework.mp3"
+   }
+  },
+  {
+   "en": "lunch",
+   "zh": "午饭",
+   "ipa": "lʌntʃ",
+   "pos": "n.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/lunch.mp3"
+   }
+  },
+  {
+   "en": "afternoon",
+   "zh": "下午",
+   "ipa": "ˌɑːftə'nuːn",
+   "pos": "n.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/afternoon.mp3"
+   }
+  },
+  {
+   "en": "usually",
+   "zh": "通常",
+   "ipa": "'juːʒʊəli",
+   "pos": "adv.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/usually.mp3"
+   }
+  },
+  {
+   "en": "together",
+   "zh": "一起",
+   "ipa": "tə'ɡeðə",
+   "pos": "adv.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/together.mp3"
+   }
+  },
+  {
+   "en": "evening",
+   "zh": "晚上",
+   "ipa": "'iːvnɪŋ",
+   "pos": "n.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/evening.mp3"
+   }
+  },
+  {
+   "en": "arrive",
+   "zh": "到达",
+   "ipa": "ə'raɪv",
+   "pos": "v.",
+   "lesson": 55,
+   "audio": {
+    "file": "words/arrive.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "The Sawyers live at 87 King Street.",
+   "zh": "索耶一家住在国王街 87 号。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 7,
+    "end": 12.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "In the morning, Mr. Sawyer goes to work and the children go to school.",
+   "zh": "早上，索耶先生去上班，孩子们去上学。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 12.2,
+    "end": 19.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Their father takes them to school every day.",
+   "zh": "父亲每天送孩子们去上学。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 19.3,
+    "end": 23.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Mrs. Sawyer stays at home every day.",
+   "zh": "索耶夫人每天呆在家里。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 23.5,
+    "end": 27.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "She does the housework.",
+   "zh": "她料理家务。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 27.2,
+    "end": 30.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "She always eats her lunch at noon.",
+   "zh": "她总是在正午吃午饭。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 30.1,
+    "end": 34.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "In the afternoon, she usually sees her friends.",
+   "zh": "下午，她总是会见她的朋友。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 34.2,
+    "end": 39.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "They often drink tea together.",
+   "zh": "她们经常在一起喝茶。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 39.6,
+    "end": 43
+   }
+  },
+  {
+   "speaker": "",
+   "en": "In the evening, the children come home from school.",
+   "zh": "傍晚，孩子们放学回家。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 43,
+    "end": 47.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "They arrive home early.",
+   "zh": "他们到家很早。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 47.4,
+    "end": 50.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Mr. Sawyer comes home from work.",
+   "zh": "索耶先生下班回家。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 50.6,
+    "end": 54.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "He arrives home late.",
+   "zh": "他到家很晚。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 54.2,
+    "end": 57.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "At night, the children always do their homework.",
+   "zh": "晚上，孩子们总是做作业，",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 57.6,
+    "end": 62.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Then they go to bed.",
+   "zh": "然后去睡觉。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 62.7,
+    "end": 64.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Mr. Sawyer usually reads his newspaper,",
+   "zh": "索耶先生总是读报纸，",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 64.9,
+    "end": 69.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "but sometimes he and his wife watch television.",
+   "zh": "但有时和他的妻子一起看电视。",
+   "audio": {
+    "file": "media/L055.mp4",
+    "start": 69.6,
+    "end": 74.1
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "She ___ the dishes every day.",
+   "zh": "她每天洗盘子。",
+   "answer": "washes",
+   "options": [
+    "washes",
+    "washs",
+    "wash",
+    "washing"
+   ]
+  },
+  {
+   "en": "The children ___ to school in the morning.",
+   "zh": "孩子们早上去上学。",
+   "answer": "go",
+   "options": [
+    "go",
+    "goes",
+    "gos",
+    "going"
+   ]
+  },
+  {
+   "en": "Their father ___ them to school.",
+   "zh": "他们的父亲送他们上学。",
+   "answer": "takes",
+   "options": [
+    "takes",
+    "take",
+    "takies",
+    "taking"
+   ]
+  },
+  {
+   "en": "Mrs. Sawyer ___ at home.",
+   "zh": "索耶夫人呆在家里。",
+   "answer": "stays",
+   "options": [
+    "stays",
+    "stay",
+    "staies",
+    "staying"
+   ]
+  },
+  {
+   "en": "She ___ the housework.",
+   "zh": "她料理家务。",
+   "answer": "does",
+   "options": [
+    "does",
+    "do",
+    "dos",
+    "doing"
+   ]
+  },
+  {
+   "en": "What does she do in the morning? She often ___ the cupboard in the morning.",
+   "zh": "她早上做什么？她早上常给碗橱掸灰。",
+   "answer": "dusts",
+   "options": [
+    "dusts",
+    "dust",
+    "dusting",
+    "dustes"
+   ]
+  },
+  {
+   "en": "She always eats her lunch ___ noon.",
+   "zh": "她总是在正午吃午饭。",
+   "answer": "at",
+   "options": [
+    "at",
+    "in",
+    "on",
+    "to"
+   ]
+  },
+  {
+   "en": "___ the afternoon, she usually sees her friends.",
+   "zh": "下午，她总是会见她的朋友。",
+   "answer": "In",
+   "options": [
+    "In",
+    "At",
+    "On",
+    "To"
+   ]
+  },
+  {
+   "en": "They often drink tea ___.",
+   "zh": "她们经常在一起喝茶。",
+   "answer": "together",
+   "options": [
+    "together",
+    "usually",
+    "always",
+    "early"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L055.mp4",
+  "start": 6.5,
+  "end": 74.1
+ }
+}

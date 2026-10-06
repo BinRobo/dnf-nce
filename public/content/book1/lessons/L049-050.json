@@ -1,0 +1,471 @@
+{
+ "id": "L049-050",
+ "lessons": [
+  49,
+  50
+ ],
+ "title": "At the butcher's",
+ "titleZh": "在肉店",
+ "evenTitle": "He likes ... But he doesn't like ...",
+ "evenTitleZh": "他喜欢……但是他不喜欢……",
+ "words": [
+  {
+   "en": "butcher",
+   "zh": "卖肉的",
+   "ipa": "'bʊtʃə",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/butcher.mp3"
+   }
+  },
+  {
+   "en": "meat",
+   "zh": "（食用）肉",
+   "ipa": "miːt",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/meat.mp3"
+   }
+  },
+  {
+   "en": "beef",
+   "zh": "牛肉",
+   "ipa": "biːf",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/beef.mp3"
+   }
+  },
+  {
+   "en": "lamb",
+   "zh": "羔羊肉",
+   "ipa": "læm",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/lamb.mp3"
+   }
+  },
+  {
+   "en": "husband",
+   "zh": "丈夫",
+   "ipa": "'hʌzbənd",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/husband.mp3"
+   }
+  },
+  {
+   "en": "steak",
+   "zh": "牛排",
+   "ipa": "steɪk",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/steak.mp3"
+   }
+  },
+  {
+   "en": "mince",
+   "zh": "肉馅，绞肉",
+   "ipa": "mɪns",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/mince.mp3"
+   }
+  },
+  {
+   "en": "chicken",
+   "zh": "鸡",
+   "ipa": "'tʃɪkən",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/chicken.mp3"
+   }
+  },
+  {
+   "en": "tell",
+   "zh": "告诉",
+   "ipa": "tel",
+   "pos": "v.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/tell.mp3"
+   }
+  },
+  {
+   "en": "truth",
+   "zh": "实情",
+   "ipa": "truːθ",
+   "pos": "n.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/truth.mp3"
+   }
+  },
+  {
+   "en": "either",
+   "zh": "也（用于否定句）",
+   "ipa": "'aɪðə",
+   "pos": "adv.",
+   "lesson": 49,
+   "audio": {
+    "file": "words/either.mp3"
+   }
+  },
+  {
+   "en": "tomato",
+   "zh": "西红柿",
+   "ipa": "tə'mɑːtəʊ",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/tomato.mp3"
+   }
+  },
+  {
+   "en": "potato",
+   "zh": "土豆",
+   "ipa": "pə'teɪtəʊ",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/potato.mp3"
+   }
+  },
+  {
+   "en": "cabbage",
+   "zh": "卷心菜",
+   "ipa": "'kæbɪdʒ",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/cabbage.mp3"
+   }
+  },
+  {
+   "en": "lettuce",
+   "zh": "莴苣",
+   "ipa": "'letɪs",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/lettuce.mp3"
+   }
+  },
+  {
+   "en": "pea",
+   "zh": "豌豆",
+   "ipa": "piː",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/pea.mp3"
+   }
+  },
+  {
+   "en": "bean",
+   "zh": "豆角",
+   "ipa": "biːn",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/bean.mp3"
+   }
+  },
+  {
+   "en": "pear",
+   "zh": "梨",
+   "ipa": "peə",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/pear.mp3"
+   }
+  },
+  {
+   "en": "grape",
+   "zh": "葡萄",
+   "ipa": "ɡreɪp",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/grape.mp3"
+   }
+  },
+  {
+   "en": "peach",
+   "zh": "桃",
+   "ipa": "piːtʃ",
+   "pos": "n.",
+   "lesson": 50,
+   "audio": {
+    "file": "words/peach.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Butcher",
+   "en": "Do you want any meat today, Mrs. Bird?",
+   "zh": "您今天要买点肉吗，伯德夫人？",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 6.9,
+    "end": 11.4
+   }
+  },
+  {
+   "speaker": "Mrs. Bird",
+   "en": "Yes, please.",
+   "zh": "是的，我买一点。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 11.4,
+    "end": 14
+   }
+  },
+  {
+   "speaker": "Butcher",
+   "en": "Do you want beef or lamb?",
+   "zh": "您要牛肉还是要羔羊肉？",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 14,
+    "end": 17.1
+   }
+  },
+  {
+   "speaker": "Mrs. Bird",
+   "en": "Beef, please.",
+   "zh": "请给我牛肉。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 17.1,
+    "end": 19.5
+   }
+  },
+  {
+   "speaker": "Butcher",
+   "en": "This lamb's very good.",
+   "zh": "这羔羊肉很好。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 19.5,
+    "end": 22.4
+   }
+  },
+  {
+   "speaker": "Mrs. Bird",
+   "en": "I like lamb, but my husband doesn't.",
+   "zh": "我喜欢羔羊肉，可我丈夫不喜欢。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 22.4,
+    "end": 27.6
+   }
+  },
+  {
+   "speaker": "Butcher",
+   "en": "What about some steak?",
+   "zh": "来点牛排吗？",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 27.6,
+    "end": 29.9
+   }
+  },
+  {
+   "speaker": "Butcher",
+   "en": "This is a nice piece.",
+   "zh": "这块很好。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 29.9,
+    "end": 33.1
+   }
+  },
+  {
+   "speaker": "Mrs. Bird",
+   "en": "Give me that piece, please.",
+   "zh": "就请给我那块吧。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 33.1,
+    "end": 36.4
+   }
+  },
+  {
+   "speaker": "Mrs. Bird",
+   "en": "And a pound of mince, too.",
+   "zh": "再来一磅绞肉。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 36.4,
+    "end": 40.2
+   }
+  },
+  {
+   "speaker": "Butcher",
+   "en": "Do you want a chicken, Mrs. Bird?",
+   "zh": "您要买只鸡吗，伯德夫人？",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 40.2,
+    "end": 44
+   }
+  },
+  {
+   "speaker": "Butcher",
+   "en": "They're very nice.",
+   "zh": "这些鸡很好。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 44,
+    "end": 46.1
+   }
+  },
+  {
+   "speaker": "Mrs. Bird",
+   "en": "No, thank you.",
+   "zh": "不要了，谢谢。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 46.1,
+    "end": 48.3
+   }
+  },
+  {
+   "speaker": "Mrs. Bird",
+   "en": "My husband likes steak, but he doesn't like chicken.",
+   "zh": "我丈夫喜欢牛排，但他不喜欢鸡。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 48.3,
+    "end": 54.3
+   }
+  },
+  {
+   "speaker": "Butcher",
+   "en": "To tell you the truth, Mrs. Bird, I don't like chicken either!",
+   "zh": "说老实话，伯德夫人，我也不喜欢鸡。",
+   "audio": {
+    "file": "media/L049.mp4",
+    "start": 54.3,
+    "end": 60.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "He likes coffee, but I ___.",
+   "zh": "他喜欢咖啡，但我不喜欢。",
+   "answer": "don't",
+   "options": [
+    "don't",
+    "doesn't",
+    "isn't",
+    "am not"
+   ]
+  },
+  {
+   "en": "She likes tea, but he ___.",
+   "zh": "她喜欢茶，但他不喜欢。",
+   "answer": "doesn't",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't",
+    "aren't"
+   ]
+  },
+  {
+   "en": "He is eating some bread, but she ___.",
+   "zh": "他在吃面包，但她没在吃。",
+   "answer": "isn't",
+   "options": [
+    "isn't",
+    "doesn't",
+    "don't",
+    "can't"
+   ]
+  },
+  {
+   "en": "She can type very well, but he ___.",
+   "zh": "她打字打得很好，但他不会。",
+   "answer": "can't",
+   "options": [
+    "can't",
+    "doesn't",
+    "isn't",
+    "don't"
+   ]
+  },
+  {
+   "en": "They are working hard, but we ___.",
+   "zh": "他们工作很努力，但我们没有。",
+   "answer": "aren't",
+   "options": [
+    "aren't",
+    "don't",
+    "isn't",
+    "doesn't"
+   ]
+  },
+  {
+   "en": "He is reading a magazine, but I ___.",
+   "zh": "他在看杂志，但我没在看。",
+   "answer": "am not",
+   "options": [
+    "am not",
+    "don't",
+    "isn't",
+    "aren't"
+   ]
+  },
+  {
+   "en": "Does Penny like tomatoes? Yes, she ___.",
+   "zh": "彭妮喜欢西红柿吗？是的，她喜欢。",
+   "answer": "does",
+   "options": [
+    "does",
+    "do",
+    "is",
+    "likes"
+   ]
+  },
+  {
+   "en": "She likes tomatoes, but she doesn't ___ any.",
+   "zh": "她喜欢西红柿，但现在不想要。",
+   "answer": "want",
+   "options": [
+    "want",
+    "wants",
+    "wanting",
+    "to want"
+   ]
+  },
+  {
+   "en": "I don't like chicken ___!",
+   "zh": "我也不喜欢鸡！",
+   "answer": "either",
+   "options": [
+    "either",
+    "too",
+    "very",
+    "much"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L049.mp4",
+  "start": 6.4,
+  "end": 60.2
+ }
+}

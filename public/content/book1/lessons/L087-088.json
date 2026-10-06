@@ -1,0 +1,371 @@
+{
+ "id": "L087-088",
+ "lessons": [
+  87,
+  88
+ ],
+ "title": "A car crash",
+ "titleZh": "车祸",
+ "evenTitle": "Have you ... yet?",
+ "evenTitleZh": "你已经……了吗？",
+ "words": [
+  {
+   "en": "attendant",
+   "zh": "接待员",
+   "ipa": "ə'tendənt",
+   "pos": "n.",
+   "lesson": 87,
+   "audio": {
+    "file": "words/attendant.mp3"
+   }
+  },
+  {
+   "en": "bring",
+   "zh": "带来，送来（过去式 brought）",
+   "ipa": "brɪŋ",
+   "pos": "v.",
+   "lesson": 87,
+   "audio": {
+    "file": "words/bring.mp3"
+   }
+  },
+  {
+   "en": "garage",
+   "zh": "车库，汽车修理厂",
+   "ipa": "'ɡærɑːʒ",
+   "pos": "n.",
+   "lesson": 87,
+   "audio": {
+    "file": "words/garage.mp3"
+   }
+  },
+  {
+   "en": "crash",
+   "zh": "碰撞",
+   "ipa": "kræʃ",
+   "pos": "n.",
+   "lesson": 87,
+   "audio": {
+    "file": "words/crash.mp3"
+   }
+  },
+  {
+   "en": "lamp-post",
+   "zh": "灯杆",
+   "ipa": "'læmp-pəʊst",
+   "pos": "n.",
+   "lesson": 87,
+   "audio": {
+    "file": "words/lamp-post.mp3"
+   }
+  },
+  {
+   "en": "repair",
+   "zh": "修理",
+   "ipa": "rɪ'peə",
+   "pos": "v.",
+   "lesson": 87,
+   "audio": {
+    "file": "words/repair.mp3"
+   }
+  },
+  {
+   "en": "try",
+   "zh": "努力，设法",
+   "ipa": "traɪ",
+   "pos": "v.",
+   "lesson": 87,
+   "audio": {
+    "file": "words/try.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mr. Wood",
+   "en": "Is my car ready yet?",
+   "zh": "我的汽车修好了吗？",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 7,
+    "end": 10.5
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "I don't know, sir.",
+   "zh": "我不知道，先生。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 10.5,
+    "end": 12.3
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "What's the number of your car?",
+   "zh": "您的汽车牌号是多少？",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 12.3,
+    "end": 15.4
+   }
+  },
+  {
+   "speaker": "Mr. Wood",
+   "en": "It's LFZ 312 G.",
+   "zh": "是 LFZ312G。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 15.4,
+    "end": 22.7
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "When did you bring it to us?",
+   "zh": "您什么时候送来的？",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 22.7,
+    "end": 25.9
+   }
+  },
+  {
+   "speaker": "Mr. Wood",
+   "en": "I brought it here three days ago.",
+   "zh": "3 天前。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 25.9,
+    "end": 29.8
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Ah yes, I remember now.",
+   "zh": "啊，是的，我现在记起来了。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 29.8,
+    "end": 34.2
+   }
+  },
+  {
+   "speaker": "Mr. Wood",
+   "en": "Have your mechanics finished yet?",
+   "zh": "你们的机械师修好了吗？",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 34.2,
+    "end": 37.4
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "No, they're still working on it.",
+   "zh": "没有，他们还在修呢。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 37.4,
+    "end": 40.4
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Let's go into the garage and have a look at it.",
+   "zh": "我们到车库去看一下吧。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 40.4,
+    "end": 45.6
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Isn't that your car?",
+   "zh": "这难道不是您的车吗？",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 45.6,
+    "end": 49
+   }
+  },
+  {
+   "speaker": "Mr. Wood",
+   "en": "Well, it was my car.",
+   "zh": "唔，这曾是我的车。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 49,
+    "end": 53
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Didn't you have a crash?",
+   "zh": "难道您没出车祸吗？",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 53,
+    "end": 55.8
+   }
+  },
+  {
+   "speaker": "Mr. Wood",
+   "en": "That's right.",
+   "zh": "是啊。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 55.8,
+    "end": 57.3
+   }
+  },
+  {
+   "speaker": "Mr. Wood",
+   "en": "I drove it into a lamp-post.",
+   "zh": "我把汽车撞在电线杆上了。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 57.3,
+    "end": 60.8
+   }
+  },
+  {
+   "speaker": "Mr. Wood",
+   "en": "Can your mechanics repair it?",
+   "zh": "你们的机械师能修好吗？",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 60.8,
+    "end": 64.1
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "Well, they're trying to repair it, sir.",
+   "zh": "啊，他们正设法修呢，先生。",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 64.1,
+    "end": 67.9
+   }
+  },
+  {
+   "speaker": "Attendant",
+   "en": "But to tell you the truth, you need a new car!",
+   "zh": "不过说实在的，您需要一辆新车了！",
+   "audio": {
+    "file": "media/L087.mp4",
+    "start": 67.9,
+    "end": 73
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "He bought a house last year. → ___ he buy a house last year?",
+   "zh": "他去年买房子了吗？",
+   "answer": "Did",
+   "options": [
+    "Did",
+    "Does",
+    "Has",
+    "Was"
+   ]
+  },
+  {
+   "en": "He bought a house last year. → He ___ buy a house last year.",
+   "zh": "他去年没买房子。",
+   "answer": "didn't",
+   "options": [
+    "didn't",
+    "doesn't",
+    "hasn't",
+    "wasn't"
+   ]
+  },
+  {
+   "en": "He found his pen a minute ago. → Did he ___ his pen a minute ago?",
+   "zh": "他一分钟前找到钢笔了吗？",
+   "answer": "find",
+   "options": [
+    "find",
+    "found",
+    "finds",
+    "finded"
+   ]
+  },
+  {
+   "en": "Have they bought a new house yet? Yes, they have already ___ a new house.",
+   "zh": "他们买新房子了吗？是的，已经买了。",
+   "answer": "bought",
+   "options": [
+    "bought",
+    "buy",
+    "buyed",
+    "brought"
+   ]
+  },
+  {
+   "en": "Has the boss left yet? Yes, he has. He ___ ten minutes ago.",
+   "zh": "老板走了吗？是的，他十分钟前走的。",
+   "answer": "left",
+   "options": [
+    "left",
+    "leaved",
+    "has left",
+    "leaves"
+   ]
+  },
+  {
+   "en": "Have you ___ Mrs. Jones yet?",
+   "zh": "你见过琼斯夫人了吗？",
+   "answer": "met",
+   "options": [
+    "met",
+    "meet",
+    "meeted",
+    "meets"
+   ]
+  },
+  {
+   "en": "She ___ the floor this morning.",
+   "zh": "她今天早上扫了地。",
+   "answer": "swept",
+   "options": [
+    "swept",
+    "sweeped",
+    "sweeps",
+    "sweep"
+   ]
+  },
+  {
+   "en": "I ___ it here three days ago.",
+   "zh": "我 3 天前把它送来的。",
+   "answer": "brought",
+   "options": [
+    "brought",
+    "bringed",
+    "bought",
+    "bring"
+   ]
+  },
+  {
+   "en": "They're trying to ___ it, sir.",
+   "zh": "他们正设法修呢，先生。",
+   "answer": "repair",
+   "options": [
+    "repair",
+    "crash",
+    "bring",
+    "drive"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L087.mp4",
+  "start": 6.5,
+  "end": 73
+ }
+}

@@ -1,0 +1,320 @@
+{
+ "id": "L027-028",
+ "lessons": [
+  27,
+  28
+ ],
+ "title": "Mrs. Smith's living room",
+ "titleZh": "史密斯太太的客厅",
+ "evenTitle": "Where are they?",
+ "evenTitleZh": "它们在哪里？",
+ "words": [
+  {
+   "en": "living room",
+   "zh": "客厅",
+   "ipa": "'lɪvɪŋ-rʊm",
+   "pos": "",
+   "lesson": 27,
+   "audio": {
+    "file": "words/living-room.mp3"
+   }
+  },
+  {
+   "en": "near",
+   "zh": "靠近",
+   "ipa": "nɪə",
+   "pos": "prep.",
+   "lesson": 27,
+   "audio": {
+    "file": "words/near.mp3"
+   }
+  },
+  {
+   "en": "window",
+   "zh": "窗户",
+   "ipa": "'wɪndəʊ",
+   "pos": "n.",
+   "lesson": 27,
+   "audio": {
+    "file": "words/window.mp3"
+   }
+  },
+  {
+   "en": "armchair",
+   "zh": "扶手椅",
+   "ipa": "'ɑːmtʃeə",
+   "pos": "n.",
+   "lesson": 27,
+   "audio": {
+    "file": "words/armchair.mp3"
+   }
+  },
+  {
+   "en": "door",
+   "zh": "门",
+   "ipa": "dɔː",
+   "pos": "n.",
+   "lesson": 27,
+   "audio": {
+    "file": "words/door.mp3"
+   }
+  },
+  {
+   "en": "picture",
+   "zh": "图画",
+   "ipa": "'pɪktʃə",
+   "pos": "n.",
+   "lesson": 27,
+   "audio": {
+    "file": "words/picture.mp3"
+   }
+  },
+  {
+   "en": "wall",
+   "zh": "墙",
+   "ipa": "wɔːl",
+   "pos": "n.",
+   "lesson": 27,
+   "audio": {
+    "file": "words/wall.mp3"
+   }
+  },
+  {
+   "en": "trousers",
+   "zh": "长裤（复数）",
+   "ipa": "'traʊzəz",
+   "pos": "n.",
+   "lesson": 28,
+   "audio": {
+    "file": "words/trousers.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "Mrs. Smith's living room is large.",
+   "zh": "史密斯夫人的客厅很大。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 7.6,
+    "end": 12.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is a television in the room.",
+   "zh": "客厅里有台电视机。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 12.4,
+    "end": 17.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The television is near the window.",
+   "zh": "电视机靠近窗子。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 17.2,
+    "end": 23.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There are some magazines on the television.",
+   "zh": "电视机上放着几本杂志。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 23.5,
+    "end": 29.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is a table in the room.",
+   "zh": "客厅里有张桌子。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 29.1,
+    "end": 33.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There are some newspapers on the table.",
+   "zh": "桌上放着几份报纸。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 33.8,
+    "end": 39.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There are some armchairs in the room.",
+   "zh": "客厅里有几把扶手椅。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 39.6,
+    "end": 44.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The armchairs are near the table.",
+   "zh": "这些扶手椅靠近桌子。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 44.3,
+    "end": 49.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There is a stereo in the room.",
+   "zh": "客厅里有台立体声音响。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 49.7,
+    "end": 54.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The stereo is near the door.",
+   "zh": "音响靠近门。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 54.2,
+    "end": 58.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There are some books on the stereo.",
+   "zh": "音响上面有几本书。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 58.7,
+    "end": 63.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "There are some pictures in the room.",
+   "zh": "客厅里有几幅画。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 63.9,
+    "end": 68.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The pictures are on the wall.",
+   "zh": "画挂在墙上。",
+   "audio": {
+    "file": "media/L027.mp4",
+    "start": 68.2,
+    "end": 72.7
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "There is a pencil on the desk. → There are some ___ on the desk.",
+   "zh": "桌上有几支铅笔。",
+   "answer": "pencils",
+   "options": [
+    "pencils",
+    "pencil",
+    "pencils'",
+    "a pencil"
+   ]
+  },
+  {
+   "en": "There is a knife near that tin. → There are some ___ near that tin.",
+   "zh": "那个罐头旁有几把刀。",
+   "answer": "knives",
+   "options": [
+    "knives",
+    "knifes",
+    "knife",
+    "knivs"
+   ]
+  },
+  {
+   "en": "There is a policeman in the kitchen. → There are some ___ in the kitchen.",
+   "zh": "厨房里有几个警察。",
+   "answer": "policemen",
+   "options": [
+    "policemen",
+    "policemans",
+    "policeman",
+    "policemens"
+   ]
+  },
+  {
+   "en": "There ___ some magazines on the television.",
+   "zh": "电视机上放着几本杂志。",
+   "answer": "are",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "There ___ a stereo in the room.",
+   "zh": "客厅里有台立体声音响。",
+   "answer": "is",
+   "options": [
+    "is",
+    "are",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "Are there ___ books on the dressing table? No, there aren't.",
+   "zh": "梳妆台上有书吗？不，没有。",
+   "answer": "any",
+   "options": [
+    "any",
+    "some",
+    "a",
+    "the"
+   ]
+  },
+  {
+   "en": "Where are they? They're ___ that box.",
+   "zh": "它们在哪儿？在那个盒子旁边。",
+   "answer": "near",
+   "options": [
+    "near",
+    "of",
+    "where",
+    "there"
+   ]
+  },
+  {
+   "en": "The pictures are on the ___.",
+   "zh": "画挂在墙上。",
+   "answer": "wall",
+   "options": [
+    "wall",
+    "door",
+    "window",
+    "floor"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L027.mp4",
+  "start": 7.1,
+  "end": 72.7
+ }
+}

@@ -1,0 +1,471 @@
+{
+ "id": "L067-068",
+ "lessons": [
+  67,
+  68
+ ],
+ "title": "The weekend",
+ "titleZh": "周末",
+ "evenTitle": "What's the time? Where were you on ...?",
+ "evenTitleZh": "几点钟？……你在什么地方？",
+ "words": [
+  {
+   "en": "greengrocer",
+   "zh": "蔬菜水果零售商",
+   "ipa": "'ɡriːnˌɡrəʊsə",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/greengrocer.mp3"
+   }
+  },
+  {
+   "en": "absent",
+   "zh": "缺席的",
+   "ipa": "'æbsənt",
+   "pos": "adj.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/absent.mp3"
+   }
+  },
+  {
+   "en": "Monday",
+   "zh": "星期一",
+   "ipa": "'mʌndi",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/monday.mp3"
+   }
+  },
+  {
+   "en": "Tuesday",
+   "zh": "星期二",
+   "ipa": "'tjuːzdi",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/tuesday.mp3"
+   }
+  },
+  {
+   "en": "Wednesday",
+   "zh": "星期三",
+   "ipa": "'wenzdi",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/wednesday.mp3"
+   }
+  },
+  {
+   "en": "Thursday",
+   "zh": "星期四",
+   "ipa": "'θɜːzdi",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/thursday.mp3"
+   }
+  },
+  {
+   "en": "keep",
+   "zh": "（身体健康）处于（状况）",
+   "ipa": "kiːp",
+   "pos": "v.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/keep.mp3"
+   }
+  },
+  {
+   "en": "spend",
+   "zh": "度过",
+   "ipa": "spend",
+   "pos": "v.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/spend.mp3"
+   }
+  },
+  {
+   "en": "weekend",
+   "zh": "周末",
+   "ipa": "'wiːkend",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/weekend.mp3"
+   }
+  },
+  {
+   "en": "Friday",
+   "zh": "星期五",
+   "ipa": "'fraɪdi",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/friday.mp3"
+   }
+  },
+  {
+   "en": "Saturday",
+   "zh": "星期六",
+   "ipa": "'sætədi",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/saturday.mp3"
+   }
+  },
+  {
+   "en": "Sunday",
+   "zh": "星期日",
+   "ipa": "'sʌndi",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/sunday.mp3"
+   }
+  },
+  {
+   "en": "country",
+   "zh": "乡村",
+   "ipa": "'kʌntri",
+   "pos": "n.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/country.mp3"
+   }
+  },
+  {
+   "en": "lucky",
+   "zh": "幸运的",
+   "ipa": "'lʌki",
+   "pos": "adj.",
+   "lesson": 67,
+   "audio": {
+    "file": "words/lucky.mp3"
+   }
+  },
+  {
+   "en": "church",
+   "zh": "教堂",
+   "ipa": "tʃɜːtʃ",
+   "pos": "n.",
+   "lesson": 68,
+   "audio": {
+    "file": "words/church.mp3"
+   }
+  },
+  {
+   "en": "dairy",
+   "zh": "乳品店",
+   "ipa": "'deəri",
+   "pos": "n.",
+   "lesson": 68,
+   "audio": {
+    "file": "words/dairy.mp3"
+   }
+  },
+  {
+   "en": "baker",
+   "zh": "面包师傅",
+   "ipa": "'beɪkə",
+   "pos": "n.",
+   "lesson": 68,
+   "audio": {
+    "file": "words/baker.mp3"
+   }
+  },
+  {
+   "en": "grocer",
+   "zh": "食品杂货商",
+   "ipa": "'ɡrəʊsə",
+   "pos": "n.",
+   "lesson": 68,
+   "audio": {
+    "file": "words/grocer.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "Hello.",
+   "zh": "您好。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 6.9,
+    "end": 9.1
+   }
+  },
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "Were you at the butcher's?",
+   "zh": "刚才您在肉店里吗？",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 9.1,
+    "end": 11.5
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Yes, I was.",
+   "zh": "是的，我在肉店里。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 11.5,
+    "end": 13.3
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Were you at the butcher's, too?",
+   "zh": "您也在肉店里吗？",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 13.3,
+    "end": 15.8
+   }
+  },
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "No, I wasn't.",
+   "zh": "不，我不是。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 15.8,
+    "end": 17.8
+   }
+  },
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "I was at the greengrocer's.",
+   "zh": "我在蔬菜水果店里。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 17.8,
+    "end": 20.5
+   }
+  },
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "How's Jimmy today?",
+   "zh": "吉米今天怎么样？",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 20.5,
+    "end": 23.2
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "He's very well, thank you.",
+   "zh": "他很好，谢谢您。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 23.2,
+    "end": 25.8
+   }
+  },
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "Was he absent from school last week?",
+   "zh": "上星期他没上学吧？",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 25.8,
+    "end": 29.4
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Yes, he was.",
+   "zh": "是的，他没上学。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 29.4,
+    "end": 31.6
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "He was absent on Monday, Tuesday, Wednesday and Thursday.",
+   "zh": "他星期一、星期二、星期三和星期四没去上学。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 31.6,
+    "end": 37.8
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "How are you all keeping?",
+   "zh": "你们身体都好吗？",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 37.8,
+    "end": 39.9
+   }
+  },
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "Very well, thank you.",
+   "zh": "很好，谢谢您。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 39.9,
+    "end": 42
+   }
+  },
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "We're going to spend three days in the country.",
+   "zh": "我们打算到乡下去三天。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 42,
+    "end": 45
+   }
+  },
+  {
+   "speaker": "Mrs. Johnson",
+   "en": "We're going to stay at my mother's for the weekend.",
+   "zh": "在我母亲家度周末。",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 45,
+    "end": 48.8
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Friday, Saturday and Sunday in the country!",
+   "zh": "星期五、星期六和星期日在乡下过！",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 48.8,
+    "end": 52.5
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Aren't you lucky!",
+   "zh": "你们真幸运啊！",
+   "audio": {
+    "file": "media/L067.mp4",
+    "start": 52.5,
+    "end": 55.4
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I was at ___ office on Monday.",
+   "zh": "星期一我在办公室。",
+   "answer": "the",
+   "options": [
+    "the",
+    "a",
+    "an",
+    "on"
+   ]
+  },
+  {
+   "en": "My wife was at ___ butcher's on Wednesday.",
+   "zh": "星期三我妻子在肉店。",
+   "answer": "the",
+   "options": [
+    "the",
+    "a",
+    "an",
+    "on"
+   ]
+  },
+  {
+   "en": "My daughter was in ___ country on Friday.",
+   "zh": "星期五我女儿在乡下。",
+   "answer": "the",
+   "options": [
+    "the",
+    "a",
+    "an",
+    "at"
+   ]
+  },
+  {
+   "en": "When was he at church? He was at church ___ Sunday.",
+   "zh": "他什么时候在教堂？他星期日在教堂。",
+   "answer": "on",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "from"
+   ]
+  },
+  {
+   "en": "___ you at the butcher's? Yes, I was.",
+   "zh": "刚才您在肉店里吗？是的，我在。",
+   "answer": "Were",
+   "options": [
+    "Were",
+    "Was",
+    "Are",
+    "Did"
+   ]
+  },
+  {
+   "en": "___ he absent from school last week?",
+   "zh": "上星期他没上学吧？",
+   "answer": "Was",
+   "options": [
+    "Was",
+    "Were",
+    "Is",
+    "Does"
+   ]
+  },
+  {
+   "en": "No, I ___. I was at the greengrocer's.",
+   "zh": "不，我不在。我在蔬菜水果店里。",
+   "answer": "wasn't",
+   "options": [
+    "wasn't",
+    "weren't",
+    "isn't",
+    "didn't"
+   ]
+  },
+  {
+   "en": "We're going to ___ three days in the country.",
+   "zh": "我们打算到乡下去三天。",
+   "answer": "spend",
+   "options": [
+    "spend",
+    "keep",
+    "stay",
+    "take"
+   ]
+  },
+  {
+   "en": "Aren't you ___!",
+   "zh": "你们真幸运啊！",
+   "answer": "lucky",
+   "options": [
+    "lucky",
+    "absent",
+    "pleasant",
+    "rich"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L067.mp4",
+  "start": 6.4,
+  "end": 55.4
+ }
+}

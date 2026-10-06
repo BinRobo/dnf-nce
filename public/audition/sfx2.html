@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNF 音效试听 - SFX Batch 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        .sound-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .sound-item {
+            background: #f5f5f5;
+            border-radius: 8px;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+        .sound-item:hover {
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+            background: #fafafa;
+        }
+        .sound-key {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+            word-break: break-word;
+        }
+        button {
+            width: 100%;
+            padding: 8px 12px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        button:active {
+            transform: translateY(0);
+        }
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 DNF 音效试听</h1>
+        <p class="subtitle">音效第 2 批：技能音效 + 怪物音效（SFX Batch 2）</p>
+
+        <!-- 技能音效 -->
+        <div class="section">
+            <div class="section-title">⚔️ 技能音效 (Skill SFX)</div>
+            <div class="sound-grid" id="skillSounds"></div>
+        </div>
+
+        <!-- 怪物音效 -->
+        <div class="section">
+            <div class="section-title">👾 怪物音效 (Monster SFX)</div>
+            <div class="sound-grid" id="mobSounds"></div>
+        </div>
+
+        <div class="footer">
+            <p>点击按钮试听音效 | Click buttons to play sounds</p>
+            <p style="margin-top: 10px; font-size: 0.85em;">All sounds: Kenney (www.kenney.nl), CC0 License</p>
+        </div>
+    </div>
+
+    <script>
+        const audioBase = '/assets/audio/';
+
+        const skillSounds = [
+            'sk_slash_cast', 'sk_slash_hit',
+            'sk_rising_cast', 'sk_rising_hit',
+            'sk_whirl_cast', 'sk_whirl_hit',
+            'sk_thrust_cast', 'sk_thrust_hit',
+            'sk_wave_cast', 'sk_wave_hit',
+            'sk_frost_cast', 'sk_frost_hit',
+            'sk_thunder_cast', 'sk_thunder_hit',
+            'sk_fire_cast', 'sk_fire_hit',
+            'sk_meteor_cast', 'sk_meteor_hit',
+            'sk_letters_cast', 'sk_letters_hit',
+            'sk_storm_cast', 'sk_storm_hit',
+            'awaken_cast'
+        ];
+
+        const mobSounds = [
+            'mob_bat_hurt', 'mob_bat_attack', 'mob_bat_die',
+            'mob_slime_hurt', 'mob_slime_attack', 'mob_slime_die',
+            'mob_goblin_hurt', 'mob_goblin_attack', 'mob_goblin_die',
+            'mob_golem_hurt', 'mob_golem_attack', 'mob_golem_die',
+            'mob_imp_hurt', 'mob_imp_attack', 'mob_imp_die',
+            'mob_fog_hurt', 'mob_fog_attack', 'mob_fog_die',
+            'mob_echo_hurt', 'mob_echo_attack', 'mob_echo_die',
+            'mob_boss_hurt', 'mob_boss_attack', 'mob_boss_die'
+        ];
+
+        function createSoundItem(key) {
+            const div = document.createElement('div');
+            div.className = 'sound-item';
+
+            const keySpan = document.createElement('div');
+            keySpan.className = 'sound-key';
+            keySpan.textContent = key;
+
+            const btn = document.createElement('button');
+            btn.textContent = '▶ Play';
+            btn.addEventListener('click', () => {
+                const audio = new Audio(`${audioBase}sfx/${key}.mp3`);
+                audio.play().catch(e => console.error('Play error:', e));
+            });
+
+            div.appendChild(keySpan);
+            div.appendChild(btn);
+            return div;
+        }
+
+        const skillContainer = document.getElementById('skillSounds');
+        skillSounds.forEach(key => {
+            skillContainer.appendChild(createSoundItem(key));
+        });
+
+        const mobContainer = document.getElementById('mobSounds');
+        mobSounds.forEach(key => {
+            mobContainer.appendChild(createSoundItem(key));
+        });
+    </script>
+</body>
+</html>

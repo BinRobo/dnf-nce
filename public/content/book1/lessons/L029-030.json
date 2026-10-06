@@ -1,0 +1,391 @@
+{
+ "id": "L029-030",
+ "lessons": [
+  29,
+  30
+ ],
+ "title": "Come in, Amy.",
+ "titleZh": "进来，艾米。",
+ "evenTitle": "What must I do?",
+ "evenTitleZh": "我应该做什么？",
+ "words": [
+  {
+   "en": "shut",
+   "zh": "关门",
+   "ipa": "ʃʌt",
+   "pos": "v.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/shut.mp3"
+   }
+  },
+  {
+   "en": "bedroom",
+   "zh": "卧室",
+   "ipa": "'bedrʊm",
+   "pos": "n.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/bedroom.mp3"
+   }
+  },
+  {
+   "en": "untidy",
+   "zh": "乱，不整齐",
+   "ipa": "ʌn'taɪdi",
+   "pos": "adj.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/untidy.mp3"
+   }
+  },
+  {
+   "en": "must",
+   "zh": "必须，应该",
+   "ipa": "mʌst",
+   "pos": "v.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/must.mp3"
+   }
+  },
+  {
+   "en": "open",
+   "zh": "打开",
+   "ipa": "'əʊpən",
+   "pos": "v.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/open.mp3"
+   }
+  },
+  {
+   "en": "air",
+   "zh": "使……通风，换换空气",
+   "ipa": "eə",
+   "pos": "v.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/air.mp3"
+   }
+  },
+  {
+   "en": "put",
+   "zh": "放置",
+   "ipa": "pʊt",
+   "pos": "v.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/put.mp3"
+   }
+  },
+  {
+   "en": "clothes",
+   "zh": "衣服",
+   "ipa": "kləʊðz",
+   "pos": "n.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/clothes.mp3"
+   }
+  },
+  {
+   "en": "wardrobe",
+   "zh": "大衣柜",
+   "ipa": "'wɔːdrəʊb",
+   "pos": "n.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/wardrobe.mp3"
+   }
+  },
+  {
+   "en": "dust",
+   "zh": "掸掉灰尘",
+   "ipa": "dʌst",
+   "pos": "v.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/dust.mp3"
+   }
+  },
+  {
+   "en": "sweep",
+   "zh": "扫",
+   "ipa": "swiːp",
+   "pos": "v.",
+   "lesson": 29,
+   "audio": {
+    "file": "words/sweep.mp3"
+   }
+  },
+  {
+   "en": "empty",
+   "zh": "倒空，使……变空",
+   "ipa": "'empti",
+   "pos": "v.",
+   "lesson": 30,
+   "audio": {
+    "file": "words/empty.mp3"
+   }
+  },
+  {
+   "en": "read",
+   "zh": "读",
+   "ipa": "riːd",
+   "pos": "v.",
+   "lesson": 30,
+   "audio": {
+    "file": "words/read.mp3"
+   }
+  },
+  {
+   "en": "sharpen",
+   "zh": "削尖，使锋利",
+   "ipa": "'ʃɑːpən",
+   "pos": "v.",
+   "lesson": 30,
+   "audio": {
+    "file": "words/sharpen.mp3"
+   }
+  },
+  {
+   "en": "put on",
+   "zh": "穿上",
+   "ipa": "'pʊt-ɒn",
+   "pos": "",
+   "lesson": 30,
+   "audio": {
+    "file": "words/put-on.mp3"
+   }
+  },
+  {
+   "en": "take off",
+   "zh": "脱掉",
+   "ipa": "'teɪk-ɒf",
+   "pos": "",
+   "lesson": 30,
+   "audio": {
+    "file": "words/take-off.mp3"
+   }
+  },
+  {
+   "en": "turn on",
+   "zh": "开（电灯）",
+   "ipa": "'tɜːn-ɒn",
+   "pos": "",
+   "lesson": 30,
+   "audio": {
+    "file": "words/turn-on.mp3"
+   }
+  },
+  {
+   "en": "turn off",
+   "zh": "关（电灯）",
+   "ipa": "'tɜːn-ɒf",
+   "pos": "",
+   "lesson": 30,
+   "audio": {
+    "file": "words/turn-off.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mrs. Jones",
+   "en": "Come in, Amy.",
+   "zh": "进来，艾米。",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 6.8,
+    "end": 10.2
+   }
+  },
+  {
+   "speaker": "Mrs. Jones",
+   "en": "Shut the door, please.",
+   "zh": "请把门关上。",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 10.2,
+    "end": 14
+   }
+  },
+  {
+   "speaker": "Mrs. Jones",
+   "en": "This bedroom's very untidy.",
+   "zh": "这卧室太不整洁了。",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 14,
+    "end": 19.7
+   }
+  },
+  {
+   "speaker": "Amy",
+   "en": "What must I do, Mrs. Jones?",
+   "zh": "我应该做些什么呢，琼斯夫人？",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 19.7,
+    "end": 24.8
+   }
+  },
+  {
+   "speaker": "Mrs. Jones",
+   "en": "Open the window and air the room.",
+   "zh": "打开窗子，给房间通通风。",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 24.8,
+    "end": 30.3
+   }
+  },
+  {
+   "speaker": "Mrs. Jones",
+   "en": "Then put these clothes in the wardrobe.",
+   "zh": "然后把这些衣服放进衣橱里去。",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 30.3,
+    "end": 36.4
+   }
+  },
+  {
+   "speaker": "Mrs. Jones",
+   "en": "Then make the bed.",
+   "zh": "再把床整理一下。",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 36.4,
+    "end": 40.6
+   }
+  },
+  {
+   "speaker": "Mrs. Jones",
+   "en": "Dust the dressing table.",
+   "zh": "掸掉梳妆台上的灰尘。",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 40.6,
+    "end": 44.3
+   }
+  },
+  {
+   "speaker": "Mrs. Jones",
+   "en": "Then sweep the floor.",
+   "zh": "然后扫扫地。",
+   "audio": {
+    "file": "media/L029.mp4",
+    "start": 44.3,
+    "end": 47.6
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "The cup isn't empty. ___ it!",
+   "zh": "杯子不是空的。把它倒空！",
+   "answer": "Empty",
+   "options": [
+    "Empty",
+    "Open",
+    "Shut",
+    "Read"
+   ]
+  },
+  {
+   "en": "The window isn't clean. ___ it!",
+   "zh": "窗户不干净。把它擦干净！",
+   "answer": "Clean",
+   "options": [
+    "Clean",
+    "Empty",
+    "Sharpen",
+    "Read"
+   ]
+  },
+  {
+   "en": "The door isn't shut. ___ it!",
+   "zh": "门没关。把它关上！",
+   "answer": "Shut",
+   "options": [
+    "Shut",
+    "Open",
+    "Dust",
+    "Read"
+   ]
+  },
+  {
+   "en": "The wardrobe isn't open. ___ it!",
+   "zh": "衣柜没开。把它打开！",
+   "answer": "Open",
+   "options": [
+    "Open",
+    "Shut",
+    "Sweep",
+    "Empty"
+   ]
+  },
+  {
+   "en": "___ off your shoes!",
+   "zh": "把你的鞋脱掉！",
+   "answer": "Take",
+   "options": [
+    "Take",
+    "Turn",
+    "Put",
+    "Make"
+   ]
+  },
+  {
+   "en": "Turn ___ the stereo!",
+   "zh": "把音响打开！",
+   "answer": "on",
+   "options": [
+    "on",
+    "in",
+    "of",
+    "near"
+   ]
+  },
+  {
+   "en": "___ these pencils!",
+   "zh": "把这些铅笔削尖！",
+   "answer": "Sharpen",
+   "options": [
+    "Sharpen",
+    "Sweep",
+    "Dust",
+    "Air"
+   ]
+  },
+  {
+   "en": "What ___ I do, Mrs. Jones?",
+   "zh": "我应该做些什么呢，琼斯夫人？",
+   "answer": "must",
+   "options": [
+    "must",
+    "am",
+    "are",
+    "is"
+   ]
+  },
+  {
+   "en": "Then ___ the floor.",
+   "zh": "然后扫扫地。",
+   "answer": "sweep",
+   "options": [
+    "sweep",
+    "read",
+    "sharpen",
+    "put on"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L029.mp4",
+  "start": 6.3,
+  "end": 47.6
+ }
+}

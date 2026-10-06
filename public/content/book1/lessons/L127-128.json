@@ -1,0 +1,381 @@
+{
+ "id": "L127-128",
+ "lessons": [
+  127,
+  128
+ ],
+ "title": "A famous actress",
+ "titleZh": "著名的女演员",
+ "evenTitle": "He can't be ... He must be ...",
+ "evenTitleZh": "他不可能……他肯定是……",
+ "words": [
+  {
+   "en": "famous",
+   "zh": "著名的",
+   "ipa": "'feɪməs",
+   "pos": "adj.",
+   "lesson": 127,
+   "audio": {
+    "file": "words/famous.mp3"
+   }
+  },
+  {
+   "en": "actress",
+   "zh": "女演员",
+   "ipa": "'æktrɪs",
+   "pos": "n.",
+   "lesson": 127,
+   "audio": {
+    "file": "words/actress.mp3"
+   }
+  },
+  {
+   "en": "at least",
+   "zh": "至少",
+   "ipa": "ət-'liːst",
+   "pos": "",
+   "lesson": 127,
+   "audio": {
+    "file": "words/at-least.mp3"
+   }
+  },
+  {
+   "en": "actor",
+   "zh": "男演员",
+   "ipa": "'æktə",
+   "pos": "n.",
+   "lesson": 127,
+   "audio": {
+    "file": "words/actor.mp3"
+   }
+  },
+  {
+   "en": "read",
+   "zh": "通过阅读得知（过去式 read /red/，过去分词 read）",
+   "ipa": "riːd",
+   "pos": "v.",
+   "lesson": 127,
+   "audio": {
+    "file": "words/read.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Kate",
+   "en": "Can you recognize that woman, Liz?",
+   "zh": "莉兹，你能认出那个女人吗？",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 7.7,
+    "end": 11.6
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "I think I can, Kate.",
+   "zh": "我想我认得出来，凯特。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 11.6,
+    "end": 13.8
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "It must be Karen Marsh, the actress.",
+   "zh": "那一定是女演员卡伦·马什。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 13.8,
+    "end": 17.7
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "I thought so.",
+   "zh": "我也这样想。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 17.7,
+    "end": 19.8
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Who's that beside her?",
+   "zh": "她旁边的那个人是谁？",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 19.8,
+    "end": 22.8
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "That must be Conrad Reeves.",
+   "zh": "一定是康拉德·里弗斯。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 22.8,
+    "end": 26.8
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Conrad Reeves, the actor?",
+   "zh": "康拉德·里弗斯，那个男演员吗？",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 26.8,
+    "end": 29.3
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "It can't be.",
+   "zh": "不可能是。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 29.3,
+    "end": 31.4
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Let me have another look.",
+   "zh": "让我再看一看。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 31.4,
+    "end": 33.8
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "I think you're right!",
+   "zh": "我想你是对的。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 33.8,
+    "end": 36.2
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Isn't he her third husband?",
+   "zh": "他不是她的第 3 个丈夫吗？",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 36.2,
+    "end": 39.6
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "No. He must be her fourth or fifth.",
+   "zh": "不，他一定是她的第 4 个或第 5 个丈夫。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 39.6,
+    "end": 44.4
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Doesn't Karen Marsh look old!",
+   "zh": "卡伦看上去不显老嘛！",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 44.4,
+    "end": 48.1
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "She does, doesn't she!",
+   "zh": "是的，谁说不是呢！",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 48.1,
+    "end": 50.6
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "I read she's twenty-nine,",
+   "zh": "我从报上看到她是 29 岁，",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 50.6,
+    "end": 53.4
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "but she must be at least forty.",
+   "zh": "但她一定至少有 40 岁了。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 53.4,
+    "end": 57.3
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "I'm sure she is.",
+   "zh": "我肯定她有 40 岁了。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 57.3,
+    "end": 60.6
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "She was a famous actress when I was still at school.",
+   "zh": "当我还是学生时，她就是个著名的演员了。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 60.6,
+    "end": 66
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "That was a long time ago, wasn't it?",
+   "zh": "那是好久以前的事了，是吗？",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 66,
+    "end": 69.4
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "Not that long ago!",
+   "zh": "不，没有那么久。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 69.4,
+    "end": 71.8
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "I'm not more than twenty-nine myself.",
+   "zh": "我自己现在还没 29 岁呢。",
+   "audio": {
+    "file": "media/L127.mp4",
+    "start": 71.8,
+    "end": 76.4
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Can you ___ that woman, Liz?",
+   "zh": "莉兹，你能认出那个女人吗？",
+   "answer": "recognize",
+   "options": [
+    "recognize",
+    "recognizes",
+    "recognized",
+    "recognizing"
+   ]
+  },
+  {
+   "en": "Conrad Reeves, the actor? It can't ___.",
+   "zh": "康拉德·里弗斯，那个男演员吗？不可能是他。",
+   "answer": "be",
+   "options": [
+    "be",
+    "is",
+    "been",
+    "being"
+   ]
+  },
+  {
+   "en": "She looks very old. She ___ be at least forty.",
+   "zh": "她看上去很老。她一定至少有 40 岁了。",
+   "answer": "must",
+   "options": [
+    "must",
+    "can't",
+    "won't",
+    "doesn't"
+   ]
+  },
+  {
+   "en": "That was a long time ___, wasn't it?",
+   "zh": "那是好久以前的事了，是吗？",
+   "answer": "ago",
+   "options": [
+    "ago",
+    "before",
+    "since",
+    "last"
+   ]
+  },
+  {
+   "en": "I'm not more than twenty-nine ___.",
+   "zh": "我自己现在还没 29 岁呢。",
+   "answer": "myself",
+   "options": [
+    "myself",
+    "me",
+    "my",
+    "mine"
+   ]
+  },
+  {
+   "en": "He can't be ill. He ___ be tired.",
+   "zh": "他不可能是病了。他一定是累了。",
+   "answer": "must",
+   "options": [
+    "must",
+    "can't",
+    "won't",
+    "doesn't"
+   ]
+  },
+  {
+   "en": "She can't be Danish. She must be ___.",
+   "zh": "她不可能是丹麦人。她一定是瑞典人。",
+   "answer": "Swedish",
+   "options": [
+    "Swedish",
+    "Sweden",
+    "Swedes",
+    "Swedishly"
+   ]
+  },
+  {
+   "en": "It can't be the 20th. It must be the ___.",
+   "zh": "不可能是 20 号。一定是 21 号。",
+   "answer": "21st",
+   "options": [
+    "21st",
+    "21",
+    "twenty-one",
+    "21th"
+   ]
+  },
+  {
+   "en": "He can't be reading. He must be ___.",
+   "zh": "他不可能在看书。他一定在睡觉。",
+   "answer": "sleeping",
+   "options": [
+    "sleeping",
+    "sleep",
+    "sleeps",
+    "slept"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L127.mp4",
+  "start": 7.2,
+  "end": 76.4
+ }
+}

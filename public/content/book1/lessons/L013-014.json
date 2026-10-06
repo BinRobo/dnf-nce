@@ -1,0 +1,350 @@
+{
+ "id": "L013-014",
+ "lessons": [
+  13,
+  14
+ ],
+ "title": "A new dress",
+ "titleZh": "一件新连衣裙",
+ "evenTitle": "What colour's your ...?",
+ "evenTitleZh": "你的……是什么颜色的？",
+ "words": [
+  {
+   "en": "colour",
+   "zh": "颜色",
+   "ipa": "'kʌlə",
+   "pos": "n.",
+   "lesson": 13,
+   "audio": {
+    "file": "words/colour.mp3"
+   }
+  },
+  {
+   "en": "green",
+   "zh": "绿色",
+   "ipa": "ɡriːn",
+   "pos": "adj.",
+   "lesson": 13,
+   "audio": {
+    "file": "words/green.mp3"
+   }
+  },
+  {
+   "en": "come",
+   "zh": "来",
+   "ipa": "kʌm",
+   "pos": "v.",
+   "lesson": 13,
+   "audio": {
+    "file": "words/come.mp3"
+   }
+  },
+  {
+   "en": "upstairs",
+   "zh": "楼上",
+   "ipa": "ʌp'steəz",
+   "pos": "adv.",
+   "lesson": 13,
+   "audio": {
+    "file": "words/upstairs.mp3"
+   }
+  },
+  {
+   "en": "smart",
+   "zh": "时髦的，巧妙的",
+   "ipa": "smɑːt",
+   "pos": "adj.",
+   "lesson": 13,
+   "audio": {
+    "file": "words/smart.mp3"
+   }
+  },
+  {
+   "en": "hat",
+   "zh": "帽子",
+   "ipa": "hæt",
+   "pos": "n.",
+   "lesson": 13,
+   "audio": {
+    "file": "words/hat.mp3"
+   }
+  },
+  {
+   "en": "same",
+   "zh": "相同的",
+   "ipa": "seɪm",
+   "pos": "adj.",
+   "lesson": 13,
+   "audio": {
+    "file": "words/same.mp3"
+   }
+  },
+  {
+   "en": "lovely",
+   "zh": "可爱的，秀丽的",
+   "ipa": "'lʌvli",
+   "pos": "adj.",
+   "lesson": 13,
+   "audio": {
+    "file": "words/lovely.mp3"
+   }
+  },
+  {
+   "en": "case",
+   "zh": "箱子",
+   "ipa": "keɪs",
+   "pos": "n.",
+   "lesson": 14,
+   "audio": {
+    "file": "words/case.mp3"
+   }
+  },
+  {
+   "en": "carpet",
+   "zh": "地毯",
+   "ipa": "'kɑːpɪt",
+   "pos": "n.",
+   "lesson": 14,
+   "audio": {
+    "file": "words/carpet.mp3"
+   }
+  },
+  {
+   "en": "dog",
+   "zh": "狗",
+   "ipa": "dɒɡ",
+   "pos": "n.",
+   "lesson": 14,
+   "audio": {
+    "file": "words/dog.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Louise",
+   "en": "What colour's your new dress?",
+   "zh": "你的新连衣裙是什么颜色的？",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 76.5,
+    "end": 81.1
+   }
+  },
+  {
+   "speaker": "Anna",
+   "en": "It's green.",
+   "zh": "是绿色的。",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 81.1,
+    "end": 83.3
+   }
+  },
+  {
+   "speaker": "Anna",
+   "en": "Come upstairs and see it.",
+   "zh": "到楼上来看看吧。",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 83.3,
+    "end": 86.8
+   }
+  },
+  {
+   "speaker": "Louise",
+   "en": "Thank you.",
+   "zh": "谢谢。",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 86.8,
+    "end": 89.4
+   }
+  },
+  {
+   "speaker": "Anna",
+   "en": "Look!",
+   "zh": "瞧，",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 89.4,
+    "end": 90.9
+   }
+  },
+  {
+   "speaker": "Anna",
+   "en": "Here it is!",
+   "zh": "就是这件。",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 90.9,
+    "end": 93.6
+   }
+  },
+  {
+   "speaker": "Louise",
+   "en": "That's a nice dress.",
+   "zh": "这件连衣裙真好，",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 93.6,
+    "end": 96.3
+   }
+  },
+  {
+   "speaker": "Louise",
+   "en": "It's very smart.",
+   "zh": "真漂亮。",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 96.3,
+    "end": 99.8
+   }
+  },
+  {
+   "speaker": "Anna",
+   "en": "My hat's new, too.",
+   "zh": "我的帽子也是新的。",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 99.8,
+    "end": 103.4
+   }
+  },
+  {
+   "speaker": "Louise",
+   "en": "What colour is it?",
+   "zh": "是什么颜色的？",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 103.4,
+    "end": 106.4
+   }
+  },
+  {
+   "speaker": "Anna",
+   "en": "It's the same colour.",
+   "zh": "一样的颜色，",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 106.4,
+    "end": 109.6
+   }
+  },
+  {
+   "speaker": "Anna",
+   "en": "It's green, too.",
+   "zh": "也是绿的。",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 109.6,
+    "end": 113.3
+   }
+  },
+  {
+   "speaker": "Louise",
+   "en": "That is a lovely hat!",
+   "zh": "真是一顶可爱的帽子！",
+   "audio": {
+    "file": "media/L013.mp4",
+    "start": 113.3,
+    "end": 118.4
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "This is Paul. This is his car. → This is ___ car.",
+   "zh": "这是保罗的车。",
+   "answer": "Paul's",
+   "options": [
+    "Paul's",
+    "Paul",
+    "his's",
+    "Pauls"
+   ]
+  },
+  {
+   "en": "This is Helen. This is her dog. → This is ___ dog.",
+   "zh": "这是海伦的狗。",
+   "answer": "Helen's",
+   "options": [
+    "Helen's",
+    "her's",
+    "Helen",
+    "Helens"
+   ]
+  },
+  {
+   "en": "What colour's Steven's umbrella? ___ umbrella's black.",
+   "zh": "史蒂文的伞是什么颜色的？他的伞是黑色的。",
+   "answer": "His",
+   "options": [
+    "His",
+    "Her",
+    "He's",
+    "Its"
+   ]
+  },
+  {
+   "en": "What colour's Sophie's coat? Her coat's ___.",
+   "zh": "索菲娅的外衣是什么颜色的？她的外衣是灰色的。",
+   "answer": "grey",
+   "options": [
+    "grey",
+    "green",
+    "blue",
+    "white"
+   ]
+  },
+  {
+   "en": "___ colour's your new dress?",
+   "zh": "你的新连衣裙是什么颜色的？",
+   "answer": "What",
+   "options": [
+    "What",
+    "Whose",
+    "How",
+    "Which"
+   ]
+  },
+  {
+   "en": "Come ___ and see it.",
+   "zh": "到楼上来看看吧。",
+   "answer": "upstairs",
+   "options": [
+    "upstairs",
+    "here",
+    "look",
+    "same"
+   ]
+  },
+  {
+   "en": "It's the ___ colour. It's green, too.",
+   "zh": "一样的颜色，也是绿的。",
+   "answer": "same",
+   "options": [
+    "same",
+    "smart",
+    "nice",
+    "new"
+   ]
+  },
+  {
+   "en": "That is a ___ hat!",
+   "zh": "真是一顶可爱的帽子！",
+   "answer": "lovely",
+   "options": [
+    "lovely",
+    "lazy",
+    "busy",
+    "dirty"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L013.mp4",
+  "start": 76,
+  "end": 118.4
+ }
+}

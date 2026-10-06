@@ -1,0 +1,358 @@
+{
+ "id": "L003-004",
+ "lessons": [
+  3,
+  4
+ ],
+ "title": "Sorry, sir.",
+ "titleZh": "对不起，先生。",
+ "evenTitle": "Is this your ...?",
+ "evenTitleZh": "这是你的……吗？",
+ "words": [
+  {
+   "en": "umbrella",
+   "zh": "伞",
+   "ipa": "ʌm'brelə",
+   "pos": "n.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/umbrella.mp3"
+   }
+  },
+  {
+   "en": "please",
+   "zh": "请",
+   "ipa": "pliːz",
+   "pos": "int.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/please.mp3"
+   }
+  },
+  {
+   "en": "here",
+   "zh": "这里",
+   "ipa": "hɪə",
+   "pos": "adv.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/here.mp3"
+   }
+  },
+  {
+   "en": "my",
+   "zh": "我的",
+   "ipa": "maɪ",
+   "pos": "adj.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/my.mp3"
+   }
+  },
+  {
+   "en": "ticket",
+   "zh": "票",
+   "ipa": "'tɪkɪt",
+   "pos": "n.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/ticket.mp3"
+   }
+  },
+  {
+   "en": "number",
+   "zh": "号码",
+   "ipa": "'nʌmbə",
+   "pos": "n.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/number.mp3"
+   }
+  },
+  {
+   "en": "five",
+   "zh": "五",
+   "ipa": "faɪv",
+   "pos": "num.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/five.mp3"
+   }
+  },
+  {
+   "en": "sorry",
+   "zh": "对不起的",
+   "ipa": "'sɒri",
+   "pos": "adj.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/sorry.mp3"
+   }
+  },
+  {
+   "en": "sir",
+   "zh": "先生",
+   "ipa": "sɜː",
+   "pos": "n.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/sir.mp3"
+   }
+  },
+  {
+   "en": "cloakroom",
+   "zh": "衣帽存放处",
+   "ipa": "'kləʊkrʊm",
+   "pos": "n.",
+   "lesson": 3,
+   "audio": {
+    "file": "words/cloakroom.mp3"
+   }
+  },
+  {
+   "en": "suit",
+   "zh": "一套衣服",
+   "ipa": "suːt",
+   "pos": "n.",
+   "lesson": 4,
+   "audio": {
+    "file": "words/suit.mp3"
+   }
+  },
+  {
+   "en": "school",
+   "zh": "学校",
+   "ipa": "skuːl",
+   "pos": "n.",
+   "lesson": 4,
+   "audio": {
+    "file": "words/school.mp3"
+   }
+  },
+  {
+   "en": "teacher",
+   "zh": "老师",
+   "ipa": "'tiːtʃə",
+   "pos": "n.",
+   "lesson": 4,
+   "audio": {
+    "file": "words/teacher.mp3"
+   }
+  },
+  {
+   "en": "son",
+   "zh": "儿子",
+   "ipa": "sʌn",
+   "pos": "n.",
+   "lesson": 4,
+   "audio": {
+    "file": "words/son.mp3"
+   }
+  },
+  {
+   "en": "daughter",
+   "zh": "女儿",
+   "ipa": "'dɔːtə",
+   "pos": "n.",
+   "lesson": 4,
+   "audio": {
+    "file": "words/daughter.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "My coat and my umbrella please.",
+   "zh": "请把我的大衣和伞拿给我。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 6.4,
+    "end": 11.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Here is my ticket.",
+   "zh": "这是我（寄存东西）的牌子。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 11.1,
+    "end": 13.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Thank you, sir.",
+   "zh": "谢谢，先生。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 13.2,
+    "end": 17
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Number five.",
+   "zh": "是5号。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 17,
+    "end": 19.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Here's your umbrella and your coat.",
+   "zh": "这是您的伞和大衣。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 19.1,
+    "end": 25.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "This is not my umbrella.",
+   "zh": "这不是我的伞。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 25.1,
+    "end": 28.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Sorry, sir.",
+   "zh": "对不起，先生。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 28.9,
+    "end": 32.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Is this your umbrella?",
+   "zh": "这把伞是您的吗？",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 32.1,
+    "end": 35.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "No, it isn't.",
+   "zh": "不，不是！",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 35.5,
+    "end": 39.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Is this it?",
+   "zh": "这把是吗？",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 39.7,
+    "end": 42.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Yes, it is.",
+   "zh": "是，是这把。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 42.6,
+    "end": 45.8
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Thank you very much.",
+   "zh": "非常感谢。",
+   "audio": {
+    "file": "media/L003.mp4",
+    "start": 45.8,
+    "end": 48.5
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Is this your suit? No, it ___.",
+   "zh": "这是你的西装吗？不，不是。",
+   "answer": "isn't",
+   "options": [
+    "isn't",
+    "is",
+    "not",
+    "it"
+   ]
+  },
+  {
+   "en": "This is ___ my umbrella.",
+   "zh": "这不是我的伞。",
+   "answer": "not",
+   "options": [
+    "not",
+    "no",
+    "isn't",
+    "my"
+   ]
+  },
+  {
+   "en": "___ is my ticket.",
+   "zh": "这是我的票。",
+   "answer": "Here",
+   "options": [
+    "Here",
+    "Is",
+    "Please",
+    "Sir"
+   ]
+  },
+  {
+   "en": "Is this your school? Yes, ___ is.",
+   "zh": "这是你的学校吗？是的。",
+   "answer": "it",
+   "options": [
+    "it",
+    "this",
+    "is",
+    "your"
+   ]
+  },
+  {
+   "en": "No. It isn't my umbrella. It's ___ umbrella.",
+   "zh": "不，这不是我的伞，是你的伞。",
+   "answer": "your",
+   "options": [
+    "your",
+    "my",
+    "you",
+    "it"
+   ]
+  },
+  {
+   "en": "Is this your ___?",
+   "zh": "这是你的儿子吗？",
+   "answer": "son",
+   "options": [
+    "son",
+    "daughter",
+    "teacher",
+    "school"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L003.mp4",
+  "start": 5.9,
+  "end": 48.5
+ }
+}

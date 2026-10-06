@@ -1,0 +1,368 @@
+{
+ "id": "L001-002",
+ "lessons": [
+  1,
+  2
+ ],
+ "title": "Excuse me!",
+ "titleZh": "对不起！",
+ "evenTitle": "Is this your ...?",
+ "evenTitleZh": "这是你的……吗？",
+ "words": [
+  {
+   "en": "excuse",
+   "zh": "原谅",
+   "ipa": "ɪks'kjuːz",
+   "pos": "v.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/excuse.mp3"
+   }
+  },
+  {
+   "en": "me",
+   "zh": "我（宾格）",
+   "ipa": "miː",
+   "pos": "pron.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/me.mp3"
+   }
+  },
+  {
+   "en": "yes",
+   "zh": "是的",
+   "ipa": "jes",
+   "pos": "adv.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/yes.mp3"
+   }
+  },
+  {
+   "en": "is",
+   "zh": "是（be 动词第三人称单数）",
+   "ipa": "ɪz",
+   "pos": "v.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/is.mp3"
+   }
+  },
+  {
+   "en": "this",
+   "zh": "这",
+   "ipa": "ðɪs",
+   "pos": "pron.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/this.mp3"
+   }
+  },
+  {
+   "en": "your",
+   "zh": "你的，你们的",
+   "ipa": "jɔː",
+   "pos": "adj.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/your.mp3"
+   }
+  },
+  {
+   "en": "handbag",
+   "zh": "（女用）手提包",
+   "ipa": "'hændbæɡ",
+   "pos": "n.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/handbag.mp3"
+   }
+  },
+  {
+   "en": "pardon",
+   "zh": "原谅，请再说一遍",
+   "ipa": "'pɑːdn",
+   "pos": "int.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/pardon.mp3"
+   }
+  },
+  {
+   "en": "it",
+   "zh": "它",
+   "ipa": "ɪt",
+   "pos": "pron.",
+   "lesson": 1,
+   "audio": {
+    "file": "words/it.mp3"
+   }
+  },
+  {
+   "en": "thank you",
+   "zh": "感谢你（们）",
+   "ipa": "'θæŋk-juː",
+   "pos": "",
+   "lesson": 1,
+   "audio": {
+    "file": "words/thank-you.mp3"
+   }
+  },
+  {
+   "en": "very much",
+   "zh": "非常地",
+   "ipa": "'veri-mʌtʃ",
+   "pos": "",
+   "lesson": 1,
+   "audio": {
+    "file": "words/very-much.mp3"
+   }
+  },
+  {
+   "en": "pen",
+   "zh": "钢笔",
+   "ipa": "pen",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/pen.mp3"
+   }
+  },
+  {
+   "en": "pencil",
+   "zh": "铅笔",
+   "ipa": "'pensəl",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/pencil.mp3"
+   }
+  },
+  {
+   "en": "book",
+   "zh": "书",
+   "ipa": "bʊk",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/book.mp3"
+   }
+  },
+  {
+   "en": "watch",
+   "zh": "手表",
+   "ipa": "wɒtʃ",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/watch.mp3"
+   }
+  },
+  {
+   "en": "coat",
+   "zh": "上衣，外衣",
+   "ipa": "kəʊt",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/coat.mp3"
+   }
+  },
+  {
+   "en": "dress",
+   "zh": "连衣裙",
+   "ipa": "dres",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/dress.mp3"
+   }
+  },
+  {
+   "en": "skirt",
+   "zh": "裙子",
+   "ipa": "skɜːt",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/skirt.mp3"
+   }
+  },
+  {
+   "en": "shirt",
+   "zh": "衬衣",
+   "ipa": "ʃɜːt",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/shirt.mp3"
+   }
+  },
+  {
+   "en": "car",
+   "zh": "小汽车",
+   "ipa": "kɑː",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/car.mp3"
+   }
+  },
+  {
+   "en": "house",
+   "zh": "房子",
+   "ipa": "haʊs",
+   "pos": "n.",
+   "lesson": 2,
+   "audio": {
+    "file": "words/house.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Man",
+   "en": "Excuse me!",
+   "zh": "对不起。",
+   "audio": {
+    "file": "media/L001.mp4",
+    "start": 5.8,
+    "end": 8
+   }
+  },
+  {
+   "speaker": "Woman",
+   "en": "Yes?",
+   "zh": "什么事？",
+   "audio": {
+    "file": "media/L001.mp4",
+    "start": 8,
+    "end": 9.4
+   }
+  },
+  {
+   "speaker": "Man",
+   "en": "Is this your handbag?",
+   "zh": "这是您的手提包吗？",
+   "audio": {
+    "file": "media/L001.mp4",
+    "start": 9.4,
+    "end": 12.4
+   }
+  },
+  {
+   "speaker": "Woman",
+   "en": "Pardon?",
+   "zh": "对不起，请再说一遍。",
+   "audio": {
+    "file": "media/L001.mp4",
+    "start": 12.4,
+    "end": 14
+   }
+  },
+  {
+   "speaker": "Man",
+   "en": "Is this your handbag?",
+   "zh": "这是您的手提包吗？",
+   "audio": {
+    "file": "media/L001.mp4",
+    "start": 14,
+    "end": 17.2
+   }
+  },
+  {
+   "speaker": "Woman",
+   "en": "Yes, it is.",
+   "zh": "是的，是我的。",
+   "audio": {
+    "file": "media/L001.mp4",
+    "start": 17.2,
+    "end": 21.4
+   }
+  },
+  {
+   "speaker": "Woman",
+   "en": "Thank you very much.",
+   "zh": "非常感谢！",
+   "audio": {
+    "file": "media/L001.mp4",
+    "start": 21.4,
+    "end": 24.6
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Is this ___ pen?",
+   "zh": "这是你的钢笔吗？",
+   "answer": "your",
+   "options": [
+    "your",
+    "you",
+    "yes",
+    "me"
+   ]
+  },
+  {
+   "en": "___ this your book?",
+   "zh": "这是你的书吗？",
+   "answer": "Is",
+   "options": [
+    "Is",
+    "It",
+    "This",
+    "Yes"
+   ]
+  },
+  {
+   "en": "Yes, it ___.",
+   "zh": "是的，它是。",
+   "answer": "is",
+   "options": [
+    "is",
+    "it",
+    "this",
+    "your"
+   ]
+  },
+  {
+   "en": "Is ___ your watch?",
+   "zh": "这是你的手表吗？",
+   "answer": "this",
+   "options": [
+    "this",
+    "is",
+    "it",
+    "pardon"
+   ]
+  },
+  {
+   "en": "Thank you very ___.",
+   "zh": "非常感谢。",
+   "answer": "much",
+   "options": [
+    "much",
+    "me",
+    "yes",
+    "is"
+   ]
+  },
+  {
+   "en": "___ me!",
+   "zh": "对不起！",
+   "answer": "Excuse",
+   "options": [
+    "Excuse",
+    "Pardon",
+    "Thank",
+    "Yes"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L001.mp4",
+  "start": 5.3,
+  "end": 24.6
+ }
+}

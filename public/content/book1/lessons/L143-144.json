@@ -1,0 +1,451 @@
+{
+ "id": "L143-144",
+ "lessons": [
+  143,
+  144
+ ],
+ "title": "A walk through the woods",
+ "titleZh": "林中散步",
+ "evenTitle": "He hasn't been served yet. / He will be served soon.",
+ "evenTitleZh": "还没有人来侍候他。／很快会有人来侍候他的。",
+ "words": [
+  {
+   "en": "surround",
+   "zh": "包围",
+   "ipa": "sə'raʊnd",
+   "pos": "v.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/surround.mp3"
+   }
+  },
+  {
+   "en": "wood",
+   "zh": "树林",
+   "ipa": "wʊd",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/wood.mp3"
+   }
+  },
+  {
+   "en": "beauty spot",
+   "zh": "风景点",
+   "ipa": "'bjuːti-spɒt",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/beauty-spot.mp3"
+   }
+  },
+  {
+   "en": "hundred",
+   "zh": "百",
+   "ipa": "'hʌndrɪd",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/hundred.mp3"
+   }
+  },
+  {
+   "en": "city",
+   "zh": "城市",
+   "ipa": "'sɪti",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/city.mp3"
+   }
+  },
+  {
+   "en": "through",
+   "zh": "穿过",
+   "ipa": "θruː",
+   "pos": "prep.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/through.mp3"
+   }
+  },
+  {
+   "en": "visitor",
+   "zh": "参观者，游客，来访者",
+   "ipa": "'vɪzɪtə",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/visitor.mp3"
+   }
+  },
+  {
+   "en": "tidy",
+   "zh": "整齐的",
+   "ipa": "'taɪdi",
+   "pos": "adj.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/tidy.mp3"
+   }
+  },
+  {
+   "en": "litter",
+   "zh": "杂乱的东西",
+   "ipa": "'lɪtə",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/litter.mp3"
+   }
+  },
+  {
+   "en": "litter basket",
+   "zh": "废物筐",
+   "ipa": "",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/litter-basket.mp3"
+   }
+  },
+  {
+   "en": "place",
+   "zh": "放",
+   "ipa": "pleɪs",
+   "pos": "v.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/place.mp3"
+   }
+  },
+  {
+   "en": "throw",
+   "zh": "扔，抛（过去式 threw，过去分词 thrown）",
+   "ipa": "θrəʊ",
+   "pos": "v.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/throw.mp3"
+   }
+  },
+  {
+   "en": "rubbish",
+   "zh": "垃圾",
+   "ipa": "'rʌbɪʃ",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/rubbish.mp3"
+   }
+  },
+  {
+   "en": "count",
+   "zh": "数，点",
+   "ipa": "kaʊnt",
+   "pos": "v.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/count.mp3"
+   }
+  },
+  {
+   "en": "cover",
+   "zh": "覆盖",
+   "ipa": "'kʌvə",
+   "pos": "v.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/cover.mp3"
+   }
+  },
+  {
+   "en": "piece",
+   "zh": "碎片",
+   "ipa": "piːs",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/piece.mp3"
+   }
+  },
+  {
+   "en": "tyre",
+   "zh": "轮胎",
+   "ipa": "'taɪə",
+   "pos": "n.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/tyre.mp3"
+   }
+  },
+  {
+   "en": "rusty",
+   "zh": "生锈的",
+   "ipa": "'rʌsti",
+   "pos": "adj.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/rusty.mp3"
+   }
+  },
+  {
+   "en": "among",
+   "zh": "在……之间",
+   "ipa": "ə'mʌŋ",
+   "pos": "prep.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/among.mp3"
+   }
+  },
+  {
+   "en": "prosecute",
+   "zh": "依法处置",
+   "ipa": "'prɒsɪkjuːt",
+   "pos": "v.",
+   "lesson": 143,
+   "audio": {
+    "file": "words/prosecute.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "",
+   "en": "I live in a very old town which is surrounded by beautiful woods.",
+   "zh": "我住在一个由美丽的树林环绕的古老小镇上。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 10,
+    "end": 18.6
+   }
+  },
+  {
+   "speaker": "",
+   "en": "It is a famous beauty spot.",
+   "zh": "这是一个著名的风景胜地。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 18.6,
+    "end": 21.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "On Sundays, hundreds of people come from the city to see our town and to walk through the woods.",
+   "zh": "每逢星期天，有许许多多人从城里来观赏我们的小镇，并在树林中散步。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 21.9,
+    "end": 31.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Visitors have been asked to keep the woods clean and tidy.",
+   "zh": "游客已被告知要保持树林的整洁。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 31.4,
+    "end": 37.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Litter baskets have been placed under the trees,",
+   "zh": "树下都已设置了废物筐，",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 37.5,
+    "end": 41.7
+   }
+  },
+  {
+   "speaker": "",
+   "en": "but people still throw their rubbish everywhere.",
+   "zh": "但是人们仍到处扔垃圾。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 41.7,
+    "end": 46.3
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Last Wednesday, I went for a walk in the woods.",
+   "zh": "上星期三我到树林里去散步。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 46.3,
+    "end": 51.1
+   }
+  },
+  {
+   "speaker": "",
+   "en": "What I saw made me very sad.",
+   "zh": "我所见到的一切使我非常难过。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 51.1,
+    "end": 54.2
+   }
+  },
+  {
+   "speaker": "",
+   "en": "I counted seven old cars and three old refrigerators.",
+   "zh": "我数了一下，有7辆旧汽车和3个旧冰箱。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 54.2,
+    "end": 62.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "The litter baskets were empty",
+   "zh": "废物筐是空的，",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 62.4,
+    "end": 65.5
+   }
+  },
+  {
+   "speaker": "",
+   "en": "and the ground was covered with pieces of paper, cigarette ends, old tyres, empty bottles and rusty tins.",
+   "zh": "而满地都是纸片、烟头、旧轮胎、空瓶子和生锈的空罐头盒。",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 65.5,
+    "end": 77.9
+   }
+  },
+  {
+   "speaker": "",
+   "en": "Among the rubbish, I found a sign which said,",
+   "zh": "在垃圾堆中我发现了一块牌子，上面写着：",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 77.9,
+    "end": 82.4
+   }
+  },
+  {
+   "speaker": "",
+   "en": "'Anyone who leaves litter in these woods will be prosecuted!'",
+   "zh": "“凡在此树林里丢弃垃圾者，将依法处置。”",
+   "audio": {
+    "file": "media/L143.mp4",
+    "start": 82.4,
+    "end": 89.2
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "Visitors have been ___ to keep the woods clean and tidy.",
+   "zh": "游客已被告知要保持树林的整洁。",
+   "answer": "asked",
+   "options": [
+    "asked",
+    "ask",
+    "asking",
+    "asks"
+   ]
+  },
+  {
+   "en": "Litter baskets have been ___ under the trees.",
+   "zh": "树下已设置了废物筐。",
+   "answer": "placed",
+   "options": [
+    "placed",
+    "place",
+    "placing",
+    "places"
+   ]
+  },
+  {
+   "en": "Hasn't anyone repaired this car yet? It has already been ___.",
+   "zh": "还没有人修这辆车吗？它已经被修好了！",
+   "answer": "repaired",
+   "options": [
+    "repaired",
+    "repair",
+    "repairs",
+    "repairing"
+   ]
+  },
+  {
+   "en": "Hasn't anyone corrected these exercise books yet? They have already ___ corrected!",
+   "zh": "还没有人批改这些练习本吗？它们已经被批改了！",
+   "answer": "been",
+   "options": [
+    "been",
+    "be",
+    "being",
+    "was"
+   ]
+  },
+  {
+   "en": "He hasn't been caught yet. He will be ___ soon!",
+   "zh": "他还没被抓住。他很快会被抓住的！",
+   "answer": "caught",
+   "options": [
+    "caught",
+    "catch",
+    "catches",
+    "catching"
+   ]
+  },
+  {
+   "en": "Hasn't anyone opened the window yet? It hasn't been opened yet. It ___ be opened tomorrow.",
+   "zh": "还没有人开窗吗？它还没被打开，明天会被打开。",
+   "answer": "will",
+   "options": [
+    "will",
+    "has",
+    "is",
+    "did"
+   ]
+  },
+  {
+   "en": "The ground was covered ___ pieces of paper.",
+   "zh": "地上满是纸片。",
+   "answer": "with",
+   "options": [
+    "with",
+    "for",
+    "to",
+    "at"
+   ]
+  },
+  {
+   "en": "What I saw ___ me very sad.",
+   "zh": "我所见到的一切使我非常难过。",
+   "answer": "made",
+   "options": [
+    "made",
+    "make",
+    "makes",
+    "making"
+   ]
+  },
+  {
+   "en": "Among the rubbish, I found a ___ which said, 'Anyone who leaves litter will be prosecuted!'",
+   "zh": "在垃圾堆中我发现了一块牌子，上面写着：“乱扔垃圾者将依法处置！”",
+   "answer": "sign",
+   "options": [
+    "sign",
+    "tyre",
+    "wood",
+    "city"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L143.mp4",
+  "start": 9.5,
+  "end": 89.2
+ }
+}

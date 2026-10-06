@@ -1,0 +1,401 @@
+{
+ "id": "L135-136",
+ "lessons": [
+  135,
+  136
+ ],
+ "title": "The latest report",
+ "titleZh": "最新消息",
+ "evenTitle": "He said (that) he ... / He told me (that) he ...",
+ "evenTitleZh": "他（曾）说他……／他（曾）告诉我说他……",
+ "words": [
+  {
+   "en": "future",
+   "zh": "未来的",
+   "ipa": "'fjuːtʃə",
+   "pos": "adj.",
+   "lesson": 135,
+   "audio": {
+    "file": "words/future.mp3"
+   }
+  },
+  {
+   "en": "get married",
+   "zh": "结婚",
+   "ipa": "",
+   "pos": "",
+   "lesson": 135,
+   "audio": {
+    "file": "words/get-married.mp3"
+   }
+  },
+  {
+   "en": "hotel",
+   "zh": "饭店，旅馆",
+   "ipa": "həʊ'tel",
+   "pos": "n.",
+   "lesson": 135,
+   "audio": {
+    "file": "words/hotel.mp3"
+   }
+  },
+  {
+   "en": "latest",
+   "zh": "最新的",
+   "ipa": "'leɪtɪst",
+   "pos": "adj.",
+   "lesson": 135,
+   "audio": {
+    "file": "words/latest.mp3"
+   }
+  },
+  {
+   "en": "introduce",
+   "zh": "介绍",
+   "ipa": "ˌɪntrə'djuːs",
+   "pos": "v.",
+   "lesson": 135,
+   "audio": {
+    "file": "words/introduce.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Reporter",
+   "en": "Are you really going to retire, Miss Marsh?",
+   "zh": "马什小姐，您真的准备退休吗？",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 7.8,
+    "end": 11.9
+   }
+  },
+  {
+   "speaker": "Miss Marsh",
+   "en": "I may.",
+   "zh": "有可能退。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 11.9,
+    "end": 13.4
+   }
+  },
+  {
+   "speaker": "Miss Marsh",
+   "en": "I can't make up my mind.",
+   "zh": "我还拿不定主意。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 13.4,
+    "end": 16
+   }
+  },
+  {
+   "speaker": "Miss Marsh",
+   "en": "I will have to ask my future husband.",
+   "zh": "我得问一下我的未婚夫。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 16,
+    "end": 20
+   }
+  },
+  {
+   "speaker": "Miss Marsh",
+   "en": "He won't let me make another film.",
+   "zh": "他不会再让我拍电影了。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 20,
+    "end": 22.9
+   }
+  },
+  {
+   "speaker": "Reporter",
+   "en": "Your future husband, Miss Marsh?",
+   "zh": "您的未婚夫，马什小姐？",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 22.9,
+    "end": 25.5
+   }
+  },
+  {
+   "speaker": "Miss Marsh",
+   "en": "Yes.",
+   "zh": "是的。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 25.5,
+    "end": 27.1
+   }
+  },
+  {
+   "speaker": "Miss Marsh",
+   "en": "Let me introduce him to you.",
+   "zh": "让我把他给你们介绍一下。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 27.1,
+    "end": 30.2
+   }
+  },
+  {
+   "speaker": "Miss Marsh",
+   "en": "His name is Carlos.",
+   "zh": "他叫卡洛斯。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 30.2,
+    "end": 34.1
+   }
+  },
+  {
+   "speaker": "Miss Marsh",
+   "en": "We're going to get married next week.",
+   "zh": "下星期我们就要结婚了。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 34.1,
+    "end": 37.3
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Look, Liz!",
+   "zh": "看啊，莉兹！",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 37.3,
+    "end": 39.6
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Here's another report about Karen Marsh.",
+   "zh": "这又有一篇关于卡伦·马什的报道。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 39.6,
+    "end": 42.7
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Listen: 'Karen Marsh: The latest.",
+   "zh": "你听，“卡伦·马什：最新消息。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 42.7,
+    "end": 47.5
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "At her London Hotel today",
+   "zh": "今天在伦敦旅馆，",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 47.5,
+    "end": 50.1
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Miss Marsh told reporters she might retire.",
+   "zh": "马什小姐告诉记者她可能要退休。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 50.1,
+    "end": 55
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "She said she couldn't make up her mind.",
+   "zh": "她说她还拿不定主意。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 55,
+    "end": 58
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "She said she would have to ask her future husband.",
+   "zh": "她说她得问问她的未婚夫。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 58,
+    "end": 62.5
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "She said her future husband would not let her make another film.",
+   "zh": "她说她的未婚夫不会再让她拍电影。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 62.5,
+    "end": 68.2
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "Then she introduced us to Carlos",
+   "zh": "然后她把我们介绍给卡洛斯，",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 68.2,
+    "end": 71.3
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "and told us they would get married next week.'",
+   "zh": "并告诉我们说他们下星期结婚。”",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 71.3,
+    "end": 75.9
+   }
+  },
+  {
+   "speaker": "Liz",
+   "en": "That's sensational news, isn't it, Kate?",
+   "zh": "凯特，这真是条轰动的消息，是不是？",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 75.9,
+    "end": 79.4
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "It certainly is.",
+   "zh": "当然啦。",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 79.9,
+    "end": 81.6
+   }
+  },
+  {
+   "speaker": "Kate",
+   "en": "He'll be her sixth husband!",
+   "zh": "他将是她的第6个丈夫！",
+   "audio": {
+    "file": "media/L135.mp4",
+    "start": 81.6,
+    "end": 86.1
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I will leave tomorrow. → He said he ___ leave tomorrow.",
+   "zh": "他说他明天走。",
+   "answer": "would",
+   "options": [
+    "would",
+    "will",
+    "is",
+    "does"
+   ]
+  },
+  {
+   "en": "I can't do this Maths problem. → He said he ___ do this Maths problem.",
+   "zh": "他说他做不了这道数学题。",
+   "answer": "couldn't",
+   "options": [
+    "couldn't",
+    "can't",
+    "didn't",
+    "hasn't"
+   ]
+  },
+  {
+   "en": "I may return at six o'clock. → She said she ___ return at six o'clock.",
+   "zh": "她说她可能六点回来。",
+   "answer": "might",
+   "options": [
+    "might",
+    "may",
+    "must",
+    "mights"
+   ]
+  },
+  {
+   "en": "I will write to him. → He said he ___ write to him.",
+   "zh": "他说他会给他写信。",
+   "answer": "would",
+   "options": [
+    "would",
+    "will",
+    "shall",
+    "does"
+   ]
+  },
+  {
+   "en": "I can finish it. → He told me he ___ finish it.",
+   "zh": "他告诉我他能做完。",
+   "answer": "could",
+   "options": [
+    "could",
+    "can",
+    "did",
+    "may"
+   ]
+  },
+  {
+   "en": "Are you really going to retire, Miss Marsh? I ___.",
+   "zh": "您真的准备退休吗，马什小姐？有可能。",
+   "answer": "may",
+   "options": [
+    "may",
+    "are",
+    "do",
+    "did"
+   ]
+  },
+  {
+   "en": "Let me ___ him to you.",
+   "zh": "让我把他给你们介绍一下。",
+   "answer": "introduce",
+   "options": [
+    "introduce",
+    "introduced",
+    "introduces",
+    "introducing"
+   ]
+  },
+  {
+   "en": "They're going to get ___ next week.",
+   "zh": "他们下星期就要结婚了。",
+   "answer": "married",
+   "options": [
+    "married",
+    "marry",
+    "marrying",
+    "hotel"
+   ]
+  },
+  {
+   "en": "Miss Marsh will have to ask her ___ husband.",
+   "zh": "马什小姐得问问她的未婚夫。",
+   "answer": "future",
+   "options": [
+    "future",
+    "latest",
+    "sensational",
+    "married"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L135.mp4",
+  "start": 7.3,
+  "end": 86.1
+ }
+}

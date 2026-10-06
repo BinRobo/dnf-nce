@@ -1,0 +1,541 @@
+{
+ "id": "L061-062",
+ "lessons": [
+  61,
+  62
+ ],
+ "title": "A bad cold",
+ "titleZh": "重感冒",
+ "evenTitle": "What's the matter with them? What must they do?",
+ "evenTitleZh": "他们怎么啦？他们该怎么办？",
+ "words": [
+  {
+   "en": "feel",
+   "zh": "感觉",
+   "ipa": "fiːl",
+   "pos": "v.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/feel.mp3"
+   }
+  },
+  {
+   "en": "look",
+   "zh": "看（起来）",
+   "ipa": "lʊk",
+   "pos": "v.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/look.mp3"
+   }
+  },
+  {
+   "en": "must",
+   "zh": "必须",
+   "ipa": "mʌst",
+   "pos": "v.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/must.mp3"
+   }
+  },
+  {
+   "en": "call",
+   "zh": "叫，请",
+   "ipa": "kɔːl",
+   "pos": "v.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/call.mp3"
+   }
+  },
+  {
+   "en": "doctor",
+   "zh": "医生",
+   "ipa": "'dɒktə",
+   "pos": "n.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/doctor.mp3"
+   }
+  },
+  {
+   "en": "telephone",
+   "zh": "电话",
+   "ipa": "'telɪfəʊn",
+   "pos": "n.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/telephone.mp3"
+   }
+  },
+  {
+   "en": "remember",
+   "zh": "记得，记住",
+   "ipa": "rɪ'membə",
+   "pos": "v.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/remember.mp3"
+   }
+  },
+  {
+   "en": "mouth",
+   "zh": "嘴",
+   "ipa": "maʊθ",
+   "pos": "n.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/mouth.mp3"
+   }
+  },
+  {
+   "en": "tongue",
+   "zh": "舌头",
+   "ipa": "tʌŋ",
+   "pos": "n.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/tongue.mp3"
+   }
+  },
+  {
+   "en": "bad",
+   "zh": "坏的，严重的",
+   "ipa": "bæd",
+   "pos": "adj.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/bad.mp3"
+   }
+  },
+  {
+   "en": "cold",
+   "zh": "感冒",
+   "ipa": "kəʊld",
+   "pos": "n.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/cold.mp3"
+   }
+  },
+  {
+   "en": "news",
+   "zh": "消息",
+   "ipa": "njuːz",
+   "pos": "n.",
+   "lesson": 61,
+   "audio": {
+    "file": "words/news.mp3"
+   }
+  },
+  {
+   "en": "headache",
+   "zh": "头痛",
+   "ipa": "'hedeɪk",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/headache.mp3"
+   }
+  },
+  {
+   "en": "aspirin",
+   "zh": "阿斯匹林",
+   "ipa": "'æsprɪn",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/aspirin.mp3"
+   }
+  },
+  {
+   "en": "earache",
+   "zh": "耳痛",
+   "ipa": "'ɪəreɪk",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/earache.mp3"
+   }
+  },
+  {
+   "en": "toothache",
+   "zh": "牙痛",
+   "ipa": "'tuːθeɪk",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/toothache.mp3"
+   }
+  },
+  {
+   "en": "dentist",
+   "zh": "牙医",
+   "ipa": "'dentɪst",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/dentist.mp3"
+   }
+  },
+  {
+   "en": "stomach ache",
+   "zh": "胃痛",
+   "ipa": "'stʌmək-eɪk",
+   "pos": "",
+   "lesson": 62,
+   "audio": {
+    "file": "words/stomach-ache.mp3"
+   }
+  },
+  {
+   "en": "medicine",
+   "zh": "药",
+   "ipa": "'medsɪn",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/medicine.mp3"
+   }
+  },
+  {
+   "en": "temperature",
+   "zh": "温度",
+   "ipa": "'tempərətʃə",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/temperature.mp3"
+   }
+  },
+  {
+   "en": "flu",
+   "zh": "流行性感冒",
+   "ipa": "fluː",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/flu.mp3"
+   }
+  },
+  {
+   "en": "measles",
+   "zh": "麻疹",
+   "ipa": "'miːzəlz",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/measles.mp3"
+   }
+  },
+  {
+   "en": "mumps",
+   "zh": "腮腺炎",
+   "ipa": "mʌmps",
+   "pos": "n.",
+   "lesson": 62,
+   "audio": {
+    "file": "words/mumps.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Mr. Williams",
+   "en": "Where's Jimmy?",
+   "zh": "吉米在哪儿？",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 6.9,
+    "end": 9.1
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "He's in bed.",
+   "zh": "他躺在床上。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 9.1,
+    "end": 10.9
+   }
+  },
+  {
+   "speaker": "Mr. Williams",
+   "en": "What's the matter with him?",
+   "zh": "他怎么啦？",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 10.9,
+    "end": 12.8
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "He feels ill.",
+   "zh": "他觉得不舒服。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 12.8,
+    "end": 14.7
+   }
+  },
+  {
+   "speaker": "Mr. Williams",
+   "en": "He looks ill.",
+   "zh": "他看上去是病了。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 14.7,
+    "end": 17.3
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "We must call the doctor.",
+   "zh": "我们得去请医生。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 17.3,
+    "end": 19.3
+   }
+  },
+  {
+   "speaker": "Mr. Williams",
+   "en": "Yes, we must.",
+   "zh": "是的，一定得请。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 19.3,
+    "end": 21.8
+   }
+  },
+  {
+   "speaker": "Mr. Williams",
+   "en": "Can you remember the doctor's telephone number?",
+   "zh": "你还记得医生的电话号码吗？",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 21.8,
+    "end": 25.6
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "Yes. It's 09754.",
+   "zh": "记得。是 09754。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 25.6,
+    "end": 33.2
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "Open your mouth, Jimmy.",
+   "zh": "把嘴张开，吉米。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 33.2,
+    "end": 36.1
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "Show me your tongue.",
+   "zh": "让我看看你的舌头。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 36.1,
+    "end": 38.4
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "Say, 'Ah'.",
+   "zh": "说“啊——”。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 38.4,
+    "end": 42.2
+   }
+  },
+  {
+   "speaker": "Mr. Williams",
+   "en": "What's the matter with him, doctor?",
+   "zh": "他得了什么病，医生？",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 42.2,
+    "end": 45.6
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "He has a bad cold, Mr. Williams,",
+   "zh": "他得了重感冒，威廉斯先生，",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 45.6,
+    "end": 48.5
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "so he must stay in bed for a week.",
+   "zh": "因此他必须卧床一周。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 48.5,
+    "end": 52
+   }
+  },
+  {
+   "speaker": "Mrs. Williams",
+   "en": "That's good news for Jimmy.",
+   "zh": "对吉米来说，这可是个好消息。",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 52,
+    "end": 54.8
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "Good news?",
+   "zh": "好消息？",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 54.8,
+    "end": 56.2
+   }
+  },
+  {
+   "speaker": "Doctor",
+   "en": "Why?",
+   "zh": "为什么？",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 56.2,
+    "end": 57.8
+   }
+  },
+  {
+   "speaker": "Mr. Williams",
+   "en": "Because he doesn't like school!",
+   "zh": "因为他不喜欢上学！",
+   "audio": {
+    "file": "media/L061.mp4",
+    "start": 57.8,
+    "end": 61.8
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "I have a headache. → He ___ a headache.",
+   "zh": "他头痛。",
+   "answer": "has",
+   "options": [
+    "has",
+    "have",
+    "haves",
+    "having"
+   ]
+  },
+  {
+   "en": "I must stay at home. → He ___ stay at home.",
+   "zh": "他必须呆在家里。",
+   "answer": "must",
+   "options": [
+    "must",
+    "musts",
+    "is must",
+    "has"
+   ]
+  },
+  {
+   "en": "I feel ill. → He ___ ill.",
+   "zh": "他觉得不舒服。",
+   "answer": "feels",
+   "options": [
+    "feels",
+    "feel",
+    "feeling",
+    "feeles"
+   ]
+  },
+  {
+   "en": "I do not like doctors. → He ___ not like doctors.",
+   "zh": "他不喜欢医生。",
+   "answer": "does",
+   "options": [
+    "does",
+    "do",
+    "is",
+    "has"
+   ]
+  },
+  {
+   "en": "She has a headache. So she must take an ___.",
+   "zh": "她头痛，所以她得吃片阿斯匹林。",
+   "answer": "aspirin",
+   "options": [
+    "aspirin",
+    "dentist",
+    "medicine",
+    "doctor"
+   ]
+  },
+  {
+   "en": "He has a toothache. So he must see a ___.",
+   "zh": "他牙痛，所以他得去看牙医。",
+   "answer": "dentist",
+   "options": [
+    "dentist",
+    "doctor's",
+    "aspirin",
+    "nurse"
+   ]
+  },
+  {
+   "en": "Does he have a stomach ache? No, he doesn't ___ a stomach ache.",
+   "zh": "他胃痛吗？不，他不胃痛。",
+   "answer": "have",
+   "options": [
+    "have",
+    "has",
+    "having",
+    "haves"
+   ]
+  },
+  {
+   "en": "What's the matter ___ him?",
+   "zh": "他怎么啦？",
+   "answer": "with",
+   "options": [
+    "with",
+    "for",
+    "of",
+    "to"
+   ]
+  },
+  {
+   "en": "He has a bad ___, so he must stay in bed for a week.",
+   "zh": "他得了重感冒，因此他必须卧床一周。",
+   "answer": "cold",
+   "options": [
+    "cold",
+    "news",
+    "mouth",
+    "tongue"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L061.mp4",
+  "start": 6.4,
+  "end": 61.8
+ }
+}

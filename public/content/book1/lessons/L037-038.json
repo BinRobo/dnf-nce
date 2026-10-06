@@ -1,0 +1,411 @@
+{
+ "id": "L037-038",
+ "lessons": [
+  37,
+  38
+ ],
+ "title": "Making a bookcase",
+ "titleZh": "做书架",
+ "evenTitle": "What are you going to do? What are you doing now?",
+ "evenTitleZh": "你准备做什么？你现在正在做什么？",
+ "words": [
+  {
+   "en": "work",
+   "zh": "工作",
+   "ipa": "wɜːk",
+   "pos": "v.",
+   "lesson": 37,
+   "audio": {
+    "file": "words/work.mp3"
+   }
+  },
+  {
+   "en": "hard",
+   "zh": "努力地",
+   "ipa": "hɑːd",
+   "pos": "adv.",
+   "lesson": 37,
+   "audio": {
+    "file": "words/hard.mp3"
+   }
+  },
+  {
+   "en": "make",
+   "zh": "做",
+   "ipa": "meɪk",
+   "pos": "v.",
+   "lesson": 37,
+   "audio": {
+    "file": "words/make.mp3"
+   }
+  },
+  {
+   "en": "bookcase",
+   "zh": "书橱，书架",
+   "ipa": "'bʊk-keɪs",
+   "pos": "n.",
+   "lesson": 37,
+   "audio": {
+    "file": "words/bookcase.mp3"
+   }
+  },
+  {
+   "en": "hammer",
+   "zh": "锤子",
+   "ipa": "'hæmə",
+   "pos": "n.",
+   "lesson": 37,
+   "audio": {
+    "file": "words/hammer.mp3"
+   }
+  },
+  {
+   "en": "paint",
+   "zh": "上漆，涂",
+   "ipa": "peɪnt",
+   "pos": "v.",
+   "lesson": 37,
+   "audio": {
+    "file": "words/paint.mp3"
+   }
+  },
+  {
+   "en": "pink",
+   "zh": "粉红色",
+   "ipa": "pɪŋk",
+   "pos": "n. & adj.",
+   "lesson": 37,
+   "audio": {
+    "file": "words/pink.mp3"
+   }
+  },
+  {
+   "en": "favourite",
+   "zh": "最喜欢的",
+   "ipa": "'feɪvərɪt",
+   "pos": "adj.",
+   "lesson": 37,
+   "audio": {
+    "file": "words/favourite.mp3"
+   }
+  },
+  {
+   "en": "homework",
+   "zh": "作业",
+   "ipa": "'həʊmwɜːk",
+   "pos": "n.",
+   "lesson": 38,
+   "audio": {
+    "file": "words/homework.mp3"
+   }
+  },
+  {
+   "en": "listen",
+   "zh": "听",
+   "ipa": "'lɪsən",
+   "pos": "v.",
+   "lesson": 38,
+   "audio": {
+    "file": "words/listen.mp3"
+   }
+  },
+  {
+   "en": "dish",
+   "zh": "盘子，碟子",
+   "ipa": "dɪʃ",
+   "pos": "n.",
+   "lesson": 38,
+   "audio": {
+    "file": "words/dish.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Dan",
+   "en": "You're working hard, George.",
+   "zh": "你干得真辛苦，乔治。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 7.6,
+    "end": 10.5
+   }
+  },
+  {
+   "speaker": "Dan",
+   "en": "What are you doing?",
+   "zh": "你在干什么呢？",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 10.5,
+    "end": 13.6
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "I'm making a bookcase.",
+   "zh": "我正在做书架。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 13.6,
+    "end": 18
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Give me that hammer please, Dan.",
+   "zh": "请把那把锤子拿给我，丹。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 18,
+    "end": 22.4
+   }
+  },
+  {
+   "speaker": "Dan",
+   "en": "Which hammer?",
+   "zh": "哪一把？",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 22.4,
+    "end": 25.1
+   }
+  },
+  {
+   "speaker": "Dan",
+   "en": "This one?",
+   "zh": "是这把吗？",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 25.1,
+    "end": 27
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "No, not that one.",
+   "zh": "不，不是那把。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 27,
+    "end": 30.2
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "The big one.",
+   "zh": "是那把大的。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 30.2,
+    "end": 33.2
+   }
+  },
+  {
+   "speaker": "Dan",
+   "en": "Here you are.",
+   "zh": "给你。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 33.2,
+    "end": 35.8
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Thanks, Dan.",
+   "zh": "谢谢，丹。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 35.8,
+    "end": 38.5
+   }
+  },
+  {
+   "speaker": "Dan",
+   "en": "What are you going to do now, George?",
+   "zh": "你现在打算干什么，乔治？",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 38.5,
+    "end": 43
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "I'm going to paint it.",
+   "zh": "我打算把它漆一下。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 43,
+    "end": 47.2
+   }
+  },
+  {
+   "speaker": "Dan",
+   "en": "What colour are you going to paint it?",
+   "zh": "你打算把它漆成什么颜色？",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 47.2,
+    "end": 52
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "I'm going to paint it pink.",
+   "zh": "我想漆成粉红色。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 52,
+    "end": 56.2
+   }
+  },
+  {
+   "speaker": "Dan",
+   "en": "Pink!",
+   "zh": "粉红色！",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 56.2,
+    "end": 58.5
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "This bookcase isn't for me.",
+   "zh": "这个书架不是为我做的，",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 58.5,
+    "end": 61.8
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "It's for my daughter, Susan.",
+   "zh": "是为我的女儿苏珊做的。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 61.8,
+    "end": 65.5
+   }
+  },
+  {
+   "speaker": "George",
+   "en": "Pink's her favourite colour.",
+   "zh": "粉红色是她最喜欢的颜色。",
+   "audio": {
+    "file": "media/L037.mp4",
+    "start": 65.5,
+    "end": 68.6
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "What ___ you doing? We are reading.",
+   "zh": "你们在做什么？我们在读书。",
+   "answer": "are",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "do"
+   ]
+  },
+  {
+   "en": "What are they doing? They ___ doing their homework.",
+   "zh": "他们在做什么？他们在做作业。",
+   "answer": "are",
+   "options": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "What ___ he doing? He is working hard.",
+   "zh": "他在做什么？他在努力工作。",
+   "answer": "is",
+   "options": [
+    "is",
+    "are",
+    "am",
+    "be"
+   ]
+  },
+  {
+   "en": "What are you doing? I ___ washing the dishes.",
+   "zh": "你在做什么？我在洗盘子。",
+   "answer": "am",
+   "options": [
+    "am",
+    "is",
+    "are",
+    "be"
+   ]
+  },
+  {
+   "en": "What are you going to do? I'm going ___ paint this bookcase.",
+   "zh": "你打算做什么？我打算漆这个书架。",
+   "answer": "to",
+   "options": [
+    "to",
+    "for",
+    "on",
+    "of"
+   ]
+  },
+  {
+   "en": "I'm going to wait ___ a bus.",
+   "zh": "我打算等公共汽车。",
+   "answer": "for",
+   "options": [
+    "for",
+    "to",
+    "on",
+    "of"
+   ]
+  },
+  {
+   "en": "We're going to listen ___ the stereo.",
+   "zh": "我们打算听音响。",
+   "answer": "to",
+   "options": [
+    "to",
+    "for",
+    "on",
+    "of"
+   ]
+  },
+  {
+   "en": "Pink's her ___ colour.",
+   "zh": "粉红色是她最喜欢的颜色。",
+   "answer": "favourite",
+   "options": [
+    "favourite",
+    "hard",
+    "pink",
+    "big"
+   ]
+  },
+  {
+   "en": "You're working ___, George.",
+   "zh": "你干得真辛苦，乔治。",
+   "answer": "hard",
+   "options": [
+    "hard",
+    "big",
+    "pink",
+    "nice"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L037.mp4",
+  "start": 7.1,
+  "end": 68.6
+ }
+}

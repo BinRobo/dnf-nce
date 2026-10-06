@@ -1,0 +1,401 @@
+{
+ "id": "L091-092",
+ "lessons": [
+  91,
+  92
+ ],
+ "title": "Poor Ian!",
+ "titleZh": "可怜的伊恩！",
+ "evenTitle": "When will ...?",
+ "evenTitleZh": "什么时候要……？",
+ "words": [
+  {
+   "en": "still",
+   "zh": "还，仍旧",
+   "ipa": "stɪl",
+   "pos": "adv.",
+   "lesson": 91,
+   "audio": {
+    "file": "words/still.mp3"
+   }
+  },
+  {
+   "en": "move",
+   "zh": "搬家",
+   "ipa": "muːv",
+   "pos": "v.",
+   "lesson": 91,
+   "audio": {
+    "file": "words/move.mp3"
+   }
+  },
+  {
+   "en": "miss",
+   "zh": "想念，思念",
+   "ipa": "mɪs",
+   "pos": "v.",
+   "lesson": 91,
+   "audio": {
+    "file": "words/miss.mp3"
+   }
+  },
+  {
+   "en": "neighbour",
+   "zh": "邻居",
+   "ipa": "'neɪbə",
+   "pos": "n.",
+   "lesson": 91,
+   "audio": {
+    "file": "words/neighbour.mp3"
+   }
+  },
+  {
+   "en": "person",
+   "zh": "人",
+   "ipa": "'pɜːsən",
+   "pos": "n.",
+   "lesson": 91,
+   "audio": {
+    "file": "words/person.mp3"
+   }
+  },
+  {
+   "en": "people",
+   "zh": "人们",
+   "ipa": "'piːpəl",
+   "pos": "n.",
+   "lesson": 91,
+   "audio": {
+    "file": "words/people.mp3"
+   }
+  },
+  {
+   "en": "poor",
+   "zh": "可怜的",
+   "ipa": "pʊə",
+   "pos": "adj.",
+   "lesson": 91,
+   "audio": {
+    "file": "words/poor.mp3"
+   }
+  }
+ ],
+ "dialogue": [
+  {
+   "speaker": "Catherine",
+   "en": "Has Ian sold his house yet?",
+   "zh": "伊恩已把他的房子卖掉了吗？",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 7,
+    "end": 10.8
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "Yes, he has.",
+   "zh": "是的，卖掉了。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 10.8,
+    "end": 13
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "He sold it last week.",
+   "zh": "他上星期卖掉的。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 13,
+    "end": 16.1
+   }
+  },
+  {
+   "speaker": "Catherine",
+   "en": "Has he moved to his new house yet?",
+   "zh": "他已经迁进新居了吗？",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 16.1,
+    "end": 20.2
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "No, not yet.",
+   "zh": "不，还没有。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 20.2,
+    "end": 22.8
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "He's still here.",
+   "zh": "他仍在这里。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 22.8,
+    "end": 24.9
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "He's going to move tomorrow.",
+   "zh": "他打算明天搬家。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 24.9,
+    "end": 29.2
+   }
+  },
+  {
+   "speaker": "Catherine",
+   "en": "When? Tomorrow morning?",
+   "zh": "什么时候？明天上午吗？",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 29.2,
+    "end": 32.7
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "No. Tomorrow afternoon.",
+   "zh": "不，明天下午。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 32.7,
+    "end": 36.5
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "I'll miss him.",
+   "zh": "我会想念他的。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 36.5,
+    "end": 38.6
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "He has always been a good neighbour.",
+   "zh": "他一直是个好邻居。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 38.6,
+    "end": 42.4
+   }
+  },
+  {
+   "speaker": "Linda",
+   "en": "He's a very nice person.",
+   "zh": "他是个非常好的人，",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 42.4,
+    "end": 45.1
+   }
+  },
+  {
+   "speaker": "Linda",
+   "en": "We'll all miss him.",
+   "zh": "我们大家都会想念他的。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 45.1,
+    "end": 49.6
+   }
+  },
+  {
+   "speaker": "Catherine",
+   "en": "When will the new people move into this house?",
+   "zh": "新住户什么时候搬进这所房子？",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 49.6,
+    "end": 55.4
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "I think that they'll move in the day after tomorrow.",
+   "zh": "我想他们将在后天搬进来吧。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 55.4,
+    "end": 61.1
+   }
+  },
+  {
+   "speaker": "Linda",
+   "en": "Will you see Ian today, Jenny?",
+   "zh": "詹尼，您今天会见到伊恩吗？",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 61.1,
+    "end": 64.9
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "Yes, I will.",
+   "zh": "是的，我会见到他。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 64.9,
+    "end": 68.4
+   }
+  },
+  {
+   "speaker": "Linda",
+   "en": "Please give him my regards.",
+   "zh": "请代我问候他。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 68.4,
+    "end": 71.8
+   }
+  },
+  {
+   "speaker": "Catherine",
+   "en": "Poor Ian!",
+   "zh": "可怜的伊恩！",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 71.8,
+    "end": 73.7
+   }
+  },
+  {
+   "speaker": "Catherine",
+   "en": "He didn't want to leave this house.",
+   "zh": "他本不想离开这幢房子。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 73.7,
+    "end": 77.4
+   }
+  },
+  {
+   "speaker": "Jenny",
+   "en": "No, he didn't want to leave, but his wife did!",
+   "zh": "是啊，他是不想离开，可是他妻子要离开。",
+   "audio": {
+    "file": "media/L091.mp4",
+    "start": 77.4,
+    "end": 84.4
+   }
+  }
+ ],
+ "drills": [
+  {
+   "en": "It will rain tomorrow. → It___ rain tomorrow.",
+   "zh": "明天会下雨。",
+   "answer": "'ll",
+   "options": [
+    "'ll",
+    "'s",
+    "'d",
+    "'re"
+   ]
+  },
+  {
+   "en": "He ___ arrive tomorrow morning.",
+   "zh": "他明天上午会到。",
+   "answer": "will",
+   "options": [
+    "will",
+    "did",
+    "has",
+    "was"
+   ]
+  },
+  {
+   "en": "It snowed yesterday. Yes, and it will ___ tomorrow, too.",
+   "zh": "昨天下雪了。是的，明天也会下。",
+   "answer": "snow",
+   "options": [
+    "snow",
+    "snowed",
+    "snows",
+    "snowing"
+   ]
+  },
+  {
+   "en": "He will not ___ me.",
+   "zh": "他不会相信我。",
+   "answer": "believe",
+   "options": [
+    "believe",
+    "believed",
+    "believes",
+    "believing"
+   ]
+  },
+  {
+   "en": "When will the new people ___ into this house?",
+   "zh": "新住户什么时候搬进这所房子？",
+   "answer": "move",
+   "options": [
+    "move",
+    "moved",
+    "moves",
+    "moving"
+   ]
+  },
+  {
+   "en": "Has Ian sold his house ___? Yes, he has.",
+   "zh": "伊恩已把房子卖掉了吗？是的。",
+   "answer": "yet",
+   "options": [
+    "yet",
+    "ago",
+    "since",
+    "tomorrow"
+   ]
+  },
+  {
+   "en": "He's a very nice ___.",
+   "zh": "他是个非常好的人。",
+   "answer": "person",
+   "options": [
+    "person",
+    "people",
+    "neighbours",
+    "houses"
+   ]
+  },
+  {
+   "en": "We'll all ___ him.",
+   "zh": "我们大家都会想念他的。",
+   "answer": "miss",
+   "options": [
+    "miss",
+    "move",
+    "sell",
+    "cut"
+   ]
+  },
+  {
+   "en": "The new people will move in the day after ___.",
+   "zh": "新住户后天搬进来。",
+   "answer": "tomorrow",
+   "options": [
+    "tomorrow",
+    "yesterday",
+    "ago",
+    "yet"
+   ]
+  }
+ ],
+ "video": {
+  "file": "media/L091.mp4",
+  "start": 6.5,
+  "end": 84.4
+ }
+}
