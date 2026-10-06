@@ -125,16 +125,16 @@ All SFX: Kenney (www.kenney.nl), CC0 1.0. SFX were trimmed, mono-mixed, loudness
 | bgm/story_1.mp3 | Heart of Nowhere |
 | bgm/story_2.mp3 | Memory Lane |
 | bgm/story_3.mp3 | Eternal Hope |
-| bgm/campus_1.mp3 | Carefree |
-| bgm/campus_2.mp3 | Wallpaper |
-| bgm/campus_3.mp3 | Pixel Peeker Polka - faster |
-| bgm/market_1.mp3 | Life of Riley |
-| bgm/market_2.mp3 | Merry Go |
-| bgm/market_3.mp3 | Bushwick Tarantella |
-| bgm/shop_1.mp3 | Easy Lemon |
-| bgm/shop_2.mp3 | Lobby Time |
-| bgm/valley_1.mp3 | Teller of the Tales |
-| bgm/king_1.mp3 | Bossa Antigua |
-| bgm/station_1.mp3 | On the Ground |
-| bgm/snow_1.mp3 | Frost Waltz |
-| bgm/theatre_1.mp3 | Gymnopedie No 1 |
+| bgm/campus_1.mp3 | Achaidh Cheide (reused) |
+| bgm/campus_2.mp3 | Celtic Impulse (reused) |
+| bgm/campus_3.mp3 | Folk Round (reused) |
+| bgm/market_1.mp3 | Achaidh Cheide (reused) |
+| bgm/market_2.mp3 | Celtic Impulse (reused) |
+| bgm/market_3.mp3 | Folk Round (reused) |
+| bgm/shop_1.mp3 | Folk Round (reused) |
+| bgm/shop_2.mp3 | Galway |
+| bgm/valley_1.mp3 | Thatched Villagers |
+| bgm/king_1.mp3 | Master of the Feast |
+| bgm/station_1.mp3 | Minstrel Guild |
+| bgm/snow_1.mp3 | Suonatore di Liuto |
+| bgm/theatre_1.mp3 | Lord of the Land |

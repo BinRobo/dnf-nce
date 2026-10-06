@@ -136,3 +136,21 @@
 5. **自检（必须）：**对每个新文件运行 `ffmpeg -i <file> -af volumedetect -f null -`，确认时长大于 60 秒、mean_volume 在 -25dB 到 -12dB 之间、没有解码错误。把结果表输出到 .cache/bgm2-check.txt。有不合格的就修，直到全部合格。
 
 只写 public/assets/audio/bgm/、manifest.json 的 bgm、CREDITS.md、public/audition/bgm2.html、.cache/music-src/、.cache/bgm2-check.txt。
+
+## F2. 城镇音乐返工（家长反馈：新曲子不好听，最早的三首好听）
+
+家长喜欢最早的三首城镇音乐：public/assets/audio/bgm/town_1.mp3（Achaidh Cheide）、town_2（Celtic Impulse）、town_3（Folk Round），都是 Kevin MacLeod 的凯尔特 / 民谣风，轻快、木吉他 / 小提琴 / 风笛。
+
+**要做：**
+1. 学园区 campus、集市区 market、小店 shop 直接用这三首：
+   - 在 manifest.json 的 bgm 里把 campus_1..3、market_1..3 指向 bgm/town_1.mp3、town_2.mp3、town_3.mp3（同一文件可被多个 key 引用）。
+   - shop_1..2 指向 town_3.mp3 和下面新找的 tavern 风格曲子。
+   - 删掉原来 campus_*、market_*、shop_* 的 mp3 文件和它们在 CREDITS.md 的行。
+2. 其他 5 个街区，各找 **1–2 首和这三首风格接近的 Kevin MacLeod 凯尔特 / 民谣 / 中世纪集市风曲子**，替换 valley_1、king_1、station_1、snow_1、theatre_1（可以加 _2）。删掉被替换的旧文件。
+   - 候选（下载失败就换）：Thatched Villagers、Master of the Feast、Minstrel Guild、Pippin the Hunchback、Tavern Loop One、Suonatore di Liuto、Galway、Lord of the Land、Angevin B、Celtic Impulse 风格的其他曲子。
+   - 不要电子、爵士、钢琴独奏、氛围类。
+3. 转码、响度：mp3 48000Hz 立体声 96kbps；mean_volume 用 volumedetect 量，要和 town_1.mp3 相差 ≤ 1.5 dB（town_1 约 -18.4 dB）。不够就加 volume 增益，再加 alimiter=limit=0.95 防爆音。
+4. 更新 CREDITS.md 背景音乐表、public/audition/bgm2.html（按区域列出，标明哪首是原来那三首）。
+5. **自检（必须）：**对每个 bgm key 指向的文件跑 volumedetect：时长 > 60 秒、mean 在 -20 到 -17 dB、无解码错误。结果写到 .cache/bgm3-check.txt。不合格就修到合格。
+
+只改 public/assets/audio/bgm/、manifest.json 的 bgm、CREDITS.md、public/audition/bgm2.html、.cache/。

@@ -73,9 +73,9 @@
     "persona": "夺名迷雾胡迷斯，狡猾、慢吞吞"
   },
   "tailor": {
-    "voice": "zh-CN-XiaohanNeural",
+    "voice": "zh-CN-XiaoxiaoNeural",
     "rate": "+8%",
-    "pitch": "-3%",
+    "pitch": "-6%",
     "persona": "集市的裁缝阿姨，热情爱夸人，语速偏快"
   },
   "mrs_smith": {
@@ -97,9 +97,9 @@
     "persona": "热心手巧的木匠叔叔，爱给女儿做东西"
   },
   "mrs_bird": {
-    "voice": "zh-CN-XiaohanNeural",
+    "voice": "zh-CN-XiaoxiaoNeural",
     "rate": "+0%",
-    "pitch": "+0%",
+    "pitch": "-12%",
     "persona": "爱聊天的家庭主妇，老逛肉铺"
   },
   "jimmy": {
@@ -127,15 +127,15 @@
     "persona": "爱开玩笑的邻居叔叔，什么都“已经”干过了"
   },
   "mrs_mills": {
-    "voice": "zh-CN-XiaomengNeural",
+    "voice": "zh-CN-XiaoyiNeural",
     "rate": "+0%",
-    "pitch": "+2%",
+    "pitch": "-4%",
     "persona": "容易迷路的老太太，礼貌"
   },
   "david": {
-    "voice": "zh-CN-YunfengNeural",
+    "voice": "zh-CN-YunxiNeural",
     "rate": "-3%",
-    "pitch": "-3%",
+    "pitch": "-6%",
     "persona": "粗心的旅客，常丢东西"
   },
   "andy": {
@@ -163,9 +163,9 @@
     "persona": "爱美的大明星，容易夸张"
   },
   "reporter": {
-    "voice": "zh-CN-YunhaoNeural",
+    "voice": "zh-CN-YunyangNeural",
     "rate": "+5%",
-    "pitch": "+0%",
+    "pitch": "+4%",
     "persona": "忙碌的记者，爱喊“轰动新闻”"
   },
   "boss_weixin": {

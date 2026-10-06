@@ -193,12 +193,13 @@ export class TestScene extends Phaser.Scene {
     const kinds = MOBS.filter((m) => m !== 'boss_generic');
     kinds.forEach((m, i) => {
       const boss = m.startsWith('boss') || m === 'duke';
-      const x = 110 + (i % 7) * 175, y = 290 + Math.floor(i / 7) * 220;
+      // 11 列 × 4 行：全部小怪与 Boss 一屏放下
+      const x = 80 + (i % 11) * 112, y = 210 + Math.floor(i / 11) * 122;
       const img = this.add.image(x, y, mobTex(this, m)).setOrigin(0.5, 1);
-      img.setScale((boss ? 170 : 120) / Math.max(img.height, 1));
+      img.setScale((boss ? 92 : 70) / Math.max(img.height, 1));
       L.add(img);
-      L.add(text(this, x, y + 14, MOB_NAME[m] ?? (m === 'duke' ? '缄默公爵 · 赫什' : m), 15, boss ? '#ffb020' : '#ffffff', { fontStyle: boss ? 'bold' : 'normal' }).setOrigin(0.5));
-      L.add(text(this, x, y + 34, m, 12, COLORS.dim).setOrigin(0.5));
+      L.add(text(this, x, y + 10, (MOB_NAME[m] ?? (m === 'duke' ? '缄默公爵 · 赫什' : m)).split(' · ').pop()!, 13, boss ? '#ffb020' : '#ffffff', { fontStyle: boss ? 'bold' : 'normal' }).setOrigin(0.5));
+      L.add(text(this, x, y + 26, m.replace(/^(boss_|mob_)/, ''), 10, COLORS.dim).setOrigin(0.5));
       this.tweens.add({ targets: img, y: y - 6, duration: 600 + i * 40, yoyo: true, repeat: -1, ease: 'Sine.inOut' });
     });
     L.add(text(this, 40, 660, '要看 Boss 的专属招式：到“地图与副本”勾选“只打 Boss 房”，进 L1-2（帕顿）或 L5-6（胡迷斯），故意答错就会出招。', 15, COLORS.dim));
