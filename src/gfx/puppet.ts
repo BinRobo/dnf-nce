@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { weaponDir } from '../systems/classes';
 
 /**
  * 纸娃娃角色：按 public/assets/art/chars/<id>/rig.json 把部件拼起来，部件各自做补间动画。
@@ -22,7 +23,7 @@ export interface Rig {
   faces?: Record<string, string>;
 }
 
-export const CHAR_IDS = ['hero', 'hero_sf', 'hero_gm', 'hero_gf', 'hero_mm', 'hero_mf', 'sophie', 'blake', 'woman', 'kid', 'tailor', 'man', 'lady'] as const;
+export const CHAR_IDS = ['h_sm', 'h_sf', 'h_gm', 'h_gf', 'h_mm', 'h_mf', 'hero', 'hero_sf', 'hero_gm', 'hero_gf', 'hero_mm', 'hero_mf', 'sophie', 'blake', 'woman', 'kid', 'tailor', 'man', 'lady'] as const;
 /** 装扮套装（与 src/systems/costumes.ts 一致） */
 export const COSTUME_IDS = ['school', 'knight', 'mage', 'pardon', 'whomist', 'festival'];
 const COSTUME_FILES = ['hat', 'body', 'armL', 'armR', 'legL', 'legR'];
@@ -49,7 +50,7 @@ export function queueParts(scene: Phaser.Scene) {
   }
   for (const c of COSTUME_IDS) for (const f of COSTUME_FILES) scene.load.svg(partKey('hero', `costume/${c}/${f}.svg`), `${BASE}hero/costume/${c}/${f}.svg`);
   const weapons = scene.cache.json.get('hero_weapons') as Record<string, { file: string }> | undefined;
-  for (const [k, w] of Object.entries(weapons ?? {})) scene.load.svg(`hero_weapon_${k}`, `${BASE}hero/weapons/${w.file}`);
+  for (const [k, w] of Object.entries(weapons ?? {})) scene.load.svg(`hero_weapon_${k}`, `${BASE}${weaponDir()}${w.file}`);
 }
 
 export const hasRig = (scene: Phaser.Scene, id: string) => !!scene.cache.json.get(`rig_${id}`);
@@ -145,19 +146,22 @@ export class Puppet extends Phaser.GameObjects.Container {
    */
   setCostume(worn: { hat?: string; top?: string; bottom?: string }) {
     if (!this.rig) return this;
+    // H 造型：每个角色有自己的一套装扮（chars/h_xx/costume/），上衣件含披风/背包
+    const own = this.charId.startsWith('h_');
+    const src = own ? this.charId : 'hero';
     const swap = (part: string, set?: string) => {
       const node = this.part(part);
       if (!node) return;
       const p = this.rig!.parts.find((q) => q.id === part)!;
-      const key = set ? partKey('hero', `costume/${set}/${part}.svg`) : partKey(this.charId, p.file);
+      const key = set ? partKey(src, `costume/${set}/${part}.svg`) : partKey(this.charId, p.file);
       if (this.scene.textures.exists(key)) node.img.setTexture(key);
     };
-    for (const part of ['body', 'armL', 'armR']) swap(part, worn.top);
+    for (const part of own ? ['body', 'armL', 'armR', 'cape'] : ['body', 'armL', 'armR']) swap(part, worn.top);
     for (const part of ['legL', 'legR']) swap(part, worn.bottom);
     const head = this.part('head');
     this.hat?.destroy();
     this.hat = undefined;
-    const hk = worn.hat && partKey('hero', `costume/${worn.hat}/hat.svg`);
+    const hk = worn.hat && partKey(src, `costume/${worn.hat}/hat.svg`);
     if (head && hk && this.scene.textures.exists(hk)) {
       this.hat = this.scene.add.image(0, 0, hk).setOrigin(head.img.originX, head.img.originY);
       head.add(this.hat);

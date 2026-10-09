@@ -1,0 +1,14 @@
+{
+  "height": 360,
+  "parts": [
+    {"id":"cape","file":"cape.svg","x":-12,"y":-153.6,"px":120,"py":57.6,"z":-1},
+    {"id":"legL","file":"legL.svg","x":-15.6,"y":-69.6,"px":34.8,"py":14.4,"z":0},
+    {"id":"legR","file":"legR.svg","x":15.6,"y":-69.6,"px":30,"py":14.4,"z":1},
+    {"id":"armL","file":"armL.svg","x":-32.4,"y":-148.8,"px":34.8,"py":21.6,"z":2},
+    {"id":"body","file":"body.svg","x":0,"y":-67.2,"px":74.4,"py":120,"z":3},
+    {"id":"head","file":"head.svg","x":2.4,"y":-168,"px":144,"py":235.2,"z":4},
+    {"id":"weapon","file":"weapon.svg","x":8.4,"y":45.6,"px":0,"py":0,"z":5,"parent":"armR","rot":65},
+    {"id":"armR","file":"armR.svg","x":32.4,"y":-148.8,"px":27.6,"py":21.6,"z":6}
+  ],
+  "faces": {"normal":"head.svg","happy":"head_happy.svg","surprised":"head_surprised.svg","sad":"head_sad.svg"}
+}

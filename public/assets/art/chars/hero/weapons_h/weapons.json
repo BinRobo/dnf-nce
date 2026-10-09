@@ -1,0 +1,152 @@
+{
+ "dagger": {
+  "file": "dagger.svg",
+  "px": 26,
+  "py": 100
+ },
+ "longsword": {
+  "file": "longsword.svg",
+  "px": 32,
+  "py": 162
+ },
+ "staff": {
+  "file": "staff.svg",
+  "px": 24,
+  "py": 156
+ },
+ "bow": {
+  "file": "bow.svg",
+  "px": 20,
+  "py": 100
+ },
+ "axe": {
+  "file": "axe.svg",
+  "px": 14,
+  "py": 118
+ },
+ "greatsword": {
+  "file": "greatsword.svg",
+  "px": 42,
+  "py": 178
+ },
+ "epic_sword": {
+  "file": "epic_sword.svg",
+  "px": 56,
+  "py": 182
+ },
+ "epic_horn": {
+  "file": "epic_horn.svg",
+  "px": 56,
+  "py": 182
+ },
+ "epic_quill": {
+  "file": "epic_quill.svg",
+  "px": 56,
+  "py": 182
+ },
+ "umbrella": {
+  "file": "umbrella.svg",
+  "px": 32,
+  "py": 162
+ },
+ "penstaff": {
+  "file": "penstaff.svg",
+  "px": 24,
+  "py": 168
+ },
+ "pencilbow": {
+  "file": "pencilbow.svg",
+  "px": 26,
+  "py": 100
+ },
+ "handbaghammer": {
+  "file": "handbaghammer.svg",
+  "px": 40,
+  "py": 182
+ },
+ "ticketdagger": {
+  "file": "ticketdagger.svg",
+  "px": 22,
+  "py": 102
+ },
+ "bookblade": {
+  "file": "bookblade.svg",
+  "px": 36,
+  "py": 200
+ },
+ "wand": {
+  "file": "wand.svg",
+  "px": 24,
+  "py": 110
+ },
+ "orb": {
+  "file": "orb.svg",
+  "px": 32,
+  "py": 108
+ },
+ "tome": {
+  "file": "tome.svg",
+  "px": 30,
+  "py": 110
+ },
+ "teacherwand": {
+  "file": "teacherwand.svg",
+  "px": 22,
+  "py": 156
+ },
+ "glassorb": {
+  "file": "glassorb.svg",
+  "px": 36,
+  "py": 108
+ },
+ "epic_hornstaff": {
+  "file": "epic_hornstaff.svg",
+  "px": 40,
+  "py": 200
+ },
+ "pistol": {
+  "file": "pistol.svg",
+  "px": 28,
+  "py": 112
+ },
+ "rifle": {
+  "file": "rifle.svg",
+  "px": 28,
+  "py": 188
+ },
+ "cannon": {
+  "file": "cannon.svg",
+  "px": 37,
+  "py": 94
+ },
+ "icecreampistol": {
+  "file": "icecreampistol.svg",
+  "px": 41,
+  "py": 140
+ },
+ "carcannon": {
+  "file": "carcannon.svg",
+  "px": 34,
+  "py": 126
+ },
+ "keyboardrifle": {
+  "file": "keyboardrifle.svg",
+  "px": 28,
+  "py": 190
+ },
+ "epic_megacannon": {
+  "file": "epic_megacannon.svg",
+  "px": 60,
+  "py": 192
+ },
+ "epic_badgerevolver": {
+  "file": "epic_badgerevolver.svg",
+  "px": 34,
+  "py": 146
+ },
+ "epic_canesword": {
+  "file": "epic_canesword.svg",
+  "px": 38,
+  "py": 190
+ }
+}

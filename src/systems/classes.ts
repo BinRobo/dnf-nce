@@ -46,7 +46,10 @@ export const CLASSES: Record<ClassId, ClassDef> = {
 };
 export const CLASS_IDS: ClassId[] = ['sword', 'gunner', 'mage'];
 
-/** 主角骨骼目录：剑士男沿用原来的 hero */
-export const heroRig = (c: ClassId, g: Gender) => (c === 'sword' && g === 'm' ? 'hero' : `hero_${c[0]}${g}`);
+/** 默认造型是 H 风格（田园小冒险家）；网址加 ?old 可临时换回旧造型，排查问题用 */
+export const useOld = () => typeof location !== 'undefined' && /[?&]old(=|&|$)/i.test(location.search);
+/** 武器库目录：默认是 H 风格的柔线暖彩版（尺寸和握点与原版相同） */
+export const weaponDir = () => (useOld() ? 'hero/weapons/' : 'hero/weapons_h/');
+export const heroRig = (c: ClassId, g: Gender) => (useOld() ? (c === 'sword' && g === 'm' ? 'hero' : `hero_${c[0]}${g}`) : `h_${c[0]}${g}`);
 
 export const classOf = (s: Pick<SaveData, 'cls'>) => CLASSES[s.cls ?? 'sword'];

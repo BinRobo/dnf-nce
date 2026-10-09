@@ -4,7 +4,7 @@ import { partKey, type Rig } from './gfx/puppet';
 import { SVG_ICONS } from './gfx/icons';
 import { weaponLook } from './gfx/icons';
 import type { SaveData } from './save/schema';
-import { classOf, heroRig } from './systems/classes';
+import { classOf, heroRig, weaponDir } from './systems/classes';
 import { equippedItems } from './systems/player';
 
 /**
@@ -61,9 +61,17 @@ export function queueNeed(scene: Phaser.Scene, n: Need): number {
   const weapons = scene.cache.json.get('hero_weapons') as Record<string, { file: string }> | undefined;
   const weapon = (look: string) => {
     const w = weapons?.[look];
-    if (w) svg(`hero_weapon_${look}`, `${CHARS}hero/weapons/${w.file}`);
+    if (w) svg(`hero_weapon_${look}`, `${CHARS}${weaponDir()}${w.file}`);
   };
+  // H 造型：装扮按主角自己的造型目录加载（chars/h_xx/costume/），有披风/背包的再多一件
+  const hRig = (n.heroes ?? []).map((h) => heroRig(h.cls ?? 'sword', h.gender ?? 'm')).find((r) => r.startsWith('h_'));
   const costume = (set: string) => {
+    if (hRig) {
+      const rig = scene.cache.json.get(`rig_${hRig}`) as Rig | undefined;
+      const files = ['hat', 'body', 'armL', 'armR', 'legL', 'legR', ...(rig?.parts.some((p) => p.id === 'cape') ? ['cape'] : [])];
+      for (const f of files) svg(partKey(hRig, `costume/${set}/${f}.svg`), `${CHARS}${hRig}/costume/${set}/${f}.svg`);
+      return;
+    }
     for (const f of ['hat', 'body', 'armL', 'armR', 'legL', 'legR']) svg(partKey('hero', `costume/${set}/${f}.svg`), `${CHARS}hero/costume/${set}/${f}.svg`);
   };
 

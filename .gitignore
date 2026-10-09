@@ -5,3 +5,8 @@ public/content/book1/media
 NewConceptEnglish/
 release/
 data/
+
+# 角色风格方案图：只保留选定的 H 风格，其余方案图留在本机
+design/heroes/*
+!design/heroes/H-ghibli/
+!design/heroes/SPEC.md
