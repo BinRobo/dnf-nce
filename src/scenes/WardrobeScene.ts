@@ -55,9 +55,9 @@ export class WardrobeScene extends Phaser.Scene {
     // 右：套装列表
     L.add(panel(this, 390, 14, 874, 640, 0.92));
     COSTUMES.forEach((c, row) => {
-      const y = 60 + row * 88;
+      const y = 58 + row * 80;
       const css = `#${c.color.toString(16).padStart(6, '0')}`;
-      L.add(this.add.rectangle(408, y - 30, 8, 72, c.color).setOrigin(0));
+      L.add(this.add.rectangle(408, y - 34, 8, 68, c.color).setOrigin(0));
       L.add(text(this, 426, y - 22, c.name, 21, css, { fontStyle: 'bold' }));
       const owned = PIECES.filter((p) => s.wardrobe.owned.includes(pieceId(c.id, p))).length;
       L.add(text(this, 426, y + 8, `已有 ${owned}/3`, 14, COLORS.dim));
@@ -90,7 +90,7 @@ export class WardrobeScene extends Phaser.Scene {
     } else {
       const cost = c.cost[p];
       const need = [...(Object.keys(MAT_INFO) as MatKey[]).filter((k) => cost[k]).map((k) => `${MAT_INFO[k].name}${cost[k]}`), cost.gold ? `💰${cost.gold}` : ''].filter(Boolean).join(' ');
-      box.add(text(this, -86, -8, need, 12, COLORS.dim, { wordWrap: { width: 120 } }));
+      box.add(text(this, -90, -10, need, 11, COLORS.dim, { wordWrap: { width: 108 }, lineSpacing: -2 }));
       const ok = canMake(s, c, p);
       const b = button(this, 56, 14, 72, 34, '打造', () => {
         if (!this.tailor) return toast(this, '去集市找裁缝阿姨打造吧', '#ffd27a');

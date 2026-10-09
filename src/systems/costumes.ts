@@ -32,6 +32,8 @@ export const COSTUMES: CostumeSet[] = [
   { id: 'pardon', name: '喇叭领主', color: 0xff7a2e, title: '喇叭领主', cost: { hat: { cloth: 3, brass: 2 }, top: { cloth: 4, brass: 3 }, bottom: { cloth: 3, brass: 2 } } },
   { id: 'whomist', name: '名牌怪盗', color: 0x2fd39a, title: '名牌怪盗', cost: { hat: { cloth: 3, badge: 2 }, top: { cloth: 4, badge: 3 }, bottom: { cloth: 3, badge: 2 } } },
   { id: 'festival', name: '节日礼服', color: 0xffd34a, title: '派对之星', cost: { hat: { cloth: 3, ribbon: 2 }, top: { cloth: 3, ribbon: 3 }, bottom: { cloth: 3, ribbon: 2 } } },
+  // 第 7 套：高阶套装，要集齐各种材料才打得出来（材料来源见 MAT_INFO）
+  { id: 'gala', name: '星辉盛装', color: 0xf0b84a, title: '星光冒险家', cost: { hat: { cloth: 6, thread: 4, ribbon: 3, gold: 300 }, top: { cloth: 10, thread: 6, brass: 3, badge: 3, gold: 500 }, bottom: { cloth: 8, thread: 5, ribbon: 3, gold: 400 } } },
 ];
 export const PIECES: Piece[] = ['hat', 'top', 'bottom'];
 export const PIECE_NAME: Record<Piece, string> = { hat: '帽子', top: '上衣', bottom: '下装' };

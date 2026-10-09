@@ -20,6 +20,8 @@ function arm(side, o) {
   if (o.cuff) s += E(x0 + side * 6.4, -92, o.w * .55, 4.4, o.cuff, { w: 1.4 });
   s += hand(hx, hy, o.skin, side > 0 ? 9 : 8);
   if (o.puff) s += E(x0, -123, 10, 9, o.puff);
+  if (o.goldCuff) s += L(`M${x0 + side * 6.4 - 6} -95 L${x0 + side * 6.4 + 6} -95`, '#f0cf70', 2.4);
+  if (o.epaulet) s += E(x0 + side * 3, -127, 11, 6, '#f0cf70', { lc: '#a8763a', w: 1.4 }) + L(`M${x0 - 5} -122 l0 6 M${x0} -121 l0 7 M${x0 + 5} -121 l0 7 M${x0 + side * 10} -122 l0 6`, '#e6be62', 1.6);
   return { s, pivot: [x0, -124], hand: [hx, hy] };
 }
 function headOf(k, expr) {
@@ -220,6 +222,125 @@ function hatAccessory(set, k) {
   return HEAD_G + `<g transform="translate(${x} ${y}) scale(1.5) translate(${-x} ${-y})">${s}</g></g>`;
 }
 
+// ---------- 第 7 套：gala 星辉盛装（设计稿的“高阶套装”）----------
+// 身体按 gen.cjs 里 draw(hi=1) 的样子：高阶配色 + 金色刺绣、肩披、流苏肩章、小旗、披风；
+// 帽子件叠在头上：设计稿高阶版的羽毛 / 花环 / 金护目镜 / 串珠 + 一个小金星冠 + 几颗萤火光点。
+// 限制：画框和锚点必须和基础部件一致（rig.json 不改），所以设计稿里超出画框的长披风、长旗杆都改短了；
+// 没有披风部件的角色（剑士·女、魔法师·女）的后披风只画在腰以下，免得盖住后臂。
+const GOLD = '#f0cf70', GOLD2 = '#e6be62';
+const big = (x, y, str, k = 1.4) => `<g transform="translate(${x} ${y}) scale(${k}) translate(${-x} ${-y})">${str}</g>`;
+const buckles = (pts) => pts.map(([x, y]) => `<circle cx="${x}" cy="${y}" r="2.6" fill="${GOLD}" stroke="#a8763a" stroke-width="1"/>`).join('');
+const studs = (pts) => pts.map(([x, y]) => `<circle cx="${x}" cy="${y}" r="2.8" fill="${GOLD}" stroke="#b07a3e" stroke-width="1"/>`).join('');
+// 胸前：金星胸针
+const galaBrooch = (x, y) => H.spark(x, y, 8, GOLD) + `<circle cx="${x}" cy="${y}" r="2.6" fill="#e9826a" stroke="#a8503a" stroke-width=".8"/>`;
+// 头顶小金星冠（头部局部坐标）
+const starCrown = (x, y, k = 1) => big(x, y, S(`M${x - 14} ${y + 4} L${x - 16} ${y - 8} L${x - 7} ${y - 2} L${x} ${y - 14} L${x + 7} ${y - 2} L${x + 16} ${y - 8} L${x + 14} ${y + 4} Q${x} ${y + 7} ${x - 14} ${y + 4}Z`, GOLD, { lc: '#a8763a', w: 1.4 }) + `<circle cx="${x}" cy="${y - 1}" r="2.4" fill="#e9826a"/>` + H.spark(x, y - 18, 3.4, '#fff6c8'), k);
+// 女孩用的小金冠（发冠），比星冠矮、贴着头顶
+const tiara = (x, y, k = 1) => big(x, y, S(`M${x - 16} ${y + 3} Q${x - 10} ${y - 6} ${x - 5} ${y - 4} Q${x - 2} ${y - 12} ${x} ${y - 15} Q${x + 2} ${y - 12} ${x + 5} ${y - 4} Q${x + 10} ${y - 6} ${x + 16} ${y + 3} Q${x} ${y - 1} ${x - 16} ${y + 3}Z`, GOLD, { lc: '#a8763a', w: 1.3 }) + `<circle cx="${x}" cy="${y - 6}" r="2.6" fill="#f2a28e"/><circle cx="${x - 9}" cy="${y - 1}" r="1.5" fill="#fffaf0"/><circle cx="${x + 9}" cy="${y - 1}" r="1.5" fill="#fffaf0"/>`, k);
+const galaFlies = (pts) => pts.map(([x, y, r]) => H.fly(x, y, r)).join('');
+const GALA = {};
+GALA.swm = () => {
+  const P = { ...BASE_P.swm, main: '#d2604a', shade: '#b0744a', accent: '#c2564a' };
+  const b = SPEC.swm(P);
+  return {
+    cape: S('M-24 -132 Q-54 -112 -64 -76 Q-70 -56 -80 -42 Q-66 -44 -58 -38 Q-48 -46 -38 -40 Q-28 -50 -14 -46 L22 -128Z', P.accent, { gap: [30, 6] })
+      + H.stitch('M-76 -44 Q-66 -46 -58 -40 Q-48 -48 -38 -43 Q-28 -52 -15 -49', GOLD, 2.4) + H.zig(-62, -24, -60, GOLD, 2.5, 7),
+    body: b.body + H.zig(-36, 36, -50, GOLD, 2.4, 6) + studs([[-14, -116], [-14, -98], [17, -114], [17, -96]])
+      + S('M18 -138 Q38 -142 42 -124 Q32 -118 20 -122Z', '#b8784a', { w: 1.6 }) + `<circle cx="32" cy="-129" r="2.6" fill="${GOLD}"/>`
+      + S('M-34 -134 Q-44 -116 -40 -102 Q-20 -96 0 -98 Q20 -96 40 -102 Q44 -116 34 -134 Q0 -144 -34 -134Z', '#f4e6c6', { lc: '#a8804a', gap: [70, 6] })
+      + H.zig(-38, 40, -103, '#d9a84e', 2.2, 6) + galaBrooch(0, -122),
+    legL: b.legL + S('M-26 -27 L-6 -27 L-6 -21 L-26 -21Z', GOLD, { w: 1.2, noshade: 1 }),
+    legR: b.legR + S('M12 -27 L29 -27 L29 -21 L12 -21Z', GOLD, { w: 1.2, noshade: 1 }),
+    arm: { ...b.arm, goldCuff: 1, epaulet: 1 },
+    hat: S('M-62 -16 Q-80 -44 -74 -66 Q-66 -48 -58 -30Z', '#f4e6c6', { w: 1.4 }) + L('M-61 -20 Q-72 -40 -72 -62', '#c9a876', 1.2)
+      + H.zig(-52, 54, -46, GOLD, 1.6, 6) + starCrown(10, -84, 1.5)
+      + galaFlies([[-86, -70, .7], [84, -40, .6], [70, -118, .5]]),
+  };
+};
+GALA.swf = () => {
+  const P = { ...BASE_P.swf, main: '#d96e56', accent: GOLD };
+  const b = SPEC.swf(P);
+  let fl3 = ''; for (const x of [-12, 0, 12]) fl3 += `<circle cx="${x}" cy="-58" r="3.6" fill="#f2a28e"/><circle cx="${x}" cy="-58" r="1.5" fill="${GOLD}"/>`;
+  const lowCape = S('M-34 -80 Q-50 -62 -56 -40 Q-44 -44 -38 -38 Q-26 -46 -14 -42 Q0 -48 14 -42 Q26 -46 38 -38 Q44 -44 56 -40 Q50 -62 34 -80Z', '#f4e0b0', { lc: '#a8804a' })
+    + H.zig(-52, 52, -44, '#d96e56', 2, 6);
+  return {
+    body: lowCape + b.body + fl3 + H.zig(-20, 22, -48, GOLD2, 2, 6) + H.zig(-10, 12, -112, GOLD2, 2, 5)
+      + H.zig(-38, 38, -45, GOLD2, 2, 7) + galaBrooch(0, -124),
+    legL: b.legL + buckles([[-10, -11]]), legR: b.legR + buckles([[18, -11]]),
+    arm: { ...b.arm, puff: '#fbeed4' },
+    hat: big(16, -56, H.fl(-14, -58, '#fbf2de', .8) + H.fl(6, -60, '#f2a28e', .75) + H.fl(26, -56, '#fbf2de', .8) + H.fl(44, -44, '#c8e8dc', .7), 1.25)
+      + S('M-40 -46 Q-60 -26 -70 -6 Q-62 -8 -58 -4 Q-50 -24 -36 -44Z', '#d96e56', { w: 1.4 }) + `<circle cx="-38" cy="-49" r="2.8" fill="${GOLD}"/>`
+      + tiara(4, -82, 1.5) + H.spark(-20, -76, 5, '#fff2b8')
+      + galaFlies([[-84, -64, .7], [80, -30, .6], [66, -112, .5]]),
+  };
+};
+GALA.gnm = () => {
+  const P = { ...BASE_P.gnm, main: '#78acd2', accent: '#e9a948' };
+  const b = SPEC.gnm(P);
+  return {
+    cape: H.pennant(-70, -96, '#e86a50', 68, -32) + b.cape
+      + S('M-8 -134 Q-38 -134 -64 -122 Q-76 -116 -86 -104 Q-72 -108 -64 -102 Q-44 -116 -10 -122Z', P.accent, { w: 1.6 })
+      + L('M-30 -131 L-34 -118 M-50 -128 L-52 -115 M-68 -121 L-70 -110', '#f8eecc', 2.4),
+    body: b.body + studs([[-17, -122], [-17, -106], [20, -122], [20, -106]]) + H.zig(-35, -14, -92, GOLD, 1.8, 5) + H.zig(16, 36, -92, GOLD, 1.8, 5)
+      + galaBrooch(24, -112),
+    legL: b.legL + buckles([[-14, -12]]), legR: b.legR + buckles([[20, -12]]),
+    arm: { ...b.arm, epaulet: 1, goldCuff: 1 },
+    hat: big(46, -62, S('M40 -66 Q66 -96 84 -92 Q70 -80 48 -58Z', '#f4e6c6', { w: 1.4 }) + L('M44 -62 Q64 -84 80 -90', '#c9a876', 1.2), 1.3)
+      + `<circle cx="-12" cy="-56" r="12" fill="none" stroke="${GOLD}" stroke-width="4.6"/><circle cx="18" cy="-56" r="12" fill="none" stroke="${GOLD}" stroke-width="4.6"/>` + L('M0 -56 L6 -56', GOLD, 4)
+      + starCrown(4, -90, 1.4)
+      + galaFlies([[-88, -40, .7], [86, -10, .6], [-60, -110, .5]]),
+  };
+};
+GALA.gnf = () => {
+  const P = { ...BASE_P.gnf, main: '#7cb2d8' };
+  const b = SPEC.gnf(P);
+  return {
+    cape: S('M-16 -112 Q-44 -132 -54 -110 Q-50 -96 -18 -102Z', '#f2a28e', { w: 1.5 }) + S('M-16 -106 Q-40 -86 -46 -66 Q-36 -70 -30 -64 Q-26 -84 -12 -100Z', '#f2a28e', { w: 1.5 }) + b.cape,
+    body: b.body + H.zig(-40, 42, -54, GOLD, 2.4, 6) + `<circle cx="-12" cy="-64" r="3" fill="#f2a28e"/><circle cx="-4" cy="-60" r="2.4" fill="${GOLD}"/><circle cx="-18" cy="-58" r="2.4" fill="#fbf2de"/>`
+      + S('M-2 -108 Q-14 -114 -20 -110 Q-12 -104 -2 -104Z M2 -108 Q14 -114 20 -110 Q12 -104 2 -104Z', GOLD, { lc: '#a8763a', w: 1.2 }) + `<circle cx="0" cy="-106" r="3" fill="#e86a50"/>`,
+    legL: b.legL + buckles([[-12, -12]]), legR: b.legR + buckles([[18, -12]]),
+    arm: { ...b.arm, puff: '#fdf0d6', goldCuff: 1 },
+    hat: big(44, -62, S('M38 -64 Q48 -90 64 -88 Q56 -74 44 -60Z', '#f2a28e', { w: 1.3 }), 1.4)
+      + big(-44, -16, H.fl(-48, -22, '#fbf2de', .9) + H.fl(-40, -8, '#f2a28e', .7), 1.3) + H.spark(-36, -50, 5, '#fff2b8')
+      + `<g transform="rotate(-6 6 -64)"><circle cx="-8" cy="-64" r="11" fill="none" stroke="${GOLD}" stroke-width="4.4"/><circle cx="20" cy="-64" r="11" fill="none" stroke="${GOLD}" stroke-width="4.4"/></g>`
+      + tiara(6, -88, 1.5)
+      + galaFlies([[-92, -60, .7], [90, -30, .6], [64, -108, .5]]),
+  };
+};
+GALA.mgm = () => {
+  const P = { ...BASE_P.mgm, main: '#9a88c8' };
+  const b = SPEC.mgm(P);
+  let beads = ''; for (const x of [-60, -40, -20]) beads += L(`M${x} -32 L${x} -22`, '#c9a876', 1) + `<circle cx="${x}" cy="-20" r="3" fill="#f2a28e"/>`;
+  return {
+    cape: S('M-26 -136 Q-56 -110 -62 -70 Q-48 -76 -40 -68 Q-30 -84 -14 -80 L24 -134Z', '#72b8aa', { lc: '#4a8a7e' }) + H.zig(-58, -18, -74, GOLD, 2, 6) + b.cape,
+    body: b.body + H.zig(-42, 44, -26, GOLD, 2.4, 6) + [[-28, -40], [26, -42], [-18, -78], [20, -80]].map(([x, y]) => H.spark(x, y, 4.5, GOLD)).join('')
+      + [-118, -104, -90].map((y) => `<circle cx="4" cy="${y}" r="2.8" fill="${GOLD}" stroke="#a8763a" stroke-width="1"/>`).join('')
+      + S('M-18 -136 Q-22 -100 -20 -60 L-10 -58 Q-10 -100 -6 -128Z', '#f6ead0', { lc: '#a8804a', w: 1.4 }) + S('M18 -136 Q24 -100 24 -60 L14 -58 Q12 -100 10 -128Z', '#f6ead0', { lc: '#a8804a', w: 1.4 })
+      + H.spark(-15, -84, 4.5, GOLD2) + H.spark(19, -84, 4.5, GOLD2) + H.spark(-15, -104, 3.5, GOLD2) + H.spark(19, -104, 3.5, GOLD2)
+      + L('M-20 -60 l1 6 M-14 -59 l0 6 M15 -59 l0 6 M21 -60 l1 6', GOLD2, 1.4),
+    legL: b.legL + buckles([[-12, -10]]), legR: b.legR + buckles([[18, -10]]),
+    arm: { ...b.arm, cuff: '#fbf0d6', goldCuff: 1 },
+    hat: `<g transform="rotate(-5 0 -46)">${big(34, -50, S('M30 -52 Q56 -96 74 -98 Q66 -76 40 -44Z', '#f6ead0', { w: 1.4 }) + L('M34 -50 Q56 -84 72 -96', '#c9a876', 1.2), 1.3)}${beads}${H.zig(-40, 42, -44, GOLD, 1.6, 6)}${H.spark(2, -90, 10, GOLD)}<circle cx="2" cy="-90" r="2.4" fill="#e9826a"/>${H.spark(-14, -108, 4, '#fff2b8')}</g>`
+      + H.spark(-40, -140, 6, '#fff2b8')
+      + galaFlies([[-96, -60, .7], [96, -20, .6], [-70, -120, .5]]),
+  };
+};
+GALA.mgf = () => {
+  const P = { ...BASE_P.mgf, main: '#ad98d6', accent: '#7cc0b2' };
+  const b = SPEC.mgf(P);
+  const lowCape = S('M-36 -84 Q-54 -60 -62 -30 Q-46 -36 -36 -26 Q-20 -34 0 -28 Q20 -34 36 -26 Q46 -36 62 -30 Q54 -60 36 -84Z', '#cfeae2', { lc: '#6aa89a', gap: [30, 6] })
+    + H.zig(-60, 60, -33, GOLD2, 2.4, 7);
+  return {
+    body: lowCape + b.body + H.zig(-44, 46, -38, GOLD, 2.4, 6) + [[-24, -52], [14, -60], [30, -44], [-6, -40]].map(([x, y]) => H.spark(x, y, 4.5, '#f6dc86')).join('')
+      + H.zig(-34, 36, -104, GOLD, 2, 5) + galaBrooch(0, -124),
+    legL: b.legL + buckles([[-10, -10]]), legR: b.legR + buckles([[16, -10]]),
+    arm: { ...b.arm, goldCuff: 1 },
+    hat: `<g transform="rotate(-4 0 -44)">${big(30, -56, H.fl(14, -58, '#f2a28e', .8) + H.fl(44, -60, '#c8e8dc', .8) + H.fl(30, -54, '#fbf2de'), 1.3)}${S('M-46 -48 Q-74 -30 -84 0 Q-74 -2 -70 4 Q-62 -24 -44 -42Z', '#f2a28e', { w: 1.3 })}${H.zig(-44, 44, -50, GOLD, 1.6, 6)}${H.spark(-20, -54, 7, GOLD)}${H.spark(-4, -52, 5, GOLD2)}</g>`
+      + H.spark(-30, -100, 5, '#fff2b8')
+      + galaFlies([[-100, -40, .7], [98, -30, .6], [-70, -96, .5]]),
+  };
+};
+
 // ---------- 输出 ----------
 function writeSvg(dir, name, inner, box, debug) {
   const [x0, y0, x1, y1] = box, vx = x0 - M, vy = y0 - M;
@@ -231,6 +352,8 @@ function writeSvg(dir, name, inner, box, debug) {
   return (p) => ({ px: r1((p[0] - vx) * SC), py: r1((p[1] - vy) * SC) });
 }
 const debug = process.argv.includes('--debug');
+// --only=gala：只写 gala 装扮，基础部件和其它 6 套一个文件都不动
+const ONLY = (process.argv.find((v) => v.startsWith('--only=')) || '').slice(7);
 const BOX = {
   cape: [-104, -170, 30, -40],
   legL: [-36, -64, 8, 2], legR: [-6, -64, 46, 2],
@@ -238,10 +361,23 @@ const BOX = {
   body: [-56, -150, 56, -10],
   head: [-112, -330, 112, -84],
 };
+// 第 7 套 gala：和其它装扮同画框同锚点，帽子件用头部画框
+function writeGala(k, dir) {
+  const g = GALA[k](), base = SPEC[k](BASE_P[k]);
+  const cd = 'costume/gala/';
+  writeSvg(dir, cd + 'body', g.body, BOX.body, debug);
+  writeSvg(dir, cd + 'armL', arm(-1, g.arm).s, BOX.armL, debug);
+  writeSvg(dir, cd + 'armR', arm(1, g.arm).s, BOX.armR, debug);
+  if (base.cape) writeSvg(dir, cd + 'cape', g.cape || base.cape, BOX.cape, debug);
+  writeSvg(dir, cd + 'legL', g.legL, BOX.legL, debug);
+  writeSvg(dir, cd + 'legR', g.legR, BOX.legR, debug);
+  writeSvg(dir, cd + 'hat', HEAD_G + g.hat + '</g>', BOX.head, debug);
+}
 for (const k of Object.keys(SPEC)) {
   const sp = SPEC[k](BASE_P[k]);
   const dir = path.join(ROOT, sp.id);
   fs.mkdirSync(dir, { recursive: true });
+  if (ONLY === 'gala') { writeGala(k, dir); console.log('ok gala', sp.id); continue; }
   const rig = [];
   const add = (id, inner, pivot, z, extra = {}) => {
     const at = writeSvg(dir, id, inner, BOX[id], debug);
@@ -276,5 +412,6 @@ for (const k of Object.keys(SPEC)) {
     writeSvg(dir, cd + 'legR', c.legR, BOX.legR, debug);
     writeSvg(dir, cd + 'hat', hatAccessory(set, k), BOX.head, debug);
   }
+  writeGala(k, dir);
   console.log('ok', sp.id);
 }

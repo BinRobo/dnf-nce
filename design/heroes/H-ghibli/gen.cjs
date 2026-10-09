@@ -500,7 +500,7 @@ CH.mgf.draw = function (hi) {
 };
 
 // 被 pilot-h.cjs require 时只导出绘图工具，不写文件
-module.exports = { CH, S, E, L, limb, hand, face, mix, LC, BASEDEFS, grads, braid, fl, spark, stitch, zig, ed, neck, HEAD };
+module.exports = { CH, S, E, L, limb, hand, face, mix, LC, BASEDEFS, grads, braid, fl, spark, stitch, zig, ed, neck, HEAD, fly, flyT, pennant };
 if (require.main !== module) return;
 // 高阶：周围的萤火虫光点
 const FLIES = {

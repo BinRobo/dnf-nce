@@ -156,6 +156,20 @@ describe('职业、技能树、装扮', () => {
     expect(s.mats.cloth).toBe(20 - 12);
   });
 
+  it('第 7 套“星辉盛装”：要集齐多种材料，缺任何一种都做不出来', async () => {
+    const { COSTUMES, makePiece, canMake, MAT_INFO } = await import('../src/systems/costumes');
+    const gala = COSTUMES.find((c) => c.id === 'gala')!;
+    expect(COSTUMES).toHaveLength(7);
+    const s = newSave('a', 'a');
+    s.gold = 9999;
+    for (const k of Object.keys(MAT_INFO) as (keyof typeof MAT_INFO)[]) s.mats[k] = 99;
+    s.mats.badge = 0;
+    expect(canMake(s, gala, 'top')).toBe(false);
+    s.mats.badge = 3;
+    expect(makePiece(s, gala, 'top')).toBe(true);
+    expect(s.wardrobe.worn.top).toBe('gala');
+  });
+
   it('掉落按职业过滤：魔法师不会掉剑', async () => {
     const { CLASSES } = await import('../src/systems/classes');
     const { catalogOf } = await import('../src/systems/catalog');
